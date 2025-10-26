@@ -1,0 +1,6 @@
+pdfplumber
+langchain
+langchain-text-splitters
+openai
+pinecone
+python-dotenv
