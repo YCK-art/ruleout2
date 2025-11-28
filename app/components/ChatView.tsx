@@ -6,6 +6,7 @@ import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import jsPDF from "jspdf";
+import { Timestamp } from "firebase/firestore";
 import { useAuth } from "@/contexts/AuthContext";
 import {
   createConversation,
@@ -23,27 +24,12 @@ import {
   resetGuestQueryCount,
 } from "@/lib/guestLimit";
 import LoginModal from "./LoginModal";
+import type { Message as BaseMessage, Reference } from "@/types/chat";
 
-interface Reference {
-  source: string;
-  title: string;
-  year: string;
-  page: number;
-  text: string;
-  authors?: string;
-  journal?: string;
-  doi?: string;
-  feedback?: 'like' | 'dislike' | null;
-  url?: string;  // 논문 URL 추가
-}
-
-interface Message {
-  role: "user" | "assistant";
-  content: string;
-  references?: Reference[];
+// ChatView에서 사용하는 Message 타입 (timestamp를 optional로 확장)
+interface Message extends Omit<BaseMessage, 'timestamp'> {
+  timestamp?: Date | Timestamp;
   isStreaming?: boolean;
-  timestamp?: Date;
-  feedback?: 'like' | 'dislike' | null;
 }
 
 interface ChatViewProps {
