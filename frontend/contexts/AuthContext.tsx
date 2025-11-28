@@ -1,17 +1,19 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { User, onAuthStateChanged } from "firebase/auth";
+import { User, onAuthStateChanged, updateProfile } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 
 interface AuthContextType {
   user: User | null;
   loading: boolean;
+  updateUserProfile: (displayName: string) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType>({
   user: null,
   loading: true,
+  updateUserProfile: async () => {},
 });
 
 export const useAuth = () => {
@@ -35,8 +37,23 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     return () => unsubscribe();
   }, []);
 
+  const updateUserProfile = async (displayName: string) => {
+    if (!auth.currentUser) {
+      throw new Error("No user is currently signed in");
+    }
+
+    try {
+      await updateProfile(auth.currentUser, { displayName });
+      // Force a refresh of the user object
+      setUser({ ...auth.currentUser });
+    } catch (error) {
+      console.error("Error updating profile:", error);
+      throw error;
+    }
+  };
+
   return (
-    <AuthContext.Provider value={{ user, loading }}>
+    <AuthContext.Provider value={{ user, loading, updateUserProfile }}>
       {children}
     </AuthContext.Provider>
   );

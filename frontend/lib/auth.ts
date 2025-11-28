@@ -7,6 +7,12 @@ export const signInWithGoogle = async () => {
     const result = await signInWithPopup(auth, googleProvider);
     const user = result.user;
 
+    // 로그인 시 이전 사용자의 로컬 스토리지 데이터 초기화
+    localStorage.removeItem("currentView");
+    localStorage.removeItem("currentConversationId");
+    localStorage.removeItem("currentProjectId");
+    console.log("Cleared localStorage on login");
+
     // Firestore에 사용자 정보 저장/업데이트
     await saveUserToFirestore(user);
 
@@ -51,6 +57,12 @@ const saveUserToFirestore = async (user: User) => {
 
 export const signOut = async () => {
   try {
+    // 로그아웃 시 로컬 스토리지 초기화
+    localStorage.removeItem("currentView");
+    localStorage.removeItem("currentConversationId");
+    localStorage.removeItem("currentProjectId");
+    console.log("Cleared localStorage on logout");
+
     await auth.signOut();
   } catch (error) {
     console.error("로그아웃 오류:", error);

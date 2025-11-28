@@ -30,6 +30,7 @@ export const createConversation = async (userId: string): Promise<string> => {
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp(),
       messages: [],
+      isFavorite: false,
     });
 
     return conversationId;
@@ -107,6 +108,9 @@ export const getUserConversations = async (
   userId: string,
   limitCount: number = 20
 ): Promise<ChatListItem[]> => {
+  console.log("=== getUserConversations called ===");
+  console.log("Requesting conversations for userId:", userId);
+
   try {
     const chatsRef = collection(db, "chats");
     const q = query(
@@ -121,13 +125,23 @@ export const getUserConversations = async (
 
     querySnapshot.forEach((doc) => {
       const data = doc.data();
+      console.log("Document data:", {
+        docId: doc.id,
+        dataId: data.id,
+        title: data.title,
+        userId: data.userId,  // 중요: 실제 userId 확인
+        isFavorite: data.isFavorite || false,
+      });
+
       conversations.push({
         id: data.id,
         title: data.title,
         updatedAt: data.updatedAt,
+        isFavorite: data.isFavorite || false,
       });
     });
 
+    console.log("getUserConversations: Loaded", conversations.length, "conversations for user", userId);
     return conversations;
   } catch (error: any) {
     console.error("대화 목록 불러오기 오류:", error);
@@ -148,10 +162,12 @@ export const getUserConversations = async (
           id: data.id,
           title: data.title,
           updatedAt: data.updatedAt,
+          isFavorite: data.isFavorite || false,
         });
       });
 
       // 클라이언트 측에서 정렬
+      console.log("getUserConversations fallback: Loaded", conversations.length, "conversations");
       return conversations.sort((a, b) => {
         const aTime = a.updatedAt instanceof Timestamp ? a.updatedAt.toMillis() : 0;
         const bTime = b.updatedAt instanceof Timestamp ? b.updatedAt.toMillis() : 0;
@@ -200,6 +216,129 @@ export const deleteConversation = async (
     await deleteDoc(conversationRef);
   } catch (error) {
     console.error("대화 삭제 오류:", error);
+    throw error;
+  }
+};
+
+// Toggle favorite status
+export const toggleFavorite = async (
+  conversationId: string,
+  isFavorite: boolean
+): Promise<void> => {
+  const conversationRef = doc(db, "chats", conversationId);
+
+  try {
+    await updateDoc(conversationRef, {
+      isFavorite: !isFavorite,
+      updatedAt: serverTimestamp(),
+    });
+  } catch (error) {
+    console.error("Failed to toggle favorite:", error);
+    throw error;
+  }
+};
+
+// Get favorite conversations
+export const getFavoriteConversations = async (
+  userId: string,
+  limitCount: number = 20
+): Promise<ChatListItem[]> => {
+  try {
+    const chatsRef = collection(db, "chats");
+    const q = query(
+      chatsRef,
+      where("userId", "==", userId),
+      where("isFavorite", "==", true),
+      orderBy("updatedAt", "desc"),
+      limit(limitCount)
+    );
+
+    const querySnapshot = await getDocs(q);
+    const conversations: ChatListItem[] = [];
+
+    querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      conversations.push({
+        id: data.id,
+        title: data.title,
+        updatedAt: data.updatedAt,
+        isFavorite: data.isFavorite,
+      });
+    });
+
+    console.log("getFavoriteConversations: Found", conversations.length, "favorites");
+    return conversations;
+  } catch (error: any) {
+    console.error("Failed to load favorite conversations:", error);
+
+    // Fallback: Load all conversations and filter on client side
+    try {
+      console.log("Trying fallback: loading all user conversations");
+      const chatsRef = collection(db, "chats");
+      const q = query(
+        chatsRef,
+        where("userId", "==", userId),
+        limit(100)
+      );
+
+      const querySnapshot = await getDocs(q);
+      const conversations: ChatListItem[] = [];
+
+      querySnapshot.forEach((doc) => {
+        const data = doc.data();
+        if (data.isFavorite === true) {
+          conversations.push({
+            id: data.id,
+            title: data.title,
+            updatedAt: data.updatedAt,
+            isFavorite: data.isFavorite,
+          });
+        }
+      });
+
+      // Sort by updatedAt on client side
+      conversations.sort((a, b) => {
+        const aTime = a.updatedAt instanceof Timestamp ? a.updatedAt.toMillis() : 0;
+        const bTime = b.updatedAt instanceof Timestamp ? b.updatedAt.toMillis() : 0;
+        return bTime - aTime;
+      });
+
+      console.log("Fallback getFavoriteConversations: Found", conversations.length, "favorites");
+      return conversations.slice(0, limitCount);
+    } catch (fallbackError) {
+      console.error("Fallback failed:", fallbackError);
+      return [];
+    }
+  }
+};
+
+// 메시지 업데이트 (피드백 등)
+export const updateMessage = async (
+  conversationId: string,
+  messageIndex: number,
+  updatedMessage: Partial<Message>
+): Promise<void> => {
+  const conversationRef = doc(db, "chats", conversationId);
+
+  try {
+    const conversationDoc = await getDoc(conversationRef);
+    if (!conversationDoc.exists()) {
+      throw new Error("대화를 찾을 수 없습니다");
+    }
+
+    const conversation = conversationDoc.data() as Conversation;
+    const updatedMessages = [...conversation.messages];
+    updatedMessages[messageIndex] = {
+      ...updatedMessages[messageIndex],
+      ...updatedMessage,
+    };
+
+    await updateDoc(conversationRef, {
+      messages: updatedMessages,
+      updatedAt: serverTimestamp(),
+    });
+  } catch (error) {
+    console.error("메시지 업데이트 오류:", error);
     throw error;
   }
 };

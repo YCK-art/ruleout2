@@ -23,6 +23,31 @@ from pinecone import Pinecone
 # 환경 변수 로드
 load_dotenv()
 
+# PDF URL 매핑 로드
+PDF_URL_MAPPING = {}
+url_mapping_path = Path(__file__).parent / "pdf_url_mapping.json"
+if url_mapping_path.exists():
+    with open(url_mapping_path, 'r', encoding='utf-8') as f:
+        PDF_URL_MAPPING = json.load(f)
+        print(f"✅ PDF URL 매핑 로드 완료: {len(PDF_URL_MAPPING)}개")
+
+# PDF 메타데이터 매핑 로드 (title → filename)
+TITLE_TO_FILENAME = {}
+metadata_mapping_path = Path(__file__).parent.parent / "data-pipeline" / "pdf_metadata_mapping.json"
+if metadata_mapping_path.exists():
+    with open(metadata_mapping_path, 'r', encoding='utf-8') as f:
+        metadata = json.load(f)
+        # title → filename 역매핑 생성
+        for filename, meta in metadata.items():
+            title = meta.get("title", "")
+            if title:
+                # title을 정규화해서 저장 (공백, 대소문자 무시)
+                normalized_title = title.lower().strip()
+                TITLE_TO_FILENAME[normalized_title] = filename
+        print(f"✅ Title → Filename 매핑 로드 완료: {len(TITLE_TO_FILENAME)}개")
+else:
+    print(f"⚠️  메타데이터 매핑 파일을 찾을 수 없습니다: {metadata_mapping_path}")
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "medical-guidelines-kr")
@@ -44,7 +69,7 @@ app = FastAPI(
 # CORS 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Next.js 개발 서버
+    allow_origins=["http://localhost:3000", "http://localhost:3001"],  # Next.js 개발 서버
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -54,6 +79,13 @@ app.add_middleware(
 # Request/Response 모델
 class QueryRequest(BaseModel):
     question: str
+    conversation_history: List[Dict] = []
+
+
+class FollowUpRequest(BaseModel):
+    question: str
+    answer: str
+    conversation_history: List[Dict] = []
 
 
 class Reference(BaseModel):
@@ -62,6 +94,11 @@ class Reference(BaseModel):
     year: str
     page: int
     text: str
+    authors: str = ""
+    journal: str = ""
+    doi: str = ""
+    score: float = 0.0
+    url: str = ""  # 논문 URL 추가
 
 
 # SSE 이벤트 생성 헬퍼
@@ -71,9 +108,11 @@ def create_sse_event(data: dict) -> str:
 
 
 # Pinecone 검색 함수
-async def search_pinecone(query_embedding: List[float], top_k: int = 5) -> List[Dict]:
+async def search_pinecone(query_embedding: List[float], top_k: int = 5, min_similarity: float = 0.45) -> List[Dict]:
     """
     Pinecone에서 유사한 가이드라인 검색
+    - top_k: 검색할 최대 청크 개수
+    - min_similarity: 최소 유사도 임계값 (0.0~1.0)
     """
     try:
         results = pinecone_index.query(
@@ -84,7 +123,13 @@ async def search_pinecone(query_embedding: List[float], top_k: int = 5) -> List[
 
         chunks = []
         for match in results.matches:
+            # 유사도가 임계값 이상인 것만 포함
+            if match.score < min_similarity:
+                print(f"⚠️  낮은 유사도로 필터링됨: {match.score:.4f} (임계값: {min_similarity})")
+                continue
+
             metadata = match.metadata
+
             chunks.append({
                 "text": metadata.get("text", ""),
                 "source": metadata.get("source", ""),
@@ -92,8 +137,18 @@ async def search_pinecone(query_embedding: List[float], top_k: int = 5) -> List[
                 "year": metadata.get("year", ""),
                 "page": metadata.get("page", 0),
                 "section": metadata.get("section", ""),
+                "authors": metadata.get("authors", ""),
+                "journal": metadata.get("journal", ""),
+                "doi": metadata.get("doi", ""),
                 "score": match.score
             })
+
+        # 유사도 점수로 재정렬 (내림차순 - 높은 점수가 먼저)
+        chunks.sort(key=lambda x: x["score"], reverse=True)
+
+        print(f"✅ {len(chunks)}개 청크 검색 완료 (유사도 {min_similarity} 이상)")
+        if chunks:
+            print(f"   최고 유사도: {chunks[0]['score']:.4f}, 최저 유사도: {chunks[-1]['score']:.4f}")
 
         return chunks
     except Exception as e:
@@ -139,46 +194,51 @@ async def generate_answer(question: str, context_chunks: List[Dict]) -> tuple[st
     # 컨텍스트 구성
     context_text = ""
     for i, chunk in enumerate(context_chunks, 1):
-        context_text += f"\n[출처 {i}] {chunk['source']}, {chunk['title']}, {chunk['year']}, {chunk['page']}p\n"
+        context_text += f"\n[Reference {i}] {chunk['source']}, {chunk['title']}, {chunk['year']}, {chunk['page']}p\n"
         context_text += f"{chunk['text']}\n"
         context_text += "-" * 80 + "\n"
 
     # 시스템 프롬프트
-    system_prompt = """당신은 한국 의사들을 위한 임상 가이드라인 전문 AI 어시스턴트입니다.
+    system_prompt = """You are a professional AI assistant specializing in veterinary clinical guidelines for veterinarians.
 
-제공된 진료지침서 내용을 바탕으로 전문적이고 자세한 답변을 제공하세요.
+Provide professional and detailed answers based on the provided veterinary guidelines.
 
-중요한 규칙:
-1. 답변 시 반드시 각 문장이나 단락의 끝에 참고문헌 번호를 대괄호로 표시하세요 (예: [1], [2-3], [1,4])
-2. 답변은 충분히 자세하게 작성하되 의학적으로 정확해야 합니다
-3. 배경 정보, 권고사항, 근거 수준 등을 포함하여 포괄적으로 답변하세요
-4. 한국어로 전문적인 의학 용어를 사용하되, 필요시 영문 용어를 병기하세요
-5. 제공된 가이드라인에 없는 내용은 명시적으로 밝히세요
-6. 필요시 제목(##), 부제목(###), bullet points, 표 형식을 적극 활용하세요
-7. Markdown 형식을 사용하여 구조화된 답변을 작성하세요"""
+Important rules:
+1. Always cite reference numbers in square brackets at the end of each sentence or paragraph (e.g., [1], [2-3], [1,4])
+2. Answers should be sufficiently detailed and medically accurate
+3. Include background information, recommendations, and evidence levels comprehensively
+4. **CRITICAL: Always respond in the SAME LANGUAGE as the user's question**
+   - If the user asks in English, respond in English
+   - If the user asks in Korean, respond in Korean
+5. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
+6. Explicitly state if information is not available in the provided guidelines
+7. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
+8. Use Markdown format to create structured answers"""
 
     # 사용자 프롬프트
-    user_prompt = f"""다음 진료지침서 내용을 참고하여 질문에 답변해주세요:
+    user_prompt = f"""Please answer the following question based on the veterinary clinical guideline content provided below:
 
 {context_text}
 
-질문: {question}
+Question: {question}
 
-답변 작성 지침:
-1. 각 문장의 끝에 해당 내용의 출처 번호를 대괄호로 표시하세요 (예: "...권장됩니다.[1]" 또는 "...보고되었습니다.[2-3]")
-2. 배경 정보, 임상적 의의, 구체적 권고사항을 포함하여 3-5개 문단으로 자세히 작성하세요
-3. 전문적이고 학술적인 톤을 유지하세요
-4. 가능한 경우 권고 등급이나 근거 수준을 언급하세요
-5. **중요**: 내용을 더 명확하게 전달하기 위해 다음 형식을 적극 활용하세요:
-   - 제목: ## 주요 권고사항
-   - 부제목: ### 1차 치료
-   - Bullet points: - 항목 1
-   - 번호 리스트: 1. 첫 번째
-   - 표: 비교가 필요한 경우 markdown 표 사용"""
+Answer Guidelines:
+1. **CRITICAL**: Cite ONLY using bracketed numbers at the end of sentences (e.g., "...is recommended.[1]" or "...has been reported.[2-3]")
+2. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
+3. **ONLY use bracketed citations [1], [2], [3], etc.**
+4. Write detailed answers in 3-5 paragraphs including background information, clinical significance, and specific recommendations
+5. Maintain a professional and academic tone
+6. Mention recommendation grades or evidence levels when available
+7. **Important**: Use the following formats to convey content more clearly:
+   - Headings: ## Main Recommendations
+   - Subheadings: ### First-line Treatment
+   - Bullet points: - Item 1
+   - Numbered lists: 1. First
+   - Tables: Use markdown tables when comparisons are needed"""
 
     try:
         response = openai_client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
@@ -204,30 +264,133 @@ async def generate_answer(question: str, context_chunks: List[Dict]) -> tuple[st
             # citation은 1부터 시작하므로 인덱스는 idx-1
             if 1 <= idx <= len(context_chunks):
                 chunk = context_chunks[idx - 1]
-                ref_key = f"{chunk['source']}_{chunk['title']}_{chunk['year']}_{chunk['page']}"
+                # Page 정보 제외 - 같은 논문은 하나의 참고문헌으로 통합
+                ref_key = f"{chunk['source']}_{chunk['title']}_{chunk['year']}"
+
                 if ref_key not in seen_refs:
+                    # 새로운 참고문헌 추가
                     old_to_new_mapping[idx] = new_index
+
+                    # Title을 사용해서 filename 찾기
+                    paper_url = ""
+                    chunk_title = chunk['title'].strip()
+                    normalized_title = chunk_title.lower().strip()
+
+                    # Title → Filename 매핑에서 찾기
+                    source_filename = TITLE_TO_FILENAME.get(normalized_title, "")
+
+                    if source_filename:
+                        # Filename → URL 매핑에서 찾기
+                        paper_url = PDF_URL_MAPPING.get(source_filename, "")
+                        if paper_url:
+                            print(f"✅ URL found: {chunk_title[:50]}... → {source_filename} → {paper_url}")
+                        else:
+                            print(f"⚠️  Filename found but no URL: {chunk_title[:50]}... → {source_filename}")
+                    else:
+                        print(f"⚠️  No filename mapping for title: {chunk_title[:50]}...")
+                        print(f"   Normalized title: {normalized_title[:50]}...")
+
                     references.append(Reference(
                         source=chunk['source'],
                         title=chunk['title'],
                         year=chunk['year'],
-                        page=chunk['page'],
-                        text=chunk['text'][:200] + "..."
+                        page=0,  # Page 정보 제거
+                        text=chunk['text'][:200] + "...",
+                        authors=chunk.get('authors', ''),
+                        journal=chunk.get('journal', ''),
+                        doi=chunk.get('doi', ''),
+                        score=chunk.get('score', 0.0),
+                        url=paper_url
                     ))
                     seen_refs.add(ref_key)
                     new_index += 1
+                else:
+                    # 이미 존재하는 참고문헌 - 같은 번호 재사용
+                    for existing_idx, mapped_num in old_to_new_mapping.items():
+                        if 1 <= existing_idx <= len(context_chunks):
+                            existing_chunk = context_chunks[existing_idx - 1]
+                            existing_key = f"{existing_chunk['source']}_{existing_chunk['title']}_{existing_chunk['year']}"
+                            if existing_key == ref_key:
+                                old_to_new_mapping[idx] = mapped_num
+                                break
 
         # 답변 텍스트의 citation 번호를 재매핑
-        # 큰 번호부터 처리해야 [1]을 [2]로 바꿀 때 [11]까지 바뀌는 문제 방지
-        for old_idx in sorted(old_to_new_mapping.keys(), reverse=True):
-            new_idx = old_to_new_mapping[old_idx]
-            # [5] -> [1] 같은 단순 치환
-            answer = re.sub(
-                rf'\[{old_idx}\]',
-                f'[{new_idx}]',
-                answer
-            )
-            # [3-5] 같은 범위는 그대로 유지 (복잡도 때문)
+        def remap_citation(match):
+            """citation 패턴을 찾아서 새 번호로 재매핑"""
+            citation_text = match.group(1)
+
+            # 단일 숫자: [5]
+            if ',' not in citation_text and '-' not in citation_text:
+                old_num = int(citation_text)
+                return f'[{old_to_new_mapping.get(old_num, old_num)}]'
+
+            # 범위: [2-5]
+            if '-' in citation_text and ',' not in citation_text:
+                start, end = citation_text.split('-')
+                start_num = int(start.strip())
+                end_num = int(end.strip())
+                # 범위의 모든 숫자를 새 번호로 변환
+                new_nums = []
+                for num in range(start_num, end_num + 1):
+                    if num in old_to_new_mapping:
+                        new_nums.append(old_to_new_mapping[num])
+                # 연속된 범위면 범위로, 아니면 콤마로
+                if new_nums:
+                    if len(new_nums) == 1:
+                        return f'[{new_nums[0]}]'
+                    elif new_nums == list(range(min(new_nums), max(new_nums) + 1)):
+                        return f'[{min(new_nums)}-{max(new_nums)}]'
+                    else:
+                        return f'[{",".join(map(str, new_nums))}]'
+                return match.group(0)  # 매핑 안되면 원본 유지
+
+            # 콤마 구분: [1,4,7] 또는 혼합형: [1-3,5,7]
+            if ',' in citation_text:
+                all_nums = []
+                for part in citation_text.split(','):
+                    part = part.strip()
+                    if '-' in part:
+                        # 범위 처리: "1-3"
+                        try:
+                            start, end = part.split('-')
+                            start_num = int(start.strip())
+                            end_num = int(end.strip())
+                            for num in range(start_num, end_num + 1):
+                                if num in old_to_new_mapping:
+                                    all_nums.append(old_to_new_mapping[num])
+                        except ValueError:
+                            # 범위 파싱 실패 시 무시
+                            continue
+                    else:
+                        # 단일 숫자
+                        try:
+                            num = int(part)
+                            if num in old_to_new_mapping:
+                                all_nums.append(old_to_new_mapping[num])
+                        except ValueError:
+                            # 숫자가 아니면 무시
+                            continue
+
+                # 중복 제거 (순서 유지)
+                seen = set()
+                unique_new_nums = []
+                for num in all_nums:
+                    if num not in seen:
+                        seen.add(num)
+                        unique_new_nums.append(num)
+
+                if unique_new_nums:
+                    # 단일 숫자면 대괄호만
+                    if len(unique_new_nums) == 1:
+                        return f'[{unique_new_nums[0]}]'
+                    # 여러 숫자면 콤마로 구분
+                    return f'[{",".join(map(str, unique_new_nums))}]'
+                return match.group(0)  # 매핑 안되면 원본 유지
+
+            return match.group(0)
+
+        # 모든 citation 패턴을 찾아서 재매핑
+        answer = re.sub(r'\[([0-9,\-\s]+)\]', remap_citation, answer)
 
         return answer, references
 
@@ -236,8 +399,62 @@ async def generate_answer(question: str, context_chunks: List[Dict]) -> tuple[st
         return "죄송합니다. 답변 생성 중 오류가 발생했습니다.", []
 
 
+# 후속 질문 생성 함수
+async def generate_followup_questions(question: str, answer: str, conversation_history: List[Dict]) -> List[str]:
+    """
+    GPT-4o-mini를 사용하여 맥락 기반 후속 질문 3-4개 생성
+    """
+    # 대화 맥락 구성
+    context = ""
+    if conversation_history:
+        context = "Previous conversation:\n"
+        for msg in conversation_history[-3:]:  # 최근 3개만
+            context += f"{msg['role']}: {msg['content'][:200]}...\n"
+
+    prompt = f"""Based on the following veterinary medicine Q&A conversation, generate 3-4 relevant follow-up questions that a veterinarian might ask.
+
+{context}
+
+Current Question: {question}
+
+Current Answer: {answer[:500]}...
+
+Generate 3-4 follow-up questions that:
+1. Are directly related to the current topic
+2. Explore deeper clinical details
+3. Ask about related conditions or treatments
+4. Are practical and useful for veterinarians
+
+**CRITICAL**: Respond in the SAME LANGUAGE as the original question.
+- If the question is in Korean, generate Korean follow-up questions
+- If the question is in English, generate English follow-up questions
+
+Return ONLY the questions, one per line, without numbering or bullet points."""
+
+    try:
+        response = openai_client.chat.completions.create(
+            model="gpt-4o-mini",  # 가성비 있는 모델
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant that generates relevant follow-up questions for veterinary medical discussions."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7,
+            max_tokens=300
+        )
+
+        questions_text = response.choices[0].message.content
+        questions = [q.strip() for q in questions_text.split('\n') if q.strip() and not q.strip().startswith(('-', '•', '*', '1.', '2.', '3.', '4.'))]
+
+        # 최대 4개까지만
+        return questions[:4]
+
+    except Exception as e:
+        print(f"후속 질문 생성 오류: {e}")
+        return []
+
+
 # SSE 스트리밍 엔드포인트
-async def query_stream_generator(question: str) -> AsyncGenerator[str, None]:
+async def query_stream_generator(question: str, conversation_history: List[Dict] = []) -> AsyncGenerator[str, None]:
     """
     질문에 대한 답변을 SSE로 스트리밍
     """
@@ -256,7 +473,7 @@ async def query_stream_generator(question: str) -> AsyncGenerator[str, None]:
         })
 
         embedding_response = openai_client.embeddings.create(
-            model="text-embedding-ada-002",
+            model="text-embedding-3-small",
             input=question
         )
         query_embedding = embedding_response.data[0].embedding
@@ -268,7 +485,7 @@ async def query_stream_generator(question: str) -> AsyncGenerator[str, None]:
         })
         await asyncio.sleep(0.5)
 
-        context_chunks = await search_pinecone(query_embedding, top_k=5)
+        context_chunks = await search_pinecone(query_embedding, top_k=10, min_similarity=0.45)
 
         if not context_chunks:
             yield create_sse_event({
@@ -292,12 +509,16 @@ async def query_stream_generator(question: str) -> AsyncGenerator[str, None]:
 
         answer, references = await generate_answer(question, context_chunks)
 
+        # 5.5단계: 후속 질문 생성
+        followup_questions = await generate_followup_questions(question, answer, conversation_history)
+
         # 6단계: 완료
         yield create_sse_event({
             "status": "done",
             "message": "완료",
             "answer": answer,
-            "references": [ref.dict() for ref in references]
+            "references": [ref.dict() for ref in references],
+            "followup_questions": followup_questions
         })
 
     except Exception as e:
@@ -321,13 +542,13 @@ async def root():
 @app.post("/query-stream")
 async def query_stream(request: QueryRequest):
     """
-    SSE를 사용한 질문 처리 (실시간 진행상황 표시)
+    SSE를 사용한 질문 처리 (실시간 진행상황 표시 + 후속 질문 생성)
     """
     if not request.question or not request.question.strip():
         raise HTTPException(status_code=400, detail="질문을 입력해주세요")
 
     return StreamingResponse(
-        query_stream_generator(request.question),
+        query_stream_generator(request.question, request.conversation_history),
         media_type="text/event-stream",
         headers={
             "Cache-Control": "no-cache",

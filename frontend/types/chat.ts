@@ -5,6 +5,7 @@ export interface Reference {
   title: string;
   year: string;
   page: number;
+  feedback?: 'like' | 'dislike' | null;
 }
 
 export interface Message {
@@ -12,6 +13,9 @@ export interface Message {
   content: string;
   timestamp: Timestamp | Date;
   references?: Reference[];
+  followupQuestions?: string[];
+  isStreaming?: boolean;
+  feedback?: 'like' | 'dislike' | null;
 }
 
 export interface Conversation {
@@ -21,10 +25,12 @@ export interface Conversation {
   createdAt: Timestamp | Date;
   updatedAt: Timestamp | Date;
   messages: Message[];
+  isFavorite?: boolean;
 }
 
 export interface ChatListItem {
   id: string;
   title: string;
   updatedAt: Timestamp | Date;
+  isFavorite?: boolean;
 }

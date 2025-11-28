@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, ChevronDown, BookText, Pill, Stethoscope, Sparkles, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ChevronDown, BookText, Pill, Stethoscope, Sparkles, ArrowUpRight, Activity } from "lucide-react";
 import Image from "next/image";
 
 interface MainContentProps {
@@ -23,29 +23,38 @@ export default function MainContent({ isSidebarOpen, onToggleSidebar, onQuestion
   const suggestions = [
     {
       icon: BookText,
-      text: "가이드라인 문의",
+      text: "Guidelines",
       questions: [
-        "결장암 3기 환자의 NCCN 가이드라인에 따른 표준 치료는 무엇인가요?",
-        "당뇨병 환자에서 메트포르민 사용에 대한 최신 가이드라인은 무엇인가요?",
-        "고혈압 초기 치료에 대한 대한고혈압학회 권고사항은 무엇인가요?"
+        "What are the WSAVA guidelines for canine vaccination protocols?",
+        "What is the standard protocol for feline diabetes management?",
+        "What are the pain management guidelines for post-operative dogs?"
       ]
     },
     {
       icon: Pill,
-      text: "약물 투여 문의",
+      text: "Drug Administration",
       questions: [
-        "신부전 환자에서 항생제 용량 조절은 어떻게 해야 하나요?",
-        "와파린과 상호작용이 있는 주요 약물들은 무엇인가요?",
-        "임신 중 안전하게 사용할 수 있는 진통제는 무엇인가요?"
+        "What is the safe dosage of meloxicam for a 15kg dog with osteoarthritis?",
+        "Can I administer acepromazine to a cat with heart disease?",
+        "How should antibiotic doses be adjusted for dogs with renal insufficiency?"
       ]
     },
     {
       icon: Stethoscope,
-      text: "치료법 대안 문의",
+      text: "Treatment Alternatives",
       questions: [
-        "페니실린 알레르기 환자에서 대체 가능한 항생제는 무엇인가요?",
-        "ACE 억제제 부작용 시 대안이 될 수 있는 약물은 무엇인가요?",
-        "스타틴 불내성 환자의 이상지질혈증 치료 대안은 무엇인가요?"
+        "What are alternative antibiotics for dogs allergic to penicillin?",
+        "What NSAIDs can be used if a cat cannot tolerate meloxicam?",
+        "What are treatment alternatives for canine atopic dermatitis besides steroids?"
+      ]
+    },
+    {
+      icon: Activity,
+      text: "Diagnostic Protocols",
+      questions: [
+        "What diagnostic tests are recommended for suspected feline hyperthyroidism?",
+        "What is the protocol for diagnosing canine Cushing's disease?",
+        "How should I approach a dog with suspected pancreatitis?"
       ]
     },
   ];
@@ -53,26 +62,26 @@ export default function MainContent({ isSidebarOpen, onToggleSidebar, onQuestion
   return (
     <div className="flex-1 flex flex-col h-screen overflow-hidden">
       {/* 상단 배너 */}
-      <div className="bg-primary px-6 py-3 flex items-center justify-center space-x-2 text-sm">
+      <div className="px-6 py-3 flex items-center justify-center space-x-2 text-sm" style={{ backgroundColor: '#20808D' }}>
         <Sparkles className="w-4 h-4" />
-        <span className="font-medium">임상 진단 보조 AI, 초기 베타 테스터 50% 할인</span>
+        <span className="font-medium">Clinical Diagnostic AI, 50% off for early beta testers</span>
         <ArrowRight className="w-4 h-4" />
       </div>
 
       {/* 메인 컨텐츠 */}
       <main className="flex-1 flex flex-col items-center px-8 overflow-y-auto pt-48">
         {/* 로고 */}
-        <div className="mb-8 flex items-center space-x-3">
+        <div className="mb-8 flex items-center space-x-1">
           <Image
-            src="/image/medical2.png"
-            alt="Medical Pro Logo"
+            src="/image/clinical4-Photoroom.png"
+            alt="Ruleout Pro Logo"
             width={80}
             height={80}
             className="object-contain translate-y-1"
           />
           <h1 className="text-5xl font-bold">
-            <span className="text-white">Medical </span>
-            <span className="text-primary">Pro</span>
+            <span className="text-white">Ruleout </span>
+            <span style={{ color: '#20808D' }}>Pro</span>
           </h1>
         </div>
 
@@ -83,12 +92,13 @@ export default function MainContent({ isSidebarOpen, onToggleSidebar, onQuestion
               type="text"
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
-              placeholder="의학 관련 질문을 입력하세요..."
+              placeholder="Ask a medical question..."
               className="flex-1 bg-transparent outline-none text-white placeholder-gray-500"
             />
             <button
               type="submit"
-              className="w-10 h-10 flex items-center justify-center bg-primary rounded-full transition-all duration-200 hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] hover:brightness-110"
+              className="w-10 h-10 flex items-center justify-center rounded-full transition-all duration-200 hover:brightness-110"
+              style={{ backgroundColor: '#20808D' }}
             >
               <ArrowRight className="w-5 h-5" />
             </button>
@@ -126,7 +136,7 @@ export default function MainContent({ isSidebarOpen, onToggleSidebar, onQuestion
                     className="w-full group flex items-center justify-between px-5 py-4 bg-[#2a2a2a] border border-gray-700 rounded-lg hover:border-gray-600 transition-all text-left"
                   >
                     <span className="text-sm text-gray-200 pr-4">{q}</span>
-                    <ArrowUpRight className="w-4 h-4 flex-shrink-0 text-gray-500 group-hover:text-primary transition-colors" />
+                    <ArrowUpRight className="w-4 h-4 flex-shrink-0 text-gray-500 group-hover:text-[#20808D] transition-colors" />
                   </button>
                 ))}
             </div>
