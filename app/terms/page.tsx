@@ -53,7 +53,7 @@ export default function TermsPage() {
           prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6
           prose-p:leading-relaxed prose-p:mb-6
           prose-ul:list-disc prose-ul:ml-6 prose-ul:mb-6
-          prose-li:mb-2`}
+          prose-li:mb-2`}>
 
           <p>
             These Terms of Use ("Terms") apply to your use of the websites, mobile applications, software, APIs, and other resources provided by Ruleout, Inc., a company organized under the laws of the Republic of Korea and headquartered in Seoul ("Ruleout," "we," "us," or "our").
