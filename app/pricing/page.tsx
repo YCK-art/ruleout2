@@ -215,7 +215,7 @@ export default function PricingPage() {
                         <>
                           <div className="flex items-baseline">
                             <span className={`text-4xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>${animatedPrice}</span>
-                            {price > 0 && (
+                            {price && price > 0 && (
                               <span className={`ml-2 ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>/mo.</span>
                             )}
                           </div>
