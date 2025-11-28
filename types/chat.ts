@@ -5,7 +5,12 @@ export interface Reference {
   title: string;
   year: string;
   page: number;
+  text: string;
+  authors?: string;
+  journal?: string;
+  doi?: string;
   feedback?: 'like' | 'dislike' | null;
+  url?: string;
 }
 
 export interface Message {
