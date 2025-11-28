@@ -175,8 +175,8 @@ export default function PricingPage() {
             {plans.map((plan, index) => {
               const price = billingPeriod === "monthly" ? plan.monthlyPrice : plan.yearlyPricePerMonth;
               const animatedPrice = useCountUp(price || 0);
-              const discount = plan.monthlyPrice > 0
-                ? Math.round((1 - plan.yearlyPricePerMonth / plan.monthlyPrice) * 100)
+              const discount = plan.monthlyPrice && plan.monthlyPrice > 0
+                ? Math.round((1 - (plan.yearlyPricePerMonth || 0) / plan.monthlyPrice) * 100)
                 : 0;
 
               return (
