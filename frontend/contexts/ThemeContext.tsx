@@ -15,6 +15,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [themeMode, setThemeModeState] = useState<ThemeMode>("dark");
   const [effectiveTheme, setEffectiveTheme] = useState<"light" | "dark">("dark");
+  const [isHydrated, setIsHydrated] = useState(false);
 
   // Initialize theme from localStorage
   useEffect(() => {
@@ -22,10 +23,13 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     if (savedTheme) {
       setThemeModeState(savedTheme);
     }
+    setIsHydrated(true);
   }, []);
 
   // Update effective theme based on themeMode and system preference
   useEffect(() => {
+    if (!isHydrated) return;
+
     const updateEffectiveTheme = () => {
       if (themeMode === "system") {
         const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -47,12 +51,17 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
     mediaQuery.addEventListener("change", handleChange);
     return () => mediaQuery.removeEventListener("change", handleChange);
-  }, [themeMode]);
+  }, [themeMode, isHydrated]);
 
   const setThemeMode = (mode: ThemeMode) => {
     setThemeModeState(mode);
     localStorage.setItem("themeMode", mode);
   };
+
+  // Don't render children until hydrated to prevent mismatch
+  if (!isHydrated) {
+    return null;
+  }
 
   return (
     <ThemeContext.Provider value={{ themeMode, setThemeMode, effectiveTheme }}>

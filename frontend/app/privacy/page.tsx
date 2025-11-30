@@ -3,16 +3,58 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Sun, Moon, Monitor, Globe, ChevronDown } from "lucide-react";
 import Toolbar from "@/app/components/Toolbar";
+import Footer from '@/app/components/Footer';
 import { signInWithGoogle } from "@/lib/auth";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function PrivacyPage() {
   const router = useRouter();
+  const { language } = useLanguage();
   const [showLoginModal, setShowLoginModal] = useState(false);
-  const { themeMode, setThemeMode, effectiveTheme } = useTheme();
-  const [language, setLanguage] = useState("English");
+  const { effectiveTheme } = useTheme();
+
+  const content = {
+    English: {
+      title: "Ruleout, Inc. — Privacy Policy",
+      lastUpdated: "Last Updated: November 22, 2025 (KST)",
+      loginTitle: "Log in or Sign up",
+      loginSubtitle: "Choose your work email.",
+      whyNeeded: "Why is this needed?",
+      continueGoogle: "Continue with Google",
+      continueMicrosoft: "Continue with Microsoft",
+      continueApple: "Continue with Apple",
+      continueEmail: "Continue with Email",
+      or: "or"
+    },
+    한국어: {
+      title: "Ruleout, Inc. — 개인정보 보호정책",
+      lastUpdated: "최종 업데이트: 2025년 11월 22일 (KST)",
+      loginTitle: "로그인 또는 회원가입",
+      loginSubtitle: "업무용 이메일을 선택하세요.",
+      whyNeeded: "왜 필요한가요?",
+      continueGoogle: "Google로 계속하기",
+      continueMicrosoft: "Microsoft로 계속하기",
+      continueApple: "Apple로 계속하기",
+      continueEmail: "이메일로 계속하기",
+      or: "또는"
+    },
+    日本語: {
+      title: "Ruleout, Inc. — プライバシーポリシー",
+      lastUpdated: "最終更新: 2025年11月22日 (KST)",
+      loginTitle: "ログインまたはサインアップ",
+      loginSubtitle: "業務用メールアドレスを選択してください。",
+      whyNeeded: "なぜ必要ですか？",
+      continueGoogle: "Googleで続ける",
+      continueMicrosoft: "Microsoftで続ける",
+      continueApple: "Appleで続ける",
+      continueEmail: "メールアドレスで続ける",
+      or: "または"
+    }
+  };
+
+  const t = content[language];
 
   const handleLogin = () => {
     setShowLoginModal(true);
@@ -37,10 +79,10 @@ export default function PrivacyPage() {
       <div className="max-w-4xl mx-auto px-6 py-24 pt-32">
         {/* Header */}
         <h1 className={`text-4xl md:text-5xl font-bold mb-6 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-          Ruleout, Inc. — Privacy Policy
+          {t.title}
         </h1>
         <p className={`text-lg mb-12 ${effectiveTheme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-          Last Updated: November 22, 2025 (KST)
+          {t.lastUpdated}
         </p>
 
         {/* Content */}
@@ -414,201 +456,7 @@ export default function PrivacyPage() {
       </div>
 
       {/* Footer */}
-      <footer className={`relative ${effectiveTheme === 'dark' ? 'bg-[#0a0a0a]' : 'bg-gray-50'}`}>
-        {/* Gradient transition */}
-        <div className={`absolute top-0 left-0 right-0 h-32 pointer-events-none ${
-          effectiveTheme === 'dark'
-            ? 'bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]'
-            : 'bg-gradient-to-b from-white to-gray-50'
-        }`} />
-        <div className="max-w-7xl mx-auto px-6 py-16 relative">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-12 mb-12">
-            {/* Product Column */}
-            <div>
-              <h3 className={`font-semibold mb-4 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Product</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/pricing')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Pricing
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Resources Column */}
-            <div>
-              <h3 className={`font-semibold mb-4 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Resources</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/blog')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Blog
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Support
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company Column */}
-            <div>
-              <h3 className={`font-semibold mb-4 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Company</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/mission')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Mission
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/careers')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Careers
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 className={`font-semibold mb-4 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Legal</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/terms')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Terms of Use
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/privacy')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Privacy Policy
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/security')} className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Security
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Connect Column */}
-            <div>
-              <h3 className={`font-semibold mb-4 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Connect</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className={`transition-colors ${effectiveTheme === 'dark' ? 'text-gray-400 hover:text-[#4DB8C4]' : 'text-gray-600 hover:text-[#20808D]'}`}>
-                    YouTube
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom Bar */}
-          <div className={`pt-8 border-t flex flex-col md:flex-row items-center justify-between gap-4 ${
-            effectiveTheme === 'dark' ? 'border-gray-800' : 'border-gray-200'
-          }`}>
-            {/* Left: Copyright */}
-            <p className={`text-sm ${effectiveTheme === 'dark' ? 'text-gray-500' : 'text-gray-600'}`}>
-              © 2025 Ruleout. All rights reserved.
-            </p>
-
-            {/* Right: Theme Selector & Language */}
-            <div className="flex items-center gap-4">
-              {/* Theme Selector */}
-              <div className={`flex items-center rounded-lg p-1 border ${
-                effectiveTheme === 'dark'
-                  ? 'bg-[#1a1a1a] border-gray-800'
-                  : 'bg-white border-gray-200'
-              }`}>
-                <button
-                  onClick={() => setThemeMode("system")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "system"
-                      ? effectiveTheme === 'dark'
-                        ? "bg-gray-700 text-white"
-                        : "bg-gray-200 text-gray-900"
-                      : effectiveTheme === 'dark'
-                        ? "text-gray-400 hover:text-white"
-                        : "text-gray-600 hover:text-gray-900"
-                  }`}
-                  title="System"
-                >
-                  <Monitor className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => setThemeMode("light")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "light"
-                      ? effectiveTheme === 'dark'
-                        ? "bg-gray-700 text-white"
-                        : "bg-gray-200 text-gray-900"
-                      : effectiveTheme === 'dark'
-                        ? "text-gray-400 hover:text-white"
-                        : "text-gray-600 hover:text-gray-900"
-                  }`}
-                  title="Light"
-                >
-                  <Sun className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => setThemeMode("dark")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "dark"
-                      ? effectiveTheme === 'dark'
-                        ? "bg-gray-700 text-white"
-                        : "bg-gray-200 text-gray-900"
-                      : effectiveTheme === 'dark'
-                        ? "text-gray-400 hover:text-white"
-                        : "text-gray-600 hover:text-gray-900"
-                  }`}
-                  title="Dark"
-                >
-                  <Moon className="w-4 h-4" />
-                </button>
-              </div>
-
-              {/* Language Selector */}
-              <div className="relative">
-                <button className={`flex items-center gap-2 px-3 py-2 rounded-lg border transition-colors ${
-                  effectiveTheme === 'dark'
-                    ? 'bg-[#1a1a1a] border-gray-800 text-gray-400 hover:text-white'
-                    : 'bg-white border-gray-200 text-gray-600 hover:text-gray-900'
-                }`}>
-                  <Globe className="w-4 h-4" />
-                  <span className="text-sm">{language}</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       {/* Login Modal */}
       {showLoginModal && (
@@ -647,10 +495,10 @@ export default function PrivacyPage() {
                 <span className={`text-2xl font-bold ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Ruleout</span>
               </div>
               <h2 className={`text-3xl font-bold mb-2 ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
-                Log in or Sign up
+                {t.loginTitle}
               </h2>
               <p className={effectiveTheme === 'dark' ? 'text-gray-400' : 'text-gray-600'}>
-                Choose your work email. <a href="#" className="text-[#20808D] hover:underline">Why is this needed?</a>
+                {t.loginSubtitle} <a href="#" className="text-[#20808D] hover:underline">{t.whyNeeded}</a>
               </p>
             </div>
 
@@ -670,7 +518,7 @@ export default function PrivacyPage() {
                     <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                     <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                   </svg>
-                  <span className={`font-medium ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Continue with Google</span>
+                  <span className={`font-medium ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>{t.continueGoogle}</span>
                 </div>
               </button>
 
@@ -687,7 +535,7 @@ export default function PrivacyPage() {
                     <path fill="#05a6f0" d="M1 12h10v10H1z"/>
                     <path fill="#ffba08" d="M12 12h10v10H12z"/>
                   </svg>
-                  <span className={`font-medium ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Continue with Microsoft</span>
+                  <span className={`font-medium ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>{t.continueMicrosoft}</span>
                 </div>
               </button>
 
@@ -700,18 +548,18 @@ export default function PrivacyPage() {
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill={effectiveTheme === 'dark' ? 'white' : 'black'}>
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                   </svg>
-                  <span className={`font-medium ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Continue with Apple</span>
+                  <span className={`font-medium ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>{t.continueApple}</span>
                 </div>
               </button>
 
               <div className="flex items-center my-4">
                 <div className={`flex-1 border-t ${effectiveTheme === 'dark' ? 'border-gray-700' : 'border-gray-300'}`}></div>
-                <span className={`px-4 ${effectiveTheme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>or</span>
+                <span className={`px-4 ${effectiveTheme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>{t.or}</span>
                 <div className={`flex-1 border-t ${effectiveTheme === 'dark' ? 'border-gray-700' : 'border-gray-300'}`}></div>
               </div>
 
               <button className="w-full px-6 py-4 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6a78] transition-colors font-medium">
-                Continue with Email
+                {t.continueEmail}
               </button>
             </div>
           </div>

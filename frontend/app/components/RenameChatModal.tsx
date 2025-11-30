@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface RenameChatModalProps {
   isOpen: boolean;
@@ -10,7 +11,29 @@ interface RenameChatModalProps {
 }
 
 export default function RenameChatModal({ isOpen, currentTitle, onClose, onRename }: RenameChatModalProps) {
+  const { language } = useLanguage();
   const [title, setTitle] = useState(currentTitle);
+
+  // Multilingual content
+  const content = {
+    English: {
+      title: "Rename chat",
+      cancel: "Cancel",
+      save: "Save"
+    },
+    한국어: {
+      title: "채팅 이름 변경",
+      cancel: "취소",
+      save: "저장"
+    },
+    日本語: {
+      title: "チャット名を変更",
+      cancel: "キャンセル",
+      save: "保存"
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
 
   useEffect(() => {
     setTitle(currentTitle);
@@ -33,7 +56,7 @@ export default function RenameChatModal({ isOpen, currentTitle, onClose, onRenam
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
       <div className="bg-[#2a2a2a] rounded-lg w-full max-w-2xl mx-4 p-8">
         {/* 제목 */}
-        <h2 className="text-3xl font-semibold text-gray-200 mb-8">Rename chat</h2>
+        <h2 className="text-3xl font-semibold text-gray-200 mb-8">{currentContent.title}</h2>
 
         {/* 입력 필드 */}
         <div className="mb-8">
@@ -59,14 +82,14 @@ export default function RenameChatModal({ isOpen, currentTitle, onClose, onRenam
             onClick={handleCancel}
             className="px-6 py-3 bg-transparent border border-gray-600 hover:bg-gray-700 text-gray-200 rounded-lg transition-colors"
           >
-            Cancel
+            {currentContent.cancel}
           </button>
           <button
             onClick={handleSave}
             disabled={!title.trim()}
             className="px-6 py-3 bg-white hover:bg-gray-100 text-black font-medium rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Save
+            {currentContent.save}
           </button>
         </div>
       </div>

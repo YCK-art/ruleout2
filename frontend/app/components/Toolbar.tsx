@@ -5,6 +5,7 @@ import { ChevronDown, BookOpen, Shield, Briefcase, HelpCircle, Target } from "lu
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface ToolbarProps {
   onLoginClick: () => void;
@@ -14,16 +15,60 @@ interface ToolbarProps {
 export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
   const router = useRouter();
   const { effectiveTheme } = useTheme();
+  const { language } = useLanguage();
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null);
 
-  const resourceItems = [
-    { icon: BookOpen, label: "Blog", description: "Latest news and updates", column: 1 },
-    { icon: Briefcase, label: "Careers", description: "Join our team", column: 1 },
-    { icon: Shield, label: "Security", description: "Trust and compliance", column: 2 },
-    { icon: HelpCircle, label: "Support", description: "Get help anytime", column: 2 },
-    { icon: Target, label: "Mission", description: "Our purpose and values", column: 3 },
-  ];
+  const content = {
+    English: {
+      features: "Features",
+      enterprise: "Enterprise",
+      pricing: "Pricing",
+      resources: "Resources",
+      contactSales: "Contact Sales",
+      getStarted: "Get Started",
+      resourceItems: [
+        { id: "blog", icon: BookOpen, label: "Blog", description: "Latest news and updates", column: 1 },
+        { id: "careers", icon: Briefcase, label: "Careers", description: "Join our team", column: 1 },
+        { id: "security", icon: Shield, label: "Security", description: "Trust and compliance", column: 2 },
+        { id: "support", icon: HelpCircle, label: "Support", description: "Get help anytime", column: 2 },
+        { id: "mission", icon: Target, label: "Mission", description: "Our purpose and values", column: 3 },
+      ]
+    },
+    한국어: {
+      features: "기능",
+      enterprise: "기업",
+      pricing: "요금제",
+      resources: "리소스",
+      contactSales: "영업팀 문의",
+      getStarted: "시작하기",
+      resourceItems: [
+        { id: "blog", icon: BookOpen, label: "블로그", description: "최신 뉴스 및 업데이트", column: 1 },
+        { id: "careers", icon: Briefcase, label: "채용", description: "우리 팀에 합류하세요", column: 1 },
+        { id: "security", icon: Shield, label: "보안", description: "신뢰와 규정 준수", column: 2 },
+        { id: "support", icon: HelpCircle, label: "지원", description: "언제든지 도움을 받으세요", column: 2 },
+        { id: "mission", icon: Target, label: "미션", description: "우리의 목적과 가치", column: 3 },
+      ]
+    },
+    日本語: {
+      features: "機能",
+      enterprise: "エンタープライズ",
+      pricing: "料金",
+      resources: "リソース",
+      contactSales: "営業に問い合わせ",
+      getStarted: "始める",
+      resourceItems: [
+        { id: "blog", icon: BookOpen, label: "ブログ", description: "最新のニュースと更新情報", column: 1 },
+        { id: "careers", icon: Briefcase, label: "採用", description: "私たちのチームに参加", column: 1 },
+        { id: "security", icon: Shield, label: "セキュリティ", description: "信頼とコンプライアンス", column: 2 },
+        { id: "support", icon: HelpCircle, label: "サポート", description: "いつでもサポート", column: 2 },
+        { id: "mission", icon: Target, label: "ミッション", description: "私たちの目的と価値観", column: 3 },
+      ]
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
+  const resourceItems = currentContent.resourceItems;
 
   const handleMouseEnter = () => {
     if (closeTimeout) {
@@ -68,12 +113,15 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
 
             {/* Navigation Menu */}
             <div className="hidden md:flex items-center space-x-8">
-              <button className={`transition-colors ${
-                effectiveTheme === 'light'
-                  ? 'text-gray-900 hover:text-[#20808D]'
-                  : 'text-gray-300 hover:text-[#4DB8C4]'
-              }`}>
-                <span>Features</span>
+              <button
+                onClick={() => router.push('/features')}
+                className={`transition-colors ${
+                  effectiveTheme === 'light'
+                    ? 'text-gray-900 hover:text-[#20808D]'
+                    : 'text-gray-300 hover:text-[#4DB8C4]'
+                }`}
+              >
+                <span>{currentContent.features}</span>
               </button>
               <button
                 onClick={() => router.push('/enterprise')}
@@ -83,7 +131,7 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
                     : 'text-gray-300 hover:text-[#4DB8C4]'
                 }`}
               >
-                <span>Enterprise</span>
+                <span>{currentContent.enterprise}</span>
               </button>
               <button
                 onClick={() => router.push('/pricing')}
@@ -93,7 +141,7 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
                     : 'text-gray-300 hover:text-[#4DB8C4]'
                 }`}
               >
-                <span>Pricing</span>
+                <span>{currentContent.pricing}</span>
               </button>
               <div
                 onMouseEnter={handleMouseEnter}
@@ -105,7 +153,7 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
                     ? 'text-gray-900 hover:text-[#20808D]'
                     : 'text-gray-300 hover:text-[#4DB8C4]'
                 }`}>
-                  <span>Resources</span>
+                  <span>{currentContent.resources}</span>
                   <ChevronDown className="w-4 h-4" />
                 </button>
                 {/* 드롭다운과 버튼 사이의 gap을 채우는 보이지 않는 영역 */}
@@ -117,18 +165,21 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
 
             {/* Right Buttons */}
             <div className="flex items-center space-x-4">
-              <button className={`px-4 py-2 transition-colors border rounded-lg ${
-                effectiveTheme === 'light'
-                  ? 'text-gray-700 hover:text-gray-900 border-gray-300 hover:border-gray-400'
-                  : 'text-gray-300 hover:text-white border-gray-700 hover:border-gray-600'
-              }`}>
-                Contact Sales
+              <button
+                onClick={() => window.open('https://calendly.com/d/ctf4-n6s-3yp/ruleout-enterprise', '_blank')}
+                className={`px-4 py-2 transition-colors border rounded-lg ${
+                  effectiveTheme === 'light'
+                    ? 'text-gray-700 hover:text-gray-900 border-gray-300 hover:border-gray-400'
+                    : 'text-gray-300 hover:text-white border-gray-700 hover:border-gray-600'
+                }`}
+              >
+                {currentContent.contactSales}
               </button>
               <button
                 onClick={onLoginClick}
                 className="px-4 py-2 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6b77] transition-colors"
               >
-                Get Started
+                {currentContent.getStarted}
               </button>
             </div>
           </div>
@@ -160,9 +211,9 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
                       <button
                         key={index}
                         onClick={() => {
-                          if (item.label === "Blog") {
+                          if (item.id === "blog") {
                             router.push('/blog');
-                          } else if (item.label === "Careers") {
+                          } else if (item.id === "careers") {
                             router.push('/careers');
                           }
                         }}
@@ -202,7 +253,7 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
                       <button
                         key={index}
                         onClick={() => {
-                          if (item.label === "Security") {
+                          if (item.id === "security") {
                             router.push('/security');
                           }
                         }}
@@ -242,7 +293,7 @@ export default function Toolbar({ onLoginClick, onMenuClick }: ToolbarProps) {
                       <button
                         key={index}
                         onClick={() => {
-                          if (item.label === "Mission") {
+                          if (item.id === "mission") {
                             router.push('/mission');
                           }
                         }}

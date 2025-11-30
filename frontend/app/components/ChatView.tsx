@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ArrowUp, BookOpen, Copy, Check, Share2, RotateCcw, ThumbsUp, ThumbsDown, ChevronDown, ChevronUp, Loader2, MoreHorizontal, Bookmark, List } from "lucide-react";
+import { ArrowUp, ArrowDown, BookOpen, Copy, Check, Share2, RotateCcw, ThumbsUp, ThumbsDown, ChevronDown, ChevronUp, Loader2, MoreHorizontal, Bookmark, List } from "lucide-react";
 import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import jsPDF from "jspdf";
+import { Timestamp } from "firebase/firestore";
 import { useAuth } from "@/contexts/AuthContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 import {
   createConversation,
   addMessageToConversation,
@@ -23,27 +25,12 @@ import {
   resetGuestQueryCount,
 } from "@/lib/guestLimit";
 import LoginModal from "./LoginModal";
+import type { Message as BaseMessage, Reference } from "@/types/chat";
 
-interface Reference {
-  source: string;
-  title: string;
-  year: string;
-  page: number;
-  text: string;
-  authors?: string;
-  journal?: string;
-  doi?: string;
-  feedback?: 'like' | 'dislike' | null;
-  url?: string;  // 논문 URL 추가
-}
-
-interface Message {
-  role: "user" | "assistant";
-  content: string;
-  references?: Reference[];
+// ChatView에서 사용하는 Message 타입 (timestamp를 optional로 확장)
+interface Message extends Omit<BaseMessage, 'timestamp'> {
+  timestamp?: Date | Timestamp;
   isStreaming?: boolean;
-  timestamp?: Date;
-  feedback?: 'like' | 'dislike' | null;
 }
 
 interface ChatViewProps {
@@ -58,6 +45,7 @@ interface ChatViewProps {
 
 export default function ChatView({ initialQuestion, conversationId, onNewQuestion, onConversationCreated, onTitleUpdated, isGuestMode = false, onGuestQueryUpdate }: ChatViewProps) {
   const { user } = useAuth();
+  const { language } = useLanguage();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
@@ -67,10 +55,76 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [isFavorite, setIsFavorite] = useState(false);
   const hasCalledAPI = useRef(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
   const isLoadingConversation = useRef(false);
   const abortControllerRef = useRef<AbortController | null>(null);
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [guestQueriesRemaining, setGuestQueriesRemaining] = useState(5);
+  const [showScrollToBottom, setShowScrollToBottom] = useState(false);
+
+  // User 상태 로깅
+  useEffect(() => {
+    console.log("👤 ChatView - User 상태:", user ? `로그인됨 (${user.uid})` : "로그인 안됨");
+    console.log("🎭 ChatView - Guest 모드:", isGuestMode);
+    console.log("💬 ChatView - Conversation ID:", currentConversationId);
+  }, [user, isGuestMode, currentConversationId]);
+
+  // Multilingual content
+  const content = {
+    English: {
+      share: "Share",
+      export: "Export",
+      rewrite: "Rewrite",
+      copy: "Copy",
+      like: "Like",
+      dislike: "Dislike",
+      references: "References",
+      relatedQuestions: "Related Questions",
+      generatingAnswer: "Generating answer...",
+      stop: "Stop",
+      freeQueriesRemaining: "Free queries remaining:",
+      queryLimitReached: "Query limit reached. Please log in to continue.",
+      placeholder: "Ask a follow-up question...",
+      more: "More",
+      bookmark: "Bookmark"
+    },
+    한국어: {
+      share: "공유",
+      export: "내보내기",
+      rewrite: "다시 작성",
+      copy: "복사",
+      like: "좋아요",
+      dislike: "싫어요",
+      references: "참고문헌",
+      relatedQuestions: "관련 질문",
+      generatingAnswer: "답변 생성 중...",
+      stop: "중지",
+      freeQueriesRemaining: "남은 무료 쿼리:",
+      queryLimitReached: "쿼리 제한에 도달했습니다. 계속하려면 로그인하세요.",
+      placeholder: "후속 질문을 입력하세요...",
+      more: "더보기",
+      bookmark: "북마크"
+    },
+    日本語: {
+      share: "共有",
+      export: "エクスポート",
+      rewrite: "書き直す",
+      copy: "コピー",
+      like: "いいね",
+      dislike: "よくないね",
+      references: "参考文献",
+      relatedQuestions: "関連質問",
+      generatingAnswer: "回答を生成中...",
+      stop: "停止",
+      freeQueriesRemaining: "残りの無料クエリ:",
+      queryLimitReached: "クエリ制限に達しました。続行するにはログインしてください。",
+      placeholder: "フォローアップの質問を入力...",
+      more: "もっと",
+      bookmark: "ブックマーク"
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
 
   // Guest 모드에서 남은 쿼리 수 업데이트
   useEffect(() => {
@@ -91,15 +145,38 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     }
   }, [user, isGuestMode]);
 
-  // 스크롤을 맨 아래로 - 타이핑 중일 때만 스크롤
+  // 스크롤 위치 감지
   useEffect(() => {
-    // 대화 로드 시 즉시 스크롤 (애니메이션 없음)
+    const container = messagesContainerRef.current;
+    if (!container) return;
+
+    const handleScroll = () => {
+      const { scrollTop, scrollHeight, clientHeight } = container;
+      const isNearBottom = scrollHeight - scrollTop - clientHeight < 100;
+      setShowScrollToBottom(!isNearBottom);
+    };
+
+    container.addEventListener('scroll', handleScroll);
+    handleScroll(); // 초기 상태 체크
+
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // 맨 아래로 스크롤하는 함수
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  // 스크롤 관리 - 타이핑 중일 때만 맨 아래로 스크롤
+  useEffect(() => {
+    // 대화 로드 시에는 스크롤하지 않음 (맨 위에서 시작)
     if (isLoadingConversation.current) {
-      // 즉시 맨 아래로 점프
-      messagesEndRef.current?.scrollIntoView({ behavior: "instant" });
       isLoadingConversation.current = false;
-    } else if (isStreaming) {
-      // 타이핑 중일 때만 부드럽게 스크롤
+      return; // 스크롤하지 않음
+    }
+
+    // 타이핑 중일 때만 부드럽게 스크롤
+    if (isStreaming) {
       messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
     }
     // Reference나 Related Questions 추가 시에는 스크롤하지 않음
@@ -151,6 +228,13 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
   // API 호출
   const queryAPI = async (question: string, isFirstMessage: boolean = false, skipUserMessage: boolean = false) => {
+    console.log("🚀 queryAPI 호출 시작");
+    console.log("   - 질문:", question.slice(0, 50));
+    console.log("   - isFirstMessage:", isFirstMessage);
+    console.log("   - skipUserMessage:", skipUserMessage);
+    console.log("   - user:", user ? `로그인됨 (${user.uid})` : "로그인 안됨");
+    console.log("   - currentConversationId:", currentConversationId);
+
     // Rewrite가 아닌 경우에만 사용자 메시지 추가
     const userMessage: Message = {
       role: "user",
@@ -167,7 +251,16 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     // Firebase에 사용자 메시지 저장 (Rewrite가 아닌 경우에만)
     if (user && currentConversationId && !skipUserMessage) {
       try {
-        await addMessageToConversation(currentConversationId, userMessage);
+        // ChatView의 Message를 BaseMessage로 변환 (undefined 제거)
+        const baseMessage: BaseMessage = {
+          role: userMessage.role,
+          content: userMessage.content,
+          timestamp: userMessage.timestamp || new Date(),
+          ...(userMessage.references && { references: userMessage.references }),
+          ...(userMessage.followupQuestions && { followupQuestions: userMessage.followupQuestions }),
+          ...(userMessage.feedback && { feedback: userMessage.feedback }),
+        };
+        await addMessageToConversation(currentConversationId, baseMessage);
       } catch (error) {
         console.error("사용자 메시지 저장 실패:", error);
       }
@@ -277,8 +370,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         };
         setMessages((prev) => [...prev, assistantMessage]);
 
-        const typingSpeed = 4; // milliseconds between chunks (faster interval)
-        const charsPerChunk = 8; // Show 8 characters at a time for much faster speed
+        const typingSpeed = 8; // milliseconds between chunks (2x slower)
+        const charsPerChunk = 4; // Show 4 characters at a time for 2x slower speed
         for (let i = 0; i <= finalAnswer.length; i += charsPerChunk) {
           await new Promise((resolve) => setTimeout(resolve, typingSpeed));
           const displayText = finalAnswer.slice(0, Math.min(i + charsPerChunk, finalAnswer.length));
@@ -306,34 +399,79 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           try {
             // 첫 메시지인 경우 대화 생성
             if (isFirstMessage && !currentConversationId) {
+              console.log("🆕 새 대화 생성 시작 - userId:", user.uid);
               const newConvId = await createConversation(user.uid);
+              console.log("✅ 대화 생성 완료 - conversationId:", newConvId);
+
               setCurrentConversationId(newConvId);
               if (onConversationCreated) {
                 onConversationCreated(newConvId);
               }
 
+              // ChatView Message를 BaseMessage로 변환 (undefined 제거)
+              const baseUserMessage: BaseMessage = {
+                role: userMessage.role,
+                content: userMessage.content,
+                timestamp: userMessage.timestamp || new Date(),
+                ...(userMessage.references && { references: userMessage.references }),
+                ...(userMessage.followupQuestions && { followupQuestions: userMessage.followupQuestions }),
+                ...(userMessage.feedback && { feedback: userMessage.feedback }),
+              };
+
+              const baseAssistantMessage: BaseMessage = {
+                role: completedAssistantMessage.role,
+                content: completedAssistantMessage.content,
+                timestamp: completedAssistantMessage.timestamp || new Date(),
+                ...(completedAssistantMessage.references && { references: completedAssistantMessage.references }),
+                ...(completedAssistantMessage.followupQuestions && { followupQuestions: completedAssistantMessage.followupQuestions }),
+                ...(completedAssistantMessage.feedback && { feedback: completedAssistantMessage.feedback }),
+              };
+
               // 사용자 메시지와 AI 메시지 모두 저장
-              await addMessageToConversation(newConvId, userMessage);
-              await addMessageToConversation(newConvId, completedAssistantMessage);
+              console.log("💾 사용자 메시지 저장 중...");
+              await addMessageToConversation(newConvId, baseUserMessage);
+              console.log("💾 AI 메시지 저장 중...");
+              await addMessageToConversation(newConvId, baseAssistantMessage);
+              console.log("✅ 메시지 저장 완료");
 
               // 제목 생성 및 업데이트
+              console.log("🎯 제목 생성 시작 - 질문:", question.slice(0, 50));
               const title = await generateChatTitle(question);
+              console.log("✅ 제목 생성 완료:", title);
+
+              console.log("💾 제목 업데이트 중...");
               await updateConversationTitle(newConvId, title);
+              console.log("✅ 제목 업데이트 완료");
 
               // Firebase 저장 완료 대기 (약간의 지연)
               await new Promise(resolve => setTimeout(resolve, 100));
 
               // 제목 업데이트 알림
               if (onTitleUpdated) {
+                console.log("🔄 Sidebar 새로고침 트리거");
                 onTitleUpdated();
               }
             } else if (currentConversationId) {
+              // ChatView Message를 BaseMessage로 변환 (undefined 제거)
+              const baseAssistantMessage: BaseMessage = {
+                role: completedAssistantMessage.role,
+                content: completedAssistantMessage.content,
+                timestamp: completedAssistantMessage.timestamp || new Date(),
+                ...(completedAssistantMessage.references && { references: completedAssistantMessage.references }),
+                ...(completedAssistantMessage.followupQuestions && { followupQuestions: completedAssistantMessage.followupQuestions }),
+                ...(completedAssistantMessage.feedback && { feedback: completedAssistantMessage.feedback }),
+              };
+
               // 기존 대화에 AI 메시지만 추가
-              await addMessageToConversation(currentConversationId, completedAssistantMessage);
+              console.log("💾 기존 대화에 AI 메시지만 추가 - conversationId:", currentConversationId);
+              await addMessageToConversation(currentConversationId, baseAssistantMessage);
+              console.log("✅ 메시지 추가 완료");
             }
           } catch (error) {
-            console.error("Firebase 저장 실패:", error);
+            console.error("❌ Firebase 저장 실패:", error);
           }
+        } else {
+          console.log("⚠️  로그인 안 됨 - Firebase에 저장하지 않음 (Guest 모드)");
         }
       }
     } catch (error: any) {
@@ -906,14 +1044,14 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           <div className="flex items-center space-x-2">
             <button
               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-              title="More"
+              title={currentContent.more}
             >
               <MoreHorizontal className="w-5 h-5 text-gray-400" />
             </button>
             <button
               onClick={handleToggleFavorite}
               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-              title="Bookmark"
+              title={currentContent.bookmark}
             >
               <Bookmark
                 className="w-5 h-5"
@@ -923,17 +1061,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             </button>
             <button
               className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-700 rounded-lg transition-colors"
-              title="Share"
+              title={currentContent.share}
             >
               <Share2 className="w-4 h-4 text-gray-400" />
-              <span className="text-sm text-gray-400">Share</span>
+              <span className="text-sm text-gray-400">{currentContent.share}</span>
             </button>
           </div>
         </div>
       </div>
 
       {/* 메시지 영역 */}
-      <div className="flex-1 overflow-y-auto px-8 py-12">
+      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto px-8 py-12">
         <div className="max-w-4xl mx-auto space-y-12">
           {messages.map((message, index) => (
             <div key={index}>
@@ -973,7 +1111,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                           <div className="flex items-center space-x-2">
                             <button className="flex items-center space-x-2 px-3 py-1.5 hover:bg-gray-700 rounded-lg transition-colors">
                               <Share2 className="w-4 h-4 text-gray-400" />
-                              <span className="text-sm text-gray-400">Share</span>
+                              <span className="text-sm text-gray-400">{currentContent.share}</span>
                             </button>
                             <button
                               onClick={() => handleExportToPDF(messages[index - 1]?.content || "", message)}
@@ -982,7 +1120,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                               <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                               </svg>
-                              <span className="text-sm text-gray-400">Export</span>
+                              <span className="text-sm text-gray-400">{currentContent.export}</span>
                             </button>
                             <button
                               onClick={() => handleRewrite(index)}
@@ -990,7 +1128,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                               disabled={isStreaming}
                             >
                               <RotateCcw className="w-4 h-4 text-gray-400" />
-                              <span className="text-sm text-gray-400">Rewrite</span>
+                              <span className="text-sm text-gray-400">{currentContent.rewrite}</span>
                             </button>
                           </div>
 
@@ -999,7 +1137,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                             <button
                               onClick={() => handleCopyAnswer(message, index)}
                               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-                              title="Copy"
+                              title={currentContent.copy}
                             >
                               {copiedIndex === index ? (
                                 <Check className="w-4 h-4" style={{ color: '#20808D' }} />
@@ -1009,7 +1147,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                             </button>
                             <button
                               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-                              title="Like"
+                              title={currentContent.like}
                               onClick={() => handleMessageFeedback(index, 'like')}
                             >
                               <ThumbsUp
@@ -1021,7 +1159,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                             </button>
                             <button
                               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-                              title="Dislike"
+                              title={currentContent.dislike}
                               onClick={() => handleMessageFeedback(index, 'dislike')}
                             >
                               <ThumbsDown
@@ -1047,7 +1185,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                           >
                             <BookOpen className="w-5 h-5 text-gray-400" />
                             <h3 className="text-base font-medium text-gray-300">
-                              References ({message.references.length})
+                              {currentContent.references} ({message.references.length})
                             </h3>
                             {referencesCollapsed[index] ? (
                               <ChevronDown className="w-4 h-4 text-gray-400" />
@@ -1103,7 +1241,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                                   <div className="flex items-center space-x-1 ml-4">
                                     <button
                                       className="p-1.5 hover:bg-gray-700 rounded transition-colors"
-                                      title="Like"
+                                      title={currentContent.like}
                                       onClick={() => handleReferenceFeedback(index, refIdx, 'like')}
                                     >
                                       <ThumbsUp
@@ -1115,7 +1253,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                                     </button>
                                     <button
                                       className="p-1.5 hover:bg-gray-700 rounded transition-colors"
-                                      title="Dislike"
+                                      title={currentContent.dislike}
                                       onClick={() => handleReferenceFeedback(index, refIdx, 'dislike')}
                                     >
                                       <ThumbsDown
@@ -1139,7 +1277,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                           <div className="rounded-xl border border-gray-700 bg-gray-800/30 p-5">
                             <h3 className="text-lg font-medium text-gray-300 mb-4 flex items-center gap-2">
                               <List className="w-5 h-5" />
-                              Related Questions
+                              {currentContent.relatedQuestions}
                             </h3>
                             <div className="divide-y divide-gray-700">
                               {message.followupQuestions.map((question, qIdx) => (
@@ -1176,7 +1314,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 />
                 <div className="flex items-center space-x-2 text-gray-400">
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  <div>Generating answer...</div>
+                  <div>{currentContent.generatingAnswer}</div>
                 </div>
               </div>
 
@@ -1190,7 +1328,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   backgroundColor: 'transparent'
                 }}
               >
-                Stop
+                {currentContent.stop}
               </button>
             </div>
           )}
@@ -1201,15 +1339,28 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
       {/* 입력 영역 */}
       <div className="p-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto relative">
+          {/* 맨 아래로 스크롤 버튼 */}
+          {showScrollToBottom && (
+            <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
+              <button
+                onClick={scrollToBottom}
+                className="flex items-center justify-center w-10 h-10 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-gray-700 rounded-full shadow-lg transition-all"
+                title="Scroll to bottom"
+              >
+                <ArrowDown className="w-5 h-5 text-gray-300" />
+              </button>
+            </div>
+          )}
+
           {/* Guest 모드 쿼리 카운터 */}
           {isGuestMode && !user && (
             <div className="mb-3 text-center">
               <p className="text-sm text-gray-400">
                 {guestQueriesRemaining > 0 ? (
-                  <>Free queries remaining: <span className="text-[#20808D] font-semibold">{guestQueriesRemaining}/5</span></>
+                  <>{currentContent.freeQueriesRemaining} <span className="text-[#20808D] font-semibold">{guestQueriesRemaining}/5</span></>
                 ) : (
-                  <span className="text-orange-400">Query limit reached. Please log in to continue.</span>
+                  <span className="text-orange-400">{currentContent.queryLimitReached}</span>
                 )}
               </p>
             </div>
@@ -1221,7 +1372,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask a follow-up question..."
+                placeholder={currentContent.placeholder}
                 className="flex-1 bg-transparent outline-none text-white placeholder-gray-500"
                 disabled={isStreaming}
               />
@@ -1239,9 +1390,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       </div>
 
       {/* 로그인 모달 - 쿼리 제한 도달 시 */}
-      {showLoginModal && (
-        <LoginModal onClose={() => setShowLoginModal(false)} />
-      )}
+      <LoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} />
     </div>
   );
 }

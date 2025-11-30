@@ -108,11 +108,12 @@ def create_sse_event(data: dict) -> str:
 
 
 # Pinecone 검색 함수
-async def search_pinecone(query_embedding: List[float], top_k: int = 5, min_similarity: float = 0.45) -> List[Dict]:
+async def search_pinecone(query_embedding: List[float], top_k: int = 5, min_similarity: float = 0.45, max_chunks_per_doc: int = 2) -> List[Dict]:
     """
     Pinecone에서 유사한 가이드라인 검색
     - top_k: 검색할 최대 청크 개수
     - min_similarity: 최소 유사도 임계값 (0.0~1.0)
+    - max_chunks_per_doc: 동일 문서에서 선택할 최대 청크 개수 (출처 다양성 확보)
     """
     try:
         results = pinecone_index.query(
@@ -146,11 +147,29 @@ async def search_pinecone(query_embedding: List[float], top_k: int = 5, min_simi
         # 유사도 점수로 재정렬 (내림차순 - 높은 점수가 먼저)
         chunks.sort(key=lambda x: x["score"], reverse=True)
 
-        print(f"✅ {len(chunks)}개 청크 검색 완료 (유사도 {min_similarity} 이상)")
-        if chunks:
-            print(f"   최고 유사도: {chunks[0]['score']:.4f}, 최저 유사도: {chunks[-1]['score']:.4f}")
+        # 문서별 청크 제한 (출처 다양성 확보)
+        doc_chunk_count = {}
+        filtered_chunks = []
 
-        return chunks
+        for chunk in chunks:
+            # 문서 식별자: source + title (동일 문서 판별)
+            doc_id = f"{chunk['source']}_{chunk['title']}"
+
+            # 현재 문서의 청크 개수 확인
+            current_count = doc_chunk_count.get(doc_id, 0)
+
+            if current_count < max_chunks_per_doc:
+                filtered_chunks.append(chunk)
+                doc_chunk_count[doc_id] = current_count + 1
+            else:
+                print(f"⚠️  문서별 제한으로 필터링됨: {chunk['title'][:50]}... (이미 {max_chunks_per_doc}개 선택됨)")
+
+        print(f"✅ {len(filtered_chunks)}개 청크 검색 완료 (유사도 {min_similarity} 이상, 문서당 최대 {max_chunks_per_doc}개)")
+        print(f"   총 {len(doc_chunk_count)}개 서로 다른 문서에서 선택됨")
+        if filtered_chunks:
+            print(f"   최고 유사도: {filtered_chunks[0]['score']:.4f}, 최저 유사도: {filtered_chunks[-1]['score']:.4f}")
+
+        return filtered_chunks
     except Exception as e:
         print(f"Pinecone 검색 오류: {e}")
         return []

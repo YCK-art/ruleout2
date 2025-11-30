@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 export const metadata: Metadata = {
   title: "Ruleout",
@@ -23,7 +24,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="antialiased">
-        <ThemeProvider>{children}</ThemeProvider>
+        <LanguageProvider>
+          <ThemeProvider>{children}</ThemeProvider>
+        </LanguageProvider>
       </body>
     </html>
   );

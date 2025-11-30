@@ -4,28 +4,117 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Toolbar from "@/app/components/Toolbar";
+import Footer from "@/app/components/Footer";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function EnterprisePage() {
   const router = useRouter();
   const { effectiveTheme } = useTheme();
+  const { language } = useLanguage();
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const slides = [
-    {
-      title: "Ship real apps fast",
-      description: "Our batteries-included platform provides auth, email, connectors, and hosting so you can go from prototype to production in days."
+  const content = {
+    English: {
+      hero: {
+        subtitle: "FOR ENTERPRISES",
+        title: "Accelerate clinical decisions",
+        description: "Equip your hospital, lab, or faculty with evidence-based AI that streamlines workflows, unifies knowledge, and elevates veterinary care without added burden.",
+        button: "Talk to our team"
+      },
+      features: {
+        title: "Build prototypes and production-ready apps fast",
+        description: "Turn ideas into clickable prototypes in minutes to speed up alignment, or build production-ready apps that fit your internal workflows.",
+        slides: [
+          {
+            title: "Ship real apps fast",
+            description: "Our batteries-included platform provides auth, email, connectors, and hosting so you can go from prototype to production in days."
+          },
+          {
+            title: "Enterprise-grade security",
+            description: "Built with SOC 2 Type II compliance, SSO, audit logs, and granular permissions to meet your security requirements."
+          },
+          {
+            title: "Team collaboration built-in",
+            description: "Work together with version control, comments, and real-time collaboration features designed for teams."
+          }
+        ]
+      },
+      cta: {
+        title: "Ready to transform your workflow?",
+        description: "Join leading veterinary institutions already using Ruleout to accelerate their clinical decisions.",
+        demo: "Schedule a demo",
+        sales: "Contact sales"
+      }
     },
-    {
-      title: "Enterprise-grade security",
-      description: "Built with SOC 2 Type II compliance, SSO, audit logs, and granular permissions to meet your security requirements."
+    한국어: {
+      hero: {
+        subtitle: "기업용",
+        title: "임상 의사결정 가속화",
+        description: "증거 기반 AI로 병원, 연구실 또는 교수진의 워크플로를 간소화하고 지식을 통합하여 추가 부담 없이 수의학 치료를 향상시킵니다.",
+        button: "팀에게 문의하기"
+      },
+      features: {
+        title: "프로토타입과 프로덕션 앱을 빠르게 구축",
+        description: "아이디어를 몇 분 안에 클릭 가능한 프로토타입으로 전환하여 정렬 속도를 높이거나 내부 워크플로에 맞는 프로덕션 앱을 구축하세요.",
+        slides: [
+          {
+            title: "실제 앱을 빠르게 제공",
+            description: "인증, 이메일, 커넥터 및 호스팅이 포함된 플랫폼으로 프로토타입에서 프로덕션까지 며칠 만에 이동할 수 있습니다."
+          },
+          {
+            title: "엔터프라이즈급 보안",
+            description: "SOC 2 Type II 규정 준수, SSO, 감사 로그 및 세분화된 권한으로 보안 요구 사항을 충족합니다."
+          },
+          {
+            title: "팀 협업 기능 내장",
+            description: "버전 관리, 주석 및 팀을 위해 설계된 실시간 협업 기능으로 함께 작업하세요."
+          }
+        ]
+      },
+      cta: {
+        title: "워크플로우를 혁신할 준비가 되셨나요?",
+        description: "Ruleout으로 임상 의사결정을 가속화 중인 주요 수의학 기관에 합류하세요.",
+        demo: "데모 예약",
+        sales: "영업팀 문의"
+      }
     },
-    {
-      title: "Team collaboration built-in",
-      description: "Work together with version control, comments, and real-time collaboration features designed for teams."
+    日本語: {
+      hero: {
+        subtitle: "エンタープライズ向け",
+        title: "臨床意思決定を加速",
+        description: "エビデンスに基づくAIで病院、研究室、または教員のワークフローを効率化し、知識を統合して、追加の負担なく獣医学ケアを向上させます。",
+        button: "チームに相談"
+      },
+      features: {
+        title: "プロトタイプと本番対応アプリを迅速に構築",
+        description: "アイデアを数分でクリック可能なプロトタイプに変換して調整を加速するか、内部ワークフローに適合する本番対応アプリを構築します。",
+        slides: [
+          {
+            title: "実際のアプリを迅速に提供",
+            description: "認証、メール、コネクタ、ホスティングを含むプラットフォームで、プロトタイプから本番環境まで数日で移行できます。"
+          },
+          {
+            title: "エンタープライズグレードのセキュリティ",
+            description: "SOC 2 Type II準拠、SSO、監査ログ、きめ細かなアクセス許可でセキュリティ要件を満たします。"
+          },
+          {
+            title: "チームコラボレーション機能を内蔵",
+            description: "バージョン管理、コメント、チーム向けに設計されたリアルタイムコラボレーション機能で一緒に作業します。"
+          }
+        ]
+      },
+      cta: {
+        title: "ワークフローを変革する準備はできていますか？",
+        description: "すでにRuleoutを使用して臨床意思決定を加速している主要な獣医学機関に参加してください。",
+        demo: "デモを予約",
+        sales: "営業に問い合わせ"
+      }
     }
-  ];
+  };
+
+  const currentContent = content[language as keyof typeof content];
 
   const handleLogin = () => {
     setShowLoginModal(true);
@@ -47,24 +136,28 @@ export default function EnterprisePage() {
       {/* Hero Section with Gradient */}
       <div className="relative min-h-[600px] flex items-center justify-center pt-20">
         {/* Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#20808D] via-[#4DB8C4] to-[#6dccd7] opacity-90" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a6a78] via-[#20808D] via-40% to-[#4DB8C4] to-90%" />
 
         {/* Blur effects for depth */}
-        <div className="absolute top-20 left-20 w-96 h-96 bg-[#20808D] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob" />
-        <div className="absolute top-40 right-20 w-96 h-96 bg-[#4DB8C4] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000" />
-        <div className="absolute bottom-20 left-1/2 w-96 h-96 bg-[#6dccd7] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000" />
+        <div className="absolute top-20 left-20 w-96 h-96 bg-[#20808D] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob" />
+        <div className="absolute top-40 right-20 w-96 h-96 bg-[#4DB8C4] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000" />
+        <div className="absolute bottom-20 left-1/2 w-96 h-96 bg-[#6dccd7] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-4000" />
 
         {/* Content */}
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <p className="text-white/90 text-lg font-medium mb-4 tracking-wide">FOR ENTERPRISES</p>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-            Ship faster
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+          <p className="text-white/90 text-lg font-medium mb-4 tracking-wide">{currentContent.hero.subtitle}</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
+            {currentContent.hero.title}
           </h1>
-          <p className="text-white/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
-            Prototype faster, validate early, and ship internal tools and production apps without waiting on engineering.
+          <p className="text-white/90 text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
+            {currentContent.hero.description}
           </p>
-          <button className="px-8 py-4 bg-black text-white text-lg font-semibold rounded-lg hover:bg-gray-900 transition-all duration-200 shadow-2xl hover:shadow-3xl hover:scale-105">
-            Book a walkthrough
+          <button
+            onClick={() => window.open('https://calendly.com/d/ctf4-n6s-3yp/ruleout-enterprise', '_blank')}
+            className="group relative px-8 py-4 bg-black text-white text-lg font-semibold rounded-lg overflow-hidden shadow-2xl"
+          >
+            <span className="relative z-10">{currentContent.hero.button}</span>
+            <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent" />
           </button>
         </div>
       </div>
@@ -139,10 +232,10 @@ export default function EnterprisePage() {
             {/* Title and Description - Left Aligned */}
             <div className="max-w-3xl">
               <h2 className={`text-3xl md:text-4xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"} mb-6`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-                Build prototypes and production-ready apps fast
+                {currentContent.features.title}
               </h2>
               <p className={`text-lg ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"} leading-relaxed`}>
-                Turn ideas into clickable prototypes in minutes to speed up alignment, or build production-ready apps that fit your internal workflows.
+                {currentContent.features.description}
               </p>
             </div>
 
@@ -153,10 +246,10 @@ export default function EnterprisePage() {
                 <div className="lg:col-span-2 space-y-6 pt-4">
                   <div className="min-h-[100px]">
                     <h3 className={`text-xl font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"} mb-3 transition-opacity duration-500`}>
-                      {slides[currentSlide].title}
+                      {currentContent.features.slides[currentSlide].title}
                     </h3>
                     <p className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"} leading-relaxed mb-4 transition-opacity duration-500`}>
-                      {slides[currentSlide].description}
+                      {currentContent.features.slides[currentSlide].description}
                     </p>
                   </div>
 
@@ -236,26 +329,35 @@ export default function EnterprisePage() {
       {/* CTA Section */}
       <div className={`${effectiveTheme === "light" ? "bg-gray-50" : "bg-[#0a0a0a]"} py-32`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className={`text-4xl md:text-6xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"} mb-8`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-            Ready to transform your workflow?
+          <h2 className={`text-3xl md:text-5xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"} mb-8`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
+            {currentContent.cta.title}
           </h2>
           <p className={`text-xl ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"} mb-12 max-w-2xl mx-auto`}>
-            Join leading veterinary institutions already using Ruleout to accelerate their clinical decisions.
+            {currentContent.cta.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-[#20808D] text-white text-lg font-semibold rounded-lg hover:bg-[#1a6b77] transition-all duration-200 shadow-lg hover:shadow-xl">
-              Schedule a demo
+            <button
+              onClick={() => window.open('https://calendly.com/d/ctf4-n6s-3yp/ruleout-enterprise', '_blank')}
+              className="px-6 py-3 bg-[#20808D] text-white text-base font-semibold rounded-lg hover:bg-[#1a6b77] transition-all duration-200 shadow-lg hover:shadow-xl"
+            >
+              {currentContent.cta.demo}
             </button>
-            <button className={`px-8 py-4 border-2 text-lg font-semibold rounded-lg transition-all duration-200 ${
-              effectiveTheme === "light"
-                ? "border-gray-300 text-gray-900 hover:border-gray-400 hover:bg-gray-50"
-                : "border-gray-700 text-white hover:border-gray-600 hover:bg-[#2a2a2a]"
-            }`}>
-              Contact sales
+            <button
+              onClick={() => window.open('https://calendly.com/d/ctf4-n6s-3yp/ruleout-enterprise', '_blank')}
+              className={`px-6 py-3 border-2 text-base font-semibold rounded-lg transition-all duration-200 ${
+                effectiveTheme === "light"
+                  ? "border-gray-300 text-gray-900 hover:border-gray-400 hover:bg-gray-50"
+                  : "border-gray-700 text-white hover:border-gray-600 hover:bg-[#2a2a2a]"
+              }`}
+            >
+              {currentContent.cta.sales}
             </button>
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

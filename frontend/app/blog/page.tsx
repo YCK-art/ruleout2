@@ -5,17 +5,91 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import Toolbar from "@/app/components/Toolbar";
+import Footer from '@/app/components/Footer';
 import { signInWithGoogle } from "@/lib/auth";
 import { getAllBlogPosts, getFeaturedPost, BlogPost } from "@/lib/blogService";
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function BlogPage() {
   const router = useRouter();
+  const { language } = useLanguage();
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [selectedFilter, setSelectedFilter] = useState("All posts");
   const [searchQuery, setSearchQuery] = useState("");
   const [featuredPost, setFeaturedPost] = useState<BlogPost | null>(null);
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
+
+  const content = {
+    English: {
+      featured: "FEATURED",
+      readMore: "Read more →",
+      allPosts: "All posts",
+      product: "Product",
+      research: "Research",
+      engineering: "Engineering",
+      clinical: "Clinical",
+      searchPlaceholder: "Search articles...",
+      noPosts: "No blog posts found.",
+      checkBack: "Check back soon for new content!",
+      tryAdjust: "Try adjusting your filters or search query.",
+      loading: "Loading blog posts...",
+      loginTitle: "Log in or Sign up",
+      loginSubtitle: "Choose your work email.",
+      whyNeeded: "Why is this needed?",
+      continueGoogle: "Continue with Google",
+      continueMicrosoft: "Continue with Microsoft",
+      continueApple: "Continue with Apple",
+      continueEmail: "Continue with Email",
+      or: "or"
+    },
+    한국어: {
+      featured: "주요 글",
+      readMore: "더 읽기 →",
+      allPosts: "모든 글",
+      product: "제품",
+      research: "연구",
+      engineering: "엔지니어링",
+      clinical: "임상",
+      searchPlaceholder: "글 검색...",
+      noPosts: "블로그 글을 찾을 수 없습니다.",
+      checkBack: "새로운 콘텐츠를 확인하려면 곧 다시 방문해 주세요!",
+      tryAdjust: "필터나 검색어를 조정해 보세요.",
+      loading: "블로그 글을 불러오는 중...",
+      loginTitle: "로그인 또는 회원가입",
+      loginSubtitle: "업무용 이메일을 선택하세요.",
+      whyNeeded: "왜 필요한가요?",
+      continueGoogle: "Google로 계속하기",
+      continueMicrosoft: "Microsoft로 계속하기",
+      continueApple: "Apple로 계속하기",
+      continueEmail: "이메일로 계속하기",
+      or: "또는"
+    },
+    日本語: {
+      featured: "注目",
+      readMore: "続きを読む →",
+      allPosts: "すべての投稿",
+      product: "製品",
+      research: "研究",
+      engineering: "エンジニアリング",
+      clinical: "臨床",
+      searchPlaceholder: "記事を検索...",
+      noPosts: "ブログ投稿が見つかりません。",
+      checkBack: "新しいコンテンツをお楽しみに！",
+      tryAdjust: "フィルターや検索キーワードを調整してみてください。",
+      loading: "ブログ投稿を読み込み中...",
+      loginTitle: "ログインまたはサインアップ",
+      loginSubtitle: "業務用メールアドレスを選択してください。",
+      whyNeeded: "なぜ必要ですか？",
+      continueGoogle: "Googleで続ける",
+      continueMicrosoft: "Microsoftで続ける",
+      continueApple: "Appleで続ける",
+      continueEmail: "メールアドレスで続ける",
+      or: "または"
+    }
+  };
+
+  const t = content[language];
 
   const handleMenuClick = (menu: string) => {
     switch(menu) {
@@ -69,7 +143,13 @@ export default function BlogPage() {
     }
   };
 
-  const filters = ["All posts", "Product", "Research", "Engineering", "Clinical"];
+  const filters = [
+    { key: "All posts", label: t.allPosts },
+    { key: "Product", label: t.product },
+    { key: "Research", label: t.research },
+    { key: "Engineering", label: t.engineering },
+    { key: "Clinical", label: t.clinical }
+  ];
 
   // Filter posts based on selected category and search query
   const filteredPosts = blogPosts.filter(post => {
@@ -97,7 +177,7 @@ export default function BlogPage() {
       <div className="max-w-7xl mx-auto px-6 py-24 pt-32">
         {loading ? (
           <div className="flex items-center justify-center py-20">
-            <div className="text-gray-400 text-lg">Loading blog posts...</div>
+            <div className="text-gray-400 text-lg">{t.loading}</div>
           </div>
         ) : (
           <>
@@ -110,7 +190,7 @@ export default function BlogPage() {
                     {/* Left: Text Content */}
                     <div className="flex flex-col justify-center space-y-6">
                       <span className="text-[#4DB8C4] text-sm font-semibold uppercase tracking-wide" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-                        FEATURED
+                        {t.featured}
                       </span>
                       <h1 className="text-2xl md:text-3xl font-bold leading-tight" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
                         {featuredPost.title}
@@ -119,7 +199,7 @@ export default function BlogPage() {
                         {featuredPost.subtitle || featuredPost.content.substring(0, 200) + '...'}
                       </p>
                       <button className="px-6 py-3 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6b77] transition-colors font-medium w-fit">
-                        Read more →
+                        {t.readMore}
                       </button>
                     </div>
 
@@ -147,15 +227,15 @@ export default function BlogPage() {
           <div className="flex flex-wrap items-center gap-3">
             {filters.map((filter) => (
               <button
-                key={filter}
-                onClick={() => setSelectedFilter(filter)}
+                key={filter.key}
+                onClick={() => setSelectedFilter(filter.key)}
                 className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                  selectedFilter === filter
+                  selectedFilter === filter.key
                     ? "bg-[#20808D] text-white"
                     : "bg-[#252525] text-gray-400 hover:text-white hover:bg-[#2a2a2a]"
                 }`}
               >
-                {filter}
+                {filter.label}
               </button>
             ))}
           </div>
@@ -164,7 +244,7 @@ export default function BlogPage() {
           <div className="relative w-full md:w-auto">
             <input
               type="text"
-              placeholder="Search articles..."
+              placeholder={t.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full md:w-80 px-4 py-2 pl-10 bg-[#252525] border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#20808D] transition-colors"
@@ -177,7 +257,7 @@ export default function BlogPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredPosts.length === 0 ? (
                 <div className="col-span-3 text-center py-20 text-gray-400">
-                  No blog posts found. {blogPosts.length === 0 ? "Check back soon for new content!" : "Try adjusting your filters or search query."}
+                  {t.noPosts} {blogPosts.length === 0 ? t.checkBack : t.tryAdjust}
                 </div>
               ) : (
                 filteredPosts.map((post) => (
@@ -228,125 +308,7 @@ export default function BlogPage() {
       </div>
 
       {/* Footer */}
-      <footer className="relative bg-[#0a0a0a]">
-        {/* Gradient transition */}
-        <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-6 py-16 relative">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-12 mb-12">
-            {/* Product Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Product</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/pricing')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Pricing
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Resources Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Resources</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/blog')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Blog
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Support
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Company</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/mission')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Mission
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/careers')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Careers
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Legal</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/terms')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Terms of Use
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/privacy')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Privacy Policy
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/security')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Security
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Connect Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Connect</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    YouTube
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom Bar */}
-          <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-gray-500 text-sm">
-              © 2025 Ruleout. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       {/* Login Modal */}
       {showLoginModal && (
@@ -379,10 +341,10 @@ export default function BlogPage() {
                 <span className="text-2xl font-bold text-white">Ruleout</span>
               </div>
               <h2 className="text-3xl font-bold text-white mb-2">
-                Log in or Sign up
+                {t.loginTitle}
               </h2>
               <p className="text-gray-400">
-                Choose your work email. <a href="#" className="text-[#20808D] hover:underline">Why is this needed?</a>
+                {t.loginSubtitle} <a href="#" className="text-[#20808D] hover:underline">{t.whyNeeded}</a>
               </p>
             </div>
 
@@ -400,7 +362,7 @@ export default function BlogPage() {
                     <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                     <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                   </svg>
-                  <span className="text-white font-medium">Continue with Google</span>
+                  <span className="text-white font-medium">{t.continueGoogle}</span>
                 </div>
               </button>
 
@@ -417,7 +379,7 @@ export default function BlogPage() {
                     <path fill="#05a6f0" d="M1 12h10v10H1z"/>
                     <path fill="#ffba08" d="M12 12h10v10H12z"/>
                   </svg>
-                  <span className="text-white font-medium">Continue with Microsoft</span>
+                  <span className="text-white font-medium">{t.continueMicrosoft}</span>
                 </div>
               </button>
 
@@ -430,14 +392,14 @@ export default function BlogPage() {
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="white">
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                   </svg>
-                  <span className="text-white font-medium">Continue with Apple</span>
+                  <span className="text-white font-medium">{t.continueApple}</span>
                 </div>
               </button>
 
               {/* Divider */}
               <div className="flex items-center my-4">
                 <div className="flex-1 border-t border-gray-700"></div>
-                <span className="px-4 text-gray-400">or</span>
+                <span className="px-4 text-gray-400">{t.or}</span>
                 <div className="flex-1 border-t border-gray-700"></div>
               </div>
 
@@ -446,7 +408,7 @@ export default function BlogPage() {
                 onClick={() => {/* 이메일 로그인 구현 예정 */}}
                 className="w-full px-6 py-4 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6a78] transition-colors font-medium"
               >
-                Continue with Email
+                {t.continueEmail}
               </button>
             </div>
           </div>

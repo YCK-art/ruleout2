@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { X, Search, FolderOpen } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { getUserProjects, addConversationToProject } from "@/lib/projectService";
 import { Project } from "@/types/project";
 
@@ -15,9 +16,46 @@ interface MoveToProjectModalProps {
 
 export default function MoveToProjectModal({ conversationId, isOpen, onClose, onSuccess }: MoveToProjectModalProps) {
   const { user } = useAuth();
+  const { language } = useLanguage();
   const [projects, setProjects] = useState<Project[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredProjects, setFilteredProjects] = useState<Project[]>([]);
+
+  // Multilingual content
+  const content = {
+    English: {
+      title: "Move Conversation",
+      description: "Select a project to move this conversation to.",
+      searchPlaceholder: "Search or create project...",
+      noResults: "No search results",
+      noProjects: "No projects",
+      createFirst: "Create a project first",
+      conversation: "conversation",
+      conversations: "conversations"
+    },
+    한국어: {
+      title: "대화 이동",
+      description: "이 대화를 이동할 프로젝트를 선택하세요.",
+      searchPlaceholder: "프로젝트 검색 또는 생성...",
+      noResults: "검색 결과 없음",
+      noProjects: "프로젝트 없음",
+      createFirst: "먼저 프로젝트를 생성하세요",
+      conversation: "대화",
+      conversations: "대화"
+    },
+    日本語: {
+      title: "会話を移動",
+      description: "この会話を移動するプロジェクトを選択してください。",
+      searchPlaceholder: "プロジェクトを検索または作成...",
+      noResults: "検索結果なし",
+      noProjects: "プロジェクトなし",
+      createFirst: "最初にプロジェクトを作成してください",
+      conversation: "会話",
+      conversations: "会話"
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
 
   // 프로젝트 목록 로드
   useEffect(() => {
@@ -73,8 +111,8 @@ export default function MoveToProjectModal({ conversationId, isOpen, onClose, on
         {/* 헤더 */}
         <div className="flex items-center justify-between p-6">
           <div>
-            <h2 className="text-2xl font-semibold text-gray-200 mb-1">Move Conversation</h2>
-            <p className="text-sm text-gray-400">Select a project to move this conversation to.</p>
+            <h2 className="text-2xl font-semibold text-gray-200 mb-1">{currentContent.title}</h2>
+            <p className="text-sm text-gray-400">{currentContent.description}</p>
           </div>
           <button
             onClick={onClose}
@@ -92,7 +130,7 @@ export default function MoveToProjectModal({ conversationId, isOpen, onClose, on
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search or create project..."
+              placeholder={currentContent.searchPlaceholder}
               className="w-full bg-[#1a1a1a] border border-gray-700 rounded-lg pl-12 pr-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-gray-600"
               autoFocus
             />
@@ -104,10 +142,10 @@ export default function MoveToProjectModal({ conversationId, isOpen, onClose, on
           {filteredProjects.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-500">
-                {searchQuery ? "No search results" : "No projects"}
+                {searchQuery ? currentContent.noResults : currentContent.noProjects}
               </p>
               <p className="text-sm text-gray-600 mt-2">
-                Create a project first
+                {currentContent.createFirst}
               </p>
             </div>
           ) : (
@@ -125,7 +163,7 @@ export default function MoveToProjectModal({ conversationId, isOpen, onClose, on
                     </h3>
                     {project.conversationIds && project.conversationIds.length > 0 && (
                       <p className="text-xs text-gray-500 mt-0.5">
-                        {project.conversationIds.length} conversation{project.conversationIds.length !== 1 ? 's' : ''}
+                        {project.conversationIds.length} {project.conversationIds.length !== 1 ? currentContent.conversations : currentContent.conversation}
                       </p>
                     )}
                   </div>

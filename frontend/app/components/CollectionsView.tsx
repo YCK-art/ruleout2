@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Search, Plus, ChevronDown, MoreVertical, Star, Edit2, Trash2 } from "lucide-react";
 import Image from "next/image";
 import { useAuth } from "@/contexts/AuthContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { getUserProjects, createProject, updateProjectDescription, deleteProject } from "@/lib/projectService";
 import { Project } from "@/types/project";
 import CreateProjectModal from "./CreateProjectModal";
@@ -16,6 +17,7 @@ interface CollectionsViewProps {
 
 export default function CollectionsView({ onNewChat, onSelectProject }: CollectionsViewProps) {
   const { user } = useAuth();
+  const { language } = useLanguage();
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("activity");
   const [showSortDropdown, setShowSortDropdown] = useState(false);
@@ -26,6 +28,72 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
   const [deleteModalOpen, setDeleteModalOpen] = useState(false);
   const [projectToDelete, setProjectToDelete] = useState<{ id: string; title: string } | null>(null);
   const dropdownRefs = useRef<{[key: string]: HTMLDivElement | null}>({});
+
+  // Multilingual content
+  const content = {
+    English: {
+      title: "Projects",
+      newProject: "New Project",
+      searchPlaceholder: "Search projects...",
+      sortBy: "Sort by",
+      activity: "Activity",
+      name: "Name",
+      created: "Created",
+      noResults: "No search results",
+      noProjects: "No projects",
+      updated: "Updated",
+      favorite: "Favorite",
+      editDetails: "Edit Details",
+      delete: "Delete",
+      timeAgo: {
+        minutesAgo: "m ago",
+        hoursAgo: "h ago",
+        daysAgo: "d ago"
+      }
+    },
+    한국어: {
+      title: "프로젝트",
+      newProject: "새 프로젝트",
+      searchPlaceholder: "프로젝트 검색...",
+      sortBy: "정렬",
+      activity: "활동",
+      name: "이름",
+      created: "생성일",
+      noResults: "검색 결과 없음",
+      noProjects: "프로젝트 없음",
+      updated: "업데이트",
+      favorite: "즐겨찾기",
+      editDetails: "세부정보 수정",
+      delete: "삭제",
+      timeAgo: {
+        minutesAgo: "분 전",
+        hoursAgo: "시간 전",
+        daysAgo: "일 전"
+      }
+    },
+    日本語: {
+      title: "プロジェクト",
+      newProject: "新規プロジェクト",
+      searchPlaceholder: "プロジェクトを検索...",
+      sortBy: "並び替え",
+      activity: "アクティビティ",
+      name: "名前",
+      created: "作成日",
+      noResults: "検索結果なし",
+      noProjects: "プロジェクトなし",
+      updated: "更新",
+      favorite: "お気に入り",
+      editDetails: "詳細を編集",
+      delete: "削除",
+      timeAgo: {
+        minutesAgo: "分前",
+        hoursAgo: "時間前",
+        daysAgo: "日前"
+      }
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
 
   // 프로젝트 목록 로드
   useEffect(() => {
@@ -137,11 +205,11 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
     const diffDays = Math.floor(diffMs / 86400000);
 
     if (diffMins < 60) {
-      return `${diffMins}m ago`;
+      return `${diffMins}${currentContent.timeAgo.minutesAgo}`;
     } else if (diffHours < 24) {
-      return `${diffHours}h ago`;
+      return `${diffHours}${currentContent.timeAgo.hoursAgo}`;
     } else {
-      return `${diffDays}d ago`;
+      return `${diffDays}${currentContent.timeAgo.daysAgo}`;
     }
   };
 
@@ -161,13 +229,13 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
       <div className="p-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-8">
-            <h1 className="text-3xl font-semibold text-gray-200">Projects</h1>
+            <h1 className="text-3xl font-semibold text-gray-200">{currentContent.title}</h1>
             <button
               onClick={() => setShowCreateModal(true)}
               className="flex items-center space-x-2 px-4 py-2 bg-white hover:bg-gray-100 text-black rounded-lg transition-colors"
             >
               <Plus className="w-5 h-5" />
-              <span className="font-medium">New Project</span>
+              <span className="font-medium">{currentContent.newProject}</span>
             </button>
           </div>
 
@@ -178,7 +246,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search projects..."
+              placeholder={currentContent.searchPlaceholder}
               className="w-full bg-[#2a2a2a] border border-gray-700 rounded-lg pl-12 pr-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-gray-600"
             />
           </div>
@@ -186,14 +254,14 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
           {/* 정렬 옵션 */}
           <div className="flex items-center justify-end mb-6">
             <div className="flex items-center space-x-2">
-              <span className="text-sm text-gray-400">Sort by</span>
+              <span className="text-sm text-gray-400">{currentContent.sortBy}</span>
               <div className="relative">
                 <button
                   onClick={() => setShowSortDropdown(!showSortDropdown)}
                   className="flex items-center space-x-2 px-3 py-1.5 bg-[#2a2a2a] border border-gray-700 rounded-lg hover:bg-[#333333] transition-colors"
                 >
                   <span className="text-sm text-gray-300">
-                    {sortBy === "activity" ? "Activity" : sortBy === "name" ? "Name" : "Created"}
+                    {sortBy === "activity" ? currentContent.activity : sortBy === "name" ? currentContent.name : currentContent.created}
                   </span>
                   <ChevronDown className="w-4 h-4 text-gray-400" />
                 </button>
@@ -207,7 +275,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                       }}
                       className="w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 transition-colors text-left"
                     >
-                      Activity
+                      {currentContent.activity}
                     </button>
                     <button
                       onClick={() => {
@@ -216,7 +284,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                       }}
                       className="w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 transition-colors text-left"
                     >
-                      Name
+                      {currentContent.name}
                     </button>
                     <button
                       onClick={() => {
@@ -225,7 +293,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                       }}
                       className="w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 transition-colors text-left"
                     >
-                      Created
+                      {currentContent.created}
                     </button>
                   </div>
                 )}
@@ -241,7 +309,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
           {filteredAndSortedProjects.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-500">
-                {searchQuery ? "No search results" : "No projects"}
+                {searchQuery ? currentContent.noResults : currentContent.noProjects}
               </p>
             </div>
           ) : (
@@ -294,7 +362,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                             className="w-full flex items-center space-x-3 px-4 py-3 text-sm text-gray-300 hover:bg-gray-700 transition-colors text-left"
                           >
                             <Star className="w-4 h-4" />
-                            <span>Favorite</span>
+                            <span>{currentContent.favorite}</span>
                           </button>
                           <button
                             onClick={(e) => {
@@ -307,7 +375,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                             className="w-full flex items-center space-x-3 px-4 py-3 text-sm text-gray-300 hover:bg-gray-700 transition-colors text-left"
                           >
                             <Edit2 className="w-4 h-4" />
-                            <span>Edit Details</span>
+                            <span>{currentContent.editDetails}</span>
                           </button>
                           <div className="border-t border-gray-700 my-1"></div>
                           <button
@@ -319,7 +387,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                             className="w-full flex items-center space-x-3 px-4 py-3 text-sm text-red-400 hover:bg-gray-700 transition-colors text-left"
                           >
                             <Trash2 className="w-4 h-4" />
-                            <span>Delete</span>
+                            <span>{currentContent.delete}</span>
                           </button>
                         </div>
                       )}
@@ -333,7 +401,7 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
                   )}
 
                   <p className="text-xs text-gray-500">
-                    Updated {formatTime(project.updatedAt)}
+                    {currentContent.updated} {formatTime(project.updatedAt)}
                   </p>
                 </div>
               ))}
@@ -350,7 +418,6 @@ export default function CollectionsView({ onNewChat, onSelectProject }: Collecti
       />
 
       {/* 프로젝트 삭제 확인 모달 */}
-      {console.log("Rendering DeleteProjectModal, isOpen:", deleteModalOpen, "projectToDelete:", projectToDelete)}
       <DeleteProjectModal
         isOpen={deleteModalOpen}
         onClose={() => {

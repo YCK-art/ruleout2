@@ -1,17 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { Shield, Lock, Cloud, Search, Smartphone, FileText, Award, AlertTriangle, Monitor, Sun, Moon, Globe, ChevronDown } from "lucide-react";
+import { Shield, Lock, Cloud, Search, Smartphone, FileText, Award, AlertTriangle } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Toolbar from "@/app/components/Toolbar";
+import Footer from '@/app/components/Footer';
 import { signInWithGoogle } from "@/lib/auth";
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function SecurityPage() {
   const router = useRouter();
+  const { language } = useLanguage();
   const [showLoginModal, setShowLoginModal] = useState(false);
-  const [themeMode, setThemeMode] = useState<"system" | "light" | "dark">("dark");
-  const [language, setLanguage] = useState("English");
 
   const handleLogin = () => {
     setShowLoginModal(true);
@@ -27,28 +28,181 @@ export default function SecurityPage() {
     }
   };
 
-  const securityFeatures = [
-    {
-      icon: Lock,
-      title: "Encryption of sensitive data",
-      description: "We encrypt your data using AES-256, the gold standard in encryption technology and safeguard passwords using secure cryptographic hash (SHA-256).",
+  const content = {
+    English: {
+      pageTitle: "SECURITY",
+      heroTitle: "Security is at the heart of everything we do",
+      heroSubtitle: "Security is a core principle of Ruleout—from our tech to our culture. We're SOC 2 Type I & II and Privacy Law compliant.",
+      trustCenterBtn: "Visit the trust center",
+      vulnerabilityBtn: "Vulnerability Disclosure Policy",
+      howWeThinkTitle: "How we think about security",
+      foundThreatTitle: "Found a security threat?",
+      foundThreatSubtitle: "We reward those who help us stay secure.",
+      reportThreatBtn: "Report security threat",
+      vetDataTitle: "Veterinary Medical Data Protection",
+      vetDataDesc: "Ruleout protects all veterinary clinical data including patient records, test results, and prescriptions with the highest security standards. Our platform gives veterinarians peace of mind when searching clinical guidelines.",
+      encryption: "256-bit",
+      encryptionLabel: "AES Encryption",
+      monitoring: "24/7",
+      monitoringLabel: "Security Monitoring",
+      compliance: "100%",
+      complianceLabel: "Compliance",
+      loginTitle: "Log in or Sign up",
+      loginSubtitle: "Choose your work email.",
+      whyNeeded: "Why is this needed?",
+      continueGoogle: "Continue with Google",
+      continueMicrosoft: "Continue with Microsoft",
+      continueApple: "Continue with Apple",
+      continueEmail: "Continue with Email",
+      or: "or",
+      securityFeatures: [
+        {
+          title: "Encryption of sensitive data",
+          description: "We encrypt your data using AES-256, the gold standard in encryption technology and safeguard passwords using secure cryptographic hash (SHA-256)."
+        },
+        {
+          title: "Trusted cloud security",
+          description: "We leverage industry-leading cloud providers to ensure your data is safe. This means global accessibility with enterprise-grade protection."
+        },
+        {
+          title: "Penetration testing and scanning",
+          description: "We conduct annual third-party penetration tests and share results via our Trust center. Weekly scans keep our product resilient against vulnerabilities."
+        },
+        {
+          title: "Endpoint security",
+          description: "We ensure our devices run the latest OS and app versions within a month of release, with security updates applied as soon as available."
+        }
+      ],
+      securityThreats: [
+        {
+          title: "Responsible vulnerability disclosure",
+          description: "Our policy encourages ethical reporting of vulnerabilities. We assess and respond quickly—security concerns are our top priority."
+        },
+        {
+          title: "Reward eligibility",
+          description: "Qualifying vulnerabilities may earn you a place in our bug bounty program. We recognize discoveries that enhance our security."
+        }
+      ]
     },
-    {
-      icon: Cloud,
-      title: "Trusted cloud security",
-      description: "We leverage industry-leading cloud providers to ensure your data is safe. This means global accessibility with enterprise-grade protection.",
+    한국어: {
+      pageTitle: "보안",
+      heroTitle: "보안은 우리가 하는 모든 일의 핵심입니다",
+      heroSubtitle: "보안은 Ruleout의 핵심 원칙입니다. 기술부터 문화까지 모든 것이 보안에 기반합니다. 우리는 SOC 2 Type I & II 및 개인정보보호법을 준수합니다.",
+      trustCenterBtn: "보안 센터 방문",
+      vulnerabilityBtn: "취약점 공개 정책",
+      howWeThinkTitle: "보안에 대한 우리의 접근법",
+      foundThreatTitle: "보안 위협을 발견하셨나요?",
+      foundThreatSubtitle: "우리의 보안을 강화하는 분들께 보상을 제공합니다.",
+      reportThreatBtn: "보안 위협 신고",
+      vetDataTitle: "수의학 의료 데이터 보호",
+      vetDataDesc: "Ruleout은 환자 기록, 검사 결과, 처방전을 포함한 모든 수의학 임상 데이터를 최고 수준의 보안 표준으로 보호합니다. 우리 플랫폼은 수의사가 임상 가이드라인을 검색할 때 안심할 수 있도록 합니다.",
+      encryption: "256비트",
+      encryptionLabel: "AES 암호화",
+      monitoring: "연중무휴",
+      monitoringLabel: "보안 모니터링",
+      compliance: "100%",
+      complianceLabel: "규정 준수",
+      loginTitle: "로그인 또는 회원가입",
+      loginSubtitle: "업무용 이메일을 선택하세요.",
+      whyNeeded: "왜 필요한가요?",
+      continueGoogle: "Google로 계속하기",
+      continueMicrosoft: "Microsoft로 계속하기",
+      continueApple: "Apple로 계속하기",
+      continueEmail: "이메일로 계속하기",
+      or: "또는",
+      securityFeatures: [
+        {
+          title: "민감한 데이터의 암호화",
+          description: "업계 표준인 AES-256 암호화 기술을 사용하여 데이터를 보호하고, 안전한 암호화 해시(SHA-256)를 사용하여 비밀번호를 보호합니다."
+        },
+        {
+          title: "신뢰할 수 있는 클라우드 보안",
+          description: "업계 최고의 클라우드 제공업체를 활용하여 데이터를 안전하게 보호합니다. 이는 엔터프라이즈급 보호와 함께 전 세계적인 접근성을 의미합니다."
+        },
+        {
+          title: "침투 테스트 및 스캐닝",
+          description: "연간 제3자 침투 테스트를 수행하고 결과를 보안 센터를 통해 공유합니다. 매주 스캔을 실시하여 제품이 취약점에 대해 복원력을 유지하도록 합니다."
+        },
+        {
+          title: "엔드포인트 보안",
+          description: "모든 장치가 출시 후 한 달 이내에 최신 OS 및 앱 버전을 실행하도록 하며, 보안 업데이트는 사용 가능한 즉시 적용됩니다."
+        }
+      ],
+      securityThreats: [
+        {
+          title: "책임 있는 취약점 공개",
+          description: "우리의 정책은 윤리적인 취약점 보고를 장려합니다. 신속하게 평가하고 대응하며, 보안 문제는 우리의 최우선 과제입니다."
+        },
+        {
+          title: "보상 자격",
+          description: "자격을 갖춘 취약점 발견자는 버그 바운티 프로그램에 참여할 수 있습니다. 우리의 보안을 강화하는 발견에 대해 보상합니다."
+        }
+      ]
     },
-    {
-      icon: Search,
-      title: "Penetration testing and scanning",
-      description: "We conduct annual third-party penetration tests and share results via our Trust center. Weekly scans keep our product resilient against vulnerabilities.",
-    },
-    {
-      icon: Smartphone,
-      title: "Endpoint security",
-      description: "We ensure our devices run the latest OS and app versions within a month of release, with security updates applied as soon as available.",
-    },
-  ];
+    日本語: {
+      pageTitle: "セキュリティ",
+      heroTitle: "セキュリティは私たちのすべての業務の中心です",
+      heroSubtitle: "セキュリティはRuleoutの中核原則です。技術から文化まで、すべてがセキュリティに基づいています。SOC 2 Type I & IIおよびプライバシー法に準拠しています。",
+      trustCenterBtn: "トラストセンターを訪問",
+      vulnerabilityBtn: "脆弱性開示ポリシー",
+      howWeThinkTitle: "セキュリティに対する私たちの考え方",
+      foundThreatTitle: "セキュリティの脅威を発見しましたか？",
+      foundThreatSubtitle: "セキュリティ強化にご協力いただいた方に報酬を提供します。",
+      reportThreatBtn: "セキュリティ脅威を報告",
+      vetDataTitle: "獣医医療データ保護",
+      vetDataDesc: "Ruleoutは、患者記録、検査結果、処方箋を含むすべての獣医臨床データを最高レベルのセキュリティ基準で保護します。当プラットフォームは、獣医師が臨床ガイドラインを検索する際に安心感を提供します。",
+      encryption: "256ビット",
+      encryptionLabel: "AES暗号化",
+      monitoring: "24時間365日",
+      monitoringLabel: "セキュリティ監視",
+      compliance: "100%",
+      complianceLabel: "コンプライアンス",
+      loginTitle: "ログインまたはサインアップ",
+      loginSubtitle: "業務用メールを選択してください。",
+      whyNeeded: "なぜ必要ですか？",
+      continueGoogle: "Googleで続行",
+      continueMicrosoft: "Microsoftで続行",
+      continueApple: "Appleで続行",
+      continueEmail: "メールで続行",
+      or: "または",
+      securityFeatures: [
+        {
+          title: "機密データの暗号化",
+          description: "業界標準のAES-256暗号化技術を使用してデータを保護し、安全な暗号化ハッシュ（SHA-256）を使用してパスワードを保護します。"
+        },
+        {
+          title: "信頼できるクラウドセキュリティ",
+          description: "業界をリードするクラウドプロバイダーを活用してデータを安全に保護します。これは、エンタープライズグレードの保護とグローバルなアクセス性を意味します。"
+        },
+        {
+          title: "侵入テストとスキャン",
+          description: "年次で第三者侵入テストを実施し、結果をトラストセンターを通じて共有します。毎週のスキャンにより、製品が脆弱性に対して回復力を維持します。"
+        },
+        {
+          title: "エンドポイントセキュリティ",
+          description: "すべてのデバイスがリリース後1か月以内に最新のOSとアプリバージョンを実行するようにし、セキュリティアップデートは利用可能になり次第適用します。"
+        }
+      ],
+      securityThreats: [
+        {
+          title: "責任ある脆弱性の開示",
+          description: "私たちのポリシーは、倫理的な脆弱性の報告を奨励します。迅速に評価し対応します。セキュリティ上の懸念は最優先事項です。"
+        },
+        {
+          title: "報酬の資格",
+          description: "適格な脆弱性の発見者は、バグバウンティプログラムに参加できます。セキュリティを強化する発見に対して報酬を提供します。"
+        }
+      ]
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
+
+  const securityFeatures = currentContent.securityFeatures.map((feature, index) => ({
+    icon: [Lock, Cloud, Search, Smartphone][index],
+    title: feature.title,
+    description: feature.description
+  }));
 
   const complianceItems = [
     { name: "SOC 2", type: "TYPE I" },
@@ -56,18 +210,11 @@ export default function SecurityPage() {
     { name: "PRIVACY", type: "LAW" },
   ];
 
-  const securityThreatItems = [
-    {
-      icon: FileText,
-      title: "Responsible vulnerability disclosure",
-      description: "Our policy encourages ethical reporting of vulnerabilities. We assess and respond quickly—security concerns are our top priority.",
-    },
-    {
-      icon: Award,
-      title: "Reward eligibility",
-      description: "Qualifying vulnerabilities may earn you a place in our bug bounty program. We recognize discoveries that enhance our security.",
-    },
-  ];
+  const securityThreatItems = currentContent.securityThreats.map((threat, index) => ({
+    icon: [FileText, Award][index],
+    title: threat.title,
+    description: threat.description
+  }));
 
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
@@ -79,21 +226,21 @@ export default function SecurityPage() {
         {/* Hero Section */}
         <div className="mb-20 flex items-center justify-between">
           <div className="flex-1 max-w-2xl">
-            <p className="text-[#4DB8C4] text-xl font-medium mb-6" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>SECURITY</p>
+            <p className="text-[#4DB8C4] text-xl font-medium mb-6" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{currentContent.pageTitle}</p>
             <h1 className="text-5xl font-bold text-white leading-tight mb-6" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-              Security is at the <span className="italic">heart</span>
+              {currentContent.heroTitle.split(' ').slice(0, -6).join(' ')} <span className="italic">{currentContent.heroTitle.split(' ').slice(-6, -5).join(' ')}</span>
               <br />
-              of everything we do
+              {currentContent.heroTitle.split(' ').slice(-5).join(' ')}
             </h1>
             <p className="text-gray-400 text-lg leading-relaxed mb-8" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-              Security is a core principle of Ruleout—from our tech to our culture. We're SOC 2 Type I & II and Privacy Law compliant.
+              {currentContent.heroSubtitle}
             </p>
             <div className="flex items-center gap-4">
               <button className="px-6 py-3 bg-[#20808D] text-white font-medium rounded-lg hover:bg-[#1a6b77] transition-colors">
-                Visit the trust center
+                {currentContent.trustCenterBtn}
               </button>
               <button className="px-6 py-3 text-gray-300 hover:text-white transition-colors">
-                Vulnerability Disclosure Policy
+                {currentContent.vulnerabilityBtn}
               </button>
             </div>
           </div>
@@ -137,7 +284,7 @@ export default function SecurityPage() {
 
         {/* How we think about security */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-white mb-12" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>How we think about security</h2>
+          <h2 className="text-4xl font-bold text-white mb-12" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{currentContent.howWeThinkTitle}</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {securityFeatures.map((feature, index) => {
@@ -165,14 +312,14 @@ export default function SecurityPage() {
         <div className="mb-20">
           <div className="flex items-start justify-between mb-8">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-3">Found a security threat?</h2>
-              <p className="text-gray-400 text-lg">We reward those who help us stay secure.</p>
+              <h2 className="text-3xl font-bold text-white mb-3">{currentContent.foundThreatTitle}</h2>
+              <p className="text-gray-400 text-lg">{currentContent.foundThreatSubtitle}</p>
             </div>
             <AlertTriangle className="w-12 h-12 text-[#4DB8C4]" />
           </div>
 
           <button className="text-[#4DB8C4] font-medium flex items-center gap-2 mb-8 hover:gap-4 transition-all">
-            Report security threat
+            {currentContent.reportThreatBtn}
             <span>→</span>
           </button>
 
@@ -204,198 +351,30 @@ export default function SecurityPage() {
         <div className="p-12 bg-gradient-to-br from-[#20808D]/10 to-[#4DB8C4]/10 rounded-2xl border border-[#20808D]/20">
           <div className="flex items-center gap-4 mb-6">
             <Shield className="w-12 h-12 text-[#4DB8C4]" />
-            <h2 className="text-3xl font-bold text-white" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>Veterinary Medical Data Protection</h2>
+            <h2 className="text-3xl font-bold text-white" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{currentContent.vetDataTitle}</h2>
           </div>
           <p className="text-gray-300 text-lg leading-relaxed mb-6" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
-            Ruleout protects all veterinary clinical data including patient records, test results, and prescriptions with the highest security standards. Our platform gives veterinarians peace of mind when searching clinical guidelines.
+            {currentContent.vetDataDesc}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-[#1a1a1a]/50 rounded-lg">
-              <p className="text-[#4DB8C4] font-bold text-2xl mb-1">256-bit</p>
-              <p className="text-gray-400 text-sm">AES Encryption</p>
+              <p className="text-[#4DB8C4] font-bold text-2xl mb-1">{currentContent.encryption}</p>
+              <p className="text-gray-400 text-sm">{currentContent.encryptionLabel}</p>
             </div>
             <div className="p-4 bg-[#1a1a1a]/50 rounded-lg">
-              <p className="text-[#4DB8C4] font-bold text-2xl mb-1">24/7</p>
-              <p className="text-gray-400 text-sm">Security Monitoring</p>
+              <p className="text-[#4DB8C4] font-bold text-2xl mb-1">{currentContent.monitoring}</p>
+              <p className="text-gray-400 text-sm">{currentContent.monitoringLabel}</p>
             </div>
             <div className="p-4 bg-[#1a1a1a]/50 rounded-lg">
-              <p className="text-[#4DB8C4] font-bold text-2xl mb-1">100%</p>
-              <p className="text-gray-400 text-sm">Compliance</p>
+              <p className="text-[#4DB8C4] font-bold text-2xl mb-1">{currentContent.compliance}</p>
+              <p className="text-gray-400 text-sm">{currentContent.complianceLabel}</p>
             </div>
           </div>
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="relative bg-[#0a0a0a]">
-        {/* Gradient transition */}
-        <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-6 py-16 relative">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-12 mb-12">
-            {/* Product Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Product</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/pricing')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Pricing
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Resources Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Resources</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/blog')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Blog
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Support
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Company</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/mission')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Mission
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/careers')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Careers
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Legal</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/terms')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Terms of Use
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/privacy')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Privacy Policy
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/security')} className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Security
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Connect Column */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Connect</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-gray-400 hover:text-[#4DB8C4] transition-colors">
-                    YouTube
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom Bar */}
-          <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
-            {/* Left: Copyright */}
-            <p className="text-gray-500 text-sm">
-              © 2025 Ruleout. All rights reserved.
-            </p>
-
-            {/* Right: Theme Selector & Language */}
-            <div className="flex items-center gap-4">
-              {/* Theme Selector */}
-              <div className="flex items-center bg-[#1a1a1a] rounded-lg p-1 border border-gray-800">
-                <button
-                  onClick={() => setThemeMode("system")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "system"
-                      ? "bg-gray-700 text-white"
-                      : "text-gray-400 hover:text-white"
-                  }`}
-                  title="System"
-                >
-                  <Monitor className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => setThemeMode("light")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "light"
-                      ? "bg-gray-700 text-white"
-                      : "text-gray-400 hover:text-white"
-                  }`}
-                  title="Light"
-                >
-                  <Sun className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => setThemeMode("dark")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "dark"
-                      ? "bg-gray-700 text-white"
-                      : "text-gray-400 hover:text-white"
-                  }`}
-                  title="Dark"
-                >
-                  <Moon className="w-4 h-4" />
-                </button>
-              </div>
-
-              {/* Language Selector */}
-              <div className="relative">
-                <button className="flex items-center gap-2 px-3 py-2 bg-[#1a1a1a] rounded-lg border border-gray-800 text-gray-400 hover:text-white transition-colors">
-                  <Globe className="w-4 h-4" />
-                  <span className="text-sm">{language}</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       {/* Login Modal */}
       {showLoginModal && (
@@ -426,10 +405,10 @@ export default function SecurityPage() {
                 <span className="text-2xl font-bold text-white">Ruleout</span>
               </div>
               <h2 className="text-3xl font-bold text-white mb-2">
-                Log in or Sign up
+                {currentContent.loginTitle}
               </h2>
               <p className="text-gray-400">
-                Choose your work email. <a href="#" className="text-[#20808D] hover:underline">Why is this needed?</a>
+                {currentContent.loginSubtitle} <a href="#" className="text-[#20808D] hover:underline">{currentContent.whyNeeded}</a>
               </p>
             </div>
 
@@ -445,7 +424,7 @@ export default function SecurityPage() {
                     <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                     <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                   </svg>
-                  <span className="text-white font-medium">Continue with Google</span>
+                  <span className="text-white font-medium">{currentContent.continueGoogle}</span>
                 </div>
               </button>
 
@@ -458,7 +437,7 @@ export default function SecurityPage() {
                     <path fill="#05a6f0" d="M1 12h10v10H1z"/>
                     <path fill="#ffba08" d="M12 12h10v10H12z"/>
                   </svg>
-                  <span className="text-white font-medium">Continue with Microsoft</span>
+                  <span className="text-white font-medium">{currentContent.continueMicrosoft}</span>
                 </div>
               </button>
 
@@ -467,18 +446,18 @@ export default function SecurityPage() {
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="white">
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                   </svg>
-                  <span className="text-white font-medium">Continue with Apple</span>
+                  <span className="text-white font-medium">{currentContent.continueApple}</span>
                 </div>
               </button>
 
               <div className="flex items-center my-4">
                 <div className="flex-1 border-t border-gray-700"></div>
-                <span className="px-4 text-gray-400">or</span>
+                <span className="px-4 text-gray-400">{currentContent.or}</span>
                 <div className="flex-1 border-t border-gray-700"></div>
               </div>
 
               <button className="w-full px-6 py-4 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6a78] transition-colors font-medium">
-                Continue with Email
+                {currentContent.continueEmail}
               </button>
             </div>
           </div>

@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ChevronDown, Check, Monitor, Sun, Moon, Globe } from "lucide-react";
+import { ChevronDown, Check } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { signInWithGoogle } from "@/lib/auth";
 import Toolbar from "@/app/components/Toolbar";
+import Footer from '@/app/components/Footer';
 import { useTheme } from "@/contexts/ThemeContext";
+import { useLanguage } from '@/contexts/LanguageContext';
 
 // Count-up animation hook
 function useCountUp(targetValue: number, duration: number = 500) {
@@ -46,9 +48,221 @@ function useCountUp(targetValue: number, duration: number = 500) {
 export default function PricingPage() {
   const router = useRouter();
   const { themeMode, setThemeMode, effectiveTheme } = useTheme();
+  const { language } = useLanguage();
   const [billingPeriod, setBillingPeriod] = useState<"monthly" | "yearly">("monthly");
   const [showLoginModal, setShowLoginModal] = useState(false);
-  const [language, setLanguage] = useState("English");
+
+  const content = {
+    English: {
+      pricing: "Pricing",
+      subtitle: "We are committed to a better life for animals.",
+      monthly: "Monthly",
+      yearly: "Yearly",
+      perMonth: "/mo.",
+      off: "% off",
+      free: "Free",
+      pro: "Pro",
+      max: "Max",
+      enterprise: "Enterprise",
+      letsTalk: "Let's Talk",
+      includes: "Includes:",
+      getStarted: "Get Started",
+      getPro: "Get Pro",
+      getMax: "Get Max",
+      contactSales: "Contact Sales",
+      comparePlans: "Compare plans",
+      signUp: "Sign up",
+      contactUs: "Contact us",
+      cascade: "Cascade",
+      features: "Features",
+      messageLimits: "Message Limits",
+      addOnCredits: "Add-on prompt credits",
+      tab: "Tab",
+      previews: "Previews",
+      deploys: "Deploys",
+      allPremiumModels: "All premium models",
+      fastContext: "Fast Context",
+      sweModel: "SWE-15 model",
+      windsurfReviews: "Windsurf Reviews",
+      centralizedBilling: "Centralized billing",
+      adminDashboard: "Admin dashboard with analytics",
+      prioritySupport: "Priority support",
+      unlimited: "Unlimited",
+      loginTitle: "Log in or Sign up",
+      loginSubtitle: "Choose your work email.",
+      whyNeeded: "Why is this needed?",
+      continueGoogle: "Continue with Google",
+      continueMicrosoft: "Continue with Microsoft",
+      continueApple: "Continue with Apple",
+      continueEmail: "Continue with Email",
+      or: "or",
+      freeDesc: "Get started with basic features",
+      proDesc: "Everything in Free, plus:",
+      maxDesc: "Everything in Pro, plus:",
+      enterpriseDesc: "Everything in Max, plus:",
+      freeFeatures: [
+        "One-week Pro trial",
+        "Limited Agent requests",
+        "Limited Tab completions"
+      ],
+      proFeatures: [
+        "Extended limits on Agent",
+        "Unlimited Tab completions",
+        "Background Agents",
+        "Maximum context windows"
+      ],
+      maxFeatures: [
+        "3x usage on all OpenAI, Claude, Gemini models",
+        "Priority access to new features"
+      ],
+      enterpriseFeatures: [
+        "Centralized billing",
+        "Admin dashboard with analytics",
+        "Priority support",
+        "Custom integrations"
+      ]
+    },
+    한국어: {
+      pricing: "가격",
+      subtitle: "우리는 동물들의 더 나은 삶을 위해 헌신합니다.",
+      monthly: "월간",
+      yearly: "연간",
+      perMonth: "/월",
+      off: "% 할인",
+      free: "무료",
+      pro: "프로",
+      max: "맥스",
+      enterprise: "엔터프라이즈",
+      letsTalk: "상담하기",
+      includes: "포함 내용:",
+      getStarted: "시작하기",
+      getPro: "프로 구매",
+      getMax: "맥스 구매",
+      contactSales: "영업팀 문의",
+      comparePlans: "플랜 비교",
+      signUp: "가입하기",
+      contactUs: "문의하기",
+      cascade: "캐스케이드",
+      features: "기능",
+      messageLimits: "메시지 제한",
+      addOnCredits: "추가 프롬프트 크레딧",
+      tab: "탭",
+      previews: "미리보기",
+      deploys: "배포",
+      allPremiumModels: "모든 프리미엄 모델",
+      fastContext: "빠른 컨텍스트",
+      sweModel: "SWE-15 모델",
+      windsurfReviews: "Windsurf 리뷰",
+      centralizedBilling: "중앙 집중식 결제",
+      adminDashboard: "분석 관리자 대시보드",
+      prioritySupport: "우선 지원",
+      unlimited: "무제한",
+      loginTitle: "로그인 또는 회원가입",
+      loginSubtitle: "업무용 이메일을 선택하세요.",
+      whyNeeded: "왜 필요한가요?",
+      continueGoogle: "Google로 계속하기",
+      continueMicrosoft: "Microsoft로 계속하기",
+      continueApple: "Apple로 계속하기",
+      continueEmail: "이메일로 계속하기",
+      or: "또는",
+      freeDesc: "기본 기능으로 시작하기",
+      proDesc: "무료 플랜의 모든 기능 및:",
+      maxDesc: "프로 플랜의 모든 기능 및:",
+      enterpriseDesc: "맥스 플랜의 모든 기능 및:",
+      freeFeatures: [
+        "1주일 프로 체험",
+        "제한된 에이전트 요청",
+        "제한된 탭 자동 완성"
+      ],
+      proFeatures: [
+        "에이전트 확장 한도",
+        "무제한 탭 자동 완성",
+        "백그라운드 에이전트",
+        "최대 컨텍스트 윈도우"
+      ],
+      maxFeatures: [
+        "모든 OpenAI, Claude, Gemini 모델 3배 사용량",
+        "새로운 기능 우선 액세스"
+      ],
+      enterpriseFeatures: [
+        "중앙 집중식 결제",
+        "분석이 포함된 관리자 대시보드",
+        "우선 지원",
+        "맞춤형 통합"
+      ]
+    },
+    日本語: {
+      pricing: "料金",
+      subtitle: "私たちは動物たちのより良い生活に尽力しています。",
+      monthly: "月間",
+      yearly: "年間",
+      perMonth: "/月",
+      off: "% オフ",
+      free: "無料",
+      pro: "プロ",
+      max: "マックス",
+      enterprise: "エンタープライズ",
+      letsTalk: "相談する",
+      includes: "含まれるもの:",
+      getStarted: "始める",
+      getPro: "プロを取得",
+      getMax: "マックスを取得",
+      contactSales: "営業に問い合わせ",
+      comparePlans: "プランを比較",
+      signUp: "サインアップ",
+      contactUs: "お問い合わせ",
+      cascade: "カスケード",
+      features: "機能",
+      messageLimits: "メッセージ制限",
+      addOnCredits: "追加プロンプトクレジット",
+      tab: "タブ",
+      previews: "プレビュー",
+      deploys: "デプロイ",
+      allPremiumModels: "すべてのプレミアムモデル",
+      fastContext: "高速コンテキスト",
+      sweModel: "SWE-15モデル",
+      windsurfReviews: "Windsurfレビュー",
+      centralizedBilling: "一元化された請求",
+      adminDashboard: "分析管理ダッシュボード",
+      prioritySupport: "優先サポート",
+      unlimited: "無制限",
+      loginTitle: "ログインまたはサインアップ",
+      loginSubtitle: "業務用メールアドレスを選択してください。",
+      whyNeeded: "なぜ必要ですか？",
+      continueGoogle: "Googleで続ける",
+      continueMicrosoft: "Microsoftで続ける",
+      continueApple: "Appleで続ける",
+      continueEmail: "メールアドレスで続ける",
+      or: "または",
+      freeDesc: "基本機能から始める",
+      proDesc: "無料プランのすべて、さらに:",
+      maxDesc: "プロプランのすべて、さらに:",
+      enterpriseDesc: "マックスプランのすべて、さらに:",
+      freeFeatures: [
+        "1週間のプロトライアル",
+        "限定エージェントリクエスト",
+        "限定タブ補完"
+      ],
+      proFeatures: [
+        "エージェントの拡張制限",
+        "無制限タブ補完",
+        "バックグラウンドエージェント",
+        "最大コンテキストウィンドウ"
+      ],
+      maxFeatures: [
+        "すべてのOpenAI、Claude、Geminiモデルで3倍の使用量",
+        "新機能への優先アクセス"
+      ],
+      enterpriseFeatures: [
+        "一元化された請求",
+        "分析付き管理ダッシュボード",
+        "優先サポート",
+        "カスタム統合"
+      ]
+    }
+  };
+
+  const t = content[language];
 
   const handleLogin = () => {
     setShowLoginModal(true);
@@ -75,58 +289,41 @@ export default function PricingPage() {
 
   const plans = [
     {
-      name: "Free",
+      name: t.free,
       monthlyPrice: 0,
       yearlyPricePerMonth: 0,
-      description: "Get started with basic features",
-      features: [
-        "One-week Pro trial",
-        "Limited Agent requests",
-        "Limited Tab completions"
-      ],
-      buttonText: "Get Started",
+      description: t.freeDesc,
+      features: t.freeFeatures,
+      buttonText: t.getStarted,
       buttonStyle: getButtonStyle(false),
       onClick: () => setShowLoginModal(true)
     },
     {
-      name: "Pro",
+      name: t.pro,
       monthlyPrice: 20,
       yearlyPricePerMonth: 12,
-      description: "Everything in Free, plus:",
-      features: [
-        "Extended limits on Agent",
-        "Unlimited Tab completions",
-        "Background Agents",
-        "Maximum context windows"
-      ],
-      buttonText: "Get Pro",
+      description: t.proDesc,
+      features: t.proFeatures,
+      buttonText: t.getPro,
       buttonStyle: getButtonStyle(true),
       recommended: true
     },
     {
-      name: "Max",
+      name: t.max,
       monthlyPrice: 60,
       yearlyPricePerMonth: 45,
-      description: "Everything in Pro, plus:",
-      features: [
-        "3x usage on all OpenAI, Claude, Gemini models",
-        "Priority access to new features"
-      ],
-      buttonText: "Get Max",
+      description: t.maxDesc,
+      features: t.maxFeatures,
+      buttonText: t.getMax,
       buttonStyle: getButtonStyle(false)
     },
     {
-      name: "Enterprise",
+      name: t.enterprise,
       monthlyPrice: null,
       yearlyPricePerMonth: null,
-      description: "Everything in Max, plus:",
-      features: [
-        "Centralized billing",
-        "Admin dashboard with analytics",
-        "Priority support",
-        "Custom integrations"
-      ],
-      buttonText: "Contact Sales",
+      description: t.enterpriseDesc,
+      features: t.enterpriseFeatures,
+      buttonText: t.contactSales,
       buttonStyle: getButtonStyle(false),
       isEnterprise: true
     }
@@ -141,8 +338,8 @@ export default function PricingPage() {
       <div className="max-w-7xl mx-auto px-6 py-20 pt-32" style={{ marginTop: '20px' }}>
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className={`text-5xl font-bold mb-4 ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>Pricing</h1>
-          <p className={`text-xl ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"} mb-10`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>We are committed to a better life for animals.</p>
+          <h1 className={`text-5xl font-bold mb-4 ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{t.pricing}</h1>
+          <p className={`text-xl ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"} mb-10`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{t.subtitle}</p>
 
           {/* Billing Segment Control */}
           <div className={`inline-flex items-center ${effectiveTheme === "light" ? "bg-gray-100" : "bg-[#2a2a2a]"} rounded-xl p-1 mb-4`}>
@@ -154,7 +351,7 @@ export default function PricingPage() {
                   : effectiveTheme === "light" ? "text-gray-600 hover:text-gray-900" : "text-gray-400 hover:text-gray-200"
               }`}
             >
-              Monthly
+              {t.monthly}
             </button>
             <button
               onClick={() => setBillingPeriod("yearly")}
@@ -164,7 +361,7 @@ export default function PricingPage() {
                   : effectiveTheme === "light" ? "text-gray-600 hover:text-gray-900" : "text-gray-400 hover:text-gray-200"
               }`}
             >
-              Yearly
+              {t.yearly}
             </button>
           </div>
         </div>
@@ -175,8 +372,8 @@ export default function PricingPage() {
             {plans.map((plan, index) => {
               const price = billingPeriod === "monthly" ? plan.monthlyPrice : plan.yearlyPricePerMonth;
               const animatedPrice = useCountUp(price || 0);
-              const discount = plan.monthlyPrice > 0
-                ? Math.round((1 - plan.yearlyPricePerMonth / plan.monthlyPrice) * 100)
+              const discount = plan.monthlyPrice && plan.monthlyPrice > 0
+                ? Math.round((1 - (plan.yearlyPricePerMonth || 0) / plan.monthlyPrice) * 100)
                 : 0;
 
               return (
@@ -209,26 +406,26 @@ export default function PricingPage() {
                     <div className="flex items-baseline gap-3 mb-2">
                       {plan.isEnterprise ? (
                         <div className="flex items-baseline">
-                          <span className={`text-4xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Let's Talk</span>
+                          <span className={`text-4xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.letsTalk}</span>
                         </div>
                       ) : (
                         <>
                           <div className="flex items-baseline">
                             <span className={`text-4xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>${animatedPrice}</span>
-                            {price > 0 && (
-                              <span className={`ml-2 ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>/mo.</span>
+                            {price && price > 0 && (
+                              <span className={`ml-2 ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>{t.perMonth}</span>
                             )}
                           </div>
                           {billingPeriod === "yearly" && discount > 0 && (
                             <span className="text-[#20808D] text-sm font-semibold">
-                              {discount}% off
+                              {discount}{t.off}
                             </span>
                           )}
                         </>
                       )}
                     </div>
-                    {plan.name === "Free" && <p className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>Includes:</p>}
-                    {plan.name !== "Free" && <p className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>{plan.description}</p>}
+                    {plan.name === t.free && <p className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>{t.includes}</p>}
+                    {plan.name !== t.free && <p className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>{plan.description}</p>}
                   </div>
 
                   <div className="mb-8 space-y-3 flex-grow">
@@ -278,7 +475,7 @@ export default function PricingPage() {
 
       {/* Compare Plans Section */}
       <div className="max-w-7xl mx-auto px-6 py-20">
-        <h2 className={`text-5xl font-bold text-center mb-16 ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>Compare plans</h2>
+        <h2 className={`text-5xl font-bold text-center mb-16 ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{t.comparePlans}</h2>
 
         <div className="overflow-x-auto">
           <table className="w-full">
@@ -290,9 +487,9 @@ export default function PricingPage() {
                 {/* Free Plan */}
                 <th className="text-center py-6 px-4">
                   <div className="flex flex-col items-center gap-4">
-                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Free</div>
+                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.free}</div>
                     <div className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>
-                      <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>$0</span> per month
+                      <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>$0</span> {t.perMonth}
                     </div>
                     <button
                       onClick={() => setShowLoginModal(true)}
@@ -307,7 +504,7 @@ export default function PricingPage() {
                           : '0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
                       }}
                     >
-                      Sign up
+                      {t.signUp}
                     </button>
                   </div>
                 </th>
@@ -315,9 +512,9 @@ export default function PricingPage() {
                 {/* Pro Plan */}
                 <th className="text-center py-6 px-4">
                   <div className="flex flex-col items-center gap-4">
-                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Pro</div>
+                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.pro}</div>
                     <div className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>
-                      <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>${billingPeriod === "monthly" ? 20 : 12}</span> per month
+                      <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>${billingPeriod === "monthly" ? 20 : 12}</span> {t.perMonth}
                     </div>
                     <button
                       className="w-full px-6 py-2.5 bg-[#20808D] rounded-lg hover:bg-[#1a6b77] transition-all duration-200 text-white font-medium"
@@ -325,7 +522,7 @@ export default function PricingPage() {
                         boxShadow: '0 4px 14px rgba(32, 128, 141, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)'
                       }}
                     >
-                      Sign up
+                      {t.signUp}
                     </button>
                   </div>
                 </th>
@@ -333,9 +530,9 @@ export default function PricingPage() {
                 {/* Max Plan */}
                 <th className="text-center py-6 px-4">
                   <div className="flex flex-col items-center gap-4">
-                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Max</div>
+                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.max}</div>
                     <div className={`text-sm ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>
-                      <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>${billingPeriod === "monthly" ? 60 : 45}</span> per month
+                      <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>${billingPeriod === "monthly" ? 60 : 45}</span> {t.perMonth}
                     </div>
                     <button
                       className={`w-full px-6 py-2.5 border-2 ${
@@ -349,7 +546,7 @@ export default function PricingPage() {
                           : '0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
                       }}
                     >
-                      Sign up
+                      {t.signUp}
                     </button>
                   </div>
                 </th>
@@ -357,9 +554,9 @@ export default function PricingPage() {
                 {/* Enterprise Plan */}
                 <th className="text-center py-6 px-4">
                   <div className="flex flex-col items-center gap-4">
-                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Enterprise</div>
+                    <div className={`font-bold text-xl ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.enterprise}</div>
                     <div className={`text-sm h-[40px] flex items-center justify-center ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>
-                      <span className={`text-lg font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Contact Us</span>
+                      <span className={`text-lg font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.contactUs}</span>
                     </div>
                     <button
                       className={`w-full px-6 py-2.5 border-2 ${
@@ -373,7 +570,7 @@ export default function PricingPage() {
                           : '0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
                       }}
                     >
-                      Contact us
+                      {t.contactUs}
                     </button>
                   </div>
                 </th>
@@ -384,20 +581,20 @@ export default function PricingPage() {
               {/* Cascade Section */}
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200" : "border-gray-800"}`}>
                 <td colSpan={5} className="py-4 px-4">
-                  <div className={`font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Cascade</div>
+                  <div className={`font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.cascade}</div>
                 </td>
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Message Limits</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.messageLimits}</td>
                 <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>15 messages/mo</td>
                 <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>300 messages/mo</td>
-                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Unlimited</td>
-                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Unlimited</td>
+                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.unlimited}</td>
+                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.unlimited}</td>
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Add-on prompt credits</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.addOnCredits}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto">✕</span>
                 </td>
@@ -409,36 +606,20 @@ export default function PricingPage() {
               {/* Features Section */}
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200" : "border-gray-800"}`}>
                 <td colSpan={5} className="py-4 px-4">
-                  <div className={`font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Features</div>
+                  <div className={`font-semibold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.features}</div>
                 </td>
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Tab</td>
-                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Unlimited</td>
-                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Unlimited</td>
-                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Unlimited</td>
-                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Unlimited</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.tab}</td>
+                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.unlimited}</td>
+                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.unlimited}</td>
+                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.unlimited}</td>
+                <td className={`py-4 px-4 text-center ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.unlimited}</td>
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Previews</td>
-                <td className="py-4 px-4 text-center">
-                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
-                </td>
-                <td className="py-4 px-4 text-center">
-                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
-                </td>
-                <td className="py-4 px-4 text-center">
-                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
-                </td>
-                <td className="py-4 px-4 text-center">
-                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
-                </td>
-              </tr>
-
-              <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Deploys</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.previews}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
                 </td>
@@ -454,7 +635,7 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>All premium models</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.deploys}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
                 </td>
@@ -470,7 +651,7 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Fast Context</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.allPremiumModels}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
                 </td>
@@ -486,7 +667,23 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>SWE-15 model</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.fastContext}</td>
+                <td className="py-4 px-4 text-center">
+                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
+                </td>
+                <td className="py-4 px-4 text-center">
+                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
+                </td>
+                <td className="py-4 px-4 text-center">
+                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
+                </td>
+                <td className="py-4 px-4 text-center">
+                  <span className="inline-block w-5 h-5 rounded-full bg-[#4DB8C4]/20 text-[#4DB8C4] flex items-center justify-center mx-auto">✓</span>
+                </td>
+              </tr>
+
+              <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.sweModel}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto">✕</span>
                 </td>
@@ -502,7 +699,7 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Windsurf Reviews</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.windsurfReviews}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto">✕</span>
                 </td>
@@ -518,7 +715,7 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Centralized billing</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.centralizedBilling}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto">✕</span>
                 </td>
@@ -534,7 +731,7 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Admin dashboard with analytics</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.adminDashboard}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto">✕</span>
                 </td>
@@ -550,7 +747,7 @@ export default function PricingPage() {
               </tr>
 
               <tr className={`border-b ${effectiveTheme === "light" ? "border-gray-200 hover:bg-gray-50" : "border-gray-700 hover:bg-[#252525]"} transition-colors`}>
-                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>Priority support</td>
+                <td className={`py-4 px-4 ${effectiveTheme === "light" ? "text-gray-700" : "text-gray-300"}`}>{t.prioritySupport}</td>
                 <td className="py-4 px-4 text-center">
                   <span className="inline-block w-5 h-5 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto">✕</span>
                 </td>
@@ -570,175 +767,7 @@ export default function PricingPage() {
       </div>
 
       {/* Footer */}
-      <footer className={`relative ${effectiveTheme === "light" ? "bg-white" : "bg-[#0a0a0a]"}`}>
-        {/* Gradient transition */}
-        <div className={`absolute top-0 left-0 right-0 h-32 ${effectiveTheme === "light" ? "bg-gradient-to-b from-white to-white" : "bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]"} pointer-events-none`} />
-        <div className="max-w-7xl mx-auto px-6 py-16 relative">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-12 mb-12">
-            {/* Product Column */}
-            <div>
-              <h3 className={`${effectiveTheme === "light" ? "text-gray-900" : "text-white"} font-semibold mb-4`}>Product</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/pricing')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Pricing
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Resources Column */}
-            <div>
-              <h3 className={`${effectiveTheme === "light" ? "text-gray-900" : "text-white"} font-semibold mb-4`}>Resources</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/blog')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Blog
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Support
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company Column */}
-            <div>
-              <h3 className={`${effectiveTheme === "light" ? "text-gray-900" : "text-white"} font-semibold mb-4`}>Company</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/mission')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Mission
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/careers')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Careers
-                  </button>
-                </li>
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 className={`${effectiveTheme === "light" ? "text-gray-900" : "text-white"} font-semibold mb-4`}>Legal</h3>
-              <ul className="space-y-3">
-                <li>
-                  <button onClick={() => router.push('/terms')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Terms of Use
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/privacy')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Privacy Policy
-                  </button>
-                </li>
-                <li>
-                  <button onClick={() => router.push('/security')} className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Security
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            {/* Connect Column */}
-            <div>
-              <h3 className={`${effectiveTheme === "light" ? "text-gray-900" : "text-white"} font-semibold mb-4`}>Connect</h3>
-              <ul className="space-y-3">
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className={`${effectiveTheme === "light" ? "text-gray-600 hover:text-[#4DB8C4]" : "text-gray-400 hover:text-[#4DB8C4]"} transition-colors`}>
-                    YouTube
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom Bar */}
-          <div className={`pt-8 border-t ${effectiveTheme === "light" ? "border-gray-200" : "border-gray-800"} flex flex-col md:flex-row items-center justify-between gap-4`}>
-            {/* Left: Copyright */}
-            <p className={`${effectiveTheme === "light" ? "text-gray-500" : "text-gray-500"} text-sm`}>
-              © 2025 Ruleout. All rights reserved.
-            </p>
-
-            {/* Right: Theme Selector & Language */}
-            <div className="flex items-center gap-4">
-              {/* Theme Selector */}
-              <div className={`flex items-center ${effectiveTheme === "light" ? "bg-gray-100 border-gray-200" : "bg-[#1a1a1a] border-gray-800"} rounded-lg p-1 border`}>
-                <button
-                  onClick={() => setThemeMode("system")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "system"
-                      ? effectiveTheme === "light" ? "bg-white text-gray-900 shadow-sm" : "bg-gray-700 text-white"
-                      : effectiveTheme === "light" ? "text-gray-500 hover:text-gray-900" : "text-gray-400 hover:text-white"
-                  }`}
-                  title="System"
-                >
-                  <Monitor className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => setThemeMode("light")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "light"
-                      ? effectiveTheme === "light" ? "bg-white text-gray-900 shadow-sm" : "bg-gray-700 text-white"
-                      : effectiveTheme === "light" ? "text-gray-500 hover:text-gray-900" : "text-gray-400 hover:text-white"
-                  }`}
-                  title="Light"
-                >
-                  <Sun className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => setThemeMode("dark")}
-                  className={`p-2 rounded transition-colors ${
-                    themeMode === "dark"
-                      ? effectiveTheme === "light" ? "bg-white text-gray-900 shadow-sm" : "bg-gray-700 text-white"
-                      : effectiveTheme === "light" ? "text-gray-500 hover:text-gray-900" : "text-gray-400 hover:text-white"
-                  }`}
-                  title="Dark"
-                >
-                  <Moon className="w-4 h-4" />
-                </button>
-              </div>
-
-              {/* Language Selector */}
-              <div className="relative">
-                <button className={`flex items-center gap-2 px-3 py-2 ${effectiveTheme === "light" ? "bg-gray-100 border-gray-200 text-gray-600 hover:text-gray-900" : "bg-[#1a1a1a] border-gray-800 text-gray-400 hover:text-white"} rounded-lg border transition-colors`}>
-                  <Globe className="w-4 h-4" />
-                  <span className="text-sm">{language}</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       {/* 로그인 모달 */}
       {showLoginModal && (
@@ -771,10 +800,10 @@ export default function PricingPage() {
                 <span className={`text-2xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Ruleout</span>
               </div>
               <h2 className={`text-3xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"} mb-2`}>
-                Log in or Sign up
+                {t.loginTitle}
               </h2>
               <p className={`${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>
-                Choose your work email. <a href="#" className="text-[#20808D] hover:underline">Why is this needed?</a>
+                {t.loginSubtitle} <a href="#" className="text-[#20808D] hover:underline">{t.whyNeeded}</a>
               </p>
             </div>
 
@@ -792,7 +821,7 @@ export default function PricingPage() {
                     <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                     <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                   </svg>
-                  <span className={`font-medium ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Continue with Google</span>
+                  <span className={`font-medium ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.continueGoogle}</span>
                 </div>
               </button>
 
@@ -809,7 +838,7 @@ export default function PricingPage() {
                     <path fill="#05a6f0" d="M1 12h10v10H1z"/>
                     <path fill="#ffba08" d="M12 12h10v10H12z"/>
                   </svg>
-                  <span className={`font-medium ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Continue with Microsoft</span>
+                  <span className={`font-medium ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.continueMicrosoft}</span>
                 </div>
               </button>
 
@@ -822,14 +851,14 @@ export default function PricingPage() {
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill={effectiveTheme === "light" ? "black" : "white"}>
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                   </svg>
-                  <span className={`font-medium ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>Continue with Apple</span>
+                  <span className={`font-medium ${effectiveTheme === "light" ? "text-gray-900" : "text-white"}`}>{t.continueApple}</span>
                 </div>
               </button>
 
               {/* Divider */}
               <div className="flex items-center my-4">
                 <div className={`flex-1 border-t ${effectiveTheme === "light" ? "border-gray-300" : "border-gray-700"}`}></div>
-                <span className={`px-4 ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>or</span>
+                <span className={`px-4 ${effectiveTheme === "light" ? "text-gray-600" : "text-gray-400"}`}>{t.or}</span>
                 <div className={`flex-1 border-t ${effectiveTheme === "light" ? "border-gray-300" : "border-gray-700"}`}></div>
               </div>
 
@@ -838,7 +867,7 @@ export default function PricingPage() {
                 onClick={() => {/* 이메일 로그인 구현 예정 */}}
                 className="w-full px-6 py-4 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6a78] transition-colors font-medium"
               >
-                Continue with Email
+                {t.continueEmail}
               </button>
             </div>
           </div>

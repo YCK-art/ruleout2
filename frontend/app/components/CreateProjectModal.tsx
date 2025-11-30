@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { X } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface CreateProjectModalProps {
   isOpen: boolean;
@@ -10,8 +11,42 @@ interface CreateProjectModalProps {
 }
 
 export default function CreateProjectModal({ isOpen, onClose, onCreate }: CreateProjectModalProps) {
+  const { language } = useLanguage();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
+
+  // Multilingual content
+  const content = {
+    English: {
+      title: "Create Project",
+      nameLabel: "What are you working on?",
+      namePlaceholder: "Enter project name",
+      descLabel: "What are you trying to achieve?",
+      descPlaceholder: "Describe your project, goals, topics, etc...",
+      cancel: "Cancel",
+      create: "Create Project"
+    },
+    한국어: {
+      title: "프로젝트 생성",
+      nameLabel: "무엇을 작업하고 있나요?",
+      namePlaceholder: "프로젝트 이름 입력",
+      descLabel: "무엇을 달성하려고 하나요?",
+      descPlaceholder: "프로젝트, 목표, 주제 등을 설명하세요...",
+      cancel: "취소",
+      create: "프로젝트 생성"
+    },
+    日本語: {
+      title: "プロジェクトを作成",
+      nameLabel: "何に取り組んでいますか？",
+      namePlaceholder: "プロジェクト名を入力",
+      descLabel: "何を達成しようとしていますか？",
+      descPlaceholder: "プロジェクト、目標、トピックなどを説明してください...",
+      cancel: "キャンセル",
+      create: "プロジェクトを作成"
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
 
   const handleCreate = () => {
     if (!title.trim()) return;
@@ -40,18 +75,18 @@ export default function CreateProjectModal({ isOpen, onClose, onCreate }: Create
         </button>
 
         {/* 제목 */}
-        <h2 className="text-3xl font-semibold text-gray-200 mb-8">Create Project</h2>
+        <h2 className="text-3xl font-semibold text-gray-200 mb-8">{currentContent.title}</h2>
 
         {/* 프로젝트 이름 */}
         <div className="mb-6">
           <label className="block text-base text-gray-300 mb-3">
-            What are you working on?
+            {currentContent.nameLabel}
           </label>
           <input
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            placeholder="Enter project name"
+            placeholder={currentContent.namePlaceholder}
             className="w-full bg-[#1a1a1a] border border-gray-700 rounded-lg px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-gray-600"
             autoFocus
           />
@@ -60,12 +95,12 @@ export default function CreateProjectModal({ isOpen, onClose, onCreate }: Create
         {/* 프로젝트 설명 */}
         <div className="mb-8">
           <label className="block text-base text-gray-300 mb-3">
-            What are you trying to achieve?
+            {currentContent.descLabel}
           </label>
           <textarea
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            placeholder="Describe your project, goals, topics, etc..."
+            placeholder={currentContent.descPlaceholder}
             rows={5}
             className="w-full bg-[#1a1a1a] border border-gray-700 rounded-lg px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-gray-600 resize-none"
           />
@@ -77,14 +112,14 @@ export default function CreateProjectModal({ isOpen, onClose, onCreate }: Create
             onClick={handleCancel}
             className="px-6 py-3 bg-transparent border border-gray-600 hover:bg-gray-700 text-gray-200 rounded-lg transition-colors"
           >
-            Cancel
+            {currentContent.cancel}
           </button>
           <button
             onClick={handleCreate}
             disabled={!title.trim()}
             className="px-6 py-3 bg-white hover:bg-gray-100 text-black font-medium rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Create Project
+            {currentContent.create}
           </button>
         </div>
       </div>

@@ -1,7 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { signInWithGoogle } from "@/lib/auth";
+import { useLanguage } from "@/contexts/LanguageContext";
+import EmailAuthModal from "./EmailAuthModal";
 
 interface LoginModalProps {
   isOpen: boolean;
@@ -9,6 +12,57 @@ interface LoginModalProps {
 }
 
 export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
+  const { language } = useLanguage();
+  const [showEmailAuth, setShowEmailAuth] = useState(false);
+
+  // Multilingual content
+  const content = {
+    English: {
+      title: "Log in or Sign up",
+      subtitle: "Choose your work email.",
+      whyNeeded: "Why is this needed?",
+      google: "Continue with Google",
+      microsoft: "Continue with Microsoft",
+      apple: "Continue with Apple",
+      or: "or",
+      email: "Continue with Email",
+      terms: "By continuing, you agree to Ruleout's",
+      termsOfService: "Terms of Service",
+      and: "and",
+      privacyPolicy: "Privacy Policy"
+    },
+    한국어: {
+      title: "로그인 또는 회원가입",
+      subtitle: "업무용 이메일을 선택하세요.",
+      whyNeeded: "왜 필요한가요?",
+      google: "Google로 계속하기",
+      microsoft: "Microsoft로 계속하기",
+      apple: "Apple로 계속하기",
+      or: "또는",
+      email: "이메일로 계속하기",
+      terms: "계속하면 Ruleout의",
+      termsOfService: "서비스 약관",
+      and: "및",
+      privacyPolicy: "개인정보처리방침"
+    },
+    日本語: {
+      title: "ログインまたはサインアップ",
+      subtitle: "ビジネスメールを選択してください。",
+      whyNeeded: "なぜ必要ですか？",
+      google: "Googleで続ける",
+      microsoft: "Microsoftで続ける",
+      apple: "Appleで続ける",
+      or: "または",
+      email: "メールで続ける",
+      terms: "続行すると、Ruleoutの",
+      termsOfService: "利用規約",
+      and: "および",
+      privacyPolicy: "プライバシーポリシー"
+    }
+  };
+
+  const currentContent = content[language as keyof typeof content];
+
   if (!isOpen) return null;
 
   const handleGoogleLogin = async () => {
@@ -50,10 +104,10 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
             <span className="text-2xl font-bold text-white">Ruleout</span>
           </div>
           <h2 className="text-3xl font-bold text-white mb-2">
-            Log in or Sign up
+            {currentContent.title}
           </h2>
           <p className="text-gray-400">
-            Choose your work email. <a href="#" className="text-[#20808D] hover:underline">Why is this needed?</a>
+            {currentContent.subtitle} <a href="#" className="text-[#20808D] hover:underline">{currentContent.whyNeeded}</a>
           </p>
         </div>
 
@@ -71,7 +125,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
                 <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                 <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
               </svg>
-              <span className="text-white font-medium">Continue with Google</span>
+              <span className="text-white font-medium">{currentContent.google}</span>
             </div>
           </button>
 
@@ -88,7 +142,7 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
                 <path fill="#05a6f0" d="M1 12h10v10H1z"/>
                 <path fill="#ffba08" d="M12 12h10v10H12z"/>
               </svg>
-              <span className="text-white font-medium">Continue with Microsoft</span>
+              <span className="text-white font-medium">{currentContent.microsoft}</span>
             </div>
           </button>
 
@@ -101,34 +155,40 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
               <svg className="w-6 h-6" viewBox="0 0 24 24" fill="white">
                 <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
               </svg>
-              <span className="text-white font-medium">Continue with Apple</span>
+              <span className="text-white font-medium">{currentContent.apple}</span>
             </div>
           </button>
 
           {/* Divider */}
           <div className="flex items-center my-4">
             <div className="flex-1 border-t border-gray-700"></div>
-            <span className="px-4 text-gray-400">or</span>
+            <span className="px-4 text-gray-400">{currentContent.or}</span>
             <div className="flex-1 border-t border-gray-700"></div>
           </div>
 
           {/* Email Login */}
           <button
-            onClick={() => {/* 이메일 로그인 구현 예정 */}}
+            onClick={() => setShowEmailAuth(true)}
             className="w-full px-6 py-4 bg-[#20808D] text-white rounded-lg hover:bg-[#1a6a78] transition-colors font-medium"
           >
-            Continue with Email
+            {currentContent.email}
           </button>
 
           {/* Terms */}
           <p className="text-xs text-gray-500 text-center mt-4">
-            By continuing, you agree to Ruleout's{" "}
-            <a href="#" className="text-[#20808D] hover:underline">Terms of Service</a>
-            {" "}and{" "}
-            <a href="#" className="text-[#20808D] hover:underline">Privacy Policy</a>
+            {currentContent.terms}{" "}
+            <a href="#" className="text-[#20808D] hover:underline">{currentContent.termsOfService}</a>
+            {" "}{currentContent.and}{" "}
+            <a href="#" className="text-[#20808D] hover:underline">{currentContent.privacyPolicy}</a>
           </p>
         </div>
       </div>
+
+      {/* Email Auth Modal */}
+      <EmailAuthModal
+        isOpen={showEmailAuth}
+        onClose={() => setShowEmailAuth(false)}
+      />
     </div>
   );
 }
