@@ -164,7 +164,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
   // 맨 아래로 스크롤하는 함수
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    // DOM 업데이트 완료 후 스크롤 (setTimeout 사용)
+    setTimeout(() => {
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+    }, 100);
   };
 
   // 스크롤 관리 - 답변 생성 중에는 자동 스크롤 비활성화
