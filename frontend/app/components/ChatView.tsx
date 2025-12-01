@@ -683,6 +683,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     const question = input.trim();
     setInput("");
 
+    // 질문 전송 즉시 맨 아래로 스크롤 (답변 기다리지 않음)
+    scrollToBottom();
+
     // Guest 모드에서 쿼리 카운트 증가
     if (isGuestMode && !user) {
       incrementGuestQueryCount();
@@ -694,8 +697,6 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     }
 
     await queryAPI(question, false); // 후속 질문
-    // 질문 제출 시 맨 아래로 스크롤
-    scrollToBottom();
   };
 
   // 답변 복사
