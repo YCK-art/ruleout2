@@ -167,7 +167,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  // 스크롤 관리 - 타이핑 중일 때만 맨 아래로 스크롤
+  // 스크롤 관리 - 답변 생성 중에는 자동 스크롤 비활성화
   useEffect(() => {
     // 대화 로드 시에는 스크롤하지 않음 (맨 위에서 시작)
     if (isLoadingConversation.current) {
@@ -175,11 +175,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       return; // 스크롤하지 않음
     }
 
-    // 타이핑 중일 때만 부드럽게 스크롤
-    if (isStreaming) {
-      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-    }
-    // Reference나 Related Questions 추가 시에는 스크롤하지 않음
+    // 답변 생성 중에는 자동 스크롤하지 않음 (사용자가 읽을 수 있도록)
+    // 후속 질문 클릭 시에만 스크롤
   }, [messages, isStreaming]);
 
   // 기존 대화 불러오기 또는 새 대화 시작
@@ -562,6 +559,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     // 약간의 딜레이 후 질문 전송 (UI 업데이트를 위해)
     setTimeout(async () => {
       await queryAPI(question, false);
+      // 후속 질문 클릭 시 입력창으로 스크롤
+      scrollToBottom();
     }, 50);
   };
 
