@@ -472,18 +472,71 @@ Return ONLY the questions, one per line, without numbering or bullet points."""
         return []
 
 
+# 언어 감지 함수 (간단한 휴리스틱)
+def detect_language(text: str) -> str:
+    """
+    간단한 정규식 기반 언어 감지
+    - 한글: Korean
+    - 일본어: Japanese
+    - 기타: English (기본값)
+    """
+    # 한글 유니코드 범위: AC00-D7A3
+    if re.search(r'[\uAC00-\uD7A3]', text):
+        return "Korean"
+    # 일본어 유니코드 범위: 히라가나(3040-309F), 카타카나(30A0-30FF), 한자(4E00-9FFF)
+    if re.search(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', text):
+        return "Japanese"
+    return "English"
+
+
+# 질문 번역 함수
+async def translate_to_english(question: str, detected_lang: str) -> str:
+    """
+    비영어 질문을 영어로 빠르게 번역
+    이미 영어면 그대로 반환
+    """
+    if detected_lang == "English":
+        return question
+
+    try:
+        response = openai_client.chat.completions.create(
+            model="gpt-4o-mini",  # 빠른 번역용
+            messages=[
+                {"role": "system", "content": "You are a professional medical translator. Translate the following veterinary medical question to English accurately. Return ONLY the translated question, nothing else."},
+                {"role": "user", "content": question}
+            ],
+            temperature=0.3,
+            max_tokens=300
+        )
+        translated = response.choices[0].message.content.strip()
+        print(f"✅ 번역 완료: {detected_lang} → English")
+        print(f"   원문: {question[:100]}...")
+        print(f"   번역: {translated[:100]}...")
+        return translated
+    except Exception as e:
+        print(f"⚠️  번역 실패, 원문 사용: {e}")
+        return question
+
+
 # SSE 스트리밍 엔드포인트
 async def query_stream_generator(question: str, conversation_history: List[Dict] = []) -> AsyncGenerator[str, None]:
     """
     질문에 대한 답변을 SSE로 스트리밍
     """
     try:
-        # 1단계: 질문 분석 중
-        yield create_sse_event({
-            "status": "analyzing",
-            "message": "질문 분석 중..."
-        })
-        await asyncio.sleep(0.5)
+        # 1단계: 언어 감지 및 필요시 번역
+        detected_lang = detect_language(question)
+
+        if detected_lang != "English":
+            yield create_sse_event({
+                "status": "translating",
+                "message": f"질문을 영어로 번역 중... ({detected_lang} detected)"
+            })
+
+            # 번역 수행
+            search_query = await translate_to_english(question, detected_lang)
+        else:
+            search_query = question
 
         # 2단계: 질문 벡터화
         yield create_sse_event({
@@ -493,7 +546,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         embedding_response = openai_client.embeddings.create(
             model="text-embedding-3-small",
-            input=question
+            input=search_query  # 번역된 질문으로 임베딩
         )
         query_embedding = embedding_response.data[0].embedding
 
