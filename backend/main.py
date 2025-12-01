@@ -210,10 +210,12 @@ async def generate_answer_stream(question: str, context_chunks: List[Dict]) -> A
     GPT-4를 사용하여 답변을 스트리밍으로 생성
     yield (chunk_text, is_done)
     """
-    # 컨텍스트 구성
+    # 컨텍스트 구성 (올바른 참고문헌 번호 사용)
     context_text = ""
     for i, chunk in enumerate(context_chunks, 1):
-        context_text += f"\n[Reference {i}] {chunk['source']}, {chunk['title']}, {chunk['year']}, {chunk['page']}p\n"
+        # ref_number가 있으면 사용, 없으면 인덱스 사용 (하위 호환성)
+        ref_num = chunk.get('ref_number', i)
+        context_text += f"\n[Reference {ref_num}] {chunk['source']}, {chunk['title']}, {chunk['year']}, {chunk['page']}p\n"
         context_text += f"{chunk['text']}\n"
         context_text += "-" * 80 + "\n"
 
@@ -546,6 +548,76 @@ async def translate_to_english(question: str, detected_lang: str) -> str:
         return question
 
 
+# 청크를 문서별로 그룹화하고 참고문헌 사전 매핑 생성
+def prepare_references_mapping(context_chunks: List[Dict]) -> tuple[List[Dict], Dict[int, int]]:
+    """
+    청크들을 문서별로 그룹화하고 청크 인덱스 -> 참고문헌 번호 매핑 생성
+    Returns:
+        - grouped_chunks: 문서별로 그룹화된 청크 리스트
+        - chunk_to_ref_mapping: {청크_인덱스: 참고문헌_번호} 매핑
+    """
+    # 문서별로 그룹화 (source, title, year로 구분)
+    doc_groups = {}
+    for i, chunk in enumerate(context_chunks, 1):
+        doc_key = (chunk['source'], chunk['title'], chunk['year'])
+        if doc_key not in doc_groups:
+            doc_groups[doc_key] = {
+                'source': chunk['source'],
+                'title': chunk['title'],
+                'year': chunk['year'],
+                'url': chunk.get('url', ''),
+                'chunk_indices': []
+            }
+        doc_groups[doc_key]['chunk_indices'].append(i)
+
+    # 참고문헌 번호 매핑 생성
+    chunk_to_ref_mapping = {}
+    grouped_chunks = []
+
+    for ref_num, (doc_key, doc_info) in enumerate(doc_groups.items(), 1):
+        grouped_chunks.append({
+            'source': doc_info['source'],
+            'title': doc_info['title'],
+            'year': doc_info['year'],
+            'url': doc_info['url']
+        })
+        # 이 문서의 모든 청크 인덱스를 같은 참고문헌 번호로 매핑
+        for chunk_idx in doc_info['chunk_indices']:
+            chunk_to_ref_mapping[chunk_idx] = ref_num
+
+    print(f"📚 참고문헌 사전 매핑: {len(context_chunks)}개 청크 → {len(grouped_chunks)}개 문서")
+    print(f"   매핑: {chunk_to_ref_mapping}")
+
+    return grouped_chunks, chunk_to_ref_mapping
+
+
+# 참고문헌 빠른 추출 (재매핑 없이)
+async def extract_references_quick(answer: str, prepared_references: List[Dict]) -> List[Reference]:
+    """
+    이미 올바른 번호로 citation이 생성된 답변에서 참고문헌 추출
+    재매핑 없이 빠르게 처리
+    """
+    try:
+        cited_indices = extract_cited_indices(answer)
+        references = []
+
+        for idx in sorted(cited_indices):
+            if 1 <= idx <= len(prepared_references):
+                ref_data = prepared_references[idx - 1]
+                references.append(Reference(
+                    source=ref_data['source'],
+                    title=ref_data['title'],
+                    year=ref_data['year'],
+                    url=ref_data.get('url', '')
+                ))
+
+        print(f"✅ 참고문헌 추출 완료: {len(references)}개")
+        return references
+    except Exception as e:
+        print(f"참고문헌 추출 오류: {e}")
+        return []
+
+
 # SSE 스트리밍 엔드포인트 (최적화 버전)
 async def query_stream_generator(question: str, conversation_history: List[Dict] = []) -> AsyncGenerator[str, None]:
     """
@@ -553,7 +625,8 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
     최적화:
     1. 번역 제거 - 다국어 임베딩 직접 사용
     2. GPT 실시간 스트리밍
-    3. 후속 질문 병렬 생성
+    3. 참고문헌 사전 매핑 - citation 번호 처음부터 올바르게
+    4. 참고문헌/후속질문 병렬 처리 - 즉시 표시
     """
     try:
         # 1단계: 질문 벡터화 (번역 제거 - 다국어 임베딩 사용)
@@ -583,19 +656,50 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             })
             return
 
-        # 3단계: GPT 답변 스트리밍 시작
+        # 2.5단계: 참고문헌 사전 매핑 (GPT에게 올바른 번호 알려주기)
+        prepared_references, chunk_to_ref_mapping = prepare_references_mapping(context_chunks)
+
+        # 청크를 올바른 참고문헌 번호로 재구성
+        remapped_chunks = []
+        for i, chunk in enumerate(context_chunks, 1):
+            correct_ref_num = chunk_to_ref_mapping[i]
+            remapped_chunks.append({
+                **chunk,
+                'ref_number': correct_ref_num  # GPT가 사용할 올바른 번호
+            })
+
+        # 3단계: GPT 답변 스트리밍 시작 + 후속질문 병렬 시작
         yield create_sse_event({
             "status": "generating",
             "message": "답변 생성 중..."
         })
 
-        # GPT 스트리밍
+        # 후속 질문 생성 미리 시작 (병렬 처리)
+        followup_task = asyncio.create_task(
+            generate_followup_questions(question, "", conversation_history)
+        )
+
+        # GPT 스트리밍 (올바른 참고문헌 번호로)
         full_answer = ""
         chunk_count = 0
-        async for chunk_content, is_done in generate_answer_stream(question, context_chunks):
+
+        # generate_answer_stream에 올바른 번호 전달
+        context_for_gpt = []
+        for chunk in remapped_chunks:
+            context_for_gpt.append({
+                'source': chunk['source'],
+                'title': chunk['title'],
+                'year': chunk['year'],
+                'page': chunk['page'],
+                'text': chunk['text'],
+                'ref_number': chunk['ref_number']  # 올바른 참고문헌 번호
+            })
+
+        async for chunk_content, is_done in generate_answer_stream(question, context_for_gpt):
             if not is_done:
                 # 스트리밍 청크 전송
                 chunk_count += 1
+                full_answer += chunk_content
                 event_data = create_sse_event({
                     "status": "streaming",
                     "chunk": chunk_content
@@ -603,26 +707,22 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
                 print(f"🔥 Sending chunk #{chunk_count}: {len(chunk_content)} chars")
                 yield event_data
             else:
-                # 스트리밍 완료 - full_answer 받음
+                # 스트리밍 완료
                 full_answer = chunk_content
                 print(f"✅ Total chunks sent: {chunk_count}")
 
-        # 4단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
-        print("📚 참고문헌 추출 및 후속 질문 생성 시작...")
+        # 4단계: 참고문헌 빠른 추출 (재매핑 불필요) + 후속질문 결과 대기
+        print("📚 참고문헌 추출 시작...")
 
-        # 병렬 실행을 위한 태스크 생성
-        refs_task = extract_references_from_answer(full_answer, context_chunks)
-        followup_task = generate_followup_questions(question, full_answer, conversation_history)
-
-        # 동시 실행
+        # 참고문헌 추출과 후속질문 결과 동시 처리
+        refs_task = extract_references_quick(full_answer, prepared_references)
         results = await asyncio.gather(refs_task, followup_task, return_exceptions=True)
 
         # 결과 처리
-        if isinstance(results[0], tuple):
-            remapped_answer, references = results[0]
+        if isinstance(results[0], list):
+            references = results[0]
         else:
             print(f"참고문헌 추출 오류: {results[0]}")
-            remapped_answer = full_answer
             references = []
 
         if isinstance(results[1], list):
@@ -631,11 +731,11 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             print(f"후속 질문 생성 오류: {results[1]}")
             followup_questions = []
 
-        # 5단계: 완료 (재매핑된 답변 + 참고문헌 + 후속 질문)
+        # 5단계: 완료 (citation 번호는 이미 올바름, 재매핑 불필요)
         yield create_sse_event({
             "status": "done",
             "message": "완료",
-            "answer": remapped_answer,
+            "answer": full_answer,
             "references": [ref.dict() for ref in references],
             "followup_questions": followup_questions
         })
