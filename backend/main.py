@@ -268,13 +268,21 @@ Answer Guidelines:
         )
 
         full_answer = ""
+        chunk_num = 0
         for chunk in stream:
             if chunk.choices[0].delta.content:
                 content = chunk.choices[0].delta.content
                 full_answer += content
+                chunk_num += 1
+                # 실시간 청크 전송 (타이핑 효과)
+                print(f"📝 Chunk #{chunk_num}: {content[:30]}... ({len(content)} chars)")
                 yield (content, False)
 
+                # 비동기 yield 허용을 위한 짧은 지연
+                await asyncio.sleep(0)
+
         # 스트리밍 완료
+        print(f"✅ Streaming complete. Total: {chunk_num} chunks, {len(full_answer)} chars")
         yield (full_answer, True)
 
     except Exception as e:
@@ -583,16 +591,21 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         # GPT 스트리밍
         full_answer = ""
+        chunk_count = 0
         async for chunk_content, is_done in generate_answer_stream(question, context_chunks):
             if not is_done:
                 # 스트리밍 청크 전송
-                yield create_sse_event({
+                chunk_count += 1
+                event_data = create_sse_event({
                     "status": "streaming",
                     "chunk": chunk_content
                 })
+                print(f"🔥 Sending chunk #{chunk_count}: {len(chunk_content)} chars")
+                yield event_data
             else:
                 # 스트리밍 완료 - full_answer 받음
                 full_answer = chunk_content
+                print(f"✅ Total chunks sent: {chunk_count}")
 
         # 4단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
         print("📚 참고문헌 추출 및 후속 질문 생성 시작...")

@@ -340,10 +340,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
               const data = JSON.parse(line.slice(6));
 
               if (data.status === "streaming") {
-                // 실시간 스트리밍 청크 수신
+                // 실시간 스트리밍 청크 수신 (ChatGPT처럼 타이핑 효과)
                 streamingAnswer += data.chunk;
 
-                // 실시간으로 UI 업데이트
+                // 실시간으로 UI 업데이트 (타이핑 애니메이션 효과)
                 setMessages((prev) => {
                   const newMessages = [...prev];
                   const lastMsg = newMessages[newMessages.length - 1];
