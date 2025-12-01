@@ -583,13 +583,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             })
             return
 
-        # 3단계: GPT 답변 스트리밍 시작
-        yield create_sse_event({
-            "status": "generating",
-            "message": "답변 생성 중..."
-        })
-
-        # GPT 스트리밍
+        # 3단계: GPT 답변 스트리밍 (generating 메시지 제거 - 즉시 스트리밍 시작)
         full_answer = ""
         chunk_count = 0
         async for chunk_content, is_done in generate_answer_stream(question, context_chunks):
