@@ -204,11 +204,11 @@ def extract_cited_indices(answer: str) -> Set[int]:
     return cited_indices
 
 
-# GPT 답변 생성 함수
-async def generate_answer(question: str, context_chunks: List[Dict]) -> tuple[str, List[Reference]]:
+# GPT 답변 생성 함수 (스트리밍)
+async def generate_answer_stream(question: str, context_chunks: List[Dict]) -> AsyncGenerator[tuple[str, bool], None]:
     """
-    GPT-4를 사용하여 답변 생성
-    실제 사용된 참고문헌만 반환
+    GPT-4를 사용하여 답변을 스트리밍으로 생성
+    yield (chunk_text, is_done)
     """
     # 컨텍스트 구성
     context_text = ""
@@ -256,18 +256,38 @@ Answer Guidelines:
    - Tables: Use markdown tables when comparisons are needed"""
 
     try:
-        response = openai_client.chat.completions.create(
+        stream = openai_client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             temperature=0.3,
-            max_tokens=3000
+            max_tokens=3000,
+            stream=True  # 스트리밍 활성화
         )
 
-        answer = response.choices[0].message.content
+        full_answer = ""
+        for chunk in stream:
+            if chunk.choices[0].delta.content:
+                content = chunk.choices[0].delta.content
+                full_answer += content
+                yield (content, False)
 
+        # 스트리밍 완료
+        yield (full_answer, True)
+
+    except Exception as e:
+        print(f"GPT 스트리밍 오류: {e}")
+        yield ("죄송합니다. 답변 생성 중 오류가 발생했습니다.", True)
+
+
+# 기존 generate_answer 함수 (참고문헌 추출용)
+async def extract_references_from_answer(answer: str, context_chunks: List[Dict]) -> List[Reference]:
+    """
+    답변에서 실제 사용된 참고문헌만 추출
+    """
+    try:
         # 답변에서 실제 사용된 citation 번호 추출
         cited_indices = extract_cited_indices(answer)
 
@@ -408,14 +428,14 @@ Answer Guidelines:
 
             return match.group(0)
 
-        # 모든 citation 패턴을 찾아서 재매핑
-        answer = re.sub(r'\[([0-9,\-\s]+)\]', remap_citation, answer)
+        # 모든 citation 패턴을 찾아서 재매핑 (답변 업데이트)
+        remapped_answer = re.sub(r'\[([0-9,\-\s]+)\]', remap_citation, answer)
 
-        return answer, references
+        return remapped_answer, references
 
     except Exception as e:
-        print(f"GPT 답변 생성 오류: {e}")
-        return "죄송합니다. 답변 생성 중 오류가 발생했습니다.", []
+        print(f"참고문헌 추출 오류: {e}")
+        return answer, []
 
 
 # 후속 질문 생성 함수
@@ -518,27 +538,17 @@ async def translate_to_english(question: str, detected_lang: str) -> str:
         return question
 
 
-# SSE 스트리밍 엔드포인트
+# SSE 스트리밍 엔드포인트 (최적화 버전)
 async def query_stream_generator(question: str, conversation_history: List[Dict] = []) -> AsyncGenerator[str, None]:
     """
-    질문에 대한 답변을 SSE로 스트리밍
+    질문에 대한 답변을 실시간 SSE 스트리밍
+    최적화:
+    1. 번역 제거 - 다국어 임베딩 직접 사용
+    2. GPT 실시간 스트리밍
+    3. 후속 질문 병렬 생성
     """
     try:
-        # 1단계: 언어 감지 및 필요시 번역
-        detected_lang = detect_language(question)
-
-        if detected_lang != "English":
-            yield create_sse_event({
-                "status": "translating",
-                "message": f"질문을 영어로 번역 중... ({detected_lang} detected)"
-            })
-
-            # 번역 수행
-            search_query = await translate_to_english(question, detected_lang)
-        else:
-            search_query = question
-
-        # 2단계: 질문 벡터화
+        # 1단계: 질문 벡터화 (번역 제거 - 다국어 임베딩 사용)
         yield create_sse_event({
             "status": "embedding",
             "message": "질문을 벡터로 변환 중..."
@@ -546,18 +556,17 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         embedding_response = openai_client.embeddings.create(
             model="text-embedding-3-small",
-            input=search_query  # 번역된 질문으로 임베딩
+            input=question  # 원본 질문 직접 사용 (다국어 지원)
         )
         query_embedding = embedding_response.data[0].embedding
 
-        # 3단계: 벡터 DB 검색
+        # 2단계: 벡터 DB 검색
         yield create_sse_event({
             "status": "searching",
             "message": "의학 문헌 및 가이드라인 검색 중..."
         })
-        await asyncio.sleep(0.5)
 
-        context_chunks = await search_pinecone(query_embedding, top_k=10, min_similarity=0.45)
+        context_chunks = await search_pinecone(query_embedding, top_k=8, min_similarity=0.48)
 
         if not context_chunks:
             yield create_sse_event({
@@ -566,35 +575,62 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             })
             return
 
-        # 4단계: 정보 통합 중
-        yield create_sse_event({
-            "status": "synthesizing",
-            "message": "관련 정보 통합 중..."
-        })
-        await asyncio.sleep(0.5)
-
-        # 5단계: GPT 답변 생성
+        # 3단계: GPT 답변 스트리밍 시작
         yield create_sse_event({
             "status": "generating",
-            "message": "GPT로 답변 생성 중..."
+            "message": "답변 생성 중..."
         })
 
-        answer, references = await generate_answer(question, context_chunks)
+        # GPT 스트리밍
+        full_answer = ""
+        async for chunk_content, is_done in generate_answer_stream(question, context_chunks):
+            if not is_done:
+                # 스트리밍 청크 전송
+                yield create_sse_event({
+                    "status": "streaming",
+                    "chunk": chunk_content
+                })
+            else:
+                # 스트리밍 완료 - full_answer 받음
+                full_answer = chunk_content
 
-        # 5.5단계: 후속 질문 생성
-        followup_questions = await generate_followup_questions(question, answer, conversation_history)
+        # 4단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
+        print("📚 참고문헌 추출 및 후속 질문 생성 시작...")
 
-        # 6단계: 완료
+        # 병렬 실행을 위한 태스크 생성
+        refs_task = extract_references_from_answer(full_answer, context_chunks)
+        followup_task = generate_followup_questions(question, full_answer, conversation_history)
+
+        # 동시 실행
+        results = await asyncio.gather(refs_task, followup_task, return_exceptions=True)
+
+        # 결과 처리
+        if isinstance(results[0], tuple):
+            remapped_answer, references = results[0]
+        else:
+            print(f"참고문헌 추출 오류: {results[0]}")
+            remapped_answer = full_answer
+            references = []
+
+        if isinstance(results[1], list):
+            followup_questions = results[1]
+        else:
+            print(f"후속 질문 생성 오류: {results[1]}")
+            followup_questions = []
+
+        # 5단계: 완료 (재매핑된 답변 + 참고문헌 + 후속 질문)
         yield create_sse_event({
             "status": "done",
             "message": "완료",
-            "answer": answer,
+            "answer": remapped_answer,
             "references": [ref.dict() for ref in references],
             "followup_questions": followup_questions
         })
 
     except Exception as e:
         print(f"스트리밍 오류: {e}")
+        import traceback
+        traceback.print_exc()
         yield create_sse_event({
             "status": "error",
             "message": f"오류 발생: {str(e)}"

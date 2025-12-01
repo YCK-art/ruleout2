@@ -308,11 +308,22 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       }
 
       let buffer = "";
+      let streamingAnswer = "";  // 실시간 스트리밍 답변
       let finalAnswer = "";
       let finalReferences: Reference[] = [];
       let finalFollowupQuestions: string[] = [];
       let hasError = false;
       let errorMessage = "";
+      let isFirstChunk = true;
+
+      // 임시 assistant 메시지 생성 (실시간 업데이트용)
+      const tempAssistantMessage: Message = {
+        role: "assistant",
+        content: "",
+        isStreaming: true,
+        timestamp: new Date(),
+      };
+      setMessages((prev) => [...prev, tempAssistantMessage]);
 
       // SSE 스트림 읽기
       while (true) {
@@ -328,8 +339,22 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             try {
               const data = JSON.parse(line.slice(6));
 
-              if (data.status === "done") {
-                finalAnswer = data.answer || "";
+              if (data.status === "streaming") {
+                // 실시간 스트리밍 청크 수신
+                streamingAnswer += data.chunk;
+
+                // 실시간으로 UI 업데이트
+                setMessages((prev) => {
+                  const newMessages = [...prev];
+                  const lastMsg = newMessages[newMessages.length - 1];
+                  if (lastMsg && lastMsg.role === "assistant") {
+                    lastMsg.content = streamingAnswer;
+                    lastMsg.isStreaming = true;
+                  }
+                  return newMessages;
+                });
+              } else if (data.status === "done") {
+                finalAnswer = data.answer || streamingAnswer;
                 finalReferences = data.references || [];
                 finalFollowupQuestions = data.followup_questions || [];
                 console.log("📊 Received follow-up questions:", finalFollowupQuestions);
@@ -348,45 +373,36 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
       // 에러 처리
       if (hasError) {
-        const errorMsg: Message = {
-          role: "assistant",
-          content: errorMessage,
-          timestamp: new Date(),
-        };
-        setMessages((prev) => [...prev, errorMsg]);
+        setMessages((prev) => {
+          const newMessages = [...prev];
+          const lastMsg = newMessages[newMessages.length - 1];
+          if (lastMsg && lastMsg.role === "assistant") {
+            lastMsg.content = errorMessage;
+            lastMsg.isStreaming = false;
+          }
+          return newMessages;
+        });
         return;
       }
 
-      // 타이핑 애니메이션으로 답변 표시
+      // 스트리밍 완료 - 참고문헌과 후속 질문 추가
       if (finalAnswer) {
-        console.log("💬 Creating message with followup questions:", finalFollowupQuestions);
-        const assistantMessage: Message = {
-          role: "assistant",
-          content: "",
-          references: finalReferences,
-          followupQuestions: finalFollowupQuestions,
-          isStreaming: true,
-          timestamp: new Date(),
-        };
-        setMessages((prev) => [...prev, assistantMessage]);
+        console.log("💬 Streaming complete - adding references and followup questions");
 
-        const typingSpeed = 8; // milliseconds between chunks (2x slower)
-        const charsPerChunk = 4; // Show 4 characters at a time for 2x slower speed
-        for (let i = 0; i <= finalAnswer.length; i += charsPerChunk) {
-          await new Promise((resolve) => setTimeout(resolve, typingSpeed));
-          const displayText = finalAnswer.slice(0, Math.min(i + charsPerChunk, finalAnswer.length));
-          setMessages((prev) => {
-            const newMessages = [...prev];
-            const lastMsg = newMessages[newMessages.length - 1];
-            if (lastMsg && lastMsg.role === "assistant") {
-              lastMsg.content = displayText;
-              lastMsg.isStreaming = displayText.length < finalAnswer.length;
-            }
-            return newMessages;
-          });
-        }
+        // 최종 메시지 업데이트 (참고문헌 + 후속 질문 추가)
+        setMessages((prev) => {
+          const newMessages = [...prev];
+          const lastMsg = newMessages[newMessages.length - 1];
+          if (lastMsg && lastMsg.role === "assistant") {
+            lastMsg.content = finalAnswer;
+            lastMsg.references = finalReferences;
+            lastMsg.followupQuestions = finalFollowupQuestions;
+            lastMsg.isStreaming = false;
+          }
+          return newMessages;
+        });
 
-        // 타이핑 완료 후 Firebase에 AI 메시지 저장
+        // Firebase에 AI 메시지 저장
         const completedAssistantMessage: Message = {
           role: "assistant",
           content: finalAnswer,
