@@ -694,6 +694,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     }
 
     await queryAPI(question, false); // 후속 질문
+    // 질문 제출 시 맨 아래로 스크롤
+    scrollToBottom();
   };
 
   // 답변 복사
