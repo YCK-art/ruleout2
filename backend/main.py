@@ -211,11 +211,20 @@ async def generate_answer_stream(question: str, context_chunks: List[Dict]) -> A
     GPT-4를 사용하여 답변을 스트리밍으로 생성
     yield (chunk_text, is_done)
     """
-    # 컨텍스트 구성
+    # 문서별로 청크를 그룹핑 (중복 문서 제거, 처음부터 올바른 Reference 번호 사용)
+    doc_order, seen_docs = group_chunks_by_document(context_chunks)
+
+    # 컨텍스트 구성 (문서별로 통합된 Reference 번호)
     context_text = ""
-    for i, chunk in enumerate(context_chunks, 1):
-        context_text += f"\n[Reference {i}] {chunk['source']}, {chunk['title']}, {chunk['year']}, {chunk['page']}p\n"
-        context_text += f"{chunk['text']}\n"
+    for i, ref_key in enumerate(doc_order, 1):
+        chunks = seen_docs[ref_key]
+        first_chunk = chunks[0]
+
+        context_text += f"\n[Reference {i}] {first_chunk['source']}, {first_chunk['title']}, {first_chunk['year']}\n"
+
+        # 같은 문서의 여러 페이지 내용을 결합
+        for chunk in chunks:
+            context_text += f"(Page {chunk['page']})\n{chunk['text']}\n"
         context_text += "-" * 80 + "\n"
 
     # 시스템 프롬프트
@@ -291,156 +300,81 @@ Answer Guidelines:
         yield ("죄송합니다. 답변 생성 중 오류가 발생했습니다.", True)
 
 
+# 문서별 그룹핑 함수
+def group_chunks_by_document(context_chunks: List[Dict]) -> tuple[list, dict]:
+    """
+    청크를 문서별로 그룹핑하고, 문서 순서와 매핑 정보 반환
+    Returns: (doc_order, grouped_chunks)
+    """
+    seen_docs = {}
+    doc_order = []
+
+    for chunk in context_chunks:
+        ref_key = f"{chunk['source']}_{chunk['title']}_{chunk['year']}"
+        if ref_key not in seen_docs:
+            seen_docs[ref_key] = []
+            doc_order.append(ref_key)
+        seen_docs[ref_key].append(chunk)
+
+    return doc_order, seen_docs
+
+
 # 기존 generate_answer 함수 (참고문헌 추출용)
 async def extract_references_from_answer(answer: str, context_chunks: List[Dict]) -> List[Reference]:
     """
-    답변에서 실제 사용된 참고문헌만 추출
+    답변에서 실제 사용된 참고문헌만 추출 (이미 올바른 번호로 citation됨)
     """
     try:
         # 답변에서 실제 사용된 citation 번호 추출
         cited_indices = extract_cited_indices(answer)
 
+        # 문서별로 그룹핑 (GPT가 받은 것과 동일)
+        doc_order, seen_docs = group_chunks_by_document(context_chunks)
+
         # 실제 사용된 참고문헌만 추출
         references = []
-        seen_refs = set()
-
-        # 원래 인덱스 -> 새 인덱스 매핑 생성
-        old_to_new_mapping = {}
-        new_index = 1
 
         for idx in sorted(cited_indices):
-            # citation은 1부터 시작하므로 인덱스는 idx-1
-            if 1 <= idx <= len(context_chunks):
-                chunk = context_chunks[idx - 1]
-                # Page 정보 제외 - 같은 논문은 하나의 참고문헌으로 통합
-                ref_key = f"{chunk['source']}_{chunk['title']}_{chunk['year']}"
+            # citation은 1부터 시작
+            if 1 <= idx <= len(doc_order):
+                ref_key = doc_order[idx - 1]
+                chunks = seen_docs[ref_key]
+                first_chunk = chunks[0]  # 대표 청크 사용
 
-                if ref_key not in seen_refs:
-                    # 새로운 참고문헌 추가
-                    old_to_new_mapping[idx] = new_index
+                # Title을 사용해서 filename 찾기
+                paper_url = ""
+                chunk_title = first_chunk['title'].strip()
+                normalized_title = chunk_title.lower().strip()
 
-                    # Title을 사용해서 filename 찾기
-                    paper_url = ""
-                    chunk_title = chunk['title'].strip()
-                    normalized_title = chunk_title.lower().strip()
+                # Title → Filename 매핑에서 찾기
+                source_filename = TITLE_TO_FILENAME.get(normalized_title, "")
 
-                    # Title → Filename 매핑에서 찾기
-                    source_filename = TITLE_TO_FILENAME.get(normalized_title, "")
-
-                    if source_filename:
-                        # Filename → URL 매핑에서 찾기
-                        paper_url = PDF_URL_MAPPING.get(source_filename, "")
-                        if paper_url:
-                            print(f"✅ URL found: {chunk_title[:50]}... → {source_filename} → {paper_url}")
-                        else:
-                            print(f"⚠️  Filename found but no URL: {chunk_title[:50]}... → {source_filename}")
+                if source_filename:
+                    # Filename → URL 매핑에서 찾기
+                    paper_url = PDF_URL_MAPPING.get(source_filename, "")
+                    if paper_url:
+                        print(f"✅ URL found: {chunk_title[:50]}... → {source_filename} → {paper_url}")
                     else:
-                        print(f"⚠️  No filename mapping for title: {chunk_title[:50]}...")
-                        print(f"   Normalized title: {normalized_title[:50]}...")
-
-                    references.append(Reference(
-                        source=chunk['source'],
-                        title=chunk['title'],
-                        year=chunk['year'],
-                        page=0,  # Page 정보 제거
-                        text=chunk['text'][:200] + "...",
-                        authors=chunk.get('authors', ''),
-                        journal=chunk.get('journal', ''),
-                        doi=chunk.get('doi', ''),
-                        score=chunk.get('score', 0.0),
-                        url=paper_url
-                    ))
-                    seen_refs.add(ref_key)
-                    new_index += 1
+                        print(f"⚠️  Filename found but no URL: {chunk_title[:50]}... → {source_filename}")
                 else:
-                    # 이미 존재하는 참고문헌 - 같은 번호 재사용
-                    for existing_idx, mapped_num in old_to_new_mapping.items():
-                        if 1 <= existing_idx <= len(context_chunks):
-                            existing_chunk = context_chunks[existing_idx - 1]
-                            existing_key = f"{existing_chunk['source']}_{existing_chunk['title']}_{existing_chunk['year']}"
-                            if existing_key == ref_key:
-                                old_to_new_mapping[idx] = mapped_num
-                                break
+                    print(f"⚠️  No filename mapping for title: {chunk_title[:50]}...")
+                    print(f"   Normalized title: {normalized_title[:50]}...")
 
-        # 답변 텍스트의 citation 번호를 재매핑
-        def remap_citation(match):
-            """citation 패턴을 찾아서 새 번호로 재매핑"""
-            citation_text = match.group(1)
+                references.append(Reference(
+                    source=first_chunk['source'],
+                    title=first_chunk['title'],
+                    year=first_chunk['year'],
+                    page=0,  # Page 정보 제거
+                    text=first_chunk['text'][:200] + "...",
+                    authors=first_chunk.get('authors', ''),
+                    journal=first_chunk.get('journal', ''),
+                    doi=first_chunk.get('doi', ''),
+                    score=first_chunk.get('score', 0.0),
+                    url=paper_url
+                ))
 
-            # 단일 숫자: [5]
-            if ',' not in citation_text and '-' not in citation_text:
-                old_num = int(citation_text)
-                return f'[{old_to_new_mapping.get(old_num, old_num)}]'
-
-            # 범위: [2-5]
-            if '-' in citation_text and ',' not in citation_text:
-                start, end = citation_text.split('-')
-                start_num = int(start.strip())
-                end_num = int(end.strip())
-                # 범위의 모든 숫자를 새 번호로 변환
-                new_nums = []
-                for num in range(start_num, end_num + 1):
-                    if num in old_to_new_mapping:
-                        new_nums.append(old_to_new_mapping[num])
-                # 연속된 범위면 범위로, 아니면 콤마로
-                if new_nums:
-                    if len(new_nums) == 1:
-                        return f'[{new_nums[0]}]'
-                    elif new_nums == list(range(min(new_nums), max(new_nums) + 1)):
-                        return f'[{min(new_nums)}-{max(new_nums)}]'
-                    else:
-                        return f'[{",".join(map(str, new_nums))}]'
-                return match.group(0)  # 매핑 안되면 원본 유지
-
-            # 콤마 구분: [1,4,7] 또는 혼합형: [1-3,5,7]
-            if ',' in citation_text:
-                all_nums = []
-                for part in citation_text.split(','):
-                    part = part.strip()
-                    if '-' in part:
-                        # 범위 처리: "1-3"
-                        try:
-                            start, end = part.split('-')
-                            start_num = int(start.strip())
-                            end_num = int(end.strip())
-                            for num in range(start_num, end_num + 1):
-                                if num in old_to_new_mapping:
-                                    all_nums.append(old_to_new_mapping[num])
-                        except ValueError:
-                            # 범위 파싱 실패 시 무시
-                            continue
-                    else:
-                        # 단일 숫자
-                        try:
-                            num = int(part)
-                            if num in old_to_new_mapping:
-                                all_nums.append(old_to_new_mapping[num])
-                        except ValueError:
-                            # 숫자가 아니면 무시
-                            continue
-
-                # 중복 제거 (순서 유지)
-                seen = set()
-                unique_new_nums = []
-                for num in all_nums:
-                    if num not in seen:
-                        seen.add(num)
-                        unique_new_nums.append(num)
-
-                if unique_new_nums:
-                    # 단일 숫자면 대괄호만
-                    if len(unique_new_nums) == 1:
-                        return f'[{unique_new_nums[0]}]'
-                    # 여러 숫자면 콤마로 구분
-                    return f'[{",".join(map(str, unique_new_nums))}]'
-                return match.group(0)  # 매핑 안되면 원본 유지
-
-            return match.group(0)
-
-        # 모든 citation 패턴을 찾아서 재매핑 (답변 업데이트)
-        remapped_answer = re.sub(r'\[([0-9,\-\s]+)\]', remap_citation, answer)
-
-        return remapped_answer, references
+        # 더 이상 재매핑 필요 없음 (GPT가 이미 올바른 번호 사용)
+        return answer, references
 
     except Exception as e:
         print(f"참고문헌 추출 오류: {e}")
