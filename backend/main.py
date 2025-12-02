@@ -552,12 +552,24 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
     """
     질문에 대한 답변을 실시간 SSE 스트리밍
     최적화:
-    1. 번역 제거 - 다국어 임베딩 직접 사용
+    1. 비영어 질문은 영어로 번역 (Pinecone DB는 영어 문서)
     2. GPT 실시간 스트리밍
     3. 후속 질문 병렬 생성
     """
     try:
-        # 1단계: 질문 벡터화 (번역 제거 - 다국어 임베딩 사용)
+        # 1단계: 언어 감지 및 영어 번역 (Pinecone DB는 영어 문서로 구성됨)
+        detected_lang = "English" if language == "English" else language
+
+        if detected_lang != "English":
+            yield create_sse_event({
+                "status": "translating",
+                "message": "질문을 영어로 번역 중..."
+            })
+            question_for_search = await translate_to_english(question, detected_lang)
+        else:
+            question_for_search = question
+
+        # 2단계: 질문 벡터화
         yield create_sse_event({
             "status": "embedding",
             "message": "질문을 벡터로 변환 중..."
@@ -565,11 +577,11 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         embedding_response = openai_client.embeddings.create(
             model="text-embedding-3-small",
-            input=question  # 원본 질문 직접 사용 (다국어 지원)
+            input=question_for_search  # 영어로 번역된 질문 사용
         )
         query_embedding = embedding_response.data[0].embedding
 
-        # 2단계: 벡터 DB 검색
+        # 3단계: 벡터 DB 검색
         yield create_sse_event({
             "status": "searching",
             "message": "의학 문헌 및 가이드라인 검색 중..."
@@ -594,7 +606,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             })
             return
 
-        # 3단계: GPT 답변 스트리밍 시작
+        # 4단계: GPT 답변 스트리밍 시작
         yield create_sse_event({
             "status": "generating",
             "message": "답변 생성 중..."
