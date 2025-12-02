@@ -244,6 +244,10 @@ Important rules:
 7. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
 8. Use Markdown format to create structured answers"""
 
+    # 사용 가능한 Reference 번호 계산
+    num_references = len(doc_order)
+    valid_refs = ", ".join([f"[{i}]" for i in range(1, num_references + 1)])
+
     # 사용자 프롬프트
     user_prompt = f"""Please answer the following question based on the veterinary clinical guideline content provided below:
 
@@ -252,9 +256,12 @@ Important rules:
 Question: {question}
 
 Answer Guidelines:
-1. **CRITICAL**: Cite ONLY using bracketed numbers at the end of sentences (e.g., "...is recommended.[1]" or "...has been reported.[2-3]")
-2. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
-3. **ONLY use bracketed citations [1], [2], [3], etc.**
+1. **CRITICAL**: You have EXACTLY {num_references} references available: {valid_refs}
+2. **ONLY cite these numbers**: {valid_refs}. DO NOT use any other numbers like [6], [7], [8] etc. if they don't exist.
+3. **EVERY sentence must cite at least one reference**. If you cannot answer based on the provided references, say "The provided guidelines do not contain information about this topic."
+4. Cite using bracketed numbers at the end of sentences (e.g., "...is recommended.[1]" or "...has been reported.[2-3]")
+5. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
+6. **ONLY use bracketed citations like [1], [2], [3]**
 4. Write detailed answers in 3-5 paragraphs including background information, clinical significance, and specific recommendations
 5. Maintain a professional and academic tone
 6. Mention recommendation grades or evidence levels when available
@@ -291,8 +298,29 @@ Answer Guidelines:
                 # 비동기 yield 허용을 위한 짧은 지연
                 await asyncio.sleep(0)
 
-        # 스트리밍 완료
+        # 스트리밍 완료 - 답변 검증
         print(f"✅ Streaming complete. Total: {chunk_num} chunks, {len(full_answer)} chars")
+
+        # 1. Citation 검증 - 잘못된 번호 제거
+        cited_indices = extract_cited_indices(full_answer)
+        invalid_citations = [idx for idx in cited_indices if idx > num_references]
+
+        if invalid_citations:
+            print(f"⚠️  Invalid citations found: {invalid_citations}. Max valid: {num_references}")
+            # 잘못된 citation 제거
+            for invalid_idx in sorted(invalid_citations, reverse=True):
+                full_answer = re.sub(rf'\[{invalid_idx}\]', '', full_answer)
+                print(f"   Removed invalid citation: [{invalid_idx}]")
+
+        # 2. Citation 존재 검증 - 참고문헌이 없으면 에러
+        final_cited = extract_cited_indices(full_answer)
+        if not final_cited:
+            print(f"❌ No valid citations found in answer")
+            error_msg = "The provided guidelines do not contain sufficient information to answer this question."
+            yield (error_msg, True)
+            return
+
+        print(f"✅ Validation passed. Valid citations: {sorted(final_cited)}")
         yield (full_answer, True)
 
     except Exception as e:
