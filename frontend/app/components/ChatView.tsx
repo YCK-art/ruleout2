@@ -54,7 +54,6 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [currentConversationId, setCurrentConversationId] = useState<string | null>(null);
   const [isFavorite, setIsFavorite] = useState(false);
   const hasCalledAPI = useRef(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
   const messagesContainerRef = useRef<HTMLDivElement>(null);
   const isLoadingConversation = useRef(false);
   const abortControllerRef = useRef<AbortController | null>(null);
@@ -166,21 +165,16 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const scrollToBottom = () => {
     // DOM 업데이트 완료 후 스크롤 (setTimeout 사용)
     setTimeout(() => {
-      messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+      const container = messagesContainerRef.current;
+      if (container) {
+        // scrollIntoView 대신 scrollTop 직접 제어로 자동 스크롤 방지
+        container.scrollTop = container.scrollHeight;
+      }
     }, 100);
   };
 
-  // 스크롤 관리 - 답변 생성 중에는 자동 스크롤 비활성화
-  useEffect(() => {
-    // 대화 로드 시에는 스크롤하지 않음 (맨 위에서 시작)
-    if (isLoadingConversation.current) {
-      isLoadingConversation.current = false;
-      return; // 스크롤하지 않음
-    }
-
-    // 답변 생성 중에는 자동 스크롤하지 않음 (사용자가 읽을 수 있도록)
-    // 후속 질문 클릭 시에만 스크롤
-  }, [messages, isStreaming]);
+  // 스크롤 관리는 명시적 사용자 액션에서만 수행
+  // 참고문헌 추가 시 자동 스크롤 방지를 위해 messages dependency useEffect 제거
 
   // 기존 대화 불러오기 또는 새 대화 시작
   useEffect(() => {
@@ -1353,8 +1347,6 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
               </button>
             </div>
           )}
-
-          <div ref={messagesEndRef} />
         </div>
       </div>
 
