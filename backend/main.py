@@ -80,6 +80,7 @@ app.add_middleware(
 class QueryRequest(BaseModel):
     question: str
     conversation_history: List[Dict] = []
+    language: str = "한국어"  # 기본값: 한국어
 
 
 class FollowUpRequest(BaseModel):
@@ -547,7 +548,7 @@ async def translate_to_english(question: str, detected_lang: str) -> str:
 
 
 # SSE 스트리밍 엔드포인트 (최적화 버전)
-async def query_stream_generator(question: str, conversation_history: List[Dict] = []) -> AsyncGenerator[str, None]:
+async def query_stream_generator(question: str, conversation_history: List[Dict] = [], language: str = "한국어") -> AsyncGenerator[str, None]:
     """
     질문에 대한 답변을 실시간 SSE 스트리밍
     최적화:
@@ -577,9 +578,17 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         context_chunks = await search_pinecone(query_embedding, top_k=8, min_similarity=0.48)
 
         if not context_chunks:
+            # 언어별 에러 메시지
+            error_messages = {
+                "한국어": "Ruleout은 수의사가 근거 기반 임상 결정을 내리도록 돕기 위해 설계되었습니다.\n\n다음과 같은 질문을 시도해보세요:\n\"급성 심부전이 의심되는 개에게 어떤 진단 검사를 지시해야 하나요?\"",
+                "English": "Ruleout is designed to help veterinarians make evidence-based clinical decisions.\n\nTry asking a question like:\n\"What diagnostic tests should I order for a dog with suspected acute heart failure?\"",
+                "日本語": "Ruleoutは、獣医師がエビデンスに基づいた臨床判断を下すのを支援するために設計されています。\n\n次のような質問を試してみてください：\n「急性心不全が疑われる犬にどのような診断検査を指示すべきですか？\""
+            }
+            error_message = error_messages.get(language, error_messages["한국어"])
+
             yield create_sse_event({
                 "status": "error",
-                "message": "관련 가이드라인을 찾을 수 없습니다."
+                "message": error_message
             })
             return
 
@@ -669,7 +678,7 @@ async def query_stream(request: QueryRequest):
         raise HTTPException(status_code=400, detail="질문을 입력해주세요")
 
     return StreamingResponse(
-        query_stream_generator(request.question, request.conversation_history),
+        query_stream_generator(request.question, request.conversation_history, request.language),
         media_type="text/event-stream",
         headers={
             "Cache-Control": "no-cache",

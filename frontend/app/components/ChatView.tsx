@@ -286,6 +286,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         body: JSON.stringify({
           question: question,
           conversation_history: conversationHistory,
+          language: language, // 현재 선택된 언어 전송
         }),
         signal: abortControllerRef.current.signal, // AbortController 시그널 추가
       });
@@ -356,7 +357,13 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 console.log("🔗 Reference URLs:", finalReferences.map(r => ({ title: r.title, url: r.url })));
               } else if (data.status === "error") {
                 hasError = true;
-                errorMessage = data.message || "관련 정보를 찾을 수 없습니다.";
+                // 백엔드에서 언어별 에러 메시지를 보내므로 그대로 사용
+                const fallbackMessages: { [key: string]: string } = {
+                  "한국어": "Ruleout은 수의사가 근거 기반 임상 결정을 내리도록 돕기 위해 설계되었습니다.\n\n다음과 같은 질문을 시도해보세요:\n\"급성 심부전이 의심되는 개에게 어떤 진단 검사를 지시해야 하나요?\"",
+                  "English": "Ruleout is designed to help veterinarians make evidence-based clinical decisions.\n\nTry asking a question like:\n\"What diagnostic tests should I order for a dog with suspected acute heart failure?\"",
+                  "日本語": "Ruleoutは、獣医師がエビデンスに基づいた臨床判断を下すのを支援するために設計されています。\n\n次のような質問を試してみてください：\n「急性心不全が疑われる犬にどのような診断検査を指示すべきですか？\""
+                };
+                errorMessage = data.message || fallbackMessages[language] || fallbackMessages["한국어"];
               }
             } catch (e) {
               console.error("SSE 파싱 오류:", e);
