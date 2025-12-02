@@ -278,6 +278,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         });
 
       // 백엔드 SSE 스트리밍 호출 (대화 히스토리 포함)
+      console.log("🌐 프론트엔드에서 전송하는 언어:", language);
       const response = await fetch("http://localhost:8000/query-stream", {
         method: "POST",
         headers: {

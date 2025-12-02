@@ -579,12 +579,14 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         if not context_chunks:
             # 언어별 에러 메시지
+            print(f"🌐 받은 언어: {language}")
             error_messages = {
                 "한국어": "Ruleout은 수의사가 근거 기반 임상 결정을 내리도록 돕기 위해 설계되었습니다.\n\n다음과 같은 질문을 시도해보세요:\n\"급성 심부전이 의심되는 개에게 어떤 진단 검사를 지시해야 하나요?\"",
                 "English": "Ruleout is designed to help veterinarians make evidence-based clinical decisions.\n\nTry asking a question like:\n\"What diagnostic tests should I order for a dog with suspected acute heart failure?\"",
                 "日本語": "Ruleoutは、獣医師がエビデンスに基づいた臨床判断を下すのを支援するために設計されています。\n\n次のような質問を試してみてください：\n「急性心不全が疑われる犬にどのような診断検査を指示すべきですか？\""
             }
             error_message = error_messages.get(language, error_messages["한국어"])
+            print(f"📝 에러 메시지 선택: {error_message[:50]}...")
 
             yield create_sse_event({
                 "status": "error",
