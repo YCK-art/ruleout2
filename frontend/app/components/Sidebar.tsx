@@ -407,12 +407,14 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
                               if (newDropdownState) {
                                 const buttonRect = e.currentTarget.getBoundingClientRect();
                                 const viewportHeight = window.innerHeight;
-                                const spaceBelow = viewportHeight - buttonRect.bottom;
-                                const dropdownHeight = 200; // 예상 드롭다운 높이
+                                const buttonMiddle = buttonRect.top + buttonRect.height / 2;
+
+                                // 버튼이 화면 하단 40%에 있으면 위로 펼침
+                                const isInLowerPortion = buttonMiddle > (viewportHeight * 0.6);
 
                                 setDropdownPosition(prev => ({
                                   ...prev,
-                                  [conversation.id]: spaceBelow < dropdownHeight ? 'top' : 'bottom'
+                                  [conversation.id]: isInLowerPortion ? 'top' : 'bottom'
                                 }));
                               }
                             }}
@@ -540,12 +542,14 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
                               if (newDropdownState) {
                                 const buttonRect = e.currentTarget.getBoundingClientRect();
                                 const viewportHeight = window.innerHeight;
-                                const spaceBelow = viewportHeight - buttonRect.bottom;
-                                const dropdownHeight = 200; // 예상 드롭다운 높이
+                                const buttonMiddle = buttonRect.top + buttonRect.height / 2;
+
+                                // 버튼이 화면 하단 40%에 있으면 위로 펼침
+                                const isInLowerPortion = buttonMiddle > (viewportHeight * 0.6);
 
                                 setDropdownPosition(prev => ({
                                   ...prev,
-                                  [conversation.id]: spaceBelow < dropdownHeight ? 'top' : 'bottom'
+                                  [conversation.id]: isInLowerPortion ? 'top' : 'bottom'
                                 }));
                               }
                             }}
