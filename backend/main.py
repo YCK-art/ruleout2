@@ -262,15 +262,24 @@ Answer Guidelines:
 4. Cite using bracketed numbers at the end of sentences (e.g., "...is recommended.[1]" or "...has been reported.[2-3]")
 5. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
 6. **ONLY use bracketed citations like [1], [2], [3]**
-4. Write detailed answers in 3-5 paragraphs including background information, clinical significance, and specific recommendations
-5. Maintain a professional and academic tone
-6. Mention recommendation grades or evidence levels when available
-7. **Important**: Use the following formats to convey content more clearly:
+7. Write detailed answers in 3-5 paragraphs including background information, clinical significance, and specific recommendations
+8. Maintain a professional and academic tone
+9. Mention recommendation grades or evidence levels when available
+10. **Important - Formatting Guidelines**:
    - Headings: ## Main Recommendations
    - Subheadings: ### First-line Treatment
    - Bullet points: - Item 1
    - Numbered lists: 1. First
-   - Tables: Use markdown tables when comparisons are needed"""
+   - **Tables: ACTIVELY USE markdown tables when:**
+     * Comparing drugs/medications (dosage, side effects, contraindications)
+     * Listing multiple treatment options with characteristics
+     * Comparing diagnostic tests (sensitivity, specificity, cost)
+     * Showing breed-specific or age-specific recommendations
+     * Any comparison or structured data that benefits from tabular format
+   - Example table format:
+     | Drug | Dosage | Side Effects | Notes |
+     |------|--------|--------------|-------|
+     | Drug A | 10mg | Nausea | First-line[1] |"""
 
     try:
         stream = openai_client.chat.completions.create(
@@ -280,7 +289,7 @@ Answer Guidelines:
                 {"role": "user", "content": user_prompt}
             ],
             temperature=0.3,
-            max_tokens=3000,
+            max_tokens=2000,  # 3000 → 2000으로 감소 (비용 절감 + 더 간결한 답변)
             stream=True  # 스트리밍 활성화
         )
 
