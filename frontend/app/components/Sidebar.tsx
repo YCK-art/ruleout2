@@ -46,6 +46,7 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
   const [favoriteConversations, setFavoriteConversations] = useState<ChatListItem[]>([]);
   const router = useRouter();
   const [showToast, setShowToast] = useState(false);
+  const [dropdownPosition, setDropdownPosition] = useState<{[key: string]: 'top' | 'bottom'}>({});
 
   // Multilingual content
   const content = {
@@ -399,7 +400,21 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
                           <button
                             onClick={(e) => {
                               e.stopPropagation();
-                              setActiveDropdown(activeDropdown === conversation.id ? null : conversation.id);
+                              const newDropdownState = activeDropdown === conversation.id ? null : conversation.id;
+                              setActiveDropdown(newDropdownState);
+
+                              // 드롭다운 위치 계산
+                              if (newDropdownState) {
+                                const buttonRect = e.currentTarget.getBoundingClientRect();
+                                const viewportHeight = window.innerHeight;
+                                const spaceBelow = viewportHeight - buttonRect.bottom;
+                                const dropdownHeight = 200; // 예상 드롭다운 높이
+
+                                setDropdownPosition(prev => ({
+                                  ...prev,
+                                  [conversation.id]: spaceBelow < dropdownHeight ? 'top' : 'bottom'
+                                }));
+                              }
                             }}
                             className="p-1 hover:bg-gray-600 rounded transition-colors flex-shrink-0"
                           >
@@ -412,7 +427,11 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
                       {activeDropdown === conversation.id && (
                         <div
                           ref={(el) => { dropdownRefs.current[conversation.id] = el; }}
-                          className="absolute right-2 top-full mt-1 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg z-50 min-w-[200px]"
+                          className={`absolute right-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg z-50 min-w-[200px] ${
+                            dropdownPosition[conversation.id] === 'top'
+                              ? 'bottom-full mb-1'
+                              : 'top-full mt-1'
+                          }`}
                         >
                           <div className="py-1">
                             {/* Remove From Favorites */}
@@ -514,7 +533,21 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
                           <button
                             onClick={(e) => {
                               e.stopPropagation();
-                              setActiveDropdown(activeDropdown === conversation.id ? null : conversation.id);
+                              const newDropdownState = activeDropdown === conversation.id ? null : conversation.id;
+                              setActiveDropdown(newDropdownState);
+
+                              // 드롭다운 위치 계산
+                              if (newDropdownState) {
+                                const buttonRect = e.currentTarget.getBoundingClientRect();
+                                const viewportHeight = window.innerHeight;
+                                const spaceBelow = viewportHeight - buttonRect.bottom;
+                                const dropdownHeight = 200; // 예상 드롭다운 높이
+
+                                setDropdownPosition(prev => ({
+                                  ...prev,
+                                  [conversation.id]: spaceBelow < dropdownHeight ? 'top' : 'bottom'
+                                }));
+                              }
                             }}
                             className="p-1 hover:bg-gray-600 rounded transition-colors flex-shrink-0"
                           >
@@ -527,7 +560,11 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
                       {activeDropdown === conversation.id && (
                         <div
                           ref={(el) => { dropdownRefs.current[conversation.id] = el; }}
-                          className="absolute right-2 top-full mt-1 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg z-50 min-w-[180px]"
+                          className={`absolute right-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg z-50 min-w-[180px] ${
+                            dropdownPosition[conversation.id] === 'top'
+                              ? 'bottom-full mb-1'
+                              : 'top-full mt-1'
+                          }`}
                         >
                           <div className="py-1">
                             {/* 즐겨찾기 */}
