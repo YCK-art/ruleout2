@@ -214,6 +214,10 @@ async def generate_answer_stream(question: str, context_chunks: List[Dict]) -> A
     # 문서별로 청크를 그룹핑 (중복 문서 제거, 처음부터 올바른 Reference 번호 사용)
     doc_order, seen_docs = group_chunks_by_document(context_chunks)
 
+    print(f"📚 generate_answer_stream:")
+    print(f"   context_chunks: {len(context_chunks)} chunks")
+    print(f"   doc_order: {len(doc_order)} documents")
+
     # 컨텍스트 구성 (문서별로 통합된 Reference 번호)
     context_text = ""
     for i, ref_key in enumerate(doc_order, 1):
@@ -289,7 +293,7 @@ Answer Guidelines:
                 {"role": "user", "content": user_prompt}
             ],
             temperature=0.3,
-            max_tokens=2000,  # 3000 → 2000으로 감소 (비용 절감 + 더 간결한 답변)
+            max_tokens=1200,  # 2000 → 1200으로 감소 (더 간결한 답변)
             stream=True  # 스트리밍 활성화
         )
 
@@ -326,15 +330,16 @@ Answer Guidelines:
         if not final_cited:
             print(f"❌ No valid citations found in answer")
             error_msg = "The provided guidelines do not contain sufficient information to answer this question."
-            yield (error_msg, True)
+            yield (error_msg, True, doc_order, seen_docs)
             return
 
         print(f"✅ Validation passed. Valid citations: {sorted(final_cited)}")
-        yield (full_answer, True)
+        # doc_order와 seen_docs도 함께 반환
+        yield (full_answer, True, doc_order, seen_docs)
 
     except Exception as e:
         print(f"GPT 스트리밍 오류: {e}")
-        yield ("죄송합니다. 답변 생성 중 오류가 발생했습니다.", True)
+        yield ("죄송합니다. 답변 생성 중 오류가 발생했습니다.", True, [], {})
 
 
 # 문서별 그룹핑 함수
@@ -357,16 +362,18 @@ def group_chunks_by_document(context_chunks: List[Dict]) -> tuple[list, dict]:
 
 
 # 기존 generate_answer 함수 (참고문헌 추출용)
-async def extract_references_from_answer(answer: str, context_chunks: List[Dict]) -> List[Reference]:
+async def extract_references_from_answer(answer: str, doc_order: List[str], seen_docs: Dict) -> List[Reference]:
     """
     답변에서 실제 사용된 참고문헌만 추출 (이미 올바른 번호로 citation됨)
+    doc_order, seen_docs는 generate_answer_stream에서 전달받음
     """
     try:
         # 답변에서 실제 사용된 citation 번호 추출
         cited_indices = extract_cited_indices(answer)
 
-        # 문서별로 그룹핑 (GPT가 받은 것과 동일)
-        doc_order, seen_docs = group_chunks_by_document(context_chunks)
+        print(f"🔍 extract_references_from_answer:")
+        print(f"   doc_order: {len(doc_order)} documents")
+        print(f"   cited_indices: {sorted(cited_indices)}")
 
         # 실제 사용된 참고문헌만 추출
         references = []
@@ -409,6 +416,10 @@ async def extract_references_from_answer(answer: str, context_chunks: List[Dict]
                     score=first_chunk.get('score', 0.0),
                     url=paper_url
                 ))
+            else:
+                print(f"❌ ERROR: Citation [{idx}] out of range! doc_order has only {len(doc_order)} documents")
+                print(f"   This should have been caught in validation!")
+                continue
 
         # 더 이상 재매핑 필요 없음 (GPT가 이미 올바른 번호 사용)
         return answer, references
@@ -574,8 +585,11 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         # GPT 스트리밍
         full_answer = ""
         chunk_count = 0
-        async for chunk_content, is_done in generate_answer_stream(question, context_chunks):
-            if not is_done:
+        doc_order = []
+        seen_docs = {}
+        async for result in generate_answer_stream(question, context_chunks):
+            if len(result) == 2:  # 스트리밍 중
+                chunk_content, is_done = result
                 # 스트리밍 청크 전송
                 chunk_count += 1
                 event_data = create_sse_event({
@@ -584,16 +598,15 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
                 })
                 print(f"🔥 Sending chunk #{chunk_count}: {len(chunk_content)} chars")
                 yield event_data
-            else:
-                # 스트리밍 완료 - full_answer 받음
-                full_answer = chunk_content
+            else:  # 스트리밍 완료
+                full_answer, is_done, doc_order, seen_docs = result
                 print(f"✅ Total chunks sent: {chunk_count}")
 
         # 4단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
         print("📚 참고문헌 추출 및 후속 질문 생성 시작...")
 
         # 병렬 실행을 위한 태스크 생성
-        refs_task = extract_references_from_answer(full_answer, context_chunks)
+        refs_task = extract_references_from_answer(full_answer, doc_order, seen_docs)
         followup_task = generate_followup_questions(question, full_answer, conversation_history)
 
         # 동시 실행

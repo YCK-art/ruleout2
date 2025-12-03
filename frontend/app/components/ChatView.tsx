@@ -535,20 +535,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       return;
     }
 
-    // Related Questions 섹션을 제거하기 위해 마지막 assistant 메시지의 followupQuestions를 제거
+    // 모든 이전 메시지들의 followupQuestions를 제거 (가장 최신 답변만 표시)
     setMessages((prev) => {
-      const newMessages = [...prev];
-      // 마지막 assistant 메시지 찾기
-      for (let i = newMessages.length - 1; i >= 0; i--) {
-        if (newMessages[i].role === "assistant") {
-          newMessages[i] = {
-            ...newMessages[i],
+      return prev.map((msg) => {
+        if (msg.role === "assistant" && msg.followupQuestions) {
+          return {
+            ...msg,
             followupQuestions: undefined,
           };
-          break;
         }
-      }
-      return newMessages;
+        return msg;
+      });
     });
 
     // Guest 모드에서 쿼리 카운트 증가
@@ -687,6 +684,19 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
     const question = input.trim();
     setInput("");
+
+    // 모든 이전 메시지들의 followupQuestions를 제거 (가장 최신 답변만 표시)
+    setMessages((prev) => {
+      return prev.map((msg) => {
+        if (msg.role === "assistant" && msg.followupQuestions) {
+          return {
+            ...msg,
+            followupQuestions: undefined,
+          };
+        }
+        return msg;
+      });
+    });
 
     // 질문 전송 즉시 맨 아래로 스크롤 (답변 기다리지 않음)
     scrollToBottom();
