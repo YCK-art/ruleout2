@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { PanelLeft, MessageSquare, Clock, FolderOpen, User, ArrowUpCircle, Bell, Settings, HelpCircle, LogOut, ChevronRight, Plus, MoreVertical, Star, Edit2, FolderPlus, Trash2, ExternalLink } from "lucide-react";
+import { PanelLeft, MessageSquare, Clock, FolderOpen, User, ArrowUpCircle, Bell, Settings, HelpCircle, LogOut, ChevronRight, SquarePen, MoreVertical, Star, Edit2, FolderPlus, Trash2, ExternalLink } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getUserConversations, deleteConversation, updateConversationTitle, toggleFavorite, getFavoriteConversations } from "@/lib/chatService";
@@ -196,10 +196,15 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
         setShowNotificationMenu(false);
       }
 
-      // 대화 드롭다운 닫기
+      // 대화 드롭다운 닫기 - 3개점 버튼 클릭은 제외
       if (activeDropdown) {
         const dropdownRef = dropdownRefs.current[activeDropdown];
-        if (dropdownRef && !dropdownRef.contains(event.target as Node)) {
+        const target = event.target as HTMLElement;
+
+        // 3개점 버튼이나 그 자식 요소를 클릭한 경우 무시
+        const isMoreButton = target.closest('button')?.querySelector('.lucide-more-vertical');
+
+        if (dropdownRef && !dropdownRef.contains(target) && !isMoreButton) {
           setActiveDropdown(null);
         }
       }
@@ -324,13 +329,13 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
         isOpen ? "w-64" : "w-12"
       } transition-[width] duration-300 ease-in-out bg-[#1a1a1a] border-r border-gray-700 flex flex-col overflow-hidden`}
     >
-      <div className={`flex flex-col h-full ${isOpen ? 'p-4' : 'px-2 py-4'}`}>
+      <div className="flex flex-col h-full p-2">
         {/* 상단 메뉴 항목들 */}
         <nav className="flex flex-col space-y-2 mb-4">
           {/* 토글 버튼 */}
           <button
             onClick={onToggle}
-            className={`group flex items-center ${isOpen ? 'space-x-3 px-3' : 'justify-center px-2'} py-2 rounded-lg hover:bg-gray-700 transition-colors`}
+            className="group relative flex items-center justify-start px-2 py-2 rounded-lg hover:bg-gray-700 transition-colors"
           >
             <PanelLeft className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
           </button>
@@ -338,30 +343,36 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
           {/* New Chat Button */}
           <button
             onClick={onNewChat}
-            className={`group flex items-center ${isOpen ? 'space-x-3 px-3' : 'justify-center px-2'} py-2 rounded-lg hover:bg-gray-700 transition-colors text-left`}
+            className="group relative flex items-center justify-start px-2 py-2 rounded-lg hover:bg-gray-700 transition-colors"
           >
-            <Plus className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
-            <span className={`whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 w-0 overflow-hidden'}`}>{currentContent.newChat}</span>
+            <SquarePen className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
+            <span className={`absolute left-10 whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+              {currentContent.newChat}
+            </span>
           </button>
 
           <button
             onClick={onShowHistory}
-            className={`group flex items-center ${isOpen ? 'space-x-3 px-3' : 'justify-center px-2'} py-2 rounded-lg transition-colors text-left ${
+            className={`group relative flex items-center justify-start px-2 py-2 rounded-lg transition-colors ${
               currentView === 'history' ? 'bg-gray-700' : 'hover:bg-gray-700'
             }`}
           >
             <Clock className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
-            <span className={`whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 w-0 overflow-hidden'}`}>{currentContent.history}</span>
+            <span className={`absolute left-10 whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+              {currentContent.history}
+            </span>
           </button>
 
           <button
             onClick={onShowCollections}
-            className={`group flex items-center ${isOpen ? 'space-x-3 px-3' : 'justify-center px-2'} py-2 rounded-lg transition-colors text-left ${
+            className={`group relative flex items-center justify-start px-2 py-2 rounded-lg transition-colors ${
               currentView === 'collections' || currentView === 'projectDetail' ? 'bg-gray-700' : 'hover:bg-gray-700'
             }`}
           >
             <FolderOpen className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
-            <span className={`whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 w-0 overflow-hidden'}`}>{currentContent.collections}</span>
+            <span className={`absolute left-10 whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+              {currentContent.collections}
+            </span>
           </button>
         </nav>
 
@@ -643,9 +654,7 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
             <div className="relative" ref={notificationMenuRef}>
               {/* 알림 드롭다운 메뉴 (위쪽으로 나타남) */}
               {showNotificationMenu && (
-                <div className={`absolute bottom-full mb-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg overflow-hidden z-50 ${
-                  isOpen ? 'left-0 w-56' : 'left-12 w-56'
-                }`}>
+                <div className="absolute left-12 bottom-full mb-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg overflow-hidden z-50 w-56">
                   <div className="p-4">
                     <h3 className="text-base font-semibold mb-3">{currentContent.notifications}</h3>
                     <div className="flex flex-col items-center justify-center py-4">
@@ -662,10 +671,12 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
 
               <button
                 onClick={() => setShowNotificationMenu(!showNotificationMenu)}
-                className={`group flex items-center ${isOpen ? 'space-x-3 px-3 w-full' : 'justify-center px-2'} py-2 rounded-lg hover:bg-gray-700 transition-colors text-left`}
+                className="group relative flex items-center justify-start px-2 py-2 rounded-lg hover:bg-gray-700 transition-colors"
               >
                 <Bell className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
-                <span className={`whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 w-0 overflow-hidden'}`}>{currentContent.notifications}</span>
+                <span className={`absolute left-10 whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                  {currentContent.notifications}
+                </span>
               </button>
             </div>
           )}
@@ -673,19 +684,19 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
           {/* Upgrade Button */}
           <button
             onClick={() => router.push('/upgrade')}
-            className={`group flex items-center ${isOpen ? 'space-x-3 px-3 w-full' : 'justify-center px-2'} py-2 rounded-lg hover:bg-gray-700 transition-colors text-left`}
+            className="group relative flex items-center justify-start px-2 py-2 rounded-lg hover:bg-gray-700 transition-colors"
           >
             <ArrowUpCircle className="w-4 h-4 flex-shrink-0 group-hover:text-[#4DB8C4] transition-colors" />
-            <span className={`whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 w-0 overflow-hidden'}`}>{currentContent.upgrade}</span>
+            <span className={`absolute left-10 whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+              {currentContent.upgrade}
+            </span>
           </button>
 
           {/* 프로필 버튼 */}
           <div className="relative" ref={profileMenuRef}>
             {/* 프로필 드롭다운 메뉴 (위쪽으로 나타남) */}
             {showProfileMenu && (
-              <div className={`absolute bottom-full mb-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg overflow-hidden z-50 ${
-                isOpen ? 'left-0 right-0' : 'left-12 w-56'
-              }`}>
+              <div className="absolute left-12 bottom-full mb-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg overflow-hidden z-50 w-56">
                 <div className="py-2">
                   {/* Settings - 로그인한 경우에만 표시 */}
                   {user && (
@@ -834,12 +845,12 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
 
             <button
               onClick={() => setShowProfileMenu(!showProfileMenu)}
-              className={`group flex items-center ${isOpen ? 'space-x-3 px-3 w-full' : 'justify-center px-2'} py-2 rounded-lg hover:bg-gray-700 transition-colors text-left`}
+              className="group relative flex items-center justify-start px-2 py-2 rounded-lg hover:bg-gray-700 transition-colors"
             >
               <div className="group-hover:ring-2 group-hover:ring-[#4DB8C4] rounded-full transition-all">
                 {renderProfileAvatar()}
               </div>
-              <span className={`whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 w-0 overflow-hidden'}`}>
+              <span className={`absolute left-10 whitespace-nowrap text-sm transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                 {user ? (user.displayName || user.email) : currentContent.profile}
               </span>
             </button>
