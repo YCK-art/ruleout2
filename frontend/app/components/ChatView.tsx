@@ -60,6 +60,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [guestQueriesRemaining, setGuestQueriesRemaining] = useState(5);
   const [showScrollToBottom, setShowScrollToBottom] = useState(false);
+  const [copiedTableIndex, setCopiedTableIndex] = useState<string | null>(null);
 
   // User 상태 로깅
   useEffect(() => {
@@ -944,6 +945,42 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     printWindow.document.close();
   };
 
+  // 테이블 내용 복사 함수
+  const copyTableContent = async (tableElement: HTMLTableElement, tableId: string) => {
+    try {
+      // HTML 형식으로 복사 (테이블 구조 유지)
+      const tableHTML = tableElement.outerHTML;
+
+      // 텍스트 형식도 함께 준비 (폴백용)
+      let tableText = '';
+      const rows = tableElement.querySelectorAll('tr');
+      rows.forEach((row) => {
+        const cells = row.querySelectorAll('th, td');
+        const cellTexts: string[] = [];
+        cells.forEach((cell) => {
+          cellTexts.push(cell.textContent?.trim() || '');
+        });
+        tableText += cellTexts.join('\t') + '\n';
+      });
+
+      // 클립보드에 HTML과 텍스트 모두 복사
+      await navigator.clipboard.write([
+        new ClipboardItem({
+          'text/html': new Blob([tableHTML], { type: 'text/html' }),
+          'text/plain': new Blob([tableText], { type: 'text/plain' })
+        })
+      ]);
+
+      // 복사 완료 표시
+      setCopiedTableIndex(tableId);
+      setTimeout(() => {
+        setCopiedTableIndex(null);
+      }, 2000);
+    } catch (err) {
+      console.error('Failed to copy table:', err);
+    }
+  };
+
   // Citation 문자열에서 모든 참고문헌 번호 추출
   const parseCitationNumbers = (citation: string): number[] => {
     const numbers: number[] = [];
@@ -1049,11 +1086,35 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         {processChildrenWithCitations(children, messageIndex)}
       </li>
     ),
-    table: ({ children, ...props }: any) => (
-      <div className="overflow-x-auto my-4">
-        <table className="min-w-full border border-gray-600" {...props}>{children}</table>
-      </div>
-    ),
+    table: ({ children, node, ...props }: any) => {
+      // 테이블의 고유 ID를 node position 기반으로 생성 (렌더링마다 일관성 유지)
+      const tableId = `table-${messageIndex}-${node?.position?.start?.line || 0}`;
+      const isCopied = copiedTableIndex === tableId;
+      return (
+        <div className="relative group overflow-x-auto my-4">
+          <table className="min-w-full border border-gray-600" {...props}>{children}</table>
+          {/* 복사 버튼 - 호버 시 또는 복사 완료 시 표시 (오른쪽 하단) */}
+          <button
+            onClick={(e) => {
+              const tableElement = e.currentTarget.parentElement?.querySelector('table') as HTMLTableElement;
+              if (tableElement) {
+                copyTableContent(tableElement, tableId);
+              }
+            }}
+            className={`absolute bottom-2 right-2 transition-all duration-200 p-2 rounded-lg z-10 bg-gray-700 hover:bg-gray-600 ${
+              isCopied ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+            }`}
+            title={isCopied ? "Copied!" : "Copy table"}
+          >
+            {isCopied ? (
+              <Check className="w-4 h-4 text-green-400" />
+            ) : (
+              <Copy className="w-4 h-4 text-gray-300" />
+            )}
+          </button>
+        </div>
+      );
+    },
     thead: ({ children, ...props }: any) => (
       <thead className="bg-gray-700" {...props}>{children}</thead>
     ),
