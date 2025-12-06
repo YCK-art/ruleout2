@@ -266,7 +266,7 @@ Answer Guidelines:
 4. Cite using bracketed numbers at the end of sentences (e.g., "...is recommended.[1]" or "...has been reported.[2-3]")
 5. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
 6. **ONLY use bracketed citations like [1], [2], [3]**
-7. Write detailed answers in 3-5 paragraphs including background information, clinical significance, and specific recommendations
+7. Write detailed answers in 2-4 paragraphs including background information, clinical significance, and specific recommendations
 8. Maintain a professional and academic tone
 9. Mention recommendation grades or evidence levels when available
 10. **Important - Formatting Guidelines**:
@@ -299,14 +299,49 @@ Answer Guidelines:
 
         full_answer = ""
         chunk_num = 0
+        seen_citations = set()  # 실시간으로 등장한 citation 추적
+        citation_map = {}  # 원본 번호 → 재매핑된 번호
+
         for chunk in stream:
             if chunk.choices[0].delta.content:
                 content = chunk.choices[0].delta.content
-                full_answer += content
+
+                # 1단계: 잘못된 번호 제거
+                filtered_content = content
+                for i in range(num_references + 1, 100):
+                    filtered_content = re.sub(rf'\[{i}\]', '', filtered_content)
+
+                # 2단계: 실시간 citation 재매핑
+                # 현재 청크에서 새로운 citation 발견 시 매핑 생성
+                chunk_citations = extract_cited_indices(filtered_content)
+                for cite_num in chunk_citations:
+                    if cite_num not in seen_citations and 1 <= cite_num <= num_references:
+                        seen_citations.add(cite_num)
+                        # 새로운 번호 할당 (등장 순서대로 1, 2, 3...)
+                        citation_map[cite_num] = len(citation_map) + 1
+
+                # 3단계: 청크 내 citation을 재매핑된 번호로 교체
+                remapped_chunk = filtered_content
+                for old_num in sorted(citation_map.keys(), reverse=True):
+                    new_num = citation_map[old_num]
+                    remapped_chunk = re.sub(rf'\[{old_num}\]', f'<<TEMP{new_num}>>', remapped_chunk)
+
+                # 플레이스홀더를 실제 번호로 교체
+                for new_num in citation_map.values():
+                    remapped_chunk = remapped_chunk.replace(f'<<TEMP{new_num}>>', f'[{new_num}]')
+
+                full_answer += remapped_chunk
                 chunk_num += 1
-                # 실시간 청크 전송 (타이핑 효과)
-                print(f"📝 Chunk #{chunk_num}: {content[:30]}... ({len(content)} chars)")
-                yield (content, False)
+
+                # 재매핑된 청크 전송 (타이핑 효과)
+                if remapped_chunk:
+                    if remapped_chunk != filtered_content:
+                        print(f"📝 Chunk #{chunk_num} REMAPPED: {remapped_chunk[:30]}... (map: {citation_map})")
+                    else:
+                        print(f"📝 Chunk #{chunk_num}: {remapped_chunk[:30]}...")
+                    yield (remapped_chunk, False)
+                elif content != filtered_content:
+                    print(f"⚠️  Chunk #{chunk_num}: Invalid citation filtered out")
 
                 # 비동기 yield 허용을 위한 짧은 지연
                 await asyncio.sleep(0)
@@ -314,32 +349,32 @@ Answer Guidelines:
         # 스트리밍 완료 - 답변 검증
         print(f"✅ Streaming complete. Total: {chunk_num} chunks, {len(full_answer)} chars")
 
-        # 1. Citation 검증 - 잘못된 번호 제거
-        cited_indices = extract_cited_indices(full_answer)
-        invalid_citations = [idx for idx in cited_indices if idx > num_references]
+        # Citation 검증 - 실시간 필터링으로 이미 처리되었으므로 최종 확인만
+        final_cited = extract_cited_indices(full_answer)
+        invalid_citations = [idx for idx in final_cited if idx > num_references]
 
         if invalid_citations:
-            print(f"⚠️  Invalid citations found: {invalid_citations}. Max valid: {num_references}")
-            # 잘못된 citation 제거
+            # 혹시 놓친 잘못된 citation이 있으면 제거 (이중 안전장치)
+            print(f"⚠️  Missed invalid citations: {invalid_citations}. Removing...")
             for invalid_idx in sorted(invalid_citations, reverse=True):
                 full_answer = re.sub(rf'\[{invalid_idx}\]', '', full_answer)
-                print(f"   Removed invalid citation: [{invalid_idx}]")
+            final_cited = extract_cited_indices(full_answer)
 
-        # 2. Citation 존재 검증 - 참고문헌이 없으면 에러
-        final_cited = extract_cited_indices(full_answer)
+        # Citation 존재 검증 - 참고문헌이 없으면 에러
         if not final_cited:
             print(f"❌ No valid citations found in answer")
             error_msg = "The provided guidelines do not contain sufficient information to answer this question."
-            yield (error_msg, True, doc_order, seen_docs)
+            yield (error_msg, True, doc_order, seen_docs, {})
             return
 
         print(f"✅ Validation passed. Valid citations: {sorted(final_cited)}")
-        # doc_order와 seen_docs도 함께 반환
-        yield (full_answer, True, doc_order, seen_docs)
+        print(f"🔄 Final citation mapping: {citation_map}")
+        # doc_order, seen_docs, citation_map 함께 반환
+        yield (full_answer, True, doc_order, seen_docs, citation_map)
 
     except Exception as e:
         print(f"GPT 스트리밍 오류: {e}")
-        yield ("죄송합니다. 답변 생성 중 오류가 발생했습니다.", True, [], {})
+        yield ("죄송합니다. 답변 생성 중 오류가 발생했습니다.", True, [], {}, {})
 
 
 # 문서별 그룹핑 함수
@@ -362,26 +397,34 @@ def group_chunks_by_document(context_chunks: List[Dict]) -> tuple[list, dict]:
 
 
 # 기존 generate_answer 함수 (참고문헌 추출용)
-async def extract_references_from_answer(answer: str, doc_order: List[str], seen_docs: Dict) -> List[Reference]:
+async def extract_references_from_answer(answer: str, doc_order: List[str], seen_docs: Dict, citation_map: Dict = None) -> List[Reference]:
     """
-    답변에서 실제 사용된 참고문헌만 추출 (이미 올바른 번호로 citation됨)
-    doc_order, seen_docs는 generate_answer_stream에서 전달받음
+    답변에서 실제 사용된 참고문헌만 추출 (스트리밍 중 이미 재매핑됨)
+    doc_order, seen_docs, citation_map은 generate_answer_stream에서 전달받음
     """
     try:
-        # 답변에서 실제 사용된 citation 번호 추출
+        # 답변에서 실제 사용된 citation 번호 추출 (이미 재매핑된 상태)
         cited_indices = extract_cited_indices(answer)
 
         print(f"🔍 extract_references_from_answer:")
         print(f"   doc_order: {len(doc_order)} documents")
-        print(f"   cited_indices: {sorted(cited_indices)}")
+        print(f"   cited_indices (already remapped): {sorted(cited_indices)}")
+        print(f"   citation_map from streaming: {citation_map}")
 
-        # 실제 사용된 참고문헌만 추출
+        # 스트리밍에서 이미 재매핑되어 있으므로, 역매핑 생성 (새 번호 → 원본 번호)
+        reverse_map = {v: k for k, v in (citation_map or {}).items()}
+        print(f"   reverse_map: {reverse_map}")
+
+        # 실제 사용된 참고문헌만 추출 (이미 재매핑된 번호 기준)
         references = []
 
-        for idx in sorted(cited_indices):
+        for new_idx in sorted(cited_indices):
+            # 역매핑으로 원본 문서 번호 찾기
+            old_idx = reverse_map.get(new_idx, new_idx)  # 매핑이 없으면 그대로 사용
+
             # citation은 1부터 시작
-            if 1 <= idx <= len(doc_order):
-                ref_key = doc_order[idx - 1]
+            if 1 <= old_idx <= len(doc_order):
+                ref_key = doc_order[old_idx - 1]
                 chunks = seen_docs[ref_key]
                 first_chunk = chunks[0]  # 대표 청크 사용
 
@@ -417,11 +460,12 @@ async def extract_references_from_answer(answer: str, doc_order: List[str], seen
                     url=paper_url
                 ))
             else:
-                print(f"❌ ERROR: Citation [{idx}] out of range! doc_order has only {len(doc_order)} documents")
+                print(f"❌ ERROR: Citation [{old_idx}] out of range! doc_order has only {len(doc_order)} documents")
                 print(f"   This should have been caught in validation!")
                 continue
 
-        # 더 이상 재매핑 필요 없음 (GPT가 이미 올바른 번호 사용)
+        # 스트리밍에서 이미 재매핑되었으므로 answer를 그대로 반환
+        print(f"✅ Extracted {len(references)} references (citations already remapped during streaming)")
         return answer, references
 
     except Exception as e:
@@ -557,7 +601,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             "message": "의학 문헌 및 가이드라인 검색 중..."
         })
 
-        context_chunks = await search_pinecone(query_embedding, top_k=8, min_similarity=0.48)
+        context_chunks = await search_pinecone(query_embedding, top_k=10, min_similarity=0.48)
 
         if not context_chunks:
             # 언어별 에러 메시지
@@ -587,6 +631,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         chunk_count = 0
         doc_order = []
         seen_docs = {}
+        citation_map = {}
         async for result in generate_answer_stream(question, context_chunks):
             if len(result) == 2:  # 스트리밍 중
                 chunk_content, is_done = result
@@ -599,14 +644,14 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
                 print(f"🔥 Sending chunk #{chunk_count}: {len(chunk_content)} chars")
                 yield event_data
             else:  # 스트리밍 완료
-                full_answer, is_done, doc_order, seen_docs = result
+                full_answer, is_done, doc_order, seen_docs, citation_map = result
                 print(f"✅ Total chunks sent: {chunk_count}")
 
         # 4단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
         print("📚 참고문헌 추출 및 후속 질문 생성 시작...")
 
         # 병렬 실행을 위한 태스크 생성
-        refs_task = extract_references_from_answer(full_answer, doc_order, seen_docs)
+        refs_task = extract_references_from_answer(full_answer, doc_order, seen_docs, citation_map)
         followup_task = generate_followup_questions(question, full_answer, conversation_history)
 
         # 동시 실행

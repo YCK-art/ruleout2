@@ -183,16 +183,31 @@ export default function MainContent({ isSidebarOpen, onToggleSidebar, onQuestion
         {/* 검색 입력창 */}
         <form onSubmit={handleSubmit} className="w-full max-w-3xl mb-6">
           <div className="flex items-center bg-[#2a2a2a] rounded-2xl border border-gray-700 px-6 pr-2 py-3">
-            <input
-              type="text"
+            <textarea
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                  e.preventDefault();
+                  handleSubmit(e);
+                }
+              }}
               placeholder={content[language].placeholder}
-              className="flex-1 bg-transparent outline-none text-white placeholder-gray-500"
+              className="flex-1 bg-transparent outline-none text-white placeholder-gray-500 resize-none max-h-[200px] overflow-y-auto"
+              rows={1}
+              style={{
+                height: '24px',
+                lineHeight: '24px'
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLTextAreaElement;
+                target.style.height = '24px';
+                target.style.height = `${Math.min(target.scrollHeight, 200)}px`;
+              }}
             />
             <button
               type="submit"
-              className="w-10 h-10 flex items-center justify-center rounded-full transition-all duration-200 hover:brightness-110"
+              className="w-10 h-10 flex items-center justify-center rounded-full transition-all duration-200 hover:brightness-110 flex-shrink-0 self-start"
               style={{ backgroundColor: '#20808D' }}
             >
               <ArrowRight className="w-5 h-5" />

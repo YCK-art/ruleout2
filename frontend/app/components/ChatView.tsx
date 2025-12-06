@@ -391,13 +391,19 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       // 스트리밍 완료 - 참고문헌과 후속 질문 추가
       if (finalAnswer) {
         console.log("💬 Streaming complete - adding references and followup questions");
+        console.log("🔍 streamingAnswer length:", streamingAnswer.length);
+        console.log("🔍 finalAnswer length:", finalAnswer.length);
+        console.log("🔍 Are they different?", streamingAnswer !== finalAnswer);
+        if (streamingAnswer !== finalAnswer) {
+          console.log("⚠️ CITATION REMAPPED - Replacing streamed answer with remapped answer");
+        }
 
         // 최종 메시지 업데이트 (참고문헌 + 후속 질문 추가)
         setMessages((prev) => {
           const newMessages = [...prev];
           const lastMsg = newMessages[newMessages.length - 1];
           if (lastMsg && lastMsg.role === "assistant") {
-            lastMsg.content = finalAnswer;
+            lastMsg.content = finalAnswer;  // 재매핑된 답변으로 교체
             lastMsg.references = finalReferences;
             lastMsg.followupQuestions = finalFollowupQuestions;
             lastMsg.isStreaming = false;
@@ -1118,6 +1124,12 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     thead: ({ children, ...props }: any) => (
       <thead className="bg-gray-700" {...props}>{children}</thead>
     ),
+    tbody: ({ children, ...props }: any) => (
+      <tbody {...props}>{children}</tbody>
+    ),
+    tr: ({ children, ...props }: any) => (
+      <tr className="hover:bg-[#4DB8C4]/10 transition-colors duration-150" {...props}>{children}</tr>
+    ),
     th: ({ children, ...props }: any) => (
       <th className="border border-gray-600 px-4 py-2 text-left font-semibold" {...props}>{processChildrenWithCitations(children, messageIndex)}</th>
     ),
@@ -1460,18 +1472,33 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
           <form onSubmit={handleSubmit}>
             <div className="flex items-center bg-[#2a2a2a] rounded-2xl border border-gray-700 px-6 pr-2 py-2.5 hover:border-gray-600 transition-colors">
-              <input
-                type="text"
+              <textarea
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSubmit(e);
+                  }
+                }}
                 placeholder={currentContent.placeholder}
-                className="flex-1 bg-transparent outline-none text-white placeholder-gray-500"
+                className="flex-1 bg-transparent outline-none text-white placeholder-gray-500 resize-none max-h-[200px] overflow-y-auto"
                 disabled={isStreaming}
+                rows={1}
+                style={{
+                  height: '24px',
+                  lineHeight: '24px'
+                }}
+                onInput={(e) => {
+                  const target = e.target as HTMLTextAreaElement;
+                  target.style.height = '24px';
+                  target.style.height = `${Math.min(target.scrollHeight, 200)}px`;
+                }}
               />
               <button
                 type="submit"
                 disabled={isStreaming || !input.trim()}
-                className="w-12 h-12 flex items-center justify-center rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed hover:brightness-110"
+                className="w-12 h-12 flex items-center justify-center rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed hover:brightness-110 flex-shrink-0 self-start"
                 style={{ backgroundColor: '#20808D' }}
               >
                 <ArrowUp className="w-5 h-5" />
