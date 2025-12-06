@@ -1,0 +1,833 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Open Vet J</journal-id><journal-id journal-id-type="iso-abbrev">Open Vet J</journal-id><journal-id journal-id-type="pmc-domain-id">2846</journal-id><journal-id journal-id-type="pmc-domain">openvetj</journal-id><journal-title-group><journal-title>Open Veterinary Journal</journal-title></journal-title-group><issn pub-type="ppub">2226-4485</issn><issn pub-type="epub">2218-6050</issn><publisher><publisher-name>Faculty of Veterinary Medicine, University of Tripoli</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7419067</article-id><article-id pub-id-type="pmcid-ver">PMC7419067.1</article-id><article-id pub-id-type="pmcaid">7419067</article-id><article-id pub-id-type="pmcaiid">7419067</article-id><article-id pub-id-type="pmid">32821665</article-id><article-id pub-id-type="doi">10.4314/ovj.v10i2.10</article-id><article-id pub-id-type="publisher-id">OVJ-10-206</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Efficacy of autologous bone marrow mononuclear cell transplantation in dogs with chronic spinal cord injury</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Tamura</surname><given-names initials="K">Katsutoshi</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Maeta</surname><given-names initials="N">Noritaka</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><aff id="aff1"><label>1</label>Aikouishida Animal Hospital, Isehara, Kanagawa, Japan</aff><aff id="aff2"><label>2</label>Faculty of Veterinary Medicine, Okayama University of Science, Imabari, Ehime, Japan</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label><bold>Corresponding Author:</bold> Noritaka Maeta. Faculty of Veterinary Medicine, Okayama University of Science, 1-3 Ikoinooka, Imabari, Ehime 794-8555, Japan. <email>n-maeta@vet.ous.ac.jp</email></corresp></author-notes><pub-date pub-type="ppub"><season>Apr-Jun</season><year>2020</year></pub-date><pub-date pub-type="epub"><day>29</day><month>6</month><year>2020</year></pub-date><volume>10</volume><issue>2</issue><issue-id pub-id-type="pmc-issue-id">363162</issue-id><fpage>206</fpage><lpage>215</lpage><history><date date-type="received"><day>14</day><month>11</month><year>2019</year></date><date date-type="accepted"><day>17</day><month>5</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>04</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>19</day><month>08</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-04-27 04:25:12.857"><day>27</day><month>04</month><year>2024</year></date></event></pub-history><permissions><copyright-year>2020</copyright-year><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0"><ali:license_ref specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="OpenVetJ-10-206.pdf"/><abstract><sec><title>Background:</title><p>Spinal cord injury (SCI) is relatively common in dogs and is a devastating condition involving loss of sensory neurons and motor neurons. However, the main clinical protocol for the management of SCI is surgery to decompress and stabilize the vertebra. Cell transplantation therapy is a very promising strategy for the treatment of chronic SCI, but extensive preclinical and clinical research work remains.</p></sec><sec><title>Aim:</title><p>The aim of this study is to confirm the effect of bone marrow-derived mononuclear cell (BM-MNC) transplantation for chronic SCI in dogs.</p></sec><sec sec-type="methods"><title>Methods:</title><p>We tested the treatment efficiency of chronic SCI in 12 dogs using BM-MNC transplantation. Neurological evaluation used the Texas Spinal Cord Injury Scale (TSCIS). Concurrently, we characterized the transplanted cells by evaluation using quantitative real-time polymerase chain reaction, flow cytometry, and enzyme-linked immunosorbent assay.</p></sec><sec><title>Result:</title><p>All dogs had a pre-transplantation TSCIS score of 0. Two animals did not show any improvement in their final TSCIS scores. The remaining 10 dogs (83.4%) achieved improvement in the final TSCIS scores. Five of them (41.7%) regained ambulatory function with a TSCIS score greater than 10. We determined that canine BM-MNCs expressed hepatocyte growth factor (HGF) mRNA at higher levels than other cytokines, with significant increases in HGF levels in cerebrospinal fluid within 48 hours after autologous BM-MNC transplantation into the subarachnoid space of the spinal dura matter in dogs.</p></sec><sec><title>Conclusions:</title><p>BM-MNC transplantation may be effective for at least some cases of chronic SCI.</p></sec></abstract><kwd-group><kwd>Bone marrow-derived mononuclear cell</kwd><kwd>Cell therapy</kwd><kwd>Spinal cord injury</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>Intervertebral disk herniation is relatively common in dogs (<xref rid="ref10" ref-type="bibr">Itoh <italic toggle="yes">et al.</italic>, 2008</xref>). In dogs, spinal nerves begin somewhere near the fifth lumbar vertebra and travel along the cauda equina. Therefore, disk herniation at the thoracolumbar transition generally causes injury to the spinal cord. The neurologic symptoms associated with canine disk herniation are classified into five stages: pain without other symptoms (Grade 1), ambulatory paresis (Grade 2), non-ambulatory paresis (Grade 3), paraplegia (Grade 4), and paraplegia with loss of pain sensation (Grade 5) (<xref rid="ref30" ref-type="bibr">Schulz <italic toggle="yes">et al.</italic>, 1998</xref>). The severity of symptoms is considered to be dependent on the degree and extent of compression and damage to the spinal cord. Surgical decompression, such as hemilaminectomy, is indicated in cases with severe symptoms, including pain and paralysis. Animals with paresis or those with paraplegia but no loss of pain sensation (Grades 1 to 4) show a high recovery rate after surgical decompression; improvement of symptoms has been seen in approximately 95% of these cases (<xref rid="ref31" ref-type="bibr">Scott, 1997</xref>). However, animals with paraplegia and loss of pain sensation (Grade 5) exhibit a lower recovery rate, ranging from 41% to 62% (<xref rid="ref4" ref-type="bibr">Duval <italic toggle="yes">et al.</italic>, 1996</xref>; <xref rid="ref31" ref-type="bibr">Scott, 1997</xref>; <xref rid="ref9" ref-type="bibr">Ito <italic toggle="yes">et al.</italic>, 2005</xref>; <xref rid="ref26" ref-type="bibr">Olby <italic toggle="yes">et al.</italic>, 2003</xref>; <xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). Veterinarians have taken various approaches to improve postoperative recovery in Grade 5 cases, such as improvement in operative technique, introduction of high-resolution imaging modalities, and early surgical intervention. However, none of these approaches was effective enough in improving paraplegia and loss of sensation. We previously carried out autologous bone marrow mononuclear cell (BM-MNC) transplantation in dogs with acute intervertebral Grade 5 disk herniation, in which cells were injected into the subarachnoid space at the lesion site immediately after surgical manipulation, achieving postoperative recovery of motor function in 91.6% of cases (<xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). Animals that have passed more than 28 days since the spinal cord injury (SCI) will have chronic SCI if they do not achieve functional recovery even after appropriate therapy (<xref rid="ref41" ref-type="bibr">Wang-Leandro <italic toggle="yes">et al.</italic>, 2017</xref>). These cases will suffer from permanent hind limb paraplegia and urination disorder. Development of new therapy is necessary for dogs with chronic SCI due to disk herniation. </p><p>In recent years, various types of cells have gained attention as transplants in the field of spinal cord regenerative medicine; these include Schwann cells (<xref rid="ref19" ref-type="bibr">Martin <italic toggle="yes">et al.</italic>, 1996</xref>), embryonic stem cells (<xref rid="ref20" ref-type="bibr">McDonald <italic toggle="yes">et al.</italic>, 1999</xref>), macrophages (<xref rid="ref11" ref-type="bibr">Knoller <italic toggle="yes">et al.</italic>, 2005</xref>), neural stem cells (<xref rid="ref24" ref-type="bibr">Ogawa <italic toggle="yes">et al.</italic>, 2002</xref>), olfactory ensheathing cells (<xref rid="ref1" ref-type="bibr">Collazos-Castro <italic toggle="yes">et al.</italic>, 2005</xref>), induced pluripotent stem cells (<xref rid="ref38" ref-type="bibr">Tsuji <italic toggle="yes">et al.</italic>, 2010</xref>), and bone marrow stromal cells (<xref rid="ref42" ref-type="bibr">Wu <italic toggle="yes">et al.</italic>, 2003</xref>). Positive results were obtained using these cells in animal experiments, whereas various issues have been raised with regard to the therapeutic approach of using cultured cells. Therapeutic use of cultured cells is still hindered by a wide range of practical issues, such as quality control of the cultured cells, potential risks of bacterial infection, concern over tumorigenesis, high cost, and the need for special equipment and techniques (<xref rid="ref22" ref-type="bibr">Nishida <italic toggle="yes">et al.</italic>, 2011</xref>). In addition, timely cell transplantation for spinal cord regeneration may not be possible because a relatively long time is required to grow enough cells (<xref rid="ref8" ref-type="bibr">Ide <italic toggle="yes">et al.</italic>, 2010</xref>; <xref rid="ref22" ref-type="bibr">Nishida <italic toggle="yes">et al.</italic>, 2011</xref>; <xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). Additionally, in cases where heterologous cells are used, it must be demonstrated that donor-derived cell transplants are free of pathogens, and ethical issues may also arise in obtaining transplants depending on the type of cells. On the contrary, BM-MNCs can be autotransplanted without prior culturing. Autotransplantion of BM-MNCs, which do not need culturing, has advantages in solving this problem.</p><p>In this study, we focused on this particular cell population because these can be obtained by simple centrifugation without the need for cell culture. This is the first report on the efficacy of autologous BM-MNC transplantation in dogs with chronic SCI due to disk herniation.</p></sec><sec sec-type="materialsandmethods" id="sec2"><title>Materials and Methods</title><sec><title>Animals</title><p>Study procedures were fully explained and written informed consent based on Animal Research: Reporting <italic toggle="yes">In Vivo</italic> Experiments was obtained from the owners of all participating dogs. This trial was approved by the Aikouishida Animal Hospital Committee for Animal Experimentation.</p><p>The study enrolled 12 dogs with intervertebral disk herniation of Grade 5, which had undergone surgical intervention but did not show improvement in paraplegia or loss of pain sensation in both hind legs (<xref rid="table1" ref-type="table">Table 1</xref>). In this study, we defined the cases without improvement of symptoms for more than 6 months as chronic SCI. At the time of diagnosis imaging, for all dogs, rheumatoid factor (RF), antinuclear antibody, and C-reactive protein were measured using venous blood collected from the cephalic vein. As a result of having examined the following, all dogs had complete paraplegia, loss of pain sensation, and somatosensory evoked potential (SEP), and no other abnormality, except disk herniation and secondary SCI in diagnosis imaging. </p></sec><sec><title>Neurological examinations</title><p>Neurological examinations were conducted on the initial visit, immediately before surgery, and periodically after surgery. The examinations included posture response (proprioception, placing reaction, hopping reaction, and extensor postural thrust), spinal reflexes (patellar reflex, cranial tibial reflex, gastrocnemius reflex, flexion reflex, crossed extension reflex, and panniculus reflex), presence/absence of pain perception, and self-micturition (<xref rid="ref3" ref-type="bibr">de Lahunta, 1983</xref>).</p></sec><sec><title>Somatosensory evoked potential</title><p>SEP was measured under general anesthesia with intravenous injection of 7 mg/kg propofol, followed by 1.5%&#8211;2.0% isoflurane. SEP was measured using MEB-9102 (Nihon Kohden, Tokyo, Japan) to check for functional disorders in the nervous system from the tibial nerves to the brain stem and cerebral cortex. The reference electrode was placed on the spinous process of the second cervical vertebra. Electrical stimulation was applied at a frequency of 3 Hz for 0.2 milliseconds (<xref rid="ref40" ref-type="bibr">Uzuka <italic toggle="yes">et al.</italic>, 1995</xref>). A total of 500 responses were averaged in each session.</p></sec><sec><title>Diagnostic imaging</title><p>CT images were obtained on Asteion (Toshiba Medical Systems, Tokyo, Japan) using a Virtual Place Advance Lexus workstation (AZE, Tokyo, Japan), and magnetic resonance imaging (MRI) imaging was carried out using a 0.2 T Vet-MR (Esaote S.p.A, Genova, Italy). </p></sec><sec><title>Rheumatoid factor and antinuclear antibody measurements</title><p>RF was measured using a Canine Rheumatoid Factor Test Kit (Synbiotics Corporation, Kansas City, MO).</p><p>Antinuclear antibody measurement was carried out as follows: two series of dilutions, tenfold and hundredfold serum samples were applied to the immunofluorescence assay slides (VMRD Inc., Pullman, WA) that had been smeared with cells and incubated for 30 minutes at 37&#176;C. After washing with cleaning fluid and air-drying, the slides were incubated with a secondary antibody and IgG antibody for 30 minutes at 37&#176;C. After washing and air-drying, the samples were observed using a fluorescence microscope.</p></sec><sec><title>C-reactive protein measurement</title><p>Laser CRP-2 (Arrows, Osaka, Japan) was used to measure the C-reactive protein level with immunonephelometry.</p></sec><sec><title>Collection of BM-MNCs</title><p>BM-MNCs were collected from the proximal humerus using a bone marrow aspiration needle (16G &#215; 2.688 inches). The collected bone marrow (5 ml) was mixed with 5 mL of heparinized saline (1,000 IU), layered on 4 ml of density gradient medium (density 1.077), and centrifuged at 450&#215; <italic toggle="yes">g</italic> for 30 minutes. The fraction with BM-MNCs was collected and washed twice in 10 ml of physiological saline a recollected by centrifugation at 400&#215; <italic toggle="yes">g</italic> for 5 minutes. Viable BM-MNCs were stained with trypan blue and counted using a hemacytometer. The BM-MNC transplant solution (1.1 &#215; 10<sup>7</sup> to 2.4 &#215; 10<sup>8</sup> BM-MNCs in 0.2 ml of physiological saline) was prepared as described previously (<xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). </p><table-wrap id="table1" position="float" orientation="portrait"><label>Table 1.</label><caption><title>Clinical summary data of dogs with chronic phase spinal cord injury.</title></caption><table frame="hsides" rules="rows"><thead><tr><th rowspan="1" colspan="1">
+Case
+</th><th rowspan="1" colspan="1">
+Breed
+</th><th rowspan="1" colspan="1">
+Age (years)
+</th><th rowspan="1" colspan="1">
+Sex
+</th><th rowspan="1" colspan="1">
+Weight (kg)
+</th><th rowspan="1" colspan="1">
+Paralysis term (months)
+</th><th rowspan="1" colspan="1">
+Pre-transplantation TSCIS
+</th><th rowspan="1" colspan="1">
+Final TSCIS
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+5.8
+</td><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+14
+</td></tr><tr><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Pembroke Welsh Corgi
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+13.2
+</td><td rowspan="1" colspan="1">
+24
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+4
+</td></tr><tr><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+4.7
+</td><td rowspan="1" colspan="1">
+18
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+4
+</td></tr><tr><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+5.5
+</td><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+10
+</td></tr><tr><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+F
+</td><td rowspan="1" colspan="1">
+2.9
+</td><td rowspan="1" colspan="1">
+36
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+4
+</td></tr><tr><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+American Cocker Spaniel
+</td><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+10.0
+</td><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+4
+</td></tr><tr><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+5.0
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+4
+</td></tr><tr><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+8.0
+</td><td rowspan="1" colspan="1">
+24
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+0
+</td></tr><tr><td rowspan="1" colspan="1">
+9
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+7.5
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+5.3
+</td><td rowspan="1" colspan="1">
+24
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+10
+</td></tr><tr><td rowspan="1" colspan="1">
+10
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+9.5
+</td><td rowspan="1" colspan="1">
+F
+</td><td rowspan="1" colspan="1">
+3.5
+</td><td rowspan="1" colspan="1">
+72
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+12
+</td></tr><tr><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+French Bulldog
+</td><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+M
+</td><td rowspan="1" colspan="1">
+10.3
+</td><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+0
+</td></tr><tr><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+Miniature Dachshund
+</td><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+F
+</td><td rowspan="1" colspan="1">
+6.3
+</td><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+10
+</td></tr></tbody></table><table-wrap-foot><fn><p>(TSCIS): Texas Spinal Cord Injury Scale; (M): Male; (F): Female.</p></fn></table-wrap-foot></table-wrap></sec><sec><title>BM-MNC transplantation</title><p>Anesthesia was induced by intravenous injection of 7 mg/kg propofol, followed by 1.5%&#8211;2.0% isoflurane. After the clipping coat and disinfection, BM-MNC transplant solution (0.2 ml) was injected slowly using a 23G spinal needle into the subarachnoid space at the cisterna magna percutaneously. All animals were administered 25 mg/kg cefazolin sodium intravenously twice a day for 3 days after transplantation.</p></sec><sec><title>Flow cytometric analysis of BM-MNCs</title><p>To 100 &#956;l of BM-MNC suspension in physiological saline (8.8 &#215; 10<sup>6</sup> cells/ml), FITC-labeled anti-CD14 (Serotec, Oxford, UK); anti-CD90 (Serotec); anti-CD4 (Serotec) antibodies; and anti-CD34 (Biolegend, San Diego, CA) were added, and the mixture was incubated for 30 minutes at room temperature (RT). After incubation, 900 &#956;l of phosphate-buffered saline was added and mixed thoroughly. Cell compositions were analyzed using an Accuri C6 flow cytometer (Accuri Cytometers, Inc., Ann Arbor, MI), 100,000 events per sample. Cell viability was determined using the 7-AAD method. The number of transplanted cells is shown in <xref rid="table2" ref-type="table">Table 2</xref>.</p></sec><sec><title>Flow cytometric analysis of peripheral blood</title><p>The relative ratios of CD3<sup>+</sup> (T-cells), CD4<sup>+</sup> (Helper T-cells), CD8<sup>+</sup> (Cytotoxic T-cells), and CD21<sup>+</sup> (B-cells) were obtained using an Accuri C6 flow cytometer against the canine-specific antibodies.</p><p>Blood samples (200 &#956;l) were mixed with 2 &#956;l of FACS lysis solution (Becton, Dickinson and Company, Franklin Lakes, NJ) and was incubated for 15 minutes at RT. The peripheral white blood cells (WBCs) were isolated by centrifugation (200&#215; g) for 5 minutes at RT. The WBC fraction was rinsed before the antibodies (Serotec) were added. The samples were incubated for 15 minutes at RT, and then 2 ml of phosphate-buffered saline was added to remove the excess primary antibodies. Finally, the cells were suspended in 500 &#956;l of FACS flow (Becton, Dickinson and Company) and kept at 4&#176;C till analysis. The cell phenotypes of the peripheral lymphocytes were obtained by gating on the screen of forward scatter versus side scatter dot plot of FACSCalibur. For each sample, 5,000 events in the lymphocyte gates were recorded, from which the percentages of CD3<sup>+</sup>, CD4<sup>+</sup>, CD8<sup>+</sup>, and CD21<sup>+</sup> were categorized according to their surface markers. Absolute values for lymphocyte subsets were calculated using counts obtained from WBC analysis and the flow cytometry. These procedures were conducted in accordance with <xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>&#8217;s (2012)</xref> study.</p></sec><sec><title>Bacterial culture and endotoxin test</title><p>Endotoxin testing was carried out in accordance with the method described by <xref rid="ref32" ref-type="bibr">Scott and McKee (1999)</xref>. The mixture of 100 &#956;l Limulus amebocyte lysate and 100 &#956;l of BM-MNC solution was incubated for 30 minutes at 37&#176;C. All of the transplanted samples showed an absence of endotoxin contamination. The remaining BM-MNC solution (100 &#956;l) was cultured on trypto-soya agar medium for 7 days at 30&#176;C. </p></sec><sec><title>Quantitative real-time PCR analysis of cytokines in canine BM-MNCs</title><p>Total RNA was extracted from cultured BM-MNCs using TRIzol reagent (Invitrogen) in accordance with the manufacturer&#8217;s protocol and quantified using a spectrophotometer. Total RNA (1 &#956;g) was reverse-transcribed at 42&#176;C for 15 minutes in 20 &#956;l with QuantiTect (Qiagen, D&#252;sseldorf, Germany) after inactivation of reverse transcription by heating at 95&#176;C for 3 minutes. Reverse transcription of the total RNA (1 &#956;g) was conducted using Prime Script RT reagent (Takara, Shiga, Japan). Quantitative real-time polymerase chain reaction (PCR) reactions were carried out using an ABI 7500 Real Time PCR system Sequence Detection System (SDS, Applied Biosystems, Foster City, CA) as follows: 50&#176;C for 10 minutes followed by 40 cycles of 95&#176;C for 15 seconds and 60&#176;C for 1 minute. Each reaction (20 &#956;l) contained 2 &#956;l template cDNA, 1 &#956;l of each TaqMan Gene expression assays [IL4, IL10, hepatocyte growth factor (HGF), and IL6] (Applied Biosystems), 10 &#956;l TaqMan Universal Master Mix II (Applied Biosystems), and 7 &#956;l distilled water. Relative gene expression values were calculated using the comparative threshold cycle (&#8710;&#8710;Ct) method with the SDS 1.2 software (Applied Biosystems). This method gives the amount of target gene normalized to an 18S ribosomal RNA and was used to determine the mRNA levels of IL6. The relative expression levels were calculated using the following formula: &#8710;&#8710;Ct = &#8710;Ct <sub>target mRNA level</sub> - &#8710;Ct <sub>IL6</sub>, and the value of relative targeting mRNA expression was determined using the expression 2<sup>-&#8710;&#8710;Ct</sup>.</p><table-wrap id="table2" position="float" orientation="portrait"><label>Table 2.</label><caption><title>Phenotype of bone marrow-derived mononuclear cells.</title></caption><table frame="hsides" rules="rows"><thead><tr><th rowspan="1" colspan="1">
+Case
+</th><th rowspan="1" colspan="1">
+CD4
+</th><th rowspan="1" colspan="1">
+CD8
+</th><th rowspan="1" colspan="1">
+CD14
+</th><th rowspan="1" colspan="1">
+CD29
+</th><th rowspan="1" colspan="1">
+CD34
+</th><th rowspan="1" colspan="1">
+CD90
+</th><th rowspan="1" colspan="1">
+Transplanted BM-MNCs
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+3.4
+</td><td rowspan="1" colspan="1">
+2.6
+</td><td rowspan="1" colspan="1">
+16.7
+</td><td rowspan="1" colspan="1">
+16.6
+</td><td rowspan="1" colspan="1">
+5.6
+</td><td rowspan="1" colspan="1">
+19.6
+</td><td rowspan="1" colspan="1">
+7.5 &#215; 10<sup>7</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+3.1
+</td><td rowspan="1" colspan="1">
+2.3
+</td><td rowspan="1" colspan="1">
+24.6
+</td><td rowspan="1" colspan="1">
+11.8
+</td><td rowspan="1" colspan="1">
+4.7
+</td><td rowspan="1" colspan="1">
+27.1
+</td><td rowspan="1" colspan="1">
+3.2 &#215; 10<sup>7</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+2.2
+</td><td rowspan="1" colspan="1">
+2.9
+</td><td rowspan="1" colspan="1">
+27.9
+</td><td rowspan="1" colspan="1">
+12.1
+</td><td rowspan="1" colspan="1">
+8.6
+</td><td rowspan="1" colspan="1">
+26.1
+</td><td rowspan="1" colspan="1">
+5.2 &#215; 10<sup>7</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+2.3
+</td><td rowspan="1" colspan="1">
+2.8
+</td><td rowspan="1" colspan="1">
+29.7
+</td><td rowspan="1" colspan="1">
+11.3
+</td><td rowspan="1" colspan="1">
+7.3
+</td><td rowspan="1" colspan="1">
+22.9
+</td><td rowspan="1" colspan="1">
+5.7 &#215; 10<sup>8</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+2.1
+</td><td rowspan="1" colspan="1">
+2.4
+</td><td rowspan="1" colspan="1">
+26.6
+</td><td rowspan="1" colspan="1">
+10.4
+</td><td rowspan="1" colspan="1">
+7.9
+</td><td rowspan="1" colspan="1">
+25.5
+</td><td rowspan="1" colspan="1">
+1.1 &#215; 10<sup>7</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+2.6
+</td><td rowspan="1" colspan="1">
+2.3
+</td><td rowspan="1" colspan="1">
+27.1
+</td><td rowspan="1" colspan="1">
+10.3
+</td><td rowspan="1" colspan="1">
+9.1
+</td><td rowspan="1" colspan="1">
+23.8
+</td><td rowspan="1" colspan="1">
+1.2 &#215; 10<sup>8</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+3.7
+</td><td rowspan="1" colspan="1">
+2.1
+</td><td rowspan="1" colspan="1">
+27.6
+</td><td rowspan="1" colspan="1">
+13.8
+</td><td rowspan="1" colspan="1">
+2.6
+</td><td rowspan="1" colspan="1">
+39.3
+</td><td rowspan="1" colspan="1">
+7.2 &#215; 10<sup>7</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+3.9
+</td><td rowspan="1" colspan="1">
+2.2
+</td><td rowspan="1" colspan="1">
+26.2
+</td><td rowspan="1" colspan="1">
+12.3
+</td><td rowspan="1" colspan="1">
+2.7
+</td><td rowspan="1" colspan="1">
+36.1
+</td><td rowspan="1" colspan="1">
+1.4 &#215; 10<sup>8</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+9
+</td><td rowspan="1" colspan="1">
+3.1
+</td><td rowspan="1" colspan="1">
+2.8
+</td><td rowspan="1" colspan="1">
+21.2
+</td><td rowspan="1" colspan="1">
+12.9
+</td><td rowspan="1" colspan="1">
+4.7
+</td><td rowspan="1" colspan="1">
+20.8
+</td><td rowspan="1" colspan="1">
+2.9 &#215; 10<sup>8</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+10
+</td><td rowspan="1" colspan="1">
+2.7
+</td><td rowspan="1" colspan="1">
+2.8
+</td><td rowspan="1" colspan="1">
+22.9
+</td><td rowspan="1" colspan="1">
+11.9
+</td><td rowspan="1" colspan="1">
+5.9
+</td><td rowspan="1" colspan="1">
+27.8
+</td><td rowspan="1" colspan="1">
+2.0 &#215; 10<sup>8</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+2.2
+</td><td rowspan="1" colspan="1">
+2.9
+</td><td rowspan="1" colspan="1">
+26.7
+</td><td rowspan="1" colspan="1">
+10.1
+</td><td rowspan="1" colspan="1">
+4.3
+</td><td rowspan="1" colspan="1">
+23.9
+</td><td rowspan="1" colspan="1">
+6.4 &#215; 10<sup>8</sup>
+</td></tr><tr><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+2.9
+</td><td rowspan="1" colspan="1">
+2.7
+</td><td rowspan="1" colspan="1">
+19.9
+</td><td rowspan="1" colspan="1">
+15.1
+</td><td rowspan="1" colspan="1">
+4.7
+</td><td rowspan="1" colspan="1">
+27.9
+</td><td rowspan="1" colspan="1">
+1.9 &#215; 10<sup>8</sup>
+</td></tr></tbody></table><table-wrap-foot><fn><p>Values are given in percentages. (BM-MNCs): bone marrow-derived mononuclear cells.</p></fn></table-wrap-foot></table-wrap></sec><sec><title>Measurement of HGF level in the cerebrospinal fluid</title><p>Cerebrospinal fluid (CSF) samples were collected immediately before transplantation from all dogs and 48 hours after transplantation from three dogs. The samples were drawn from the cisterna magna in the scalps of the dogs under general anesthesia with isoflurane.</p><p>HGF protein in CSF was assayed using an enzyme-linked immunosorbent assay kit for HGF (Uscn Life Science Inc, Wuhan, China). For detection, absorbance at 450 nm was measured using a Synergy HT Multi-Detection Microplate Reader (Bio Tek, Winooski, VT).</p></sec><sec><title>Texas Spinal Cord Injury Scale</title><p>Physical and neurologic examinations of dogs were carried out every month for 6 months; the endpoint of the study was at 6 months. We also evaluated improvement in functions using the Texas Spinal Cord Injury Scale (TSCIS) (<xref rid="ref16" ref-type="bibr">Levine <italic toggle="yes">et al.</italic>, 2009</xref>). This scale involves evaluation of each pelvic limb separately and has three components: gait, proprioceptive positioning, and nociception. All components were based on standard clinical neurologic examination techniques (<xref rid="ref3" ref-type="bibr">de Lahunta, 1983</xref>). The gait scores for pelvic limbs ranged from 0 to 6: grade 0 (no voluntary movement), grade 1 (protraction with no ground clearance), grade 2 (protraction with inconsistent ground clearance), grade 3 (protraction with ground clearance in &gt;75% of steps), grade 4 (ambulatory with moderate paresis&#8211;ataxia), grade 5 (ambulatory with mild paresis&#8211;ataxia), and grade 6 (normal gait). Proprioceptive positioning (also referred to as knuckling) was assessed using a postural reaction test (score 0&#8211;2): score 0 (lack of a response), score 1 [delayed response, the dog corrected the limb positions after a prolonged period (&gt;2 seconds)], or score 2 (clinically normal, dogs were able to correct the limb positions immediately). Nociception was assessed using physiologic (tachycardia, tachypnea, and mydriasis) or behavioral (orientation toward the stimulus, vocalization, and licking) responses to a painful stimulus (clamping a hemostat on the distal aspect of a limb or on a nail bed of a digit): score 2 (normal nociception) or no nociception (score 0). Dogs were assigned scores of 1&#8211;10 for each pelvic limb; thus, the maximum combined limb score was 20.</p></sec><sec><title>Statistical analysis</title><p>Graph Pad Prism 6 (Graph Pad software, USA) was used for statistical analysis. In three cases, paired <italic toggle="yes">t</italic>-test was used for a comparison between pre-transplant and post-transplant of the HGF concentrations in CSF. Wilcoxon signed-rank test was used for a comparison between pre-transplantation and final TSCIS scores, and the comparison of the mRNA expression in BM-MNCs in an improved group and a not improved group of final TSCIS score. <italic toggle="yes">p</italic>-values below 0.001 were considered statistically significant. </p></sec><sec><title>Ethical approval</title><p>This trial was approved by the Aikouishida Aminal Hospital Committee for Animal Experimentation, and the trial was carried out in accordance with the Japanese Regulations for Animal Welfare issued by The Ministry of Education, Culture, Sports, Sciences, and Technology of Japan.</p></sec></sec><sec sec-type="results" id="sec3"><title>Results</title><p>This study included a total of 12 dogs: 9 male and 3 female. <xref rid="table1" ref-type="table">Table 1</xref> summarizes the breed, age, and body weight. Time elapsed from the onset of complete paraplegia and loss of pain sensation in the hind legs to BM-MNC transplantation was between 6 and 72 months, with a median of 15 months (<xref rid="table1" ref-type="table">Table 1</xref>). In neurological examinations, postural reactions were absent in all animals. Only 1 dog (Case 8) showed a lower motor neuron sign in the examination of spinal reflexes. In SEP measurement, prior to BM-MNC transplantation, no responses were detected in the hind legs of all subjects. C-reactive protein was normal in all dogs. </p><p>CT scans confirmed previous surgical interventions in the thoracolumbar region (T11&#8211;L3) in all animals. T2-weighted MRI scan confirmed signal hyperintensity in all cases. In six animals (Cases 2, 3, 5, 6, 9, and 10), T2-weighted signal hyperintensity was extensively observed along more than three vertebral bodies (<xref ref-type="fig" rid="fig1">Fig. 1</xref>).</p><p>In flow cytometric analysis, the transplanted BM-MNC preparations contained 2.1%&#8211;3.9% CD4 (mean &#177; SD: 2.85 &#177; 0.58), 2.1%&#8211;2.9% CD8 (mean &#177; SD: 2.57 &#177; 0.28), 16.7%&#8211;29.7% CD14 (mean &#177; SD: 24.76 &#177; 3.67), 10.1%&#8211;16.6% CD29 (mean &#177; SD: 12.83 &#177; 1.89), 2.6%&#8211;9.1% CD34 (mean &#177; SD: 5.68 &#177; 2.06), and 19.6%&#8211;39.3% CD90 (mean &#177; SD: 26.7 &#177; 5.53). The phenotype of BM-MNCs in subjects is shown in <xref rid="table2" ref-type="table">Table 2</xref>. Peripheral blood samples contained 70.5&#8211;87.8% CD3 (mean &#177; SD: 80.59 &#177; 4.63), 43.0%&#8211;73.9% CD4 (mean &#177; SD: 50.5 &#177; 7.75), 10.0%&#8211;29.9% CD8 (mean &#177; SD: 22.5 &#177; 5.29), 5.3%&#8211;17.9% CD21 (mean &#177; SD: 8.56 &#177; 3.25), with a CD4:CD8 ratio of 1.51:7.39 (mean &#177; SD: 2.55 &#177; 1.51). The phenotype of peripheral monocytes determined in each case is presented in <xref rid="table3" ref-type="table">Table 3</xref>.</p><p>The levels of mRNAs for various cytokines were measured and expressed as mean (median) of &#8710;&#8710;Ct values relative to the IL-6 gene as the calibrator. &#8710;&#8710;Ct values for IL-4, IL-10, and HGF mRNA expression were 7.3 (9.2), 201.8 (233.9), and 729.5 (888.2), respectively (<xref rid="table4" ref-type="table">Table 4</xref>). There are no significant differences in the expression of mRNAs in BM-MNCs between an improved group and an unimproved group of final TSCIS score.</p><fig id="fig1" position="float" orientation="portrait"><label>Fig. 1.</label><caption><title>T2-weighted MRI images. (A): Case 1. (B): Case 2. (C): Case 3. (D): Case 4. (E): Case 5. (F): Case 6. (G): Case 7. (H): Case 8. (I): Case 9. (J): Case 10. (K): Case 11. (L): Case 12.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="OpenVetJ-10-206-g001.jpg"/></fig><table-wrap id="table3" position="float" orientation="portrait"><label>Table 3.</label><caption><title>Phenotype of peripheral monocytes, RF, and antinuclear antibody measurements.</title></caption><table frame="hsides" rules="rows"><thead><tr><th rowspan="1" colspan="1">
+Case
+</th><th rowspan="1" colspan="1">
+CD3<sup>+</sup>lym
+</th><th rowspan="1" colspan="1">
+CD4<sup>+</sup>(CD8<sup>-</sup>) lym
+</th><th rowspan="1" colspan="1">
+CD8<sup>+</sup>(CD4<sup>-</sup>) lym
+</th><th rowspan="1" colspan="1">
+CD21<sup>+</sup>(CD3<sup>-</sup>) lym
+</th><th rowspan="1" colspan="1">
+CD4<sup>+</sup>/CD8<sup>+</sup>ratio
+</th><th rowspan="1" colspan="1">
+RF
+</th><th rowspan="1" colspan="1">
+ANA
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+82.6
+</td><td rowspan="1" colspan="1">
+45.1
+</td><td rowspan="1" colspan="1">
+23.3
+</td><td rowspan="1" colspan="1">
+8.2
+</td><td rowspan="1" colspan="1">
+1.94
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+87.8
+</td><td rowspan="1" colspan="1">
+51.9
+</td><td rowspan="1" colspan="1">
+19.6
+</td><td rowspan="1" colspan="1">
+6.1
+</td><td rowspan="1" colspan="1">
+2.65
+</td><td rowspan="1" colspan="1">
++
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+84.1
+</td><td rowspan="1" colspan="1">
+47.7
+</td><td rowspan="1" colspan="1">
+24.8
+</td><td rowspan="1" colspan="1">
+7.8
+</td><td rowspan="1" colspan="1">
+1.92
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+81.9
+</td><td rowspan="1" colspan="1">
+49.9
+</td><td rowspan="1" colspan="1">
+24.5
+</td><td rowspan="1" colspan="1">
+8.9
+</td><td rowspan="1" colspan="1">
+2.04
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+78.1
+</td><td rowspan="1" colspan="1">
+45.2
+</td><td rowspan="1" colspan="1">
+29.9
+</td><td rowspan="1" colspan="1">
+5.7
+</td><td rowspan="1" colspan="1">
+1.51
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+85.7
+</td><td rowspan="1" colspan="1">
+46.8
+</td><td rowspan="1" colspan="1">
+26.4
+</td><td rowspan="1" colspan="1">
+8.5
+</td><td rowspan="1" colspan="1">
+1.77
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+75.9
+</td><td rowspan="1" colspan="1">
+73.9
+</td><td rowspan="1" colspan="1">
+10.0
+</td><td rowspan="1" colspan="1">
+5.3
+</td><td rowspan="1" colspan="1">
+7.39
+</td><td rowspan="1" colspan="1">
++
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+70.5
+</td><td rowspan="1" colspan="1">
+55.1
+</td><td rowspan="1" colspan="1">
+20.6
+</td><td rowspan="1" colspan="1">
+11.5
+</td><td rowspan="1" colspan="1">
+2.65
+</td><td rowspan="1" colspan="1">
++
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+9
+</td><td rowspan="1" colspan="1">
+79.9
+</td><td rowspan="1" colspan="1">
+51.2
+</td><td rowspan="1" colspan="1">
+26.7
+</td><td rowspan="1" colspan="1">
+8.8
+</td><td rowspan="1" colspan="1">
+1.92
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+10
+</td><td rowspan="1" colspan="1">
+80.1
+</td><td rowspan="1" colspan="1">
+49.8
+</td><td rowspan="1" colspan="1">
+23.1
+</td><td rowspan="1" colspan="1">
+6.9
+</td><td rowspan="1" colspan="1">
+2.16
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+76.4
+</td><td rowspan="1" colspan="1">
+43.0
+</td><td rowspan="1" colspan="1">
+15.0
+</td><td rowspan="1" colspan="1">
+17.9
+</td><td rowspan="1" colspan="1">
+2.86
+</td><td rowspan="1" colspan="1">
++
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+84.1
+</td><td rowspan="1" colspan="1">
+46.9
+</td><td rowspan="1" colspan="1">
+26.1
+</td><td rowspan="1" colspan="1">
+7.1
+</td><td rowspan="1" colspan="1">
+1.80
+</td><td rowspan="1" colspan="1">
+-
+</td><td rowspan="1" colspan="1">
+-
+</td></tr></tbody></table><table-wrap-foot><fn><p>Values are given in percentages. (lym): lymphocytes; (RF): rheumatoid factor; (ANA): antinuclear antibody.</p></fn></table-wrap-foot></table-wrap><table-wrap id="table4" position="float" orientation="portrait"><label>Table 4.</label><caption><title>mRNA expression in BM-MNCs.</title></caption><table frame="hsides" rules="rows"><thead><tr><th rowspan="1" colspan="1">
+Case
+</th><th rowspan="1" colspan="1">
+IL-6 mRNA
+</th><th rowspan="1" colspan="1">
+IL-4 mRNA
+</th><th rowspan="1" colspan="1">
+IL-10 mRNA
+</th><th rowspan="1" colspan="1">
+HGF mRNA
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+9.1
+</td><td rowspan="1" colspan="1">
+241.9
+</td><td rowspan="1" colspan="1">
+1098.1
+</td></tr><tr><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+1.3
+</td><td rowspan="1" colspan="1">
+9.8
+</td><td rowspan="1" colspan="1">
+56.8
+</td></tr><tr><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+10.7
+</td><td rowspan="1" colspan="1">
+329.7
+</td><td rowspan="1" colspan="1">
+1467.5
+</td></tr><tr><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+12.6
+</td><td rowspan="1" colspan="1">
+362.6
+</td><td rowspan="1" colspan="1">
+987.4
+</td></tr><tr><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+7.8
+</td><td rowspan="1" colspan="1">
+287.5
+</td><td rowspan="1" colspan="1">
+1002.6
+</td></tr><tr><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+10.4
+</td><td rowspan="1" colspan="1">
+367.0
+</td><td rowspan="1" colspan="1">
+1320.2
+</td></tr><tr><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+1.1
+</td><td rowspan="1" colspan="1">
+27.6
+</td><td rowspan="1" colspan="1">
+101.9
+</td></tr><tr><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+2.3
+</td><td rowspan="1" colspan="1">
+32.0
+</td><td rowspan="1" colspan="1">
+104.5
+</td></tr><tr><td rowspan="1" colspan="1">
+9
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+10.6
+</td><td rowspan="1" colspan="1">
+297.7
+</td><td rowspan="1" colspan="1">
+789.9
+</td></tr><tr><td rowspan="1" colspan="1">
+10
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+11.9
+</td><td rowspan="1" colspan="1">
+189.9
+</td><td rowspan="1" colspan="1">
+898.1
+</td></tr><tr><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+1.2
+</td><td rowspan="1" colspan="1">
+9.9
+</td><td rowspan="1" colspan="1">
+48.8
+</td></tr><tr><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+9.2
+</td><td rowspan="1" colspan="1">
+265.9
+</td><td rowspan="1" colspan="1">
+878.2
+</td></tr></tbody></table><table-wrap-foot><fn><p>(mRNA): &#8710;&#8710;Ct; (protein): pg/ml; (BM-MNCs): bone marrow-derived mononuclear cells; (IL): interleukin; (HGF): hepatocyte growth factor.</p></fn></table-wrap-foot></table-wrap><p>HGF protein was detectable in pre-transplantation CSF from 8 out of 12 animals (66.6%), with a mean concentration of 15.8 pg/ml and a median of 22.3 pg/ml (<xref rid="table5" ref-type="table">Table 5</xref>).</p><p>HGF protein levels in CSF samples taken at 48 hours after transplantation were significantly higher than the corresponding pre-transplantation levels in all three animals examined (<italic toggle="yes">p</italic> &lt; 0.001). In Case 1, the HGF levels in CSF increased from 25.4 pg/ml pre-transplantation to 237.4 pg/ml post-translation. In Case 4, the HGF levels rose from 26.7 pg/ml pre-transplantation to 325.0 pg/ml post-translation. In Case 10, the levels also went up from 23.9 pg/ml pre-transplantation to 167.0 g/ml post-translation (<xref rid="table5" ref-type="table">Table 5</xref>).</p><p>All dogs had a pre-transplantation TSCIS score of 0. Two animals (Cases 8 and 11) did not show any improvement in their final TSCIS scores. The remaining 10 dogs (83.4%) achieved improvement in the final TSCIS scores (<italic toggle="yes">p</italic> &lt; 0.001). Five of them (Cases 1, 4, 9, 10, and 12; 41.7% of all subjects) regained ambulatory function with a TSCIS score greater than 10 (<xref rid="table1" ref-type="table">Table 1</xref>).</p></sec><sec sec-type="discussion" id="sec4"><title>Discussion</title><p>In humans, SCI affects motor and sensory functions, leading to physical impairment and significant deterioration of both life expectancy and quality of life (<xref rid="ref33" ref-type="bibr">Sekhon <italic toggle="yes">et al.</italic>, 2001</xref>; <xref rid="ref27" ref-type="bibr">Priebe <italic toggle="yes">et al.</italic>, 2007</xref>). Recent advances in diagnosis and therapy have helped improve the survival rate, but patients with SCI will be disabled for their entire lives (<xref rid="ref29" ref-type="bibr">Schwab <italic toggle="yes">et al.</italic>, 2006</xref>). In dogs, ambulatory recovery was reported in 41%&#8211;62% of the most severe cases of thoracolumbar disk herniation (paraplegia with loss of pain sensation) after surgical decompression (<xref rid="ref4" ref-type="bibr">Duval <italic toggle="yes">et al.</italic>, 1996</xref>; <xref rid="ref31" ref-type="bibr">Scott, 1997</xref>, <xref rid="ref32" ref-type="bibr">1999</xref>; <xref rid="ref26" ref-type="bibr">Olby <italic toggle="yes">et al.</italic>, 2003</xref>; <xref rid="ref9" ref-type="bibr">Ito <italic toggle="yes">et al.</italic>, 2005</xref>; <xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). If the sensation of pain is lost for more than 2 weeks, then animals with paraplegia will rarely achieve functional recovery (<xref rid="ref14" ref-type="bibr">Laitinen <italic toggle="yes">et al.</italic>, 2005</xref>) and will suffer from permanent hind limb paralysis, for which no curative therapy is currently available.</p><table-wrap id="table5" position="float" orientation="portrait"><label>Table 5.</label><caption><title>HGF protein in CSF.</title></caption><table frame="hsides" rules="rows"><thead><tr><th rowspan="1" colspan="1">
+Case
+</th><th rowspan="1" colspan="1">
+Pre-transplant
+</th><th rowspan="1" colspan="1">
+Post-transplant
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+25.4
+</td><td rowspan="1" colspan="1">
+237.4
+</td></tr><tr><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+21.9
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+26.7
+</td><td rowspan="1" colspan="1">
+325.0
+</td></tr><tr><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+19.8
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+25.9
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+9
+</td><td rowspan="1" colspan="1">
+22.7
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+10
+</td><td rowspan="1" colspan="1">
+23.9
+</td><td rowspan="1" colspan="1">
+167.0
+</td></tr><tr><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+-
+</td></tr><tr><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+23.8
+</td><td rowspan="1" colspan="1">
+-
+</td></tr></tbody></table><table-wrap-foot><fn><p>(protein): pg/ml; (-): No sample; (HGF): hepatocyte growth factor; (CSF): cerebrospinal fluid.</p></fn></table-wrap-foot></table-wrap><p>It is known that not only do axons fail to regrow but also axonal regrowth is inhibited by scar tissue formation (gliosis) in chronic SCI (<xref rid="ref8" ref-type="bibr">Ide <italic toggle="yes">et al.</italic>, 2010</xref>). Successful nerve regeneration requires replenishment of lost neurons, supplementation of various nutrition factors that stimulate axonal growth, and provision of a scaffold that allows axonal growth. Previous studies demonstrated auxiliary effects of BM-MNCs on axonal regeneration, suggesting that the cells effectively secrete various cytokines that stimulate axonal growth (<xref rid="ref45" ref-type="bibr">Yoshihara <italic toggle="yes">et al.</italic>, 2007</xref>; <xref rid="ref8" ref-type="bibr">Ide <italic toggle="yes">et al.</italic>, 2010</xref>; <xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). As reported previously, BM-MNC transplantation into the injured spinal cord was effective in the treatment of acute SCI in dogs (<xref rid="ref37" ref-type="bibr">Tamura <italic toggle="yes">et al.</italic>, 2012</xref>). BM-MNCs have also been effective in treating chronic SCIs in humans with minimal adverse events (<xref rid="ref12" ref-type="bibr">Kumar <italic toggle="yes">et al.</italic>, 2009</xref>), although there are no reports on the efficacy and adverse events of BM-MNC transplantation in dogs with chronic SCI.</p><p>This study is the first clinical evaluation of BM-MNC transplantation carried out in dogs with chronic SCI, which had paraplegia and loss of pain sensation due to disk herniation and failure to improve motor function after surgical decompression.</p><p>In this study, we investigated mRNA expression levels of various cytokines in BM-MNCs isolated from dogs. IL-6 was not only recognized as an inflammatory cytokine, but was also shown to protect neurons (<xref rid="ref17" ref-type="bibr">Loddick <italic toggle="yes">et al.</italic>, 1998</xref>). This cytokine was overexpressed after acute SCI and, as a result of its inflammatory action exceeding the neuroprotective effect, contributed to the expansion of the primary injury and generations of secondary injury (<xref rid="ref13" ref-type="bibr">Lacroix <italic toggle="yes">et al.</italic>, 2002</xref>). On the other hand, HGF strongly inhibited apoptosis in nerve injury (<xref rid="ref39" ref-type="bibr">Tsuzuki <italic toggle="yes">et al.</italic>, 2000</xref>; <xref rid="ref46" ref-type="bibr">Zhang <italic toggle="yes">et al.</italic>, 2000</xref>). HGF seemed to have an important role in neural regeneration because it promoted neural induction (<xref rid="ref34" ref-type="bibr">Stern and Bernick, 1990</xref>; <xref rid="ref35" ref-type="bibr">Streit <italic toggle="yes">et al.</italic>, 1995</xref>), induced proliferation of Schwann cells, and stimulated axonal growth (<xref rid="ref44" ref-type="bibr">Yang <italic toggle="yes">et al.</italic>, 1993</xref>; <xref rid="ref43" ref-type="bibr">Yamagata <italic toggle="yes">et al.</italic>, 1995</xref>). In addition, IL-10 was reported to suppress inflammation of the spinal cord (<xref rid="ref47" ref-type="bibr">Zhou <italic toggle="yes">et al.</italic>, 2009</xref>), restrict secondary injury after SCI (<xref rid="ref6" ref-type="bibr">Genovese <italic toggle="yes">et al.</italic>, 2009</xref>; <xref rid="ref36" ref-type="bibr">Tai <italic toggle="yes">et al.</italic>, 2010</xref>), and minimize neuropathic pain after SCI (<xref rid="ref15" ref-type="bibr">Lau <italic toggle="yes">et al.</italic>, 2012</xref>). IL-4 was also shown to have an anti-apoptosis effect in an injured spinal cord (<xref rid="ref21" ref-type="bibr">Nakanishi <italic toggle="yes">et al.</italic>, 1996</xref>). IL-4 prevents the onset of demyelinating myelitis and reduces the production of tumor necrosis factor &#945; (TNF&#945;), which is an inflammatory cytokine of the central nervous system (<xref rid="ref28" ref-type="bibr">Racke <italic toggle="yes">et al.</italic>, 1994</xref>).</p><p>This study demonstrated that canine BM-MNC preparations contain higher levels of mRNAs for HGF, IL-10, and IL-4, which are known to help regenerate and protect nerves, compared to that of IL-6, which promotes secondary injury in the spinal cord. The expression levels of these cytokines varied among individuals; animals without functional recovery tended to have lower levels of HGF, IL-10, and IL-4 expressions. These results may suggest that HGF, IL-10, and IL-4 in BM-MNCs may have significant effects on the outcome of BM-MNC transplantation. In future studies, we must closely examine differences in the expression of these cytokines with regard to the animal&#8217;s age, underlying diseases, and other background characteristics.</p><p>In this study, we demonstrated significant increases in HGF levels in CSF within 48 hours after autologous BM-MNC transplantation into the subarachnoid space of the spinal dura matter in three cases.</p><p>HGF stimulates nerve growth (<xref rid="ref7" ref-type="bibr">Honda <italic toggle="yes">et al.</italic>, 1995</xref>; <xref rid="ref5" ref-type="bibr">Ebens <italic toggle="yes">et al.</italic>, 1996</xref>; <xref rid="ref18" ref-type="bibr">Maina <italic toggle="yes">et al.</italic>, 1999</xref>; <xref rid="ref25" ref-type="bibr">Okura <italic toggle="yes">et al.</italic>, 1999</xref>; <xref rid="ref23" ref-type="bibr">Novak <italic toggle="yes">et al.</italic>, 2000</xref>), mediates angiogenesis (<xref rid="ref2" ref-type="bibr">Date <italic toggle="yes">et al.</italic>, 2004</xref>), and inhibits apoptosis (<xref rid="ref25" ref-type="bibr">Okura <italic toggle="yes">et al.</italic>, 1999</xref>). All these findings indicate that HGF is a promising candidate for treating various neurological and neurodegenerative disorders. A number of studies have reported HGF variations in animal experiments. However, to the best of our knowledge, no previous studies have demonstrated elevated HGF levels in CSF in association with BN-MNC transplantation into the subarachnoid space of the spinal dura matter in dogs.</p><p>For Cases 8 and 11, there were no improvements in TSCIS score following BM-MNC transplantation. Although the reason was not clear, the degree and kind of damage to the spinal cord may be relevant because Case 8 showed lower motor neuron signs in the examination of spinal reflexes.</p><p>We analyzed only a limited number of samples and need more cases to provide definitive assessment. However, in chronic SCI in dogs, BM-MNC transplantation is likely to contribute to spinal cord regeneration via elevation of HGF levels in CSF.</p><p>This study demonstrated that spinal cord regeneration therapy by BM-MNC transplantation may be effective for at least some cases of chronic SCI, for which effective therapies are lacking. Our results suggested that multiple chemical mediators contained in heterogeneous cell population may be involved in the mode of action. Autologous BM-MNC transplantation is expected to contribute to improving quality of life of dogs that suffer from chronic SCI.</p></sec></body><back><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare that there is no conflict of interest.</p></sec><sec><title>Author contributions</title><p>Katsutoshi Tamura conceived and carried out the study, and drafted the manuscript. Noritaka Maeta conceived the study, participated in its design and coordination, and helped to draft the manuscript. All authors approved the manuscript to be published and agreed to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.</p></sec><ref-list><title>References</title><ref id="ref1"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Collazos-Castro</surname><given-names>J.E</given-names></name><name name-style="western"><surname>Muneton-Gomez</surname><given-names>V.C</given-names></name><name name-style="western"><surname>Nieto-Sampedro</surname><given-names>M</given-names></name></person-group><article-title>Olfactory glia transplantation into cervical spinal cord contusion injuries</article-title><source>J. Neurosurg Spine</source><year>2005</year><volume>3</volume><fpage>308</fpage><lpage>317</lpage><pub-id pub-id-type="pmid">16266073</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3171/spi.2005.3.4.0308</pub-id></element-citation></ref><ref id="ref2"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Date</surname><given-names>I</given-names></name><name name-style="western"><surname>Takagi</surname><given-names>N</given-names></name><name name-style="western"><surname>Takagi</surname><given-names>K</given-names></name><name name-style="western"><surname>Kago</surname><given-names>T</given-names></name><name name-style="western"><surname>Matsumoto</surname><given-names>K</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>T</given-names></name><name name-style="western"><surname>Takeo</surname><given-names>S</given-names></name></person-group><article-title>Hepatocyte growth factor attenuates cerebral ischemia-induced learning dysfunction</article-title><source>Biochem. Biophys. Res. Commun</source><year>2004</year><volume>319</volume><fpage>1152</fpage><lpage>1158</lpage><pub-id pub-id-type="pmid">15194488</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbrc.2004.05.100</pub-id></element-citation></ref><ref id="ref3"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>de Lahunta</surname><given-names>A</given-names></name></person-group><person-group person-group-type="editor"><name name-style="western"><surname>de Lahunta</surname><given-names>A</given-names></name></person-group><article-title>General somatic afferent system-GSA</article-title><source>Veterinary neuroanatomy and clinical neurology</source><year>1983</year><publisher-loc>Philadelphia, PA</publisher-loc><publisher-name>WB Saunders Company</publisher-name><fpage>166</fpage><lpage>169</lpage></element-citation></ref><ref id="ref4"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Duval</surname><given-names>J</given-names></name><name name-style="western"><surname>Dewey</surname><given-names>C</given-names></name><name name-style="western"><surname>Roberts</surname><given-names>R</given-names></name><name name-style="western"><surname>Aron</surname><given-names>D</given-names></name></person-group><article-title>Spinal cord swelling as a myelographic indicator of prognosis: a retrospective study in dogs with intervertebral disc disease and loss of deep pain perception</article-title><source>Vet. Surg</source><year>1996</year><volume>25</volume><fpage>6</fpage><lpage>12</lpage><pub-id pub-id-type="pmid">8719081</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1532-950x.1996.tb01371.x</pub-id></element-citation></ref><ref id="ref5"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ebens</surname><given-names>A</given-names></name><name name-style="western"><surname>Brose</surname><given-names>K</given-names></name><name name-style="western"><surname>Leonardo</surname><given-names>E.D</given-names></name><name name-style="western"><surname>Hanson</surname><given-names>M.G</given-names></name><name name-style="western"><surname>Bladt</surname><given-names>F</given-names><suffix>Jr.</suffix></name><name name-style="western"><surname>Birchmeier</surname><given-names>C</given-names></name><name name-style="western"><surname>Barres</surname><given-names>B.A</given-names></name><name name-style="western"><surname>Tesser-Lavigne</surname><given-names>M</given-names></name></person-group><article-title>Hepatocyte growth factor/scatter factor is an axonal chemoattractant and a neurotrophic factor for spinal motor neurons</article-title><source>Neuron</source><year>1996</year><volume>17</volume><fpage>1157</fpage><lpage>1172</lpage><pub-id pub-id-type="pmid">8982163</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0896-6273(00)80247-0</pub-id></element-citation></ref><ref id="ref6"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Genovese</surname><given-names>T</given-names></name><name name-style="western"><surname>Esposito</surname><given-names>E</given-names></name><name name-style="western"><surname>Mazzon</surname><given-names>E</given-names></name><name name-style="western"><surname>Di Paola</surname><given-names>R</given-names></name><name name-style="western"><surname>Caminiti</surname><given-names>R</given-names></name><name name-style="western"><surname>Bramanti</surname><given-names>P</given-names></name><name name-style="western"><surname>Cappelani</surname><given-names>A</given-names></name><name name-style="western"><surname>Cuzzocrea</surname><given-names>S</given-names></name></person-group><article-title>Absence of endogenous interleukin-10 enhances secondary inflammatory process after spinal cord compression injury in mice</article-title><source>J. Neurochem</source><year>2009</year><volume>108</volume><issue>6</issue><fpage>1360</fpage><lpage>1372</lpage><pub-id pub-id-type="pmid">19183262</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1471-4159.2009.05899.x</pub-id></element-citation></ref><ref id="ref7"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Honda</surname><given-names>S</given-names></name><name name-style="western"><surname>Kagoshima</surname><given-names>M</given-names></name><name name-style="western"><surname>Wanaka</surname><given-names>A</given-names></name><name name-style="western"><surname>Tohyama</surname><given-names>M</given-names></name><name name-style="western"><surname>Matsumoto</surname><given-names>K</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>T</given-names></name></person-group><article-title>Localization and functional coupling of HGF and c-Met/HGF receptor in rat brain: implication as neurotrophic factor</article-title><source>Brain Res. Mol. Brain Res</source><year>1995</year><volume>32</volume><fpage>197</fpage><lpage>210</lpage><pub-id pub-id-type="pmid">7500831</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0169-328x(95)00075-4</pub-id></element-citation></ref><ref id="ref8"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ide</surname><given-names>C</given-names></name><name name-style="western"><surname>Nakai</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nakano</surname><given-names>N</given-names></name><name name-style="western"><surname>Seo</surname><given-names>T.B</given-names></name><name name-style="western"><surname>Yamada</surname><given-names>Y</given-names></name><name name-style="western"><surname>Endo</surname><given-names>K</given-names></name><name name-style="western"><surname>Noda</surname><given-names>T</given-names></name><name name-style="western"><surname>Saito</surname><given-names>F</given-names></name><name name-style="western"><surname>Suzuki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Fukushima</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakatani</surname><given-names>T</given-names></name></person-group><article-title>Bone marrow stromal cell transplantation for treatment of sub-acute spinal cord injury in the rat</article-title><source>Brain Res</source><year>2010</year><volume>1332</volume><fpage>32</fpage><lpage>47</lpage><pub-id pub-id-type="pmid">20307513</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.brainres.2010.03.043</pub-id></element-citation></ref><ref id="ref9"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ito</surname><given-names>D</given-names></name><name name-style="western"><surname>Matsunaga</surname><given-names>S</given-names></name><name name-style="western"><surname>Jeffery</surname><given-names>N.D</given-names></name><name name-style="western"><surname>Sasaki</surname><given-names>N</given-names></name><name name-style="western"><surname>Nishimura</surname><given-names>R</given-names></name><name name-style="western"><surname>Mochizuki</surname><given-names>M</given-names></name><name name-style="western"><surname>Kasahara</surname><given-names>M</given-names></name><name name-style="western"><surname>Fujiwara</surname><given-names>R</given-names></name><name name-style="western"><surname>Ogawa</surname><given-names>H</given-names></name></person-group><article-title>Prognostic value of magnetic resonance imaging in dogs with paraplegia caused by thoracolumbar intervertebral disk extrusion: 77 cases (2000-2003)</article-title><source>J. Am. Vet. Med. Assoc</source><year>2005</year><volume>227</volume><fpage>1454</fpage><lpage>1460</lpage><pub-id pub-id-type="pmid">16279391</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2460/javma.2005.227.1454</pub-id></element-citation></ref><ref id="ref10"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Itoh</surname><given-names>H</given-names></name><name name-style="western"><surname>Hara</surname><given-names>Y</given-names></name><name name-style="western"><surname>Yoshimi</surname><given-names>N</given-names></name><name name-style="western"><surname>Harada</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nezu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Yogo</surname><given-names>T</given-names></name><name name-style="western"><surname>Ochi</surname><given-names>H</given-names></name><name name-style="western"><surname>Hasegawa</surname><given-names>D</given-names></name><name name-style="western"><surname>Orima</surname><given-names>H</given-names></name><name name-style="western"><surname>Tagawa</surname><given-names>M</given-names></name></person-group><article-title>A retrospective study of intervertebral disc herniation in dogs in Japan: 297 cases</article-title><source>J. Vet. Med. Sci</source><year>2008</year><volume>70</volume><fpage>701</fpage><lpage>706</lpage><pub-id pub-id-type="pmid">18685242</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1292/jvms.70.701</pub-id></element-citation></ref><ref id="ref11"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Knoller</surname><given-names>N</given-names></name><name name-style="western"><surname>Auerbach</surname><given-names>G</given-names></name><name name-style="western"><surname>Fulga</surname><given-names>V</given-names></name><name name-style="western"><surname>Zelig</surname><given-names>G</given-names></name><name name-style="western"><surname>Attias</surname><given-names>J</given-names></name><name name-style="western"><surname>Bakimer</surname><given-names>R</given-names></name><name name-style="western"><surname>Marder</surname><given-names>J.B</given-names></name><name name-style="western"><surname>Yoles</surname><given-names>E</given-names></name><name name-style="western"><surname>Belkin</surname><given-names>M</given-names></name><name name-style="western"><surname>Schwartz</surname><given-names>M</given-names></name><name name-style="western"><surname>Hadani</surname><given-names>M</given-names></name></person-group><article-title>Clinical experience using incubated autologous macrophages as a treatment for complete spinal cord injury: phase I study results</article-title><source>J. Neurosurg. Spine</source><year>2005</year><volume>3</volume><fpage>173</fpage><lpage>178</lpage><pub-id pub-id-type="pmid">16235699</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3171/spi.2005.3.3.0173</pub-id></element-citation></ref><ref id="ref12"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kumar</surname><given-names>A.A</given-names></name><name name-style="western"><surname>Kumar</surname><given-names>S.R</given-names></name><name name-style="western"><surname>Narayanan</surname><given-names>R</given-names></name><name name-style="western"><surname>Arul</surname><given-names>K</given-names></name><name name-style="western"><surname>Baskaran</surname><given-names>M</given-names></name></person-group><article-title>Autologous bone marrow derived mononuclear cell therapy for spinal cord injury: a phase 1/2 clinical safety and primary efficacy data</article-title><source>Exp. Clin. Transplant</source><year>2009</year><volume>7</volume><issue>4</issue><fpage>241</fpage><lpage>248</lpage><pub-id pub-id-type="pmid">20353375</pub-id></element-citation></ref><ref id="ref13"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lacroix</surname><given-names>S</given-names></name><name name-style="western"><surname>Chang</surname><given-names>L</given-names></name><name name-style="western"><surname>Rose-John</surname><given-names>S</given-names></name><name name-style="western"><surname>Tuszynski</surname><given-names>M.H</given-names></name></person-group><article-title>Delivery of hyper-interleukin-6 to the injured spinal cord increases neutrophil and macrophage infiltration and inhibits axonal growth</article-title><source>J. Comp. Neurol</source><year>2002</year><volume>454</volume><fpage>213</fpage><lpage>228</lpage><pub-id pub-id-type="pmid">12442313</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cne.10407</pub-id></element-citation></ref><ref id="ref14"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Laitinen</surname><given-names>O.M</given-names></name><name name-style="western"><surname>Puerto</surname><given-names>D.A</given-names></name></person-group><article-title>Surgical decompression in dogs with thoracolumbar intervertebral disc disease and loss of deep pain perception: a retrospective study of 46 cases</article-title><source>Acta Vet. Scand</source><year>2005</year><volume>46</volume><fpage>79</fpage><lpage>85</lpage><pub-id pub-id-type="pmid">16108215</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1751-0147-46-79</pub-id><pub-id pub-id-type="pmcid">PMC2202789</pub-id></element-citation></ref><ref id="ref15"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lau</surname><given-names>D</given-names></name><name name-style="western"><surname>Harte</surname><given-names>S.E</given-names></name><name name-style="western"><surname>Morrow</surname><given-names>T.J</given-names></name><name name-style="western"><surname>Wang</surname><given-names>S</given-names></name><name name-style="western"><surname>Mata</surname><given-names>M</given-names></name><name name-style="western"><surname>Fink</surname><given-names>D.J</given-names></name></person-group><article-title>Herpes simplex virus vector-mediated expression of interleukin-10 reduces below-level central neuropathic pain after spinal cord injury</article-title><source>Neurorehabil. Neural. Repair</source><year>2012</year><volume>26</volume><fpage>889</fpage><lpage>897</lpage><pub-id pub-id-type="pmid">22593113</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/1545968312445637</pub-id><pub-id pub-id-type="pmcid">PMC3414650</pub-id></element-citation></ref><ref id="ref16"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Levine</surname><given-names>G.J</given-names></name><name name-style="western"><surname>Levine</surname><given-names>J.M</given-names></name><name name-style="western"><surname>Budke</surname><given-names>C.M</given-names></name><name name-style="western"><surname>Kerwin</surname><given-names>S.C</given-names></name><name name-style="western"><surname>Au</surname><given-names>J</given-names></name><name name-style="western"><surname>Vinayak</surname><given-names>A</given-names></name><name name-style="western"><surname>Hettlich</surname><given-names>B.F</given-names></name><name name-style="western"><surname>Slater</surname><given-names>M.R</given-names></name></person-group><article-title>Description and repeatability of a newly developed spinal cord injury scale for dogs</article-title><source>Prev. Vet. Med</source><year>2009</year><volume>89</volume><fpage>121</fpage><lpage>127</lpage><pub-id pub-id-type="pmid">19303151</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.prevetmed.2009.02.016</pub-id></element-citation></ref><ref id="ref17"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Loddick</surname><given-names>S.A</given-names></name><name name-style="western"><surname>Turnbull</surname><given-names>A.V</given-names></name><name name-style="western"><surname>Rothwell</surname><given-names>N.J</given-names></name></person-group><article-title>Cerebral interleukin-6 is neuroprotective during permanent focal cerebral ischemia in the rat</article-title><source>J. Cereb. Blood Flow Metab</source><year>1998</year><volume>18</volume><fpage>176</fpage><lpage>179</lpage><pub-id pub-id-type="pmid">9469160</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00004647-199802000-00008</pub-id></element-citation></ref><ref id="ref18"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Maina</surname><given-names>F</given-names></name><name name-style="western"><surname>Klein</surname><given-names>R</given-names></name></person-group><article-title>Hepatocyte growth factor, a versatile signal for developing neurons</article-title><source>Nat. Neurosci</source><year>1999</year><volume>2</volume><fpage>213</fpage><lpage>217</lpage><pub-id pub-id-type="pmid">10195212</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/6310</pub-id></element-citation></ref><ref id="ref19"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martin</surname><given-names>D</given-names></name><name name-style="western"><surname>Robe</surname><given-names>P</given-names></name><name name-style="western"><surname>Franzen</surname><given-names>R</given-names></name><name name-style="western"><surname>Delree</surname><given-names>P</given-names></name><name name-style="western"><surname>Schoenen</surname><given-names>J</given-names></name><name name-style="western"><surname>Stevenaert</surname><given-names>A</given-names></name><name name-style="western"><surname>Moonen</surname><given-names>G</given-names></name></person-group><article-title>Effects of Schwann cell transplantation in a contusion model of rat spinal cord injury</article-title><source>J. Neurosci. Res</source><year>1996</year><volume>45</volume><fpage>588</fpage><lpage>597</lpage><pub-id pub-id-type="pmid">8875323</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(SICI)1097-4547(19960901)45:5&lt;588::AID-JNR8&gt;3.0.CO;2-8</pub-id></element-citation></ref><ref id="ref20"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McDonald</surname><given-names>J.W</given-names></name><name name-style="western"><surname>Liu</surname><given-names>X.Z</given-names></name><name name-style="western"><surname>Qu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Liu</surname><given-names>S</given-names></name><name name-style="western"><surname>Mickey</surname><given-names>S.K</given-names></name><name name-style="western"><surname>Turetsky</surname><given-names>D</given-names></name><name name-style="western"><surname>Gottlieb</surname><given-names>D.I</given-names></name><name name-style="western"><surname>Choi</surname><given-names>D.W</given-names></name></person-group><article-title>Transplanted embryonic stem cells survive, differentiate and promote recovery in injured rat spinal cord</article-title><source>Nat. Med</source><year>1999</year><volume>5</volume><fpage>1410</fpage><lpage>1412</lpage><pub-id pub-id-type="pmid">10581084</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/70986</pub-id></element-citation></ref><ref id="ref21"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nakanishi</surname><given-names>K</given-names></name><name name-style="western"><surname>Matsui</surname><given-names>K</given-names></name><name name-style="western"><surname>Kashiwamura</surname><given-names>S</given-names></name><name name-style="western"><surname>Nishioka</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nomura</surname><given-names>J</given-names></name><name name-style="western"><surname>Nishimura</surname><given-names>Y</given-names></name><name name-style="western"><surname>Sakaguchi</surname><given-names>N</given-names></name><name name-style="western"><surname>Yonehara</surname><given-names>S</given-names></name><name name-style="western"><surname>Higashino</surname><given-names>K</given-names></name><name name-style="western"><surname>Shinka</surname><given-names>S</given-names></name></person-group><article-title>IL-4 and anti-CD40 protect against Fas-mediated B cell apoptosis and induce B cell growth and differentiation</article-title><source>Int. Immunol</source><year>1996</year><volume>8</volume><fpage>791</fpage><lpage>798</lpage><pub-id pub-id-type="pmid">8671668</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/intimm/8.5.791</pub-id></element-citation></ref><ref id="ref22"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nishida</surname><given-names>H</given-names></name><name name-style="western"><surname>Nakayama</surname><given-names>M</given-names></name><name name-style="western"><surname>Tanaka</surname><given-names>H</given-names></name><name name-style="western"><surname>Kitamura</surname><given-names>M</given-names></name><name name-style="western"><surname>Hatoya</surname><given-names>S</given-names></name><name name-style="western"><surname>Sugiura</surname><given-names>K</given-names></name><name name-style="western"><surname>Suzuki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Ide</surname><given-names>C</given-names></name><name name-style="western"><surname>Inaba</surname><given-names>T</given-names></name></person-group><article-title>Evaluation of transplantation of autologous bone marrow stromal cells into the cerebrospinal fluid for treatment of chronic spinal cord injury in dogs</article-title><source>Am. J. Vet. Res</source><year>2011</year><volume>72</volume><fpage>1118</fpage><lpage>1123</lpage><pub-id pub-id-type="pmid">21801071</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2460/ajvr.72.8.1118</pub-id></element-citation></ref><ref id="ref23"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Novak</surname><given-names>K.D</given-names></name><name name-style="western"><surname>Prevette</surname><given-names>D</given-names></name><name name-style="western"><surname>Wang</surname><given-names>S</given-names></name><name name-style="western"><surname>Gould</surname><given-names>T.W</given-names></name><name name-style="western"><surname>Oppenheim</surname><given-names>R.W</given-names></name></person-group><article-title>Hepatocyte growth factor/scatter factor is a neurotrophic survival factor for lumbar but not for other somatic motoneurons in the chick embryo</article-title><source>J. Neurosci</source><year>2000</year><volume>20</volume><fpage>326</fpage><lpage>337</lpage><pub-id pub-id-type="pmid">10627610</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1523/JNEUROSCI.20-01-00326.2000</pub-id><pub-id pub-id-type="pmcid">PMC6774126</pub-id></element-citation></ref><ref id="ref24"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ogawa</surname><given-names>Y</given-names></name><name name-style="western"><surname>Sawamoto</surname><given-names>K</given-names></name><name name-style="western"><surname>Miyata</surname><given-names>T</given-names></name><name name-style="western"><surname>Miyao</surname><given-names>S</given-names></name><name name-style="western"><surname>Watanabe</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>M</given-names></name><name name-style="western"><surname>Bregman</surname><given-names>B.S</given-names></name><name name-style="western"><surname>Koike</surname><given-names>M</given-names></name><name name-style="western"><surname>Uchiyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Toyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Okano</surname><given-names>H</given-names></name></person-group><article-title>Transplantation of in vitro-expanded fetal neural progenitor cells results in neurogenesis and functional recovery after spinal cord contusion injury in adult rats</article-title><source>J. Neurosci. Res</source><year>2002</year><volume>69</volume><fpage>925</fpage><lpage>933</lpage><pub-id pub-id-type="pmid">12205685</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jnr.10341</pub-id></element-citation></ref><ref id="ref25"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Okura</surname><given-names>Y</given-names></name><name name-style="western"><surname>Arimoto</surname><given-names>H</given-names></name><name name-style="western"><surname>Tanuma</surname><given-names>N</given-names></name><name name-style="western"><surname>Matsumoto</surname><given-names>K</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>T</given-names></name><name name-style="western"><surname>Yamashima</surname><given-names>T</given-names></name><name name-style="western"><surname>Miyazawa</surname><given-names>T</given-names></name><name name-style="western"><surname>Matsumoto</surname><given-names>Y</given-names></name></person-group><article-title>Analysis of neurotrophic effects of hepatocyte growth factor in the adult hypoglossal nerve axotomy model</article-title><source>Eur. J. Neurosci</source><year>1999</year><volume>11</volume><fpage>4139</fpage><lpage>4144</lpage><pub-id pub-id-type="pmid">10583502</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1046/j.1460-9568.1999.00832.x</pub-id></element-citation></ref><ref id="ref26"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Olby</surname><given-names>N</given-names></name><name name-style="western"><surname>Levine</surname><given-names>J</given-names></name><name name-style="western"><surname>Harris</surname><given-names>T</given-names></name><name name-style="western"><surname>Munana</surname><given-names>K</given-names></name><name name-style="western"><surname>Skeen</surname><given-names>T</given-names></name><name name-style="western"><surname>Sharp</surname><given-names>N</given-names></name></person-group><article-title>Long-term functional outcome of dogs with severe injuries of the thoracolumbar spinal cord: 87 cases (1996-2001)</article-title><source>J. Am. Vet. Med. Assoc</source><year>2003</year><volume>222</volume><fpage>762</fpage><lpage>769</lpage><pub-id pub-id-type="pmid">12675299</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2460/javma.2003.222.762</pub-id></element-citation></ref><ref id="ref27"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Priebe</surname><given-names>M.M</given-names></name><name name-style="western"><surname>Chiodo</surname><given-names>A.E</given-names></name><name name-style="western"><surname>Scelza</surname><given-names>W.M</given-names></name><name name-style="western"><surname>Kirshblum</surname><given-names>S.C</given-names></name><name name-style="western"><surname>Wuermser</surname><given-names>L.A</given-names></name><name name-style="western"><surname>Ho</surname><given-names>C.H</given-names></name></person-group><article-title>Spinal cord injury medicine. 6. Economic and societal issues in spinal cord injury</article-title><source>Arch. Phys. Med. Rehabil</source><year>2007</year><volume>88</volume><fpage>S84</fpage><lpage>S88</lpage><pub-id pub-id-type="pmid">17321854</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.apmr.2006.12.005</pub-id></element-citation></ref><ref id="ref28"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Racke</surname><given-names>M.K</given-names></name><name name-style="western"><surname>Bonomo</surname><given-names>A</given-names></name><name name-style="western"><surname>Scott</surname><given-names>D.E</given-names></name><name name-style="western"><surname>Cannella</surname><given-names>B</given-names></name><name name-style="western"><surname>Levine</surname><given-names>A</given-names></name><name name-style="western"><surname>Raine</surname><given-names>C.S</given-names></name><name name-style="western"><surname>Schevach</surname><given-names>E.M</given-names></name><name name-style="western"><surname>Rocken</surname><given-names>M</given-names></name></person-group><article-title>Cytokine-induced immune deviation as a therapy for inflammatory autoimmune disease</article-title><source>J. Exp. Med</source><year>1994</year><volume>180</volume><fpage>1961</fpage><lpage>1966</lpage><pub-id pub-id-type="pmid">7525845</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1084/jem.180.5.1961</pub-id><pub-id pub-id-type="pmcid">PMC2191757</pub-id></element-citation></ref><ref id="ref29"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schwab</surname><given-names>J.M</given-names></name><name name-style="western"><surname>Brechtel</surname><given-names>K</given-names></name><name name-style="western"><surname>Mueller</surname><given-names>C.A</given-names></name><name name-style="western"><surname>Failli</surname><given-names>V</given-names></name><name name-style="western"><surname>Kaps</surname><given-names>H.P</given-names></name><name name-style="western"><surname>Tuli</surname><given-names>S.K</given-names></name><name name-style="western"><surname>Schluesener</surname><given-names>H.J</given-names></name></person-group><article-title>Experimental strategies to promote spinal cord regeneration--an integrative perspective</article-title><source>Prog. Neurobiol</source><year>2006</year><volume>78</volume><fpage>91</fpage><lpage>116</lpage><pub-id pub-id-type="pmid">16487649</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pneurobio.2005.12.004</pub-id></element-citation></ref><ref id="ref30"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schulz</surname><given-names>K.S</given-names></name><name name-style="western"><surname>Walker</surname><given-names>M</given-names></name><name name-style="western"><surname>Moon</surname><given-names>M</given-names></name><name name-style="western"><surname>Waldron</surname><given-names>D</given-names></name><name name-style="western"><surname>Slater</surname><given-names>M</given-names></name><name name-style="western"><surname>McDonald</surname><given-names>D.E</given-names></name></person-group><article-title>Correlation of clinical, radiographic, and surgical localization of intervertebral disc extrusion in small-breed dogs: a prospective study of 50 cases</article-title><source>Vet. Surg</source><year>1998</year><volume>27</volume><fpage>105</fpage><lpage>111</lpage><pub-id pub-id-type="pmid">9525024</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1532-950x.1998.tb00105.x</pub-id></element-citation></ref><ref id="ref31"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Scott</surname><given-names>H.W</given-names></name></person-group><article-title>Hemilaminectomy for the treatment of thoracolumbar disc disease in the dog: a follow-up study of 40 cases</article-title><source>J. Small Anim. Pract</source><year>1997</year><volume>38</volume><fpage>488</fpage><lpage>494</lpage><pub-id pub-id-type="pmid">9403807</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1748-5827.1997.tb03303.x</pub-id></element-citation></ref><ref id="ref32"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Scott</surname><given-names>H.W</given-names></name><name name-style="western"><surname>McKee</surname><given-names>W.M</given-names></name></person-group><article-title>Laminectomy for 34 dogs with thoracolumbar intervertebral disc disease and loss of deep pain perception</article-title><source>J. Small Anim. Pract</source><year>1999</year><volume>40</volume><fpage>417</fpage><lpage>422</lpage><pub-id pub-id-type="pmid">10516947</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1748-5827.1999.tb03114.x</pub-id></element-citation></ref><ref id="ref33"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sekhon</surname><given-names>L.H</given-names></name><name name-style="western"><surname>Fehlings</surname><given-names>M.G</given-names></name></person-group><article-title>Epidemiology, demographics, and pathophysiology of acute spinal cord injury</article-title><source>Spine (Phila Pa 1976)</source><year>2001</year><volume>26</volume><fpage>S2</fpage><lpage>S12</lpage><pub-id pub-id-type="pmid">11805601</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00007632-200112151-00002</pub-id></element-citation></ref><ref id="ref34"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Stern</surname><given-names>L.Z</given-names></name><name name-style="western"><surname>Bernick</surname><given-names>C</given-names></name></person-group><source>The mortor system and gait. The history, physical, and laboratory examinations</source><year>1990</year><edition>3rd</edition><publisher-loc>Boston, MA</publisher-loc><publisher-name>Butterworths</publisher-name><comment>Chapter 68</comment></element-citation></ref><ref id="ref35"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Streit</surname><given-names>A</given-names></name><name name-style="western"><surname>Stern</surname><given-names>C.D</given-names></name><name name-style="western"><surname>Thery</surname><given-names>C</given-names></name><name name-style="western"><surname>Ireland</surname><given-names>G.W</given-names></name><name name-style="western"><surname>Aparicio</surname><given-names>S</given-names></name><name name-style="western"><surname>Sharpe</surname><given-names>M.J</given-names></name><name name-style="western"><surname>Gherardu</surname><given-names>E</given-names></name></person-group><article-title>A role for HGF/SF in neural induction and its expression in Hensen&#8217;s node during gastrulation</article-title><source>Development</source><year>1995</year><volume>121</volume><fpage>813</fpage><lpage>824</lpage><pub-id pub-id-type="pmid">7720585</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/dev.121.3.813</pub-id></element-citation></ref><ref id="ref36"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tai</surname><given-names>P.A</given-names></name><name name-style="western"><surname>Chang</surname><given-names>C.K</given-names></name><name name-style="western"><surname>Niu</surname><given-names>K.C</given-names></name><name name-style="western"><surname>Lin</surname><given-names>M.T</given-names></name><name name-style="western"><surname>Chiu</surname><given-names>W.T</given-names></name><name name-style="western"><surname>Lin</surname><given-names>C.M</given-names></name></person-group><article-title>Attenuating experimental spinal cord injury by hyperbaric oxygen: stimulating production of vasculoendothelial and glial cell line-derived neurotrophic growth factors and interleukin-10</article-title><source>J. Neurotrauma</source><year>2010</year><volume>27</volume><fpage>1121</fpage><lpage>1127</lpage><pub-id pub-id-type="pmid">20334467</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/neu.2009.1162</pub-id></element-citation></ref><ref id="ref37"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tamura</surname><given-names>K</given-names></name><name name-style="western"><surname>Harada</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nagashima</surname><given-names>N</given-names></name><name name-style="western"><surname>Itoi</surname><given-names>T</given-names></name><name name-style="western"><surname>Ishino</surname><given-names>H</given-names></name><name name-style="western"><surname>Yogo</surname><given-names>T</given-names></name><name name-style="western"><surname>Nezu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Hara</surname><given-names>Y</given-names></name><name name-style="western"><surname>Suzuki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Ide</surname><given-names>C</given-names></name><name name-style="western"><surname>Tagawa</surname><given-names>M</given-names></name></person-group><article-title>Autotransplanting of Bone Marrow-Derived Mononuclear Cells for Complete Cases of Canine Paraplegia and Loss of Pain Perception, Secondary to Intervertebral Disc Herniation</article-title><source>Exp. Clin. Transplant</source><year>2012</year><volume>10</volume><fpage>263</fpage><lpage>272</lpage><pub-id pub-id-type="pmid">22631064</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.6002/ect.2011.0151</pub-id></element-citation></ref><ref id="ref38"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tsuji</surname><given-names>O</given-names></name><name name-style="western"><surname>Miura</surname><given-names>K</given-names></name><name name-style="western"><surname>Okada</surname><given-names>Y</given-names></name><name name-style="western"><surname>Fujiyoshi</surname><given-names>K</given-names></name><name name-style="western"><surname>Mukaino</surname><given-names>M</given-names></name><name name-style="western"><surname>Nagoshi</surname><given-names>N</given-names></name><name name-style="western"><surname>Kitamura</surname><given-names>K</given-names></name><name name-style="western"><surname>Kumagai</surname><given-names>G</given-names></name><name name-style="western"><surname>Nishino</surname><given-names>M</given-names></name><name name-style="western"><surname>Tomisato</surname><given-names>S</given-names></name><name name-style="western"><surname>Higashi</surname><given-names>H</given-names></name><name name-style="western"><surname>Nagai</surname><given-names>Y</given-names></name><name name-style="western"><surname>Katoh</surname><given-names>H</given-names></name><name name-style="western"><surname>Kohda</surname><given-names>K</given-names></name><name name-style="western"><surname>Matsuzaki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Yuzaki</surname><given-names>M</given-names></name><name name-style="western"><surname>Ikeda</surname><given-names>E</given-names></name><name name-style="western"><surname>Toyama</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>S</given-names></name><name name-style="western"><surname>Okano</surname><given-names>H</given-names></name></person-group><article-title>Therapeutic potential of appropriately evaluated safe-induced pluripotent stem cells for spinal cord injury</article-title><source>Proc. Natl. Acad. Sci. U. S. A</source><year>2010</year><volume>107</volume><fpage>12704</fpage><lpage>12709</lpage><pub-id pub-id-type="pmid">20615974</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0910106107</pub-id><pub-id pub-id-type="pmcid">PMC2906548</pub-id></element-citation></ref><ref id="ref39"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tsuzuki</surname><given-names>N</given-names></name><name name-style="western"><surname>Miyazawa</surname><given-names>T</given-names></name><name name-style="western"><surname>Matsumoto</surname><given-names>K</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>T</given-names></name><name name-style="western"><surname>Shima</surname><given-names>K</given-names></name><name name-style="western"><surname>Chigasaki</surname><given-names>H</given-names></name></person-group><article-title>Hepatocyte growth factor reduces infarct volume after transient focal cerebral ischemia in rats</article-title><source>Acta Neurochir. Suppl</source><year>2000</year><volume>76</volume><fpage>311</fpage><lpage>316</lpage><pub-id pub-id-type="pmid">11450033</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-3-7091-6346-7_64</pub-id></element-citation></ref><ref id="ref40"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Uzuka</surname><given-names>Y</given-names></name><name name-style="western"><surname>Saitoh</surname><given-names>M</given-names></name><name name-style="western"><surname>Hiramatsu</surname><given-names>I</given-names></name><name name-style="western"><surname>Nagata</surname><given-names>T</given-names></name></person-group><article-title>Studies on the factors affecting the recording of somatosensory evoked potentials induced by tibial nerve stimulation in dogs</article-title><source>J. Vet. Med. Sci</source><year>1995</year><volume>57</volume><fpage>871</fpage><lpage>876</lpage><pub-id pub-id-type="pmid">8593295</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1292/jvms.57.871</pub-id></element-citation></ref><ref id="ref41"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wang-Leandro</surname><given-names>A</given-names></name><name name-style="western"><surname>Hobert</surname><given-names>M.K</given-names></name><name name-style="western"><surname>Alisauskaite</surname><given-names>N</given-names></name><name name-style="western"><surname>Dziallas</surname><given-names>P</given-names></name><name name-style="western"><surname>Rohn</surname><given-names>K</given-names></name><name name-style="western"><surname>Stein</surname><given-names>V.M</given-names></name><name name-style="western"><surname>Tipold</surname><given-names>A</given-names></name></person-group><article-title>Spontaneous acute and chronic spinal cord injuries in paraplegic dogs: a comparative study of in vivo diffusion tensor imaging</article-title><source>Spinal cord</source><year>2017</year><volume>55</volume><fpage>1108</fpage><lpage>1116</lpage><pub-id pub-id-type="pmid">28762382</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sc.2017.83</pub-id></element-citation></ref><ref id="ref42"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wu</surname><given-names>S</given-names></name><name name-style="western"><surname>Suzuki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Ejiri</surname><given-names>Y</given-names></name><name name-style="western"><surname>Noda</surname><given-names>T</given-names></name><name name-style="western"><surname>Bai</surname><given-names>H</given-names></name><name name-style="western"><surname>Kitada</surname><given-names>M</given-names></name><name name-style="western"><surname>Kataoka</surname><given-names>K</given-names></name><name name-style="western"><surname>Ohta</surname><given-names>M</given-names></name><name name-style="western"><surname>Chou</surname><given-names>H</given-names></name><name name-style="western"><surname>Ide</surname><given-names>C</given-names></name></person-group><article-title>Bone marrow stromal cells enhance differentiation of cocultured neurosphere cells and promote regeneration of injured spinal cord</article-title><source>J. Neurosci. Res</source><year>2003</year><volume>72</volume><fpage>343</fpage><lpage>351</lpage><pub-id pub-id-type="pmid">12692901</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jnr.10587</pub-id></element-citation></ref><ref id="ref43"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yamagata</surname><given-names>M</given-names></name><name name-style="western"><surname>Sanes</surname><given-names>R.J</given-names></name></person-group><article-title>Target-independent diversification and target-specific projection of chemically defined retinal ganglion cell subsets</article-title><source>Development</source><year>1995</year><volume>121</volume><issue>11</issue><fpage>3763</fpage><lpage>3776</lpage><pub-id pub-id-type="pmid">8582286</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/dev.121.11.3763</pub-id></element-citation></ref><ref id="ref44"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yang</surname><given-names>X.M</given-names></name><name name-style="western"><surname>Park</surname><given-names>M</given-names></name></person-group><article-title>Expression of the met/hepatocyte growth factor/scatter factor receptor and its ligand during differentiation of murine P19 embryonal carcinoma cells</article-title><source>Dev. Biol</source><year>1993</year><volume>157</volume><fpage>308</fpage><lpage>320</lpage><pub-id pub-id-type="pmid">8388815</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/dbio.1993.1137</pub-id></element-citation></ref><ref id="ref45"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yoshihara</surname><given-names>T</given-names></name><name name-style="western"><surname>Ohta</surname><given-names>M</given-names></name><name name-style="western"><surname>Itokazu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Matsumoto</surname><given-names>N</given-names></name><name name-style="western"><surname>Dezawa</surname><given-names>M</given-names></name><name name-style="western"><surname>Suzuki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Taguchi</surname><given-names>A</given-names></name><name name-style="western"><surname>Watanabe</surname><given-names>Y</given-names></name><name name-style="western"><surname>Adachi</surname><given-names>Y</given-names></name><name name-style="western"><surname>Ikehara</surname><given-names>S</given-names></name><name name-style="western"><surname>Sugimoto</surname><given-names>H</given-names></name><name name-style="western"><surname>Ide</surname><given-names>C</given-names></name></person-group><article-title>Neuroprotective effect of bone marrow-derived mononuclear cells promoting functional recovery from spinal cord injury</article-title><source>J. Neurotrauma</source><year>2007</year><volume>24</volume><fpage>1026</fpage><lpage>1036</lpage><pub-id pub-id-type="pmid">17600518</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/neu.2007.132R</pub-id></element-citation></ref><ref id="ref46"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name><name name-style="western"><surname>Himi</surname><given-names>T</given-names></name><name name-style="western"><surname>Morita</surname><given-names>I</given-names></name><name name-style="western"><surname>Murota</surname><given-names>S</given-names></name></person-group><article-title>Hepatocyte growth factor protects cultured rat cerebellar granule neurons from apoptosis via the phosphatidylinositol-3 kinase/Akt pathway</article-title><source>J. Neurosci. Res</source><year>2000</year><volume>59</volume><fpage>489</fpage><lpage>496</lpage><pub-id pub-id-type="pmid">10679787</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(SICI)1097-4547(20000215)59:4&lt;489::AID-JNR3&gt;3.0.CO;2-9</pub-id></element-citation></ref><ref id="ref47"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhou</surname><given-names>Z</given-names></name><name name-style="western"><surname>Peng</surname><given-names>X</given-names></name><name name-style="western"><surname>Insolera</surname><given-names>R</given-names></name><name name-style="western"><surname>Fink</surname><given-names>D.J</given-names></name><name name-style="western"><surname>Mata</surname><given-names>M</given-names></name></person-group><article-title>IL-10 promotes neuronal survival following spinal cord injury</article-title><source>Exp. Neurol</source><year>2009</year><volume>220</volume><fpage>183</fpage><lpage>190</lpage><pub-id pub-id-type="pmid">19716366</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.expneurol.2009.08.018</pub-id><pub-id pub-id-type="pmcid">PMC2788918</pub-id></element-citation></ref></ref-list></back></article></pmc-articleset>

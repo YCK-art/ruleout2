@@ -1,0 +1,853 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10244588</article-id><article-id pub-id-type="pmcid-ver">PMC10244588.1</article-id><article-id pub-id-type="pmcaid">10244588</article-id><article-id pub-id-type="pmcaiid">10244588</article-id><article-id pub-id-type="pmid">37293447</article-id><article-id pub-id-type="doi">10.18699/VJGB-23-32</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>On the nature of picobirnaviruses</article-title><trans-title-group xml:lang="ru"><trans-title>&#1054; &#1087;&#1088;&#1080;&#1088;&#1086;&#1076;&#1077; &#1087;&#1080;&#1082;&#1086;&#1073;&#1080;&#1088;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1074;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Kashnikov</surname><given-names initials="AY">A.Yu.</given-names></name><aff>
+<institution>I.N. Blokhina Nizhny Novgorod Research Institute of Epidemiology and Microbiology, Nizhny Novgorod, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Epifanova</surname><given-names initials="NV">N.V.</given-names></name><aff>
+<institution>I.N. Blokhina Nizhny Novgorod Research Institute of Epidemiology and Microbiology, Nizhny Novgorod, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Novikova</surname><given-names initials="NA">N.A.</given-names></name><aff>
+<institution>I.N. Blokhina Nizhny Novgorod Research Institute of Epidemiology and Microbiology, Nizhny Novgorod, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: A.Yu. Kashnikov
+<email>a.kashn@yandex.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>6</month><year>2023</year></pub-date><volume>27</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">437474</issue-id><fpage>264</fpage><lpage>275</lpage><history><date date-type="received"><day>26</day><month>5</month><year>2022</year></date><date date-type="rev-recd"><day>21</day><month>7</month><year>2022</year></date><date date-type="accepted"><day>22</day><month>7</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>06</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>08</day><month>06</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-05-17 15:25:22.573"><day>17</day><month>05</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-27-2332.pdf"/><abstract><p>The picobirnaviruses (Picobirnaviridae, Picobirnavirus, PBVs) are currently thought to be animal viruses, as they are usually found in animal stool samples. However, no animal model or cell culture for their propagation has yet been found. In 2018, a hypothetical assumption about PBVs belonging to prokaryotic viruses was put forward and experimentally substantiated. This hypothesis is based on the presence of Shine&#8211;Dalgarno sequences in the genome of all PBVs before three reading frames (ORF) at the ribosomal binding site, with which the prokaryotic genome is saturated, while in the eukaryotic genome such regions occur with low frequency. The genome saturation with the Shine&#8211;Dalgarno sequences, as well as the preservation of this saturation in the progeny, according to scientists, allows us to attribute PBVs to prokaryotic viruses. On the other hand, there is a possibility that PBVs belong to viruses of eukaryotic hosts &#8211; fungi or invertebrates, since PBV-like sequences similar to the genome of fungal viruses from the families of mitoviruses and partitiviruses have been identified. In this regard, the idea arose that, in terms of reproduction mode, PBVs resemble fungal viruses. The divergence of views on the true PBV host(s) has sparked discussions among scientists and required further research to elucidate their nature. The review highlights the results of the search for a PBV host. The reasons for the occurrence of atypical sequences among the PBV genome sequences that use an alternative mitochondrial code of lower eukaryotes (fungi and invertebrates) for the translation of viral RNA-dependent RNA polymerase (RdRp) instead of the standard genetic code are analyzed. The purpose of the review was to collect arguments in support of the hypothesis about the phage nature of PBVs and to find the most realistic explanation of the reasons for identifying non-standard genomic sequences for PBVs. Based on the hypothesis about the genealogical relationship of PBVs with RNA viruses from other families with similar segmented genomes, such as Reoviridae, Cystoviridae, Totiviridae and Partitiviridae, virologists support the assumption of a decisive role in the origin of atypical PBV-like reassortment strains between PBVs and viruses of the listed families. The collected arguments given in this review indicate a high probability of a phage nature of PBVs. The data presented in the review show that the belonging of PBV-like progeny to prokaryotic or eukaryotic viruses is determined not only by its genome saturation level with a prokaryotic motif, standard or mitochondrial genetic code. The primary structure of the gene encoding the viral capsid protein responsible for the presence or absence of specific proteolytic properties of the virus that determine its ability for independent horizontal transmission into new cells may also be a decisive factor.</p></abstract><trans-abstract xml:lang="ru"><p>&#1057;&#1095;&#1080;&#1090;&#1072;&#1077;&#1090;&#1089;&#1103;, &#1095;&#1090;&#1086; &#1087;&#1080;&#1082;&#1086;&#1073;&#1080;&#1088;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;&#1099; (Picobirnaviridae, Picobirnavirus, &#1055;&#1041;&#1042;) &#1103;&#1074;&#1083;&#1103;&#1102;&#1090;&#1089;&#1103; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084;&#1080; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093;, &#1090;&#1072;&#1082; &#1082;&#1072;&#1082; &#1080;&#1093; &#1086;&#1073;&#1099;&#1095;&#1085;&#1086; &#1085;&#1072;&#1093;&#1086;&#1076;&#1103;&#1090; &#1074; &#1086;&#1073;&#1088;&#1072;&#1079;&#1094;&#1072;&#1093; &#1089;&#1090;&#1091;&#1083;&#1072; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093;. &#1054;&#1076;&#1085;&#1072;&#1082;&#1086; &#1076;&#1086; &#1089;&#1080;&#1093; &#1087;&#1086;&#1088; &#1085;&#1077; &#1085;&#1072;&#1081;&#1076;&#1077;&#1085;&#1072; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1086;&#1075;&#1086; &#1080;&#1083;&#1080; &#1082;&#1083;&#1077;&#1090;&#1086;&#1095;&#1085;&#1072;&#1103; &#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1072; &#1076;&#1083;&#1103; &#1080;&#1093; &#1088;&#1072;&#1079;&#1084;&#1085;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;. &#1042; 2018 &#1075;. &#1073;&#1099;&#1083;&#1086; &#1074;&#1099;&#1076;&#1074;&#1080;&#1085;&#1091;&#1090;&#1086; &#1080; &#1101;&#1082;&#1089;&#1087;&#1077;&#1088;&#1080;&#1084;&#1077;&#1085;&#1090;&#1072;&#1083;&#1100;&#1085;&#1086; &#1086;&#1073;&#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1086; &#1075;&#1080;&#1087;&#1086;&#1090;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1087;&#1088;&#1077;&#1076;&#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077; &#1086; &#1087;&#1088;&#1080;&#1085;&#1072;&#1076;&#1083;&#1077;&#1078;&#1085;&#1086;&#1089;&#1090;&#1080; &#1055;&#1041;&#1042; &#1082; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084; &#1087;&#1088;&#1086;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090;. &#1069;&#1090;&#1072; &#1075;&#1080;&#1087;&#1086;&#1090;&#1077;&#1079;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1072; &#1085;&#1072; &#1087;&#1088;&#1080;&#1089;&#1091;&#1090;&#1089;&#1090;&#1074;&#1080;&#1080; &#1074; &#1075;&#1077;&#1085;&#1086;&#1084;&#1077; &#1074;&#1089;&#1077;&#1093; &#1055;&#1041;&#1042; &#1087;&#1077;&#1088;&#1077;&#1076; &#1090;&#1088;&#1077;&#1084;&#1103; &#1086;&#1090;&#1082;&#1088;&#1099;&#1090;&#1099;&#1084;&#1080; &#1088;&#1072;&#1084;&#1082;&#1072;&#1084;&#1080; &#1089;&#1095;&#1080;&#1090;&#1099;&#1074;&#1072;&#1085;&#1080;&#1103; (ORF) &#1074; &#1089;&#1072;&#1081;&#1090;&#1077; &#1089;&#1074;&#1103;&#1079;&#1099;&#1074;&#1072;&#1085;&#1080;&#1103; &#1089; &#1088;&#1080;&#1073;&#1086;&#1089;&#1086;&#1084;&#1086;&#1081; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081; &#1064;&#1072;&#1081;&#1085;&#1072;&#8211;&#1044;&#1072;&#1083;&#1100;&#1075;&#1072;&#1088;&#1085;&#1086;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1084;&#1080; &#1085;&#1072;&#1089;&#1099;&#1097;&#1077;&#1085; &#1075;&#1077;&#1085;&#1086;&#1084; &#1087;&#1088;&#1086;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090;, &#1090;&#1086;&#1075;&#1076;&#1072; &#1082;&#1072;&#1082; &#1074; &#1075;&#1077;&#1085;&#1086;&#1084;&#1077; &#1101;&#1091;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090; &#1090;&#1072;&#1082;&#1080;&#1077; &#1091;&#1095;&#1072;&#1089;&#1090;&#1082;&#1080; &#1074;&#1089;&#1090;&#1088;&#1077;&#1095;&#1072;&#1102;&#1090;&#1089;&#1103; &#1089; &#1085;&#1080;&#1079;&#1082;&#1086;&#1081; &#1095;&#1072;&#1089;&#1090;&#1086;&#1090;&#1086;&#1081;. &#1053;&#1072;&#1089;&#1099;&#1097;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1100; &#1075;&#1077;&#1085;&#1086;&#1084;&#1072; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1103;&#1084;&#1080; &#1064;&#1072;&#1081;&#1085;&#1072;&#8211;&#1044;&#1072;&#1083;&#1100;&#1075;&#1072;&#1088;&#1085;&#1086;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1089;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1077; &#1090;&#1072;&#1082;&#1086;&#1081; &#1085;&#1072;&#1089;&#1099;&#1097;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1080; &#1091; &#1087;&#1086;&#1090;&#1086;&#1084;&#1089;&#1090;&#1074;&#1072;, &#1087;&#1086; &#1084;&#1085;&#1077;&#1085;&#1080;&#1102; &#1091;&#1095;&#1077;&#1085;&#1099;&#1093;, &#1087;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1077;&#1090; &#1086;&#1090;&#1085;&#1077;&#1089;&#1090;&#1080; &#1055;&#1041;&#1042; &#1082; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084; &#1087;&#1088;&#1086;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090;. &#1042; &#1090;&#1086; &#1078;&#1077; &#1074;&#1088;&#1077;&#1084;&#1103; &#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090; &#1074;&#1077;&#1088;&#1086;&#1103;&#1090;&#1085;&#1086;&#1089;&#1090;&#1100; &#1087;&#1088;&#1080;&#1085;&#1072;&#1076;&#1083;&#1077;&#1078;&#1085;&#1086;&#1089;&#1090;&#1080; &#1055;&#1041;&#1042; &#1082; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084; &#1101;&#1091;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1093;&#1086;&#1079;&#1103;&#1077;&#1074; &#8211; &#1075;&#1088;&#1080;&#1073;&#1086;&#1074; &#1080;&#1083;&#1080; &#1073;&#1077;&#1089;&#1087;&#1086;&#1079;&#1074;&#1086;&#1085;&#1086;&#1095;&#1085;&#1099;&#1093;, &#1087;&#1086;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1091; &#1073;&#1099;&#1083;&#1080; &#1086;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1077;&#1085;&#1099; &#1055;&#1041;&#1042;-&#1087;&#1086;&#1076;&#1086;&#1073;&#1085;&#1099;&#1077; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080;, &#1089;&#1093;&#1086;&#1076;&#1085;&#1099;&#1077; &#1089; &#1075;&#1077;&#1085;&#1086;&#1084;&#1086;&#1084; &#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1074; &#1075;&#1088;&#1080;&#1073;&#1086;&#1074; &#1080;&#1079; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074; &#1084;&#1080;&#1090;&#1086;&#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1074; &#1080; &#1087;&#1072;&#1088;&#1090;&#1080;&#1090;&#1080;&#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1074;. &#1042; &#1089;&#1074;&#1103;&#1079;&#1080; &#1089; &#1101;&#1090;&#1080;&#1084; &#1074;&#1086;&#1079;&#1085;&#1080;&#1082;&#1083;&#1086; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077;, &#1095;&#1090;&#1086; &#1087;&#1086; &#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1091; &#1088;&#1077;&#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1094;&#1080;&#1080; &#1055;&#1041;&#1042; &#1085;&#1072;&#1087;&#1086;&#1084;&#1080;&#1085;&#1072;&#1102;&#1090; &#1074;&#1080;&#1088;&#1091;&#1089;&#1099; &#1075;&#1088;&#1080;&#1073;&#1086;&#1074;. &#1056;&#1072;&#1089;&#1093;&#1086;&#1078;&#1076;&#1077;&#1085;&#1080;&#1077; &#1074;&#1086; &#1074;&#1079;&#1075;&#1083;&#1103;&#1076;&#1072;&#1093; &#1085;&#1072; &#1080;&#1089;&#1090;&#1080;&#1085;&#1085;&#1086;&#1075;&#1086; &#1093;&#1086;&#1079;&#1103;&#1080;&#1085;&#1072; (&#1093;&#1086;&#1079;&#1103;&#1077;&#1074;) &#1055;&#1041;&#1042; &#1074;&#1099;&#1079;&#1074;&#1072;&#1083;&#1086; &#1076;&#1080;&#1089;&#1082;&#1091;&#1089;&#1089;&#1080;&#1102; &#1089;&#1088;&#1077;&#1076;&#1080; &#1091;&#1095;&#1077;&#1085;&#1099;&#1093; &#1080; &#1087;&#1086;&#1090;&#1088;&#1077;&#1073;&#1086;&#1074;&#1072;&#1083;&#1086; &#1076;&#1072;&#1083;&#1100;&#1085;&#1077;&#1081;&#1096;&#1080;&#1093; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081; &#1076;&#1083;&#1103; &#1074;&#1099;&#1103;&#1089;&#1085;&#1077;&#1085;&#1080;&#1103; &#1080;&#1093; &#1087;&#1088;&#1080;&#1088;&#1086;&#1076;&#1099; &#1042; &#1086;&#1073;&#1079;&#1086;&#1088;&#1077; &#1086;&#1089;&#1074;&#1077;&#1097;&#1077;&#1085;&#1099; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081; &#1087;&#1086; &#1087;&#1086;&#1080;&#1089;&#1082;&#1091; &#1093;&#1086;&#1079;&#1103;&#1080;&#1085;&#1072; &#1055;&#1041;&#1042;. &#1055;&#1088;&#1086;&#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1099; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1099; &#1087;&#1086;&#1103;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103;
+&#1089;&#1088;&#1077;&#1076;&#1080; &#1084;&#1085;&#1086;&#1078;&#1077;&#1089;&#1090;&#1074;&#1072; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1085;&#1099;&#1093; &#1076;&#1083;&#1103; &#1055;&#1041;&#1042; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081; &#1075;&#1077;&#1085;&#1086;&#1084;&#1072; &#1072;&#1090;&#1080;&#1087;&#1080;&#1095;&#1085;&#1099;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081;, &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1102;&#1097;&#1080;&#1093;
+&#1076;&#1083;&#1103; &#1090;&#1088;&#1072;&#1085;&#1089;&#1083;&#1103;&#1094;&#1080;&#1080; &#1074;&#1080;&#1088;&#1091;&#1089;&#1085;&#1086;&#1081; &#1056;&#1053;&#1050;-&#1079;&#1072;&#1074;&#1080;&#1089;&#1080;&#1084;&#1086;&#1081; &#1056;&#1053;&#1050;-&#1087;&#1086;&#1083;&#1080;&#1084;&#1077;&#1088;&#1072;&#1079;&#1099; (RdRp) &#1074;&#1084;&#1077;&#1089;&#1090;&#1086; &#1089;&#1090;&#1072;&#1085;&#1076;&#1072;&#1088;&#1090;&#1085;&#1086;&#1075;&#1086; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086;
+&#1082;&#1086;&#1076;&#1072; &#1072;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1081; &#1084;&#1080;&#1090;&#1086;&#1093;&#1086;&#1085;&#1076;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1082;&#1086;&#1076; &#1085;&#1080;&#1079;&#1096;&#1080;&#1093; &#1101;&#1091;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090; (&#1075;&#1088;&#1080;&#1073;&#1086;&#1074; &#1080; &#1073;&#1077;&#1089;&#1087;&#1086;&#1079;&#1074;&#1086;&#1085;&#1086;&#1095;&#1085;&#1099;&#1093;). &#1062;&#1077;&#1083;&#1100; &#1086;&#1073;&#1079;&#1086;&#1088;&#1072; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1083;&#1072;
+&#1074; &#1089;&#1073;&#1086;&#1088;&#1077; &#1072;&#1088;&#1075;&#1091;&#1084;&#1077;&#1085;&#1090;&#1086;&#1074; &#1074; &#1087;&#1086;&#1076;&#1076;&#1077;&#1088;&#1078;&#1082;&#1091; &#1075;&#1080;&#1087;&#1086;&#1090;&#1077;&#1079;&#1099;, &#1087;&#1086;&#1083;&#1072;&#1075;&#1072;&#1102;&#1097;&#1077;&#1081; &#1092;&#1072;&#1075;&#1086;&#1074;&#1091;&#1102; &#1087;&#1088;&#1080;&#1088;&#1086;&#1076;&#1091; &#1055;&#1041;&#1042; &#1080; &#1087;&#1086;&#1080;&#1089;&#1082; &#1085;&#1072;&#1080;&#1073;&#1086;&#1083;&#1077;&#1077; &#1088;&#1077;&#1072;&#1083;&#1080;&#1089;&#1090;&#1080;&#1095;&#1085;&#1086;&#1075;&#1086;
+&#1086;&#1073;&#1098;&#1103;&#1089;&#1085;&#1077;&#1085;&#1080;&#1103; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085; &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1085;&#1077;&#1089;&#1090;&#1072;&#1085;&#1076;&#1072;&#1088;&#1090;&#1085;&#1099;&#1093; &#1076;&#1083;&#1103; &#1055;&#1041;&#1042; &#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1099;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081;. &#1054;&#1087;&#1080;&#1088;&#1072;&#1103;&#1089;&#1100; &#1085;&#1072;
+&#1075;&#1080;&#1087;&#1086;&#1090;&#1077;&#1079;&#1091; &#1086; &#1075;&#1077;&#1085;&#1077;&#1072;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077; &#1055;&#1041;&#1042; &#1089; &#1056;&#1053;&#1050;-&#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084;&#1080; &#1080;&#1079; &#1076;&#1088;&#1091;&#1075;&#1080;&#1093; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074; &#1089;&#1086; &#1089;&#1093;&#1086;&#1076;&#1085;&#1099;&#1084; &#1089;&#1077;&#1075;&#1084;&#1077;&#1085;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1084; &#1075;&#1077;&#1085;&#1086;&#1084;&#1086;&#1084;,
+&#1090;&#1072;&#1082;&#1080;&#1084;&#1080; &#1082;&#1072;&#1082; Reoviridae, Cystoviridae, Totiviridae &#1080; Partitiviridae, &#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1083;&#1086;&#1075;&#1080; &#1087;&#1086;&#1076;&#1076;&#1077;&#1088;&#1078;&#1080;&#1074;&#1072;&#1102;&#1090; &#1087;&#1088;&#1077;&#1076;&#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;
+&#1086; &#1088;&#1077;&#1096;&#1072;&#1102;&#1097;&#1077;&#1081;
+&#1088;&#1086;&#1083;&#1080; &#1074; &#1087;&#1088;&#1086;&#1080;&#1089;&#1093;&#1086;&#1078;&#1076;&#1077;&#1085;&#1080;&#1080; &#1072;&#1090;&#1080;&#1087;&#1080;&#1095;&#1085;&#1099;&#1093; &#1055;&#1041;&#1042;-&#1087;&#1086;&#1076;&#1086;&#1073;&#1085;&#1099;&#1093; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074; &#1088;&#1077;&#1072;&#1089;&#1089;&#1086;&#1088;&#1090;&#1072;&#1094;&#1080;&#1080; &#1084;&#1077;&#1078;&#1076;&#1091; &#1055;&#1041;&#1042; &#1080; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084;&#1080;
+&#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1089;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;. &#1057;&#1086;&#1073;&#1088;&#1072;&#1085;&#1085;&#1099;&#1077; &#1072;&#1088;&#1075;&#1091;&#1084;&#1077;&#1085;&#1090;&#1099; &#1089;&#1074;&#1080;&#1076;&#1077;&#1090;&#1077;&#1083;&#1100;&#1089;&#1090;&#1074;&#1091;&#1102;&#1090; &#1086; &#1073;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1074;&#1077;&#1088;&#1086;&#1103;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080; &#1092;&#1072;&#1075;&#1086;&#1074;&#1086;&#1081; &#1087;&#1088;&#1080;&#1088;&#1086;&#1076;&#1099; &#1091;
+&#1055;&#1041;&#1042;. &#1055;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1085;&#1099;&#1077; &#1074; &#1086;&#1073;&#1079;&#1086;&#1088;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089;&#1074;&#1080;&#1076;&#1077;&#1090;&#1077;&#1083;&#1100;&#1089;&#1090;&#1074;&#1091;&#1102;&#1090;, &#1095;&#1090;&#1086; &#1087;&#1088;&#1080;&#1085;&#1072;&#1076;&#1083;&#1077;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100; &#1055;&#1041;&#1042;-&#1087;&#1086;&#1076;&#1086;&#1073;&#1085;&#1086;&#1075;&#1086; &#1087;&#1086;&#1090;&#1086;&#1084;&#1089;&#1090;&#1074;&#1072; &#1082; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;&#1084;
+&#1087;&#1088;&#1086;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090; &#1080;&#1083;&#1080; &#1101;&#1091;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090; &#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1085;&#1077; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1089;&#1090;&#1077;&#1087;&#1077;&#1085;&#1100;&#1102; &#1085;&#1072;&#1089;&#1099;&#1097;&#1077;&#1085;&#1080;&#1103; &#1077;&#1075;&#1086; &#1075;&#1077;&#1085;&#1086;&#1084;&#1072; &#1087;&#1088;&#1086;&#1082;&#1072;&#1088;&#1080;&#1086;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;
+&#1084;&#1086;&#1090;&#1080;&#1074;&#1086;&#1084;, &#1089;&#1090;&#1072;&#1085;&#1076;&#1072;&#1088;&#1090;&#1085;&#1099;&#1084; &#1080;&#1083;&#1080; &#1084;&#1080;&#1090;&#1086;&#1093;&#1086;&#1085;&#1076;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1084; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1082;&#1086;&#1076;&#1086;&#1084;. &#1056;&#1077;&#1096;&#1072;&#1102;&#1097;&#1080;&#1084; &#1092;&#1072;&#1082;&#1090;&#1086;&#1088;&#1086;&#1084; &#1084;&#1086;&#1078;&#1077;&#1090; &#1103;&#1074;&#1083;&#1103;&#1090;&#1100;&#1089;&#1103; &#1090;&#1072;&#1082;&#1078;&#1077;
+&#1087;&#1077;&#1088;&#1074;&#1080;&#1095;&#1085;&#1072;&#1103; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1072; &#1075;&#1077;&#1085;&#1072;, &#1082;&#1086;&#1076;&#1080;&#1088;&#1091;&#1102;&#1097;&#1077;&#1075;&#1086; &#1073;&#1077;&#1083;&#1086;&#1082; &#1074;&#1080;&#1088;&#1091;&#1089;&#1085;&#1086;&#1075;&#1086; &#1082;&#1072;&#1087;&#1089;&#1080;&#1076;&#1072;, &#1086;&#1090;&#1074;&#1077;&#1095;&#1072;&#1102;&#1097;&#1077;&#1075;&#1086; &#1079;&#1072; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1077; &#1080;&#1083;&#1080; &#1086;&#1090;&#1089;&#1091;&#1090;&#1089;&#1090;&#1074;&#1080;&#1077;
+&#1089;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1088;&#1086;&#1090;&#1077;&#1086;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1089;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074; &#1091; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;, &#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1103;&#1102;&#1097;&#1080;&#1093; &#1077;&#1075;&#1086; &#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1100; &#1082; &#1089;&#1072;&#1084;&#1086;&#1089;&#1090;&#1086;&#1103;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1084;&#1091; &#1075;&#1086;&#1088;&#1080;&#1079;&#1086;&#1085;&#1090;&#1072;&#1083;&#1100;&#1085;&#1086;&#1084;&#1091;
+&#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1102; &#1074; &#1085;&#1086;&#1074;&#1099;&#1077; &#1082;&#1083;&#1077;&#1090;&#1082;&#1080;</p></trans-abstract><kwd-group><kwd>picobirnavirus</kwd><kwd>genome segment</kwd><kwd>host cell</kwd><kwd>mitochondrial genetic code</kwd><kwd>phylogenetic tree</kwd><kwd>reassortment</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1087;&#1080;&#1082;&#1086;&#1073;&#1080;&#1088;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;</kwd><kwd>&#1089;&#1077;&#1075;&#1084;&#1077;&#1085;&#1090; &#1075;&#1077;&#1085;&#1086;&#1084;&#1072;</kwd><kwd>&#1082;&#1083;&#1077;&#1090;&#1082;&#1072;-&#1093;&#1086;&#1079;&#1103;&#1080;&#1085;</kwd><kwd>&#1084;&#1080;&#1090;&#1086;&#1093;&#1086;&#1085;&#1076;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1082;&#1086;&#1076;</kwd><kwd>&#1092;&#1080;&#1083;&#1086;&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1076;&#1077;&#1088;&#1077;&#1074;&#1086;</kwd><kwd>&#1088;&#1077;&#1072;&#1089;&#1089;&#1086;&#1088;&#1090;&#1072;&#1094;&#1080;&#1103;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Picobirnaviruses (PBVs) are small, nonenveloped bisegmented
+double-stranded RNA viruses that have been detected in
+a wide variety of animal species including invertebrates and in
+environmental samples. Since PBVs are ubiquitous in faeces/
+gut contents of humans and other animals with or without diarrhea,
+they were considered opportunistic enteric
+pathogens of
+mammals and avian species. However, an animal
+cell culture
+or a gnotobiotic animal for propagation of this virus has not
+yet been identified. This fact led some researchers to doubt that
+picobirnaviruses belong to eukaryotic viruses. Indian scientists
+Krishnamurthy, Wang (2018) have analyzed a large number of
+full-size (almost full-size) genomic sequences of PBVs found
+in faeces of humans and animals as well as environmental
+samples. This analysis revealed prokaryotic
+motifs (regions)
+in the PBV genome located before the open reading frames
+at the ribosomal binding site. Based on the data obtained,
+a hypothesis was put forward and experimentally substantiated
+that PBVs belong to prokaryotic viruses &#8211; bacteriophages
+(Krishnamurthy, Wang, 2018), which was later supported by
+a number of other studies (Adriaenssens et al., 2018; Boros
+et al., 2018; Kleymann et al., 2020).</p><p>On the other hand, after the discovery of new PBV-like
+nucleotide sequences encoding RNA-dependent RNA polymerase,
+but using an alternative (non-standard) mitochondrial
+genetic code (of molds or invertebrates) for translation, it was
+suggested that PBVs could be fungal viruses with a reproduction
+mode resembling that of mitoviruses (Yinda et al., 2019;
+Kleymann et al., 2020).</p><p>These contradictions, which have caused a discussion in
+the scientific community on the nature of the true host(s) of
+PBVs, can be resolved by a hypothesis put forward in 2018
+by Wolf et al. (2018) and supported by other researchers
+(Chauhan et al., 2021). This hypothesis explains the origin
+of abnormal strains of PBVs by the tendency of these viruses
+to abrupt genetic modification following the reassortment of
+genome segments described earlier (Concei&#231;&#227;o-Neto et al.,
+2016) and the acquisition of the ability of the bacteriophage
+to reproduce in the cells of the organism of another taxonomic
+group &#8211; the lower eukaryote.</p><p>This review analyzes the available publications on modern
+ideas about the origin and evolution of PBVs, as well as a
+discussion on the prokaryotic or eukaryotic nature of their true
+hosts. The purpose of the review was to collect arguments to
+support the hypothesis about the phage nature of PBVs and
+to search for the most realistic explanation of the reasons for
+the identification of genomic sequences that are nonstandard
+for viruses.</p></sec><sec><title>Characteristics of PBVs</title><p>Picobirnaviruses (PBVs) are small, noneveloped particles
+33&#8211;37 nm in diameter with icosahedral type of symmetry
+(T = 2) belonging to the only genus Picobirnavirus within
+the family Picobirnaviridae of the order Diplohnavirales.
+Double-stranded (ds) RNA-genome of PBVs consists of two
+segments 2525 and 1745 bp in length (Fig. 1). Information
+about the structure of the virion and genome of PBV, the area
+of prevalence, connection with diarrhea, the level of excretion,
+the opportunistic (conditionally pathogenic) and zoonotic nature
+of the virus, the wide tissue tropism and genetic variability
+is given in previously published reviews (Ganesh et al., 2014;
+Kashnikov et al., 2020; Ghosh, Malik, 2021). The methods
+of amplification, PCR diagnostics and genome sequencing of
+these viruses are also described there</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Genomic organization of the human PBV (strain <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="Hy005102">Hy005102</ext-link>) belonging to the genogroup I (Ghosh, Malik, 2021).</title><p>Segment 1 of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="Hy005102">Hy005102</ext-link> genome consists of three open reading frames (ORF) ORF1, ORF2, ORF3. Reading frame ORF3 encodes the precursor
+of the virus capsid protein. Segment 2 has one ORF encoding viral RNA-dependent RNA polymerase (RdRp). ORF1 and ORF2 products
+are not identified</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2332-Fig1.jpg"/></fig><p>Using phylogenetic analysis based on the nucleotide sequence
+of the RNA-dependent RNA polymerase (RdRp) gene
+located in the segment 2 of the genome, researchers divide
+PBVs into five genogroups: GI, GII (Rosen et al., 2000), GIII
+(Smits et al., 2014), GIV and GV (Li et al., 2015), among
+which there are genetically variable clusters. Genogroups
+GI and GII are more common in the PBV cluster detected
+in vertebrates and humans. Genogroup GIII has been identified
+in invertebrates (Shi et al., 2016) while genogroups GIV
+and GV have been identified in fungal and prokaryotic host
+cells (Knox et al., 2018). All five PBV genogroups identified
+in one host (marmot) are shown in the phylogram (Fig. 2) in
+the study (Luo et al., 2018). The main PBV genogroups are
+genogroups GI and GII, of which PBVs of genogroup GI
+are the most common (Shi et al., 2016; Kumar et al., 2020;
+Ghosh, Malik, 2021).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>Phylogenetic tree showing the presence of five proposed PBV
+genogroups identified in marmot is built on the basis of the nucleotide
+sequences of the complete RdRp gene.</title><p>Sequences of picobirnaviruses obtained from marmot are shown in red. Sequences
+of picobirnaviruses obtained from other hosts are shown in black
+(Luo et al., 2018, with modifications).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2332-Fig2.jpg"/></fig><p>It has been established that viruses belonging to the same
+RdRp-genogroup can be detected in suspected hosts belonging
+to different species. It has also been shown that PBVs
+of different genogroups are detected in the host of the same
+species (Ganesh et al., 2014; Malik et al., 2014; Woo et al.,
+2014, 2019; Li et al., 2015; Gallagher et al., 2017; Navarro et
+al., 2017; Boros et al., 2018; Duraisamy et al., 2018; Ghosh
+et al., 2018; Yinda et al., 2019; Joycelyn et al., 2020; Kleymann
+et al., 2020; Ghosh, Malik, 2021). At the same time,
+the true host of viruses has not yet been identified. Among the
+higher eukaryotes, they did not succeed in identifying either
+a cell culture or gnotobiotic animals for the virus propagation
+(Ganesh et al., 2014; Malik et al., 2014; Delmas et al., 2019;
+Kleymann et al., 2020).</p><p>In the future, as the PBV studies continued, researchers
+began to doubt the fact that the cells of higher eukaryotes
+could be the hosts of these viruses (Adriaenssens et al., 2018;
+Boros et al., 2018; Krishnamurthy, Wang, 2018). Recently it
+has been discovered that PBVs differ from dsRNA viruses of
+higher eukaryotes (Reoviridae) not only in the architecture of
+the capsid, but also in presumably being able to infect prokaryotic
+cells (Knox et al., 2018; Krishnamurthy, Wang, 2018).</p></sec><sec><title>Hypothesis about the phage nature of PBV
+and associated doubts</title><p>Prior to the hypothesis of Krishnamurthy and Wang (2018),
+PBVs were thought to be eukaryotic viruses because they
+were identified in a wide variety of animal species, including
+invertebrates. Since PBVs are ubiquitous in the gut contents
+of humans and other animals with or without diarrhea, they
+were considered opportunistic enteric pathogens. But intestinal
+virom in animals contains not only eukaryotic, but also
+prokaryotic viruses, which usually make up the largest share
+of it (Yinda et al., 2018). It was logical to assume that PBVs
+are not present in the gut cells, but in the gut contents and can
+be prokaryotic viruses of the gut microbiome (Adriaenssens
+et al., 2018; Kunz et al., 2018; Delmas et al., 2019; Bell et
+al., 2020; Guajardo-Leiva et al., 2020; Ghosh, Malik, 2021).</p><p>In this case, the level of virus identification should correspond
+to the number of bacteria in which they multiply. In
+particular, the study of Kleymann et al. (2020) reported high
+rates of identification of GI PBVs (35.36 %, 29/82) in Indian
+mongoose stool samples on the island of St. Kitts (one of the Lesser Antilles). The percentage of PBV identification on
+the island of St. Kitts could mean the concentration of host
+bacteria in this area. Moreover, there was a difference in the
+frequency of PBV identification in mongooses from the urban
+and wild habitats, 33.33 % (19/57) and 40.00 % (10/25)
+respectively, which could indicate a difference in bacterial
+load in these places</p><p>The suggestion that the PBVs may be prokaryotic viruses
+appeared when researchers began to analyze the diversity of
+full-sized (almost full-sized) sequences of their genome. With
+the help of next-generation sequencing technologies (NGS)
+and polymerase chain reaction (PCR) using specific primers,
+they succeeded in identifying some features of the PBV genome
+that indicate that these viruses may actually be prokaryotic
+or fungal viruses (Shi et al., 2016; Adriaenssens et al.,
+2018; Boros et al., 2018; Krishnamurthy, Wang, 2018; Wolf et
+al., 2018; Yinda et al., 2018; Delmas et al., 2019; Kleymann
+et al., 2020; Ghosh, Malik, 2021)</p><p>In 2018, while analyzing different reference genomes of
+RNA-containing viruses individually and at the family level,
+Indian scientists Krishnamurthy and Wang have discovered
+conservative regions in the PBV genome called Shine&#8211;Dalgarno
+sequences or SD-sequences (Krishnamurthy, Wang, 2018).
+Such regions are present in the genomes of all prokaryotic and
+eukaryotic viruses and usually consist of six nucleotides &#8211;
+AGGAGG.
+They are located in the 5&#8242;-untranslated region
+before the open reading frames (ORFs) at a distance of 1 to
+18 nucleotides (spacer region) to the start codon (AUG) initiating
+the translation of the viral genome products (Krishnamurthy,
+Wang, 2018; Ghosh, Malik, 2021). Functional
+SD-sequences are ribosome binding sites and promote the
+translation of viral proteins.</p><p>However, genome enrichment with SD-sequences was observed
+only in families of viruses that infect prokaryotes, but
+not in families infecting eukaryotes. This observation made it
+possible for Krishnamurthy and Wang to suggest that the high
+frequency of appearance of SD-sequences in the viral genomes
+may be a defining feature of the prokaryotic type of virus, and
+any viral families the genomes of which are enriched with such
+SD-regions are prokaryotic viral families. Among the viruses
+infecting prokaryots, for example, some bacteriophages of the
+family Cystoviridae have a high content of SD-sequences,
+the genome of which consists of several fragments of dsRNA
+(Mindich, 1988; Boros et al., 2018).</p><p>In the PBV genome, SD-sequences were present before all
+ORFs in segments 1 and 2. The level of enrichment with SDregions
+in PBVs is higher than in any known prokaryotic virus
+family and this level was constant (in 100 % of the studied
+genes), while not in all prokaryotic viruses it is maintained in
+the virus replication process. Such a high level of preservation
+of prokaryotic regions in the PBV genome should correlate
+with the level of their preservation in the genome of bacteria of
+a certain type from the spectrum of hosts that PBVs can infect.
+This level varies in different viral families (Krishnamurthy,
+Wang, 2018). Preservation of the level of enrichment with
+prokaryotic regions in the genomes of prokaryotic viruses
+depends on whether the host bacterium itself retains them in
+its genes. It is known that not all bacterial species preserve
+the prokaryotic Shine&#8211;Dalgarno sequence to the same extent.
+For example, in the genome of bacteria belonging to the type
+Firmicutes, the prokaryotic motif is preserved in more than
+80 % of genes, while in Bacteroides, less than 10 % (Omotajo
+et al., 2015). It is known that different families of bacterial
+RNA-viruses can consist of evolutionarily related viruses
+capable of infecting one type of bacteria. From this fact it
+follows that PBVs can infect bacteria within the type Firmicutes
+that most corresponds to the level of preservation of
+the prokaryotic motif in genes (more than 80 %) to PBVs and
+is most common in the fecal microbiota (Sekelja et al., 2011).</p><p>The hypothesis about the phage nature of PBVs put forward
+by Krishnamurthy and Wang (2018) is confirmed by the results
+obtained by other researchers (Adriaenssens et al., 2018; Boros
+et al., 2018; Kleymann et al., 2020). In particular, the study of
+Boros et al. (2018) revealed in the genome of chicken PBVs
+SD-regions that were located in segment 1 before the three
+ORFs and in segment 2 before ORFs above the initiation codons.
+Using 6xHis tagging and western blotting of genomic
+segment 1 of PBVs containing the SD-motif, these researchers
+have succeeded in showing in vivo the possibility of its
+expression and functionalization in Escherichia coli (Boros
+et al., 2018). The results obtained, according to the authors,
+serve as proof of the existence of a bacterial culture for the
+reproduction of PBVs.</p><p>The assumption that PBVs represent a new family of RNA
+bacteriophages with a high level of genomic diversity was
+also confirmed in the work of Adriaenssens et al. (2018). The
+authors of this work found a hexameric prokaryotic AGGAGG
+motif in 100 % of the genomic sequences of PBVs, while
+eukaryotic
+viruses from different families had SD-regions
+with low frequency and mainly consisted of tetramers (AGGA,
+GGAG, GAGG) (Adriaenssens et al., 2018). The review of
+Ghosh, Malik (2021) presents a number of conservative prokaryotic
+sequences (motives) found before all ORFs in segments
+1 and 2 of PBV and PBV-like genomes, indicating
+the location and with access numbers in GenBank (Ghosh,
+Malik,
+2021).</p><p>However, despite the practical results obtained, indicating
+the possible PBV affiliation to prokaryotic viruses, many
+authors
+believe that it is premature to talk about the final
+proof of the phage nature of PBVs (Ramesh et al., 2021). The
+host in which PBVs would successfully reproduce has not
+yet been identified. Given the fact that the gut microbiome
+consists of several hundreds of mostly uncultivable bacteria,
+the identification of true bacterial or archeal host(s) of PBVs
+(if any) will be challenging (Boros et al., 2018).</p><p>In addition, ORFs encoding the RdRp gene were found in
+the genome of some PBV strains, in which, during translation,
+instead of the expected standard genetic code, an alternative
+code of fungi and invertebrates was used (Shi et al., 2016;
+Yinda et al., 2018, 2019; Kleymann et al., 2020). So an assumption
+was made that the PBV hosts may be cells of lower
+eukaryotes.</p></sec><sec><title>PBV-like strains with nonstandard genetic code</title><p>As is known, the gene sequences in the viral genomes have
+their characteristic conserved regions &#8211; motifs by which viruses
+are identified. Motives characteristic of PBV and PBVlike
+genomes include the prokaryotic region Shine&#8211; Dalgar- no AGGAGG (Adriaenssens et al., 2018; Boros et al., 2018;
+Ghosh et al., 2018; Krishnamurthy, Wang, 2018; Yinda et
+al., 2018, 2019; Guajardo-Leiva et al., 2020; Joycelyn et al.,
+2020; Kleymann et al., 2020), terminal sequences 5&#8242;-GUAAA
+and 3&#8242;-ACUGC (Ghosh et al., 2018; Delmas et al., 2019;
+Woo et al., 2019; Kleymann et al., 2020), and three regions
+represented in amino acid sequences DFXKFD, SGSGGT and
+GDD (Kleymann et al., 2020)</p><p>When translating the RdRp gene of most picobirnaviruses,
+the standard genetic code is used. However, recently, new
+PBV-like RdRp gene sequences with an alternative (nonstandard)
+mitochondrial genetic code have been identified in
+human (Woo et al., 2019), mongoose (Kleymann et al., 2020),
+bat (Yinda et al., 2018) and invertebrate (Shi et al., 2016) fecal
+samples. The mitochondrial code is characteristic of viruses
+of mold fungi and invertebrates. In particular, five PBV-like
+genomic sequences consisting of dsRNA with mitochondrial
+code were isolated from the gut contents of bats (Yinda et al.,
+2018). In four of them (P11-300, P11-378, P14-90 and P15-
+218) they failed to identify the presence of the capsid gene.
+These PBV-like genomes contained only RdRp gene sequence
+with the mitochondrial genetic code of the mold. The absence
+of the capsid protein gene in them resembled the genome of
+mitoviruses from the family Mitoviridae, which are known
+to infect the mitochondria of unicellular mold fungi (Fig. 3)
+(Hillman, Cai, 2013; Shi et al., 2016).</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3.</label><caption><title>Mitoviruse (a) and picobirnaviruse (b ) genomes.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2332-Fig3.jpg"/></fig><p>The mitovirus genome as well as four abnormal PBVlike
+genomes consists of dsRNA and encodes only RdRp.
+Mitoviruses lack a capsid, replicate in mitochondria and use
+the genetic mitochondrial code of mold fungi for the RdRp
+translation. So an assumption was made that mold fungi can
+also be PBV hosts (Yinda et al., 2018; Kleymann et al., 2020).</p><p>However, unlike mitoviruses, the noncapsid PBV-like
+strains identified by Yinda et al. (2018) in a single segment of
+the RdRp genome contained conserved regions characteristic
+of PBVs. In the genome of the fifth PBV-like strain (P16-366),
+in addition to the conservative features of the RdRp gene
+characteristic of PBVs, a sequence encoding the capsid protein
+was found. This strain was clustered on the phylogenetic tree
+along with GII PBVs. However, it used an alternative genetic
+code and was very similar in terms of genome organization
+to fungal viruses of the family Partitiviridae (Duquerroy
+et al., 2009). These families have a minimalistic genome
+consisting of two dsRNA segments encoding RdRp and the
+capsid protein, respectively, which in these families is clearly
+homologous (Wolf et al., 2018).</p><p>Similarly, researchers Kleymann et al. (2020) isolated the
+M17A strain among typical PBV-like strains from mongoose,
+the RdRp gene of which retained all conservative for PBVs
+motives, but had an alternative mitochondrial mold code, and
+the capsid sequence in the genome of this strain was absent.
+Assumption that PBVs can be fungal or invertebrate viruses,
+as Ghosh, Malik (2021) rightly noted, has further complicated
+the discussion about the true PBV host</p></sec><sec><title>Discussion on the origin
+of abnormal PBV-like strains</title><p>During the discussion about the true PBV hosts, researchers attempted
+to interpret the causes of the appearance of PBV-like
+strains (Shackelton et al., 2008; Wolf et al., 2018; Yinda et al.,
+2018; Shahi et al., 2019; Ghosh, Malik, 2021). In particular,
+Yinda et al. (2018) suggested that PBV-like strains found in
+the gut contents of different eukaryotic hosts, with a genome
+resembling the mitovirus genome, may have a reproduction
+mode similar to mitoviruses. Following the assumption of
+Yinda et al. (2018), the capsid protein gene is not needed
+with this reproduction mode, since mitoviruses do not use the
+pathway of the independent horizontal transmission from cell
+to cell, but are transmitted vertically from mother to daughter
+cells (during division) or horizontally (by merging hyphae).
+Similarly, when assembling new PBV-like particles, simplified
+structures can be formed with the adaptation to the existence
+in a fungal cell characteristic of mitoviruses and lost capsid
+protein gene. Such an interpretation of the appearance of
+noncapsid RNA viruses is consistent with one of the trends
+in the evolution of RNA viruses associated with the loss of
+their structural module by their genome, noticed by Wolf et
+al. (2018).</p><p>The trend in the evolution of RNA viruses associated
+with the loss of the genome segment with the capsid gene is
+demonstrated by the pedigree diagram of eukaryotic viruses
+with the RNA genome, shown in Figure 4. This scheme also
+explains the origin of capsidated RNA viruses of unicellular
+eukaryotes</p><fig position="float" id="Fig-4" orientation="portrait"><label>Fig. 4.</label><caption><title>A rough scheme of the key steps of RNA virus evolution (Wolf et al., 2018).</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2332-Fig4.jpg"/></fig><p>The evolution of capsid-free viruses of lower eukaryotes
+(fungi and invertebrates) follows the path of genome reduction
+due to the loss of the capsid protein gene of the probable ancestor
+&#8211; levivirus infecting prokaryotes (the vector of evolution
+under the number 1 in Figure 4, leading to the appearance at
+the end of the family Narvaviridae). In accordance with the
+scheme, the ancestor of mitoviruses from the family Mitoviridae
+descended from the family Leviviridae, previously
+containing the capsid protein gene. An illustrative example of
+genome reduction is hypoviruses &#8211; capsid-free viruses with
+dsRNA, the structure and phylogenetic analysis of the genome
+of which showed that they originated from potiviruses that lost
+the capsid protein (Dawe, Nuss, 2013; Chauhan et al., 2021)
+and the capsid protein gene, entering the cells of unicellular
+eukaryotes. Replication of mitoviruses occurs only in mitochondria,
+where their capsid-free (&#8216;naked&#8217;) RNA genomes
+(replicons) are replicated. With the loss of the structural gene,
+mitoviruses have lost the ability for independent horizontal
+transmission (Shackelton, Holmes, 2008).</p><p>Similarly, the origin of the group of capsid-free PBV-like
+strains isolated by Yinda et al. (2018) and Kleymann et al.
+(2020) from Cameroonian bats (P11-300, P11-378, P14-90
+and P15-218) and from a mongoose (strain M17A) can be
+explained by the loss of a genome segment encoding the capsid
+protein by the parent strain</p><p>On the other hand, a capsid-free RNA virus (mitovirus) in
+the process of evolution could gain a capsid (the final direction
+of vector 1, leading to the occurrence of the family Ourmiaviridae
+due to the fusion of its &#8216;naked&#8217; RNA replicon with
+the replicon of the capsid protein of +eukaryotic RNA virus,
+possibly having the eukaryotic virus as an ancestor (evolution
+vector 2 in Figure 4). Encapsulated strains of RNA viruses,
+and probably PBV-like analogues, could have occurred in this
+evolutionary way.</p><p>Researchers explain shuffling or loss of genome segments
+in RNA viruses by another trend in their evolution &#8211; the
+ability to reassort &#8211; to redistribute gene modules (RdRp and
+capsid protein) between closely related virus families with
+similar genes. Reassortment modification of the genome has
+also been observed in PBVs (Concei&#231;&#227;o-Neto et al., 2016).
+The creative role of reassortment between families of RNA
+viruses with similar genes explains the origin of the PBVlike
+strain P16-366 found by Yinda et al. (2018) in bats. This
+strain contained, together with the gene sequence RdRp (with
+a non-standard mitochondrial code), the sequence encoding
+the capsid protein. The proposed genetic similarity between
+families of viruses with a bisegmented dsRNA genome is
+based on the hypothesis of a reassortment mechanism for the
+evolution of these viruses</p></sec><sec><title>On the relationship of PBVs
+with families of viruses with the dsRNA genome</title><p>The phylogenetic relationship between the families of RNA
+viruses with a segmented genome is based on the information
+about the primary structure of the RdRp gene. This gene
+is universal and, despite a much greater distribution among
+eukaryotic viruses, is present in almost all RNA viruses (including
+capsid-less RNA replicons) with the exception of some
+satellite viruses (Dolja, Koonin, 2018).</p><p>The universality of the RdRp gene indicates the possibility
+of its common origin in RNA viruses. In 2018, Wolf et al. put
+forward a hypothesis suggesting the presence of phylogenetic
+relationships between families of RNA-containing viruses,
+and a phylogenetic tree was constructed (Fig. 5), the topology of which demonstrates a possible relationship between
+the families</p><fig position="float" id="Fig-5" orientation="portrait"><label>Fig. 5.</label><caption><title>Phylogenetic tree of viruses with the RNA-genome built on the basis of gene sequences of RNA-dependent RNA polymerase and reverse transcriptase
+(Wolf et al., 2018).</title><p>Five main branches are shown, among which three branches 1, 2 and 4 directly relate to the origin of PBV-like strains.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2332-Fig1.jpg"/></fig><p>The phylogenetic tree constructed on the basis of a set
+of phylogenetic data gives an idea of the possible origin of
+PBVs. This tree confirms the evolution scenario in which
+the last common ancestors of virus lineages with a dsRNA
+genome were simple viruses the segmented genome of which
+contained two genes (RdRp and capsid protein). According
+to the authors
+of the hypothesis, all viruses with a dsRNA
+genome in branches 2 and 4 of the phylogenetic tree have
+similar capsid proteins that can be combined with the genome
+RdRp from different viruses with +RNA genome</p><p>Viruses with the dsRNA genome &#8211; Partitiviridae, Picobirnaviridae,
+Cystoviridae, Reoviridae and Totiviridae form
+separate lineages in two branches of the phylogenetic tree.
+Viruses of the family Picobirnaviridae are located on the
+same line with the families Hypoviridae, Amalgaviridae
+and Partitiviridae. The most phylogenetically close families
+forming one cluster are Picobirnaviridae and Partitiviridae.
+The close location of these families demonstrates a high degree
+of relationship between them. These families are united
+by a similar organization of virions and homologous capsid
+proteins (Duquerroy et al., 2009; Wolf et al., 2018). The difference
+between these viruses lies in the fact that the surface
+PBV capsid proteins, unlike those of partiviruses, have perforation
+activity, which determines the ability of the virus to
+penetrate into the cell. In addition, due to the ability of PBVs
+for horizontal transmission, two segments of its genome are
+combined into one capsid during assembly, and in partiviruses,
+the RdRp gene and the capsid protein gene use separate capsids
+(Vainio et al., 2018).</p><p>The PBV capsid protein gene is distantly related to the
+capsid protein genes of other viruses with the dsRNA genome
+(Totiviridae, Reoviridae and Cystoviridae), which make up
+three parallel evolutionary lineages in branch 4 of the phylogenetic
+tree (Wolf et al., 2018). Significant homology of the
+genes encoding the capsid protein of viruses of the families
+Reoviridae, Totiviridae, Cystoviridae, Picobirnaviridae and
+Partitiviridae was noted earlier (El Omari et al., 2013; Lvov
+et al., 2013; Luque et al., 2014).</p><p>Three evolutionary lineages of branch 4 of the phylogenetic
+tree are formed by families of viruses infecting both prokaryotes
+(Cystoviridae) and eukaryotes (Reoviridae, Totiviridae).
+The location of these viral families on one branch,
+according to the authors of the phylogenetic tree, does not
+exclude the possibility of the origin of eukaryotic +RNA
+viruses from their prokaryotic analogues. They admit that
+mitoviruses (replicating in the mitochondria of mold cells)
+originated from an ancestor common with leviviruses &#8211; a prokaryotic
+RNA virus parasitizing in enterobacteria. The proof
+of this is the evolutionary relationship between cystoviruses
+(bacterial viruses) and reoviruses (Poranen, Bamford, 2012;
+El Omari et al., 2013).</p><p>According to supporters of the creative role of reassortment,
+the origin of the PBV-like strain P16-366 could result
+from a reassortment between an as yet undiscovered PBV
+relative from branch 2, which has passed to reproduction in
+the mitochondria of fungal cells, and one of the viruses with
+the dsRNA genome of branch 4 (see Fig. 5). Moreover, it was
+noted that genetic restrictions on the ability to create reassortants
+during coinfection with viruses of families forming
+branch 4 of the phylogenetic tree may be less strict for the
+prokaryotic virus family Cystoviridae. The appearance of the
+encapsulated PBV-like strain P16-366 occurred due to the
+unification of the segment with the gene RdRp of the +RNA
+virus of branch 2 (possibly a naked RNA replicon) using the
+mitochondrial code, with a fragment of the capsid gene of the
+dsRNA virus of branch 4.</p><p>Another direction in the evolution of viruses with a bisegmented
+dsRNA genome is the acquisition of partition &#8211; the
+packaging of genome segments into one (monopartite) or
+separate (bi-multipartite) particles. This trend is interesting
+because it gives us some insight into the nature of the hosts
+of PBV-like strains (prokaryotic or eukaryotic). For example,
+bi-partition is observed only in fungal viruses with a dsRNA
+genome and in plant viruses with a ssDNA genome (Begomoviruses)
+(Nibert et al., 2013). In bacterial viruses in general and
+with a segmented dsRNA genome, in particular (Cystoviridae),
+the packaging of genome segments into individual particles
+is not observed. Partition is related to the virus transmission
+mode (independent or non-independent). For example, partitiviruses
+parasitizing in fungal cells do not have the ability
+for independent (horizontal) transmission and they are bipartite,
+while PBVs transmitting independently are monopartite.
+The horizontal (independent) transmission pathway allows
+them to transfer both segments of the genome into a new cell
+with a high probability. The ability for independent (horizontal)
+transmission into new cells can be considered as one
+of the main criteria for determining the true host of the detected
+virus.</p></sec><sec><title>Presence of a molecular apparatus
+for penetration into the cell is an important
+criterion determining the nature of the PBV host</title><p>During familiarization with the studies solving the question
+of the nature of PBV and PBV-like strains, we came to understand
+that the belonging of these viruses to the bacterial
+viruses, higher or lower eukaryotes can be determined not
+only by the characteristic saturation level of their genome with
+a prokaryotic motif, standard or mitochondrial genetic code.
+This affiliation should no less be determined by the presence
+or absence of specific (in relation to the host cell) proteolytic
+activity of the capsid protein, which determines the possibility
+of independent penetration of the virus into the cell. The ability
+for independent horizontal transmission is characteristic
+of animal viruses and phages, while it is absent in viruses of
+lower eukaryotes (partitiviruses, mitoviruses). PBV capsid
+proteins
+have perforating activity (Duquerroy et al., 2009).
+This makes PBVs capable of independent penetration into
+cells and, therefore, can characterize them as bacterial viruses.</p><p>Thus, we can conclude that in solving the question of the
+true PBV host in which they can reproduce, in addition to
+conservative motifs characteristic of the PBV genome, the
+determining factor is the presence of a mechanism of specific
+horizontal penetration into the cell &#8211; capsid proteins with specific
+perforating activity. If these proteins are specific to the
+receptors of a prokaryotic cell, for example, Firmicutes cells
+(Adriaenssens et al., 2018), then we are dealing with a phage,
+if they are specific to the receptors of a eukaryotic cell &#8211; with
+a virus of higher eukaryotes, and if there are no capsid proteins
+at all, then such a virus can be attributed to viruses of lower
+eukaryotes (not capable of independent transmission).</p></sec><sec><title>Assumption about the origin
+of atypical PBV-like strains does not contradict
+the hypothesis of the phage nature of PBVs</title><p>The existence of atypical PBV-like strains cannot constitute
+a refutation of supposed phage nature of PBVs for a number
+of reasons. According to the hypothesis of Wolf et al. (2018),
+there is a related relationship between the families of viruses
+with the dsRNA genome in the structure of the phylogenetic
+tree, as evidenced by the presence of homologous genes and
+a common ancestor related to prokaryotic RNA viruses. Moreover,
+the families of eukaryotic and prokaryotic RNA viruses
+may be related, as evidenced by the evolutionary relationship
+between cystoviruses and reoviruses (Poranen, Bamford,
+2012; El Omari et al., 2013). This supports the assumption
+of the possibility of the exchange of homologous segments of
+the genome between prokaryotic viruses and related viruses
+of lower eukaryotes, when both are in the mold fungus cell.</p><p>It has recently become known that bacterial viruses can not
+only infect bacterial cells, but also pass through the epithelial
+cells of eukaryotes using the mechanism of phage transcytosis.
+From epithelial cells through the blood or lymph, phages can
+enter various organs and tissues of animals. However, phages
+can penetrate inside eukaryotic cell only with a bacterial cell
+infected by them (Nguyen et al., 2017). The ubiquitous isolation
+of PBVs from environments where bacteria occur means
+that these viruses may not be intracellular eukaryotic viruses,
+but prokaryotic viruses of the gut microbiome (Kashnikov et
+al., 2020; Ghosh, Malik, 2021). The assumption that PBVs
+can infect prokaryotic cells is confirmed by the presence
+of
+a conservative prokaryotic Shine&#8211;Dalgarno sequence in their
+genome (Adriaenssens et al., 2018; Boros et al., 2018; Krishnamurthy,
+Wang, 2018).</p><p>The identification of atypical PBV-like sequences with
+a non-standard mitochondrial genetic code of fungi and invertebrates
+can serve as evidence that PBVs are capable of reproducing their own kind in the cells of lower eukaryotes,
+undergoing genetic changes when changing hosts (Yinda et
+al., 2018; Kleymann et al., 2020; Ghosh, Malik, 2021).</p><p>Therefore, it can be assumed that PBVs can get into eukaryotic
+cell (whether it is a cell of a fungus, an invertebrate or
+another host), where they will meet eukaryotic or prokaryotic
+virus with similar genome. Viruses like mitoviruses, partitiviruses,
+or cystoviruses may be among the PBV reassortment
+partners. After rearranging the genome segments of the PBVs
+with partner viruses, PBV-like reassortants described by Yinda
+et al. (2018) and Kleymann et al. (2020) can apppear. Then,
+according to the assumptions of the authors of the reassortation
+interaction hypothesis, depending on the presence or absence
+of prokaryotic motives and motives characteristic of PBVs,
+as well as depending on the genetic code used by the genes
+of a new virus (standard or mitochondrial) will determine
+not only the degree of its relationship with PBV, but also its
+prokaryotic or eukaryotic nature.</p><p>The hypothesis explaining the formation of atypical PBV
+strains through the exchange of homologous genome segments
+between related viral families does not exclude the possibility
+of their appearance using satellite relationships between PBVs
+and helper viruses from 2nd or 4th branches of the phylogenetic
+tree. Viruses from the families Partitivirida&#1077;, Totiviridae,
+Reoviridae are known as helper viruses, which require some
+satellite dsRNAs for their reproduction (Lvov et al., 2013).
+Assuming that PBV is a satellite that uses an RdRp enzyme
+for reproduction in the fungal cells similar to mitovirus (from
+branch 2), it is possible to explain the appearance of non-capsid
+PBV-like strains with mitochondrial genetic code P11-300,
+P11-378, P14-90 and P15-218, isolated by Yinda et al. (2018)
+or M17A isolated by Kleymann et al. (2020).</p><p>By using as a helper a virus from branches 2 or 4 (similar
+to Partitivirida&#1077;, Reoviridae, Totiviridae or Cystoviridae) the
+appearance of the encapsulated PBV-like strain P16-366 can
+be explained. In other words, in this case, the ability of the
+progeny resulting from the interaction of the satellite virus
+with the helper virus to reproduce in a bacterial cell or in the
+mitochondria of mold will depend on the nature of the helper
+virus. And this does not contradict the supposed prokaryotic
+nature of PBVs, but only means the possibility of its change
+in the reassortment process.</p></sec><sec><title>Arguments in support of the hypothesis
+that PBV belongs to prokaryotic viruses</title><p>PBVs are found wherever bacteria are found &#8211; in environmental
+samples, in lower eukaryotes (fungi and invertebrates), in
+the gut contents of higher eukaryotes (including reptiles). This
+means that PBVs may not be intracellular eukaryotic viruses
+but prokaryotic viruses of the gut microbiome (Ghosh, Malik,
+2021).</p><p>Like prokaryotic cystoviruses, PBV genomes contain and
+preserve in a saturated state (in both genome segments in
+each reading frame) functional binding sites for bacterial-type
+ribosomes (Shine&#8211;Dalgarno sequences), while in eukaryotic
+viruses the genome is not saturated with them (Boros et al.,
+2018; Krishnamurthy, Wang, 2018).</p><p>The identification of related PBV strains in different animal
+species may mean that the PBV hosts are a specific type of
+bacteria, possibly Firmicutes, found in the gut of different
+vertebrates and invertebrates. The level of preservation of
+prokaryotic sites in the genome of these bacteria (more than
+80 % of the genes) corresponds to that of PBVs (Krishnamurthy,
+Wang, 2018).</p><p>PBV identification in the gut, respiratory organs of animals
+(cattle, humans, monkeys, pigs), in blood and respiratory
+samples (Lee, Bent, 2014; Blanco-Picazo et al., 2020) does
+not refute the assumption that bacterial cells can be their hosts.
+Phages cannot directly infect cells of different organs of higher
+eukaryotes, but they can get into these organs by non-specific
+translocation through gut epithelium with blood flow (Nguyen
+et al., 2017) or with the help of bacteria in which they multiply
+(Dabrowska et al., 2005). This is how phages penetrate into
+the blood, lymph, organs and even the brain.</p><p>The presence of a capsid protein with perforating activity
+(the ability to penetrate through the cell membrane), as in
+viruses capable of infecting animal cells (Duquerroy et al.,
+2009), does not contradict the fact that PBVs can be prokaryotic
+RNA viruses. It is known that representatives of the
+family of bacterial RNA viruses also have a molecular apparatus
+for penetrating into bacterial cells using transcytosis
+(Reed et al., 2013; Nguyen et al., 2017).</p><p>The acquisition of immunity to PBVs by infected animals
+also does not mean that PBVs can be considered eukaryotic
+viruses, since it has been established that host immune responses
+can also occur against bacterial viruses (Dabrowska
+et al., 2005; G&#243;rski et al., 2006). Possibly, PBVs cause an
+immune response to infection not of the host cells, but of the
+bacterial cells that make up its microbiome, which does not
+exclude the possibility that PBVs are prokaryotic viruses</p><p>Like the phages, which are virulent and moderate, in an
+infected organism, PBVs can be active (excreted) and inactive
+(temporarily not excreted), while infected animals will
+be asymptomatic carriers (Ganesh et al., 2014; Malik et al.,
+2014; Kumar et al., 2020; Ghosh, Malik, 2021).</p><p>The identification of PBV-like strains with the RdRp gene
+using an alternative mitochondrial genetic code of eukaryotes
+(mold, invertebrates) for translation is also not a refutation of
+the assumption that PBVs belong to prokaryotic viruses. According
+to the hypothesis of Wolf et al. (2018), they are the
+result of reassortment between the PBVs and the families of
+RNA viruses with a similar genome. The appearance of atypical
+PBV-like strains only indicates the possibility of an evolutionary
+transition from the prokaryotic nature of the virus to
+the eukaryotic nature and back as a result of rearrangement of
+genomic segments, and is explained by a change in the degree
+of saturation of the genome of the new virus with prokaryotic
+regions, which may change its nature. The possibility of satellite
+relationships between PBVs and RNA viruses of lower
+eukaryotes such as Partitivirida&#1077;, Totiviridae and Reoviridae,
+which are known as helper viruses, is not excluded. There are
+known cases of satellite relationships between prokaryotic
+and lower eukaryotic viruses infecting one single-celled host,
+allowing phages to reproduce new progeny in a eukaryotic
+cell (Gogarten, Townsend, 2005; Claverie, Abergel, 2009;
+Thannesberger et al., 2017).</p><p>The expression and functioning of PBV segment 1 in vivo
+in Escherichia coli (Boros et al., 2018) was carried out, which
+confirms the existence of a bacterial culture for the propagation
+of PBVs.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>The arguments given convincingly show that PBVs can indeed
+be prokaryotic viruses, since they are found wherever bacteria
+are found &#8211; in environmental samples, in the gut contents of
+vertebrates, in the cells of fungi and invertebrates.</p><p>Similar to prokaryotic cystoviruses, PBV genomes contain
+and retain functional binding sites for bacterial-type ribosomes
+in a saturated state, while in eukaryotic viruses the
+genome is not saturated with these motifs. The high level of
+preservation of prokaryotic sites in the PBV genome suggests
+that they belong to a new family of RNA viruses that infect
+a certain type of bacteria with a high content of SD-sequences
+in the genome. Such host bacteria of PBVs can be Firmicutes
+found in the gut of vertebrates and invertebrates, which have
+a similar level of prokaryotic motifs characteristic of bacteria.
+The high frequency of the presence of SD-sequences in the
+PBV genome can be considered one of the main criteria for
+identifying new virus families for affiliation to a prokaryotic
+or eukaryotic host.</p><p>But in order for a virus to be finally classified as a phage,
+its genome must contain a structural gene encoding a protein
+with specific proteolytic properties that determine the ability
+of the virus to independently penetrate into a bacterial cell.
+A protein with proteolytic properties is present in the PBV
+capsid, which indicates the ability of this virus for horizontal
+transmission (independently) from cell to cell and from one
+host to another. At the same time, the identification of PBVs
+in the gut of various hosts may suggest that their horizontal
+transmission can be carried out by bacteria and, therefore,
+these viruses themselves are phages. The identification of
+PBVs in various tissues of the body can also be explained by
+the fact that, being phages, they are capable of nonspecific
+translocation through the walls of gut epithelial cells.</p><p>The selection of a culture for the virus propagation is necessary
+for the final determination of its nature. To date, the
+belonging of PBVs to viruses of higher eukaryotes has not
+been proven, since it was not possible to isolate them from
+eukaryotic cell cultures. To establish definitively whether
+PBVs are prokaryotic viruses, it is necessary to direct efforts
+to select a host for their reproduction among prokaryotic cells
+obtained from the gut microbiome of mutants and conditions
+for the cultivation of these cells.</p><p>And, finally, the presence of probable relatives among the
+families of RNA viruses with similar genes with which PBVs
+can exchange genome segments, replicating atypical genetic
+variants, does not contradict the correctness of the hypothesis
+about the phage nature of PBVs, but indicates their potential
+ability to adapt to new conditions of existence, allowing them
+to infect eukaryotic or prokaryotic host cells.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Adriaenssens E.M., Farkas K., Harrison C., Jones D.L., Allison H.E.,
+McCarthy A.J. Viromic analysis of wastewater input to a river catchment
+reveals a diverse assemblage of RNA viruses. mSystems. 2018;
+3(3):1-18. DOI 10.1128/mSystems.00025-18.</p><p>Bell N., Khamrin P., Kumthip K., Rojjanadumrongkul K., Nantachit N.,
+Maneekarn N. Molecular detection and characterization of picobirnavirus
+in environmental water in Thailand. Clin. Lab. 2020;66:
+85-88. DOI 10.7754/CLIN.LAB.2019.191013.</p><p>Blanco-Picazo P., Fern&#225;ndez-Orth D., Brown-Jaque M., Mir&#243; E., Espinal
+P., Rodr&#237;guez-Rubio L., Muniesa M., Navarro F. Unravelling
+the consequences of the bacteriophages in human samples. Sci. Rep.
+2020;10:6737. DOI 10.1038/s41598-020-63432-7.</p><p>Boros &#193;., Polg&#225;r B., Pankovics P., Fenyvesi H., Engelmann P.,
+Phan T.G., Delwart E., Reuter G. Multiple divergent picobirnaviruses
+with functional prokaryotic Shine&#8211;Dalgarno ribosome binding
+sites present in cloacal sample of a diarrheic chicken. Virology.
+2018;525:62-72. DOI 10.1016/j.virol.2018.09.008.</p><p>Chauhan R., Awasthi S., Narayan R.P. Chapter 11 &#8211; Evolution and diversity
+of plant RNA viruses. In: Rajarshi Kumar Gaur, S.M. Paul
+Khurana, Pradeep Sharma, Thomas Hohn (Eds.) Plant Virus-Host
+Interaction: Molecular Approaches and Viral Evolution. Second
+Edn. Acad. Press, 2021;303-318. DOI 10.1016/B978-0-12-821629-
+3.00020-8.</p><p>Claverie J.M., Abergel C. Mimivirus and its virophage. Ann. Rev. Genet.
+2009;43:49-66. DOI 10.1146/annurev-genet-102108-134255.</p><p>Concei&#231;&#227;o-Neto N., Mesquita J.R., Zeller M., Yinda C.K., &#193;lvares
+F., Roque S., Petrucci-Fonseca F., Godinho R., Heylen E., Van
+Ranst M., Matthijnssens J. Reassortment among picobirnaviruses
+found in wolves. Arch. Virol. 2016;161:2859-2862. DOI 10.1007/
+s00705-016-2987-4.</p><p>Dabrowska K., Swita&#322;a-Jelen K., Opolski A., Weber-Dabrowska B.,
+Gorski A. Bacteriophage penetration in vertebrates. J. Appl. Microbiol.
+2005;98:7-13. DOI 10.1111/j.1365-2672.2004.02422.x.</p><p>Dawe A.L., Nuss D.L. Hypovirus molecular biology: from Koch&#8217;s postulates
+to host self-recognition genes that restrict virus transmission.
+Adv. Virus Res. 2013;86:109-147.</p><p>Delmas B., Attoui H., Ghosh S., Malik Y.S., Mundt E., Vakharia V.N.
+ICTV virus taxonomy profile: Picobirnaviridae. J. Gen. Virol. 2019;
+100:133-134. DOI 10.1099/jgv.0.001186.</p><p>Dolja V.V., Koonin E.V. Metagenomics reshapes the concepts of RNA
+virus evolution by revealing extensive horizontal virus transfer.
+Virus
+Res. 2018;244:36-52. DOI 10.1016/j.virusres.2017.10.020</p><p>Duquerroy S., Da Costa B., Henry C., Vigouroux A., Libersou S., Lepault
+J., Navaza J., Delmas B., Rey F.A. The picobirnavirus crystal
+structure provides functional insights into virion assembly and cell
+entry. EMBO J. 2009;28:1655-1665. DOI 10.1038/emboj.2009.109.</p><p>Duraisamy R., Akiana J., Davoust B., Mediannikov O., Michelle C.,
+Robert C., Parra H.-J., Raoult D., Biagini P., Desnues C. Detection
+of novel RNA viruses from free-living gorillas, Republic of the
+Congo: genetic diversity of picobirnaviruses. Virus Genes. 2018;54:
+256-271. DOI 10.1007/s11262-018-1543-6.</p><p>El Omari K., Sutton G., Ravantti J.J., Zhang H., Walter T.S., Grimes
+J.M., Bamford D.H., Stuart D.I., Mancini E.J. Plate tectonics of
+virus shell assembly and reorganization in phage &#966;8, a distant relative
+of mammalian reoviruses. Structure. 2013;21:1384-1395. DOI
+10.1016/j.str. 2013.06.017</p><p>Gallagher C.A., Navarro R., Cruz K., Aung M.S., Ng A., Bajak E.,
+Beierschmitt
+A., Lawrence M., Dore K.M., Ketzis J., Malik Y.S.,
+Kobayashi N., Ghosh S. Detection of picobirnaviruses in vervet
+monkeys (Chlorocebus sabaeus): molecular characterization of complete
+genomic segment-2. Virus Res. 2017;230:13-18. DOI 10.1016/
+j.virusres.2016.12.021</p><p>Ganesh B., Masachessi G., Mladenova Z. Animal picobirnavirus.
+VirusDisease.
+2014;25:223-238. DOI 10.1007/s13337-014-0207-y.</p><p>Ghosh S., Malik Y.S. The true host/s of picobirnaviruses. Front. Vet.
+Sci. 2021;7:1-9. DOI 10.3389/fvets.2020.615293.</p><p>Ghosh S., Shiokawa K., Aung M.S., Malik Y.S., Kobayashi N. High
+detection rates of picobirnaviruses in free roaming rats (Rattus
+spp.): molecular characterization of complete gene segment-2.
+Infect. Genet.
+Evol. 2018;65:131-135. DOI 10.1016/j.meegid.2018.
+07.024.</p><p>Gogarten J.P., Townsend J.P. Horizontal gene transfer, genome innovation
+and evolution. Nat. Rev. Microbiol. 2005;3(9):679-687. DOI
+10.1038/nrmicro1204</p><p>G&#243;rski A., Kniotek M., Perkowska-Ptasi&#324;ska A., Mr&#243;z A., Przerwa A.,
+Gorczyca W., Dabrowska K., Weber-Dabrowska B., Nowaczyk M.
+Bacteriophages and transplantation tolerance. Transplant. Proc.
+2006;38:331-333. DOI 10.1016/j.transproceed.2005.12.073</p><p>Guajardo-Leiva S., Chnaiderman J., Gaggero A., D&#237;ez B. Metagenomic
+insights into the sewage RNA virosphere of a large city. Viruses.
+2020;12:1050. DOI 10.3390/v12091050</p><p>Hillman B.I., Cai G. Chapter Six &#8211; The family Narnaviridae: simplest
+of RNA viruses. Adv. Virus Res. 2013;86:149-176. DOI 10.1016/
+B978-0-12-394315-6.00006-4.</p><p>Joycelyn S.J., Ng A., Kleymann A., Malik Y.S., Kobayashi N.,
+Ghosh S. High detection rates and genetic diversity of picobirnaviruses
+(PBVs) in pigs on St. Kitts Island: identification of a porcine
+PBV strain closely related to simian and human PBVs. Infect. Genet.
+Evol. 2020;84:104383. DOI 10.1016/j.meegid.2020.104383.</p><p>Kashnikov A.Yu., Epifanova N.V., Novikova N.A. Picobirnaviruses:
+prevalence,
+genetic diversity, detection methods. Vavilovskii Zhurnal
+Genetiki i Selektsii = Vavilov Journal of Genetics and Breeding.
+2020;24(6):661-672. DOI 10.18699/VJ20.660.</p><p>Kleymann A., Becker A.A.M.J., Malik Y.S., Kobayashi N., Ghosh S.
+Detection and molecular characterization of picobirnaviruses
+(PBVs) in the mongoose: identification of a novel PBV using an
+alternative genetic code. Viruses. 2020;12(1):99. DOI 10.3390/v120
+10099.</p><p>Knox M.A., Gedye K.R., Hayman D.T.S. The challenges of analysing
+highly diverse picobirnavirus sequence data. Viruses. 2018;10:685.
+DOI 10.3390/v10120685</p><p>Krishnamurthy S.R., Wang D. Extensive conservation of prokaryotic
+ribosomal binding sites in known and novel picobirnaviruses. Virology.
+2018;516:108-114. DOI 10.1016/j.virol.2018.01.006</p><p>Kumar N., Mascarenhas J.D.A.P., Ghosh S., Masachessi G., da Silva
+Bandeira R., Nates S.V., Dhama K., Singh R.K., Malik Y.S. Picobirnavirus.
+In: Malik Y.S., Singh R.K., Dhama K. (Eds.) Animal-
+Origin Viral Zoonoses. Singapore: Springer, 2020;291-312.</p><p>Kunz A.F., Possatti F., de Freitas J.A., Alfieri A.A., Takiuchi E. High
+detection rate and genetic diversity of picobirnavirus in a sheep
+flock in Brazil. Virus Res. 2018;255:10-13. DOI 10.1016/j.virusres.
+2018.06.016</p><p>Lee C.K., Bent S.J. Uncovering the hidden villain within the human
+respiratory microbiome. Diagnosis. 2014;1:203-212. DOI 10.1515/
+dx-2014-0039.</p><p>Li L., Giannitti F., Low J., Keyes C., Ullmann L.S., Deng X., Aleman
+M., Pesavento P.A., Pusterla N., Delwart E. Exploring the virome
+of diseased horses. J. Gen. Virol. 2015;96:2721-2733. DOI
+10.1099/vir.0.000199.</p><p>Luo X.L., Lu S., Jin D., Yang J., Wu S.S., Xu J. Marmota himalayana
+in the Qinghai&#8211;Tibetan plateau as a special host for bi-segmented
+and unsegmented picobirnaviruses. Emerg. Microbes Infect. 2018;
+7(1):20. DOI 10.1038/s41426-018-0020-6.</p><p>Luque D., G&#243;mez-Blanco J., Garriga D., Brilot A.F., Gonz&#225;lez J.M.,
+Havens W.M., Carrascosa J.L., Trus B.L., Verdaguer N., Ghabrial
+S.A., Cast&#243;n J.R. Cryo-EM near-atomic structure of a dsRNA
+fungal virus shows ancient structural motifs preserved in the dsRNA
+viral lineage. Proc. Natl. Acad. Sci. USA. 2014;111:7641-7646. DOI
+10.1073/pnas.1404330111.</p><p>Lvov D.K., Alkhovsky S.V., Shchelkanov M.Yu. Satellites. In: Guide to
+Virology. Viruses and viral infections of humans and animals. Moscow,
+2013;350-352. (in Russian)</p><p>Malik Y.S., Kumar N., Sharma K., Dhama K., Shabbir M.Z., Ganesh B.,
+Kobayashi N., Banyai K. Epidemiology, phylogeny, and evolution
+of emerging enteric picobirnaviruses of animal origin and their relationship
+to human strains. Biomed. Res. Int. 2014;2014:780752. DOI
+10.1155/2014/780752</p><p>Mindich L. Bacteriophage &#216;6: a unique virus having a lipid-containing
+membrane and a genome composed of three dsRNA seg-ments.
+Adv. Virus Res. 1988;35:137-173. DOI10.1016/S0065-3527
+(08)60710-1.</p><p>Navarro R., Yibin C., Nair R., Peda A., Aung M.S., Ketzis J., Malik
+Y.S., Kobayashi N., Ghosh S. Molecular characterization of
+complete genomic segment-2 of picobirnavirus strains detected in a
+cat and a dog. Infect. Genet. Evol. 2017;54:200-204. DOI 10.1016/
+j.meegid.2017.07.006.</p><p>Nguyen S., Baker K., Padman B.S., Patwa R., Dunstan R.A.,
+Weston T.A., Schlosser K., Bailey B., Lithgow T., Lazarou M.,
+Luque A., Rohwer F., Blumberg R.S., Barr J.J. Bacteriophage transcytosis
+provides a mechanism to cross epithelial cell layers. mBio.
+2017;8:e01874-17. DOI 10.1128/mBio.01874-17.</p><p>Nibert M.L., Tang J., Xie J., Collier A.M., Ghabrial S.A., Baker T.S.,
+Tao Y.J. Chapter Three &#8211; 3D structures of fungal partitiviruses.
+Adv. Virus Res. 2013;86:59-85. DOI 10.1016/B978-0-12-394315-6.
+00003-9.</p><p>Omotajo D., Tate T., Cho H., Choudhary M. Distribution and diversity
+of ribosome binding sites in prokaryotic genomes. BMC Genomics.
+2015;16(1):604. DOI 10.1186/s12864-015-1808-6.</p><p>Poranen M.M., Bamford D.H. Assembly of large icosahedral doublestranded
+RNA viruses. Adv. Exp. Med. Biol. 2012;726:379-402. DOI
+10.1007/978-1-4614-0980-9_17.</p><p>Ramesh A., Bailey E.S., Ahyon V., Langelier C., Phelps M., Neff N.,
+Sit R., Tato C., DeRisi J.L., Greer A.G., Gray G.C. Metagenomic characterization
+of swine slurry in a North American swine farm operation.
+Sci. Rep. 2021;11:16994. DOI 10.1038/s41598-021-95804-y.</p><p>Reed C.&#1040;., Langlais C., Wang I.-N., Young R. A2 expression and assembly
+regulates lysis in Q&#946; infections. Microbiology. 2013;159:
+507-514. DOI 10.1099/mic.0.064790-0.</p><p>Rosen B.I., Fang Z-Y., Glass R.I., Monroe S.S. Cloning of human picobirnavirus
+genomic segments and development of an RT-PCR
+detection assay. Virology. 2000;277(2):316-329. DOI 10.1006/viro.
+2000.0594.</p><p>Sekelja M., Berget I., Naes T., Rudi K. Unveiling an abundant core
+microbiota in the human adult colon by a phylogroup-independent
+searching approach. ISME J. 2011;5(3):519-531. DOI 10.1038/
+ismej.2010.129.</p><p>Shackelton L.A., Holmes E.C. The role of alternative genetic codes in
+viral evolution and emergence. J. Theor. Biol. 2008;254:128-134.
+DOI 10.1016/j.jtbi.2008.05.024</p><p>Shahi S., Eusebio-Cope A., Kondo H., Hillman B.I., Suzuki N. Investigation
+of host range of and host defense against a mitochondrially
+replicating mitovirus. J. Virol. 2019;93:e01503-18. DOI. 10.1128/
+JVI.01503</p><p>Shi M., Lin X.D., Tian J.H., Chen L.J., Chen X., Li C.X., Qin X.C., Li J.,
+Cao J.P., Eden J.S., Buchmann J., Wang W., Xu J., Holmes E.C.,
+Zhang Y.-Z. Redefining the invertebrate RNA virosphere. Nature.
+2016;540:539-543. DOI 10.1038/nature20167.</p><p>Smits S.L., Schapendonk C.M., van Beek J., Vennema H., Sch&#252;rch A.C.,
+Schipper D., Bodewes R., Haagmans B.L., Osterhaus A.D., Koopmans
+M.P. New viruses in idiopathic human diarrhea cases, the Netherlands.
+Emerg. Infect. Dis. 2014;20(7):1218-1222. DOI 10.3201/
+eid2007.140190.</p><p>Thannesberger J., Hellinger H.J., Klymiuk I., Kastner M.T., Rieder
+F.J.J., Schneider M., Fister S., Lion T., Kosulin K., Laengle J.,
+Bergmann M., Rattei T., Steininger C. Viruses comprise an extensive
+pool of mobile genetic elements in eukaryote cell cultures and human
+clinical samples. FASEB J. 2017;31:1987-2000. DOI 10.1096/
+fj.201601168R</p><p>Vainio E.J., Chiba S., Ghabrial S.A., Maiss E., Roossinck M., Sabanadzovic
+S., Suzuki N., Xie J., Nibert M. ICTV Virus Taxonomy
+Profile: Partitiviridae. J. Gen. Virol. 2018;99(1):17-18. DOI
+10.1099/jgv.0.000985.</p><p>Wolf Y.I., Kazlauskas D., Iranzo J., Luc&#237;a-Sanz A., Kuhn J.H., Krupovic
+M., Dolja V.V., Koonin E.V. Origins and evolution of the
+global RNA virome. mBio. 2018;9:e02329-18. DOI 10.1128/mBio.
+02329-18</p><p>Woo P.C.Y., Lau S.K.P., Teng J.L.L., Tsang A.K.L., Joseph M.,
+Wong E.Y.M., Tang Y., Sivakumar S., Bai R., Wernery R., Wernery U., Yuen K.-Y. Metagenomic analysis of viromes of dromedary
+camel fecal samples reveals large number and high diversity of
+circoviruses and picobirnaviruses. Virology. 2014;471-473:117-125.
+DOI 10.1016/j.virol.2014.09.020</p><p>Woo P.C.Y., Teng J.L.L., Bai R., Tang Y., Wong A.Y.P., Li K.S.M.,
+Lam C.S.F., Fan R.Y.Y., Lau S.K.P., Yuen K.-Y. Novel picobirnaviruses
+in respiratory and alimentary tracts of cattle and monkeys
+with large intra- and inter-host diversity. Viruses. 2019;11:574. DOI
+10.3390/v11060574.</p><p>Yinda C.K., Ghogomu S.M., Concei&#231;&#227;o-Neto N., Beller L., Deboutte
+W., Vanhulle E., Maes P., Van Ranst M., Matthijnssens J.
+Cameroonian fruit bats harbor divergent viruses, including rotavirus
+H, bastroviruses, and picobirnaviruses using an alternative genetic
+code. Virus Evol. 2018;4:vey008. DOI 10.1093/ve/vey008.</p><p>Yinda C.K., Vanhulle E., Concei&#231;&#227;o-Neto N., Beller L., Deboutte W.,
+Shi C., Ghogomu S.M., Maes P., Ranst M.V., Matthijnssens J. Gut
+virome analysis of Cameroonians reveals high diversity of enteric viruses,
+including potential interspecies transmitted viruses. mSphere.
+2019;4(1):e00585-18. DOI 10.1128/mSphere.00585-18</p></sec></body></article></pmc-articleset>

@@ -1,0 +1,616 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Food Sci Anim Resour</journal-id><journal-id journal-id-type="iso-abbrev">Food Sci Anim Resour</journal-id><journal-id journal-id-type="pmc-domain-id">3627</journal-id><journal-id journal-id-type="pmc-domain">fsar</journal-id><journal-id journal-id-type="publisher-id">Food Sci Anim Resour</journal-id><journal-id journal-id-type="publisher-id">Food Sci Anim Resour</journal-id><journal-id journal-id-type="publisher-id">kosfa</journal-id><journal-title-group><journal-title>Food Science of Animal Resources</journal-title></journal-title-group><issn pub-type="ppub">2636-0772</issn><issn pub-type="epub">2636-0780</issn><publisher><publisher-name>The Korean Society for Food Science of Animal Resources</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11097024</article-id><article-id pub-id-type="pmcid-ver">PMC11097024.1</article-id><article-id pub-id-type="pmcaid">11097024</article-id><article-id pub-id-type="pmcaiid">11097024</article-id><article-id pub-id-type="pmid">38764508</article-id><article-id pub-id-type="doi">10.5851/kosfa.2024.e16</article-id><article-id pub-id-type="publisher-id">kosfa-44-2-372</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Enhancing Raw Bovine Milk Quality using Ultraviolet-C (UV-C)
+Irradiation: A Microbial and Lipid Peroxidation Study</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2057-0196</contrib-id><name name-style="western"><surname>Makararpong</surname><given-names initials="D">Davids</given-names></name><xref rid="A1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0011-4684</contrib-id><name name-style="western"><surname>Tantayanon</surname><given-names initials="S">Supawan</given-names></name><xref rid="A2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4536-6439</contrib-id><name name-style="western"><surname>Gowanit</surname><given-names initials="C">Chupun</given-names></name><xref rid="A3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8533-8980</contrib-id><name name-style="western"><surname>Jareonsawat</surname><given-names initials="J">Jiranij</given-names></name><xref rid="A1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="A4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4823-858X</contrib-id><name name-style="western"><surname>Samgnamnim</surname><given-names initials="S">Sukuma</given-names></name><xref rid="A1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2088-542X</contrib-id><name name-style="western"><surname>Wataradee</surname><given-names initials="S">Sirirat</given-names></name><xref rid="A1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9443-1412</contrib-id><name name-style="western"><surname>Hogeveen</surname><given-names initials="H">Henk</given-names></name><xref rid="A5" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5940-2336</contrib-id><name name-style="western"><surname>Inchaisri</surname><given-names initials="C">Chaidate</given-names></name><xref rid="A1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="C1" ref-type="corresp">
+<sup>*</sup>
+</xref></contrib><aff id="A1"><label>1</label><institution>Research Unit of Data Innovation for
+Livestock, Department of Veterinary Medicine, Faculty of Veterinary Science,
+Chulalongkorn University</institution>, Bangkok 10330, Thailand</aff><aff id="A2"><label>2</label><institution>Department of Chemistry, Faculty of
+Science, Chulalongkorn University</institution>, Bangkok 10330,
+Thailand</aff><aff id="A3"><label>3</label><institution>Technopreneurship and Innovation
+Management Program, Graduate School, Chulalongkorn University</institution>,
+Bangkok 10330, Thailand</aff><aff id="A4"><label>4</label><institution>International Graduate Program of
+Veterinary Science and Technology (VST), Faculty of Veterinary Science,
+Chulalongkorn University</institution>, Bangkok 10330, Thailand</aff><aff id="A5"><label>5</label><institution>Business Economics Group, Wageningen
+University</institution>, Wageningen 6700EW, The Netherlands</aff></contrib-group><author-notes><corresp id="C1"><label>*</label><bold>Corresponding author</bold> : Chaidate
+Inchaisri, Research Unit of Data Innovation for Livestock, Department of
+Veterinary Medicine, Faculty of Veterinary Science, Chulalongkorn University,
+Bangkok 10330, Thailand, Tel: +66-22529575, Fax: +66-22529575,
+E-mail: <email>Chaidate.i@chula.ac.th</email></corresp></author-notes><pub-date pub-type="ppub"><month>3</month><year>2024</year></pub-date><pub-date pub-type="epub"><day>01</day><month>3</month><year>2024</year></pub-date><volume>44</volume><issue>2</issue><issue-id pub-id-type="pmc-issue-id">462465</issue-id><fpage>372</fpage><lpage>389</lpage><history><date date-type="received"><day>24</day><month>1</month><year>2024</year></date><date date-type="rev-recd"><day>12</day><month>2</month><year>2024</year></date><date date-type="accepted"><day>12</day><month>2</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>03</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>17</day><month>05</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-11-15 23:25:36.483"><day>15</day><month>11</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>&#169; Korean Society for Food Science of Animal
+Resources</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This is an Open-Access article distributed under the terms of the
+Creative Commons Attribution Non-Commercial License (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0</uri>) which permits
+unrestricted non-commercial use, distribution, and reproduction in any
+medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="kosfa-44-2-372.pdf"/><abstract><title>Abstract</title><p>This study investigated the efficacy of ultraviolet-C (UV-C) irradiation in
+enhancing the quality of raw bovine milk by targeting microbial populations and
+lipid peroxidation, both of which are key factors in milk spoilage. We
+categorized the raw milk samples into three groups based on initial bacterial
+load: low (&lt;3 Log 10 CFU/mL), medium (3&#8211;4 Log 10 CFU/mL), and high
+(&gt;4 Log 10 CFU/mL). Using a 144 W thin-film UV-C reactor, we treated the
+milk with a flow rate of 3 L/min. We measured the bacterial count including
+standard plate count, coliform count, coagulase-negative staphylococci count,
+and lactic acid bacteria count and lipid peroxidation (via thiobarbituric acid
+reactive substances assay) pre- and post-treatment. Our results show that UV-C
+treatment significantly reduced bacterial counts, with the most notable
+reductions observed in high and medium initial load samples (&gt;4 and
+3&#8211;4 Log 10 CFU/mL, respectively). The treatment was particularly
+effective against coliforms, showing higher reduction efficiency compared to
+coagulase-negative staphylococci and lactic acid bacteria. Notably, lipid
+peroxidation in UV-C treated milk was significantly lower than in pasteurized or
+untreated milk, even after 72 hours. These findings demonstrate the potential of
+UV-C irradiation as a pre-treatment method for raw milk, offering substantial
+reduction in microbial content and prevention of lipid peroxidation, thereby
+enhancing milk quality.</p></abstract><kwd-group><kwd>ultraviolet-C (UV-C) irradiation</kwd><kwd>raw milk</kwd><kwd>microbial reduction</kwd><kwd>lipid peroxidation</kwd><kwd>bovine milk quality</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution>Second Century Fund</institution></institution-wrap></funding-source></award-group><award-group><funding-source><institution-wrap><institution>Chulalongkorn University</institution></institution-wrap></funding-source></award-group><award-group><funding-source><institution-wrap><institution>Ministry of Higher Education, Science, Research and Innovation of Thailand</institution></institution-wrap></funding-source></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>crossmark</meta-name><meta-value>2024-03-31</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Raw milk processing for transportation plays a crucial role in maintaining the
+quality of raw milk and extending its shelf life. Even when raw milk initially has a
+low microbial content, storing it above 8&#176;C can lead to a rapid increase in
+microorganisms (<xref rid="B32" ref-type="bibr">Malacarne et al., 2013</xref>). Some
+of these microorganisms pose a threat to consumers as they can cause diseases like
+tuberculosis, brucellosis, and gastroenteritis. Moreover, raw milk is highly
+susceptible to spoilage in unstable environments, and the presence of pathogenic
+microorganisms can compromise the flavor, texture, and stability of the milk,
+subsequently affecting the quality of dairy products derived from it. Therefore, it
+is crucial to rapidly cool raw milk after milking and store it in cooling tanks to
+prevent microbial growth. However, during transportation from dairy farms to milk
+collecting centers (MCCs), the duration of transport can promote the proliferation
+of microorganisms. Unlike larger farms, small to medium-sized dairy farms,
+particularly those in rural areas, often face several infrastructural challenges in
+handling and cooling raw milk. These limitations include inadequate or outdated
+cooling systems, limited access to efficient storage facilities, lack of advanced
+milk processing equipment, and insufficient transportation resources for maintaining
+optimal milk temperatures during transit to MCCs. These constraints can
+significantly impact the quality and safety of milk before it reaches processing
+facilities.</p><p>In Thailand, smallholder dairy farms contribute approximately four-fifths of the
+country&#8217;s raw milk production, often constrained by the high operational
+costs of advanced cooling systems. Cooling systems play a vital role in preventing
+bacterial contamination and microbial growth during the transportation of raw milk
+from farms to MCCs. Furthermore, many of these farms rely on local logistics service
+providers for milk transportation (<xref rid="B37" ref-type="bibr">Ongkunaruk,
+2015</xref>). As a result, milk from the first-serviced farms takes longer to
+reach the MCCs. Smaller farms face a higher risk of milk rejection due to elevated
+bacterial content, often exceeding the standard plate count (SPC) value of
+5&#215;10<sup>5</sup> CFU/mL specified by the Thai Agricultural Standard (TAS
+6003-2010). Consequently, the incomes of these small farmers inevitably decline.</p><p>In the food industry, ensuring the safety and quality of food through preservation
+and processing is of utmost importance. While thermal processing, a conventional
+food technology, effectively eliminates microbes including bacteria, viruses, and
+other pathogens through high temperatures, it can lead to undesired side effects
+such as changes in color, flavor, and loss of active nutrients and bioactive
+components (<xref rid="B1" ref-type="bibr">Adekunte et al., 2010</xref>). To
+mitigate these alterations in nutritional and sensory properties, alternative
+non-thermal technologies have been introduced, including ultraviolet (UV) treatment,
+pulsed electric fields, high-pressure processing, ultrasound, cold plasma, ionizing
+radiation, and chemical treatment. These methods aim to enhance food safety, extend
+the shelf life of food products, and maintain their quality (<xref rid="B3" ref-type="bibr">Alexandre et al., 2012</xref>; <xref rid="B10" ref-type="bibr">Choi and
+Nielsen, 2005</xref>; <xref rid="B30" ref-type="bibr">Mahalik and Nambiar,
+2010</xref>; <xref rid="B34" ref-type="bibr">Neo&#954;leous et al.,
+2022</xref>; <xref rid="B42" ref-type="bibr">Roobab et al., 2023</xref>; <xref rid="B45" ref-type="bibr">Suthiluk et al., 2023</xref>).</p><p>Among these non-thermal technologies, UV light treatment is a notable method for
+inactivating microorganisms, including viruses (<xref rid="B14" ref-type="bibr">Eischeid et al., 2009</xref>), bacteria, yeasts, and spores (<xref rid="B4" ref-type="bibr">Atik and Gumus, 2021</xref>; <xref rid="B18" ref-type="bibr">G&#243;mez&#8208;L&#243;pez et al., 2005</xref>). The UV light
+spectrum consists of three wavelengths: UV-A (320&#8211;400 nm), UV-B
+(280&#8211;320 nm), and UV-C (200&#8211;280 nm; <xref rid="B19" ref-type="bibr">Guerrero-Beltrn and Barbosa-Cnovas, 2004</xref>; <xref rid="B24" ref-type="bibr">Keyser et al., 2008</xref>). Among these, UV-C irradiation exhibits
+the highest efficiency in germicidal action. Its primary mechanism involves DNA
+damage, making Gram-negative food-borne pathogens the most susceptible, followed by
+Gram-positive food-borne pathogens and yeasts (<xref rid="B25" ref-type="bibr">Kim
+et al., 2017</xref>). UV-C treatment also inhibits the growth of lactic acid
+bacteria, which contribute to food spoilage (<xref rid="B39" ref-type="bibr">Peng et
+al., 2020</xref>) and off-odors (<xref rid="B9" ref-type="bibr">Brugnini et al.,
+2021</xref>). Therefore, UV-C technology holds promise for enhancing the shelf
+life of food (<xref rid="B9" ref-type="bibr">Brugnini et al., 2021</xref>; <xref rid="B29" ref-type="bibr">Lu et al., 2011</xref>) and serves as a viable
+alternative for bacterial inactivation in the food industry. Previous studies on
+UV-C treatment of raw milk have demonstrated reductions of more than 3 Log in
+bacterial counts (<xref rid="B41" ref-type="bibr">Reinemann et al., 2006</xref>) and
+a 2.3 Log decrease in viable count compared to untreated milk (<xref rid="B29" ref-type="bibr">Lu et al., 2011</xref>). UV-C treatment has also been effective in
+reducing various milk-borne pathogens such as <italic toggle="yes">Listeria
+monocytogenes</italic>, <italic toggle="yes">Escherichia coli</italic>,
+<italic toggle="yes">Staphylococcus aureus</italic>, <italic toggle="yes">Salmonella senftenberg</italic>,
+<italic toggle="yes">Bacillus cereus</italic>, <italic toggle="yes">Aeromonas hydrophila</italic>,
+<italic toggle="yes">Serratia marcescens</italic>, and <italic toggle="yes">Yersinia
+enterocolitica</italic> (<xref rid="B7" ref-type="bibr">Bandla et al.,
+2012b</xref>; <xref rid="B12" ref-type="bibr">Crook et al., 2015</xref>; <xref rid="B33" ref-type="bibr">Matak et al., 2005</xref>). A previous study comparing
+UV-C powers of 39 W and 48 W demonstrated that 48 W exhibited greater microbial
+reduction due to its higher energy and larger surface area in the UV-C reactor tube
+(<xref rid="B31" ref-type="bibr">Makarapong et al., 2020</xref>). Research on
+UV-C application initially concentrated on low flow rates in controlled laboratory
+settings, exemplified by <xref rid="B36" ref-type="bibr">Oguma et al. (2013)</xref>
+who explored its application in water treatment (<xref rid="B36" ref-type="bibr">Oguma et al., 2013</xref>). Complementing this, <xref rid="B5" ref-type="bibr">At&#305;lgan (2013)</xref> extended the research scope by investigating UV-C
+treatment in various liquid food products, including clear and opaque types (<xref rid="B5" ref-type="bibr">At&#305;lgan, 2013</xref>). Together, these studies
+underline the importance of optimizing treatment conditions, such as the residence
+time of the liquid, to ensure efficient microbial reduction in practical
+applications, particularly in dairy processing. Furthermore, the implementation of
+UV-C as a pre-treatment method in dairy farms, particularly at routine milking flow
+rates, is a novel aspect of our current study.</p><p>Our study aimed to develop and validate a UV-C system that is compatible with common
+milk flow rates in dairy farms. We have established a suitable design and
+operational dose for UV-C treatment and have assessed its effectiveness in microbial
+inactivation and lipid peroxidation in raw milk within the context of this
+study.</p></sec><sec id="sec2"><title>Materials and Methods</title><sec id="sec2-1"><title>Ultraviolet-C irradiation system</title><p>A homemade UV-C reactor was designed and constructed following the methods
+described in our previous report (<xref rid="B31" ref-type="bibr">Makarapong et
+al., 2020</xref>). The UV radiation source used was a commercially available
+low-pressure Hg lamp measuring 114.7 cm in length, as indicated in <xref rid="T1" ref-type="table">Table 1</xref>. The UV-C reactor used in this
+study demonstrated an electrical efficiency of 4.68 W. The surface temperature
+of the reactor was recorded at a maximum of 63.5&#176;C, as recorded by Fluke
+(Everett, WA, USA). However, it is important to note that this temperature
+pertains only to the surface of the UV reactor. In our unique setup, milk did
+not come into direct contact with the UV source. A protective quartz glass
+sleeve was employed to insulate the milk from the high surface temperature,
+maintaining the milk&#8217;s temperature at a significantly lower 38.5&#176;C
+during treatment. Furthermore, a cooling airflow inlet was incorporated within
+the system to regulate the temperature as milk passed through the tube. These
+features, combined with the notably brief exposure time of the milk to UV-C
+light, distinctively set our method apart from conventional thermal processing
+techniques such as low-temperature long-time pasteurization. The design and
+operational parameters of our UV-C system thus support its classification as a
+nonthermal process, notwithstanding the high surface temperature recorded.</p><table-wrap position="float" id="T1" orientation="portrait"><label>Table 1.</label><caption><title>Characteristics of the UV-C reactor and measurement parameters using
+the spectroradiometric method</title></caption><table frame="hsides" rules="groups"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1">Characteristics</th><th valign="top" align="center" rowspan="1" colspan="1">Value</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">Power of UV-C lamp</td><td valign="top" align="center" rowspan="1" colspan="1">48 W (140 V)</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Tube length of UV-C lamp</td><td valign="top" align="center" rowspan="1" colspan="1">1,148 mm</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Outlet diameter
+(<italic toggle="yes">D<sub>o</sub></italic>)</td><td valign="top" align="center" rowspan="1" colspan="1">26 mm</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Inlet diameter
+(<italic toggle="yes">D<sub>i</sub></italic>)</td><td valign="top" align="center" rowspan="1" colspan="1">22.2 mm</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Fluid flow space gap between UV lamps
+and sleeves</td><td valign="top" align="center" rowspan="1" colspan="1">1.9 mm</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">UV radiation source</td><td valign="top" align="center" rowspan="1" colspan="1">Low-pressure Hg lamp</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Peak wave length</td><td valign="top" align="center" rowspan="1" colspan="1">253.74 nm</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">UV-C transmittance of the quartz
+tube</td><td valign="top" align="center" rowspan="1" colspan="1">82.35%</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">UV-C irradiance at the distance of 1.9
+mm<sup><xref rid="TN1" ref-type="table-fn">1)</xref></sup></td><td valign="top" align="center" rowspan="1" colspan="1">(221.8&#177;22.2)
+mWcm<sup>2</sup></td></tr></tbody></table><table-wrap-foot><fn id="TN1"><label>1)</label><p>Output data that integrated and exported from the software
+SpecwinPro<sup>&#174;</sup> (Instrument Systems, Munich,
+Germany).</p></fn><fn id="TN2"><p>UV-C, ultraviolet-C.</p></fn></table-wrap-foot></table-wrap><p>To construct the UV-C light source compartment, the UV-C lamp was positioned
+inside a quartz glass sleeve, leaving an approximate air gap of 1.92 mm between
+the lamp and the sleeve. Four UV-C reactors were arranged in parallel, with each
+stainless-steel tube of the reactor connected to that of the adjacent reactor,
+as illustrated in <xref rid="F1" ref-type="fig">Fig. 1</xref>. This arrangement
+facilitated the flow of raw milk through all four reactors.</p><fig position="float" id="F1" orientation="portrait"><label>Fig. 1.</label><caption><title>UV-C inactivation system used in this study (drawing not to
+scale).</title><p>The inside diameter from the quartz glass sleeve to the stainless-steel
+tube is 1.9 mm to provide a thin-film flow condition, with cooling air
+flow to reduce the heat from the UV lamp. UV-C, ultraviolet-C.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="kosfa-44-2-372-g1.jpg"/></fig><p>The resulting assembly formed the UV-C irradiation system, allowing the UV light
+to pass through the compartment as a thin film. Importantly, the system design
+implemented in this study enables the storage of samples inside the tube,
+preventing contamination by microorganisms.</p></sec><sec id="sec2-2"><title>Optimal operation condition of ultraviolet-C irradiation system</title><p>The UV-C light sources in this study were conducted using Spectro radiometric
+methods at the National Institute of Metrology, Thailand. The CAS140CT-154 diode
+array spectroradiometer with optical probes was used to measure the spectral
+irradiance at a specified distance of 1.9 mm from the front surface of the
+quartz glass sleeve.</p><p>Computational fluid dynamics (CFD) was used to determine UV-C irradiation by
+calculating parameters such as velocity, pressure, turbulence, and direction of
+flow of raw milk in the chamber. The appropriate installation positions of UV-C
+reactors were also determined by CFD. The integrated UV-C radiance was
+calculated, using the SpecwinPro<sup>&#174;</sup> software (Instrument
+Systems, Munich, Germany), from the spectral irradiance covering the wavelength
+range from 240 nm to 280 nm.</p><p>A key factor that influences the efficiency of UV light disinfection is the fluid
+turbulence of liquid foods (<xref rid="B26" ref-type="bibr">Koutchma,
+2009</xref>). In a tube reactor, the turbulence of a liquid is measured by
+the Reynolds number (Re), which is calculated as follows:</p><disp-formula id="eqn1"><label>(1)</label><mml:math id="m1" overflow="scroll"><mml:mi>Re</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#961;</mml:mi><mml:mi>&#956;</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#215;</mml:mo><mml:mi>v</mml:mi><mml:mo>&#215;</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi>h</mml:mi></mml:msub></mml:math></disp-formula><p>Where &#961; is the fluid density or specific gravity (in kg/m<sup>3</sup>),
+&#956; is the dynamic viscosity of the fluid (in kg/m&#215;s),
+<italic toggle="yes">D<sub>h</sub></italic> is the hydraulic diameter of the UV
+reactor (in mm), and &#957; is the mean fluid velocity (in m/s).</p><disp-formula id="eqn2"><label>(2)</label><mml:math id="m2" overflow="scroll"><mml:mi>v</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>L</mml:mi><mml:mi>T</mml:mi></mml:mfrac></mml:math></disp-formula><p>Where <italic toggle="yes">L</italic> is the length of the UV-C lamp (1,148 mm for 48 W) and
+<italic toggle="yes">T</italic> is the flow rate at 2 (0.000033), 4 (0.000067), or 7
+(0.000117) L/min (m<sup>3</sup>/s).</p><p>The specific gravity &#961; (in kg/m<sup>3</sup>) was adjusted from the value
+(<italic toggle="yes">D</italic>) measured by a lactometer, depending on solids-not-fat
+and fat percentages in the milk.</p><disp-formula id="eqn3"><label>(3)</label><mml:math id="m3" overflow="scroll"><mml:mi>&#961;</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>D</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#215;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn><mml:mo>=</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mfrac><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>%</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mi>S</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>d</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mi>n</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mi>f</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mo>&#8722;</mml:mo><mml:mn>0.72</mml:mn><mml:mo>&#8722;</mml:mo><mml:mn>0.22</mml:mn><mml:mo>&#215;</mml:mo><mml:mi>%</mml:mi><mml:mi>F</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>0.25</mml:mn></mml:mrow></mml:mfrac></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#215;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn></mml:math></disp-formula><p>For a milk example with 8.5% solids-not-fat and 3.25% fat,
+<italic toggle="yes">&#961;</italic> is 1,028 kg/m<sup>3</sup>.</p><p>The dynamic viscosity (<italic toggle="yes">&#956;</italic>) of raw milk at 30&#176;C was
+taken from the literature (<xref rid="B17" ref-type="bibr">Geankoplis,
+1993</xref>) and from the <xref rid="B16" ref-type="bibr">Engineering Tool
+Box (2012)</xref>: Food Products&#8211;Viscosities. The dynamic viscosity
+(<italic toggle="yes">&#956;</italic>) of raw milk was reported as 0.00149
+kg/m&#215;s (Pas).</p><p>In this study, we employed the thin-film laminar flow technique to design our UV
+reactor system. This design approach utilized a specific hydraulic diameter
+(<italic toggle="yes">Dh</italic>, mm), which is a function of the cross-sectional area
+of the UV reactor (<italic toggle="yes">A</italic>) and its wetted perimeter
+(<italic toggle="yes">P</italic>). The dimensions of the reactor were defined with an
+outlet diameter (<italic toggle="yes">Do</italic>) of 26 mm and an inlet diameter
+(<italic toggle="yes">Di</italic>) of 22.2 mm. The relationship between these dimensions
+and the hydraulic diameter is further detailed in <xref rid="eqn4" ref-type="disp-formula">Eqs. (4)</xref>, <xref rid="eqn5" ref-type="disp-formula">(5)</xref>, and <xref rid="eqn6" ref-type="disp-formula">(6)</xref>.</p><disp-formula id="eqn4"><label>(4)</label><mml:math id="m4" overflow="scroll"><mml:msub><mml:mi>D</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mn>4</mml:mn><mml:mi>A</mml:mi></mml:mrow><mml:mi>P</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math></disp-formula><p>Where</p><disp-formula id="eqn5"><label>(5)</label><mml:math id="m5" overflow="scroll"><mml:mi>A</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>&#960;</mml:mi><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>o</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#8722;</mml:mo><mml:mfrac><mml:mi>&#960;</mml:mi><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:math></disp-formula><disp-formula id="eqn6"><label>(6)</label><mml:math id="m6" overflow="scroll"><mml:mi>P</mml:mi><mml:mo>=</mml:mo><mml:mi>&#960;</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>&#960;</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></disp-formula><p>The UV-C dose was calculated using <xref rid="eqn7" ref-type="disp-formula">Eq.
+(7)</xref> by varying the residence time (or by controlling the flow rates).
+The UV-C irradiance (221.8&#177;22.2 mWcm<sup>2</sup>) was obtained by
+multiplying the UV-C intensity of the lamp at 1.9 mm from the lamp with the
+transmittance of the quartz glass sleeve (82.35%). Moreover, the transmittance
+values were measured by the spectroradiometric method using the CAS 140CT-154
+Spectrometer (Instrument Systems).</p><disp-formula id="eqn7"><label>(7)</label><mml:math id="m7" overflow="scroll"><mml:mi>U</mml:mi><mml:mi>V</mml:mi><mml:mo>&#8722;</mml:mo><mml:mi>C</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mi>J</mml:mi><mml:mo>&#215;</mml:mo><mml:mi>c</mml:mi><mml:msup><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>U</mml:mi><mml:mi>V</mml:mi><mml:mo>&#8722;</mml:mo><mml:mi>C</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mi>i</mml:mi><mml:mi>r</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>e</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mi>W</mml:mi><mml:mo>&#215;</mml:mo><mml:mi>c</mml:mi><mml:msup><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#215;</mml:mo><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>e</mml:mi><mml:mtext>&#8201;</mml:mtext><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>m</mml:mi><mml:mi>e</mml:mi></mml:math></disp-formula></sec><sec id="sec2-3"><title>Operation and cleaning of the ultraviolet-C irradiation system</title><p>The UV-C lamp was turned on for 5 minutes before pumping raw milk through the
+UV-C reactor system. Then, the raw milk was run into the UV-C reactors by a
+magnetic pump, which regulated the specific flow rate. The UV output wattage
+(144 W) at the germicidal wavelength of 253.79 nm&#177;0.30 nm, with an
+average flow rate of 3 L/min, was maintained according to the conditions shown
+in <xref rid="T2" ref-type="table">Table 2</xref>. The first chamber was
+designed to hold raw milk (120 L) before passing the milk through the UV-C
+reactor lamps (pre-UV-C treatment). The second chamber was then used to collect
+the raw milk after it passed through the UV-C lamps (post-UV-C treatment). Raw
+milk samples before and after UV-C treatment were collected from both chambers
+in 3 sterile bottles per treatment (100 mL per bottle) and kept at room
+temperature before microbiological laboratory testing.</p><table-wrap position="float" id="T2" orientation="portrait"><label>Table 2.</label><caption><title>Flow rate, Reynolds number (Re), and irradiation conditions of raw
+milk</title></caption><table frame="hsides" rules="groups"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1">No.</th><th valign="top" align="center" rowspan="1" colspan="1">UV-C reactor (W)</th><th valign="top" align="center" rowspan="1" colspan="1">Qv (m<sup>3</sup>/s)</th><th valign="top" align="center" rowspan="1" colspan="1">v (m/s)</th><th valign="top" align="center" rowspan="1" colspan="1">Re</th><th valign="top" align="center" rowspan="1" colspan="1">Classification</th><th valign="top" align="center" rowspan="1" colspan="1">Flow rate (L/min)</th><th valign="top" align="center" rowspan="1" colspan="1">Exposure time (s)</th><th valign="top" align="center" rowspan="1" colspan="1">UV-C dose (J/L)</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">96</td><td valign="top" align="center" rowspan="1" colspan="1">0.00005</td><td valign="top" align="center" rowspan="1" colspan="1">0.347576</td><td valign="top" align="center" rowspan="1" colspan="1">909.48</td><td valign="top" align="center" rowspan="1" colspan="1">Laminar</td><td valign="top" align="center" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">6.6</td><td valign="top" align="center" rowspan="1" colspan="1">1.47</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">144</td><td valign="top" align="center" rowspan="1" colspan="1">0.00005</td><td valign="top" align="center" rowspan="1" colspan="1">0.347576</td><td valign="top" align="center" rowspan="1" colspan="1">909.48</td><td valign="top" align="center" rowspan="1" colspan="1">Laminar</td><td valign="top" align="center" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">9.9</td><td valign="top" align="center" rowspan="1" colspan="1">2.20</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">192</td><td valign="top" align="center" rowspan="1" colspan="1">0.00005</td><td valign="top" align="center" rowspan="1" colspan="1">0.347576</td><td valign="top" align="center" rowspan="1" colspan="1">909.48</td><td valign="top" align="center" rowspan="1" colspan="1">Laminar</td><td valign="top" align="center" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">13.2</td><td valign="top" align="center" rowspan="1" colspan="1">2.93</td></tr></tbody></table><table-wrap-foot><fn id="TN3"><p>UV-C, ultraviolet-C.</p></fn></table-wrap-foot></table-wrap><p>After operation, the UV-C reactors were cleaned in 3 cycles using our standard
+Cleaning-in-Place (CIP) procedure with a 10% NaOH solution for 10 minutes,
+followed by a 5% nitric acid solution for 5 minutes. Finally, the reactors were
+rinsed with water for 5 minutes to complete the CIP process.</p></sec><sec id="sec2-4"><title>Milk collection and sample preparation to evaluate the inactivation
+efficiency of ultraviolet-C on bacteria</title><p>For the assessment of UV-C inactivation efficiency on bacteria, bulk milk samples
+were meticulously chosen from three distinct dairy farms undergoing regular
+tests at the Bovine Milk Quality Laboratory, Faculty of Veterinary Science,
+Chulalongkorn University. Each farm had a herd size ranging from 15 to 20
+milking cows. The raw bulk milk quality from each farm was graded based on the
+SPC. Samples with bacterial counts below 3 Log 10 CFU/mL were classified into
+the low bacteria (L) group, those between 3 Log 10 and 4 Log 10 CFU/mL into the
+medium bacteria (M) group, and samples exceeding 4 Log 10 CFU/mL were allocated
+to the high bacteria (H) group. Subsequently, these groups were divided into two
+portions: one untreated (RAW) and the other treated with UV-C (UVC), forming six
+subgroups: low bacteria number raw milk (LRAW), low bacteria number UV-C treated
+milk (LUVC), medium bacteria number raw milk (MRAW), medium bacteria number UV-C
+treated milk (MUVC), high bacteria number raw milk (HRAW), high bacteria number
+UV-C treated milk (HUVC). Samples from each subgroup were collected at
+predetermined intervals before and after UV-C treatment, with each collection
+involving 30 mL of milk. This procedure was meticulously repeated three times
+for each subgroup to ensure data reliability. Specifically, these intervals
+after the treatment process were at the 30th, 60th, 90th, and 120th minute.
+Directly after each sampling event, comprehensive analyses were conducted,
+encompassing SPC, coliform bacteria count (CC), coagulase-negative staphylococci
+count (SC), and lactic acid bacteria count (LBC). Bacterial colonies were
+enumerated through an automated colony counter (Scan 300<sup>&#174;</sup>,
+Interscience, Saint-Nom-la-Bret&#232;che, France), and the pH levels of all
+milk samples were assessed utilizing a pH meter (Hanna Instruments, Woonsocket,
+RI, USA).</p></sec><sec id="sec2-5"><title>Milk collection and sample preparation to compare the efficiencies of
+ultraviolet-C with pasteurisation</title><p>In this experimental setup, samples with a high bacterial count exceeding 4 Log
+10 CFU/mL, referred to as HRAW, were selected for analysis. Immediately
+following the milking process, the fresh milk samples were promptly transported
+from the dairy farm. The experimental protocol was meticulously executed within
+a 30-minute timeframe following milking. The HRAW milk samples were categorized
+into three distinct groups: the first underwent UV-C irradiation, the second was
+processed through thermal pasteurization in an open system, and the third
+remained untreated, serving as the control group. The pasteurization was
+performed using metal plates and hot water, heating the milk to at least
+72&#176;C for a duration of no less than 15 seconds, followed by rapid cooling
+(<xref rid="B13" ref-type="bibr">De&#225;k, 2014</xref>). Following the
+treatments, milk samples were gathered at 30, 60, 90, and 72-hour intervals. At
+each interval, samples were obtained from every treatment group, each with a
+volume of 30 mL, aiming to fortify the reliability of our findings. To guarantee
+consistency and robustness in our results, this sampling procedure was
+meticulously replicated three times during the experiment. Immediately after
+collection, the thiobarbituric acid reactive substances (TBARS) values of the
+samples were assessed to determine oxidative stability. To ensure the integrity
+of our experimental setup, all samples were refrigerated at a constant
+4&#176;C throughout the experiment. This strategy ensured that the samples
+were preserved in a controlled environment, thereby reducing any possible
+variations that might impact the study&#8217;s findings.</p></sec><sec id="sec2-6"><title>Microbiological analysis</title><sec id="sec2-6-1"><title>Serial dilution preparation of samples</title><p>In a sterile environment, each milk sample was subjected to a 10-fold serial
+dilution, spanning from 10<sup>&#8211;1</sup> to 10<sup>&#8211;8</sup> in
+phosphate buffer solution. From these dilutions, one millilitre was
+accurately dispensed into each sterile petri dish. This process was carried
+out for three samples from every experimental group, with six individual
+dishes prepared for each dilution step to ensure the reliability and
+precision of the results.</p></sec><sec id="sec2-6-2"><title>Standard plate count</title><p>For the enumeration of microorganisms using the SPC method, one millilitre of
+each diluted milk sample was plated onto plate count agar in petri dishes.
+The pour plate technique, as per ISO 4833-1:2013 &#8211; Microbiology of
+the food chain &#8211; Horizontal method for the enumeration of
+microorganisms &#8211; Part 1: Colony count at 30&#176;C by the pour
+plate technique, was followed. The plated samples were then incubated at
+35&#176;C for 48 hours to facilitate bacterial growth. Post-incubation,
+plates exhibiting colony counts ranging from 25 to 250 were selected for
+enumeration. The number of colonies per millilitre of the sample was
+calculated and expressed as Log 10 colony-forming units per millilitre
+(CFU/mL), adhering to the guidelines set forth in the aforementioned ISO
+standard.</p></sec><sec id="sec2-6-3"><title>Coliform count</title><p>One millilitre from the serial dilutions of the milk sample was precisely
+transferred into each sterile petri dish. To enumerate coliforms, the pour
+plate technique was employed using Violet Red Bile agar in accordance with
+ISO 4832:2006 &#8211; Microbiology of food and animal feeding stuffs
+&#8211; Horizontal method for the enumeration of coliforms &#8211;
+Colony-count technique. Following the ISO guidelines, all plates were
+incubated at 35&#176;C for a period of 24 hours. Post-incubation, plates
+displaying 15 to 150 colonies characterized by a dark red color and a
+diameter equal to or greater than 0.5 mm were selected for counting. The
+number of coliform colonies per millilitre of the sample was then calculated
+and reported as Log 10 colony-forming units per millilitre (CFU/mL).</p></sec><sec id="sec2-6-4"><title>Staphylococci count</title><p>Total SC was determined using the spread plating technique on Baird-Parker
+agar. This method was in accordance with ISO 6888-1:1999 &#8211;
+Microbiology of food and animal feeding stuffs &#8211; Horizontal method
+for the enumeration of coagulase-positive staphylococci (<italic toggle="yes">S.
+aureus</italic> and other species) &#8211; Part 1: Technique using
+Baird-Parker agar medium. One millilitre of the diluted milk sample was
+spread onto each petri dish. Following the ISO standard procedures, all
+plates were incubated at 35&#176;C for 24 hours. Post-incubation, colonies
+were confirmed as <italic toggle="yes">Staphylococci</italic> through Gram staining,
+catalase testing, and the tube coagulase test. Plates exhibiting 15 to 150
+colonies were selected for enumeration, and the number of colonies was
+calculated and presented as Log 10 colony-forming units per millilitre
+(CFU/mL).</p></sec><sec id="sec2-6-5"><title>Lactic bacterial count</title><p>In accordance with ISO 15214:1998 &#8211; Microbiology of food and animal
+feeding stuffs &#8211; Horizontal method for the enumeration of mesophilic
+lactic acid bacteria &#8211; Colony-count technique at 30&#176;C, the
+pour plate technique was employed using de Man, Rogosa and Sharpe (MRS) agar
+as the selective medium. Following this standard, 1 mL of the diluted milk
+sample was pipetted into each sterile petri dish, after which the MRS agar
+was added. The inoculum and the medium were carefully mixed and then allowed
+to solidify. All plates were incubated at 35&#176;C for 72 hours.
+Post-incubation, colonies ranging from 15 to 150 on each plate were counted.
+The number of colonies was then calculated and reported as Log 10
+colony-forming units per millilitre (CFU/mL).</p></sec><sec id="sec2-6-6"><title>Thiobarbituric acid reactive substances test</title><p>4 N hydrochloric acid was added to 100 mL of the milk sample, and the mixture
+was filtered. Next, 5 mL of thiobarbituric acid (TBA) solution was added to
+5 mL of the clear filtrate and mixed well. The filtrate of TBA mixed
+solution was placed in a water bath at 100&#176;C for 10 minutes, and
+after cooling the absorbance at 538 nm was measured. Distilled water was
+used as a blank sample.</p></sec></sec><sec id="sec2-7"><title>Statistical analysis</title><p>The microbial count (Log CFU/mL), milk pH and TBARS values were compared between
+groups and within group using R Version 4.0.0 (<xref rid="B40" ref-type="bibr">R
+Core Team, 2020</xref>). The Kruskal&#8211;Wallis rank sum test with
+multiple pairwise comparison by Dunn&#8217;s test was used to identify
+statistical significance. A 95% confidence level was considered statistically
+significant.</p></sec></sec><sec id="sec3"><title>Results</title><sec id="sec3-1"><title>Ultraviolet-C treatment condition</title><p>The specific attributes of the UV-C radiation source utilized in this study are
+detailed in <xref rid="T1" ref-type="table">Table 1</xref>. We designed and
+constructed UV reactors specifically to process raw milk samples. The
+calculations pertaining to the 1.9-mm thin film within the UV-C reactors, which
+were available in variants of 96 W, 144 W, and 192 W, are outlined in <xref rid="T2" ref-type="table">Table 2</xref>. The Reynolds number (Re) value
+observed was 909.48, categorizing the flow within the reactor as a laminar
+system.</p><p>In selecting the optimal power for the UV-C reactor, extensive preliminary
+testing and literature review were undertaken. These efforts were directed
+towards finding a balance between effective microbial reduction and the
+preservation of milk&#8217;s inherent quality and flavor. Consequently, a flow
+rate of 3 L/min was employed for the UV-C reactor set at 144 W for our
+experiments. This particular power setting was chosen as it offered an optimal
+equilibrium &#8211; sufficient UV-C exposure to significantly decrease
+bacterial counts while maintaining the natural characteristics and sensory
+qualities of the raw milk. The exposure time for the milk under this setting was
+9.9 s, delivering a UV-C dose of 2.20 J/L. The selection of 144 W over other
+power settings like 96 W or 192 W was driven by our objective to maintain as
+much of the raw milk&#8217;s original quality and flavor as possible while
+ensuring food safety through microbial control.</p></sec><sec id="sec3-2"><title>Effect of ultraviolet-C as pre-treatment on microbial inactivation in raw
+milk</title><p>This study assessed the effectiveness of UV-C irradiation at an intensity of 144
+W in reducing microbial levels in raw milk. Samples were categorized into three
+groups based on their initial bacterial loads: high (HUVC), medium (MUVC), and
+low (LUVC).</p></sec><sec id="sec3-3"><title>High group</title><p>In the HUVC group, variable SPC levels were observed throughout the 120-minute
+treatment period, generally showing a downward trend from the initial count at
+time zero (<xref rid="F2" ref-type="fig">Fig. 2</xref>). Notably, the SPC levels
+at 60 and 90 minutes were significantly lower than those in the raw milk control
+(HRAW). Additionally, there was a marked reduction in coliform count (CC) at 60
+minutes and in SP at 90 minutes, compared to HRAW. A noticeable downward trend
+was also observed in the LBC beginning at 30 minutes.</p><fig position="float" id="F2" orientation="portrait"><label>Fig. 2.</label><caption><title>The inhibitory effect of UV-C reactor at 144 W on groups of bacteria
+and change in the pH of HRAW and HUVC milk.</title><p>The solid line filled triangle represents the HUVC subgroup and the dash
+line filled dot represents the HRAW subgroup. The lines show the mean
+and the SEM. <sup>A,B</sup> Different treatments at the same time point.
+<sup>a,b</sup> Different letters indicate significance
+(p&#8804;0.05) compared within the same treatment. HRAW, high bacteria
+number raw milk; HUVC, high bacteria number ultraviolet-C treated milk;
+SPC, standard plate count; CC, coliform count; SC, staphylococci count;
+LBC, lactic bacterial count; UV-C, ultraviolet-C.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="kosfa-44-2-372-g2.jpg"/></fig></sec><sec id="sec3-4"><title>Medium group</title><p>The MUVC group demonstrated a substantial reduction in SPC at 30 minutes compared
+to the baseline, and this reduction persisted through 60 to 120 minutes (<xref rid="F3" ref-type="fig">Fig. 3</xref>). The UV-C treatment significantly
+decreased the CC at 30 minutes and appeared to reduce SP at the same interval.
+However, an upward trend in both CC and SP was recorded at 60 minutes. A
+significant decline in LBC was noted at 90 minutes, continuing until 120
+minutes.</p><fig position="float" id="F3" orientation="portrait"><label>Fig. 3.</label><caption><title>The inhibitory effect of the UV-C reactor at 144 W on groups of
+bacteria and change in the pH of MRAW and MUVC milk.</title><p>The solid line filled triangle represents the MUVC subgroup and the dash
+line filled dot represents the MRAW subgroup. The lines show the mean
+and the SEM. <sup>A,B</sup> Different treatments at the same time point.
+<sup>a&#8211;c</sup> Different letters indicate significance
+(p&#8804;0.05) compared within the same treatment. MRAW, medium
+bacteria number raw milk; MUVC, medium bacteria number ultraviolet-C
+treated milk; SPC, standard plate count; CC, coliform count; SC,
+staphylococci count; LBC, lactic bacterial count; UV-C,
+ultraviolet-C.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="kosfa-44-2-372-g3.jpg"/></fig></sec><sec id="sec3-5"><title>Low group</title><p>In the LUVC group, there was an initial decrease in SPC levels at 30 and 60
+minutes, followed by a significant increase at 90 and 120 minutes (<xref rid="F4" ref-type="fig">Fig. 4</xref>). The UV-C treatment resulted in
+reductions in CC at 30 and 60 minutes, and in SP at 30 minutes, though these
+changes were not statistically significant. However, a significant increase in
+SP was observed at 120 minutes. The LBC did not exhibit any significant
+inhibitory response to the UV-C treatment within this group.</p><fig position="float" id="F4" orientation="portrait"><label>Fig. 4.</label><caption><title>The inhibitory effect of the UV-C reactor at 144 W on groups of
+bacteria and change in the pH of LRAW, and LUVC milk.</title><p>The solid line filled triangle represents the LUVC subgroup and the dash
+line filled dot represents the LRAW subgroup. The lines show the mean
+and the SEM. <sup>A</sup> No significant differences were observed
+between different treatments at the same time point.
+<sup>a&#8211;c</sup> Different letters indicate significance
+(p&#8804;0.05) compared within the same treatment. LRAW, low bacteria
+number raw milk; LUVC, low bacteria number ultraviolet-C treated milk;
+SPC, standard plate count; CC, coliform count; SC, staphylococci count;
+LBC, lactic bacterial count; UV-C, ultraviolet-C.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="kosfa-44-2-372-g4.jpg"/></fig></sec><sec id="sec3-6"><title>Effect of ultraviolet-C treatment on pH levels in raw milk</title><p>Upon UV-C treatment at 144 W, we observed dynamic changes in the pH of milk
+samples. In the high (HUVC) and medium (MUVC) groups, there was an initial
+increase in pH at 30 minutes, which became more pronounced and statistically
+significant at 60 minutes. This was followed by a noticeable decline in pH
+levels at 90 and 120 minutes for these groups (refer to <xref rid="F2" ref-type="fig">Figs. 2</xref> and <xref rid="F3" ref-type="fig">3</xref> for
+detailed trends). Conversely, in the low group (LUVC) and the control raw milk
+(LRAW), we detected a slight elevation in pH post-treatment, with a significant
+increase observed at 120 minutes compared to pre-treatment values, as
+illustrated in <xref rid="F4" ref-type="fig">Fig. 4</xref>.</p></sec><sec id="sec3-7"><title>Effect of ultraviolet-C treatment on lipid oxidation in raw milk</title><p>To assess oxidative deterioration, we analysed TBARS in the treated milk. By
+comparing TBARS values across raw milk, pasteurized milk, and milk treated with
+UV-C at 144 W (<xref rid="F5" ref-type="fig">Fig. 5</xref>), we noted a
+correlation between increasing TBARS values and prolonged storage time.
+Remarkably, the highest TBARS value was recorded in raw milk at 72 hours. In a
+compelling contrast, milk that underwent UV-C treatment at 144 W demonstrated
+significantly lower TBARS values than both raw and pasteurized milk after 72
+hours. Additionally, the peroxide values in milk treated with the UV-C reactor
+closely aligned with the observed TBARS trends, although detailed data is not
+shown. These findings imply that UV-C treatment at 144 W effectively mitigates
+lipid peroxidation in raw milk within a 72-hour window.</p><fig position="float" id="F5" orientation="portrait"><label>Fig. 5.</label><caption><title>Change in thiobarbituric acid reaction substance (TBARS) values
+(mg/L) of different types of milk with varying time (hours).</title><p>Each line represents a different type of milk as descript: blue line
+filled dot=raw milk, black line filled square=pasteurised
+milk, and brown line filled triangle=milk treated with a UV-C
+reactor at 144 W. All values are mean&#177;SE (p&#8804;0.05).
+<sup>A&#8211;C</sup> Different treatments at the same time point.
+<sup>a&#8211;c</sup> Different letters indicate significance
+compared within the same treatment. UV-C, ultraviolet-C.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="kosfa-44-2-372-g5.jpg"/></fig></sec></sec><sec id="sec4"><title>Discussion</title><p>Smallholder dairy farmers in tropical regions often face challenges in maintaining
+the quality of raw milk during transportation to collection centers, primarily due
+to the prohibitive costs associated with temperature regulation (<xref rid="B44" ref-type="bibr">Sudarwanto et al., 2015</xref>). In the current study,
+efforts were made to optimise the UV-C treatment conditions by using a higher level
+of UV-C reactors (144 W) in order to maintain raw milk quality while transporting
+the milk to the MCC. The flow rates and UV-C power used were based on the conditions
+commonly used in the dairy farm industry environment. Our findings demonstrate that
+the UV-C reactor, operating at 144 W, exhibited high inactivation efficiency for
+aerobic bacterial counts. This treatment effectively controlled the growth of
+microorganisms for a duration of up to 120 minutes. This condition is sufficient to
+maintain the microbiological quality of raw milk during transportation to collection
+centres.</p><p>The efficiency of UV-C irradiation in reducing various bacterial groups in raw milk,
+such as CC, SC, and LBC, has been documented in prior studies. For example, several
+studies have revealed that post UV-C treatment, both CC and SC (<xref rid="B8" ref-type="bibr">Biancaniello et al., 2018</xref>; <xref rid="B15" ref-type="bibr">Engin and Karagul Yuceer, 2012</xref>), as well as LBC (<xref rid="B4" ref-type="bibr">Atik and Gumus, 2021</xref>), became undetectable in
+raw milk samples. However, our study found that in the high (H) and medium (M)
+groups, the quantities of CC, SC, and LBC were lower in UV-C-treated samples
+compared to the untreated group. We observed that these bacteria exhibited varying
+sensitivities to UV-C light; coliforms were the most sensitive in the H and M
+groups, while SC was the least sensitive across all groups. This aligns with
+previous research indicating that UV-C is most effective against coliforms (<xref rid="B41" ref-type="bibr">Reinemann et al., 2006</xref>), followed by other
+microbes like <italic toggle="yes">Staphylococcus</italic> spp. (<xref rid="B15" ref-type="bibr">Engin and Karagul Yuceer, 2012</xref>). Factors such as the nature and type of
+the microbe, UV-C sensitivity (<xref rid="B12" ref-type="bibr">Crook et al.,
+2015</xref>), initial microbial count (<xref rid="B4" ref-type="bibr">Atik and
+Gumus, 2021</xref>), growth phases, microbial DNA repair capabilities, and
+recovery conditions play significant roles in the inhibitory efficacy of UV-C (<xref rid="B35" ref-type="bibr">Nurcan et al., 2018</xref>; <xref rid="B43" ref-type="bibr">Singh et al., 2021</xref>). During our observation period, although
+the growth of coliforms, <italic toggle="yes">Staphylococcus</italic> spp., and lactic bacteria
+was not completely inhibited by the 144 W UV-C treatment, the majority of the milk
+treated under these conditions exhibited lower levels of these microbes compared to
+the untreated samples. Notably, the UV-C-treated raw milk in the H and M groups was
+more effective in reducing microbial populations than in the low (L) group. UV-C
+treatment has been shown to reduce microbial loads by more than 10-fold (Log 10),
+particularly in raw milk with microbial counts exceeding 10<sup>4</sup> CFU/mL
+(<xref rid="B12" ref-type="bibr">Crook et al., 2015</xref>). Utilizing
+higher-powered UV-C reactors and doses has demonstrated a more pronounced effect on
+microbial counts (<xref rid="B12" ref-type="bibr">Crook et al., 2015</xref>). In our
+study, we employed the lowest feasible UV-C dose to preserve the quality and flavor
+of the raw milk. This approach is especially beneficial in tropical countries, where
+high temperatures and humidity can accelerate microbial growth. UV-C treatment
+offers a significant advantage in dairy farms with high total bacterial counts in
+bulk milk, particularly in tropical regions. Future studies are encouraged to
+broaden their scope by examining the efficacy of UV-C treatment across a wider range
+of bacterial species, including <italic toggle="yes">Pseudomonads</italic> spp., spore-forming
+bacteria, <italic toggle="yes">Mycobacterium</italic> spp., and <italic toggle="yes">Coxiella</italic> spp.,
+to provide a comprehensive assessment of its antimicrobial capabilities.
+Additionally, incorporating an analysis of microbial recovery characteristics will
+be crucial. This approach will not only enhance our understanding of the resilience
+and adaptive responses of microbial populations following UV-C exposure but also
+elucidate the potential long-term effects on food safety and quality. Such
+comprehensive investigations will significantly contribute to optimizing UV-C
+treatment protocols, ensuring both the efficacy of microbial reduction and the
+maintenance of product integrity.</p><p>In all the high (H), medium (M), and low (L) groups, we observed consistent
+directional changes in the pH of raw milk samples, regardless of whether they were
+subjected to UV-C treatment or remained untreated. Across these groups, the pH
+values of nearly all samples, both UV-C-treated and untreated (RAW), fell within the
+range of 6.58 to 6.7. Our findings indicate that UV-C treatment does not exert a
+significant influence on the pH of raw milk, corroborating the research of <xref rid="B6" ref-type="bibr">Bandla et al. (2012a)</xref>. They observed that during
+a 7-day storage period, the pH levels of both UV-C-treated and untreated raw milk
+samples consistently stayed within the typical pH range for raw cow milk, 6.6 to 6.8
+(<xref rid="B6" ref-type="bibr">Bandla et al., 2012a</xref>; <xref rid="B11" ref-type="bibr">Choudhary et al., 2011</xref>). In a similar study,
+<xref rid="B38" ref-type="bibr">Orlowska et al. (2013)</xref> reported no
+significant change in the pH (6.68&#177;0.02) of pasteurized milk samples
+following UV treatment (<xref rid="B38" ref-type="bibr">Orlowska et al.,
+2013</xref>). However, these findings contrast with those of <xref rid="B22" ref-type="bibr">Hu et al. (2015)</xref>, who noted an increase in the pH of raw milk
+samples after UV-C treatment, a pattern consistent with our observations in the low
+(L) group. Hu et al. also posited that the pH alterations in the food matrix could
+be influenced by the presence of UV-C light-absorbing components within the system
+(<xref rid="B22" ref-type="bibr">Hu et al., 2015</xref>).</p><p>Lipid peroxidation is one of the main causes of quality deterioration and unpleasant
+odour and flavour of milk and milk products (<xref rid="B2" ref-type="bibr">Ajmal et
+al., 2018</xref>; <xref rid="B20" ref-type="bibr">Halliwell et al., 1995</xref>;
+<xref rid="B28" ref-type="bibr">Lin et al., 2018</xref>). TBARS are naturally
+present in biological specimens and include lipid hydroperoxides and aldehydes,
+whose concentrations increase as a response to oxidative stress (<xref rid="B47" ref-type="bibr">Zeb and Ullah, 2016</xref>). TBARS concentration in
+milk was used as another marker for accumulation of secondary lipid peroxidation
+products (<xref rid="B21" ref-type="bibr">Hedegaard et al., 2006</xref>; <xref rid="B27" ref-type="bibr">Li et al., 2019</xref>). Lower lipid peroxidation
+indicates a high quality of milk. In a previous report, raw milk treated with 39-W
+and 48-W UV-C reactors showed only a small difference in their TBARS values (<xref rid="B31" ref-type="bibr">Makarapong et al., 2020</xref>). In our study, TBARS
+levels were found to be significant across the three types of milk analysed.
+Notably, milk treated with a 144 W UV-C reactor exhibited lower TBARS values than
+both raw and pasteurized milk. This suggests that UV-C treatment effectively reduces
+TBARS levels, indicative of diminished lipid peroxidation. Furthermore, the
+stability of this reduction was observed up to 72 hours, highlighting the potential
+of UV-C treatment in limiting lipid peroxide formation (data not shown).</p><p>However, it is important to consider that variations in experimental setups and
+conditions can influence the extent of photooxidation, thereby impacting TBARS
+measurements. This consideration could explain the discrepancies between our results
+and those reports (<xref rid="B23" ref-type="bibr">Johnson et al., 2015</xref>;
+<xref rid="B46" ref-type="bibr">Webster et al., 2009</xref>). While their
+studies highlighted the susceptibility of milk to light-induced oxidation, our
+findings suggest that under specific UV-C treatment conditions, the impact on TBARS
+levels can be markedly reduced.</p><p>Additionally, our results imply that UV-C treatment might serve as an effective
+alternative to traditional cooling systems for maintaining milk quality. The
+observed stability of TBARS levels under our UV-C treatment conditions indicates its
+potential for preserving milk quality during transportation over extended periods,
+potentially enhancing shelf life.</p><p>Given these findings, further investigation into protein oxidation and the extent of
+such oxidation under UV-C treatment is warranted. This would provide a more
+comprehensive understanding of the effectiveness of UV-C treatment for raw milk
+preservation.</p><p>Milk and dairy product management of has greatly benefited from technological
+advancements. Our study, development and validation of UV-C treatment of milk
+provides a workable alternative pre-treatment of raw milk in dairy farms prior to
+the normal pasteurisation process, especially in Thailand and other tropical
+countries. This study shows that raw milk pre-treatment with UV-C irradiation to
+reduce bacterial growth and lipid peroxidation is highly effective. After keeping in
+refrigerator for 24&#8211;72 hours, TBARS increased in all groups. Pasteurized milk
+and UVC-treated milk controlled and reduced a number of microorganisms after
+treatment whereas the number of microorganisms and lipid oxidation increased faster
+in the untreated milk group. While the TBARS assay provides valuable insights into
+oxidative stability, a comprehensive assessment of milk quality post-UV-C treatment
+necessitates the examination of additional parameters. Future studies should,
+therefore, extend to evaluating Bile Salt-Stimulated Lipase activity, Alkaline
+Phosphatase activity, free fatty acid profiles, and vitamin content alongside milk
+flavour, colour, texture, nutritional values, and bioactive components. Such a
+multifaceted approach will not only enhance our understanding of UV-C
+irradiation&#8217;s impact across a broad spectrum of quality indicators but also
+assess its practicality and economic viability for quality control in raw milk
+production.</p></sec><sec id="sec5"><title>Conclusion</title><p>Our study addressed tropical dairy challenges through UV-C treatment optimization
+(using a 144 W reactor and a milk flow rate of 3 L/min) to maintain milk quality
+during transport. UV-C effectively controlled microbes for 120 minutes, with varying
+effects on CC, SC, and LBC. Notably, UV-C exhibited significant bacterial reduction
+across the H, M, and L groups, with the H/M group displaying superior results.
+Following UV-C treatment, the pH remained stable. Successful reduction in lipid
+peroxidation led to an enhancement in milk quality. To comprehensively evaluate milk
+quality, further investigation into protein oxidation and broader quality facets is
+recommended. Our UV-C approach could revolutionize milk quality control in evolving
+dairy practices, with economic viability requiring further investigation.</p></sec></body><back><ack><title>Acknowledgements</title><p>The researchers would like to thank the dairy farmers in Saraburi, Thailand and the
+National Institute of Metrology (Thailand) for their excellent collaboration. This
+research project is supported by Second Century Fund (C2F), Chulalongkorn University
+and the Technology and Innovation-Based Enterprise Development (TED) Fund of the
+Ministry of Higher Education, Science, Research and Innovation of Thailand.</p></ack><fn-group><title>Conflicts of Interest</title><fn fn-type="COI-statement"><p>The authors declare no potential conflicts of interest.</p></fn></fn-group><fn-group><title>Author Contributions</title><fn fn-type="con"><p>Conceptualization: Makararpong D, Tantayanon S, Gowanit C, Hogeveen H, Inchaisri
+C. Data curation: Jareonsawat J, Wataradee S. Formal analysis: Jareonsawat J,
+Inchaisri C. Methodology: Makararpong D, Samgnamnim S, Inchaisri C. Validation:
+Inchaisri C. Investigation: Jareonsawat J, Samgnamnim S, Wataradee S, Inchaisri
+C. Writing - original draft: Makararpong D, Jareonsawat J, Inchaisri C. Writing
+- review &amp; editing: Makararpong D, Tantayanon S, Gowanit C, Jareonsawat
+J, Samgnamnim S, Wataradee S, Hogeveen H, Inchaisri C.</p></fn></fn-group><fn-group><title>Ethics Approval</title><fn fn-type="COI-statement"><p>This research was proved by faculty of veterinary science biosafety committee,
+Chulalongkorn University (CU-VET-BC) with biosafety use protocol number 2031055
+on February 10, 2021.</p></fn></fn-group><ref-list><title>References</title><ref id="B1"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Adekunte</surname><given-names>AO</given-names></name><name name-style="western"><surname>Tiwari</surname><given-names>BK</given-names></name><name name-style="western"><surname>Cullen</surname><given-names>PJ</given-names></name><name name-style="western"><surname>Scannell</surname><given-names>AGM</given-names></name><name name-style="western"><surname>O&#8217;donnell</surname><given-names>CP</given-names></name></person-group><year>2010</year><article-title>Effect of sonication on colour, ascorbic acid and yeast
+inactivation in tomato juice</article-title><source>Food Chem</source><volume>122</volume><fpage>500</fpage><lpage>507</lpage><pub-id pub-id-type="doi">10.1016/j.foodchem.2010.01.026</pub-id><pub-id pub-id-type="pmid">19906456</pub-id></element-citation></ref><ref id="B2"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ajmal</surname><given-names>M</given-names></name><name name-style="western"><surname>Nadeem</surname><given-names>M</given-names></name><name name-style="western"><surname>Imran</surname><given-names>M</given-names></name><name name-style="western"><surname>Junaid</surname><given-names>M</given-names></name></person-group><year>2018</year><article-title>Lipid compositional changes and oxidation status of ultra-high
+temperature treated milk</article-title><source>Lipids Health Dis</source><volume>17</volume><fpage>227</fpage><pub-id pub-id-type="doi">10.1186/s12944-018-0869-3</pub-id><pub-id pub-id-type="pmid">30285790</pub-id><pub-id pub-id-type="pmcid">PMC6169077</pub-id></element-citation></ref><ref id="B3"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Alexandre</surname><given-names>EMC</given-names></name><name name-style="western"><surname>Brand&#227;o</surname><given-names>TRS</given-names></name><name name-style="western"><surname>Silva</surname><given-names>CLM</given-names></name></person-group><year>2012</year><article-title>Efficacy of non-thermal technologies and sanitizer solutions on
+microbial load reduction and quality retention of
+strawberries</article-title><source>J Food Eng</source><volume>108</volume><fpage>417</fpage><lpage>426</lpage><pub-id pub-id-type="doi">10.1016/j.jfoodeng.2011.09.002</pub-id></element-citation></ref><ref id="B4"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Atik</surname><given-names>A</given-names></name><name name-style="western"><surname>Gumus</surname><given-names>T</given-names></name></person-group><year>2021</year><article-title>The effect of different doses of UV-C treatment on
+microbiological quality of bovine milk</article-title><source>LWT-Food Sci Technol</source><volume>136</volume><fpage>110322</fpage><pub-id pub-id-type="doi">10.1016/j.lwt.2020.110322</pub-id></element-citation></ref><ref id="B5"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>At&#305;lgan</surname><given-names>MR</given-names></name></person-group><year>2013</year><source>Design of a continuous flow UV reactor for opaque liquid foods by using
+computational fluid dynamics (CFD)</source><comment>Ph.D. dissertation</comment><publisher-name>&#304;zmir Institute of Technology</publisher-name><publisher-loc>&#304;zmir, Turkey</publisher-loc></element-citation></ref><ref id="B6"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bandla</surname><given-names>S</given-names></name><name name-style="western"><surname>Choudhary</surname><given-names>R</given-names></name><name name-style="western"><surname>Watson</surname><given-names>DG</given-names></name><name name-style="western"><surname>Haddock</surname><given-names>J</given-names></name></person-group><year>2012a</year><article-title>Impact of UV-C processing of raw cow milk treated in a continuous
+flow coiled tube ultraviolet reactor</article-title><source>Agric Eng Int CIGR J</source><volume>14</volume><fpage>86</fpage><lpage>93</lpage></element-citation></ref><ref id="B7"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bandla</surname><given-names>S</given-names></name><name name-style="western"><surname>Choudhary</surname><given-names>R</given-names></name><name name-style="western"><surname>Watson</surname><given-names>DG</given-names></name><name name-style="western"><surname>Haddock</surname><given-names>J</given-names></name></person-group><year>2012b</year><article-title>UV-C treatment of soymilk in coiled tube UV reactors for
+inactivation of <italic toggle="yes">Escherichia coli</italic> W1485 and <italic toggle="yes">Bacillus
+cereus</italic> endospores</article-title><source>LWT-Food Sci Technol</source><volume>46</volume><fpage>71</fpage><lpage>76</lpage><pub-id pub-id-type="doi">10.1016/j.lwt.2011.10.024</pub-id></element-citation></ref><ref id="B8"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Biancaniello</surname><given-names>M</given-names></name><name name-style="western"><surname>Popovi&#263;</surname><given-names>V</given-names></name><name name-style="western"><surname>Fernandez-Avila</surname><given-names>C</given-names></name><name name-style="western"><surname>Ros-Polski</surname><given-names>V</given-names></name><name name-style="western"><surname>Koutchma</surname><given-names>T</given-names></name></person-group><year>2018</year><article-title>Feasibility of a novel industrial-scale treatment of green
+cold-pressed juices by UV-C light exposure</article-title><source>Beverages</source><volume>4</volume><fpage>29</fpage><pub-id pub-id-type="doi">10.3390/beverages4020029</pub-id></element-citation></ref><ref id="B9"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Brugnini</surname><given-names>G</given-names></name><name name-style="western"><surname>Rodr&#237;guez</surname><given-names>S</given-names></name><name name-style="western"><surname>Rodr&#237;guez</surname><given-names>J</given-names></name><name name-style="western"><surname>Rufo</surname><given-names>C</given-names></name></person-group><year>2021</year><article-title>Effect of UV-C irradiation and lactic acid application on the
+inactivation of <italic toggle="yes">Listeria monocytogenes</italic> and lactic acid
+bacteria in vacuum-packaged beef</article-title><source>Foods</source><volume>10</volume><fpage>1217</fpage><pub-id pub-id-type="doi">10.3390/foods10061217</pub-id><pub-id pub-id-type="pmid">34071197</pub-id><pub-id pub-id-type="pmcid">PMC8226716</pub-id></element-citation></ref><ref id="B10"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Choi</surname><given-names>LH</given-names></name><name name-style="western"><surname>Nielsen</surname><given-names>SS</given-names></name></person-group><year>2005</year><article-title>The effects of thermal and nonthermal processing methods on apple
+cider quality and consumer acceptability</article-title><source>J Food Qual</source><volume>28</volume><fpage>13</fpage><lpage>29</lpage><pub-id pub-id-type="doi">10.1111/j.1745-4557.2005.00002.x</pub-id></element-citation></ref><ref id="B11"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Choudhary</surname><given-names>R</given-names></name><name name-style="western"><surname>Bandla</surname><given-names>S</given-names></name><name name-style="western"><surname>Watson</surname><given-names>DG</given-names></name><name name-style="western"><surname>Haddock</surname><given-names>J</given-names></name><name name-style="western"><surname>Abughazaleh</surname><given-names>A</given-names></name><name name-style="western"><surname>Bhattacharya</surname><given-names>B</given-names></name></person-group><year>2011</year><article-title>Performance of coiled tube ultraviolet reactors to inactivate
+<italic toggle="yes">Escherichia coli</italic> W1485 and <italic toggle="yes">Bacillus
+cereus</italic> endospores in raw cow milk and commercially processed
+skimmed cow milk</article-title><source>J Food Eng</source><volume>107</volume><fpage>14</fpage><lpage>20</lpage><pub-id pub-id-type="doi">10.1016/j.jfoodeng.2011.06.009</pub-id></element-citation></ref><ref id="B12"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Crook</surname><given-names>JA</given-names></name><name name-style="western"><surname>Rossitto</surname><given-names>PV</given-names></name><name name-style="western"><surname>Parko</surname><given-names>J</given-names></name><name name-style="western"><surname>Koutchma</surname><given-names>T</given-names></name><name name-style="western"><surname>Cullor</surname><given-names>JS</given-names></name></person-group><year>2015</year><article-title>Efficacy of ultraviolet (UV-C) light in a thin-film turbulent
+flow for the reduction of milkborne pathogens</article-title><source>Foodborne Pathog Dis</source><volume>12</volume><fpage>506</fpage><lpage>513</lpage><pub-id pub-id-type="doi">10.1089/fpd.2014.1843</pub-id><pub-id pub-id-type="pmid">25884367</pub-id></element-citation></ref><ref id="B13"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>De&#225;k</surname><given-names>T</given-names></name></person-group><year>2014</year><article-title>Food technologies: Pasteurization</article-title><source>In Encyclopedia of food safety</source><person-group person-group-type="editor"><name name-style="western"><surname>Motarjemi</surname><given-names>Y</given-names></name></person-group><comment>(ed)</comment><publisher-name>Academic Press</publisher-name><publisher-loc>Waltham, MA, USA</publisher-loc><pub-id pub-id-type="doi">10.1016/B978-0-12-378612-8.00257-2</pub-id></element-citation></ref><ref id="B14"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Eischeid</surname><given-names>AC</given-names></name><name name-style="western"><surname>Meyer</surname><given-names>JN</given-names></name><name name-style="western"><surname>Linden</surname><given-names>KG</given-names></name></person-group><year>2009</year><article-title>UV disinfection of adenoviruses: Molecular indications of DNA
+damage efficiency</article-title><source>Appl Environ Microbiol</source><volume>75</volume><fpage>23</fpage><lpage>28</lpage><pub-id pub-id-type="doi">10.1128/AEM.02199-08</pub-id><pub-id pub-id-type="pmid">18978087</pub-id><pub-id pub-id-type="pmcid">PMC2612207</pub-id></element-citation></ref><ref id="B15"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Engin</surname><given-names>B</given-names></name><name name-style="western"><surname>Karagul Yuceer</surname><given-names>Y</given-names></name></person-group><year>2012</year><article-title>Effects of ultraviolet light and ultrasound on microbial quality
+and aroma-active components of milk</article-title><source>J Sci Food Agric</source><volume>92</volume><fpage>1245</fpage><lpage>1252</lpage><pub-id pub-id-type="doi">10.1002/jsfa.4689</pub-id><pub-id pub-id-type="pmid">22028053</pub-id></element-citation></ref><ref id="B16"><element-citation publication-type="webpage"><person-group person-group-type="author"><collab>Engineering Tool Box</collab></person-group><year>2012</year><source>Food products: Viscosities</source><comment>Available from:</comment><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.engineeringtoolbox.com/" ext-link-type="uri">https://www.engineeringtoolbox.com/</ext-link><comment>Accessed at Jan 24, 2024</comment></element-citation></ref><ref id="B17"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Geankoplis</surname><given-names>CJ</given-names></name></person-group><year>1993</year><source>Transport processes and unit operations</source><edition>3<sup>rd</sup> ed</edition><publisher-name>Prentice-Hall International</publisher-name><publisher-loc>Upper Saddle River, NJ, USA</publisher-loc></element-citation></ref><ref id="B18"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>G&#243;mez-L&#243;pez</surname><given-names>VM</given-names></name><name name-style="western"><surname>Devlieghere</surname><given-names>F</given-names></name><name name-style="western"><surname>Bonduelle</surname><given-names>V</given-names></name><name name-style="western"><surname>Debevere</surname><given-names>J</given-names></name></person-group><year>2005</year><article-title>Factors affecting the inactivation of micro-organisms by intense
+light pulses</article-title><source>J Appl Microbiol</source><volume>99</volume><fpage>460</fpage><lpage>470</lpage><pub-id pub-id-type="doi">10.1111/j.1365-2672.2005.02641.x</pub-id><pub-id pub-id-type="pmid">16108787</pub-id></element-citation></ref><ref id="B19"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Guerrero-Beltrn</surname><given-names>JA</given-names></name><name name-style="western"><surname>Barbosa-Cnovas</surname><given-names>GV</given-names></name></person-group><year>2004</year><article-title>Advantages and limitations on processing foods by UV
+light</article-title><source>Food Sci Technol Int</source><volume>10</volume><fpage>137</fpage><lpage>147</lpage><pub-id pub-id-type="doi">10.1177/1082013204044359</pub-id></element-citation></ref><ref id="B20"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Halliwell</surname><given-names>B</given-names></name><name name-style="western"><surname>Murcia</surname><given-names>MA</given-names></name><name name-style="western"><surname>Chirico</surname><given-names>S</given-names></name><name name-style="western"><surname>Aruoma</surname><given-names>OI</given-names></name></person-group><year>1995</year><article-title>Free radicals and antioxidants in food and <italic toggle="yes">in
+vivo</italic>: What they do and how they work</article-title><source>Crit Rev Food Sci Nutr</source><volume>35</volume><fpage>7</fpage><lpage>20</lpage><pub-id pub-id-type="doi">10.1080/10408399509527682</pub-id><pub-id pub-id-type="pmid">7748482</pub-id></element-citation></ref><ref id="B21"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hedegaard</surname><given-names>RV</given-names></name><name name-style="western"><surname>Kristensen</surname><given-names>D</given-names></name><name name-style="western"><surname>Nielsen</surname><given-names>JH</given-names></name><name name-style="western"><surname>Fr&#248;st</surname><given-names>MB</given-names></name><name name-style="western"><surname>&#216;stdal</surname><given-names>H</given-names></name><name name-style="western"><surname>Hermansen</surname><given-names>JE</given-names></name><name name-style="western"><surname>Kr&#246;ger-Ohlsen</surname><given-names>M</given-names></name><name name-style="western"><surname>Skibsted</surname><given-names>LH</given-names></name></person-group><year>2006</year><article-title>Comparison of descriptive sensory analysis and chemical analysis
+for oxidative changes in milk</article-title><source>J Dairy Sci</source><volume>89</volume><fpage>495</fpage><lpage>504</lpage><pub-id pub-id-type="doi">10.3168/jds.S0022-0302(06)72112-9</pub-id><pub-id pub-id-type="pmid">16428618</pub-id></element-citation></ref><ref id="B22"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hu</surname><given-names>G</given-names></name><name name-style="western"><surname>Zheng</surname><given-names>Y</given-names></name><name name-style="western"><surname>Wang</surname><given-names>D</given-names></name><name name-style="western"><surname>Zha</surname><given-names>B</given-names></name><name name-style="western"><surname>Liu</surname><given-names>Z</given-names></name><name name-style="western"><surname>Deng</surname><given-names>Y</given-names></name></person-group><year>2015</year><article-title>Comparison of microbiological loads and physicochemical
+properties of raw milk treated with single-/multiple-cycle high hydrostatic
+pressure and ultraviolet-C light</article-title><source>High Press Res</source><volume>35</volume><fpage>330</fpage><lpage>338</lpage><pub-id pub-id-type="doi">10.1080/08957959.2015.1063626</pub-id></element-citation></ref><ref id="B23"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Johnson</surname><given-names>DS</given-names></name><name name-style="western"><surname>Duncan</surname><given-names>SE</given-names></name><name name-style="western"><surname>Bianchi</surname><given-names>LM</given-names></name><name name-style="western"><surname>Chang</surname><given-names>HH</given-names></name><name name-style="western"><surname>Eigel</surname><given-names>WN</given-names></name><name name-style="western"><surname>O&#8217;keefe</surname><given-names>SF</given-names></name></person-group><year>2015</year><article-title>Packaging modifications for protecting flavor of
+extended-shelf-life milk from light</article-title><source>J Dairy Sci</source><volume>98</volume><fpage>2205</fpage><lpage>2214</lpage><pub-id pub-id-type="doi">10.3168/jds.2014-8857</pub-id><pub-id pub-id-type="pmid">25660743</pub-id></element-citation></ref><ref id="B24"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Keyser</surname><given-names>M</given-names></name><name name-style="western"><surname>M&#369;ller</surname><given-names>IA</given-names></name><name name-style="western"><surname>Cilliers</surname><given-names>FP</given-names></name><name name-style="western"><surname>Nel</surname><given-names>W</given-names></name><name name-style="western"><surname>Gouws</surname><given-names>PA</given-names></name></person-group><year>2008</year><article-title>Ultraviolet radiation as a non-thermal treatment for the
+inactivation of microorganisms in fruit juice</article-title><source>Innov Food Sci Emerg Technol</source><volume>9</volume><fpage>348</fpage><lpage>354</lpage><pub-id pub-id-type="doi">10.1016/j.ifset.2007.09.002</pub-id></element-citation></ref><ref id="B25"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kim</surname><given-names>DK</given-names></name><name name-style="western"><surname>Kim</surname><given-names>SJ</given-names></name><name name-style="western"><surname>Kang</surname><given-names>DH</given-names></name></person-group><year>2017</year><article-title>Bactericidal effect of 266 to 279 nm wavelength UVC-leds for
+inactivation of Gram positive and Gram negative foodborne pathogenic
+bacteria and yeasts</article-title><source>Food Res Int</source><volume>97</volume><fpage>280</fpage><lpage>287</lpage><pub-id pub-id-type="doi">10.1016/j.foodres.2017.04.009</pub-id><pub-id pub-id-type="pmid">28578053</pub-id></element-citation></ref><ref id="B26"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Koutchma</surname><given-names>T</given-names></name></person-group><year>2009</year><source>Ultraviolet light in food technology: Principles and
+applications</source><publisher-name>CRC Press</publisher-name><publisher-loc>Boca Raton, FL, USA</publisher-loc><pub-id pub-id-type="doi">10.1201/9781420059519</pub-id></element-citation></ref><ref id="B27"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>YH</given-names></name><name name-style="western"><surname>Wang</surname><given-names>WJ</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>F</given-names></name><name name-style="western"><surname>Shao</surname><given-names>ZP</given-names></name><name name-style="western"><surname>Guo</surname><given-names>L</given-names></name></person-group><year>2019</year><article-title>Formation of the oxidized flavor compounds at different heat
+treatment and changes in the oxidation stability of milk</article-title><source>Food Sci Nutr</source><volume>7</volume><fpage>238</fpage><lpage>246</lpage><pub-id pub-id-type="doi">10.1002/fsn3.874</pub-id><pub-id pub-id-type="pmid">30680177</pub-id><pub-id pub-id-type="pmcid">PMC6341162</pub-id></element-citation></ref><ref id="B28"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lin</surname><given-names>S</given-names></name><name name-style="western"><surname>Liu</surname><given-names>J</given-names></name><name name-style="western"><surname>Wang</surname><given-names>K</given-names></name><name name-style="western"><surname>Wang</surname><given-names>D</given-names></name></person-group><year>2018</year><article-title>Effects of stocking density on milk fatty acids composition and
+oxidative stability of mid- and late-lactating dairy cows</article-title><source>Animals</source><volume>8</volume><fpage>148</fpage><pub-id pub-id-type="doi">10.3390/ani8090148</pub-id><pub-id pub-id-type="pmid">30134615</pub-id><pub-id pub-id-type="pmcid">PMC6162396</pub-id></element-citation></ref><ref id="B29"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lu</surname><given-names>G</given-names></name><name name-style="western"><surname>Li</surname><given-names>C</given-names></name><name name-style="western"><surname>Liu</surname><given-names>P</given-names></name></person-group><year>2011</year><article-title>UV inactivation of milk-related microorganisms with a novel
+electrodeless lamp apparatus</article-title><source>Eur Food Res Technol</source><volume>233</volume><fpage>79</fpage><lpage>87</lpage><pub-id pub-id-type="doi">10.1007/s00217-011-1498-5</pub-id></element-citation></ref><ref id="B30"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mahalik</surname><given-names>NP</given-names></name><name name-style="western"><surname>Nambiar</surname><given-names>AN</given-names></name></person-group><year>2010</year><article-title>Trends in food packaging and manufacturing systems and
+technology</article-title><source>Trends Food Sci Technol</source><volume>21</volume><fpage>117</fpage><lpage>128</lpage><pub-id pub-id-type="doi">10.1016/j.tifs.2009.12.006</pub-id></element-citation></ref><ref id="B31"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Makarapong</surname><given-names>D</given-names></name><name name-style="western"><surname>Tantayanon</surname><given-names>S</given-names></name><name name-style="western"><surname>Gowanit</surname><given-names>C</given-names></name><name name-style="western"><surname>Inchaisri</surname><given-names>C</given-names></name></person-group><year>2020</year><article-title>Development of an innovative apparatus using UV-C for controlling
+the number of microorganisms in raw milk after milking</article-title><source>Int J Dairy Technol</source><volume>73</volume><fpage>301</fpage><lpage>305</lpage><pub-id pub-id-type="doi">10.1111/1471-0307.12654</pub-id></element-citation></ref><ref id="B32"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Malacarne</surname><given-names>M</given-names></name><name name-style="western"><surname>Summer</surname><given-names>A</given-names></name><name name-style="western"><surname>Franceschi</surname><given-names>P</given-names></name><name name-style="western"><surname>Formaggioni</surname><given-names>P</given-names></name><name name-style="western"><surname>Pecorari</surname><given-names>M</given-names></name><name name-style="western"><surname>Panari</surname><given-names>G</given-names></name><name name-style="western"><surname>Vecchia</surname><given-names>P</given-names></name><name name-style="western"><surname>Sandri</surname><given-names>S</given-names></name><name name-style="western"><surname>Fossa</surname><given-names>E</given-names></name><name name-style="western"><surname>Scotti</surname><given-names>C</given-names></name><name name-style="western"><surname>Mariani</surname><given-names>P</given-names></name></person-group><year>2013</year><article-title>Effects of storage conditions on physico-chemical
+characteristics, salt equilibria, processing properties and microbial
+development of raw milk</article-title><source>Int Dairy J</source><volume>29</volume><fpage>36</fpage><lpage>41</lpage><pub-id pub-id-type="doi">10.1016/j.idairyj.2012.10.005</pub-id></element-citation></ref><ref id="B33"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Matak</surname><given-names>KE</given-names></name><name name-style="western"><surname>Churey</surname><given-names>JJ</given-names></name><name name-style="western"><surname>Worobo</surname><given-names>RW</given-names></name><name name-style="western"><surname>Sumner</surname><given-names>SS</given-names></name><name name-style="western"><surname>Hovingh</surname><given-names>E</given-names></name><name name-style="western"><surname>Hackney</surname><given-names>CR</given-names></name><name name-style="western"><surname>Pierson</surname><given-names>MD</given-names></name></person-group><year>2005</year><article-title>Efficacy of UV light for the reduction of <italic toggle="yes">Listeria
+monocytogenes</italic> in goat&#8217;s milk</article-title><source>J Food Prot</source><volume>68</volume><fpage>2212</fpage><lpage>2216</lpage><pub-id pub-id-type="doi">10.4315/0362-028X-68.10.2212</pub-id><pub-id pub-id-type="pmid">16245732</pub-id></element-citation></ref><ref id="B34"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Neo&#954;leous</surname><given-names>I</given-names></name><name name-style="western"><surname>Tarapata</surname><given-names>J</given-names></name><name name-style="western"><surname>Papademas</surname><given-names>P</given-names></name></person-group><year>2022</year><article-title>Non-thermal processing technologies for dairy products: Their
+effect on safety and quality characteristics</article-title><source>Front Sustain Food Syst</source><volume>6</volume><fpage>856199</fpage><pub-id pub-id-type="doi">10.3389/fsufs.2022.856199</pub-id></element-citation></ref><ref id="B35"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Nurcan</surname><given-names>K</given-names></name><name name-style="western"><surname>M&#252;ge</surname><given-names>U</given-names></name><name name-style="western"><surname>Turkuaz Ecem</surname><given-names>S</given-names></name></person-group><year>2018</year><article-title>Ultraviolet light applications in dairy
+processing</article-title><source>In Technological approaches for novel applications in dairy
+processing</source><person-group person-group-type="editor"><name name-style="western"><surname>Koca</surname><given-names>N</given-names></name></person-group><comment>(ed)</comment><publisher-name>IntechOpen</publisher-name><publisher-loc>Rijeka, Croatia</publisher-loc></element-citation></ref><ref id="B36"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Oguma</surname><given-names>K</given-names></name><name name-style="western"><surname>Kita</surname><given-names>R</given-names></name><name name-style="western"><surname>Sakai</surname><given-names>H</given-names></name><name name-style="western"><surname>Murakami</surname><given-names>M</given-names></name><name name-style="western"><surname>Takizawa</surname><given-names>S</given-names></name></person-group><year>2013</year><article-title>Application of UV light emitting diodes to batch and flow-through
+water disinfection systems</article-title><source>Desalination</source><volume>328</volume><fpage>24</fpage><lpage>30</lpage><pub-id pub-id-type="doi">10.1016/j.desal.2013.08.014</pub-id></element-citation></ref><ref id="B37"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ongkunaruk</surname><given-names>P</given-names></name></person-group><year>2015</year><article-title>Business process analysis and improvement for a raw milk
+collection centre in Thailand</article-title><source>Agric Agric Sci Procedia</source><volume>3</volume><fpage>35</fpage><lpage>39</lpage><pub-id pub-id-type="doi">10.1016/j.aaspro.2015.01.009</pub-id></element-citation></ref><ref id="B38"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Orlowska</surname><given-names>M</given-names></name><name name-style="western"><surname>Koutchma</surname><given-names>T</given-names></name><name name-style="western"><surname>Grapperhaus</surname><given-names>M</given-names></name><name name-style="western"><surname>Gallagher</surname><given-names>J</given-names></name><name name-style="western"><surname>Schaefer</surname><given-names>R</given-names></name><name name-style="western"><surname>Defelice</surname><given-names>C</given-names></name></person-group><year>2013</year><article-title>Continuous and pulsed ultraviolet light for nonthermal treatment
+of liquid foods</article-title><source>Part 1: Effects on quality of fructose solution, apple juice, and milk.
+Food Bioprocess Tech</source><volume>6</volume><fpage>1580</fpage><lpage>1592</lpage><pub-id pub-id-type="doi">10.1007/s11947-012-0779-8</pub-id></element-citation></ref><ref id="B39"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Peng</surname><given-names>K</given-names></name><name name-style="western"><surname>Koubaa</surname><given-names>M</given-names></name><name name-style="western"><surname>Bals</surname><given-names>O</given-names></name><name name-style="western"><surname>Vorobiev</surname><given-names>E</given-names></name></person-group><year>2020</year><article-title>Recent insights in the impact of emerging technologies on lactic
+acid bacteria: A review</article-title><source>Food Res Int</source><volume>137</volume><fpage>109544</fpage><pub-id pub-id-type="doi">10.1016/j.foodres.2020.109544</pub-id><pub-id pub-id-type="pmid">33233170</pub-id></element-citation></ref><ref id="B40"><element-citation publication-type="webpage"><person-group person-group-type="author"><collab>R Core Team</collab></person-group><year>2020</year><source>R: A language and environment for statistical computing. R foundation
+for statistical computing, Vienna, Austria</source><comment>Available from:</comment><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.R-project.org/" ext-link-type="uri">https://www.R-project.org/</ext-link><comment>Accessed at Dec 1, 2023</comment></element-citation></ref><ref id="B41"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Reinemann</surname><given-names>DJ</given-names></name><name name-style="western"><surname>Gouws</surname><given-names>P</given-names></name><name name-style="western"><surname>Cilliers</surname><given-names>T</given-names></name><name name-style="western"><surname>Houck</surname><given-names>K</given-names></name><name name-style="western"><surname>Bishop</surname><given-names>JR</given-names></name></person-group><year>2006</year><source>New methods for UV treatment of milk for improved food safety and
+product quality</source><publisher-name>American Society of Agricultural and Biological Engineers
+(ASABE) Annual Meeting</publisher-name><publisher-loc>St. Joseph, MI, USA</publisher-loc><pub-id pub-id-type="doi">10.13031/2013.21493</pub-id></element-citation></ref><ref id="B42"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Roobab</surname><given-names>U</given-names></name><name name-style="western"><surname>Madni</surname><given-names>GM</given-names></name><name name-style="western"><surname>Ranjha</surname><given-names>MMAN</given-names></name><name name-style="western"><surname>Khan</surname><given-names>AW</given-names></name><name name-style="western"><surname>Selim</surname><given-names>S</given-names></name><name name-style="western"><surname>Almuhayawi</surname><given-names>MS</given-names></name><name name-style="western"><surname>Samy</surname><given-names>M</given-names></name><name name-style="western"><surname>Zeng</surname><given-names>XA</given-names></name><name name-style="western"><surname>Aadil</surname><given-names>RM</given-names></name></person-group><year>2023</year><article-title>Applications of water activated by ozone, electrolysis, or gas
+plasma for microbial decontamination of raw and processed
+meat</article-title><source>Front Sustain Food Syst</source><volume>7</volume><fpage>1007967</fpage><pub-id pub-id-type="doi">10.3389/fsufs.2023.1007967</pub-id></element-citation></ref><ref id="B43"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Singh</surname><given-names>H</given-names></name><name name-style="western"><surname>Bhardwaj</surname><given-names>SK</given-names></name><name name-style="western"><surname>Khatri</surname><given-names>M</given-names></name><name name-style="western"><surname>Kim</surname><given-names>KH</given-names></name><name name-style="western"><surname>Bhardwaj</surname><given-names>N</given-names></name></person-group><year>2021</year><article-title>UVC radiation for food safety: An emerging technology for the
+microbial disinfection of food products</article-title><source>Chem Eng J</source><volume>417</volume><fpage>128084</fpage><pub-id pub-id-type="doi">10.1016/j.cej.2020.128084</pub-id></element-citation></ref><ref id="B44"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sudarwanto</surname><given-names>M</given-names></name><name name-style="western"><surname>Akineden</surname><given-names>&#214;</given-names></name><name name-style="western"><surname>Odenthal</surname><given-names>S</given-names></name><name name-style="western"><surname>Gross</surname><given-names>M</given-names></name><name name-style="western"><surname>Usleber</surname><given-names>E</given-names></name></person-group><year>2015</year><article-title>Extended-spectrum &#946;-lactamase (ESBL)-producing
+<italic toggle="yes">Klebsiella pneumoniae</italic> in bulk tank milk from dairy
+farms in Indonesia</article-title><source>Foodborne Pathog Dis</source><volume>12</volume><fpage>585</fpage><lpage>590</lpage><pub-id pub-id-type="doi">10.1089/fpd.2014.1895</pub-id><pub-id pub-id-type="pmid">26135892</pub-id></element-citation></ref><ref id="B45"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Suthiluk</surname><given-names>P</given-names></name><name name-style="western"><surname>Chuensombat</surname><given-names>N</given-names></name><name name-style="western"><surname>Setha</surname><given-names>S</given-names></name><name name-style="western"><surname>Naradisorn</surname><given-names>M</given-names></name></person-group><year>2023</year><article-title>Synergistic effect of UV-C irradiation and high-pressure
+processing in reducing microbial load in &#8220;nanglae&#8221; pineapple
+juice compared to conventional heat treatment</article-title><source>Front Sustain Food Syst</source><volume>7</volume><fpage>979943</fpage><pub-id pub-id-type="doi">10.3389/fsufs.2023.979943</pub-id></element-citation></ref><ref id="B46"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Webster</surname><given-names>JB</given-names></name><name name-style="western"><surname>Duncan</surname><given-names>SE</given-names></name><name name-style="western"><surname>Marcy</surname><given-names>JE</given-names></name><name name-style="western"><surname>O&#8217;keefe</surname><given-names>SF</given-names></name></person-group><year>2009</year><article-title>Controlling light oxidation flavor in milk by blocking riboflavin
+excitation wavelengths by interference</article-title><source>J Food Sci</source><volume>74</volume><fpage>S390</fpage><lpage>S398</lpage><pub-id pub-id-type="doi">10.1111/j.1750-3841.2009.01336.x</pub-id><pub-id pub-id-type="pmid">20492128</pub-id></element-citation></ref><ref id="B47"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zeb</surname><given-names>A</given-names></name><name name-style="western"><surname>Ullah</surname><given-names>F</given-names></name></person-group><year>2016</year><article-title>A simple spectrophotometric method for the determination of
+thiobarbituric acid reactive substances in fried fast foods</article-title><source>J Anal Methods Chem</source><volume>2016</volume><fpage>9412767</fpage><pub-id pub-id-type="doi">10.1155/2016/9412767</pub-id><pub-id pub-id-type="pmid">27123360</pub-id><pub-id pub-id-type="pmcid">PMC4830699</pub-id></element-citation></ref></ref-list></back></article></pmc-articleset>

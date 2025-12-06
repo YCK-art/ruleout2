@@ -1059,11 +1059,69 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     });
   };
 
+  // 연속된 citation을 범위로 변환하는 함수
+  const formatCitationRange = (citation: string): string => {
+    // [1], [2], [3] -> [1-3]
+    // [1], [3], [5] -> [1,3,5] (연속되지 않음)
+    const content = citation.replace(/[\[\]]/g, '');
+    const parts = content.split(',').map(p => p.trim());
+    const numbers: number[] = [];
+
+    parts.forEach(part => {
+      if (part.includes('-')) {
+        const [start, end] = part.split('-').map(n => parseInt(n.trim()));
+        for (let i = start; i <= end; i++) {
+          numbers.push(i);
+        }
+      } else {
+        numbers.push(parseInt(part));
+      }
+    });
+
+    // 중복 제거 및 정렬
+    const uniqueNumbers = Array.from(new Set(numbers)).sort((a, b) => a - b);
+
+    // 연속된 숫자를 범위로 그룹화
+    const ranges: string[] = [];
+    let rangeStart = uniqueNumbers[0];
+    let rangeEnd = uniqueNumbers[0];
+
+    for (let i = 1; i <= uniqueNumbers.length; i++) {
+      if (i < uniqueNumbers.length && uniqueNumbers[i] === rangeEnd + 1) {
+        rangeEnd = uniqueNumbers[i];
+      } else {
+        if (rangeStart === rangeEnd) {
+          ranges.push(`${rangeStart}`);
+        } else if (rangeEnd === rangeStart + 1) {
+          // 2개만 연속일 경우 쉼표로 표시
+          ranges.push(`${rangeStart}`, `${rangeEnd}`);
+        } else {
+          // 3개 이상 연속일 경우 범위로 표시
+          ranges.push(`${rangeStart}-${rangeEnd}`);
+        }
+        if (i < uniqueNumbers.length) {
+          rangeStart = uniqueNumbers[i];
+          rangeEnd = uniqueNumbers[i];
+        }
+      }
+    }
+
+    return `[${ranges.join(',')}]`;
+  };
+
   // Citation 처리 함수 (messageIndex와 isStreaming을 파라미터로 받음)
   const processCitations = (text: string, messageIndex: number, isStreaming: boolean) => {
-    const parts = text.split(/(\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\])/g);
+    // 먼저 연속된 [숫자] 패턴을 하나로 합침: [3][4][5] -> [3,4,5]
+    const mergedText = text.replace(/(\[\d+\])(\[\d+\])+/g, (match) => {
+      const numbers = match.match(/\d+/g);
+      return numbers ? `[${numbers.join(',')}]` : match;
+    });
+
+    const parts = mergedText.split(/(\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\])/g);
     return parts.map((part: string, index: number) => {
       if (/^\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\]$/.test(part)) {
+        const formattedCitation = formatCitationRange(part);
+        // citation 내부의 괄호, 숫자, 하이픈, 쉼표 모두 민트색으로 표시
         return (
           <sup
             key={index}
@@ -1071,7 +1129,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             className="text-[0.65em] font-medium ml-0.5 cursor-pointer transition-colors"
             style={{ color: '#5AC8D8' }}
           >
-            {part}
+            {formattedCitation}
           </sup>
         );
       }

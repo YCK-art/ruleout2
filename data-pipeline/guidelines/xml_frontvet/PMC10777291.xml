@@ -1,0 +1,747 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10777291</article-id><article-id pub-id-type="pmcid-ver">PMC10777291.1</article-id><article-id pub-id-type="pmcaid">10777291</article-id><article-id pub-id-type="pmcaiid">10777291</article-id><article-id pub-id-type="pmid">38213701</article-id><article-id pub-id-type="doi">10.18699/VJGB-23-92</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>RatDEGdb: a knowledge base of differentially expressed genes
+in the rat as a model object in biomedical research</article-title><trans-title-group xml:lang="ru"><trans-title>&#1041;&#1072;&#1079;&#1072; &#1079;&#1085;&#1072;&#1085;&#1080;&#1081; RatDEGdb &#1087;&#1086; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1084;&#1089;&#1103;
+&#1075;&#1077;&#1085;&#1072;&#1084; &#1082;&#1088;&#1099;&#1089;&#1099; &#1082;&#1072;&#1082; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1086;&#1073;&#1098;&#1077;&#1082;&#1090;&#1072;
+&#1073;&#1080;&#1086;&#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1080;&#1093; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Chadaeva</surname><given-names initials="IV">I.V.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Filonov</surname><given-names initials="SV">S.V.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State University, Novosibirsk, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zolotareva</surname><given-names initials="KA">K.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Khandaev</surname><given-names initials="BM">B.M.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ershov</surname><given-names initials="NI">N.I.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Podkolodnyy</surname><given-names initials="NL">N.L.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State University, Novosibirsk, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kozhemyakina</surname><given-names initials="RV">R.V.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Rasskazov</surname><given-names initials="DA">D.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bogomolov</surname><given-names initials="AG">A. G.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kondratyuk</surname><given-names initials="EY">E.Yu.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Siberian Federal Scientific Centre of Agro-BioTechnologies of the Russian Academy of Sciences, Krasnoobsk, Novosibirsk region, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Klimova</surname><given-names initials="NV">N.V.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shikhevich</surname><given-names initials="SG">S.G.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ryazanova</surname><given-names initials="MA">M.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Fedoseeva</surname><given-names initials="LA">L.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Redina</surname><given-names initials="&#x41E;&#x415;">&#1054;.&#1045;.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kozhevnikova</surname><given-names initials="OS">O.S.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stefanova</surname><given-names initials="NA">N.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kolosova</surname><given-names initials="NG">N.G.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Markel</surname><given-names initials="AL">A.L.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State University, Novosibirsk, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ponomarenko</surname><given-names initials="MP">M.P.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Oshchepkov</surname><given-names initials="DY">D.Yu.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: M.P. Ponomarenko
+<email>pon@bionet.nsc.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>12</month><year>2023</year></pub-date><volume>27</volume><issue>7</issue><issue-id pub-id-type="pmc-issue-id">453058</issue-id><fpage>794</fpage><lpage>806</lpage><history><date date-type="received"><day>23</day><month>8</month><year>2023</year></date><date date-type="rev-recd"><day>11</day><month>9</month><year>2023</year></date><date date-type="accepted"><day>15</day><month>9</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>12</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>11</day><month>01</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-09-05 13:25:28.107"><day>05</day><month>09</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-27-2392.pdf"/><abstract><p>The animal models used in biomedical research cover virtually every human disease. RatDEGdb, a knowledge
+base of the differentially expressed genes (DEGs) of the rat as a model object in biomedical research is a collection of
+published data on gene expression in rat strains simulating arterial hypertension, age-related diseases, psychopathological
+conditions and other human afflictions. The current release contains information on 25,101 DEGs representing
+14,320 unique rat genes that change transcription levels in 21 tissues of 10 genetic rat strains used as models of 11 human
+diseases based on 45 original scientific papers. RatDEGdb is novel in that, unlike any other biomedical database,
+it offers the manually curated annotations of DEGs in model rats with the use of independent clinical data on equal
+changes in the expression of homologous genes revealed in people with pathologies. The rat DEGs put in RatDEGdb
+were annotated with equal changes in the expression of their human homologs in affected people. In its current release,
+RatDEGdb contains 94,873 such annotations for 321 human genes in 836 diseases based on 959 original scientific papers
+found in the current PubMed. RatDEGdb may be interesting first of all to human geneticists, molecular biologists,
+clinical physicians, genetic advisors as well as experts in biopharmaceutics, bioinformatics and personalized genomics.
+RatDEGdb is publicly available at https://www.sysbio.ru/RatDEGdb.</p></abstract><trans-abstract xml:lang="ru"><p>&#1046;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080;, &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1077;&#1084;&#1099;&#1077; &#1074; &#1073;&#1080;&#1086;&#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1080;&#1093; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;&#1093;, &#1074; &#1085;&#1072;&#1089;&#1090;&#1086;&#1103;&#1097;&#1077;&#1077; &#1074;&#1088;&#1077;&#1084;&#1103; &#1086;&#1093;&#1074;&#1072;&#1090;&#1099;&#1074;&#1072;&#1102;&#1090;
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080; &#1074;&#1077;&#1089;&#1100; &#1080;&#1079;&#1074;&#1077;&#1089;&#1090;&#1085;&#1099;&#1081; &#1089;&#1087;&#1077;&#1082;&#1090;&#1088; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;. &#1041;&#1072;&#1079;&#1072; &#1079;&#1085;&#1072;&#1085;&#1080;&#1081; RatDEGdb &#1087;&#1086; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1084;&#1089;&#1103; &#1075;&#1077;&#1085;&#1072;&#1084; (&#1044;&#1069;&#1043;) &#1082;&#1088;&#1099;&#1089;&#1099; &#1082;&#1072;&#1082; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1086;&#1073;&#1098;&#1077;&#1082;&#1090;&#1072; &#1074; &#1073;&#1080;&#1086;&#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1080;&#1093; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;&#1093; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1077;&#1090; &#1089;&#1086;&#1073;&#1086;&#1081;
+&#1082;&#1086;&#1083;&#1083;&#1077;&#1082;&#1094;&#1080;&#1102; &#1086;&#1087;&#1091;&#1073;&#1083;&#1080;&#1082;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1093; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; &#1087;&#1086; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1080; &#1075;&#1077;&#1085;&#1086;&#1074; &#1091; &#1082;&#1088;&#1099;&#1089; &#1088;&#1072;&#1079;&#1085;&#1099;&#1093; &#1083;&#1080;&#1085;&#1080;&#1081;, &#1087;&#1088;&#1077;&#1076;&#1085;&#1072;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093; &#1076;&#1083;&#1103; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1103;
+&#1072;&#1088;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1075;&#1080;&#1087;&#1077;&#1088;&#1090;&#1086;&#1085;&#1080;&#1080;, &#1073;&#1086;&#1083;&#1077;&#1079;&#1085;&#1077;&#1081; &#1087;&#1086;&#1078;&#1080;&#1083;&#1086;&#1075;&#1086; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;&#1072;, &#1087;&#1089;&#1080;&#1093;&#1086;&#1087;&#1072;&#1090;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1080;&#1081; &#1080; &#1076;&#1088;&#1091;&#1075;&#1080;&#1093; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;. &#1058;&#1077;&#1082;&#1091;&#1097;&#1080;&#1081; &#1074;&#1099;&#1087;&#1091;&#1089;&#1082; RatDEGdb &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1080;&#1090; 25 101 &#1044;&#1069;&#1043;, &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1102;&#1097;&#1080;&#1093; 14 320 &#1091;&#1085;&#1080;&#1082;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074; &#1082;&#1088;&#1099;&#1089;&#1099;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1080;&#1079;&#1084;&#1077;&#1085;&#1103;&#1102;&#1090; &#1091;&#1088;&#1086;&#1074;&#1077;&#1085;&#1100; &#1090;&#1088;&#1072;&#1085;&#1089;&#1082;&#1088;&#1080;&#1087;&#1094;&#1080;&#1080; &#1074; 21 &#1090;&#1082;&#1072;&#1085;&#1080; 10 &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1083;&#1080;&#1085;&#1080;&#1081; &#1082;&#1088;&#1099;&#1089;&#1099; &#1074; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1077;&#1081; 11 &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072; &#1089;&#1086;&#1075;&#1083;&#1072;&#1089;&#1085;&#1086; 45 &#1086;&#1088;&#1080;&#1075;&#1080;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1084; &#1085;&#1072;&#1091;&#1095;&#1085;&#1099;&#1084; &#1089;&#1090;&#1072;&#1090;&#1100;&#1103;&#1084;. &#1053;&#1086;&#1074;&#1096;&#1077;&#1089;&#1090;&#1074;&#1086; RatDEGdb &#1087;&#1086; &#1089;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1102; &#1089; &#1076;&#1088;&#1091;&#1075;&#1080;&#1084;&#1080;
+&#1073;&#1080;&#1086;&#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1080;&#1084;&#1080; &#1073;&#1072;&#1079;&#1072;&#1084;&#1080; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; &#1079;&#1072;&#1082;&#1083;&#1102;&#1095;&#1072;&#1077;&#1090;&#1089;&#1103; &#1074; &#1082;&#1091;&#1088;&#1080;&#1088;&#1091;&#1077;&#1084;&#1086;&#1081; &#1072;&#1085;&#1085;&#1086;&#1090;&#1072;&#1094;&#1080;&#1080; &#1086;&#1090;&#1082;&#1083;&#1086;&#1085;&#1077;&#1085;&#1080;&#1081; &#1044;&#1069;&#1043; &#1082;&#1088;&#1099;&#1089;&#1099; &#1082;&#1072;&#1082; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086;
+&#1086;&#1073;&#1098;&#1077;&#1082;&#1090;&#1072; &#1089; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1085;&#1077;&#1079;&#1072;&#1074;&#1080;&#1089;&#1080;&#1084;&#1099;&#1093; &#1082;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; &#1086;&#1073; &#1086;&#1076;&#1085;&#1086;&#1085;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103;&#1093; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1080; &#1075;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1085;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074;, &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1091; &#1083;&#1102;&#1076;&#1077;&#1081; &#1087;&#1088;&#1080; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1085;&#1099;&#1093; &#1087;&#1072;&#1090;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;&#1093;. &#1057;&#1086;&#1073;&#1088;&#1072;&#1085;&#1085;&#1099;&#1077; &#1044;&#1069;&#1043; &#1082;&#1088;&#1099;&#1089; &#1073;&#1099;&#1083;&#1080; &#1072;&#1085;&#1085;&#1086;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1099;
+&#1086;&#1076;&#1085;&#1086;&#1085;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1085;&#1099;&#1084;&#1080; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103;&#1084;&#1080; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1080; &#1075;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1085;&#1099;&#1093; &#1080;&#1084; &#1075;&#1077;&#1085;&#1086;&#1074; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072; &#1091; &#1073;&#1086;&#1083;&#1100;&#1085;&#1099;&#1093; &#1083;&#1102;&#1076;&#1077;&#1081; &#1086;&#1090;&#1085;&#1086;&#1089;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1099;&#1093;. &#1050; &#1085;&#1072;&#1089;&#1090;&#1086;&#1103;&#1097;&#1077;&#1084;&#1091; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1080; &#1074;&#1099;&#1087;&#1091;&#1089;&#1082; RatDEGdb &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1080;&#1090; 94 873 &#1090;&#1072;&#1082;&#1080;&#1077; &#1072;&#1085;&#1085;&#1086;&#1090;&#1072;&#1094;&#1080;&#1080; &#1076;&#1083;&#1103; 321 &#1075;&#1077;&#1085;&#1072; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;
+&#1087;&#1088;&#1080; 836 &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1103;&#1093; &#1089;&#1086;&#1075;&#1083;&#1072;&#1089;&#1085;&#1086; 959 &#1086;&#1088;&#1080;&#1075;&#1080;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1084; &#1085;&#1072;&#1091;&#1095;&#1085;&#1099;&#1084; &#1089;&#1090;&#1072;&#1090;&#1100;&#1103;&#1084;, &#1085;&#1072;&#1081;&#1076;&#1077;&#1085;&#1085;&#1099;&#1084; &#1074; &#1090;&#1077;&#1082;&#1091;&#1097;&#1077;&#1084; &#1074;&#1099;&#1087;&#1091;&#1089;&#1082;&#1077; &#1073;&#1072;&#1079;&#1099; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; PubMed. &#1055;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1085;&#1072;&#1103; &#1073;&#1072;&#1079;&#1072; &#1079;&#1085;&#1072;&#1085;&#1080;&#1081; &#1084;&#1086;&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100; &#1080;&#1085;&#1090;&#1077;&#1088;&#1077;&#1089;&#1085;&#1072; &#1074; &#1087;&#1077;&#1088;&#1074;&#1091;&#1102; &#1086;&#1095;&#1077;&#1088;&#1077;&#1076;&#1100; &#1089;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1089;&#1090;&#1072;&#1084; &#1087;&#1086; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1082;&#1077;
+&#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;, &#1084;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;&#1103;&#1088;&#1085;&#1099;&#1084; &#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1072;&#1084;, &#1082;&#1083;&#1080;&#1085;&#1080;&#1094;&#1080;&#1089;&#1090;&#1072;&#1084; &#1080; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1082;&#1086;&#1085;&#1089;&#1091;&#1083;&#1100;&#1090;&#1072;&#1085;&#1090;&#1072;&#1084;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1089;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1089;&#1090;&#1072;&#1084; &#1074; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080; &#1073;&#1080;&#1086;&#1092;&#1072;&#1088;&#1084;&#1072;&#1094;&#1077;&#1074;&#1090;&#1080;&#1082;&#1080;, &#1073;&#1080;&#1086;&#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080; &#1080; &#1087;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1081; &#1075;&#1077;&#1085;&#1086;&#1084;&#1080;&#1082;&#1080;. RatDEGdb &#1103;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1086;&#1073;&#1097;&#1077;&#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1085;&#1086;&#1081;
+(https://www.sysbio.ru/RatDEGdb).</p></trans-abstract><kwd-group><kwd>knowledge base</kwd><kwd>DEG</kwd><kwd>Rattus norvegicus</kwd><kwd>animal models of human diseases</kwd><kwd>neurodegeneration</kwd><kwd>Alzheimer&#8217;s disease</kwd><kwd>hypertension</kwd><kwd>premature aging</kwd><kwd>psychopathological states</kwd><kwd>catatonic syndrome</kwd><kwd>epilepsy</kwd><kwd>aggression</kwd><kwd>RNA-seq</kwd><kwd>PCR</kwd><kwd>microarrays</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1073;&#1072;&#1079;&#1072; &#1079;&#1085;&#1072;&#1085;&#1080;&#1081;</kwd><kwd>&#1044;&#1069;&#1043;</kwd><kwd>&#1082;&#1088;&#1099;&#1089;&#1099; Rattus norvegicus</kwd><kwd>&#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080; &#1073;&#1086;&#1083;&#1077;&#1079;&#1085;&#1077;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;</kwd><kwd>&#1075;&#1080;&#1087;&#1077;&#1088;&#1090;&#1086;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1073;&#1086;&#1083;&#1077;&#1079;&#1085;&#1100;</kwd><kwd>&#1087;&#1088;&#1077;&#1078;&#1076;&#1077;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1077; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1077;</kwd><kwd>&#1087;&#1089;&#1080;&#1093;&#1086;&#1087;&#1072;&#1090;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1080;&#1103;</kwd><kwd>&#1085;&#1077;&#1081;&#1088;&#1086;&#1076;&#1077;&#1075;&#1077;&#1085;&#1077;&#1088;&#1072;&#1094;&#1080;&#1103;</kwd><kwd>&#1073;&#1086;&#1083;&#1077;&#1079;&#1085;&#1100; &#1040;&#1083;&#1100;&#1094;&#1075;&#1077;&#1081;&#1084;&#1077;&#1088;&#1072;</kwd><kwd>&#1082;&#1072;&#1090;&#1072;&#1090;&#1086;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1089;&#1080;&#1085;&#1076;&#1088;&#1086;&#1084;</kwd><kwd>&#1101;&#1087;&#1080;&#1083;&#1077;&#1087;&#1089;&#1080;&#1103;</kwd><kwd>&#1072;&#1075;&#1088;&#1077;&#1089;&#1089;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1100;</kwd><kwd>RNA-seq</kwd><kwd>&#1055;&#1062;&#1056;</kwd><kwd>&#1084;&#1080;&#1082;&#1088;&#1086;&#1095;&#1080;&#1087;&#1099;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>The animal models required for understanding the physiological,
+genetic and epigenetic mechanisms regulating evolutionarily
+fixed phenotypic traits of an organism are supposed
+to perfectly mimic the symptoms of the pathology being
+studied and to conform to strict criteria (Gryksa et al., 2023).
+The most popular animal models are rats and mice, with dozens
+of thousands of laboratory strains in use (Gayday E.A.,
+Gayday D.S., 2019).</p><p>The first inbred rat strain was developed in 1906 in the
+Wistar Institute (Philadelphia, USA), about the time that mice
+came to the laboratory settings. Nevertheless, the mouse has
+become the model of choice for research into mammalian
+genetics, and the rat, into physiology and biomedicine. Laboratory
+rats have certain advantages over mice: rats are larger
+and therefore submit more tissue for analyses. Large organs
+make surgical procedures more manageable and rather small
+anatomical structures easier to dissect.</p><p>A low maintenance and cheap species, the rat (Rattus norvegicus)
+has become a convenient object in numerous biomedical
+research studies (Carter et al., 2020; Modlinska, Pisula,
+2020). Rats are recommended for use as model animals
+in studying aging, hypertension, catalepsy etc. (Carter et al.,
+2020; Mart&#237;n-Carro et al., 2023).</p><p>There are generally acknowledged differences between wild
+and laboratory rats. For example, laboratory rats are noted
+for smaller adrenals and preputial glands, earlier puberty,
+lack of seasonality of reproduction and higher fertility than
+have their wild conspecifics. In addition, the rat and human
+genomes share a 90 % identity (Gibbs et al., 2004). Thus, the
+genetic strains of laboratory rats simulating human pathologies
+have been developed: for example, the Zucker strain for
+human obesity, hypertension, type II diabetes and heart disease
+(Schmidt, 2002); the reelin-deficient shaking rat Kawasaki
+for schizophrenia and autism (Aikawa et al., 1988); and the
+Brattleboro strain for hypothalamic diabetes insipidus (Ideno
+et al., 2003). To date, there are about 1,000 inbred strains of
+laboratory rats developed by genetic breeding that have &#8220;fixed&#8221;
+alleles for natural diseases (Greenhouse et al., 1990), such as
+mental disorders (Taylor et al., 2002), depression (Bay et al.,
+2020) and chronic renal failure (Zhang H.F. et al., 2019). The
+Wistar and Sprague-Dawley strains are the most commonly
+used laboratory rats (Sengupta, 2013). At present, the search of
+PubMed (Lu, 2011) with &#8220;rats biomedical model&#8221; as a search
+string returns the annotations of 19,555 original scientific
+papers, which lends support to the relevance of the subject.</p><p>To contribute to the effort, several rat strains simulating human
+diseases have been developed in the Institute of Cytology
+and Genetics of the Siberian Branch of the Russian Academy
+of Sciences. Thus, the ISIAH rats are characterized by an
+increased arterial blood pressure and used for studying the
+causes and treatments of hypertension in humans (Markel,
+1992; Markel et al., 1999; Fedoseeva et al., 2016a, 2019;
+Klimov et al., 2016; Ryazanova et al., 2016), the OXYS rats
+represent a unique selection-based model of premature ageing
+and associated diseases (Kozhevnikova et al., 2013; Kolosova
+et al., 2014; Perepechaeva et al., 2014; Stefanova et al., 2018,
+2019; Stefanova, Kolosova, 2023), rats with pendulum-like
+movements (the PM strain) with stereotypies and audiogenic
+epilepsy, and rats with genetic catatonia (the GC rats), a syndrome
+observed in patients with mental disorders, including
+schizophrenia (Barykina et al., 1983; Kolpakov et al., 2004;
+Ryazanova et al., 2017, 2023).</p><p>Changes in the expression of the genes associated with
+a disease of interest have been studied in the model rats by
+semi-quantitative real-time PCR of separate key genes or by
+profiling transcriptomes by next-generation sequencing or
+by use of microarrays. This effort has created a large body
+of data on the differentially expressed genes (DEGs) significantly
+associated with diseases, and it has become possible
+to collect, perform comparative analyses on and systematize
+the results obtained from these or similar experiments with
+the use of bioinformatics technologies. This has enabled
+the development of specialized databases and knowledge
+bases.</p><p>The aim of this work was to create a knowledge base containing
+information on DEGs of various rat strains developed,
+first of all, in the Institute of Cytology and Genetics of the
+Siberian Branch of the Russian Academy of Sciences as well
+as those developed in a range of Russia&#8217;s and other scientific
+organizations. This knowledge base is freely available at
+https://www.sysbio.ru/RatDEGdb.</p></sec><sec><title>Materials and methods</title><p>Experimental animals. We performed in vivo experiments
+on 12 adult male gray rat (Rattus norvegicus) from two outbred
+strains resulting from genetic breeding for more than
+90 generations in two directions (Belyaev, Borodin, 1982):
+one for increased aggressive behavior towards humans (the
+aggressive strain) and one for decreased (the tame strain). The
+animals were kept in standard conditions at the Conventional
+Animal Facility of the Institute of Cytology and Genetics of
+the Siberian Branch of the Russian Academy of Sciences (Novosibirsk,
+Russia) as groups by four in 50&#215;33&#215;20 cm cages at
+an adjustable light/dark cycle (12 light:12 dark) and had free
+access to water and complete feed.</p><p>The test subjects were two-month-old individuals, each
+weighing 250&#8211;270 g, from unrelated litters. Within the first
+4 hours of the light phase of the diurnal light-dark cycle, each
+animal&#8217;s level of tameness/aggression was measured in the
+&#8220;glove&#8221; test as the reaction to a gloved hand and was scored
+from &#8220;&#8211;4&#8221; (most aggressive) to &#8220;+4&#8221; (most friendly), according
+to Plyusnina and Oskina (1997). Upon the completion of
+this test, the animals were put back to their home cages and
+kept in standard conditions for one week, to reduce possible
+effects that the &#8220;glove&#8221; test might have on gene expression,
+at which point the animals were euthanized and hypothalamus
+specimens were prepared according to the brain atlas of
+Paxinos and Watson (2013). Samples were placed in liquid
+nitrogen for transportation and further storage at &#8211;70 &#176;C until
+use. The protocol of experiments was approved by the Commission
+on Bioethics at the Institute of Cytology and Genetics
+of the Siberian Branch of the Russian Academy of Sciences
+(resolution No. 97 as of October 28, 2021).</p><p>Measurement of the hypothalamic mRNA levels of
+the Asmtl gene in tame and aggressive male gray rats by
+semi-quantitative PCR. To measure mRNA levels by semiquantitative
+real-time polymerase chain reaction, hypothalamic
+RNA was isolated from six aggressive rats (n = 6) and
+six tame rats (n = 6), each specimen weighing ~100 mg. Total
+RNA was isolated using TRIzol&#8482; (Invitrogen, #15596018) and
+purified using magnetic beads in the Agencourt RNAClean
+XP Kit (Beckman, #A63987). Purified RNA was quantified
+using a Qubit&#8482; 2.0 fluorimeter (Invitrogen/Life Technologies)
+and a Qubit&#8482; RNA High-Sensitivity Assay Kit (Invitrogen
+#In=<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-protein" xlink:href="Q32852">Q32852</ext-link>). Next, we synthesized cDNA using the Reverse
+Transcription Kit (Syntol, #OT-1).</p><p>The oligonucleotide primers for each gene in question were
+designed using the web service PrimerBLAST (Ye et al., 2012)
+(Table 1). Real-time PCR was carried out using the EVA
+Green I kit in three technical replicates in a LightCycler&#174; 96
+operated in the automatic mode, according to the manufacturer&#8217;s
+instruction (Roche, Switzerland). The efficiency of the
+polymerase chain reaction was determined by serial cDNA
+dilutions (standards).</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>Primers for quantitative real-time polymerase chain reaction (qPCR)</title><p>Not&#1077;. Primers were selected using the freely available web service PrimerBLAST (Ye et al., 2012). Rat genes: Asmtl, acetylserotonin O-methyltransferase
+like; Ppia, peptidylprolyl isomerase A; Rpl30, ribosomal protein L30. qPCR, quantitative real-time polymerase chain reaction
+using two reference genes as recommended by Bustin et al. (2009). The reference genes of our choice were Ppia (Gholami et al., 2017) and
+Rpl30 (Penning et al., 2007) (for experimental substantiation, see our previous works (Chadaeva et al., 2021)).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Tab1.jpg"/></fig><p>The human gene ASMT encodes acetylserotonin O-methyltransferase,
+a key enzyme in the synthesis of melatonin, one of
+the hormones that regulate the molecular and genetic processes
+in the entire organism, including circadian rhythms as well
+as cancer protective (Lv et al., 2019), anti-inflammatory, and
+immunomediatory mechanisms (Li G. et al., 2021). That is
+why the mRNA level of its rat homolog, Asmtl, in the hypothalamus
+of adult tame and aggressive male rats used as model
+animals in the biomedical studies of increased aggression
+was heuristically chosen as the quantity to be found by semiquantitative
+real-time PCR (real-time PCR) in its first run. As
+was recommended by Bustin and the co-workers (2009), the
+Asmtl mRNA values were normalized to the mRNA levels of
+two comparison genes, Ppia (Gholami et al., 2017) and Rpl30
+(Penning et al., 2007). The relevance of Ppia and Rpl30 as the
+comparison genes in the experimental identification of DEGs
+in the hypothalamus of these aggressive and tame rat strains
+by real-time PCR was demonstrated in one of our previous
+works (Chadaeva et al., 2021).</p><p>RatDEGdb: the knowledge base. The observed lower
+hypothalamic levels of the Asmtl gene in the adult aggressive
+and tame male rats were checked against clinical data suggesting
+that lower levels of the protein encoded by its human
+homologs ASMT and ASMTL were in patients with various
+diseases than in otherwise healthy individuals. The results
+of this comparison were presented in an Excel-compatible,
+flat text format and then converted to RatDEGdb containing
+information about differential gene expression in the rat used
+as a model animal in biomedical research (URL=https://
+www.sysbio.ru/RatDEGdb). The conversion was performed
+using MariaDB 10.2.12, a freely available database (MariaDB
+Corp AB, Finland).</p><p>Likewise, Lu (2011) submitted a representative selection
+of PubMed publications telling about the current diversity
+of laboratory rat strains used as biomedical models simulating
+human diseases and about experimental methods to assess differential gene expression with. Next, all rat DEGs
+in this selection of papers were documented and uploaded
+to RatDEGdb together with their supervised annotations,
+using an algorithm similar to the one described above for
+hypothalamic deficiency of Asmtl in aggressive rats. The lists
+of homologous genes were taken from the paralogs section
+of the GeneCards database (Stelzer et al., 2016). RatDEGdb
+includes the statistical significance of each DEG according to
+the estimates provided in the papers as referenced.</p><p>Statistical analysis of the differential expression of the
+Asmtl gene in the hypothalamus of the tame and aggressive
+rats used as an animal model of human aggressive behavior
+was performed using the menu &#8220;Statistics &#8594; Nonparamet-
+ric
+&#8594; Mann&#8211;Whitney test&#8221; in STATISTICA (StatSoft&#8482;,
+USA), when two independent statistical criteria are being
+assessed at once: the nonparametric Mann&#8211;Whitney U test
+and the parametric test Fisher&#8217;s Z, to assess the sustainability
+of results.</p></sec><sec><title>Results</title><p>Lower hypothalamic Asmtl mRNA levels
+in aggressive than in tame rats</p><p>Asmtl mRNA levels in the hypothalamus as measured and
+compared between the aggressive and tame rats are presented
+in Table 2. As can be seen from Figure 1, significantly lower
+Asmtl mRNA levels were in the aggressive than in tame rats in
+the settings of this experiment ( p &lt; 0.05; the Mann&#8211;Whitney
+U test and Fisher&#8217;s Z).</p><fig position="float" id="Tab-2" orientation="portrait"><label>Table 2.</label><caption><title>Experimental data on &#8220;glove&#8221; test behavior and Asmtl mRNA levels for 12 adult male rats</title><p>Not&#1077;. see Notes to Table 1. Rat strain: A, aggressive rats (n = 6); T, tame rats (n = 6). Tests: &#8220;glove&#8221; test, in which each rat was scored from &#8220;&#8211;4&#8221; (most aggressive) to
+&#8220;+4&#8221; (most friendly), according to a work by Plyusnina and Oskina (1997); Asmtl expression levels, M0 &#177; SEM, estimates of the mean &#177; standard error of the mean
+from three technical replicates, with a LightCycler&#174; 96 operated in the automatic mode (Roche, Switzerland).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Tab2.jpg"/></fig><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Statistically significant differences in hypothalamic Asmtl expression
+levels between tame and aggressive adult male rats.</title><p>* Significance level p &lt; 0.05 according to two independent statistical criteria:
+the nonparametric Mann&#8211;Whitney U test and the parametric test Fisher&#8217;s Z,
+which reflects the sustainability of assessment results for Asmtl as a differentially
+expressed gene (DEG) in aggressive versus tame rats.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Fig1.jpg"/></fig><p>Clinical manifestations
+of human ASMTL and ASMT deficiency</p><p>Table 3 presents the PubMed search results, with search terms
+(Lu, 2011) relating to human diseases associated with low
+expression levels of the ASMTL gene and its human paralog,
+ASMT. Line 1: the Asmt-deleted mouse models of human
+diseases (Trent et al., 2013) suggest a neurodevelopmental
+problem in the form of attention-deficit/hyperactivity disorder
+in combination with externalization symptoms (aggressive
+behavior) in children (Kang et al., 2023).</p><fig position="float" id="Tab-3" orientation="portrait"><label>Table 3.</label><caption><title>Clinical manifestation of deficiencies in ASMTL and in its human paralogue ASMT in human diseases
+according to the current release of the RatDEGdb knowledge base</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Tab3.jpg"/></fig><p>Line 2: ASMT deficiency is a molecular marker of autism,
+according to Melke and co-workers (2008), while a recent survey
+of teenagers above 12 years of age with autism spectrum
+disorders and epilepsy in past medical history revealed their
+inclination to aggression (Gaitanis et al., 2023).</p><p>These two examples are in favor of rather than against the
+low expression levels of the human genes ASMTL and ASMT
+representing, at least, combined molecular characteristics
+of the predisposition to some forms of aggressive behavior.</p><p>Finally, as can be seen from Table 3, these human genes
+were expressed at low levels among candidate molecular
+markers of a wide range of human diseases not associated
+with aggression: depression (Talarowska et al., 2014), developmental
+abnormalities (LiW. et al., 2012), brain injury (Govindarajulu
+et al., 2022; Yang et al., 2023), cell aging (Liu X.
+et al., 2022), cancer (Bi et al., 2019; Lau, Zhang, 2000; Xie et
+al., 2020; Cucielo et al., 2022; Liu Y. et al., 2022), infertility
+(Gonzalez-Arto et al., 2016; Zhang Z. et al., 2018) and asthma
+(Wu et al., 2020).</p><p>Put together, these findings reflect the fact that ASMT gene
+encoding the melatonin synthesis enzyme acetylserotonin
+O-methyltransferase is one of the key hormones involved in
+the regulation of molecular and genetic processes in all human
+body in general including aggression (Melke et al., 2008; Trent et al., 2013; Gaitanis et al., 2023; Kang et al., 2023),
+depression (Talarowska et al., 2014), ontogenesis (LiW. et al.,
+2012; Zhang Z. et al., 2018), wound healing (Govindarajulu
+et al., 2022; Yang et al., 2023), ageing (Liu X. et al., 2022)
+oncoprotector (Lv et al., 2019), anti-inflammatory and immunomediatory
+mechanisms (Li G. et al., 2021).</p><p>RatDEGdb: the knowledge base</p><p>Figure 2 shows how RatDEGdb compares the hypothalamic
+level of Asmtl in the aggressive rat strain with that in the tame.
+Here aggression is considered to be a comorbid symptom
+in human diseases such as thalassemia, obesity and carcinoma
+(for review, see Chadaeva et al., 2016). Consequently, RatDEGdb (see Fig. 1 and Table 2) integrated data on low
+hypothalamic levels of the Asmtl gene in the aggressive rats
+and low levels of its human homolog ASMTL as found in
+patients with neurodevelopmental problems in the form of
+attention-deficit/hyperactivity disorder using an Asmt-deleted
+mouse model (Trent et al., 2013) (see Table 3).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>A sample entry in RatDEGdb documents original experimental data on Asmtl deficiency in the hypothalamus of aggressive
+rats compared to the tame rats as a biomedical model of aggressive behavior in human diseases (see Fig. 1 and Table 2) together
+with their annotation (see Table 3: first row) using independent data on low expression levels of its human homolog ASMT in patients
+with hyperactivity disorders according to an Asmt-deleted mouse model of human disease (Trent et al., 2013).</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Fig2.jpg"/></fig><p>The current release contains information on DEGs in ten
+genetic rat strains used as models of 11 human pathologies
+(Tables 4&#8211;6). As can be seen in the bottom lines of these
+tables, RatDEGdb now contains information on 25,101 DEGs
+representing 14,320 unique rat genes that change transcription
+levels in 21 tissues of 10 genetic rat strains used as models of
+11 human diseases based on 45 original scientific papers referenced
+in the rightmost column of Tables 4&#8211;6. These rat DEGs
+were annotated with information about equal changes in the
+expression levels of their human homologs in affected people.
+In total, the current release contains 94,873 such annotations
+for 321 human genes in 836 diseases based on 959 PubMed
+publications (Lu, 2011). Thus, RatDEGdb is unique in that
+the manual curation of the annotation of DEGs of the rat as
+a model object simulating human pathology uses independent
+clinical data, which none of other biomedical databases
+does.</p></sec><sec><title>Discussion</title><p>The elementary step in filling RatDEGdb with data can be seen
+in Tables 1&#8211;3 and Figures 1&#8211;2, with the Asmtl (acetylserotonin
+O-methyltransferase like) gene as an example. The hypothalamic
+expression of this gene was profiled and compared
+between aggressive and tame rats used as model animals in
+human aggression research. Results of the analysis of this
+gene by real-time PCR are provided. These results were annotated
+using PubMed papers (Lu, 2011) about equal changes
+in the expression levels of its human homologs ASMTL and
+ASMT in patients. Then this annotation of the Asmtl gene differentially
+expressed in the hypothalamus of the aggressive
+and tame rats was supplemented with PCR-, RNA-seq- and
+microarray-based information on all DEGs in the rat used as
+a model object in biomedical research. Next, the uncharacterized,
+unannotated, predicted, and not protein-encoding genes
+were dropped. Finally, we annotated the remaining rat DEGs
+with publicly available works about the clinical manifestations
+of equal changes in the expression levels of their human
+homologs in patients, put these annotations together as the
+RatDEGdb the knowledge base, and made it freely available
+at https://www.sysbio.ru/RatDEGdb.</p><p>Figures 1 and 2 show how RatDEGdb characterizes the
+DEGs of various breeding-based rat strains primarily developed
+in the Institute of Cytology and Genetics of the Siberian
+Branch of the Russian Academy of Sciences (Novosibirsk,
+Russia). The ISIAH rats were used as model animals in the
+biomedical studies of stress-induced arterial hypertension, as
+summarized in Tables 4 and 5. The same tables show that that
+OXYS rats were used for studying age-related diseases and
+ageing processes; and GC rats, for studying psychopathological
+conditions (see Table 4). In addition, tame and aggressive
+rat strains were used for studying animal domestication
+(Plyusnina, Oskina, 1997; Gulevich et al., 2019; Chadaeva et
+al., 2021) and aggression (Popova et al., 2010) as symptoms
+of obesity and thalassemia (Chadaeva et al., 2016, 2019).
+As can seen from Tables 4&#8211;6, whole-genome sequencing
+was performed on each of these models, except for the
+GC strain, in which only the expression levels of the glutamate
+receptor genes and the catecholamine system genes were
+measured.</p><fig position="float" id="Tab-4" orientation="portrait"><label>Table 4.</label><caption><title>Characterization of the qPCR-inferred DEGs of the rat as a model animal in biomedicine
+documented in the RatDEGdb knowledge base</title><p>Not&#1077;. Here and in Tables 5 and 6 : NDEG , number of DEGs. Tissues: ac, anterior cingulate; ag, adrenal gland; bmmscs, bone marrow-derived mesenchymal stromal
+cells; bmp, brain microvascular pericytes; bs, brain stem; fc, frontal cortex; hip, hippocampus; hyp, hypothalamus; ic, infralimbic cortex; lvcp, lateral ventricular
+choroid plexus; mb, midbrain; mo, medulla oblongata; mpc, medial prefrontal cortex; mt, midbrain tegmentum; myoc, myocardium; PAG, periaqueductal gray
+matter; pc, prelimbic cortex; po, prefrontal cortex; rc, renal cortex; rm, renal medulla. Diseases: AD, Alzheimer&#8217;s disease; AMD, age-related macular degeneration;
+ARBLBD, age-related blood-liquor barrier development; CRS, cellular replicative senescence; HT, hypertension; PAH, pulmonary arterial hypertension.
+Models: $, Agtr1a-blocker; PPA, propionic acid; SkQ1, Skulachev&#8217;s antioxidant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Tab4.jpg"/></fig><fig position="float" id="Tab-5" orientation="portrait"><label>Table 5.</label><caption><title>Characterization of the RNA-seq-inferred DEGs of the rat as a model animal in biomedicine
+documented in the RatDEGdb knowledge base</title><p>Not&#1077;. Models: ASA, aspirin; do, days old; DEX, dexamethasone; ed, embryonic days; hfd, high-fructose diet; l-NAME, NG-nitro-l-arginine-methyester; MCT, monocrotaline;
+Resp18MUT, mutant variant; mo, months old; p, passage old; QSYQ, Chinese traditional medicine prescription Qi-Shen-Yi-Qi; wo, weeks old.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Tab5.jpg"/></fig><fig position="float" id="Tab-6" orientation="portrait"><label>Table 6.</label><caption><title>Characterization of the microarray-inferred DEGs of the rat as a model animal in biomedicine
+documented in the RatDEGdb knowledge base</title><p>Not&#1077;. Models: wo, weeks old.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2392-Tab6.jpg"/></fig><p>The existing biomedical databases intended for studying
+human diseases are normally focused on the information on
+the human genome (Stenson et al., 2014; Singh et al., 2018; Sun et al., 2022) and contain primary transcriptome information.
+RatDEGdb is novel in that it supplements biomedicinebased
+whole-genome experimental data on rat DEGs with
+clinical data on equal changes in the expression levels of
+their human homologs in patients, for further use of all these
+data in personalized medicine. With a new capability that
+enables the researcher to compare pathogenic changes in gene
+expression in humans and model animals, RatDEGdb can be
+useful in addressing problems in systems biology and clinical
+medicine.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>The RatDEGdb knowledge base is a collection of experimental
+data and a toolkit for interactive analyses in genomic research
+into diseases, such as Alzheimer&#8217;s disease, autism, hypertension
+and some others. We are planning to continue updating
+RatDEGdb by adding new information on gene expression in
+rats as model objects of human diseases and annotating the
+DEGs with pieces of works on equal changes in the expression
+levels of their human homologs in patients.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Aikawa H., Nonaka I., Woo M., Tsugane T., Esaki K. Shaking rat Kawasaki
+(SRK): a new neurological mutant rat in the Wistar strain.
+Acta Neuropathol. 1988;76:366-372. DOI 10.1007/BF00686973</p><p>Albert F.W., Somel M., Carneiro M., Aximu-Petri A., Halbwax M.,
+Thalmann O., Blanco-Aguiar J.A., Plyusnina I.Z., Trut L., Villafuerte
+R., Ferrand N., Kaiser S., Jensen P., Paabo S. A comparison
+of brain gene expression levels in domesticated and wild animals.
+PLoS Genet. 2012;8(9):e1002962. DOI 10.1371/journal.pgen.100
+2962</p><p>Ashraf U.M., Mell B., Jose P.A., Kumarasamy S. Deep transcriptomic
+profiling of Dahl salt-sensitive rat kidneys with mutant form
+of Resp18. Biochem. Biophys. Res. Commun. 2021;572:35-40. DOI
+10.1016/j.bbrc.2021.07.071</p><p>Barykina N.N., Chepkasov I.L., Alekhina T.A., Kolpakov V.G. Selection
+of Wistar rats for predisposition to catalepsy. Genetika. 1983;
+19(12):2014-2021</p><p>Bay V., Happ D.F., Ardalan M., Quist A., Oggiano F., Chumak T.,
+Hansen K., Ding M., Mallard C., Tasker R.A., Wegener G. Flinders
+sensitive line rats are resistant to infarction following transient occlusion
+of the middle cerebral artery. Brain Res. 2020;1737:146797.
+DOI 10.1016/j.brainres.2020.146797</p><p>Belyaev D.K., Borodin P.M. The influence of stress on variation and its
+role in evolution. Biologisches Zentralblatt. 1982;101(6):705-714</p><p>Bi J., Huang Y., Liu Y. Effect of NOP2 knockdown on colon cancer cell
+proliferation, migration, and invasion. Transl. Cancer Res. 2019;
+8(6):2274-2283. DOI 10.21037/tcr.2019.09.46</p><p>Bustin S.A., Benes V., Garson J.A., Hellemans J., Huggett J., Kubista
+M., Mueller R., Nolan T., Pfaffl M.W., Shipley G.L., Vandesompele
+J., Wittwer C.T. The MIQE guidelines: minimum information
+for publication of quantitative real-time PCR experiments. Clin.
+Chem. 2009;55(4):611-622. DOI 10.1373/clinchem.2008.112797</p><p>Carter C.S., Richardson A., Huffman D.M., Austad S. Bring back the
+rat! J. Gerontol. A Biol. Sci. Med. Sci. 2020;75(3):405-415. DOI
+10.1093/gerona/glz298</p><p>Chadaeva I.V., Ponomarenko M.P., Rasskazov D.A., Sharypova E.B.,
+Kashina E.V., Matveeva M.Y., Arshinova T.V., Ponomarenko P.M.,
+Arkova O.V., Bondar N.P., Savinkova L.K., Kolchanov N.A. Candidate
+SNP markers of aggressiveness-related complications and comorbidities
+of genetic diseases are predicted by a significant change
+in the affinity of TATA-binding protein for human gene promoters.
+BMC Genomics. 2016;17(Suppl.14):995. DOI 10.1186/s12864-016-
+3353-3</p><p>Chadaeva I., Ponomarenko P., Rasskazov D., Sharypova E., Kashina E.,
+Kleshchev M., Ponomarenko M., Naumenko V., Savinkova L., Kolchanov
+N., Osadchuk L., Osadchuk A. Natural selection equally supports
+the human tendencies in subordination and domination: a genome-
+wide study with in silico confirmation and in vivo validation
+in mice. Front. Genet. 2019;10:73. DOI 10.3389/fgene.2019.00073</p><p>Chadaeva I., Ponomarenko P., Kozhemyakina R., Suslov V., Bogomolov
+A., Klimova N., Shikhevich S., Savinkova L., Oshchepkov D.,
+Kolchanov N., Markel A., Ponomarenko M. Domestication explains
+two-thirds of differential-gene-expression variance between domestic
+and wild animals; the remaining one-third reflects intraspecific
+and interspecific variation. Animals. 2021;11(9):2667. DOI 10.3390/
+ani11092667</p><p>Choi J., Lee S., Won J., Jin Y., Hong Y., Hur T.Y., Kim J.H., Lee S.R.,
+Hong Y. Pathophysiological and neurobehavioral characteristics of
+a propionic acid-mediated autism-like rat model. PLoS One. 2018;
+13(2):e0192925. DOI 10.1371/journal.pone.0192925</p><p>Cucielo M.S., Cesario R.C., Silveira H.S., Gaiotte L.B., Dos Santos
+S.A.A., de Campos Zuccari D.A.P., Seiva F.R.F., Reiter R.J.,
+de Almeida Chuffa L.G. Melatonin reverses the warburg-type metabolism
+and reduces mitochondrial membrane potential of ovarian
+cancer cells independent of MT1 receptor activation. Molecules.
+2022;27(14):4350. DOI 10.3390/molecules27144350</p><p>Du H., Xiao G., Xue Z., Li Z., He S., Du X., Zhou Z., Cao L., Wang Y.,
+Yang J., Wang X., Zhu Y. QiShenYiQi ameliorates salt-induced hypertensive
+nephropathy by balancing ADRA1D and SIK1 expression
+in Dahl salt-sensitive rats. Biomed. Pharmacother. 2021;141:
+111941. DOI 10.1016/j.biopha.2021.111941</p><p>Fedoseeva L.A., Dymshits G.M., Markel A.L., Jakobson G.S. Renin
+system of the kidney in ISIAH rats with inherited stress-induced arterial
+hypertension. Bull. Exp. Biol. Med. 2009;147(2):177-180. DOI
+10.1007/s10517-009-0465-7</p><p>Fedoseeva L.A., Riazanova M.A., Antonov E.V., Dymshits G.M., Markel
+A.L. Expression of the renin angiotensin system genes in the kidney
+and heart of ISIAH hypertensive rats. Biochem. Moscow Suppl.
+Ser. B. 2011;5(1):37-43. DOI 10.1134/s1990750811010069</p><p>Fedoseeva L.A., Klimov L.O., Ershov N.I., Alexandrovich Y.V., Efimov
+V.M., Markel A.L., Redina O.E. Molecular determinants of
+the adrenal gland functioning related to stress-sensitive hypertension
+in ISIAH rats. BMC Genomics. 2016a;17(Suppl.14):989. DOI
+10.1186/s12864-016-3354-2</p><p>Fedoseeva L.A., Ryazanova M.A., Ershov N.I., Markel A.L., Redina
+O.E. Comparative transcriptional profiling of renal cortex in rats
+with inherited stress-induced arterial hypertension and normotensive
+Wistar Albino Glaxo rats. BMC Genet. 2016b;17(Suppl.1):12. DOI
+10.1186/s12863-015-0306-9</p><p>Fedoseeva L.A., Klimov L.O., Ershov N.I., Efimov V.M., Markel A.L.,
+Orlov Y.L., Redina O.E. The differences in brain stem transcriptional
+profiling in hypertensive ISIAH and normotensive WAG rats.
+BMC Genomics. 2019;20(Suppl.3):297. DOI 10.1186/s12864-019-
+5540-5</p><p>Gaitanis J., Nie D., Hou T., Frye R. Developmental regression followed
+by epilepsy and aggression: a new syndrome in autism spectrum
+disorder? J. Pers. Med. 2023;13(7):1049. DOI 10.3390/jpm
+13071049</p><p>Gayday E.A., Gayday D.S. Genetic diversity of experimental mice and
+rats: history of origin, methods of production and check. Laboratornye
+Zhivotnye Dlya Nauchnykh Issledovaniy = Laboratory Animals
+for Scientific Research. 2019;4:78-85. DOI 10.29296/26187
+23X-2019-04-09 (in Russian)</p><p>Gholami K., Loh S.Y., Salleh N., Lam S.K., Hoe S.Z. Selection of suitable
+endogenous reference genes for qPCR in kidney and hypothalamus
+of rats under testosterone influence. PLoS One. 2017;12(6):
+e0176368. DOI 10.1371/journal.pone.0176368</p><p>Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren
+E.J., Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., &#8230;
+Peterson J., Guyer M., Felsenfeld A., Old S., Mockrin S., Collins F;
+Rat Genome Sequencing Project Consortium. Genome sequence of
+the Brown Norway rat yields insights into mammalian evolution.
+Nature. 2004;428(6982):493-521. DOI 10.1038/nature02426</p><p>Gonzalez-Arto M., Hamilton T.R., Gallego M., Gaspar-Torrubia E.,
+Aguilar D., Serrano-Blesa E., Abecia J.A., Perez-Pe R., Muino-
+Blanco T., Cebrian-Perez J.A., Casao A. Evidence of melatonin synthesis
+in the ram reproductive tract. Andrology. 2016;4(1):163-171.
+DOI 10.1111/andr.12117</p><p>Govindarajulu M., Patel M.Y., Wilder D.M., Long J.B., Arun P. Blast
+exposure dysregulates nighttime melatonin synthesis and signaling
+in the pineal gland: a potential mechanism of blast-induced sleep
+disruptions. Brain Sci. 2022;12(10):1340. DOI 10.3390/brainsci
+12101340</p><p>Greenhouse D.D., Festing M.F.W., Hasan S., Cohen A.L. Inbred strains
+of rats and mutants. In: Hedrich H.J. (Ed.) Genetic Monitoring
+of Inbred Strains of Rats. Stuttgart: Gustav Fischer Verlag, 1990;
+410-480</p><p>Gryksa K., Schmidtner A.K., Mas&#237;s-Calvo M., Rodr&#237;guez-Villagra O.A.,
+Havasi A., Wirobski G., Maloumby R., J&#228;gle H., Bosch O.J., Slattery
+D.A., Neumann I.D. Selective breeding of rats for high (HAB)
+and low (LAB) anxiety-related behaviour: a unique model for comorbid
+depression and social dysfunctions. Neurosci. Biobehav.
+Rev. 2023;152:105292. DOI 10.1016/j.neubiorev.2023.105292</p><p>Gulevich R., Kozhemyakina R., Shikhevich S., Konoshenko M., Herbeck
+Y. Aggressive behavior and stress response after oxytocin administration
+in male Norway rats selected for different attitudes to
+humans. Physiol. Behav. 2019;199:210-218. DOI 10.1016/j.physbeh.
+2018.11.030</p><p>Herbeck Yu.E., Os&#8217;kina I.N., Gulevich R.G., Plyusnina I.Z. Effects
+of maternal methyl-supplemented diet on hippocampal glucocorticoid
+receptor mRNA expression in rats selected for behavior. Cytol.
+Genet. (Moscow.). 2010;44(2):108-113. DOI 10.3103/S00954527
+10020064</p><p>Ideno J., Mizukami H., Honda K., Okada T., Hanazono Y., Kume A.,
+Saito T., Ishibashi S., Ozawa K. Persistent phenotypic correction of
+central diabetes insipidus using adeno-associated virus vector expressing
+arginine-vasopressin in Brattleboro rats. Mol. Ther. 2003;
+8(6):895-902. DOI 10.1016/j.ymthe.2003.08.019</p><p>Ilchibaeva T.V., Kondaurova E.M., Tsybko A.S., Kozhemyakina R.V.,
+Popova N.K., Naumenko V.S. Brain-derived neurotrophic factor
+(BDNF) and its precursor (proBDNF) in genetically defined fear-induced
+aggression. Behav. Brain Res. 2015;290:45-50. DOI 10.1016/
+j.bbr.2015.04.041</p><p>Ilchibaeva T.V., Tsybko A.S., Kozhemyakina R.V., Naumenko V.S.
+Expression of apoptosis genes in the brain of rats with genetically
+defined fear-induced aggression. Mol. Biol. (Moscow). 2016;50(5):
+814-820. DOI 10.7868/S0026898416030071</p><p>Kang S., Gair S.L., Paton M.J., Harvey E.A. Racial and ethnic differences
+in the relation between parenting and preschoolers&#8217; externalizing
+behaviors. Early Educ. Dev. 2023;34(4):823-841. DOI
+10.1080/10409289.2022.2074202</p><p>Klimov L.O., Fedoseeva L.A., Ryazanova M.A., Dymshits G.M., Markel
+A.L. Expression of renin-angiotensin system genes in brain
+structures of ISIAH rats with stress-induced arterial hypertension.
+Bull. Exp. Biol. Med. 2013;154(3):357-660. DOI 10.1007/s10517-
+013-1950-6</p><p>Klimov L.O., Ershov N.I., Efimov V.M., Markel A.L., Redina O.E.
+Genome-wide transcriptome analysis of hypothalamus in rats with
+inherited stress-induced arterial hypertension. BMC Genet. 2016;
+17(Suppl.1):13. DOI 10.1186/s12863-015-0307-8</p><p>Klimov L.O., Ryazanova M.A., Fedoseeva L.A., Markel A.L. Effects
+of brain renin-angiotensin system inhibition in ISIAH rats with inherited
+stress-induced arterial hypertension. Vavilovskii Zhurnal Genetiki
+i Selektsii = Vavilov Journal of Genetics and Breeding. 2017;
+21(6):735-741. DOI 10.18699/VJ17.29-o (in Russian)</p><p>Klimova N.V., Chadaeva I.V., Shichevich S.G., Kozhemyakina R.V.
+Differential expression of 10 genes in the hypothalamus of two generations
+of rats selected for a reaction to humans. Vavilovskii Zhurnal
+Genetiki i Selektsii = Vavilov Journal of Genetics and Breeding.
+2021;25(2):208-215. DOI 10.18699/VJ21.50-o</p><p>Kolosova N.G., Stefanova N.A., Korbolina E.E., Fursova A.Z., Kozhevnikova
+O.S. Senescence-accelerated OXYS rats: a genetic
+model of premature aging and age-related diseases. Adv. Gerontol.
+2014;4:294-298. DOI 10.1134/S2079057014040146</p><p>Kolpakov V.G., Kulikov A.V., Alekhina T.A., Chuguy V.F., Petrenko
+O.I., Barykina N.N. Catatonia or depression: the GC rat strain
+as an animal model of psychopathology. Russ. J. Genet. 2004;40(6):
+672-678. DOI 10.1023/B:RUGE.0000033315.79449.d4</p><p>Kondaurova E.M., Ilchibaeva T.V., Tsybko A.S., Kozhemyakina R.V.,
+Popova N.K., Naumenko V.S. 5-HT1A receptor gene silencers
+Freud-1 and Freud-2 are differently expressed in the brain of rats
+with genetically determined high level of fear-induced aggression or its absence. Behav. Brain Res. 2016;310:20-25. DOI 10.1016/
+j.bbr.2016.04.050</p><p>Kozhevnikova O.S., Korbolina E.E., Ershov N.I., Kolosova N.G. Rat
+retinal transcriptome: effects of aging and AMD-like retinopathy.
+Cell Cycle. 2013;12(11):1745-1761. DOI 10.4161/cc.24825</p><p>Lau Y.F., Zhang J. Expression analysis of thirty one Y chromosome
+genes in human prostate cancer. Mol. Carcinog. 2000;27(4):308-321.
+DOI 10.1002/(sici)1098-2744(200004)27:4&lt;308::aid-mc9&gt;3.0.co;2-r</p><p>Li G., Lv D., Yao Y., Wu H., Wang J., Deng S., Song Y., Guan S.,
+Wang L., Ma W., Yang H., Yan L., Zhang J., Ji P., Zhang L., Lian Z.,
+Liu G. Overexpression of ASMT likely enhances the resistance of
+transgenic sheep to brucellosis by influencing immune-related signaling
+pathways and gut microbiota. FASEB J. 2021;35(9):e21783.
+DOI 10.1096/fj.202100651r</p><p>Li W., Wang X., Fan W., Zhao P., Chan Y.C., Chen S., Zhang S.,
+Guo X., Zhang Y., Li Y., Cai J., Qin D., Li X., Yang J., Peng T., Zychlinski
+D., Hoffmann D., Zhang R., Deng K., Ng K.M., Menten B.,
+Zhong M., Wu J., Li Z., Chen Y., Schambach A., Tse H.F., Pei D.,
+Esteban M.A. Modeling abnormal early development with induced
+pluripotent stem cells from aneuploid syndromes. Hum. Mol. Genet.
+2012;21(1):32-45. DOI 10.1093/hmg/ddr435</p><p>Liddelow S.A., Dziegielewska K.M., Ek C.J., Habgood M.D., Bauer H.,
+Bauer H.C., Lindsay H., Wakefield M.J., Strazielle N., Kratzer I.,
+Mollgard K., Ghersi-Egea J.F., Saunders N.R. Mechanisms that
+determine the internal environment of the developing brain: a transcriptomic,
+functional and ultrastructural approach. PLoS One.
+2013;8(7):e65629. DOI 10.1371/journal.pone.0065629</p><p>Liu W., Huang Z., Xia J., Cui Z., Li L., Qi Z., Liu W. Gene expression
+profile associated with Asmt knockout-induced depression-like
+behaviors and exercise effects in mouse hypothalamus. Biosci. Rep.
+2022;42(7):bsr20220800. DOI 10.1042/bsr20220800</p><p>Liu X., Zhan Y., Xu W., Liu L., Liu X., Da J., Zhang K., Zhang X.,
+Wang J., Liu Z., Jin H., Zhang B., Li Y. Characterization of transcriptional
+landscape in bone marrow-derived mesenchymal stromal
+cells treated with aspirin by RNA-seq. PeerJ. 2022;10:e12819. DOI
+10.7717/peerj.12819</p><p>Liu Y., Xiang J., Liao Y., Peng G., Shen C. Identification of tryptophan
+metabolic gene-related subtypes, development of prognostic
+models, and characterization of tumor microenvironment infiltration
+in gliomas. Front. Mol. Neurosci. 2022;15:1037835. DOI 10.3389/
+fnmol.2022.1037835</p><p>Lu Z. PubMed and Beyond: A Survey of Web Tools for Searching
+Biomedical Literature. Database (Oxford). 2011;2011:baq036. DOI
+10.1093/database/baq036</p><p>Lv J.W., Zheng Z.Q., Wang Z.X., Zhou G.Q., Chen L., Mao Y.P.,
+Lin A.H., Reiter R.J., Ma J., Chen Y.P., Sun Y. Pan-cancer genomic
+analyses reveal prognostic and immunogenic features of the tumor
+melatonergic microenvironment across 14 solid cancer types. J. Pineal
+Res. 2019;66(3):e12557. DOI 10.1111/jpi.12557</p><p>Markel A.L. Development of a new strain of rats with inherited stressinduced
+arterial hypertension. In: Sassard J. (Ed.) Genetic Hypertension.
+London: John Libbey Eurotext Ltd., 1992;218:405-407</p><p>Markel A.L., Maslova L.N., Shishkina G.T., Mahanova N.A., Jacobson
+G.S. Developmental influences on blood pressure regulation in
+ISIAH rats. In: McCarty R., Blizard D.A., Chevalier R.L. (Eds.) Development
+of the Hypertensive Phenotype: Basic and Clinical Studies.
+In the series Handbook of Hypertension. Amsterdam: Elsevier,
+1999;493-526</p><p>Mart&#237;n-Carro B., Donate-Correa J., Fern&#225;ndez-Villabrille S., Mart&#237;n-
+V&#237;rgala J., Panizo S., Carrillo-L&#243;pez N., Mart&#237;nez-Arias L., Navarro-
+Gonz&#225;lez J.F., Naves-D&#237;az M., Fern&#225;ndez-Mart&#237;n J.L., Alonso-
+Montes C., Cannata-And&#237;a J.B. Experimental models to study
+diabetes mellitus and its complications: limitations and new opportunities.
+Int. J. Mol. Sci. 2023;24(12):10309. DOI 10.3390/ijms
+241210309</p><p>Melke J., Goubran Botros H., Chaste P., Betancur C., Nygren G.,
+Anckars&#228;ter
+H., Rastam M., St&#229;hlberg O., Gillberg I.C., Delorme R.,
+Chabane N., Mouren-Simeoni M.C., Fauchereau F., Durand C.M.,
+Chevalier F., Drouot X., Collet C., Launay J.M., Leboyer M., Gillberg
+C., Bourgeron T. Abnormal melatonin synthesis in autism spectrum
+disorders. Mol. Psychiatry. 2008;13(1):90-98. DOI 10.1038/
+sj.mp.4002016</p><p>Modlinska K., Pisula W. The Norway rat, from an obnoxious pest to a
+laboratory pet. eLife. 2020;9:e50651. DOI 10.7554/eLife.50651</p><p>Moskaliuk V.S., Kozhemyakina R.V., Bazovkina D.V., Terenina E.,
+Khomenko T.M., Volcho K.P., Salakhutdinov N.F., Kulikov A.V.,
+Naumenko V.S., Kulikova E. On an association between fear-induced
+aggression and striatal-enriched protein tyrosine phosphatase
+(STEP) in the brain of Norway rats. Biomed. Pharmacother. 2022;
+147:112667. DOI 10.1016/j.biopha.2022.112667</p><p>Moskaliuk V.S., Kozhemyakina R.V., Khomenko T.M., Volcho K.P.,
+Salakhutdinov N.F., Kulikov A.V., Naumenko V.S., Kulikova E.A.
+On associations between fear-induced aggression, Bdnf transcripts,
+and serotonin receptors in the brains of Norway rats: an influence of
+antiaggressive drug TC-2153. Int. J. Mol. Sci. 2023;24(2):983. DOI
+10.3390/ijms24020983</p><p>Naumenko V.S., Kozhemjakina R.V., Plyusnina I.Z., Popova N.K. Expression
+of serotonin transporter gene and startle response in rats
+with genetically determined fear-induced aggression. Bull. Exp.
+Biol. Med. 2009;147(1):81-83. DOI 10.1007/s10517-009-0441-2</p><p>Oshchepkov D., Ponomarenko M., Klimova N., Chadaeva I., Bragin
+A., Sharypova E., Shikhevich S., Kozhemyakina R. A rat model
+of human behavior provides evidence of natural selection against
+underexpression of aggressiveness-related genes in humans. Front.
+Genet. 2019;10:1267. DOI 10.3389/fgene.2019.01267</p><p>Oshchepkov D., Chadaeva I., Kozhemyakina R., Zolotareva K., Khandaev
+B., Sharypova E., Ponomarenko P., Bogomolov A., Klimova
+N.V., Shikhevich S., Redina O., Kolosova N.G., Nazarenko M.,
+Kolchanov N.A., Markel A., Ponomarenko M. Stress reactivity, susceptibility
+to hypertension, and differential expression of genes in
+hypertensive compared to normotensive patients. Int. J. Mol. Sci.
+2022a;23(5):2835. DOI 10.3390/ijms23052835</p><p>Oshchepkov D., Chadaeva I., Kozhemyakina R., Shikhevich S., Sharypova
+E., Savinkova L., Klimova N.V., Tsukanov A., Levitsky V.G.,
+Markel A.L. Transcription factors as important regulators of changes
+in behavior through domestication of gray rats: quantitative data
+from RNA sequencing. Int. J. Mol. Sci. 2022b;23(20):12269. DOI
+10.3390/ijms232012269</p><p>Paxinos G., Watson C. The Rat Brain in Stereotaxic Coordinates. London:
+Acad. Press, Elsevier Inc., 2013.</p><p>Penning L.C., Vrieling H.E., Brinkhof B., Riemers F.M., Rothuizen J.,
+Rutteman G.R., Hazewinkel H.A. A validation of 10 feline reference
+genes for gene expression measurements in snap-frozen tissues. Vet.
+Immunol. Immunopathol. 2007;120(3-4):212-222. DOI 10.1016/
+j.vetimm.2007.08.006</p><p>Perepechaeva M.L., Grishanova A.Y., Rudnitskaya E.A., Kolosova
+N.G. The mitochondria-targeted antioxidant SkQ1 downregulates
+aryl hydrocarbon receptor-dependent genes in the retina of OXYS
+rats with AMD-like retinopathy. J. Ophthalmol. 2014;2014:530943.
+DOI 10.1155/2014/530943</p><p>Plekanchuk V.S., Ryazanova M.A. Expression of glutamate receptor
+genes in the hippocampus and frontal cortex in GC rat strain with
+genetic catatonia. J. Evol. Biochem. Phys. 2021;57(1):156-163. DOI
+10.1134/S0022093021010154</p><p>Plyusnina I., Oskina I. Behavioral and adrenocortical responses to
+open-field test in rats selected for reduced aggressiveness toward humans. Physiol. Behav. 1997;61(3):381-385. DOI 10.1016/S0031-
+9384(96)00445-3</p><p>Popova N.K., Naumenko V.S., Plyusnina I.Z. Involvement of brain
+serotonin 5-HT1A receptors in genetic predisposition to aggressive
+behavior. Neurosci. Behav. Physiol. 2007;37(6):631-635. DOI
+10.1007/s11055-007-0062-z</p><p>Popova N.K., Naumenko V.S., Kozhemyakina R.V., Plyusnina I.Z.
+Functional characteristics of serotonin 5-HT2A and 5-HT2C receptors
+in the brain and the expression of the 5-HT2A and 5-HT2C receptor
+genes in aggressive and non-aggressive rats. Neurosci. Behav.
+Physiol. 2010;40(4):357-361. DOI 10.1007/s11055-010-9264-x</p><p>Ryazanova M.A., Fedoseeva L.A., Ershov N.I., Efimov V.M., Markel
+A.L., Redina O.E. The gene-expression profile of renal medulla
+in ISIAH rats with inherited stress-induced arterial hypertension.
+BMC Genet. 2016;17(Suppl.3):151. DOI 10.1186/s12863-
+016-0462-6</p><p>Ryazanova M.A., Prokudina O.I., Plekanchuk V.S., Alekhina T.A. Expression
+of catecholaminergic genes in the midbrain and prepulse inhibition
+in rats with a genetic catatonia. Vavilovskii Zhurnal Genetiki
+i Selektsii = Vavilov Journal of Genetics and Breeding. 2017;21(7):
+798-803. DOI 10.18699/VJ17.296 (in Russian)</p><p>Ryazanova M.A., Plekanchuk V.S., Prokudina O.I., Makovka Y.V.,
+Alekhina T.A., Redina O.E., Markel A.L. Animal models of hypertension
+(ISIAH rats), catatonia (GC rats), and audiogenic epilepsy
+(PM rats) developed by breeding. Biomedicines. 2023;11(7):1814.
+DOI 10.3390/biomedicines11071814</p><p>Sengupta P. The laboratory rat: relating its age with human&#8217;s. Int. J.
+Prev. Med. 2013;4(6):624-630</p><p>Schmidt I. Metabolic diseases: the environment determines the odds,
+even for genes. News Physiol. Sci. 2002;17:115-121. DOI 10.1152/
+nips.01380.2001</p><p>Shikhevich S., Chadaeva I., Khandaev B., Kozhemyakina R., Zolotareva
+K., Kazachek A., Oshchepkov D., Bogomolov A., Klimova
+N.V., Ivanisenko V.A., Demenkov P., Mustafin Z., Markel A.,
+Savinkova L., Kolchanov N.A., Kozlov V., Ponomarenko M. Differentially
+expressed genes and molecular susceptibility to human agerelated
+diseases. Int. J. Mol. Sci. 2023;24(4):3996. DOI 10.3390/
+ijms24043996</p><p>Singh G., Bhat B., Jayadev M.S.K., Madhusudhan C., Singh A.
+mutTCPdb: a comprehensive database for genomic variants of a tropical
+country neglected disease-tropical calcific pancreatitis. Database
+(Oxford ). 2018;2018:bay043. DOI 10.1093/database/bay043</p><p>Stefanova N.A., Kolosova N.G. The rat brain transcriptome: from infancy
+to aging and sporadic Alzheimer&#8217;s disease-like pathology.
+Int. J. Mol. Sci. 2023;24(2):1462. DOI 10.3390/ijms24021462</p><p>Stefanova N.A., Maksimova K.Y., Rudnitskaya E.A., Muraleva N.A.,
+Kolosova N.G. Association of cerebrovascular dysfunction with the
+development of Alzheimer&#8217;s disease-like pathology in OXYS rats.
+BMC Genomics. 2018;19(Suppl.3):75. DOI 10.1186/s12864-018-
+4480-9</p><p>Stefanova N.A., Ershov N.I., Maksimova K.Y., Muraleva N.A., Tyumentsev
+M.A., Kolosova N.G. The rat prefrontal-cortex transcriptome:
+effects of aging and sporadic Alzheimer&#8217;s disease-like pathology.
+J. Gerontol. A Biol. Sci. Med. Sci. 2019;74(1):33-43. DOI
+10.1093/gerona/gly198</p><p>Stelzer G., Rosen N., Plaschkes I., Zimmerman S., Twik M., Fishilevich
+S., Stein T.I., Nudel R., Lieder I., Mazor Y., Kaplan S., Dahary
+D., Warshawsky D., Guan-Golan Y., Kohn A., Rappaport N.,
+Safran M., Lancet D. The GeneCards suite: from gene data mining
+to disease genome sequence analyses. Curr. Protoc. Bioinformatics.
+2016;54:1.30.1-1.30.33. DOI 10.1002/cpbi.5</p><p>Stenson P.D., Mort M., Ball E.V., Shaw K., Phillips A., Cooper D.N. The
+Human Gene Mutation Database: building a comprehensive mutation
+repository for clinical and molecular genetics, diagnostic testing
+and personalized genomic medicine. Hum. Genet. 2014;133(1):1-9.
+DOI 10.1007/s00439-013-1358-4</p><p>Sun S., Wang Y., Maslov A.Y., Dong X., Vijg J. SomaMutDB: a database
+of somatic mutations in normal human tissues. Nucleic Acids
+Res. 2022;50(D1):D1100-D1108. DOI 10.1093/nar/gkab914</p><p>Suzuki H., Han S.D., Lucas L.R. Increased 5-HT1B receptor density
+in the basolateral amygdala of passive observer rats exposed
+to aggression. Brain Res. Bull. 2010;83(1-2):38-43. DOI 10.1016/
+j.brainresbull.2010.06.007</p><p>Tain Y.L., Huang L.T., Chan J.Y., Lee C.T. Transcriptome analysis in
+rat kidneys: importance of genes involved in programmed hypertension.
+Int. J. Mol. Sci. 2015;16(3):4744-4758. DOI 10.3390/ijms
+16034744</p><p>Talarowska M., Szemraj J., Zaj&#261;czkowska M., Galecki P. ASMT gene
+expression correlates with cognitive impairment in patients with recurrent
+depressive disorder. Med. Sci. Monit. 2014;20:905-912. DOI
+10.12659/MSM.890160</p><p>Taylor J.R., Morshed S.A., Parveen S., Mercadante M.T., Scahill L.,
+Peterson B.S., King R.A., Leckman J.F., Lombroso P.J. An animal
+model of Tourette&#8217;s syndrome. Am. J. Psychiatry. 2002;159(4):657-
+660. DOI 10.1176/appi.ajp</p><p>Tharmalingam S., Khurana S., Murray A., Lamothe J., Tai T.C. Whole
+transcriptome analysis of adrenal glands from prenatal glucocorticoid
+programmed hypertensive rodents. Sci. Rep. 2020;10(1):
+18755. DOI 10.1038/s41598-020-75652-y</p><p>Trent S., Dean R., Veit B., Cassano T., Bedse G., Ojarikre O.A.,
+Humby T., Davies W. Biological mechanisms associated with increased
+perseveration and hyperactivity in a genetic mouse model
+of neurodevelopmental disorder. Psychoneuroendocrinology. 2013;
+38(8):1370-1380. DOI 10.1016/j.psyneuen.2012.12.002</p><p>Wall V.L., Fischer E.K., Bland S.T. Isolation rearing attenuates social
+interaction-induced expression of immediate early gene protein products
+in the medial prefrontal cortex of male and female rats. Physiol.
+Behav. 2012;107(3):440-450. DOI 10.1016/j.physbeh.2012.09.002</p><p>Watanabe Y., Yoshida M., Yamanishi K., Yamamoto H., Okuzaki D.,
+Nojima
+H., Yasunaga T., Okamura H., Matsunaga H., Yamanishi H.
+Genetic analysis of genes causing hypertension and stroke in spontaneously
+hypertensive rats: gene expression profiles in the kidneys.
+Int. J. Mol. Med. 2015;36(3):712-724. DOI 10.3892/ijmm.2015.
+2281</p><p>Wu H.M., Zhao C.C., Xie Q.M., Xu J., Fei G.H. TLR2-melatonin
+feedback loop regulates the activation of NLRP3 inflammasome in
+murine allergic airway inflammation. Front. Immunol. 2020;11:172.
+DOI 10.3389/fimmu.2020.00172</p><p>Xiao G., Wang T., Zhuang W., Ye C., Luo L., Wang H., Lian G., Xie L.
+RNA sequencing analysis of monocrotaline-induced PAH reveals
+dysregulated chemokine and neuroactive ligand receptor pathways.
+Aging (Albany NY). 2020;12(6):4953-4969. DOI 10.18632/aging.
+102922</p><p>Xie F., Wang L., Liu Y., Liu Z., Zhang Z., Pei J., Wu Z., Zhai M., Cao Y.
+ASMT regulates tumor metastasis through the circadian clock system
+in triple-negative breast cancer. Front. Oncol. 2020;10:537247.
+DOI 10.3389/fonc.2020.537247</p><p>Yang H., Zhang Z., Ding X., Jiang X., Tan L., Lin C., Xu L., Li G.,
+Lu L., Qin Z., Feng X., Li M. RP58 knockdown contributes to hypoxia-
+ischemia-induced pineal dysfunction and circadian rhythm
+disruption in neonatal rats. J. Pineal Res. 2023;75(1):e12885. DOI
+10.1111/jpi.12885</p><p>Ye J., Coulouris G., Zaretskaya I., Cutcutache I., Rozen S., Madden
+T.L. Primer-BLAST: a tool to design target-specific primers for
+polymerase chain reaction. BMC Bioinformatics. 2012;13:134. DOI
+10.1186/1471-2105-13-134</p><p>Yoshida M., Watanabe Y., Yamanishi K., Yamashita A., Yamamoto H.,
+Okuzaki D., Shimada K., Nojima H., Yasunaga T., Okamura H.,
+Matsunaga H., Yamanishi H. Analysis of genes causing hypertension
+and stroke in spontaneously hypertensive rats: gene expression
+profiles in the brain. Int. J. Mol. Med. 2014;33(4):887-896. DOI
+10.3892/ijmm.2014.1631</p><p>Yuan X., Wu Q., Liu X., Zhang H., Xiu R. Transcriptomic profile
+analysis of brain microvascular pericytes in spontaneously hypertensive
+rats by RNA-Seq. Am. J. Transl. Res. 2018;10(8):2372-2386.
+PMID 30210677</p><p>Zhang H.F., Wang J.H., Wang Y.L., Gao C., Gu Y.T., Huang J.,
+Wang J.H., Zhang Z. Salvianolic acid A protects the kidney against
+oxidative stress by activating the Akt/GSK-3&#946;/Nrf2 signaling pathway
+and inhibiting the NF-&#954;B signaling pathway in 5/6 nephrectomized
+rats. Oxid. Med. Cell. Longev. 2019;2019:2853534. DOI
+10.1155/2019/2853534</p><p>Zhang Z., Silveyra E., Jin N., Ribelayga C.P. A congenic line of the
+C57BL/6J mouse strain that is proficient in melatonin synthesis.
+J. Pineal Res. 2018;65(3):e12509. DOI 10.1111/jpi.12509</p></sec></body><back><ack><p>The authors are grateful to the Multi-Access Center &#8220;Bioinformatics&#8221; for access to computing resources under Project FWNR-
+2022-0020 and the Multi-Access Center &#8220;Conventional Animal Facility&#8221; for access to animals under Projects FWNR-2022-0019 and FWNR-2022-0015.</p></ack></back></article></pmc-articleset>

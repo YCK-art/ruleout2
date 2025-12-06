@@ -1,0 +1,801 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Vet Med Sci</journal-id><journal-id journal-id-type="iso-abbrev">J Vet Med Sci</journal-id><journal-id journal-id-type="pmc-domain-id">2350</journal-id><journal-id journal-id-type="pmc-domain">jvms</journal-id><journal-id journal-id-type="publisher-id">JVMS</journal-id><journal-title-group><journal-title>The Journal of Veterinary Medical Science</journal-title></journal-title-group><issn pub-type="ppub">0916-7250</issn><issn pub-type="epub">1347-7439</issn><publisher><publisher-name>Japanese Society of Veterinary Science</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9412065</article-id><article-id pub-id-type="pmcid-ver">PMC9412065.1</article-id><article-id pub-id-type="pmcaid">9412065</article-id><article-id pub-id-type="pmcaiid">9412065</article-id><article-id pub-id-type="pmid">35811130</article-id><article-id pub-id-type="doi">10.1292/jvms.21-0665</article-id><article-id pub-id-type="publisher-id">21-0665</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Wildlife Science</subject><subj-group><subject>Full Paper</subject></subj-group></subj-group></article-categories><title-group><article-title>Diel and monthly activity pattern of brown bears and sika deer in the
+Shiretoko Peninsula, Hokkaido, Japan</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>KAWAMURA</surname><given-names initials="K">Kei</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>JIMBO</surname><given-names initials="M">Mina</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>ADACHI</surname><given-names initials="K">Keisuke</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>SHIRANE</surname><given-names initials="Y">Yuri</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>NAKANISHI</surname><given-names initials="M">Masanao</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>UMEMURA</surname><given-names initials="Y">Yoshihiro</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>ISHINAZAKA</surname><given-names initials="T">Tsuyoshi</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>UNO</surname><given-names initials="H">Hiroyuki</given-names></name><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>SASHIKA</surname><given-names initials="M">Mariko</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>TSUBOTA</surname><given-names initials="T">Toshio</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>SHIMOZURU</surname><given-names initials="M">Michito</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cor1" ref-type="corresp">
+<sup>*</sup>
+</xref></contrib><aff id="aff1"><label>1)</label>Faculty of Veterinary Medicine, Hokkaido University,
+Hokkaido, Japan</aff><aff id="aff2"><label>2)</label>Hokkaido Research Organization, Hokkaido, Japan</aff><aff id="aff3"><label>3)</label>Shiretoko Nature Foundation, Hokkaido, Japan</aff><aff id="aff4"><label>4)</label>Institute of Agriculture, Tokyo University of Agriculture
+and Technology, Tokyo, Japan</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Correspondence to: Shimozuru M: <email xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="shimozuru@vetmed.hokudai.ac.jp">shimozuru@vetmed.hokudai.ac.jp</email>,
+Faculty of Veterinary Medicine, Hokkaido University, Kita-18, Nishi-9, Kita-ku, Sapporo,
+Hokkaido 060-0818, Japan</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>7</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>8</month><year>2022</year></pub-date><volume>84</volume><issue>8</issue><issue-id pub-id-type="pmc-issue-id">415359</issue-id><fpage>1146</fpage><lpage>1156</lpage><history><date date-type="received"><day>22</day><month>12</month><year>2021</year></date><date date-type="accepted"><day>22</day><month>6</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>08</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>30</day><month>08</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-05-15 21:25:29.927"><day>15</day><month>05</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>&#169;2022 The Japanese Society of Veterinary Science</copyright-statement><copyright-year>2022</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative
+Commons Attribution Non-Commercial No Derivatives (by-nc-nd) License. (CC-BY-NC-ND 4.0:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>)</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="jvms-84-1146.pdf"/><abstract><p>Mammals exhibit several types of diel activity pattern, including nocturnal, diurnal,
+crepuscular, and cathemeral. These patterns vary inter- and intra-specifically and are
+affected by environmental factors, individual status, and interactions with other
+individuals or species. Determining the factors that shape diel activity patterns is
+challenging but essential for understanding the behavioral ecology of animal species, and
+for wildlife conservation and management. Using camera-trap surveys, we investigated the
+species distributions and activity patterns of terrestrial mammals on the Shiretoko
+Peninsula, Hokkaido, Japan, with particular focus on brown bears and sika deer. From June
+to October 2019, a total of 7,530 observations were recorded by 65 camera-traps for eight
+species, including two alien species. The diel activity pattern of brown bears was
+diurnal/crepuscular, similar to that of bears in North America, but different from
+European populations. Bear observations were more frequent during the autumnal hyperphagia
+period, and adult females and sub-adults were more diurnal than adult males. In addition,
+bears inside the protected area were more diurnal than those outside it. These findings
+suggest that appetite motivation, competitive interactions between conspecifics, and human
+activities potentially affect bear activity patterns. Similar to other sika deer
+populations and other deer species, the diel activity patterns of sika deer were
+crepuscular. Deer showed less variation in activity patterns among months and sex-age
+classes, while adult males were observed more frequently during the autumn copulation
+period, suggesting that reproductive motivation affects their activity patterns.</p></abstract><kwd-group><kwd>activity pattern</kwd><kwd>brown bear</kwd><kwd>camera-trap</kwd><kwd>diel rhythm</kwd><kwd>sika deer</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p>Most organisms repeat daily cyclical behavior (e.g., activity, feeding, drinking, and
+sleeping), according to a 24 hr circadian rhythm. This system is regulated by the biological
+clock, and the expression of rhythm is genetically and spontaneously determined [<xref rid="r7" ref-type="bibr">7</xref>]. The circadian rhythm allows animals to operate in a
+cyclical pattern, which is essential for the survival on earth [<xref rid="r6" ref-type="bibr">6</xref>]. Although circadian rhythms can be maintained in the absence of external stimuli,
+each cycle is slightly longer or shorter than 24 hr; thus, environmental stimuli are required
+to readjust the rhythm. Among them, the most important factor is the light-and-dark cycle,
+that is, the optical signal [<xref rid="r8" ref-type="bibr">8</xref>]. The pattern formed by
+these mechanisms is called the diel rhythm. One typical diel rhythm exhibited by most mammals
+is the sleep and waking cycle.</p><p>Surveys of the diel activity patterns of wildlife are important for determining potential
+factors that affect these rhythms. The diel activity patterns differ among mammalian species
+[<xref rid="r17" ref-type="bibr">17</xref>], and even in the same species, the patterns have
+been shown to be affected by individual factors. <italic toggle="yes">e.g.</italic>, sex-age classes [<xref rid="r24" ref-type="bibr">24</xref>, <xref rid="r26" ref-type="bibr">26</xref>] and
+reproductive statuses [<xref rid="r47" ref-type="bibr">47</xref>], and also by environmental
+factors, <italic toggle="yes">e.g.</italic>, food availability [<xref rid="r15" ref-type="bibr">15</xref>],
+inter-/intra-specific competitive interactions [<xref rid="r34" ref-type="bibr">34</xref>],
+and human disturbance [<xref rid="r12" ref-type="bibr">12</xref>]. Direct and indirect
+observation methods are typically used to investigate the diel activity patterns of wildlife
+species. Direct observation is the most classic method for studying animal behavior in
+wildlife research [<xref rid="r23" ref-type="bibr">23</xref>]. However, outcomes of this
+method can be strongly affected by the presence of the human observer, thus leading to biased
+results and adverse effects on the entire study population [<xref rid="r41" ref-type="bibr">41</xref>]. Indirect observation methods, such as camera-trap surveys [<xref rid="r17" ref-type="bibr">17</xref>] and use of accelerometers in GPS-collars [<xref rid="r29" ref-type="bibr">29</xref>], are attracting attention as a way to solve these
+problems, and such surveys have been used to investigate the activity patterns of several
+species. Camera-trap surveys require less effort and cost as compared to surveys using
+GPS-collars that require capture of animals. In addition, camera-trap surveys are suitable for
+various terrestrial and climatic conditions, and the cameras can even be installed in terrain
+where direct observation is impossible. Therefore, they are optimal for surveying large areas
+with a small number of people.</p><p>The Shiretoko Peninsula, located in eastern Hokkaido, Japan, is famous for its rich diversity
+of ecosystems and species. Due to various unique natural features, the area from the central
+portion of the peninsula to Shiretoko Cape, including Shiretoko National Park (hereinafter
+SNP), was registered as Japan&#8217;s third World Natural Heritage site in 2005. By contrast, at the
+base of the peninsula, agriculture and dairy farming are actively conducted on vast areas of
+land. In addition, fisheries are a major industry along the coast of the peninsula. The
+Shiretoko Peninsula is home to many animals, including 29 species of terrestrial mammals
+[<xref rid="r28" ref-type="bibr">28</xref>]. Among these, Hokkaido brown bears
+(<italic toggle="yes">Ursus arctos yesoensis</italic>) and sika deer (<italic toggle="yes">Cervus nippon
+yesoensis</italic>) are representative large terrestrial mammals with abundant populations.
+These two species occupy important positions in this small peninsula in terms of ecosystem
+conservation and human&#8211;wildlife conflicts. For example, brown bears play an important role in
+material circulation between the sea and land, by foraging marine animals and defecating in
+the forest, and act as seed dispersers [<xref rid="r55" ref-type="bibr">55</xref>]. By
+contrast, deer overpopulation has caused serious damage to vegetation, and population control
+measures have been implemented in and around SNP. Furthermore, due to the close proximity of
+areas of human activity and wildlife habitats, various human-wildlife conflicts, such as bear
+intrusions into cities and traffic accidents involving deer, have become a serious problem on
+the Shiretoko Peninsula. Clarification of their diel activity patterns can contribute to
+reduce risk of dangerous encounter with bears, <italic toggle="yes">e.g.</italic>, by alerting people to
+the active time of brown bears, and also to develop an effective strategy for population
+control of deer. Therefore, knowledge of their diel activity patterns and influencing factors
+is essential not only for understanding their behavioral ecology, but also for wildlife
+conservation and management. To the best of our knowledge, studies on diel activity patterns
+of brown bears and sika deer in Hokkaido are limited in number and in locations (south-west
+part of Hokkaido) [<xref rid="r16" ref-type="bibr">16</xref>, <xref rid="r17" ref-type="bibr">17</xref>]. In these studies, brown bears were categorized as cathemeral and deer were as
+crepuscular.</p><p>The brown bear is a large, solitary carnivore that reigns at the top of the food chain in
+Hokkaido. They are non-territorial, suggested by the fact that their home ranges overlap both
+inter- and intra-sexually [<xref rid="r22" ref-type="bibr">22</xref>]. More than 500 bears are
+estimated to inhabit this small peninsula, suggesting that this area harbors one of the
+highest densities of brown bears in the world [<xref rid="r31" ref-type="bibr">31</xref>]. The
+bears are omnivorous and exhibit seasonal changes in diet; they feed mainly on herbs, newborn
+fawns, insects, and berries from early summer to midsummer, and on salmon and acorns from late
+summer to autumn [<xref rid="r55" ref-type="bibr">55</xref>]. In general, bears begin
+hibernating in November&#8211;December and emerge from their dens between March and May [<xref rid="r49" ref-type="bibr">49</xref>]. They are seasonal breeders, with mating occurring from
+late spring to early summer [<xref rid="r58" ref-type="bibr">58</xref>]. Pregnant females give
+birth to 1&#8211;3 cubs during the next hibernation period [<xref rid="r59" ref-type="bibr">59</xref>]. Offspring become independent from their mother between the ages of 1.5 to 3.5
+years [<xref rid="r51" ref-type="bibr">51</xref>]. Males and females become reproductive
+between ages of 3 to 5 years [<xref rid="r59" ref-type="bibr">59</xref>, <xref rid="r65" ref-type="bibr">65</xref>], but males take longer to mature physically (around eight years of old;
+[<xref rid="r56" ref-type="bibr">56</xref>]) and have reproductive opportunities [<xref rid="r53" ref-type="bibr">53</xref>]. Generally, the diel activity patterns of brown bears
+have been reported as crepuscular or diurnal, but the patterns differ depending on habitat
+conditions and individual status [<xref rid="r14" ref-type="bibr">14</xref>]. In this study,
+we addressed two hypotheses: 1) due to significant seasonal differences in food availability
+in this peninsula, <italic toggle="yes">i.e.</italic>, scarce in summer and abundant in autumn [<xref rid="r55" ref-type="bibr">55</xref>], bears during the autumnal hyperphagia period were
+expected to show increased activity or different diel activity pattern, and 2) to avoid
+intraspecies competition in highly populated bear habitats where encounters with conspecifics
+are very frequent, vulnerable bears (<italic toggle="yes">e.g.</italic>, immature individuals and bears
+with offspring) were expected to show different activity patterns to adult males and solitary
+adult females.</p><p>Sika deer are herbivorous mammals that live in a herd. They are also seasonal breeders;
+mating occurs in autumn, from October to November [<xref rid="r60" ref-type="bibr">60</xref>],
+and adult males keep multiple females during the breeding season and defend their mating
+territories from other males [<xref rid="r30" ref-type="bibr">30</xref>]. Females give birth
+to a fawn in early summer (June&#8211;July) of the following year [<xref rid="r60" ref-type="bibr">60</xref>]. The mother and her fawn would then remain together in the same herd, and male
+deer become independent of their mother after the age of 2 years [<xref rid="r33" ref-type="bibr">33</xref>]. Adult deer are rarely attacked by brown bears, but starving deer and
+newborn fawns are important food items for bears in spring and summer, respectively [<xref rid="r21" ref-type="bibr">21</xref>, <xref rid="r64" ref-type="bibr">64</xref>]. On the
+Shiretoko Peninsula, excluding the national park, deer killing for management of areas near
+farmland was permitted throughout the study period, and additionally, hunting starts in
+October. Deer species are generally considered crepuscular, including sika deer [<xref rid="r17" ref-type="bibr">17</xref>]. We predicted that, in contrast to brown bears,
+significant differences in diel activity patterns would not be seen among months or sex-age
+classes, because they rely mainly on grass available from summer to autumn, and because they
+live in a herd consisting of multiple sex-age classes.</p><p>In the present study, we used camera-trap surveys to investigate the distributions and
+activity patterns of terrestrial wild mammals on the Shiretoko Peninsula, with particular
+focus on two representative large mammals&#8212;brown bears and sika deer. Our primary objective was
+to assess their diel activity patterns and examine how internal factors, including individual
+status (sex, age, presence or absence of offspring), and external factors, including
+seasonality, affect those patterns. In addition to the species-specific hypotheses described
+above, we addressed how human activities affect their activity patterns by analyzing data
+obtained in areas affected by human activity of varying intensity (inside or outside SNP).</p><sec sec-type="materials|methods" id="s1"><title>MATERIALS AND METHODS</title><sec><title>Study area</title><p>We conducted field survey on the Shiretoko Peninsula (approximately 1,760 km<sup>2</sup>,
+43&#176;50&#8242;&#8211;44&#176;20&#8242;N, 144&#176;45&#8242;&#8211;145&#176;20&#8242;E), Hokkaido, Japan (<xref rid="fig_001" ref-type="fig">Fig. 1</xref><fig position="float" fig-type="figure" id="fig_001" orientation="portrait"><label>Fig. 1.</label><caption><p>Map of Shiretoko Peninsula, Hokkaido, Japan, from Geospatial Information Authority
+of Japan (https://maps.gsi.go.jp/). The left was Japanese islands, including
+Hokkaido, and the right was the Shiretoko Peninsula. The colored symbols indicate
+the sites of camera-trap, blue lines indicate four rivers (Iwaubetsu River,
+Nukamappu River, Sashirui River, and Uebetsu River), and the area in dash line
+indicates the Shiretoko National Park.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-84-1146-g001.jpg"/></fig>). The study area included Shiretoko National Park (<xref rid="fig_001" ref-type="fig">Fig. 1</xref>; 386.4 km<sup>2</sup>), where hunting is prohibited. Similar
+to our previous study [<xref rid="r57" ref-type="bibr">57</xref>], the area was divided
+into seven portions based on the four rivers where salmons run up, to obtain an overview
+of the distributions and abundances of animal species (<xref rid="fig_001" ref-type="fig">Fig. 1</xref>): Area 1, Shiretoko Cape area: northern end of the peninsula (4
+camera-trap sites); Area 2, northwestern part of the national park: north side of
+Iwaubetsu River (9 sites); Area 3, middle west part of the peninsula: the area between
+Iwaubetsu River and Nukamappu River (10 sites); Area 4, southwestern part of the
+peninsula: south side of Nukamappu River (8 sites); Area 5, northeastern part of the
+national park: north side of Sashirui River (7 sites); Area 6, middle east part of the
+peninsula: between Sashirui River and Uebetsu River (9 sites); Area 7, southeast part of
+the peninsula: south side of Uebetu River (18 sites).</p></sec><sec><title>Camera-trap survey</title><p>Camera-trap surveys were conducted as a part of our research project aiming to estimate
+the population size of brown bears based on DNA analysis. For DNA collection, hairs were
+sampled using hair traps, consisting of barbed wire wrapped around a tree 30&#8211;230 cm above
+the ground, at 30 cm intervals [<xref rid="r53" ref-type="bibr">53</xref>]. To trigger
+tree-rubbing behavior, wood preservative (Creosote R; Yoshida refinery, Tokyo, Japan) was
+spread on the trunk, which emitted an organic solvent odor attractive to brown bears
+[<xref rid="r46" ref-type="bibr">46</xref>]. This odor seems less likely to affect deer
+behavior because no signs of attraction (<italic toggle="yes">e.g.</italic>, sniffing behavior) or
+avoidance were observed. Fluorescent flagging tape was placed at a height of 2 m as a
+visual guide for the estimation of bears&#8217; height when they stood upright for tree-rubbing.
+Cameras (HykeCam SP2, Hyke Co., Ltd., Asahikawa, Japan) were used for monitoring the hair
+traps. The installation was done according to our previous studies, which was optimized
+for shooting brown bears [<xref rid="r51" ref-type="bibr">51</xref>, <xref rid="r53" ref-type="bibr">53</xref>]. They were installed on a tree or stake at 55&#8211;152 cm above the
+ground, 5.8&#8211;9.0 m away from the hair trap, such that the field of view spanned from the
+root of the tree to 230 cm in height. In total, we used 65 cameras (one per each trap
+site) that were placed at multiple locations throughout the study area (<xref rid="fig_001" ref-type="fig">Fig. 1</xref>). The recording time and intervals were set
+to 25 and 5 sec, respectively. These camera-trap surveys were conducted during a period of
+approximately 5 months from 24 May to 29 October 2019, although data from May were
+excluded because of a shortage of observation periods. The collection of hair and video
+data were conducted at approximately 2-week intervals during the study period (ten times
+in total). For collected hairs, after DNA was extracted, microsatellite genotyping (6 loci
+for individual identification, and 21 loci and one sex-marker for parentage analysis) was
+conducted in the same manner described in our previous studies [<xref rid="r52" ref-type="bibr">52</xref>, <xref rid="r53" ref-type="bibr">53</xref>]. Among the 65 hair
+traps, two traps in the Rusha area in the Area 2 for capturing natural rubbing behavior
+were set on trees that were not treated with wood preservative. The presence or absence of
+the solvent odor may affect the frequency of bear visits; therefore, data for these two
+traps were excluded from the comparisons of observation frequency among areas and those
+among months, but were included in that of diel activity pattern. For the other animals,
+these data were included for both analyses. Hair/camera trap procedures were conducted in
+accordance with the Guidelines for Animal Care and Use of Hokkaido University, and were
+approved by the Animal Care and Use Committee of Hokkaido University (Permit Number:
+19-0047). The installation of camera-traps was approved by the Hokkaido Regional
+Environmental Office (Permit Numbers: 1905131 and 1905132), the Abashiri Southern Forest
+Management Station (Permit Number: 26), and Konsen Eastern Forest Management Station
+(Permit Number: 89).</p></sec><sec><title>Analysis of camera-trap data</title><p>All videos were checked after collection from the camera-trap. When animals were found,
+we recorded the date, start and finish times, animal species, sex, and age class. Methods
+for sex-age classification were described in the next section. For bears, we recorded the
+area of the tree trunk on which the bear rubbed their back, which sometimes helped to
+identify the individual that left hairs on the tree in combination with genetic
+identification through DNA analysis. Additionally, for adult female bears, we recorded the
+presence or absence of offspring, the number of offspring, and their ages
+(<italic toggle="yes">i.e.</italic>, cub-of-the-year or yearling). In the case of deer, we counted
+the number of deer according to sex-age class in a herd.</p><p>We classified the recorded time of each video into three time periods; day-time (from 1
+hr after sunrise to 1 hr before sunset), night-time (from 1 hr after sunset to 1 hr before
+sunrise), and twilight (1 hr before and after sunrise and sunset), according to the
+previous studies [<xref rid="r16" ref-type="bibr">16</xref>, <xref rid="r17" ref-type="bibr">17</xref>]. The average day-time-lengths of each month were 13 hr 26 min (13
+hr 14 min&#8211;13 hr 28 min) in June, 13 hr 13 min (12 hr 39 min&#8211;13 hr 25 min) in July, 12 hr
+01 min (11 hr 47 min&#8211;12 hr 36 min) in August, 10 hr 32 min (9 hr 48 min&#8211;11 hr 14 min) in
+September, 9 hr 03 min (8 hr 32 min&#8211;9 hr 45 min) in October, and 11 hr 50 min (8 hr 32
+min&#8211;13 hr 25 min) throughout the study period.</p></sec><sec><title>Sex-age classification</title><p>Sex-age classes of brown bears were estimated according to their body size, sexual
+characteristics, the presence of offspring, and DNA-based parentage analysis, as shown in
+the flowchart (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Fig.
+1</xref>). Brown bears exhibit sexual dimorphism in body size&#8212;<italic toggle="yes">i.e.</italic>,
+males are larger than females [<xref rid="r49" ref-type="bibr">49</xref>]. Based on
+videos, we preliminary calculated the height of adult females when they stood upright, by
+targeting ten identifiable adult females (&#8805;9 years of age; with ear-tags or characteristic
+chest marks) in Rusha area where continuous survey had been conducted [<xref rid="r51" ref-type="bibr">51</xref>]. We took snapshots of their tree-rubbing behaviors
+and used ImageJ version 1.52a [<xref rid="r48" ref-type="bibr">48</xref>] to calculate the
+height with reference to a visual guide at 2.0 m above the ground. Those females ranged
+from 1.65 to 1.86 m in height (1.76 &#177; 0.02 m on average). Based on this, bears over 2.0 m
+in height were categorized as adult males, even when their sexual characteristics were
+unavailable. Additionally, we calculated the height of bears with known ages, including 3
+two-years-old bears (1 males and 2 females), 2 three-years-old bears (1 males and 1
+females), and 2 four-years-old bears (2 females). They ranged from 1.40 to 1.48 m, from
+1.50 to 1.60 m, and from 1.55 to 1.70 m, respectively. Therefore, in this study, female
+bears between 1.5 and 2.0 m in height were considered as adult females (&#8805;4 years of age),
+and solitary bears less than 1.5 m were categorized as sub-adults (&#8804;3 years of age).
+Sub-adults were not classified by sex. Adult females were discriminated from young males
+(1.5&#8211;2.0 m in height) by the presence or absence of a penis, urination behavior
+(<italic toggle="yes">i.e.</italic>, males excrete from the front of the hind legs, whereas females
+excrete near the rump), the presence of offspring, and other external characteristics
+(<italic toggle="yes">i.e.</italic>, loss of hair around the nipple, a sign of lactation experience).
+In some cases for which a bear did not stand upright, or his/her sexual characteristic was
+unavailable, DNA analyses (by use of hairs they rubbed on the trap) revealed that he or
+she had reproduced in the past. Parentage analysis using microsatellite markers has been
+conducted in brown bear populations in the study area [<xref rid="r52" ref-type="bibr">52</xref>] and was partially used as a tool for the determination of sex-age classes in
+this study, <italic toggle="yes">e.g.</italic>, bears with reproductive experience revealed by
+DNA-based parentage analysis, were categorized as adults. In addition, males &#8805;8 years of
+age [<xref rid="r56" ref-type="bibr">56</xref>], females &#8805;4 years of age [<xref rid="r59" ref-type="bibr">59</xref>], and bears &#8804;3 years of age, revealed by genetical
+identification and/or parentage analysis, were categorized as adult males, adult females,
+and sub-adults, respectively. Ultimately, bears were categorized into four sex-age
+classes: adult males (males &gt;2.0 m in height, or those with reproductive experience, or
+&#8805;8 years of age), adult females (females between 1.5 and 2.0 m in height, or with
+offspring, or with reproductive experience, or &#8805;4 years of age), sub-adults (males/females
+&lt;1.5 m in height, or &#8804;3 years of age), and status unknown/others. In this study,
+sex-age classes were classified mainly based on height. Adult males did not include young
+males (&lt;2.0 m in height) even if they might have reached sexual maturity, and adult
+females might include some sexually immature females among three/four-years-old females.
+The &#8220;status unknown/others&#8221; included 1) male bears with 1.5&#8211;2.0 m in height (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 1</xref>; &#8220;young
+males&#8221;), 2) bears with unknown sex or bears whose height was undetermined (&#8220;sex/height
+undetermined young/adults&#8221;), and 3) bears whose physical characteristics were almost
+unavailable (<italic toggle="yes">e.g.</italic>, only part of the body was recorded; &#8220;unknown&#8221;).</p><p>Sex-age classes of sika deer were classified based on body size and antlers. Deer exhibit
+clear sexual dimorphism, with only males having antlers on their heads. Antlers begin to
+grow at the age of 1 year and become branched after the age of 2 years [<xref rid="r13" ref-type="bibr">13</xref>]. This information can be used to discriminate
+between adult (&#8805;2 years of age) males (branched antlers), 1-year-old males (branchless
+horn), females (without antlers), and fawns. When individual status could not be
+determined, the status was categorized as &#8220;unknown&#8221;.</p></sec><sec><title>Data analysis</title><p>The diel activity patterns of brown bears and deer were estimated by the kernel density
+analysis, according to the previous study [<xref rid="r17" ref-type="bibr">17</xref>]. One
+individual (or a herd of deer) was followed from the appearance to the exit, and the
+number of animals was counted based on their individual status at 30-min intervals. For
+example, if a certain individual was observed again 35 min after the first observation,
+the individual was counted twice (two observations, one each for two 30-min periods). To
+distinguish among the four diel activity patterns (<italic toggle="yes">i.e.</italic>, diurnal,
+nocturnal, crepuscular, and cathemeral), we calculated observation frequencies per 100
+trap-days for three time periods (<italic toggle="yes">i.e.</italic>, twilight, day-time and
+night-time) in each month, according to the previous study [<xref rid="r17" ref-type="bibr">17</xref>]. We defined &#8220;crepuscular&#8221; behavior as having video observations
+more frequently during twilight, &#8220;diurnal&#8221; as having observations more frequently during
+day-time, and &#8220;nocturnal&#8221; as having observations more frequently during night-time.
+Behavioral patterns were defined as &#8220;cathemeral&#8221; when no significant differences in
+observation frequencies were observed among these time periods. Since it was unclear
+whether the population would follow a normal distribution, to rank among the three time
+periods, observation frequencies were compared by the Steel-Dwass multiple comparison test
+which is non-parametric method. Observation frequencies throughout the study period for
+animals that were observed multiple times (<italic toggle="yes">i.e.</italic>, for brown bears, sika
+deer, red foxes, <italic toggle="yes">Vulpes vulpes schrencki</italic>, red squirrels, <italic toggle="yes">Sciurus
+vulgaris orientis</italic>, raccoon dogs, <italic toggle="yes">Nyctereutes procyonoides
+albus</italic>, and sables, <italic toggle="yes">Martes zibellina brachyura</italic>) were compared
+among areas by the Steel-Dwass multiple comparison test. Monthly changes in observation
+frequencies per areas and those by sex-age classes (for brown bears and sika deer) were
+compared by the Steel-Dwass multiple comparison test. For the comparisons of diel activity
+patterns among three sex-age classes in bears (<italic toggle="yes">i.e.</italic>, adult males, adult
+females and sub-adults), observation frequencies in each time period were compared by
+&#967;<sup>2</sup> test. Subsequently, for multiple comparisons, percentage of observations
+in each time period were compared among three sex-age classes by Tukey&#8217;s wholly
+significant difference (WSD) test [<xref rid="r45" ref-type="bibr">45</xref>].
+Furthermore, to test how human activity influences behavioral patterns in bears and deer,
+we compared observation frequencies in each time period between inside (<xref rid="fig_001" ref-type="fig">Fig. 1</xref>; 19 camera-trap sites) and outside SNP (46
+sites), using &#967;<sup>2</sup> test, then percentage of observations in each time period
+between the areas were compared by Tukey&#8217;s WSD test. Statistical analyses were performed
+in R version 3.6.1 [<xref rid="r44" ref-type="bibr">44</xref>]. Statistical significance
+was assessed at <italic toggle="yes">P</italic>&lt;0.05. All values are expressed as mean &#177; standard
+error of the mean (SEM).</p></sec></sec><sec sec-type="results" id="s2"><title>RESULTS</title><sec><title>Species identified</title><p>From 1 June to 29 October 2019, a total of 7,530 observations were recorded. Eight
+species of mammals were identified using the camera-trap surveys. Lists of the mammals
+identified and total number of observations (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 2</xref>) and percentages of
+observation were as follows; brown bears (1,485 observations, 19.7%; 1,360 observations,
+except the two sites in the Rusha area), sika deer (5,570 observations, 74.0%), red foxes
+(403 observations, 5.4%), raccoon dogs (91 observations, 1.2%), red squirrels (85
+observations, 1.1%), sables (19 observations, 0.2%), a raccoon (<italic toggle="yes">Procyon
+lotor</italic>) (1 observation, 0.01%), and an American mink (<italic toggle="yes">Neovison
+vison</italic>) (1 observation, 0.01%). In addition, we found flying mammals
+(<italic toggle="yes">e.g.</italic>, bats and flying squirrels) and rodents (<italic toggle="yes">e.g.</italic>,
+voles and mice), but we were unable to identify species due to poor images taken at night.
+Detailed results on observations of each species in each area were presented in <xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 2</xref>.</p></sec><sec><title>Distribution and sex-age classification of brown bears</title><p>Throughout the study period, bears were observed one or more times at all traps.
+Steel-Dwass multiple comparison tests revealed that average number of observations were
+significantly higher in the western area of SNP (Area 2) than in either the northeastern
+(Area 5) or southeastern areas of the peninsula (Area 7) (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 2</xref>;
+<italic toggle="yes">P</italic>&lt;0.05).</p><p>Total number of observations by sex-age classes were shown in <xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 1</xref>. DNA-based parentage
+analysis identified their sex-age classes for 9 cases (3.9% of total observations) in
+adult males and 59 cases (27.1% of observations in solitary adult female) in adult
+females. In addition, we identified 56 cases as solitary adult females, due to the
+presence of ear-tags and GPS-collars for bears previously captured for research purposes
+[<xref rid="r51" ref-type="bibr">51</xref>], or to consorting behavior with adult males
+in the mating season [<xref rid="r49" ref-type="bibr">49</xref>]. In total, 115 out of 217
+(53%) observations in solitary adult females were classified based on definitive
+information, in addition to their physical/sexual characteristics. Average number of
+observations per trap site during the study period (Jun&#8211;Oct) were 3.2 &#177; 0.5 for adult
+males, 5.8 &#177; 1.0 for adult females, 4.1 &#177; 0.7 for sub-adults, 8.5 &#177; 1.1 for status
+unknown/others, and 21.6 &#177; 2.5 for all bears. Average number of observations per trap site
+for adult females with offspring and solitary females were 3.2 &#177; 0.6 and 2.6 &#177; 0.2,
+respectively.</p></sec><sec><title>Monthly differences in observation frequencies and diel activity pattern in brown
+bears</title><p>Observation frequencies exhibited monthly changes, as values were significantly higher in
+September than in July (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Fig. 2</xref>) (<italic toggle="yes">P</italic>&lt;0.05). This tendency was prominent
+in Area 2, where frequencies were significantly higher in September and October than in
+June and July. Monthly differences were not significant in the other areas. Monthly
+observation frequency in each sex-age class was presented in <xref rid="pdf_001" ref-type="supplementary-material">Supplementary Fig. 3</xref>. No significant differences
+in monthly observation frequencies were found for either adult males or sub-adults. For
+adult females, observation frequencies were higher in September than in July&#8211;August
+(<italic toggle="yes">P</italic>&lt;0.05).</p><p>The activity patterns of all bears were categorized as diurnal/crepuscular from June to
+September and as cathemeral in October (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 3</xref>). The pattern of adult
+females and sub-adults were categorized as diurnal or diurnal/crepuscular from June to
+September, and as cathemeral in October. Adult males were categorized as
+diurnal/crepuscular in June and as cathemeral from July to October.</p></sec><sec><title>Differences in diel activity pattern by sex-age classes in brown bears</title><p>The average observation frequencies per 100 trap-days among the three time periods
+throughout the study period are shown in <xref rid="tbl_001" ref-type="table">Table
+1</xref><table-wrap position="float" id="tbl_001" orientation="portrait"><label>Table 1.</label><caption><title>Diel activity patterns of brown bears by sex-age class</title></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" rowspan="1" colspan="1">Sex-age class</th><th align="center" rowspan="1" colspan="1">Twilight</th><th align="center" rowspan="1" colspan="1">Day-time</th><th align="center" rowspan="1" colspan="1">Night-time</th><th align="center" rowspan="1" colspan="1">Category</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Adult female</td><td align="center" rowspan="1" colspan="1">5.6 &#177; 1.0 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">6.4 &#177; 1.2 <sup>b</sup></td><td align="center" rowspan="1" colspan="1">2.3 &#177; 0.6 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">D/Cr</td></tr><tr><td align="left" rowspan="1" colspan="1">Adult male</td><td align="center" rowspan="1" colspan="1">4.2 &#177; 0.7 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">2.0 &#177; 0.4</td><td align="center" rowspan="1" colspan="1">2.2 &#177; 0.5 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">Cr/D</td></tr><tr><td align="left" rowspan="1" colspan="1">Sub-adult</td><td align="center" rowspan="1" colspan="1">3.7 &#177; 0.7 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">3.8 &#177; 0.7 <sup>b</sup></td><td align="center" rowspan="1" colspan="1">2.3 &#177; 0.8 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">D/Cr</td></tr><tr><td align="left" rowspan="1" colspan="1">Status unknown/ Others</td><td align="center" rowspan="1" colspan="1">9.8 &#177; 1.5 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">6.3 &#177; 1.0</td><td align="center" rowspan="1" colspan="1">5.8 &#177; 1.1 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">Cr/D</td></tr><tr><td align="left" rowspan="1" colspan="1">All</td><td align="center" rowspan="1" colspan="1">23.5 &#177; 2.7 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">18.5 &#177; 2.7 <sup>b</sup></td><td align="center" rowspan="1" colspan="1">12.7 &#177; 2.3 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">Cr/D</td></tr></tbody></table><table-wrap-foot><p>Values indicate the average observation frequencies (mean &#177; SEM) per 100 trap-days.
+D and Cr indicate diurnal and crepuscular activity, respectively. When no
+significant differences among time periods were observed, the categories are listed
+in descending order of observation frequency. The same letter indicated significant
+differences among time periods (<italic toggle="yes">P</italic>&lt;0.05, Steel-Dwass multiple
+comparison tests).</p></table-wrap-foot></table-wrap>. The Steel-Dwass multiple comparison test revealed that all bears and all of
+sex-age classes, including adult females, adult males, and sub-adults, exhibited
+diurnal/crepuscular patterns (<xref rid="tbl_001" ref-type="table">Table 1</xref> and
+<xref rid="fig_002" ref-type="fig">Fig. 2</xref><fig position="float" fig-type="figure" id="fig_002" orientation="portrait"><label>Fig. 2.</label><caption><p>Diel activity patterns of brown bears throughout the study period. Red line and
+open bars areas indicated kernel density estimates and daily observation frequency,
+respectively. Dark grey shaded area, light grey shaded areas, and white areas
+indicated night-time, twilight, and day-time, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-84-1146-g002.jpg"/></fig>). There was a significant difference in observation frequency in each time period
+among adult males, adult females and sub-adults (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 1</xref>; &#967;<sup>2</sup> test,
+<italic toggle="yes">P</italic>&lt;0.05). Tukey&#8217;s WSD test revealed that percentage of observations
+in day-time was significantly higher in adult females and sub-adults than adult males
+(<italic toggle="yes">P</italic>&lt;0.05). In contrast, percentage of observations in night-time and
+in twilight were significantly higher in adult males than adult females and sub-adults
+(<italic toggle="yes">P</italic>&lt;0.05). There were no significant differences in any time periods
+between adult females and sub-adults. According to reproductive status in females, the
+activity pattern of females with offspring was categorized as diurnal/crepuscular, but
+solitary females were as cathemeral (<xref rid="tbl_002" ref-type="table">Table
+2</xref><table-wrap position="float" id="tbl_002" orientation="portrait"><label>Table 2.</label><caption><title>Diel activity patterns of female brown bears by reproductive status</title></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" rowspan="1" colspan="1">Reproductive status</th><th align="center" rowspan="1" colspan="1">Twilight</th><th align="center" rowspan="1" colspan="1">Day-time</th><th align="center" rowspan="1" colspan="1">Night-time</th><th align="center" rowspan="1" colspan="1">Category</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">With offspring</td><td align="center" rowspan="1" colspan="1">2.5 &#177; 0.6</td><td align="center" rowspan="1" colspan="1">3.4 &#177; 0.7 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">1.3 &#177; 0.4 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">D/Cr</td></tr><tr><td align="left" rowspan="1" colspan="1">Solitary female</td><td align="center" rowspan="1" colspan="1">2.7 &#177; 0.6</td><td align="center" rowspan="1" colspan="1">2.5 &#177; 0.7</td><td align="center" rowspan="1" colspan="1">0.9 &#177; 0.3</td><td align="center" rowspan="1" colspan="1">Ca</td></tr></tbody></table><table-wrap-foot><p>Values indicate the average observation frequencies (mean &#177; SEM) per 100 trap-days.
+D, Cr and Ca indicate diurnal, crepuscular, and cathemeral activity, respectively.
+When no significant differences among time periods were observed, the categories are
+listed in descending order of observation frequency. The same letter indicated
+significant differences among time periods (<italic toggle="yes">P</italic>&lt;0.05, Steel-Dwass
+multiple comparison tests).</p></table-wrap-foot></table-wrap> and <xref rid="pdf_001" ref-type="supplementary-material">Supplementary Fig.
+4</xref>). Observation frequencies in each time period did not differ significantly
+between these two types of females (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 1</xref>; &#967;<sup>2</sup> test, <italic toggle="yes">P</italic>&gt;0.05).</p></sec><sec><title>Observation frequencies and diel activity pattern in sika deer</title><p>Throughout the study period, sika deer were observed one or more times at all traps, with
+the exception of one trap in the Area 7. Average number of observations were significantly
+higher in the northwestern (Area 2) and northeastern parts of the national park (Area 5)
+than in the southeast part of the peninsula (Area 7) (<italic toggle="yes">P</italic>&lt;0.05; <xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 2</xref>). In terms
+of sex-age classes, average number of observations per trap site were 14.8 &#177; 2.3 for
+&#8805;2-year-old males, 46.0 &#177; 5.3 for adult females, 3.4 &#177; 0.5 for 1-year-old males, 11.3 &#177;
+1.3 for fawns, and 87.9 &#177; 11.8 for all deer. Monthly observation frequency in each sex-age
+class was presented in <xref rid="pdf_001" ref-type="supplementary-material">Supplementary
+Fig. 5.</xref> No significant differences in monthly observation frequencies were found
+for adult females, 1-year-old males, or fawns. For adult males, observation frequencies
+were higher in October than in June&#8211;September (<italic toggle="yes">P</italic>&lt;0.05).</p><p>Average observation frequencies per 100 trap-days among the three time periods throughout
+the study period are presented in <xref rid="tbl_003" ref-type="table">Table
+3</xref><table-wrap position="float" id="tbl_003" orientation="portrait"><label>Table 3.</label><caption><title>Diel activity patterns of sika deer by sex-age class</title></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" rowspan="1" colspan="1">Sex-age class</th><th align="center" rowspan="1" colspan="1">Twilight</th><th align="center" rowspan="1" colspan="1">Day-time</th><th align="center" rowspan="1" colspan="1">Night-time</th><th align="center" rowspan="1" colspan="1">Category</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="center" rowspan="1" colspan="1">63.5 &#177; 10.2 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">31.0 &#177; 4.4 <sup>a, c</sup></td><td align="center" rowspan="1" colspan="1">18.5 &#177; 4.6 <sup>b, c</sup></td><td align="center" rowspan="1" colspan="1">Cr</td></tr><tr><td align="left" rowspan="1" colspan="1">Fawn</td><td align="center" rowspan="1" colspan="1">17.9 &#177; 3.2 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">8.5 &#177; 1.2 <sup>b</sup></td><td align="center" rowspan="1" colspan="1">3.0 &#177; 0.7 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">Cr/D</td></tr><tr><td align="left" rowspan="1" colspan="1">1-year-old male</td><td align="center" rowspan="1" colspan="1">4.3 &#177; 1.0</td><td align="center" rowspan="1" colspan="1">3.0 &#177; 0.5</td><td align="center" rowspan="1" colspan="1">1.2 &#177; 0.3</td><td align="center" rowspan="1" colspan="1">Ca</td></tr><tr><td align="left" rowspan="1" colspan="1">&#8805;2-year-old male</td><td align="center" rowspan="1" colspan="1">21.9 &#177; 3.9 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">9.1 &#177; 1.4 <sup>a</sup></td><td align="center" rowspan="1" colspan="1">11.1 &#177; 2.5 <sup>b</sup></td><td align="center" rowspan="1" colspan="1">Cr</td></tr><tr><td align="left" rowspan="1" colspan="1">All</td><td align="center" rowspan="1" colspan="1">124.3 &#177; 19.0 <sup>a, b</sup></td><td align="center" rowspan="1" colspan="1">57.8 &#177; 7.2 <sup>a, c</sup></td><td align="center" rowspan="1" colspan="1">42.7 &#177; 9.8 <sup>b, c</sup></td><td align="center" rowspan="1" colspan="1">Cr</td></tr></tbody></table><table-wrap-foot><p>Values indicate the average observation frequencies (mean &#177; SEM) per 100 trap-days.
+D, Cr and Ca indicate diurnal, crepuscular and cathemeral activity, respectively.
+When no significant differences among time periods were observed, the categories are
+listed in descending order of observation frequency. The same letter indicated
+significant differences among time periods (<italic toggle="yes">P</italic>&lt;0.05, Steel-Dwass
+multiple comparison tests).</p></table-wrap-foot></table-wrap>. The Steel-Dwass multiple comparison test revealed that the activity pattern
+of adult sika deer (<italic toggle="yes">i.e.</italic>, males &#8805;two years old and females &#8805;one-year-old)
+could be categorized as crepuscular, whereas those of one-year-old males and fawns were
+categorized as cathemeral and diurnal/crepuscular, respectively (<xref rid="tbl_003" ref-type="table">Table 3</xref> and <xref rid="fig_003" ref-type="fig">Fig. 3</xref><fig position="float" fig-type="figure" id="fig_003" orientation="portrait"><label>Fig. 3.</label><caption><p>Diel activity patterns of sika deer throughout the study period. Red line and open
+bars areas indicated kernel density estimates and daily observation frequency,
+respectively. Dark grey shaded area, light grey shaded areas, and white areas
+indicated night-time, twilight, and day-time, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-84-1146-g003.jpg"/></fig>).</p></sec><sec><title>Differences in diel activity pattern between inside and outside the national
+park</title><p>The Steel-Dwass multiple comparison test revealed that both of brown bears live inside
+and outside SNP exhibited diurnal/crepuscular patterns (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 4</xref> and <xref rid="fig_004" ref-type="fig">Fig. 4</xref><fig position="float" fig-type="figure" id="fig_004" orientation="portrait"><label>Fig. 4.</label><caption><p>Diel activity patterns of brown bears and sika deer inside and outside the
+Shiretoko national park (SNP). Red line and open bars areas indicated kernel density
+estimates and daily observation frequency, respectively. Dark grey shaded area,
+light grey shaded areas, and white areas indicated night-time, twilight, and
+day-time, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-84-1146-g004.jpg"/></fig>). There was a significant difference in observation frequencies in each time period
+between inside and outside SNP (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 5</xref>; &#967;<sup>2</sup> test, <italic toggle="yes">P</italic>&lt;0.05). Tukey&#8217;s
+WSD test revealed that percentage of observations in day-time was significantly higher in
+bears inside SNP than those outside SNP (<italic toggle="yes">P</italic>&lt;0.05), whereas percentage
+of observations in night-time was significantly higher in bears outside SNP than those
+inside SNP (<italic toggle="yes">P</italic>&lt;0.05). There were no significant differences in twilight
+between the areas.</p><p>The Steel-Dwass multiple comparison test revealed that both of sika deer live inside and
+outside SNP exhibited crepuscular patterns (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 4</xref> and <xref rid="fig_004" ref-type="fig">Fig. 4</xref>). There was a significant difference in observation
+frequencies in each time period between inside and outside SNP (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 5</xref>; &#967;<sup>2</sup> test,
+<italic toggle="yes">P</italic>&lt;0.05). Tukey&#8217;s WSD test revealed that percentage of observations
+in night-time was significantly higher in deer inside SNP than those outside SNP
+(<italic toggle="yes">P</italic>&lt;0.05), whereas percentage of observations in day-time was
+significantly higher in deer outside SNP than inside SNP (<italic toggle="yes">P</italic>&lt;0.05).
+There were no significant differences in twilight between the areas.</p></sec></sec><sec sec-type="discussion" id="s3"><title>DISCUSSION</title><sec><title>Species and their distributions</title><p>The camera-trap surveys confirmed the existence of eight mammal species on the Shiretoko
+Peninsula. Brown bears and sika deer were predominantly distributed inside SNP, which
+suggests that the central to northern part of the peninsula, <italic toggle="yes">i.e.</italic>, SNP,
+is preferable habitat, particularly for brown bear and sika deer. In contrast, other
+small- to medium-sized mammals did not exhibit similar patterns. This may be partly due to
+the territorial features in some species, such as red foxes [<xref rid="r50" ref-type="bibr">50</xref>], which are less likely to share the same area with conspecifics.
+Also, even though they are not strictly territorial, small home ranges,
+<italic toggle="yes">e.g.</italic>, in raccoon dogs [<xref rid="r32" ref-type="bibr">32</xref>],
+limit the number of individuals that are potentially observed at one camera-trap site.
+Therefore, it is necessary to bear in mind that observation frequencies do not always
+reflect population density. Future studies should determine the correlation between
+observation frequencies and population densities in this area.</p><p>The current survey confirmed the existence of two alien species, the raccoon and American
+mink, although only one individual of each species was observed in the southeast part of
+the peninsula (Area 7). On the Shiretoko Peninsula, a raccoon carcass was first discovered
+in 2001 [<xref rid="r37" ref-type="bibr">37</xref>] and they have since been reported in
+the southern part of the peninsula [<xref rid="r40" ref-type="bibr">40</xref>]. In
+addition, their invasion was confirmed using camera-trap surveys in 2009, although the
+traps were not placed in the central to northernmost areas of the peninsula (Ministry of
+the Environment, unpublished). The current and previous studies suggest that raccoons are
+distributed on the peninsula, but their settlement area has been limited to the southern
+region and may not include SNP. By contrast, the presence of American mink has been
+confirmed since the 1980s, and this species has been reported in all areas of the
+peninsula, including SNP [<xref rid="r38" ref-type="bibr">38</xref>]. Limited observations
+of American mink, as well as other small- to medium-sized mammals, in the current survey
+were presumably due to the camera-trap survey method, <italic toggle="yes">i.e.</italic>, the current
+method was optimized for the observation of brown bears. To obtain detailed information on
+these small- and medium-sized mammals, including alien species, the methods
+(<italic toggle="yes">e.g.</italic>, the height and the angle of the camera) and locations for camera
+traps should be tailored to capture species-specific behavior and ecology.</p></sec><sec><title>Brown bear activity patterns</title><p>The observation frequencies of bears decreased in summer and increased in autumnal
+hyperphagia phase, which supported our first hypothesis. Previous studies of Asian black
+bears (<italic toggle="yes">Ursus thibetanus</italic>) using GPS radio collars have shown that they
+reduce summer activity to avoid energy depletion and become more active during the
+hyperphagia season to intercept more food [<xref rid="r11" ref-type="bibr">11</xref>,
+<xref rid="r25" ref-type="bibr">25</xref>]. In addition, adult brown bears in some
+populations have been reported to increase their nocturnal activity in autumn [<xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r39" ref-type="bibr">39</xref>]. The
+current study also demonstrated that adult bears shifted their diel pattern from
+crepuscular and/or diurnal to cathemeral in September and October, suggesting that they
+extended their activity time to consume a high-calorie diet, including salmon and acorns.
+Thus, it is possible that the increase in daily activity was reflected in the increase in
+observation frequencies during the autumnal hyperphagia phase.</p><p>Another possible factor affecting changes in the observation frequencies of bears is
+seasonal changes in feeding location. Increase in daily activity during autumn was clear,
+especially in the western part of SNP (Area 2), including the Rusha area, a special
+wildlife protection area. A previous study conducted in the Rusha area revealed that bears
+consume drupes (<italic toggle="yes">e.g.</italic>, Sargent&#8217;s cherry, <italic toggle="yes">Cerasus
+sargentii</italic>) in July and seeds of Japanese stone pines (<italic toggle="yes">Pinus
+pumila</italic>), a sub-alpine plant from late July to August [<xref rid="r55" ref-type="bibr">55</xref>], suggesting that they use mountainous areas in midsummer.
+Subsequently, from late August to October, bears consume pink salmons
+(<italic toggle="yes">Oncorhynchus gorbuscha</italic>) and chum salmons (<italic toggle="yes">O. keta</italic>),
+which contributes to a rapid increase in body weight over a short period [<xref rid="r55" ref-type="bibr">55</xref>]. To obtain salmon, the number of bears increased in
+September in the Rusha area, which contains the mouths of three rivers where spawning
+migration of large numbers of salmon occurs [<xref rid="r51" ref-type="bibr">51</xref>].
+In this study, most camera-traps were installed in readily accessible locations for field
+researchers, <italic toggle="yes">e.g.</italic>, areas close to the coast. Seasonal changes in habitat
+use associated with changes in food items are reflected in the increased observation
+frequencies of brown bears in autumn.</p><p>The present study revealed that the overall activity pattern in brown bears is
+diurnal/crepuscular, similar to previous studies on brown bear populations in North
+America [<xref rid="r36" ref-type="bibr">36</xref>], whereas European populations
+predominantly exhibit nocturnal/crepuscular patterns [<xref rid="r42" ref-type="bibr">42</xref>, <xref rid="r43" ref-type="bibr">43</xref>]. In previous camera-trap surveys
+conducted in central Hokkaido, the activity pattern of Hokkaido brown bears was
+categorized as cathemeral, presumably due to the limited number of observations [<xref rid="r17" ref-type="bibr">17</xref>]. High densities of brown bears on the Shiretoko
+Peninsula enabled the first accurate classification of activity patterns in Hokkaido in
+the present study. In terms of sex-age classes, adult males exhibited the tendency of
+crepuscular pattern, with peak activity around sunset, whereas sub-adults tended to be
+diurnal, with peak activity in the late morning. These results partially supported our
+second hypothesis and were consistent with previous reports for several bear species,
+including brown bears [<xref rid="r18" ref-type="bibr">18</xref>] and American black bears
+(<italic toggle="yes">Ursus americanus</italic>) [<xref rid="r27" ref-type="bibr">27</xref>]. In
+fact, sub-adults were more active in the day-time compared to adult males, suggesting that
+sub-adults may prefer day-time, due to avoidance behavior from adult males that are a
+potential threat to their survival [<xref rid="r61" ref-type="bibr">61</xref>], or due to
+lower wariness over human activity [<xref rid="r35" ref-type="bibr">35</xref>].</p><p>A similar difference was found between adult males and adult females. It has been
+reported that females with offspring become diurnal to decrease the chance of male
+encounters and the risk of infanticide [<xref rid="r3" ref-type="bibr">3</xref>, <xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r43" ref-type="bibr">43</xref>]. In some
+populations, infanticide by adult males was the major cause of death for cubs-of-the-year
+[<xref rid="r2" ref-type="bibr">2</xref>, <xref rid="r59" ref-type="bibr">59</xref>].
+The shift in diel pattern can be considered a counterstrategy for females to protect their
+cubs. However, in contrast to our original prediction, the presence or absence of
+offspring did not influence the diel pattern of adult females, and they were more diurnal
+than adult males, regardless of their reproductive status. Furthermore, infanticide by
+adult males appeared to occur less frequently on the Shiretoko Peninsula [<xref rid="r51" ref-type="bibr">51</xref>], which suggests that avoidance of infanticide is
+less likely to be a main factor to cause sexual differences in diel patterns. Another
+possible factor is social dominance. For example, large adult males dominate the most
+productive area and time (night-time and twilight) for catching salmons [<xref rid="r20" ref-type="bibr">20</xref>], which may make females and sub-adults more
+diurnal. Also, there may be males&#8217; matter, <italic toggle="yes">e.g.</italic>, larger males may receive
+more heat stress than females and sub-adults do in hot weather, which makes adult males
+more nocturnal/crepuscular.</p><p>We cannot deny the possibility that different diel patterns between adult females and
+adult males was partially due to procedural problems, such as misclassification of sex-age
+classes, or poor night-time visibility. In the former case, some sub-adult females (around
+3 years of age) might have been classified as adult females, because a limited number of
+young bears with known ages were available for height calculation to determine the
+threshold (<italic toggle="yes">i.e.</italic>, 1.5 m). However, more than three-quarters of adult
+females (329 out of 431 observations) were classified with definitive information
+(<italic toggle="yes">e.g.</italic>, presence of cubs, ear-tags, etc), which suggested that this had
+less of an impact on the current results. In the latter situation, differentiation between
+adult females and young males becomes difficult at night, which might have reduced the
+night-time observation frequency in adult females. To test this possibility, we compared
+observation frequencies in males with those of &#8220;potential&#8221; adult females
+(<italic toggle="yes">i.e.</italic>, combined data between adult females and sex/height undetermined
+young/adults), which brought the same tendency (<xref rid="pdf_001" ref-type="supplementary-material">Supplementary Table 1</xref>). This suggests that diel
+activity patterns determined by camera-traps were less likely to be affected by different
+visibility among time periods, or by the current classification methods for sex-age
+classes.</p><p>It is still unknown whether the diel activity pattern observed in the Shiretoko Peninsula
+applies to other brown bear habitats within and outside Hokkaido, Japan. Some of the
+factors are specific to the study area, such as the large bear population, existence of a
+protected area, and salmon running in autumn, especially within SNP. We revealed that diel
+patterns of brown bears differ inside and outside SNP; bears outside SNP were less
+diurnal. There were no significant differences in the proportions of adult males (the
+least diurnal bears among sex-age classes) between inside and outside SNP (inside SNP:
+16.5%, 126/763; outside SNP: 14.1%, 102/722; &#967;<sup>2</sup> test,
+<italic toggle="yes">P</italic>&gt;0.05). This suggests that different diel activity patterns were not
+due to differences in distributions of each sex-age class, but due to other factors,
+<italic toggle="yes">e.g.,</italic> the effects of human activity. During the study period, bears
+outside SNP experience human-caused mortality, especially in areas near human developments
+and farmland. By contrast, human-caused mortality is very rare within SNP. In addition,
+some bears within SNP have become habituated due to repeated harmless encounters with
+humans [<xref rid="r54" ref-type="bibr">54</xref>]. This suggests that differences in
+vigilance towards humans affect diel patterns in the Shiretoko Peninsula. It is
+conceivable that diel activity patterns in other bear habitats in Hokkaido may be closer
+to those outside SNP.</p></sec><sec><title>Sika deer activity patterns</title><p>As expected, differences in daily activity and diel activity pattern among months or
+among different sex-age classes were less clear in deer as compared to those in brown
+bears. However, we found a significant increase in observation frequencies of adult males
+in the autumn. This pattern was not observed in the other sex-age classes, suggesting that
+this behavioral shift is specific to adult males. In contrast to bears, which aggregate in
+coastal areas to feed on salmon in autumn [<xref rid="r51" ref-type="bibr">51</xref>], it
+seems less likely that food was the motivating factor causing the shift in habitat in
+adult male deer to the low-altitude areas where most camera-traps were placed. Instead,
+reproductive motivation is the more likely factor underlying this phenomenon, as autumn is
+a breeding season for sika deer [<xref rid="r60" ref-type="bibr">60</xref>]. Their mating
+system is generally categorized as polygamy with the formation of harems, in which a
+dominant male defends a group of females [<xref rid="r10" ref-type="bibr">10</xref>].
+During the rutting season, dominant males establish and keep their own home ranges to
+guard harem females, whereas subordinate males have larger home ranges to search for
+mating opportunities [<xref rid="r9" ref-type="bibr">9</xref>]. Previous studies using
+GPS-collars have reported that male white-tailed deer (<italic toggle="yes">Odocoileus
+virginianus</italic>) expanded their home ranges and increased their behavioral
+activities in rutting season [<xref rid="r62" ref-type="bibr">62</xref>, <xref rid="r63" ref-type="bibr">63</xref>]. These behavioral changes during the mating season
+would help to explain the increased observation frequencies in adult males in the current
+study.</p><p>The diel activity patterns for adult deer were categorized as crepuscular. The same
+results were observed in other sika deer populations on Hokkaido [<xref rid="r16" ref-type="bibr">16</xref>]. In addition, crepuscular activity patterns have been reported in
+other deer species, including elk (<italic toggle="yes">Cervus canadensis</italic>) [<xref rid="r1" ref-type="bibr">1</xref>], mule deer (<italic toggle="yes">Odocoileus hemionus</italic>)
+[<xref rid="r1" ref-type="bibr">1</xref>], white-tailed deer [<xref rid="r62" ref-type="bibr">62</xref>], and moose (<italic toggle="yes">Alces alces</italic>) [<xref rid="r5" ref-type="bibr">5</xref>]. These findings suggest that activity patterns in cervids are
+consistent regardless of region and species. However, deer outside SNP were more diurnal
+than those within SNP, although both diel patterns were still categorized as crepuscular.
+This was contrary to our prediction, because deer outside SNP are more vulnerable to
+human-caused mortality. Generally, human disturbance, including culling and hunting, has a
+profound effect on the diel activity of deer, resulting in a more nocturnal pattern [<xref rid="r19" ref-type="bibr">19</xref>]. Outside SNP, deer culling for management purposes
+was permitted throughout the study period in some regions. However, such culling activity
+existed only on areas around farmland and human settlements. Therefore, capture pressure
+during the study period was very limited compared to the hunting season (middle Oct&#8211;Mar).
+This may mitigate the influence of human disturbance on deer behavior in the study period.
+Another important factor may be predator&#8211;prey interaction. Brown bears are potential
+predators of sika deer, and predation risk can alter the diel activity patterns of prey
+animals. For example, white-tailed deer with a fawn concentrated diel activity during
+diurnal periods when coyotes (<italic toggle="yes">Canis latrans</italic>), their major predators, are
+least active [<xref rid="r4" ref-type="bibr">4</xref>]. In this study, there were more
+brown bears within SNP, and those bears showed a diurnal tendency, which may reduce the
+diurnal activity of deer. This may affect the diel activity patterns of deer inside and
+outside SNP. However, the overall activity patterns were similar (<italic toggle="yes">i.e.</italic>,
+crepuscular) in both species. Therefore, it is not clear that deer avoid exposure during
+time when bears are most active. Further studies are needed to clarify how human activity
+and predator&#8211;prey interactions influence the diel activity patterns of brown bears and
+sika deer.</p><p>In conclusion, this study provided detailed information on the distributions of mammals
+and diel activity patterns of brown bears and sika deer on the Shiretoko Peninsula. The
+camera-trap surveys revealed the existence of six native species (<italic toggle="yes">i.e.</italic>,
+brown bears, sika deer, red squirrels, red foxes, raccoon dogs, and sables) and two alien
+species (raccoons and American minks). These results suggest that camera-trap surveys can
+be beneficial for the conservation and management of domestic species and the monitoring
+of invasive alien species. The high density of brown bears on the Shiretoko Peninsula
+enabled the first documentation of the diel activity patterns (<italic toggle="yes">i.e.</italic>,
+diurnal/crepuscular) in Hokkaido brown bears. Differences in activity patterns in three
+time periods between adult males and adult females/sub-adults suggested that competitive
+interactions between different sex-age classes are a potential factor shaping the activity
+patterns of brown bears. By contrast, the diel activity patterns of deer appeared to be
+less influenced by social factors. In addition, the present findings suggest that
+season-related behavioral changes, <italic toggle="yes">i.e.</italic>, appetite and reproductive
+motivation, affect activity patterns of bears and deer, respectively. Furthermore, human
+activity may also affect diel activity patterns in brown bears. The current findings will
+contribute not only to understanding of the behavioral ecology of these species, but also
+to wildlife conservation and management (e.g., by promoting the avoidance of dangerous
+encounters and more efficient deer culling).</p></sec></sec><sec sec-type="other" id="s4"><title>CONFLICT OF INTEREST</title><p>We declare no competing interests.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="pdf_001" position="float" content-type="local-data" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jvms-84-1146-s001.pdf" id="d64e1126" position="anchor" orientation="portrait"/></supplementary-material></sec></body><back><ack><p>We are deeply grateful to all staffs in the Shiretoko Nature Foundation for generous
+support. We would like to thank Ms. Miwako Sugawara, and all members in the laboratory of
+Wildlife Biology and Medicine, Hokkaido University for their support. This research was
+supported by a Grant-in-Aid for Scientific Research from Japan Society for the Promotion of
+Science (19K06833), and the Environment Research and Technology Development Fund
+(JPMEERF20194005) of the Environmental Restoration and Conservation Agency of Japan. This
+work was supported by the World-leading Innovative and Smart Education (WISE) Program (1801)
+from the Ministry of Education, Culture, Sports, Science, and Technology, Japan.</p></ack><ref-list><title>REFERENCES</title><ref id="r1"><label>1</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ager</surname><given-names>AA</given-names></name><name name-style="western"><surname>Johnson</surname><given-names>BK</given-names></name><name name-style="western"><surname>Kern</surname><given-names>JW</given-names></name><name name-style="western"><surname>Kie</surname><given-names>JG</given-names></name></person-group>. <year>2003</year>. <article-title>Daily and seasonal movements and
+habitat use by female rocky mountain elk and mule deer</article-title>.
+<source><italic toggle="yes">J Mammal</italic></source><volume>84</volume>:
+<fpage>1076</fpage>&#8211;<lpage>1088</lpage>. doi: <pub-id pub-id-type="doi">10.1644/BBa-020</pub-id></mixed-citation></ref><ref id="r2"><label>2</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Bellemain</surname><given-names>E</given-names></name><name name-style="western"><surname>Swenson</surname><given-names>JE</given-names></name><name name-style="western"><surname>Taberlet</surname><given-names>P</given-names></name></person-group>. <year>2006</year>. <article-title>Mating strategies in relation to
+sexually selected infanticide in a non-social carnivore: The brown bear</article-title>.
+<source><italic toggle="yes">Ethology</italic></source><volume>112</volume>:
+<fpage>238</fpage>&#8211;<lpage>246</lpage>. doi: <pub-id pub-id-type="doi">10.1111/j.1439-0310.2006.01152.x</pub-id></mixed-citation></ref><ref id="r3"><label>3</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Bogdanovi&#263;</surname><given-names>N</given-names></name><name name-style="western"><surname>Hertel</surname><given-names>AG</given-names></name><name name-style="western"><surname>Zedrosser</surname><given-names>A</given-names></name><name name-style="western"><surname>Paunovi&#263;</surname><given-names>M</given-names></name><name name-style="western"><surname>Ple&#263;a&#353;</surname><given-names>M</given-names></name><name name-style="western"><surname>&#262;irovi&#263;</surname><given-names>D</given-names></name></person-group>. <year>2021</year>. <article-title>Seasonal and diel movement patterns of
+brown bears in a population in southeastern Europe</article-title>. <source><italic toggle="yes">Ecol
+Evol</italic></source><volume>11</volume>: <fpage>15972</fpage>&#8211;<lpage>15983</lpage>.
+doi: <pub-id pub-id-type="doi">10.1002/ece3.8267</pub-id><pub-id pub-id-type="pmid">34824804</pub-id><pub-id pub-id-type="pmcid">PMC8601923</pub-id></mixed-citation></ref><ref id="r4"><label>4</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Crawford</surname><given-names>DA</given-names></name><name name-style="western"><surname>Conner</surname><given-names>LM</given-names></name><name name-style="western"><surname>Morris</surname><given-names>G</given-names></name><name name-style="western"><surname>Cherry</surname><given-names>MJ</given-names></name></person-group>. <year>2021</year>. <article-title>Predation risk increases intraspecific
+heterogeneity in white-tailed deer diet activity patterns</article-title>.
+<source><italic toggle="yes">Behav Ecol</italic></source><volume>32</volume>:
+<fpage>41</fpage>&#8211;<lpage>48</lpage>. doi: <pub-id pub-id-type="doi">10.1093/beheco/araa089</pub-id></mixed-citation></ref><ref id="r5"><label>5</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Danks</surname><given-names>ZD</given-names></name><name name-style="western"><surname>Porter</surname><given-names>WF</given-names></name></person-group>. <year>2010</year>. <article-title>Temporal, spatial, and landscape
+habitat characteristics of moose-vehicle collisions in western Maine</article-title>.
+<source><italic toggle="yes">J Wildl Manage</italic></source><volume>74</volume>:
+<fpage>1229</fpage>&#8211;<lpage>1241</lpage>.</mixed-citation></ref><ref id="r6"><label>6</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Dunlap</surname><given-names>JC</given-names></name></person-group>. <year>1999</year>. <article-title>Molecular bases for circadian
+clocks</article-title>. <source><italic toggle="yes">Cell</italic></source><volume>96</volume>:
+<fpage>271</fpage>&#8211;<lpage>290</lpage>. doi: <pub-id pub-id-type="doi">10.1016/S0092-8674(00)80566-8</pub-id><pub-id pub-id-type="pmid">9988221</pub-id></mixed-citation></ref><ref id="r7"><label>7</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Dunlap</surname><given-names>JC</given-names></name><name name-style="western"><surname>Loros</surname><given-names>JJ</given-names></name><name name-style="western"><surname>Merrow</surname><given-names>M</given-names></name><name name-style="western"><surname>Crosthwaite</surname><given-names>S</given-names></name><name name-style="western"><surname>BellPedersen</surname><given-names>D</given-names></name><name name-style="western"><surname>Garceau</surname><given-names>N</given-names></name><name name-style="western"><surname>Shinohara</surname><given-names>M</given-names></name><name name-style="western"><surname>Cho</surname><given-names>HS</given-names></name><name name-style="western"><surname>Luo</surname><given-names>CH</given-names></name></person-group>. <year>1996</year>. <article-title>The genetic and molecular dissection of
+a prototypic circadian system</article-title>. <source><italic toggle="yes">Prog Brain
+Res</italic></source><volume>111</volume>: <fpage>11</fpage>&#8211;<lpage>27</lpage>. doi:
+<pub-id pub-id-type="doi">10.1038/s41598-020-64526-y</pub-id><pub-id pub-id-type="pmid">8990904</pub-id></mixed-citation></ref><ref id="r8"><label>8</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Emery</surname><given-names>P</given-names></name><name name-style="western"><surname>So</surname><given-names>WV</given-names></name><name name-style="western"><surname>Kaneko</surname><given-names>M</given-names></name><name name-style="western"><surname>Hall</surname><given-names>JC</given-names></name><name name-style="western"><surname>Rosbash</surname><given-names>M</given-names></name></person-group>. <year>1998</year>. <article-title>CRY, a Drosophila clock and
+light-regulated cryptochrome, is a major contributor to circadian rhythm resetting and
+photosensitivity</article-title>.
+<source><italic toggle="yes">Cell</italic></source><volume>95</volume>:
+<fpage>669</fpage>&#8211;<lpage>679</lpage>. doi: <pub-id pub-id-type="doi">10.1016/S0092-8674(00)81637-2</pub-id><pub-id pub-id-type="pmid">9845369</pub-id></mixed-citation></ref><ref id="r9"><label>9</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Endo</surname><given-names>A</given-names></name></person-group>. <year>2009</year>. Variation in mating behavior of sika deer: mating
+behavior of sika deer on Nozaki Island. pp. 285&#8211;296. In: Sika Deer&#8212;Biology and Management
+of Native and Introduced Populations (McCullough DR, Takatsuki S and Kaji K eds.),
+Springer, Tokyo.</mixed-citation></ref><ref id="r10"><label>10</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Endo</surname><given-names>A</given-names></name><name name-style="western"><surname>Doi</surname><given-names>T</given-names></name><name name-style="western"><surname>Shiraki</surname><given-names>A</given-names></name></person-group>. <year>1997</year>. <article-title>Post-copulative guarding: mating
+behavior of non-territorial male sika deer (<italic toggle="yes">Cervus nippon</italic>) in an
+enclosure</article-title>. <source><italic toggle="yes">Appl Anim Behav
+Sci</italic></source><volume>54</volume>: <fpage>257</fpage>&#8211;<lpage>263</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/S0168-1591(97)00070-1</pub-id></mixed-citation></ref><ref id="r11"><label>11</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Furusaka</surname><given-names>S</given-names></name><name name-style="western"><surname>Tochigi</surname><given-names>K</given-names></name><name name-style="western"><surname>Yamazaki</surname><given-names>K</given-names></name><name name-style="western"><surname>Naganuma</surname><given-names>T</given-names></name><name name-style="western"><surname>Inagaki</surname><given-names>A</given-names></name><name name-style="western"><surname>Koike</surname><given-names>S</given-names></name></person-group>. <year>2019</year>. <article-title>Estimating the seasonal energy balance
+in Asian black bears and associated factors</article-title>.
+<source><italic toggle="yes">Ecosphere</italic></source><volume>10</volume>: <fpage>e02891</fpage>.
+doi: <pub-id pub-id-type="doi">10.1002/ecs2.2891</pub-id></mixed-citation></ref><ref id="r12"><label>12</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Gaynor</surname><given-names>KM</given-names></name><name name-style="western"><surname>Hojnowski</surname><given-names>CE</given-names></name><name name-style="western"><surname>Carter</surname><given-names>NH</given-names></name><name name-style="western"><surname>Brashares</surname><given-names>JS</given-names></name></person-group>. <year>2018</year>. <article-title>The influence of human disturbance on
+wildlife nocturnality</article-title>.
+<source><italic toggle="yes">Science</italic></source><volume>360</volume>:
+<fpage>1232</fpage>&#8211;<lpage>1235</lpage>. doi: <pub-id pub-id-type="doi">10.1126/science.aar7121</pub-id><pub-id pub-id-type="pmid">29903973</pub-id></mixed-citation></ref><ref id="r13"><label>13</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Hayden</surname><given-names>TJ</given-names></name><name name-style="western"><surname>Lynch</surname><given-names>JM</given-names></name><name name-style="western"><surname>Ocorrycrowe</surname><given-names>G</given-names></name></person-group>. <year>1994</year>. <article-title>Antler growth and morphology in a feral
+sika-deer (<italic toggle="yes">Cervus-Nippon</italic>) population in Killarney,
+Ireland</article-title>. <source><italic toggle="yes">J Zool
+(Lond)</italic></source><volume>232</volume>: <fpage>21</fpage>&#8211;<lpage>35</lpage>. doi:
+<pub-id pub-id-type="doi">10.1111/j.1469-7998.1994.tb01557.x</pub-id></mixed-citation></ref><ref id="r14"><label>14</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Hertel</surname><given-names>AG</given-names></name><name name-style="western"><surname>Swenson</surname><given-names>JE</given-names></name><name name-style="western"><surname>Bischof</surname><given-names>R</given-names></name></person-group>. <year>2017</year>. <article-title>A case for considering individual
+variation in diel activity patterns</article-title>. <source><italic toggle="yes">Behav
+Ecol</italic></source><volume>28</volume>: <fpage>1524</fpage>&#8211;<lpage>1531</lpage>. doi:
+<pub-id pub-id-type="doi">10.1093/beheco/arx122</pub-id><pub-id pub-id-type="pmid">29622931</pub-id><pub-id pub-id-type="pmcid">PMC5873257</pub-id></mixed-citation></ref><ref id="r15"><label>15</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Heurich</surname><given-names>M</given-names></name><name name-style="western"><surname>Hilger</surname><given-names>A</given-names></name><name name-style="western"><surname>K&#252;chenhoff</surname><given-names>H</given-names></name><name name-style="western"><surname>Andr&#233;n</surname><given-names>H</given-names></name><name name-style="western"><surname>Bufka</surname><given-names>L</given-names></name><name name-style="western"><surname>Krofel</surname><given-names>M</given-names></name><name name-style="western"><surname>Mattisson</surname><given-names>J</given-names></name><name name-style="western"><surname>Odden</surname><given-names>J</given-names></name><name name-style="western"><surname>Persson</surname><given-names>J</given-names></name><name name-style="western"><surname>Rauset</surname><given-names>GR</given-names></name><name name-style="western"><surname>Schmidt</surname><given-names>K</given-names></name><name name-style="western"><surname>Linnell</surname><given-names>JDC</given-names></name></person-group>. <year>2014</year>. <article-title>Activity patterns of Eurasian lynx are
+modulated by light regime and individual traits over a wide latitudinal
+range</article-title>. <source><italic toggle="yes">PLoS One</italic></source><volume>9</volume>:
+<fpage>e114143</fpage>. doi: <pub-id pub-id-type="doi">10.1371/journal.pone.0114143</pub-id><pub-id pub-id-type="pmid">25517902</pub-id><pub-id pub-id-type="pmcid">PMC4269461</pub-id></mixed-citation></ref><ref id="r16"><label>16</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ikeda</surname><given-names>T</given-names></name><name name-style="western"><surname>Takahashi</surname><given-names>H</given-names></name><name name-style="western"><surname>Yoshida</surname><given-names>T</given-names></name><name name-style="western"><surname>Igota</surname><given-names>H</given-names></name><name name-style="western"><surname>Matsuura</surname><given-names>Y</given-names></name><name name-style="western"><surname>Takeshita</surname><given-names>K</given-names></name><name name-style="western"><surname>Kaji</surname><given-names>K</given-names></name></person-group>. <year>2015</year>. <article-title>Seasonal variation of activity pattern
+in sika deer (<italic toggle="yes">Cervus nippon</italic>) as assessed by camera trap
+survey</article-title>. <source><italic toggle="yes">Mammal
+Study</italic></source><volume>40</volume>: <fpage>199</fpage>&#8211;<lpage>205</lpage>. doi:
+<pub-id pub-id-type="doi">10.3106/041.040.0401</pub-id></mixed-citation></ref><ref id="r17"><label>17</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ikeda</surname><given-names>T</given-names></name><name name-style="western"><surname>Uchida</surname><given-names>K</given-names></name><name name-style="western"><surname>Matsuura</surname><given-names>Y</given-names></name><name name-style="western"><surname>Takahashi</surname><given-names>H</given-names></name><name name-style="western"><surname>Yoshida</surname><given-names>T</given-names></name><name name-style="western"><surname>Kaji</surname><given-names>K</given-names></name><name name-style="western"><surname>Koizumi</surname><given-names>I</given-names></name></person-group>. <year>2016</year>. <article-title>Seasonal and diel activity patterns of
+eight sympatric mammals in northern Japan revealed by an intensive camera-trap
+survey</article-title>. <source><italic toggle="yes">PLoS One</italic></source><volume>11</volume>:
+<fpage>e0163602</fpage>. doi: <pub-id pub-id-type="doi">10.1371/journal.pone.0163602</pub-id><pub-id pub-id-type="pmid">27732611</pub-id><pub-id pub-id-type="pmcid">PMC5061397</pub-id></mixed-citation></ref><ref id="r18"><label>18</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kaczensky</surname><given-names>P</given-names></name><name name-style="western"><surname>Huber</surname><given-names>D</given-names></name><name name-style="western"><surname>Knauer</surname><given-names>F</given-names></name><name name-style="western"><surname>Roth</surname><given-names>H</given-names></name><name name-style="western"><surname>Wagner</surname><given-names>A</given-names></name><name name-style="western"><surname>Kusak</surname><given-names>J</given-names></name></person-group>. <year>2006</year>. <article-title>Activity patterns of brown bears
+(<italic toggle="yes">Ursus arctos</italic>) in Slovenia and Croatia</article-title>.
+<source><italic toggle="yes">J Zool (Lond)</italic></source><volume>269</volume>:
+<fpage>474</fpage>&#8211;<lpage>485</lpage>. doi: <pub-id pub-id-type="doi">10.1111/j.1469-7998.2006.00114.x</pub-id></mixed-citation></ref><ref id="r19"><label>19</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kilgo</surname><given-names>JC</given-names></name><name name-style="western"><surname>Labisky</surname><given-names>RF</given-names></name><name name-style="western"><surname>Fritzen</surname><given-names>DE</given-names></name></person-group>. <year>1998</year>. <article-title>Influences of hunting on the behavior
+of white-tailed deer: Implications for conservation of the Florida
+panther</article-title>. <source><italic toggle="yes">Conserv
+Biol</italic></source><volume>12</volume>: <fpage>1359</fpage>&#8211;<lpage>1364</lpage>. doi:
+<pub-id pub-id-type="doi">10.1111/j.1523-1739.1998.97223.x</pub-id></mixed-citation></ref><ref id="r20"><label>20</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Klinka</surname><given-names>DR</given-names></name><name name-style="western"><surname>Reimchen</surname><given-names>TE</given-names></name></person-group>. <year>2002</year>. <article-title>Nocturnal and diurnal foraging
+behaviour of brown bears (<italic toggle="yes">Ursus arctos</italic>) on a salmon stream in coastal
+British Columbia</article-title>. <source><italic toggle="yes">Can J
+Zool</italic></source><volume>80</volume>: <fpage>1317</fpage>&#8211;<lpage>1322</lpage>. doi:
+<pub-id pub-id-type="doi">10.1139/z02-123</pub-id></mixed-citation></ref><ref id="r21"><label>21</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kobayashi</surname><given-names>K</given-names></name><name name-style="western"><surname>Sato</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kaji</surname><given-names>K</given-names></name></person-group>. <year>2012</year>. <article-title>Increased brown bear predation on sika
+deer fawns following a deer population irruption in eastern Hokkaido,
+Japan</article-title>. <source><italic toggle="yes">Ecol Res</italic></source><volume>27</volume>:
+<fpage>849</fpage>&#8211;<lpage>855</lpage>. doi: <pub-id pub-id-type="doi">10.1007/s11284-012-0962-4</pub-id></mixed-citation></ref><ref id="r22"><label>22</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Kohira</surname><given-names>M</given-names></name><name name-style="western"><surname>Okada</surname><given-names>H</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name></person-group>. <year>2006</year>. Demographic trends, dispersal patterns, and management
+of brown bear in Shiretoko National Park. pp. 238&#8211;242. In: Wildlife in Shiretoko and
+Yellowstone National Parks (McCullough DR, Kaji K and Yamanaka M eds.), Shiretoko Nature
+Foundation, Shari.</mixed-citation></ref><ref id="r23"><label>23</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Koprowski</surname><given-names>JL</given-names></name><name name-style="western"><surname>Corse</surname><given-names>MC</given-names></name></person-group>. <year>2005</year>. <article-title>Time budgets, activity periods, and
+behavior of Mexican fox squirrels</article-title>. <source><italic toggle="yes">J
+Mammal</italic></source><volume>86</volume>: <fpage>947</fpage>&#8211;<lpage>952</lpage>. doi:
+<pub-id pub-id-type="doi">10.1644/1545-1542(2005)86[947:TBAPAB]2.0.CO;2</pub-id></mixed-citation></ref><ref id="r24"><label>24</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kowalczyk</surname><given-names>R</given-names></name><name name-style="western"><surname>Jedrzejewska</surname><given-names>B</given-names></name><name name-style="western"><surname>Zalewski</surname><given-names>A</given-names></name></person-group>. <year>2003</year>. <article-title>Annual and circadian activity patterns
+of badgers (<italic toggle="yes">Meles meles</italic>) in Bialowieza Primeval Forest (eastern Poland)
+compared with other Palaearctic populations</article-title>. <source><italic toggle="yes">J
+Biogeogr</italic></source><volume>30</volume>: <fpage>463</fpage>&#8211;<lpage>472</lpage>.
+doi: <pub-id pub-id-type="doi">10.1046/j.1365-2699.2003.00804.x</pub-id></mixed-citation></ref><ref id="r25"><label>25</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kozakai</surname><given-names>C</given-names></name><name name-style="western"><surname>Yamazaki</surname><given-names>K</given-names></name><name name-style="western"><surname>Nemoto</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nakajima</surname><given-names>A</given-names></name><name name-style="western"><surname>Umemura</surname><given-names>Y</given-names></name><name name-style="western"><surname>Koike</surname><given-names>S</given-names></name><name name-style="western"><surname>Goto</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name><name name-style="western"><surname>Abe</surname><given-names>S</given-names></name><name name-style="western"><surname>Masaki</surname><given-names>T</given-names></name><name name-style="western"><surname>Kaji</surname><given-names>K</given-names></name></person-group>. <year>2013</year>. <article-title>Fluctuation of daily activity time
+budgets of Japanese black bears: relationship to sex, reproductive status, and hard-mast
+availability</article-title>. <source><italic toggle="yes">J
+Mammal</italic></source><volume>94</volume>: <fpage>351</fpage>&#8211;<lpage>360</lpage>. doi:
+<pub-id pub-id-type="doi">10.1644/11-MAMM-A-246.1</pub-id></mixed-citation></ref><ref id="r26"><label>26</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Marcelli</surname><given-names>M</given-names></name><name name-style="western"><surname>Fusillo</surname><given-names>R</given-names></name><name name-style="western"><surname>Boitani</surname><given-names>L</given-names></name></person-group>. <year>2003</year>. <article-title>Sexual segregation in the activity
+patterns of European polecats (<italic toggle="yes">Mustela putorius</italic>)</article-title>.
+<source><italic toggle="yes">J Zool (Lond)</italic></source><volume>261</volume>:
+<fpage>249</fpage>&#8211;<lpage>255</lpage>. doi: <pub-id pub-id-type="doi">10.1017/S0952836903004151</pub-id></mixed-citation></ref><ref id="r27"><label>27</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Matthews</surname><given-names>SM</given-names></name><name name-style="western"><surname>Beecham</surname><given-names>JJ</given-names></name><name name-style="western"><surname>Quigley</surname><given-names>H</given-names></name><name name-style="western"><surname>Greenleaf</surname><given-names>SS</given-names></name><name name-style="western"><surname>Leithead</surname><given-names>HM</given-names></name></person-group>. <year>2006</year>. <article-title>Activity patterns of American black
+bears in Yosemite National Park</article-title>.
+<source><italic toggle="yes">Ursus</italic></source><volume>17</volume>:
+<fpage>30</fpage>&#8211;<lpage>40</lpage>. doi: <pub-id pub-id-type="doi">10.2192/1537-6176(2006)17[30:APOABB]2.0.CO;2</pub-id></mixed-citation></ref><ref id="r28"><label>28</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>McCullough</surname><given-names>DR</given-names></name></person-group>. <year>2006</year>. Introduction to the Yellowstone-Shiretoko National
+Park comparison. pp. 206&#8211;208. In: Wildlife in Shiretoko and Yellowstone National Parks
+(McCullough DR, Kaji K and Yamanaka M eds.), Shiretoko Nature Foundation,
+Shari.</mixed-citation></ref><ref id="r29"><label>29</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Migli</surname><given-names>D</given-names></name><name name-style="western"><surname>Astaras</surname><given-names>C</given-names></name><name name-style="western"><surname>Boutsis</surname><given-names>G</given-names></name><name name-style="western"><surname>Diakou</surname><given-names>A</given-names></name><name name-style="western"><surname>Karantanis</surname><given-names>NE</given-names></name><name name-style="western"><surname>Youlatos</surname><given-names>D</given-names></name></person-group>. <year>2021</year>. <article-title>Spatial ecology and diel activity of
+European wildcat (<italic toggle="yes">Felis silvestris</italic>) in a protected lowland area in
+northern Greece</article-title>. <source><italic toggle="yes">Animals
+(Basel)</italic></source><volume>11</volume>: <fpage>3030</fpage>. doi: <pub-id pub-id-type="doi">10.3390/ani11113030</pub-id><pub-id pub-id-type="pmid">34827762</pub-id><pub-id pub-id-type="pmcid">PMC8614438</pub-id></mixed-citation></ref><ref id="r30"><label>30</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Minami</surname><given-names>M</given-names></name><name name-style="western"><surname>Ohnishi</surname><given-names>N</given-names></name><name name-style="western"><surname>Okada</surname><given-names>A</given-names></name><name name-style="western"><surname>Takatsuki</surname><given-names>S</given-names></name></person-group>. <year>2009</year>. Reproductive ecology of sika deer on Kinkazan Island,
+northern Japan: Reproductive success of males and multi-mating of females. pp. 297&#8211;317.
+In: Sika Deer&#8212;Biology and Management of Native and Introduced Populations (McCullough DR,
+Takatsuki S and Kaji K eds.), Springer, Tokyo.</mixed-citation></ref><ref id="r31"><label>31</label><mixed-citation publication-type="other">Ministry of the Environment,
+Government of Japan. <year>2017</year>. Brown bear management plan in the Shiretoko
+Peninsula (in Japanese).</mixed-citation></ref><ref id="r32"><label>32</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mitsuhashi</surname><given-names>I</given-names></name><name name-style="western"><surname>Sako</surname><given-names>T</given-names></name><name name-style="western"><surname>Teduka</surname><given-names>M</given-names></name><name name-style="western"><surname>Koizumi</surname><given-names>R</given-names></name><name name-style="western"><surname>Saito</surname><given-names>MU</given-names></name><name name-style="western"><surname>Kaneko</surname><given-names>Y</given-names></name></person-group>. <year>2018</year>. <article-title>Home range of raccoon dogs in an urban
+green area of Tokyo, Japan</article-title>. <source><italic toggle="yes">J
+Mammal</italic></source><volume>99</volume>: <fpage>732</fpage>&#8211;<lpage>740</lpage>. doi:
+<pub-id pub-id-type="doi">10.1093/jmammal/gyy033</pub-id></mixed-citation></ref><ref id="r33"><label>33</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Miura</surname><given-names>S</given-names></name></person-group>. <year>2005</year>. Sika deer. pp. 110&#8211;111. In: A Guide to the Mammals of
+Japan (Abe H ed.), Tokai University Press, Kanagawa.</mixed-citation></ref><ref id="r34"><label>34</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Monterroso</surname><given-names>P</given-names></name><name name-style="western"><surname>Alves</surname><given-names>PC</given-names></name><name name-style="western"><surname>Ferreras</surname><given-names>P</given-names></name></person-group>. <year>2013</year>. <article-title>Catch me if you can: diel activity
+patterns of mammalian prey and predators</article-title>.
+<source><italic toggle="yes">Ethology</italic></source><volume>119</volume>:
+<fpage>1044</fpage>&#8211;<lpage>1056</lpage>. doi: <pub-id pub-id-type="doi">10.1111/eth.12156</pub-id></mixed-citation></ref><ref id="r35"><label>35</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mueller</surname><given-names>C</given-names></name><name name-style="western"><surname>Herrero</surname><given-names>S</given-names></name><name name-style="western"><surname>Gibeau</surname><given-names>ML</given-names></name></person-group>. <year>2004</year>. <article-title>Distribution of subadult grizzly bears
+in relation to human development in the Bow River Watershed, Alberta</article-title>.
+<source><italic toggle="yes">Ursus</italic></source><volume>15</volume>:
+<fpage>35</fpage>&#8211;<lpage>47</lpage>. doi: <pub-id pub-id-type="doi" assigning-authority="pmc">10.2192/1537-6176(2004)015&amp;#x0003c;0035:DOSGBI&amp;#x0003e;2.0.CO;2</pub-id></mixed-citation></ref><ref id="r36"><label>36</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Munro</surname><given-names>RHM</given-names></name><name name-style="western"><surname>Nielsen</surname><given-names>SE</given-names></name><name name-style="western"><surname>Price</surname><given-names>MH</given-names></name><name name-style="western"><surname>Stenhouse</surname><given-names>GB</given-names></name><name name-style="western"><surname>Boyce</surname><given-names>MS</given-names></name></person-group>. <year>2006</year>. <article-title>Seasonal and diel patterns of grizzly
+bear diet and activity in west-central Alberta</article-title>. <source><italic toggle="yes">J
+Mammal</italic></source><volume>87</volume>: <fpage>1112</fpage>&#8211;<lpage>1121</lpage>.
+doi: <pub-id pub-id-type="doi">10.1644/05-MAMM-A-410R3.1</pub-id></mixed-citation></ref><ref id="r37"><label>37</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Murakami</surname><given-names>T</given-names></name><name name-style="western"><surname>Tsukada</surname><given-names>H</given-names></name></person-group>. <year>2006</year>. Current status of mesocarnivores in Shiretoko National
+Park and the surrounding area. pp. 262&#8211;265. In: Wildlife in Shiretoko and Yellowstone
+National Parks (McCullough DR, Kaji K and Yamanaka M eds.), Shiretoko Nature Foundation,
+Shari, Hokkaido.</mixed-citation></ref><ref id="r38"><label>38</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Murakami</surname><given-names>T</given-names></name><name name-style="western"><surname>Ikeda</surname><given-names>T</given-names></name><name name-style="western"><surname>Shimada</surname><given-names>K</given-names></name></person-group>. <year>2011</year>. <article-title>Current distribution of an invasive
+alien species, the American mink <italic toggle="yes">Neovison vison</italic>, in Shiretoko Peninsula
+and its adjacent areas</article-title>. <source><italic toggle="yes">Bulletin of the Shiretoko
+Museum</italic></source><volume>33</volume>:
+<fpage>61</fpage>&#8211;<lpage>67</lpage>.</mixed-citation></ref><ref id="r39"><label>39</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ogurtsov</surname><given-names>SS</given-names></name><name name-style="western"><surname>Zheltukhin</surname><given-names>AS</given-names></name><name name-style="western"><surname>Kotlov</surname><given-names>IP</given-names></name></person-group>. <year>2018</year>. <article-title>Daily activity patterns of large and
+medium-sized mammals based on camera traps data in the central forest nature reserve,
+Valdai Upland, Russia</article-title>. <source><italic toggle="yes">Nat Conserv
+Res</italic></source><volume>3</volume>: <fpage>68</fpage>&#8211;<lpage>88</lpage>. doi:
+<pub-id pub-id-type="doi">10.24189/ncr.2018.031</pub-id></mixed-citation></ref><ref id="r40"><label>40</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Okuyama</surname><given-names>MW</given-names></name><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakai</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamaguchi</surname><given-names>E</given-names></name><name name-style="western"><surname>Fujii</surname><given-names>K</given-names></name><name name-style="western"><surname>Shimada</surname><given-names>KI</given-names></name><name name-style="western"><surname>Ikeda</surname><given-names>T</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name></person-group>. <year>2020</year>. <article-title>Genetic population structure of
+invasive raccoons (<italic toggle="yes">Procyon lotor</italic>) in Hokkaido, Japan: Unique phenomenon
+caused by pet escape or abandonment</article-title>. <source><italic toggle="yes">Sci
+Rep</italic></source><volume>10</volume>: <fpage>8108</fpage>. doi: <pub-id pub-id-type="doi">10.1038/s41598-020-64526-y</pub-id><pub-id pub-id-type="pmid">32415152</pub-id><pub-id pub-id-type="pmcid">PMC7229193</pub-id></mixed-citation></ref><ref id="r41"><label>41</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Olson</surname><given-names>TL</given-names></name><name name-style="western"><surname>Squibb</surname><given-names>RC</given-names></name><name name-style="western"><surname>Gilbert</surname><given-names>BK</given-names></name></person-group>. <year>1998</year>. <article-title>Brown bear diurnal activity and human
+use: a comparison of two salmon streams</article-title>.
+<source><italic toggle="yes">Ursus</italic></source><volume>10</volume>:
+<fpage>547</fpage>&#8211;<lpage>555</lpage>.</mixed-citation></ref><ref id="r42"><label>42</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ordiz</surname><given-names>A</given-names></name><name name-style="western"><surname>Kindberg</surname><given-names>J</given-names></name><name name-style="western"><surname>Saebo</surname><given-names>S</given-names></name><name name-style="western"><surname>Swenson</surname><given-names>JE</given-names></name><name name-style="western"><surname>Stoen</surname><given-names>OG</given-names></name></person-group>. <year>2014</year>. <article-title>Brown bear circadian behavior reveals
+human environmental encroachment</article-title>. <source><italic toggle="yes">Biol
+Conserv</italic></source><volume>173</volume>: <fpage>1</fpage>&#8211;<lpage>9</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/j.biocon.2014.03.006</pub-id></mixed-citation></ref><ref id="r43"><label>43</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Parres</surname><given-names>A</given-names></name><name name-style="western"><surname>Palazon</surname><given-names>S</given-names></name><name name-style="western"><surname>Afonso</surname><given-names>I</given-names></name><name name-style="western"><surname>Quenette</surname><given-names>PY</given-names></name><name name-style="western"><surname>Batet</surname><given-names>A</given-names></name><name name-style="western"><surname>Camarra</surname><given-names>JJ</given-names></name><name name-style="western"><surname>Garreta</surname><given-names>X</given-names></name><name name-style="western"><surname>Goncalves</surname><given-names>S</given-names></name><name name-style="western"><surname>Guillen</surname><given-names>J</given-names></name><name name-style="western"><surname>Mir</surname><given-names>S</given-names></name><name name-style="western"><surname>Jato</surname><given-names>R</given-names></name><name name-style="western"><surname>Rodriguez</surname><given-names>J</given-names></name><name name-style="western"><surname>Sentilles</surname><given-names>J</given-names></name><name name-style="western"><surname>Xicola</surname><given-names>L</given-names></name><name name-style="western"><surname>Melero</surname><given-names>Y</given-names></name></person-group>. <year>2020</year>. <article-title>Activity patterns in the reintroduced
+Pyrenean brown bear population</article-title>. <source><italic toggle="yes">Mammal
+Res</italic></source><volume>65</volume>: <fpage>435</fpage>&#8211;<lpage>444</lpage>. doi:
+<pub-id pub-id-type="doi">10.1007/s13364-020-00507-w</pub-id></mixed-citation></ref><ref id="r44"><label>44</label><mixed-citation publication-type="eref">R Core Team.<year>2019</year>. A
+language and environment for statistical computing. R Foundation for Statistical
+Computing, Vienna, https://www.R-project.org/ [accessed on December 22,
+2021].</mixed-citation></ref><ref id="r45"><label>45</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ryan</surname><given-names>TA</given-names></name></person-group>. <year>1960</year>. <article-title>Significance tests for multiple
+comparison of proportions, variances, and other statistics</article-title>.
+<source><italic toggle="yes">Psychol Bull</italic></source><volume>57</volume>:
+<fpage>318</fpage>&#8211;<lpage>328</lpage>. doi: <pub-id pub-id-type="doi">10.1037/h0044320</pub-id><pub-id pub-id-type="pmid">14440422</pub-id></mixed-citation></ref><ref id="r46"><label>46</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Sato</surname><given-names>Y</given-names></name><name name-style="western"><surname>Nakamura</surname><given-names>H</given-names></name><name name-style="western"><surname>Kobayashi</surname><given-names>K</given-names></name><name name-style="western"><surname>Sekiguchi</surname><given-names>M</given-names></name><name name-style="western"><surname>Ishibashi</surname><given-names>Y</given-names></name><name name-style="western"><surname>Itoh</surname><given-names>T</given-names></name></person-group>. <year>2020</year>. <article-title>Evaluation of the effectiveness of
+scented wooden posts for DNA hair snagging of brown bears</article-title>.
+<source><italic toggle="yes">Mammal Study</italic></source><volume>45</volume>:
+<fpage>213</fpage>&#8211;<lpage>218</lpage>. doi: <pub-id pub-id-type="doi">10.3106/ms2018-0045</pub-id></mixed-citation></ref><ref id="r47"><label>47</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Schmidt</surname><given-names>K</given-names></name></person-group>. <year>1999</year>. <article-title>Variation in daily activity of the
+free-living Eurasian lynx (<italic toggle="yes">Lynx lynx</italic>) in Bialowieza Primeval Forest,
+Poland</article-title>. <source><italic toggle="yes">J Zool
+(Lond)</italic></source><volume>249</volume>:
+<fpage>417</fpage>&#8211;<lpage>425</lpage>.</mixed-citation></ref><ref id="r48"><label>48</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Schneider</surname><given-names>CA</given-names></name><name name-style="western"><surname>Rasband</surname><given-names>WS</given-names></name><name name-style="western"><surname>Eliceiri</surname><given-names>KW</given-names></name></person-group>. <year>2012</year>. <article-title>NIH Image to ImageJ: 25 years of image
+analysis</article-title>. <source><italic toggle="yes">Nat
+Methods</italic></source><volume>9</volume>: <fpage>671</fpage>&#8211;<lpage>675</lpage>. doi:
+<pub-id pub-id-type="doi">10.1038/nmeth.2089</pub-id><pub-id pub-id-type="pmid">22930834</pub-id><pub-id pub-id-type="pmcid">PMC5554542</pub-id></mixed-citation></ref><ref id="r49"><label>49</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Schwartz</surname><given-names>CC</given-names></name><name name-style="western"><surname>Miller</surname><given-names>SD</given-names></name><name name-style="western"><surname>Haroldson</surname><given-names>MA</given-names></name></person-group>. <year>2003</year>. Grizzly bear. pp. 556&#8211;586. In: Wild Mammals of North
+America: Biology, Management, and Conservation (Feldamer GA, Thompson BC and Chapman JA
+eds.), The Johns Hopkins University Press, Baltimore.</mixed-citation></ref><ref id="r50"><label>50</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Schwemmer</surname><given-names>P</given-names></name><name name-style="western"><surname>Weiel</surname><given-names>S</given-names></name><name name-style="western"><surname>Garthe</surname><given-names>S</given-names></name></person-group>. <year>2021</year>. <article-title>Spatio-temporal movement patterns and
+habitat choice of red foxes (<italic toggle="yes">Vulpes vulpes</italic>) and racoon dogs
+(<italic toggle="yes">Nyctereutes procyonoides</italic>) along the Wadden Sea
+coast</article-title>. <source><italic toggle="yes">Eur J Wildl
+Res</italic></source><volume>67</volume>: <fpage>49</fpage>. doi: <pub-id pub-id-type="doi">10.1007/s10344-021-01474-6</pub-id></mixed-citation></ref><ref id="r51"><label>51</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Moriwaki</surname><given-names>J</given-names></name><name name-style="western"><surname>Mori</surname><given-names>F</given-names></name><name name-style="western"><surname>Tsujino</surname><given-names>M</given-names></name><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name><name name-style="western"><surname>Nose</surname><given-names>T</given-names></name><name name-style="western"><surname>Masuda</surname><given-names>Y</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name></person-group>. <year>2017</year>. <article-title>Reproductive parameters and cub
+survival of brown bears in the Rusha area of the Shiretoko Peninsula, Hokkaido,
+Japan</article-title>. <source><italic toggle="yes">PLoS One</italic></source><volume>12</volume>:
+<fpage>e0176251</fpage>. doi: <pub-id pub-id-type="doi">10.1371/journal.pone.0176251</pub-id><pub-id pub-id-type="pmid">28441423</pub-id><pub-id pub-id-type="pmcid">PMC5404773</pub-id></mixed-citation></ref><ref id="r52"><label>52</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Tsuruga</surname><given-names>H</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name><name name-style="western"><surname>Nose</surname><given-names>T</given-names></name><name name-style="western"><surname>Masuda</surname><given-names>Y</given-names></name><name name-style="western"><surname>Fujimoto</surname><given-names>Y</given-names></name><name name-style="western"><surname>Mano</surname><given-names>T</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name></person-group>. <year>2019</year>. <article-title>Incidence of multiple paternity and
+inbreeding in high-density brown bear populations on the Shiretoko Peninsula, Hokkaido,
+Japan</article-title>. <source><italic toggle="yes">J Hered</italic></source><volume>110</volume>:
+<fpage>321</fpage>&#8211;<lpage>331</lpage>. doi: <pub-id pub-id-type="doi">10.1093/jhered/esz002</pub-id><pub-id pub-id-type="pmid">30629255</pub-id></mixed-citation></ref><ref id="r53"><label>53</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Jimbo</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name><name name-style="western"><surname>Nose</surname><given-names>T</given-names></name><name name-style="western"><surname>Fujimoto</surname><given-names>Y</given-names></name><name name-style="western"><surname>Tsuruga</surname><given-names>H</given-names></name><name name-style="western"><surname>Mano</surname><given-names>T</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name></person-group>. <year>2020</year>. <article-title>Male reproductive input, breeding
+tenure, and turnover in high-density brown bear (<italic toggle="yes">Ursus arctos
+yesoensis</italic>) populations on the Shiretoko Peninsula, Hokkaido,
+Japan</article-title>. <source><italic toggle="yes">Can J Zool</italic></source><volume>98</volume>:
+<fpage>175</fpage>&#8211;<lpage>185</lpage>. doi: <pub-id pub-id-type="doi">10.1139/cjz-2019-0061</pub-id></mixed-citation></ref><ref id="r54"><label>54</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name><name name-style="western"><surname>Nose</surname><given-names>T</given-names></name><name name-style="western"><surname>Shirayanagi</surname><given-names>M</given-names></name><name name-style="western"><surname>Jimbo</surname><given-names>M</given-names></name><name name-style="western"><surname>Tsuruga</surname><given-names>H</given-names></name><name name-style="western"><surname>Mano</surname><given-names>T</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name></person-group>. <year>2020</year>. <article-title>Maternal human habituation enhances
+sons&#8217; risk of human-caused mortality in a large carnivore, brown bears</article-title>.
+<source><italic toggle="yes">Sci Rep</italic></source><volume>10</volume>: <fpage>16498</fpage>.
+doi: <pub-id pub-id-type="doi">10.1038/s41598-020-73057-5</pub-id><pub-id pub-id-type="pmid">33020503</pub-id><pub-id pub-id-type="pmcid">PMC7536428</pub-id></mixed-citation></ref><ref id="r55"><label>55</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Jimbo</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Mori</surname><given-names>F</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Sashika</surname><given-names>M</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name></person-group>. <year>2021</year>. <article-title>Dining from the coast to the summit:
+Salmon and pine nuts determine the summer body condition of female brown bears on the
+Shiretoko Peninsula</article-title>. <source><italic toggle="yes">Ecol
+Evol</italic></source><volume>11</volume>: <fpage>5204</fpage>&#8211;<lpage>5219</lpage>. doi:
+<pub-id pub-id-type="doi">10.1002/ece3.7410</pub-id><pub-id pub-id-type="pmid">34026001</pub-id><pub-id pub-id-type="pmcid">PMC8131783</pub-id></mixed-citation></ref><ref id="r56"><label>56</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Mori</surname><given-names>F</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Mano</surname><given-names>T</given-names></name><name name-style="western"><surname>Jimbo</surname><given-names>M</given-names></name><name name-style="western"><surname>Sashika</surname><given-names>M</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name></person-group>. <year>2020</year>. <article-title>Development of a noninvasive
+photograph-based method for the evaluation of body condition in free-ranging brown
+bears</article-title>. <source><italic toggle="yes">PeerJ</italic></source><volume>8</volume>:
+<fpage>e9982</fpage>. doi: <pub-id pub-id-type="doi">10.7717/peerj.9982</pub-id><pub-id pub-id-type="pmid">32999770</pub-id><pub-id pub-id-type="pmcid">PMC7505064</pub-id></mixed-citation></ref><ref id="r57"><label>57</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shirane</surname><given-names>Y</given-names></name><name name-style="western"><surname>Shimozuru</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Tsuruga</surname><given-names>H</given-names></name><name name-style="western"><surname>Hirano</surname><given-names>S</given-names></name><name name-style="western"><surname>Nagano</surname><given-names>N</given-names></name><name name-style="western"><surname>Moriwaki</surname><given-names>J</given-names></name><name name-style="western"><surname>Nakanishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Ishinazaka</surname><given-names>T</given-names></name><name name-style="western"><surname>Nose</surname><given-names>T</given-names></name><name name-style="western"><surname>Kasai</surname><given-names>S</given-names></name><name name-style="western"><surname>Shirayanagi</surname><given-names>M</given-names></name><name name-style="western"><surname>Masuda</surname><given-names>Y</given-names></name><name name-style="western"><surname>Fujimoto</surname><given-names>Y</given-names></name><name name-style="western"><surname>Osada</surname><given-names>M</given-names></name><name name-style="western"><surname>Akaishi</surname><given-names>M</given-names></name><name name-style="western"><surname>Mano</surname><given-names>T</given-names></name><name name-style="western"><surname>Masuda</surname><given-names>R</given-names></name><name name-style="western"><surname>Sashika</surname><given-names>M</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>T</given-names></name></person-group>. <year>2018</year>. <article-title>Sex-biased natal dispersal in Hokkaido
+brown bears revealed through mitochondrial DNA analysis</article-title>.
+<source><italic toggle="yes">Eur J Wildl Res</italic></source><volume>64</volume>:
+<fpage>65</fpage>. doi: <pub-id pub-id-type="doi">10.1007/s10344-018-1222-x</pub-id></mixed-citation></ref><ref id="r58"><label>58</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Spady</surname><given-names>TJ</given-names></name><name name-style="western"><surname>Lindburg</surname><given-names>DG</given-names></name><name name-style="western"><surname>Durrant</surname><given-names>BS</given-names></name></person-group>. <year>2007</year>. <article-title>Evolution of reproductive seasonality
+in bears</article-title>. <source><italic toggle="yes">Mammal
+Rev</italic></source><volume>37</volume>: <fpage>21</fpage>&#8211;<lpage>53</lpage>. doi:
+<pub-id pub-id-type="doi">10.1111/j.1365-2907.2007.00096.x</pub-id></mixed-citation></ref><ref id="r59"><label>59</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Steyaert</surname><given-names>SMJG</given-names></name><name name-style="western"><surname>Endrestol</surname><given-names>A</given-names></name><name name-style="western"><surname>Hacklander</surname><given-names>K</given-names></name><name name-style="western"><surname>Swenson</surname><given-names>JE</given-names></name><name name-style="western"><surname>Zedrosser</surname><given-names>A</given-names></name></person-group>. <year>2012</year>. <article-title>The mating system of the brown bear
+<italic toggle="yes">Ursus arctos</italic></article-title>. <source><italic toggle="yes">Mammal
+Rev</italic></source><volume>42</volume>: <fpage>12</fpage>&#8211;<lpage>34</lpage>. doi:
+<pub-id pub-id-type="doi">10.1111/j.1365-2907.2011.00184.x</pub-id></mixed-citation></ref><ref id="r60"><label>60</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Suzuki</surname><given-names>M</given-names></name><name name-style="western"><surname>Kaji</surname><given-names>K</given-names></name><name name-style="western"><surname>Yamanaka</surname><given-names>M</given-names></name><name name-style="western"><surname>Ohtaishi</surname><given-names>N</given-names></name></person-group>. <year>1996</year>. <article-title>Gestational age determination,
+variation of conception date, and external fetal development of sika deer
+(<italic toggle="yes">Cervus nippon yesoensis</italic> Heude, 1884) in eastern
+Hokkaido</article-title>. <source><italic toggle="yes">J Vet Med
+Sci</italic></source><volume>58</volume>: <fpage>505</fpage>&#8211;<lpage>509</lpage>. doi:
+<pub-id pub-id-type="doi">10.1292/jvms.58.505</pub-id><pub-id pub-id-type="pmid">8811617</pub-id></mixed-citation></ref><ref id="r61"><label>61</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Swenson</surname><given-names>JE</given-names></name><name name-style="western"><surname>Dahle</surname><given-names>B</given-names></name><name name-style="western"><surname>Sandegren</surname><given-names>F</given-names></name></person-group>. <year>2001</year>. <article-title>Intraspecific predation in Scandinavian
+brown bears older than cubs-of-the-year</article-title>.
+<source><italic toggle="yes">Ursus</italic></source><volume>12</volume>:
+<fpage>81</fpage>&#8211;<lpage>92</lpage>.</mixed-citation></ref><ref id="r62"><label>62</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Webb</surname><given-names>SL</given-names></name><name name-style="western"><surname>Gee</surname><given-names>KL</given-names></name><name name-style="western"><surname>Strickland</surname><given-names>BK</given-names></name><name name-style="western"><surname>Demarais</surname><given-names>S</given-names></name><name name-style="western"><surname>DeYoung</surname><given-names>RW</given-names></name></person-group>. <year>2010</year>. <article-title>Measuring fine-scale white-tailed deer
+movements and environmental influences using GPS collars</article-title>.
+<source><italic toggle="yes">Int J Ecol</italic></source><volume>2020</volume>:
+<fpage>459610</fpage>.</mixed-citation></ref><ref id="r63"><label>63</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Webb</surname><given-names>SL</given-names></name><name name-style="western"><surname>Demarais</surname><given-names>S</given-names></name><name name-style="western"><surname>Zaiglin</surname><given-names>RE</given-names></name><name name-style="western"><surname>Pollock</surname><given-names>MT</given-names></name><name name-style="western"><surname>Whittaker</surname><given-names>DG</given-names></name></person-group>. <year>2010</year>. <article-title>Size and fidelity of home ranges of
+male white-tailed deer (<italic toggle="yes">Odocoileus Virginianus</italic>) in southern
+Texas</article-title>. <source><italic toggle="yes">Southwest
+Nat</italic></source><volume>55</volume>: <fpage>269</fpage>&#8211;<lpage>273</lpage>. doi:
+<pub-id pub-id-type="doi">10.1894/TAL-10.1</pub-id></mixed-citation></ref><ref id="r64"><label>64</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Zager</surname><given-names>P</given-names></name><name name-style="western"><surname>Beecham</surname><given-names>J</given-names></name></person-group>. <year>2006</year>. <article-title>The role of American black bears and
+brown bears as predators on ungulates in North America</article-title>.
+<source><italic toggle="yes">Ursus</italic></source><volume>17</volume>:
+<fpage>95</fpage>&#8211;<lpage>108</lpage>. doi: <pub-id pub-id-type="doi">10.2192/1537-6176(2006)17[95:TROABB]2.0.CO;2</pub-id></mixed-citation></ref><ref id="r65"><label>65</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Zedrosser</surname><given-names>A</given-names></name><name name-style="western"><surname>Dahle</surname><given-names>B</given-names></name><name name-style="western"><surname>St&#248;en</surname><given-names>OG</given-names></name><name name-style="western"><surname>Swenson</surname><given-names>JE</given-names></name></person-group>. <year>2009</year>. <article-title>The effects of primiparity on
+reproductive performance in the brown bear</article-title>.
+<source><italic toggle="yes">Oecologia</italic></source><volume>160</volume>:
+<fpage>847</fpage>&#8211;<lpage>854</lpage>. doi: <pub-id pub-id-type="doi">10.1007/s00442-009-1343-8</pub-id><pub-id pub-id-type="pmid">19390867</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

@@ -1,0 +1,1059 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Vet Sci</journal-id><journal-id journal-id-type="iso-abbrev">Front Vet Sci</journal-id><journal-id journal-id-type="pmc-domain-id">2864</journal-id><journal-id journal-id-type="pmc-domain">fvets</journal-id><journal-id journal-id-type="publisher-id">Front. Vet. Sci.</journal-id><journal-title-group><journal-title>Frontiers in Veterinary Science</journal-title></journal-title-group><issn pub-type="epub">2297-1769</issn><publisher><publisher-name>Frontiers Media SA</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10016144</article-id><article-id pub-id-type="pmcid-ver">PMC10016144.1</article-id><article-id pub-id-type="pmcaid">10016144</article-id><article-id pub-id-type="pmcaiid">10016144</article-id><article-id pub-id-type="pmid">36937022</article-id><article-id pub-id-type="doi">10.3389/fvets.2023.1093898</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Veterinary Science</subject><subj-group><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title>Molecular detection and genetic characterization of bovine hepacivirus identified in ticks collected from cattle in Harbin, northeastern China</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Yuan</surname><given-names initials="S">Sheng</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn002" ref-type="author-notes">
+<sup>&#8224;</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yao</surname><given-names initials="XY">Xin-Yan</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn002" ref-type="author-notes">
+<sup>&#8224;</sup>
+</xref><uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://loop.frontiersin.org/people/2098712/overview"/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lian</surname><given-names initials="CY">Chun-Yang</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="fn002" ref-type="author-notes">
+<sup>&#8224;</sup>
+</xref><uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://loop.frontiersin.org/people/2133435/overview"/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kong</surname><given-names initials="S">Sa</given-names></name><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shao</surname><given-names initials="JW">Jian-Wei</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://loop.frontiersin.org/people/638859/overview"/></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="XL">Xue-Lian</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="c001" ref-type="corresp">
+<sup>*</sup>
+</xref><uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://loop.frontiersin.org/people/2091601/overview"/></contrib></contrib-group><aff id="aff1"><sup>1</sup><institution>School of Life Science and Engineering, Foshan University</institution>, <addr-line>Foshan</addr-line>, <country>China</country></aff><aff id="aff2"><sup>2</sup><institution>Beijing Biomedical Technology Center of Jofunhwa Biotechnology (Nanjing) Co., Ltd.</institution>, <addr-line>Beijing</addr-line>, <country>China</country></aff><author-notes><fn fn-type="edited-by"><p>Edited by: Dasiel Obregon, University of Guelph, Canada</p></fn><fn fn-type="edited-by"><p>Reviewed by: Mario Fr&#237;as, Maimonides Biomedical Research Institute of Cordoba (IMIBIC), Spain; Gianvito Lanave, University of Bari Aldo Moro, Italy; Matheus Nunes Weber, Feevale University, Brazil</p></fn><corresp id="c001">*Correspondence: Xue-Lian Zhang <email>zxlsjw0312@163.com</email></corresp><fn fn-type="other" id="fn001"><p>This article was submitted to Veterinary Infectious Diseases, a section of the journal Frontiers in Veterinary Science</p></fn><fn fn-type="equal" id="fn002"><p>&#8224;These authors have contributed equally to this work</p></fn></author-notes><pub-date pub-type="epub"><day>01</day><month>3</month><year>2023</year></pub-date><pub-date pub-type="collection"><year>2023</year></pub-date><volume>10</volume><issue-id pub-id-type="pmc-issue-id">427755</issue-id><elocation-id>1093898</elocation-id><history><date date-type="received"><day>09</day><month>11</month><year>2022</year></date><date date-type="accepted"><day>09</day><month>2</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>01</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>16</day><month>03</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-05-05 04:25:13.100"><day>05</day><month>05</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; 2023 Yuan, Yao, Lian, Kong, Shao and Zhang.</copyright-statement><copyright-year>2023</copyright-year><copyright-holder>Yuan, Yao, Lian, Kong, Shao and Zhang</copyright-holder><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="fvets-10-1093898.pdf"/><abstract><p>Bovine hepacivirus (BovHepV) is a member of the genus <italic toggle="yes">Hepacivirus</italic> of the family <italic toggle="yes">Flaviviridae</italic>, which can cause acute or persistent infections in cattle. Currently, BovHepV strains identified in cattle populations worldwide can be classified into two genotypes with eight subtypes in genotype 1. BovHepV has been identified in a wide geographic area in China. Interestingly, the viral RNA of BovHepV has also been detected in ticks in Guangdong province, China. In this study, <italic toggle="yes">Rhipicephalus microplus</italic> tick samples were collected in Heilongjiang province, northeastern China, and BovHepV was screened with an overall positive rate of 10.9%. Sequence comparison and phylogenetic analysis showed that the BovHepV strains detected in this study belong to the subtype G. This is the first report about the detection of BovHepV in ticks in Heilongjiang province, China, which expands our knowledge that ticks may be a transmission vector of BovHepV.</p></abstract><kwd-group><kwd>bovine hepacivirus</kwd><kwd>subtype G</kwd><kwd>genetic diversity</kwd><kwd>tick</kwd><kwd>Northeastern China</kwd></kwd-group><funding-group><award-group><funding-source id="cn001"><institution-wrap><institution>Basic and Applied Basic Research Foundation of Guangdong Province</institution><institution-id institution-id-type="doi">10.13039/501100021171</institution-id></institution-wrap></funding-source><award-id award-type="contract" rid="cn001">2021A1515110450</award-id></award-group><funding-statement>This research was funded by Guangdong Basic and Applied Basic Research Foundation, Grant Nos. 2021A1515110450 and 2022A1515012194.</funding-statement></funding-group><counts><fig-count count="2"/><table-count count="3"/><equation-count count="0"/><ref-count count="40"/><page-count count="8"/><word-count count="5228"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>1. Introduction</title><p>The genus <italic toggle="yes">Hepacivirus</italic>, which belongs to the family <italic toggle="yes">Flaviviridae</italic>, comprises a genetically diverse group of human and animal pathogens (<xref rid="B1" ref-type="bibr">1</xref>). The genome of the hepacivirus is about 10 kb in length, which contains the 5&#8242; untranslated regions (UTR) and 3&#8242; UTR, and a single large open reading frame (ORF) that encodes a single polyprotein (<xref rid="B2" ref-type="bibr">2</xref>). The polyprotein is cleaved by signal peptidase, NS2/NS3 protease and NS3 protease enzymes into three structural proteins (Core, E1, and E2) and seven non-structural proteins (p7, NS2, NS3, NS4A, NS4B, NS5A, and NS5B) (<xref rid="B3" ref-type="bibr">3</xref>, <xref rid="B4" ref-type="bibr">4</xref>).</p><p>Hepaciviruses have been identified from a wide variety of mammalian hosts and non-mammalian hosts, such as bats (<xref rid="B5" ref-type="bibr">5</xref>), rodents (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B7" ref-type="bibr">7</xref>), monkeys (<xref rid="B8" ref-type="bibr">8</xref>), horses (<xref rid="B9" ref-type="bibr">9</xref>), dogs (<xref rid="B10" ref-type="bibr">10</xref>), donkeys (<xref rid="B11" ref-type="bibr">11</xref>), catshark (<xref rid="B12" ref-type="bibr">12</xref>), duck (<xref rid="B13" ref-type="bibr">13</xref>), fish and vertebrates (<xref rid="B14" ref-type="bibr">14</xref>&#8211;<xref rid="B16" ref-type="bibr">16</xref>). Currently, members of the genus <italic toggle="yes">Hepacivirus</italic> have been divided into <italic toggle="yes">Hepacivirus A&#8211;N</italic> based on their phylogenetic relationships and host range (<xref rid="B17" ref-type="bibr">17</xref>). In addition, more hepaciviruses have been identified in non-vertebrate hosts, such as mosquitos and ticks (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B19" ref-type="bibr">19</xref>), although their route of infection and transmission is uncertain.</p><p>Bovine hepacivirus (BovHepV) is the only member of the species <italic toggle="yes">Hepacivirus N</italic> and likely only infects cattle (<xref rid="B20" ref-type="bibr">20</xref>). It was first identified in cattle in Germany and Ghana in 2015 (<xref rid="B21" ref-type="bibr">21</xref>, <xref rid="B22" ref-type="bibr">22</xref>). Thereafter, BovHepV has been detected in China (<xref rid="B23" ref-type="bibr">23</xref>&#8211;<xref rid="B25" ref-type="bibr">25</xref>), Brazil (<xref rid="B26" ref-type="bibr">26</xref>, <xref rid="B27" ref-type="bibr">27</xref>), Turkey (<xref rid="B28" ref-type="bibr">28</xref>), the USA (<xref rid="B29" ref-type="bibr">29</xref>), and Italy (<xref rid="B30" ref-type="bibr">30</xref>), suggesting the worldwide geographic distribution of BovHepV. Moreover, BovHepV presented highly genetic diversity. As per the genotyping and subtype classification criteria for the hepatitis C virus, the BovHepV strains can be divided into two genotypes, and genotype 1 could be divided into eight subtypes (A to H) (<xref rid="B24" ref-type="bibr">24</xref>). Recently, BovHepV identified in Inner Mongolia, northeastern China further divided subtype G into subtypes G1 and G2, indicating the extensive genetic diversity of BovHepV (<xref rid="B31" ref-type="bibr">31</xref>).</p><p>In China, BovHepV have been determined in cattle herds in Guangdong, Jiangsu, Yunnan, Sichuan, Heilongjiang, Shandong, Henan, Inner Mongolia and Chongqing, with the positive rate of viral RNA ranging from 2.78 to 13.3% (<xref rid="B25" ref-type="bibr">25</xref>, <xref rid="B31" ref-type="bibr">31</xref>&#8211;<xref rid="B34" ref-type="bibr">34</xref>), indicating that BovHepV was circulating in cattle herds in a wide geographic in China. Notably, the viral RNA of BovHepV has also been detected in ticks collected from cattle in Guangdong province, suggesting that tick maybe play an important role in the transmission of BovHepV among cattle (<xref rid="B24" ref-type="bibr">24</xref>). A previous study has shown that the prevalence of BovHepV in cattle herds in Heilongjiang province was 6.0% (<xref rid="B25" ref-type="bibr">25</xref>). However, no information about the epidemiology of BovHepV in ticks in Heilongjiang province is available. Therefore, in this study, blood-sucking ticks were collected from the body surface of cattle in Heilongjiang province to investigate the presence of BovHepV.</p></sec><sec id="s2"><title>2. Materials and methods</title><sec><title>2.1. Tick sample collection and RNA extraction</title><p>During June to August in 2021, a total of 400 blood-sucking adult tick were simple random collected from 18 cattle herds in Harbin, Heilongjiang, northeastern China (<xref rid="F1" ref-type="fig">Figure 1</xref>). The tick species were identified following morphological criteria and further confirmed by sequencing and analyzing the 16S ribosomal RNA (<italic toggle="yes">rrs</italic>) gene of ticks (<xref rid="B35" ref-type="bibr">35</xref>). Five ticks were collected from one cattle individual and merged as one pool and stored at &#8722;80&#176;C for further use.</p><fig position="float" id="F1" orientation="portrait"><label>Figure 1</label><caption><p>Geographic maps showing the location of sampling sites from where the rodents were captured in this study. This map was plotted using a combination of Surfer software, Version-4 (Golden Software, Golden, CO, USA), and Adobe illustrator, Version CC2017 (Adobe, San Jose, CA, USA). The black dots indicate the sampling regions in this study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="fvets-10-1093898-g0001.jpg"/></fig><p>Each pooled tick sample was soaked in 70% ethanol for 30 min, and washed with double distilled water three times. The samples were homogenized in 500 &#956;L sterile phosphate buffered saline (PBS), and their total RNA was extracted from 200 &#956;L homogenates using the TRIzol LS reagent (Invitrogen, Carlsbad, CA, USA) and subsequently purified using the RNeasy Plus Mini Kit (Qiagen, Hilden, Germany). The extracted RNA was stored at &#8722;80&#176;C until further use.</p><p>The prevalence of BovHepV in this study was estimated assuming perfect sensitivity and specificity of molecular detection using the EPITOOLS online statistical program &#8220;Pooled prevalence for fixed pool size and perfect test&#8221; that based on the model established by Cowling et al. (<xref rid="B36" ref-type="bibr">36</xref>).</p></sec><sec><title>2.2. BovHepV screening and genome sequencing</title><p>Primer pairs designed based on the alignment results of the NS3 region of all BovHepV available in GenBank database were used to detect the presence of BovHepV RNA in blood-sucking ticks. Using nested RT-PCR with the primer pair BovHepV-F1/BovHepV-R1 and BovHepV-F2/BovHepV-R2, the PCR product with 493 bp was confirmed by Sanger sequencing. In addition, over-lapping primers were designed to obtain the complete genome sequence of the BovHepV identified in this study. All primers used in this study were listed in <xref rid="T1" ref-type="table">Table 1</xref>.</p><table-wrap position="float" id="T1" orientation="portrait"><label>Table 1</label><caption><p>Primers used in this study.</p></caption><table frame="box" rules="all"><thead><tr style="background-color:#919498;color:#ffffff"><th valign="top" align="left" rowspan="1" colspan="1">
+<bold>Primers</bold>
+</th><th valign="top" align="left" rowspan="1" colspan="1">
+<bold>Sequence (5<sup>&#8242;</sup> &#8594; 3<sup>&#8242;</sup>)</bold>
+</th><th valign="top" align="left" rowspan="1" colspan="1">
+<bold>Amplicon (bp)</bold>
+</th><th valign="top" align="left" rowspan="1" colspan="1">
+<bold>Usage</bold>
+</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-F1</td><td valign="top" align="left" rowspan="1" colspan="1">GCTCARAAYCTRTGGGCKGT</td><td valign="top" align="left" rowspan="1" colspan="1">981</td><td valign="top" align="left" rowspan="1" colspan="1">Positive sample screening</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-R1</td><td valign="top" align="left" rowspan="1" colspan="1">GARTTAGCTGGWACWGTTTTG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-F2</td><td valign="top" align="left" rowspan="1" colspan="1">TGGGARGTYCARACYGTCTA</td><td valign="top" align="left" rowspan="1" colspan="1">493</td><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-R2</td><td valign="top" align="left" rowspan="1" colspan="1">TTTGGAARATYARATGHCTRCC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-1F</td><td valign="top" align="left" rowspan="1" colspan="1">ATGGAAGTYTCWGTCTCAAG</td><td valign="top" align="left" rowspan="1" colspan="1">1,573</td><td valign="top" align="left" rowspan="1" colspan="1">Complete genome sequence amplification</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-1572R</td><td valign="top" align="left" rowspan="1" colspan="1">TCTAGCAGCAGTGGTAATGTT</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-1693R</td><td valign="top" align="left" rowspan="1" colspan="1">CCAGARTAGATRAYYTGCAT</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-1297F</td><td valign="top" align="left" rowspan="1" colspan="1">ACRTGGAGCTGYTGYAGCCT</td><td valign="top" align="left" rowspan="1" colspan="1">1,568</td><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-1305F</td><td valign="top" align="left" rowspan="1" colspan="1">CTGYTGYAGCCTCATGGACCG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-2872R</td><td valign="top" align="left" rowspan="1" colspan="1">GCCATRTGCATGGCRTARTC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-2722F</td><td valign="top" align="left" rowspan="1" colspan="1">GGYAAYATYTTYACYATGGG</td><td valign="top" align="left" rowspan="1" colspan="1">1,603</td><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-2731F</td><td valign="top" align="left" rowspan="1" colspan="1">TTYACYATGGGYACYATGTC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-4333R</td><td valign="top" align="left" rowspan="1" colspan="1">GGRTTRCAGCCRTTCTCATA</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-4138F</td><td valign="top" align="left" rowspan="1" colspan="1">ATGTCHCCTGCDGAGGTYCT</td><td valign="top" align="left" rowspan="1" colspan="1">1,612</td><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-4210F</td><td valign="top" align="left" rowspan="1" colspan="1">GTGCTRTCTGARATATCTGC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-5821R</td><td valign="top" align="left" rowspan="1" colspan="1">ACRTCNGGAGARGAMGTGGC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-5668F</td><td valign="top" align="left" rowspan="1" colspan="1">CTYTGYCGSAATTAYTGGAC</td><td valign="top" align="left" rowspan="1" colspan="1">1,510</td><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-5746F</td><td valign="top" align="left" rowspan="1" colspan="1">TGGAAGACSATGACYGTBCA</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-7255R</td><td valign="top" align="left" rowspan="1" colspan="1">GAGTCGAADGTGATCACRTC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-7081F</td><td valign="top" align="left" rowspan="1" colspan="1">ATAGCTTAYCCYCACCTTGA</td><td valign="top" align="left" rowspan="1" colspan="1">1,220</td><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-7121F</td><td valign="top" align="left" rowspan="1" colspan="1">TGGTRCTYGGCAAYATAGGA</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">BovHepV-8340R</td><td valign="top" align="left" rowspan="1" colspan="1">TCAATGTTTGAGGAAAAAGAACAG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr></tbody></table></table-wrap><p>The PCR products of the expected size, according to each set of primers, were purified using Gel Extraction kit (TaKaRa, Dalian, China) after electrophoresis. The purified DNA was cloned into pMD19-T vector (TaKaRa, China), and the resulting plasmid was used to transform competent <italic toggle="yes">E. coli</italic> cells. Positive inserts were confirmed by PCR, and further sequenced by Sangon Biotechnology Company (Shanghai, China). To prevent contamination, the preparation of the PCR mix and the addition of the template DNA were performed in separate rooms using dedicated pipets and filtered tips.</p></sec><sec><title>2.3. Sequence comparison and phylogenetic analysis</title><p>Sequence assembly and manually editing was performed using the SeqMan program (DNASTAR, Madison, WI), and the nucleotide (nt) and sequence identity were calculated by MegAlign program available within the Lasergene software package (version 7.1, DNAstar). Maximum-likelihood (ML) trees were reconstructed using MEGA version 7.0 (<xref rid="B37" ref-type="bibr">37</xref>), based on the best-fit nucleotide substitution model General Time Re-versible (GTR) nucleotide substitution model and optimized parameters of gamma (G)-distribution and proportion of invariable sites (i.e., GTR+G+I) determined by jModel Test (<xref rid="B38" ref-type="bibr">38</xref>). Bootstrap values were calculated from 100 replicates, and the phylogenetic trees were mid-point rooted for purposes of clarity only.</p></sec><sec><title>2.4. Recombination analysis</title><p>The seven methods (RDP, GENECONV, bootscan, maximum chi square, Chimera, SISCAN, and distance plot) within RDP4 program (<xref rid="B39" ref-type="bibr">39</xref>) were used to determine the potential recombination events that occurred in the evolutionary history of BovHepV. The analyses were performed based on the complete genome sequences with default settings for the different test methods and a Bonferroni corrected <italic toggle="yes">p</italic>-value cutoff of 0.05. Only sequences with significant evidence (<italic toggle="yes">p</italic> &lt; 0.05) of recombination detected by at least two methods and confirmed by phylogenetic analysis were taken to represent strong evidence for recombination. Additionally, similarity plot analyses were inferred to further characterize potential recombination events, including the location of possible breakpoints, as implemented in Simplot version 3.5.1 (<xref rid="B40" ref-type="bibr">40</xref>).</p></sec><sec><title>2.5. Ethics statement</title><p>The study involving animals were reviewed and approved by the ethics committee of College of Life Science and Engineering, Foshan University. Written informed consent was obtained from the owners for the participation of their animals in this study.</p></sec></sec><sec id="s3"><title>3. Results</title><sec><title>3.1. Detection of BovHepV in tick sample</title><p>A total of 400 ticks, which were identified as <italic toggle="yes">Rhipicephalus microplus</italic>, were collected from 18 cattle herds in Harbin, Heilongjiang province, from June to August in 2021 (<xref rid="F1" ref-type="fig">Figure 1</xref>). After PCR screening, sequencing and BLAST analysis, 35 out of the 80 tick pools were determined as positive for BovHepV. Among the 18 cattle herds, 17 were detected as positive for BovHepV with the positive rate ranging from 0 to 7.8% and the overall positive rate of BovHepV in this study was 10.9% (95% CI: 7.6&#8211;14.9%) (<xref rid="T2" ref-type="table">Table 2</xref>).</p><table-wrap position="float" id="T2" orientation="portrait"><label>Table 2</label><caption><p>Prevalence of BovHepV detected in ticks collected from different cattle herds in Harbin.</p></caption><table frame="box" rules="all"><thead><tr style="background-color:#919498;color:#ffffff"><th rowspan="1" colspan="1"/><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H1</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H2</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H3</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H4</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H5</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H6</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H7</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H8</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H9</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H10</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H11</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H12</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H13</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H14</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H15</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H16</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H17</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>H18</bold>
+</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">No. tested</td><td valign="top" align="center" rowspan="1" colspan="1">12</td><td valign="top" align="center" rowspan="1" colspan="1">15</td><td valign="top" align="center" rowspan="1" colspan="1">9</td><td valign="top" align="center" rowspan="1" colspan="1">5</td><td valign="top" align="center" rowspan="1" colspan="1">14</td><td valign="top" align="center" rowspan="1" colspan="1">6</td><td valign="top" align="center" rowspan="1" colspan="1">13</td><td valign="top" align="center" rowspan="1" colspan="1">14</td><td valign="top" align="center" rowspan="1" colspan="1">7</td><td valign="top" align="center" rowspan="1" colspan="1">16</td><td valign="top" align="center" rowspan="1" colspan="1">8</td><td valign="top" align="center" rowspan="1" colspan="1">20</td><td valign="top" align="center" rowspan="1" colspan="1">7</td><td valign="top" align="center" rowspan="1" colspan="1">9</td><td valign="top" align="center" rowspan="1" colspan="1">10</td><td valign="top" align="center" rowspan="1" colspan="1">16</td><td valign="top" align="center" rowspan="1" colspan="1">14</td><td valign="top" align="center" rowspan="1" colspan="1">5</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">No. positive</td><td valign="top" align="center" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">4</td><td valign="top" align="center" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">1</td><td valign="top" align="center" rowspan="1" colspan="1">4</td><td valign="top" align="center" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">0</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Prevalence (%)</td><td valign="top" align="center" rowspan="1" colspan="1">5.6</td><td valign="top" align="center" rowspan="1" colspan="1">1.4</td><td valign="top" align="center" rowspan="1" colspan="1">4.9</td><td valign="top" align="center" rowspan="1" colspan="1">4.4</td><td valign="top" align="center" rowspan="1" colspan="1">3.0</td><td valign="top" align="center" rowspan="1" colspan="1">3.6</td><td valign="top" align="center" rowspan="1" colspan="1">7.1</td><td valign="top" align="center" rowspan="1" colspan="1">4.7</td><td valign="top" align="center" rowspan="1" colspan="1">3.0</td><td valign="top" align="center" rowspan="1" colspan="1">2.6</td><td valign="top" align="center" rowspan="1" colspan="1">5.6</td><td valign="top" align="center" rowspan="1" colspan="1">2.1</td><td valign="top" align="center" rowspan="1" colspan="1">3.0</td><td valign="top" align="center" rowspan="1" colspan="1">7.8</td><td valign="top" align="center" rowspan="1" colspan="1">2.1</td><td valign="top" align="center" rowspan="1" colspan="1">5.6</td><td valign="top" align="center" rowspan="1" colspan="1">3.0</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;</td></tr></tbody></table><table-wrap-foot><p>H1&#8211;H18 indicates the cattle herd 1 to cattle herd 18.</p></table-wrap-foot></table-wrap></sec><sec><title>3.2. Sequences comparison of BovHepV</title><p>The nearly complete genome sequence of the BovHepV strains amplified from six representative samples showed 99.2&#8211;99.7% nucleotide identity and 99.0&#8211;100% amino acid identity with each other (<xref rid="T3" ref-type="table">Table 3</xref>). Furthermore, they shared 67.3&#8211;93.2% nucleotide identity and 76.4&#8211;98.1% amino acid identity with the BovHepV strains identified world-wide, while they shared the highest identity with the subtype G strains determined from cattle in China (<xref rid="T3" ref-type="table">Table 3</xref>). Moreover, they shared 81.5&#8211;81.8% nucleotide identity and 93.5&#8211;94.4% amino acid identity with the subtype H strains (Accession Numbers <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MZ221927">MZ221927</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MZ540979">MZ540979</ext-link>, and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MZ540980">MZ540980</ext-link>), which were also identified in blood-sucking tick in China (<xref rid="T3" ref-type="table">Table 3</xref>).</p><table-wrap position="float" id="T3" orientation="portrait"><label>Table 3</label><caption><p>The sequence identity within the BovHepV polyprotein at the nucleotide (upper right) and amino acid (lower left, boldface) levels calculated using ClustalW method implemented in MegAlign.</p></caption><table frame="box" rules="all"><thead><tr style="background-color:#919498;color:#ffffff"><th valign="top" align="left" rowspan="1" colspan="1">
+<bold>Strains</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>1</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>2</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>3</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>4</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>5</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>6</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>7</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>8</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>9</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>10</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>11</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>12</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>13</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>14</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>15</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>16</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>17</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>18</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>19</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>20</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>21</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>22</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>23</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>24</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>25</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>26</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>27</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>28</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>29</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>30</bold>
+</th><th valign="top" align="center" rowspan="1" colspan="1">
+<bold>31</bold>
+</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">93.8</td><td valign="top" align="center" rowspan="1" colspan="1">93.7</td><td valign="top" align="center" rowspan="1" colspan="1">93.2</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.6</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.9</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.1</td><td valign="top" align="center" rowspan="1" colspan="1">84.2</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.9</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">66.8</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">2</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.2</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">93.6</td><td valign="top" align="center" rowspan="1" colspan="1">93.3</td><td valign="top" align="center" rowspan="1" colspan="1">91.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.6</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.7</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">84.5</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">82.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.0</td><td valign="top" align="center" rowspan="1" colspan="1">82.0</td><td valign="top" align="center" rowspan="1" colspan="1">67.0</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">3</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">93.5</td><td valign="top" align="center" rowspan="1" colspan="1">91.8</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">83.0</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">84.5</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">82.0</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">66.9</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">4</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">85.1</td><td valign="top" align="center" rowspan="1" colspan="1">85.0</td><td valign="top" align="center" rowspan="1" colspan="1">85.0</td><td valign="top" align="center" rowspan="1" colspan="1">85.0</td><td valign="top" align="center" rowspan="1" colspan="1">85.1</td><td valign="top" align="center" rowspan="1" colspan="1">85.0</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">67.3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">5</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">82.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.1</td><td valign="top" align="center" rowspan="1" colspan="1">79.1</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.0</td><td valign="top" align="center" rowspan="1" colspan="1">84.0</td><td valign="top" align="center" rowspan="1" colspan="1">84.3</td><td valign="top" align="center" rowspan="1" colspan="1">84.3</td><td valign="top" align="center" rowspan="1" colspan="1">84.3</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.5</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">66.9</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">6</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.5</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">90.4</td><td valign="top" align="center" rowspan="1" colspan="1">90.9</td><td valign="top" align="center" rowspan="1" colspan="1">82.9</td><td valign="top" align="center" rowspan="1" colspan="1">82.8</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.9</td><td valign="top" align="center" rowspan="1" colspan="1">82.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.1</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">67.3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">7</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.7</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">92.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.8</td><td valign="top" align="center" rowspan="1" colspan="1">82.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">67.5</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">8</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.0</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">83.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.8</td><td valign="top" align="center" rowspan="1" colspan="1">80.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">67.3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">9</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.3</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">98.4</td><td valign="top" align="center" rowspan="1" colspan="1">81.2</td><td valign="top" align="center" rowspan="1" colspan="1">81.3</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.8</td><td valign="top" align="center" rowspan="1" colspan="1">80.8</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.6</td><td valign="top" align="center" rowspan="1" colspan="1">80.6</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">66.8</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">10</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.9</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">81.0</td><td valign="top" align="center" rowspan="1" colspan="1">81.1</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">66.9</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">11</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.4</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">93.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.8</td><td valign="top" align="center" rowspan="1" colspan="1">80.2</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.5</td><td valign="top" align="center" rowspan="1" colspan="1">82.5</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.5</td><td valign="top" align="center" rowspan="1" colspan="1">82.5</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.6</td><td valign="top" align="center" rowspan="1" colspan="1">82.5</td><td valign="top" align="center" rowspan="1" colspan="1">84.8</td><td valign="top" align="center" rowspan="1" colspan="1">84.7</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.2</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">12</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.1</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">80.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">80.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.3</td><td valign="top" align="center" rowspan="1" colspan="1">82.2</td><td valign="top" align="center" rowspan="1" colspan="1">82.2</td><td valign="top" align="center" rowspan="1" colspan="1">82.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.1</td><td valign="top" align="center" rowspan="1" colspan="1">82.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.3</td><td valign="top" align="center" rowspan="1" colspan="1">82.3</td><td valign="top" align="center" rowspan="1" colspan="1">82.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.4</td><td valign="top" align="center" rowspan="1" colspan="1">82.3</td><td valign="top" align="center" rowspan="1" colspan="1">84.6</td><td valign="top" align="center" rowspan="1" colspan="1">84.5</td><td valign="top" align="center" rowspan="1" colspan="1">84.4</td><td valign="top" align="center" rowspan="1" colspan="1">66.9</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">13</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.4</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.2</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.3</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">67.1</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">14</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>100</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">81.1</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.3</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.3</td><td valign="top" align="center" rowspan="1" colspan="1">79.3</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.4</td><td valign="top" align="center" rowspan="1" colspan="1">79.3</td><td valign="top" align="center" rowspan="1" colspan="1">80.7</td><td valign="top" align="center" rowspan="1" colspan="1">80.5</td><td valign="top" align="center" rowspan="1" colspan="1">80.4</td><td valign="top" align="center" rowspan="1" colspan="1">67.1</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">15</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.3</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">79.9</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">80.0</td><td valign="top" align="center" rowspan="1" colspan="1">79.7</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.5</td><td valign="top" align="center" rowspan="1" colspan="1">79.8</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">79.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.5</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">16</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.3</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.0</td><td valign="top" align="center" rowspan="1" colspan="1">92.0</td><td valign="top" align="center" rowspan="1" colspan="1">92.3</td><td valign="top" align="center" rowspan="1" colspan="1">93.0</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.9</td><td valign="top" align="center" rowspan="1" colspan="1">93.2</td><td valign="top" align="center" rowspan="1" colspan="1">93.1</td><td valign="top" align="center" rowspan="1" colspan="1">93.2</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.5</td><td valign="top" align="center" rowspan="1" colspan="1">67.6</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">17</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.9</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">92.5</td><td valign="top" align="center" rowspan="1" colspan="1">92.7</td><td valign="top" align="center" rowspan="1" colspan="1">92.7</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.7</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.4</td><td valign="top" align="center" rowspan="1" colspan="1">81.3</td><td valign="top" align="center" rowspan="1" colspan="1">81.2</td><td valign="top" align="center" rowspan="1" colspan="1">67.3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">18</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>100</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="left" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">92.5</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.7</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.8</td><td valign="top" align="center" rowspan="1" colspan="1">92.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.4</td><td valign="top" align="center" rowspan="1" colspan="1">81.3</td><td valign="top" align="center" rowspan="1" colspan="1">81.2</td><td valign="top" align="center" rowspan="1" colspan="1">67.4</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">19</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="left" rowspan="1" colspan="1">100</td><td valign="top" align="center" rowspan="1" colspan="1">92.2</td><td valign="top" align="center" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">91.7</td><td valign="top" align="center" rowspan="1" colspan="1">91.7</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">67.4</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">20</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>96.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>100</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">92.2</td><td valign="top" align="center" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">91.6</td><td valign="top" align="center" rowspan="1" colspan="1">91.7</td><td valign="top" align="center" rowspan="1" colspan="1">91.7</td><td valign="top" align="center" rowspan="1" colspan="1">91.5</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">67.4</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">21</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">92.6</td><td valign="top" align="center" rowspan="1" colspan="1">92.5</td><td valign="top" align="center" rowspan="1" colspan="1">92.6</td><td valign="top" align="center" rowspan="1" colspan="1">92.6</td><td valign="top" align="center" rowspan="1" colspan="1">92.6</td><td valign="top" align="center" rowspan="1" colspan="1">92.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.9</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">67.5</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">22</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.4</td><td valign="top" align="center" rowspan="1" colspan="1">99.5</td><td valign="top" align="center" rowspan="1" colspan="1">99.3</td><td valign="top" align="center" rowspan="1" colspan="1">99.3</td><td valign="top" align="center" rowspan="1" colspan="1">99.2</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.4</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">23</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.4</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.7</td><td valign="top" align="center" rowspan="1" colspan="1">99.3</td><td valign="top" align="center" rowspan="1" colspan="1">99.5</td><td valign="top" align="center" rowspan="1" colspan="1">99.2</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.5</td><td valign="top" align="center" rowspan="1" colspan="1">67.4</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">24</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.7</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.5</td><td valign="top" align="center" rowspan="1" colspan="1">99.3</td><td valign="top" align="center" rowspan="1" colspan="1">99.2</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.5</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">25</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.5</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.5</td><td valign="top" align="center" rowspan="1" colspan="1">99.4</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.4</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">26</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>100</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.4</td><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.7</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">27</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>98.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>97.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.4</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">81.8</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">81.6</td><td valign="top" align="center" rowspan="1" colspan="1">67.3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">28</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.3</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.7</td><td valign="top" align="center" rowspan="1" colspan="1">99.6</td><td valign="top" align="center" rowspan="1" colspan="1">66.8</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">29</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>95.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.3</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">99.8</td><td valign="top" align="center" rowspan="1" colspan="1">66.8</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">30</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>92.0</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>94.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>91.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.8</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>99.7</bold>
+</td><td rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">66.7</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">31</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.1</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.2</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>75.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>75.9</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.7</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.4</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.5</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>93.6</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.3</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>76.1</bold>
+</td><td rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><p>The compared strains were indicated as accession number and country, and the different colors mean the different subtypes/genotypes of the BovHepV strains.</p><p>GenBank accession number: 1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP641125">KP641125</ext-link>); 2 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP641123">KP641123</ext-link>); 3 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP641127">KP641127</ext-link>); 4 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP641124">KP641124</ext-link>); 5 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP641126">KP641126</ext-link>); 6 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP265950">KP265950</ext-link>); 7 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP265948">KP265948</ext-link>); 8 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP265943">KP265943</ext-link>); 9 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP265947">KP265947</ext-link>); 10 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KP265946">KP265946</ext-link>); 11 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG781019">MG781019</ext-link>); 12 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG781018">MG781018</ext-link>); 13 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG257793">MG257793</ext-link>); 14 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG257794">MG257794</ext-link>); 15 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MH027948">MH027948</ext-link>); 16 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MN266283">MN266283</ext-link>); 17 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MN266285">MN266285</ext-link>); 18 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MN266284">MN266284</ext-link>); 19 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OM131409">OM131409</ext-link>); 20 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OM131410">OM131410</ext-link>); 21 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MW830376">MW830376</ext-link>); 22 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OP716808">OP716808</ext-link>); 23 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OP716809">OP716809</ext-link>); 24 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OP716810">OP716810</ext-link>); 25 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OP716811">OP716811</ext-link>); 26 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OP716812">OP716812</ext-link>); 27 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="OP716813">OP716813</ext-link>); 28 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MZ221927">MZ221927</ext-link>); 29 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MZ540979">MZ540979</ext-link>); 30 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MZ540980">MZ540980</ext-link>); 31 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MN691105">MN691105</ext-link>).</p></table-wrap-foot></table-wrap></sec><sec><title>3.3. Recombination and phylogenetic analysis of BovHepV</title><p>No statistically supported recombination event was detected within BovHepV strains after systematic analyzes. Phylogenetic analysis reconstructed based on the complete polyprotein coding sequence showed that all BovHepV strains were divided into two genotypes (genotype 1 and genotype 2), and genotype 1 strains are clearly divided into eight well-separated subtypes (subtype A&#8211;G). The six viruses identified in this study are more closely related to subtype G viruses that identified in bovine samples collected in Jiangsu, Chongqing, and Inner Mongolia, China, while was distinguished from the subtype H viruses identified in ticks in Guangdong province, China. Notably, virus strains identified in this study showed a closer phylogenetic relationship with those viruses identified in Jiangsu than the Inner Mongolia ones (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide-range" xlink:href="OM131409:OM131410">OM131409&#8211;OM131410</ext-link>), although Inner Mongolia is geographically closer to Heilongjiang province (<xref rid="F2" ref-type="fig">Figure 2</xref>).</p><fig position="float" id="F2" orientation="portrait"><label>Figure 2</label><caption><p>Phylogenetic analysis based on the nucleotide sequences of complete polyprotein-coding region of BovHepV including the newly identified sequences and other reference sequences retrieved from GenBank. The trees were constructed based on the maximum likelihood method implemented in MEGA 7.0, and mid-point rooted for clarity and the scale bar represents the number of nucleotide substitutions per site. Bootstrap values were calculated with 100 replicates of the alignment, and only bootstrap values &gt; 70% are shown at relevant nodes. GenBank accession numbers are followed by the name of hepacivirus strains. Red dots indicate the BovHepV determined in this study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="fvets-10-1093898-g0002.jpg"/></fig></sec></sec><sec id="s4"><title>4. Discussion</title><p>Since its first discovery in cattle in Germany and Ghana in 2015, BovHepV has been identified in seven continents (<xref rid="B21" ref-type="bibr">21</xref>, <xref rid="B22" ref-type="bibr">22</xref>, <xref rid="B24" ref-type="bibr">24</xref>, <xref rid="B27" ref-type="bibr">27</xref>&#8211;<xref rid="B30" ref-type="bibr">30</xref>), indicating the worldwide geographical distribution of BovHepV. Moreover, the currently identified BovHepV could be classified into two genotypes, and genotype 1 could be further divided into eight subtypes, suggesting the extensive genetic diversity of BovHepV (<xref rid="B24" ref-type="bibr">24</xref>). Interestingly, in this study, the viral RNA of BovHepV was detected in blood-sucking ticks, suggesting that ticks may be serve as an arthropod vector for hepacivirus. However, no information about bovine hepacivirus in ticks collected from vegetation. Moreover, although bovine hepacivirus have been detected in blood-sucking ticks in this study and our previous study (<xref rid="B24" ref-type="bibr">24</xref>), we did not simultaneously analyze the active infection in the cattle that the questing tick removed. Together, these results suggest that ticks may be a transmission vector of BovHepV, although it needs further investigation.</p><p>In China, BovHepV has been detected in Guangdong, Jiangsu, Yunnan, Sichuan, Heilongjiang, Shandong, Henan, Inner Mongolia and Chongqing (<xref rid="B25" ref-type="bibr">25</xref>, <xref rid="B31" ref-type="bibr">31</xref>&#8211;<xref rid="B34" ref-type="bibr">34</xref>), suggesting that BovHepV was circulating in cattle herds in a wide geographic in China. Notably, BovHepV strains identified in China were segregated into two genotypes and thee subtypes in subtype 1 in the phylogenetic tree. In addition, previous study performed in Inner Mongolia further divided the subtype G into subtype G1&#8211;G2 (<xref rid="B31" ref-type="bibr">31</xref>). In this study, BovHepV strains in subtype G were divided into four clades (subtype G1&#8211;G4), and the BovHepV strains identified in this study were classified as the subtype G4. These results imply the extensive genetic diversity of BovHepV that circulates in China. Additionally, among all genotypes or subtypes of BovHepV identified in China, the viruses belonging to the subtype G were widely detected in Jiangsu, Chongqing, Inner Mongolia, and Heilongjiang, China, indicating that BovHepV in subtype G may be the primary circulating subtype in China.</p><p>Previous studies have shown that BovHepV subtypes are associated with their geographic origins based on the limited number of BovHepV sequences (<xref rid="B21" ref-type="bibr">21</xref>, <xref rid="B22" ref-type="bibr">22</xref>, <xref rid="B26" ref-type="bibr">26</xref>, <xref rid="B28" ref-type="bibr">28</xref>), and our results were generally consistent with this conclusion. However, the results in this study also show the complex geographic distribution of BovHepV genotypes or subtypes. For example, viruses in subtypes E, H, and G that were identified in China showed a closer phylogenetic relationship with those in subtypes B, D, and A, which were identified in Ghana, Brazil, and Germany, respectively. This could have resulted from frequent international trade of live cattle, which can facilitate transboundary transmission of BovHepV. In addition, the BovHepV strains detected in this study showed a closer phylogenetic relationship with those identified in Jiangsu than the Inner Mongolia strains, although Inner Mongolia is geographically closer to Heilongjiang province. These results indicating an intriguing evolutionary route of BovHepV.</p><p>In conclusion, BovHepV belong to the subtype G was detected in <italic toggle="yes">Rhipicephalus microplus</italic> ticks collected from cattle in Heilongjiang province, northeastern China with an overall prevalence of 10.9%. This is the first reports about the detection of BovHepV in ticks in Heilongjiang province, which expands our knowledge that ticks may be a transmission vector of BovHepV.</p></sec><sec sec-type="data-availability" id="s5"><title>Data availability statement</title><p>The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/genbank/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/genbank/</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide-range" xlink:href="OP716808:OP716813">OP716808&#8211;OP716813</ext-link>.</p></sec><sec sec-type="ethics-statement" id="s6"><title>Ethics statement</title><p>The animal study was reviewed and approved by the Ethics Committee of College of Life Science and Engineering, Foshan University. Written informed consent was obtained from the owners for the participation of their animals in this study.</p></sec><sec sec-type="author-contributions" id="s7"><title>Author contributions</title><p>X-LZ and J-WS: conceived, designed the experiments, and writing&#8212;review and editing. SY, X-YY, C-YL, and SK: collect the samples, performed the experiments, and analyzed the data. SK: help to collect the samples. X-YY: writing&#8212;original draft preparation. All authors contributed to the article and approved the submitted version.</p></sec></body><back><sec sec-type="COI-statement" id="conf1"><title>Conflict of interest</title><p>SK was employed by the company Beijing Biomedical Technology Center of Jofunhwa Biotechnology (Nanjing) Co., Ltd., China. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></sec><sec sec-type="disclaimer" id="s9"><title>Publisher's note</title><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></sec><ref-list><title>References</title><ref id="B1"><label>1.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Smith</surname><given-names>DB</given-names></name><name name-style="western"><surname>Becher</surname><given-names>P</given-names></name><name name-style="western"><surname>Bukh</surname><given-names>J</given-names></name><name name-style="western"><surname>Gould</surname><given-names>EA</given-names></name><name name-style="western"><surname>Meyers</surname><given-names>G</given-names></name><name name-style="western"><surname>Monath</surname><given-names>T</given-names></name><etal/></person-group>. <article-title>Proposed update to the taxonomy of the genera <italic toggle="yes">Hepacivirus</italic> and <italic toggle="yes">Pegivirus</italic> within the <italic toggle="yes">Flaviviridae</italic> family</article-title>. <source>J Gen Virol.</source> (<year>2016</year>) <volume>97</volume>:<fpage>2894</fpage>&#8211;<lpage>907</lpage>. <pub-id pub-id-type="doi">10.1099/jgv.0.000612</pub-id><pub-id pub-id-type="pmid">27692039</pub-id><pub-id pub-id-type="pmcid">PMC5770844</pub-id></mixed-citation></ref><ref id="B2"><label>2.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Scheel</surname><given-names>TK</given-names></name><name name-style="western"><surname>Simmonds</surname><given-names>P</given-names></name><name name-style="western"><surname>Kapoor</surname><given-names>A</given-names></name></person-group>. <article-title>Surveying the global virome: identification and characterization of HCV-related animal hepaciviruses</article-title>. <source>Antiviral Res.</source> (<year>2015</year>) <volume>115</volume>:<fpage>83</fpage>&#8211;<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1016/j.antiviral.2014.12.014</pub-id><pub-id pub-id-type="pmid">25545071</pub-id><pub-id pub-id-type="pmcid">PMC5081135</pub-id></mixed-citation></ref><ref id="B3"><label>3.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bartenschlager</surname><given-names>R</given-names></name><name name-style="western"><surname>Lohmann</surname><given-names>V</given-names></name></person-group>. <article-title>Replication of the hepatitis C virus. Best practice and research clinical</article-title>. <source>Gastroenterology.</source> (<year>2000</year>) <volume>14</volume>:<fpage>241</fpage>&#8211;<lpage>54</lpage>. <pub-id pub-id-type="doi">10.1053/bega.1999.0073</pub-id><pub-id pub-id-type="pmid">10890319</pub-id></mixed-citation></ref><ref id="B4"><label>4.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Penin</surname><given-names>F</given-names></name><name name-style="western"><surname>Dubuisson</surname><given-names>J</given-names></name><name name-style="western"><surname>Rey</surname><given-names>FA</given-names></name><name name-style="western"><surname>Moradpour</surname><given-names>D</given-names></name><name name-style="western"><surname>Pawlotsky</surname><given-names>JM</given-names></name></person-group>. <article-title>Structural biology of hepatitis C virus</article-title>. <source>Hepatology.</source> (<year>2004</year>) <volume>39</volume>:<fpage>5</fpage>&#8211;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1002/hep.20032</pub-id><pub-id pub-id-type="pmid">14752815</pub-id></mixed-citation></ref><ref id="B5"><label>5.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Quan</surname><given-names>PL</given-names></name><name name-style="western"><surname>Firth</surname><given-names>C</given-names></name><name name-style="western"><surname>Conte</surname><given-names>JM</given-names></name><name name-style="western"><surname>Williams</surname><given-names>SH</given-names></name><name name-style="western"><surname>Zambrana-Torrelio</surname><given-names>CM</given-names></name><name name-style="western"><surname>Anthony</surname><given-names>SJ</given-names></name><etal/></person-group>. <article-title>Bats are a major natural reservoir for hepaciviruses and pegiviruses</article-title>. <source>Proc Natl Acad Sci U S A.</source> (<year>2013</year>) <volume>110</volume>:<fpage>8194</fpage>&#8211;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1303037110</pub-id><pub-id pub-id-type="pmid">23610427</pub-id><pub-id pub-id-type="pmcid">PMC3657805</pub-id></mixed-citation></ref><ref id="B6"><label>6.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Drexler</surname><given-names>JF</given-names></name><name name-style="western"><surname>Corman</surname><given-names>VM</given-names></name><name name-style="western"><surname>Muller</surname><given-names>MA</given-names></name><name name-style="western"><surname>Lukashev</surname><given-names>AN</given-names></name><name name-style="western"><surname>Gmyl</surname><given-names>A</given-names></name><name name-style="western"><surname>Coutard</surname><given-names>B</given-names></name><etal/></person-group>. <article-title>Evidence for novel hepaciviruses in rodents</article-title>. <source>PLoS Pathog.</source> (<year>2013</year>) <volume>9</volume>:<fpage>e1003438</fpage>. <pub-id pub-id-type="doi">10.1371/journal.ppat.1003438</pub-id><pub-id pub-id-type="pmid">23818848</pub-id><pub-id pub-id-type="pmcid">PMC3688547</pub-id></mixed-citation></ref><ref id="B7"><label>7.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wu</surname><given-names>Z</given-names></name><name name-style="western"><surname>Lu</surname><given-names>L</given-names></name><name name-style="western"><surname>Du</surname><given-names>J</given-names></name><name name-style="western"><surname>Yang</surname><given-names>L</given-names></name><name name-style="western"><surname>Ren</surname><given-names>X</given-names></name><name name-style="western"><surname>Liu</surname><given-names>B</given-names></name><etal/></person-group>. <article-title>Comparative analysis of rodent and small mammal viromes to better understand the wildlife origin of emerging infectious diseases</article-title>. <source>Microbiome.</source> (<year>2018</year>) <volume>6</volume>:<fpage>178</fpage>. <pub-id pub-id-type="doi">10.1186/s40168-018-0554-9</pub-id><pub-id pub-id-type="pmid">30285857</pub-id><pub-id pub-id-type="pmcid">PMC6171170</pub-id></mixed-citation></ref><ref id="B8"><label>8.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lauck</surname><given-names>M</given-names></name><name name-style="western"><surname>Sibley</surname><given-names>SD</given-names></name><name name-style="western"><surname>Lara</surname><given-names>J</given-names></name><name name-style="western"><surname>Purdy</surname><given-names>MA</given-names></name><name name-style="western"><surname>Khudyakov</surname><given-names>Y</given-names></name><name name-style="western"><surname>Hyeroba</surname><given-names>D</given-names></name><etal/></person-group>. <article-title>A novel hepacivirus with an unusually long and intrinsically disordered NS5A protein in a wild Old World primate</article-title>. <source>J Virol.</source> (<year>2013</year>) <volume>87</volume>:<fpage>8971</fpage>&#8211;<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.00888-13</pub-id><pub-id pub-id-type="pmid">23740998</pub-id><pub-id pub-id-type="pmcid">PMC3754081</pub-id></mixed-citation></ref><ref id="B9"><label>9.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lyons</surname><given-names>S</given-names></name><name name-style="western"><surname>Kapoor</surname><given-names>A</given-names></name><name name-style="western"><surname>Sharp</surname><given-names>C</given-names></name><name name-style="western"><surname>Schneider</surname><given-names>BS</given-names></name><name name-style="western"><surname>Wolfe</surname><given-names>ND</given-names></name><name name-style="western"><surname>Culshaw</surname><given-names>G</given-names></name><etal/></person-group>. <article-title>Nonprimate hepaciviruses in domestic horses, United kingdom</article-title>. <source>Emerg Infect Dis.</source> (<year>2012</year>) <volume>18</volume>:<fpage>1976</fpage>&#8211;<lpage>82</lpage>. <pub-id pub-id-type="doi">10.3201/eid1812.120498</pub-id><pub-id pub-id-type="pmid">23171728</pub-id><pub-id pub-id-type="pmcid">PMC3557883</pub-id></mixed-citation></ref><ref id="B10"><label>10.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kapoor</surname><given-names>A</given-names></name><name name-style="western"><surname>Simmonds</surname><given-names>P</given-names></name><name name-style="western"><surname>Gerold</surname><given-names>G</given-names></name><name name-style="western"><surname>Qaisar</surname><given-names>N</given-names></name><name name-style="western"><surname>Jain</surname><given-names>K</given-names></name><name name-style="western"><surname>Henriquez</surname><given-names>JA</given-names></name><etal/></person-group>. <article-title>Characterization of a canine homolog of hepatitis C virus</article-title>. <source>Proc Natl Acad Sci U S A.</source> (<year>2011</year>) <volume>108</volume>:<fpage>11608</fpage>&#8211;<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1101794108</pub-id><pub-id pub-id-type="pmid">21610165</pub-id><pub-id pub-id-type="pmcid">PMC3136326</pub-id></mixed-citation></ref><ref id="B11"><label>11.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Walter</surname><given-names>S</given-names></name><name name-style="western"><surname>Rasche</surname><given-names>A</given-names></name><name name-style="western"><surname>Moreira-Soto</surname><given-names>A</given-names></name><name name-style="western"><surname>Pfaender</surname><given-names>S</given-names></name><name name-style="western"><surname>Bletsa</surname><given-names>M</given-names></name><name name-style="western"><surname>Corman</surname><given-names>VM</given-names></name><etal/></person-group>. <article-title>Differential infection patterns and recent evolutionary origins of equine hepaciviruses in donkeys</article-title>. <source>J Virol.</source> (<year>2017</year>) <volume>91</volume>:<fpage>e01711</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.01711-16</pub-id><pub-id pub-id-type="pmid">27795428</pub-id><pub-id pub-id-type="pmcid">PMC5165184</pub-id></mixed-citation></ref><ref id="B12"><label>12.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shi</surname><given-names>M</given-names></name><name name-style="western"><surname>Lin</surname><given-names>XD</given-names></name><name name-style="western"><surname>Vasilakis</surname><given-names>N</given-names></name><name name-style="western"><surname>Tian</surname><given-names>JH</given-names></name><name name-style="western"><surname>Li</surname><given-names>CX</given-names></name><name name-style="western"><surname>Chen</surname><given-names>LJ</given-names></name><etal/></person-group>. <article-title>Divergent viruses discovered in arthropods and vertebrates revise the evolutionary history of the flaviviridae and related viruses</article-title>. <source>J Virol.</source> (<year>2016</year>) <volume>90</volume>:<fpage>659</fpage>&#8211;<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.02036-15</pub-id><pub-id pub-id-type="pmid">26491167</pub-id><pub-id pub-id-type="pmcid">PMC4702705</pub-id></mixed-citation></ref><ref id="B13"><label>13.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>XL</given-names></name><name name-style="western"><surname>Yao</surname><given-names>XY</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>YQ</given-names></name><name name-style="western"><surname>Lv</surname><given-names>ZH</given-names></name><name name-style="western"><surname>Liu</surname><given-names>H</given-names></name><name name-style="western"><surname>Sun</surname><given-names>J</given-names></name><etal/></person-group>. <article-title>A highly divergent hepacivirus identified in domestic ducks further reveals the genetic diversity of hepaciviruses</article-title>. <source>Viruses.</source> (<year>2022</year>) <volume>14</volume>:<fpage>371</fpage>. <pub-id pub-id-type="doi">10.3390/v14020371</pub-id><pub-id pub-id-type="pmid">35215964</pub-id><pub-id pub-id-type="pmcid">PMC8879383</pub-id></mixed-citation></ref><ref id="B14"><label>14.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shi</surname><given-names>M</given-names></name><name name-style="western"><surname>Lin</surname><given-names>XD</given-names></name><name name-style="western"><surname>Chen</surname><given-names>X</given-names></name><name name-style="western"><surname>Tian</surname><given-names>JH</given-names></name><name name-style="western"><surname>Chen</surname><given-names>LJ</given-names></name><name name-style="western"><surname>Li</surname><given-names>K</given-names></name><etal/></person-group>. <article-title>The evolutionary history of vertebrate RNA viruses</article-title>. <source>Nature.</source> (<year>2018</year>) <volume>556</volume>:<fpage>197</fpage>&#8211;<lpage>202</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-018-0012-7</pub-id><pub-id pub-id-type="pmid">29618816</pub-id></mixed-citation></ref><ref id="B15"><label>15.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chang</surname><given-names>WS</given-names></name><name name-style="western"><surname>Eden</surname><given-names>JS</given-names></name><name name-style="western"><surname>Hartley</surname><given-names>WJ</given-names></name><name name-style="western"><surname>Shi</surname><given-names>M</given-names></name><name name-style="western"><surname>Rose</surname><given-names>K</given-names></name><name name-style="western"><surname>Holmes</surname><given-names>EC</given-names></name></person-group>. <article-title>Metagenomic discovery and co-infection of diverse wobbly possum disease viruses and a novel hepacivirus in Australian brushtail possums</article-title>. <source>One Health Outlook</source>. (<year>2019</year>) <volume>1</volume>:<fpage>5</fpage>. <pub-id pub-id-type="doi">10.1186/s42522-019-0006-x</pub-id><pub-id pub-id-type="pmid">33829126</pub-id><pub-id pub-id-type="pmcid">PMC7990097</pub-id></mixed-citation></ref><ref id="B16"><label>16.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Porter</surname><given-names>AF</given-names></name><name name-style="western"><surname>Pettersson</surname><given-names>JH</given-names></name><name name-style="western"><surname>Chang</surname><given-names>WS</given-names></name><name name-style="western"><surname>Harvey</surname><given-names>E</given-names></name><name name-style="western"><surname>Rose</surname><given-names>K</given-names></name><name name-style="western"><surname>Shi</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Novel hepaci- and pegi-like viruses in native Australian wildlife and non-human primates</article-title>. <source>Virus Evol.</source> (<year>2020</year>) <volume>6</volume>:<fpage>veaa064</fpage>. <pub-id pub-id-type="doi">10.1093/ve/veaa064</pub-id><pub-id pub-id-type="pmid">33240526</pub-id><pub-id pub-id-type="pmcid">PMC7673076</pub-id></mixed-citation></ref><ref id="B17"><label>17.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Simmonds</surname><given-names>P</given-names></name><name name-style="western"><surname>Becher</surname><given-names>P</given-names></name><name name-style="western"><surname>Bukh</surname><given-names>J</given-names></name><name name-style="western"><surname>Gould</surname><given-names>EA</given-names></name><name name-style="western"><surname>Meyers</surname><given-names>G</given-names></name><name name-style="western"><surname>Monath</surname><given-names>T</given-names></name><etal/></person-group>. <article-title>ICTV virus taxonomy profile: flaviviridae</article-title>. <source>J Gen Virol.</source> (<year>2017</year>) <volume>98</volume>:<fpage>2</fpage>&#8211;<lpage>3</lpage>. <pub-id pub-id-type="doi">10.1099/jgv.0.000672</pub-id><pub-id pub-id-type="pmid">28218572</pub-id><pub-id pub-id-type="pmcid">PMC5370391</pub-id></mixed-citation></ref><ref id="B18"><label>18.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Harvey</surname><given-names>E</given-names></name><name name-style="western"><surname>Rose</surname><given-names>K</given-names></name><name name-style="western"><surname>Eden</surname><given-names>JS</given-names></name><name name-style="western"><surname>Lo</surname><given-names>N</given-names></name><name name-style="western"><surname>Abeyasuriya</surname><given-names>T</given-names></name><name name-style="western"><surname>Shi</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Extensive diversity of RNA viruses in Australian ticks</article-title>. <source>J Virol.</source> (<year>2019</year>) <volume>93</volume>:<fpage>e01358</fpage>&#8211;<lpage>e01318</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.01358-18</pub-id><pub-id pub-id-type="pmid">30404810</pub-id><pub-id pub-id-type="pmcid">PMC6340049</pub-id></mixed-citation></ref><ref id="B19"><label>19.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Williams</surname><given-names>SH</given-names></name><name name-style="western"><surname>Levy</surname><given-names>A</given-names></name><name name-style="western"><surname>Yates</surname><given-names>RA</given-names></name><name name-style="western"><surname>Somaweera</surname><given-names>N</given-names></name><name name-style="western"><surname>Neville</surname><given-names>PJ</given-names></name><name name-style="western"><surname>Nicholson</surname><given-names>J</given-names></name><etal/></person-group>. <article-title>Discovery of Jogalong virus, a novel hepacivirus identified in a <italic toggle="yes">Culex annulirostris</italic> (Skuse) mosquito from the Kimberley region of Western Australia</article-title>. <source>PLoS ONE.</source> (<year>2020</year>) <volume>15</volume>:<fpage>e0227114</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0227114</pub-id><pub-id pub-id-type="pmid">31899786</pub-id><pub-id pub-id-type="pmcid">PMC6941808</pub-id></mixed-citation></ref><ref id="B20"><label>20.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Da Silva</surname><given-names>MS</given-names></name><name name-style="western"><surname>Junqueira</surname><given-names>DM</given-names></name><name name-style="western"><surname>Baumbach</surname><given-names>LF</given-names></name><name name-style="western"><surname>Cibulski</surname><given-names>SP</given-names></name><name name-style="western"><surname>Mosena</surname><given-names>ACS</given-names></name><name name-style="western"><surname>Weber</surname><given-names>MN</given-names></name><etal/></person-group>. <article-title>Comprehensive evolutionary and phylogenetic analysis of <italic toggle="yes">Hepacivirus N</italic> (HNV)</article-title>. <source>J Gen Virol.</source> (<year>2018</year>) <volume>99</volume>:<fpage>890</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1099/jgv.0.001082</pub-id><pub-id pub-id-type="pmid">29792591</pub-id></mixed-citation></ref><ref id="B21"><label>21.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Baechlein</surname><given-names>C</given-names></name><name name-style="western"><surname>Fischer</surname><given-names>N</given-names></name><name name-style="western"><surname>Grundhoff</surname><given-names>A</given-names></name><name name-style="western"><surname>Alawi</surname><given-names>M</given-names></name><name name-style="western"><surname>Indenbirken</surname><given-names>D</given-names></name><name name-style="western"><surname>Postel</surname><given-names>A</given-names></name><etal/></person-group>. <article-title>Identification of a novel hepacivirus in domestic cattle from Germany</article-title>. <source>J Virol.</source> (<year>2015</year>) <volume>89</volume>:<fpage>7007</fpage>&#8211;<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.00534-15</pub-id><pub-id pub-id-type="pmid">25926652</pub-id><pub-id pub-id-type="pmcid">PMC4473572</pub-id></mixed-citation></ref><ref id="B22"><label>22.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Corman</surname><given-names>VM</given-names></name><name name-style="western"><surname>Grundhoff</surname><given-names>A</given-names></name><name name-style="western"><surname>Baechlein</surname><given-names>C</given-names></name><name name-style="western"><surname>Fischer</surname><given-names>N</given-names></name><name name-style="western"><surname>Gmyl</surname><given-names>A</given-names></name><name name-style="western"><surname>Wollny</surname><given-names>R</given-names></name><etal/></person-group>. <article-title>Highly divergent hepaciviruses from African cattle</article-title>. <source>J Virol.</source> (<year>2015</year>) <volume>89</volume>:<fpage>5876</fpage>&#8211;<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.00393-15</pub-id><pub-id pub-id-type="pmid">25787289</pub-id><pub-id pub-id-type="pmcid">PMC4442428</pub-id></mixed-citation></ref><ref id="B23"><label>23.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lu</surname><given-names>G</given-names></name><name name-style="western"><surname>Ou</surname><given-names>J</given-names></name><name name-style="western"><surname>Zhao</surname><given-names>J</given-names></name><name name-style="western"><surname>Li</surname><given-names>S</given-names></name></person-group>. <article-title>Presence of a novel Subtype of bovine hepacivirus in China and expanded classification of bovine hepacivirus strains worldwide into 7 subtypes</article-title>. <source>Viruses.</source> (<year>2019</year>) <volume>11</volume>:<fpage>843</fpage>. <pub-id pub-id-type="doi">10.3390/v11090843</pub-id><pub-id pub-id-type="pmid">31514278</pub-id><pub-id pub-id-type="pmcid">PMC6784114</pub-id></mixed-citation></ref><ref id="B24"><label>24.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shao</surname><given-names>JW</given-names></name><name name-style="western"><surname>Guo</surname><given-names>LY</given-names></name><name name-style="western"><surname>Yuan</surname><given-names>YX</given-names></name><name name-style="western"><surname>Ma</surname><given-names>J</given-names></name><name name-style="western"><surname>Chen</surname><given-names>JM</given-names></name><name name-style="western"><surname>Liu</surname><given-names>Q</given-names></name></person-group>. <article-title>A novel subtype of bovine hepacivirus identified in ticks reveals the genetic diversity and evolution of bovine hepacivirus</article-title>. <source>Viruses.</source> (<year>2021</year>) <volume>13</volume>:<fpage>2206</fpage>. <pub-id pub-id-type="doi">10.3390/v13112206</pub-id><pub-id pub-id-type="pmid">34835012</pub-id><pub-id pub-id-type="pmcid">PMC8623979</pub-id></mixed-citation></ref><ref id="B25"><label>25.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lu</surname><given-names>G</given-names></name><name name-style="western"><surname>Chen</surname><given-names>C</given-names></name><name name-style="western"><surname>Shao</surname><given-names>R</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name><name name-style="western"><surname>Li</surname><given-names>J</given-names></name><name name-style="western"><surname>Cai</surname><given-names>S</given-names></name><etal/></person-group>. <article-title>Identification and genetic characterization of bovine hepacivirus in China: a large scale epidemiological study</article-title>. <source>Virol Sin.</source> (<year>2022</year>) <volume>37</volume>:<fpage>223</fpage>&#8211;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.virs.2022.02.003</pub-id><pub-id pub-id-type="pmid">35537981</pub-id><pub-id pub-id-type="pmcid">PMC9170970</pub-id></mixed-citation></ref><ref id="B26"><label>26.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Canal</surname><given-names>CW</given-names></name><name name-style="western"><surname>Weber</surname><given-names>MN</given-names></name><name name-style="western"><surname>Cibulski</surname><given-names>SP</given-names></name><name name-style="western"><surname>Silva</surname><given-names>MS</given-names></name><name name-style="western"><surname>Puhl</surname><given-names>DE</given-names></name><name name-style="western"><surname>Stalder</surname><given-names>H</given-names></name><etal/></person-group>. <article-title>A novel genetic group of bovine hepacivirus in archival serum samples from Brazilian cattle</article-title>. <source>Biomed Res Int.</source> (<year>2017</year>) <volume>2017</volume>:<fpage>4732520</fpage>. <pub-id pub-id-type="doi">10.1155/2017/4732520</pub-id><pub-id pub-id-type="pmid">28904959</pub-id><pub-id pub-id-type="pmcid">PMC5585675</pub-id></mixed-citation></ref><ref id="B27"><label>27.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Da Silva</surname><given-names>MS</given-names></name><name name-style="western"><surname>Weber</surname><given-names>MN</given-names></name><name name-style="western"><surname>Baumbach</surname><given-names>LF</given-names></name><name name-style="western"><surname>Cibulski</surname><given-names>SP</given-names></name><name name-style="western"><surname>Budaszewski</surname><given-names>RF</given-names></name><name name-style="western"><surname>Mosena</surname><given-names>ACS</given-names></name><etal/></person-group>. <article-title>Highly divergent cattle hepacivirus N in Southern Brazil</article-title>. <source>Arch Virol.</source> (<year>2019</year>) <volume>164</volume>:<fpage>3133</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1007/s00705-019-04419-2</pub-id><pub-id pub-id-type="pmid">31563979</pub-id></mixed-citation></ref><ref id="B28"><label>28.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yesilbag</surname><given-names>K</given-names></name><name name-style="western"><surname>Baechlein</surname><given-names>C</given-names></name><name name-style="western"><surname>Kadiroglu</surname><given-names>B</given-names></name><name name-style="western"><surname>Baldan Toker</surname><given-names>E</given-names></name><name name-style="western"><surname>Alpay</surname><given-names>G</given-names></name><name name-style="western"><surname>Becher</surname><given-names>P</given-names></name></person-group>. <article-title>Presence of bovine hepacivirus in Turkish cattle</article-title>. <source>Vet Microbiol.</source> (<year>2018</year>) <volume>225</volume>:<fpage>1</fpage>&#8211;<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1016/j.vetmic.2018.09.001</pub-id><pub-id pub-id-type="pmid">30322519</pub-id></mixed-citation></ref><ref id="B29"><label>29.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sadeghi</surname><given-names>M</given-names></name><name name-style="western"><surname>Kapusinszky</surname><given-names>B</given-names></name><name name-style="western"><surname>Yugo</surname><given-names>DM</given-names></name><name name-style="western"><surname>Phan</surname><given-names>TG</given-names></name><name name-style="western"><surname>Deng</surname><given-names>X</given-names></name><name name-style="western"><surname>Kanevsky</surname><given-names>I</given-names></name><etal/></person-group>. <article-title>Virome of US bovine calf serum</article-title>. <source>Biologicals.</source> (<year>2017</year>) <volume>46</volume>:<fpage>64</fpage>&#8211;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.biologicals.2016.12.009</pub-id><pub-id pub-id-type="pmid">28100412</pub-id><pub-id pub-id-type="pmcid">PMC5654489</pub-id></mixed-citation></ref><ref id="B30"><label>30.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Elia</surname><given-names>G</given-names></name><name name-style="western"><surname>Caringella</surname><given-names>F</given-names></name><name name-style="western"><surname>Lanave</surname><given-names>G</given-names></name><name name-style="western"><surname>Martella</surname><given-names>V</given-names></name><name name-style="western"><surname>Losurdo</surname><given-names>M</given-names></name><name name-style="western"><surname>Tittarelli</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Genetic heterogeneity of bovine hepacivirus in Italy</article-title>. <source>Transbound Emerg Dis.</source> (<year>2020</year>) <volume>67</volume>:<fpage>2731</fpage>&#8211;<lpage>40</lpage>. <pub-id pub-id-type="doi">10.1111/tbed.13628</pub-id><pub-id pub-id-type="pmid">32426936</pub-id></mixed-citation></ref><ref id="B31"><label>31.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Liu</surname><given-names>Z</given-names></name><name name-style="western"><surname>Li</surname><given-names>L</given-names></name><name name-style="western"><surname>Guo</surname><given-names>Y</given-names></name><name name-style="western"><surname>Xu</surname><given-names>W</given-names></name><name name-style="western"><surname>Yuan</surname><given-names>Y</given-names></name><name name-style="western"><surname>Liang</surname><given-names>X</given-names></name><etal/></person-group>. <article-title>Genome characterization and phylogenetic analysis of bovine hepacivirus in Inner Mongolia, Northeastern China</article-title>. <source>Zoonoses.</source> (<year>2022</year>) <volume>2</volume>:<fpage>13</fpage>. <pub-id pub-id-type="doi">10.15212/ZOONOSES-2022-0003</pub-id></mixed-citation></ref><ref id="B32"><label>32.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Deng</surname><given-names>Y</given-names></name><name name-style="western"><surname>Guan</surname><given-names>SH</given-names></name><name name-style="western"><surname>Wang</surname><given-names>S</given-names></name><name name-style="western"><surname>Hao</surname><given-names>G</given-names></name><name name-style="western"><surname>Rasmussen</surname><given-names>TB</given-names></name></person-group>. <article-title>The detection and phylogenetic analysis of bovine hepacivirus in China</article-title>. <source>Biomed Res Int.</source> (<year>2018</year>) <volume>2018</volume>:<fpage>6216853</fpage>. <pub-id pub-id-type="doi">10.1155/2018/6216853</pub-id><pub-id pub-id-type="pmid">29955606</pub-id><pub-id pub-id-type="pmcid">PMC6000834</pub-id></mixed-citation></ref><ref id="B33"><label>33.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lu</surname><given-names>G</given-names></name><name name-style="western"><surname>Jia</surname><given-names>K</given-names></name><name name-style="western"><surname>Ping</surname><given-names>X</given-names></name><name name-style="western"><surname>Huang</surname><given-names>J</given-names></name><name name-style="western"><surname>Luo</surname><given-names>A</given-names></name><name name-style="western"><surname>Wu</surname><given-names>P</given-names></name><etal/></person-group>. <article-title>Novel bovine hepacivirus in dairy cattle, China</article-title>. <source>Emerg Microbes Infect.</source> (<year>2018</year>) <volume>7</volume>:<fpage>54</fpage>. <pub-id pub-id-type="doi">10.1038/s41426-018-0055-8</pub-id><pub-id pub-id-type="pmid">29615608</pub-id><pub-id pub-id-type="pmcid">PMC5883034</pub-id></mixed-citation></ref><ref id="B34"><label>34.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Qiang</surname><given-names>X</given-names></name><name name-style="western"><surname>Shen</surname><given-names>X</given-names></name><name name-style="western"><surname>Peng</surname><given-names>H</given-names></name><name name-style="western"><surname>Guo</surname><given-names>X</given-names></name><name name-style="western"><surname>He</surname><given-names>Z</given-names></name><name name-style="western"><surname>Yao</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Complete genome sequence of a novel bovine hepacivirus from Yunnan, China</article-title>. <source>Arch Virol.</source> (<year>2020</year>) <volume>165</volume>:<fpage>1489</fpage>&#8211;<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1007/s00705-020-04611-9</pub-id><pub-id pub-id-type="pmid">32266550</pub-id></mixed-citation></ref><ref id="B35"><label>35.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Liu</surname><given-names>H</given-names></name><name name-style="western"><surname>Li</surname><given-names>Q</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>X</given-names></name><name name-style="western"><surname>Li</surname><given-names>Z</given-names></name><name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name><name name-style="western"><surname>Song</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Characterization of rickettsiae in ticks in northeastern China</article-title>. <source>Parasit Vectors.</source> (<year>2016</year>) <volume>9</volume>:<fpage>498</fpage>. <pub-id pub-id-type="doi">10.1186/s13071-016-1764-2</pub-id><pub-id pub-id-type="pmid">27623998</pub-id><pub-id pub-id-type="pmcid">PMC5022169</pub-id></mixed-citation></ref><ref id="B36"><label>36.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cowling</surname><given-names>DW</given-names></name><name name-style="western"><surname>Gardner</surname><given-names>IA</given-names></name><name name-style="western"><surname>Johnson</surname><given-names>WO</given-names></name></person-group>. <article-title>Comparison of methods for estimation of individual-level prevalence based on pooled samples</article-title>. <source>Prev Vet Med.</source> (<year>1999</year>) <volume>39</volume>:<fpage>211</fpage>&#8211;<lpage>25</lpage>. <pub-id pub-id-type="doi">10.1016/S0167-5877(98)00131-7</pub-id><pub-id pub-id-type="pmid">10327439</pub-id></mixed-citation></ref><ref id="B37"><label>37.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name><name name-style="western"><surname>Stecher</surname><given-names>G</given-names></name><name name-style="western"><surname>Tamura</surname><given-names>K</given-names></name></person-group>. <article-title>MEGA7: molecular evolutionary genetics analysis version 7.0 for bigger datasets</article-title>. <source>Mol Biol Evol.</source> (<year>2016</year>) <volume>33</volume>:<fpage>1870</fpage>&#8211;<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1093/molbev/msw054</pub-id><pub-id pub-id-type="pmid">27004904</pub-id><pub-id pub-id-type="pmcid">PMC8210823</pub-id></mixed-citation></ref><ref id="B38"><label>38.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Posada</surname><given-names>D</given-names></name></person-group>. <article-title>jModelTest: phylogenetic model averaging</article-title>. <source>Mol Biol Evol.</source> (<year>2008</year>) <volume>25</volume>:<fpage>1253</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1093/molbev/msn083</pub-id><pub-id pub-id-type="pmid">18397919</pub-id></mixed-citation></ref><ref id="B39"><label>39.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martin</surname><given-names>DP</given-names></name><name name-style="western"><surname>Murrell</surname><given-names>B</given-names></name><name name-style="western"><surname>Golden</surname><given-names>M</given-names></name><name name-style="western"><surname>Khoosal</surname><given-names>A</given-names></name><name name-style="western"><surname>Muhire</surname><given-names>B</given-names></name></person-group>. <article-title>RDP4: detection and analysis of recombination patterns in virus genomes</article-title>. <source>Virus Evol.</source> (<year>2015</year>) <volume>1</volume>:<fpage>vev003</fpage>. <pub-id pub-id-type="doi">10.1093/ve/vev003</pub-id><pub-id pub-id-type="pmid">27774277</pub-id><pub-id pub-id-type="pmcid">PMC5014473</pub-id></mixed-citation></ref><ref id="B40"><label>40.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lole</surname><given-names>KS</given-names></name><name name-style="western"><surname>Bollinger</surname><given-names>RC</given-names></name><name name-style="western"><surname>Paranjape</surname><given-names>RS</given-names></name><name name-style="western"><surname>Gadkari</surname><given-names>D</given-names></name><name name-style="western"><surname>Kulkarni</surname><given-names>SS</given-names></name><name name-style="western"><surname>Novak</surname><given-names>NG</given-names></name><etal/></person-group>. <article-title>Full-length human immunodeficiency virus type 1 genomes from subtype C-infected seroconverters in India, with evidence of intersubtype recombination</article-title>. <source>J Virol.</source> (<year>1999</year>) <volume>73</volume>:<fpage>152</fpage>&#8211;<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.73.1.152-160.1999</pub-id><pub-id pub-id-type="pmid">9847317</pub-id><pub-id pub-id-type="pmcid">PMC103818</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

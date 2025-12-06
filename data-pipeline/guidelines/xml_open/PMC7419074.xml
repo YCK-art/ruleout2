@@ -1,0 +1,589 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="brief-report" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Open Vet J</journal-id><journal-id journal-id-type="iso-abbrev">Open Vet J</journal-id><journal-id journal-id-type="pmc-domain-id">2846</journal-id><journal-id journal-id-type="pmc-domain">openvetj</journal-id><journal-title-group><journal-title>Open Veterinary Journal</journal-title></journal-title-group><issn pub-type="ppub">2226-4485</issn><issn pub-type="epub">2218-6050</issn><publisher><publisher-name>Faculty of Veterinary Medicine, University of Tripoli</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7419074</article-id><article-id pub-id-type="pmcid-ver">PMC7419074.1</article-id><article-id pub-id-type="pmcaid">7419074</article-id><article-id pub-id-type="pmcaiid">7419074</article-id><article-id pub-id-type="pmid">32821660</article-id><article-id pub-id-type="doi">10.4314/ovj.v10i2.5</article-id><article-id pub-id-type="publisher-id">OVJ-10-157</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Short Communication</subject></subj-group></article-categories><title-group><article-title>Endometritis in the bitch: Immunohistochemical localization of cyclooxygenase 2</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Mitacek</surname><given-names initials="MCG">Mar&#237;a Carla Garc&#237;a</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Praderio</surname><given-names initials="RG">Romina Gisele</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stornelli</surname><given-names initials="MC">Mar&#237;a Cecilia</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>de la Sota</surname><given-names initials="RL">Rodolfo Luzbel</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stornelli</surname><given-names initials="MA">Mar&#237;a Alejandra</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><aff id="aff1"><label>1</label>C&#225;tedra y Servicio de Reproducci&#243;n Animal, Facultad de Ciencias Veterinarias, Universidad Nacional de La Plata, La Plata, Argentina</aff><aff id="aff2"><label>2</label>CONICET, CABA, Buenos Aires, Argentina</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label><bold>Corresponding Author:</bold> Mar&#237;a Alejandra Stornelli. C&#225;tedra y Servicio de Reproducci&#243;n Animal, Facultad de Ciencias Veterinarias, Universidad Nacional de La Plata, La Plata, Argentina. <email>astornel@fcv.unlp.edu.ar</email></corresp></author-notes><pub-date pub-type="ppub"><season>Apr-Jun</season><year>2020</year></pub-date><pub-date pub-type="epub"><day>27</day><month>4</month><year>2020</year></pub-date><volume>10</volume><issue>2</issue><issue-id pub-id-type="pmc-issue-id">363162</issue-id><fpage>157</fpage><lpage>163</lpage><history><date date-type="received"><day>06</day><month>9</month><year>2019</year></date><date date-type="accepted"><day>24</day><month>3</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>04</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>19</day><month>08</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2021-03-22 16:16:24.443"><day>22</day><month>03</month><year>2021</year></date></event></pub-history><permissions><copyright-year>2020</copyright-year><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0"><ali:license_ref specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="OpenVetJ-10-157.pdf"/><abstract><sec><title>Background:</title><p>In several mammals, subfertility or infertility associated with endometritis was reported. Although there have been studies about endometritis in bitches, the pathophysiological mechanisms are not completely known.</p></sec><sec><title>Aim:</title><p>This study aimed to evaluate the immunohistochemical expression of Cyclooxygenase 2 (COX2) in clinically healthy bitches with normal uterine tissue and bitches with endometritis. </p></sec><sec sec-type="methods"><title>Methods:</title><p>Forty-eight mixed breed bitches in diestrus were used. Uterine biopsies were collected for diagnosis [normal endometrium (<italic toggle="yes">n</italic> = 15; NE), cystic endometrial hyperplasia (<italic toggle="yes">n</italic> = 1), atrophy (<italic toggle="yes">n</italic>= 2), acute endometritis (<italic toggle="yes">n</italic> = 9; AE), subacute endometritis (<italic toggle="yes">n</italic> = 7; SE), and chronic endometritis (<italic toggle="yes">n</italic> = 14; CE)]. Immunostaining and quantification of positively stained cells was performed on full-thickness uterine biopsies. Data were analyzed by the GLIMMIX procedure of SAS. </p></sec><sec><title>Results:</title><p>COX2 immunostaining was scattered and restricted to cells in the stroma in bitches with NE. However, in bitches with endometritis, strong staining was observed in the luminal epithelium, glandular epithelium, and stromal cells. Staining was also observed in inflammatory cells localized in the stroma as well as inside of the glands. The percentage of COX2 positive stromal cells in bitches with AE, SE, and CE was significantly higher compared with NE (<italic toggle="yes">p</italic> &lt; 0.005). In addition, the percentage of COX2 positive stromal cells in bitches with SE, and CE was significantly lower compared with AE (<italic toggle="yes">p</italic> &lt; 0.003). </p></sec><sec><title>Conclusion:</title><p>COX2 could be involved in the pathophysiological mechanisms producing endometritis without the presence of cystic endometrial hyperplasia in bitches. However, further researches on this topic are required.</p></sec></abstract><kwd-group><kwd>Bitch</kwd><kwd>COX2</kwd><kwd>Endometritis</kwd><kwd>Immunohistochemical</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>Diseases of the canine uterus were studied by several researchers. The most prevalent uterine lesions in the bitch are endometritis, cystic endometrial hyperplasia, and cystic endometrial hyperplasia-pyometra complex (<xref rid="ref3" ref-type="bibr">De Bosschere <italic toggle="yes">et al.</italic>, 2001</xref>; <xref rid="ref21" ref-type="bibr">Silva <italic toggle="yes">et al.</italic>, 2010</xref>; <xref rid="ref1" ref-type="bibr">Bukowska <italic toggle="yes">et al.</italic>, 2014</xref>; <xref rid="ref10" ref-type="bibr">Gifford <italic toggle="yes">et al.</italic>, 2014</xref>; <xref rid="ref12" ref-type="bibr">Hagman, 2017</xref>; <xref rid="ref16" ref-type="bibr">Praderio <italic toggle="yes">et al.</italic>, 2019</xref>). It was reported that clinically healthy bitches (CHB) with normal vaginal cytology could suffer endometritis, showing in the histopathological study inflammation of the endometrial tissue (<xref rid="ref6" ref-type="bibr">Fontaine <italic toggle="yes">et al.</italic>, 2009</xref>; <xref rid="ref14" ref-type="bibr">Mir <italic toggle="yes">et al.</italic>, 2013</xref>). Some researchers think that cystic endometrial hyperplasia and endometritis occurred together, but in some cases, cystic endometrial hyperplasia occurred without endometritis (<xref rid="ref4" ref-type="bibr">Dow, 1959</xref>; <xref rid="ref10" ref-type="bibr">Gifford <italic toggle="yes">et al.</italic>, 2014</xref>). Moreover, bitches with cystic endometrial hyperplasia-pyometra complex show several clinical signs (<xref rid="ref11" ref-type="bibr">Haas <italic toggle="yes">et al.</italic>, 2016</xref>). In the last years, it has been observed that several mammals with subfertility or infertility as the only clinical sign suffer endometritis. Although endometritis had been reported in CHB, the pathophysiological mechanisms it is not completely known (<xref rid="ref6" ref-type="bibr">Fontaine <italic toggle="yes">et al.</italic>, 2009</xref>; <xref rid="ref14" ref-type="bibr">Mir <italic toggle="yes">et al.</italic>, 2013</xref>; <xref rid="ref10" ref-type="bibr">Gifford <italic toggle="yes">et al.</italic>, 2014</xref>). Cyclooxygenase 2 (COX2) is a prostaglandin synthesis enzyme, and it is induced during the inflammation. Thus, the increase in prostaglandin production because the over-expression of COX2 could be impairing the implantation of fertilized oocytes because an abnormality in the endometrium (<xref rid="ref15" ref-type="bibr">Ota <italic toggle="yes">et al.</italic>, 2001</xref>). It has been reported that COX2 expression may be abnormal in several reproductive diseases, such as pyometra and endometriosis (<xref rid="ref15" ref-type="bibr">Ota <italic toggle="yes">et al.</italic>, 2001</xref>; <xref rid="ref21" ref-type="bibr">Silva <italic toggle="yes">et al.</italic>, 2010</xref>). In this sense, <xref rid="ref21" ref-type="bibr">Silva <italic toggle="yes">et al.</italic> (2010)</xref> reported that COX2 immunostaining was observed in luminal epithelium, glandular epithelium, and stromal cells in bitches with pyometra. In addition, staining was also observed in inflammatory cells localized in the stroma as well as in glandular lumen. Besides, in bitches with normal endometria COX2 immunostaining was observed in the cells of the stroma and small capillaries (<xref rid="ref21" ref-type="bibr">Silva <italic toggle="yes">et al.</italic>, 2010</xref>). Therefore, it is probably that normal uterus and uterus with endometritis without cystic endometrial hyperplasia in CHB show different immunostaining patters.</p><p>The aim was to evaluate the immunohistochemical expression of COX2 in the endometrium of CHB with a normal uterus and in CHB with endometritis without the presence of cystic endometrial hyperplasia. </p></sec><sec sec-type="materialsandmethods" id="sec2"><title>Materials and Methods</title><p>Forty-eight mixed breed, privately owned, intact, CHB, in diestrus, aged between 1&#8211;5 years and weighing between 10 and 30 kg were used in this study. Bitches were included in a program for breeding control at a municipal pet public shelter in the city of La Plata. Ovariohysterectomy was performed between 15 and 50 days after the end of the estrus. All bitches enrolled in the study were undergoing a thorough clinical and reproductive examination and were clinically healthy. Diestrus was determined based on the history provided by the owner and confirmed in each bitch based on ovarian structures, serum progesterone (P<sub>4</sub>), and vaginal cytology (<xref rid="ref5" ref-type="bibr">Feldman and Nelson, 2000</xref>). Blood samples were centrifuged and stored at &#8722;20&#176;C until P<sub>4</sub> was measured by chemiluminescence immunoassay (Elecsys<sup>&#174;</sup>, Progesterone II; Roche, Mannheim, Germany). The intra-assay CVs for high-pool and low-pool P<sub>4</sub> (4.87 and 0.3 ng/ml) were 4.5% and 2%, respectively. Vaginal cytology was stained with Tinci&#243;n 15<sup>&#174;</sup> (Biopur, Rosario) and was examined at 10&#215; and 40&#215; magnification. The experiment had the approval of the IACUC of FCV UNLP (40-4-14 B). After ovariohysterectomy (OVX), uterine biopsy samples were collected from the middle part of both horns. The samples were fixed in 10% buffered formalin, dehydrated, and embedded in paraffin. Then, sections were cut at 2&#8211;4 &#956;m, deparaffinized and stained with H&amp;E, and were observed with a light microscope at 10&#215; and 40&#215; magnifications (Olympus, Tokyo, Japan; <xref rid="ref20" ref-type="bibr">Schlafer and Miller, 2007</xref>). </p><p>After biopsies were classified, samples from normal uterine tissue and uterus with endometritis without the presence of cystic endometrial hyperplasia were select to perform the immunohistochemical study (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). </p><p>Immunostaining and quantification of positively stained cells were performed on full-thickness uterine biopsies. Sections were cut from paraffin embedded tissues and mounted on slides. Tissues were deparaffinized, rehydrated, and washed under running tap water (5 minutes). Immunohistochemical detection of COX2 was performed by an immunoperoxidase method using COX2 polyclonal primary antibody (1:200, aa 584-598<italic toggle="yes">; Cayman Chemica</italic>, Ann Arbor, MI) according to the manufacturer&#8217;s instructions (<xref rid="ref13a" ref-type="bibr">Kowalewski <italic toggle="yes">et al.</italic>, 2006</xref>; <xref rid="ref17" ref-type="bibr">Santelices Iglesias <italic toggle="yes">et al.</italic>, 2018</xref>). For negative control, the primary antibody was replaced with PBS. For positive control, was used the macula densa of sections of dog kidney (<xref ref-type="fig" rid="fig2">Fig. 2</xref>). Revealing was achieved using a chromogenic solution (3, 30-diaminobenzidine tetrahydrochloride; Dako). For counterstaining the hematoxylin was used (<xref rid="ref13" ref-type="bibr">Khan <italic toggle="yes">et al.</italic>, 2001</xref>; <xref rid="ref17" ref-type="bibr">Santelices Iglesias <italic toggle="yes">et al.</italic>, 2018</xref>). One immunostained section per uterine tissue was evaluated at a 40&#215;; a minimum of three arbitrarily chosen views with approximately 100 cells was evaluated (<xref rid="ref13a" ref-type="bibr">Kowalewski <italic toggle="yes">et al.</italic>, 2006</xref>). Data were analyzed with GLIMMIX procedure of SAS 9.4 with Poisson distribution and log link functions (SAS Institute Inc., Cary, NC). Three orthogonal contrasts were designed to compare differences between means. Data are shown as least squares means &#177; standard errors. Statistical significance was set at <italic toggle="yes">p</italic> &lt; 0.05. </p><sec><title>Ethical approval</title><p>The experiment was carried out in accordance with international recommendations specified in the guidelines for the care and use of laboratory animals and with the recommendations of the National Academy Science concerning the use of dogs as laboratory animals, and the approval of the IACUC of the Facultad de Ciencias Veterinarias, Universidad Nacional de La Plata (40-4-14 B).</p></sec></sec><sec sec-type="resultsanddiscussion" id="sec3"><title>Results and Discussion</title><p>The uterine biopsies samples were classified in normal endometrium (NE; <italic toggle="yes">n</italic> = 15), acute endometritis (AE; <italic toggle="yes">n</italic> = 9), subacute endometritis (SE; <italic toggle="yes">n</italic> = 7), chronic endometritis (CE; <italic toggle="yes">n</italic> = 14; <xref ref-type="fig" rid="fig1">Fig. 1</xref>), cystic endometrial hyperplasia (<italic toggle="yes">n</italic> = 1), and atrophy [<italic toggle="yes">n</italic> = 2 (<xref rid="table1" ref-type="table">Table 1</xref>)]. Normal endometrium was characterized by the presence of less than three neutrophils or the absence of inflammatory cells in endometrium per 40&#215; field (<xref rid="ref8" ref-type="bibr">Galabova <italic toggle="yes">et al.</italic>, 2003</xref>). Acute endometritis was characterized by the presence of neutrophils in endometrium per 40&#215; field and the presence of hyperemia, vascular congestion, or stromal edema. Subacute endometritis was characterized by the presence of edema, polymorphonuclear, and mononuclear cells. Chronic endometritis was characterized by the presence of lymphocytes, plasma cells, and macrophage in endometrium and interstitial fibrosis (<xref rid="ref18" ref-type="bibr">Schlafer, 2012</xref>; <xref rid="ref10" ref-type="bibr">Gifford <italic toggle="yes">et al.</italic>, 2014</xref>; <xref rid="ref9" ref-type="bibr">Garc&#237;a Mitacek <italic toggle="yes">et al.</italic>, 2017</xref>; <xref rid="ref16" ref-type="bibr">Praderio <italic toggle="yes">et al.</italic>, 2019</xref>). Endometrial hyperplasia was defined by an increase in the size and number of glands with no change in the stroma except for edema, presence of hypertrophic and hyperplastic glandular cells with clear vacuolated cytoplasm. When the glands become cystic, and the epithelium of the glands becomes flattened, the biopsy was defined as cystic endometrial hyperplasia (<xref rid="ref7" ref-type="bibr">Foster, 2012</xref>). Atrophy was defined by lining mucosa covering a thin layer of condensed stroma in the depths of which are the inactive glandular remnants (<xref rid="ref19" ref-type="bibr">Schlafer and Foster, 2016</xref>; <xref rid="ref16" ref-type="bibr">Praderio <italic toggle="yes">et al.</italic>, 2019</xref>). Mean serum P<sub>4</sub> concentrations in bitches with and without endometritis were similar (11.26 &#177; 2.43 <italic toggle="yes">vs.</italic> 19.83 &#177; 5.34, respectively; <italic toggle="yes">p</italic> &gt; 0.09). Vaginal cytology samples showed between 70% and 80% intermediate cells, 10%&#8211;15% parabasal cells, 5%&#8211;10% superficial cells per field and neutrophils presence at 40&#215; magnification. COX2 immunostaining was scattered and restricted to cells in the stroma in bitches with NE. However, in bitches with endometritis, strong staining was observed in luminal epithelium, glandular epithelium, and stromal cells (<xref ref-type="fig" rid="fig2">Fig. 2</xref>). Staining was also observed in inflammatory cells localized in the stroma as well as inside of the glands. The percentage of COX2 positive stromal cells in bitches with AE, SE, and CE were significantly higher compared with NE (<italic toggle="yes">p</italic> &lt; 0.005). In addition, the percentage of COX2 positive stromal cells in bitches with SE and CE was significantly lower compared with AE (<italic toggle="yes">p</italic> &lt; 0.003). However, no differences were found in the percentage of COX2 positive stromal cells in bitches with SE compared with CE (<italic toggle="yes">p</italic> &gt; 0.33; <xref ref-type="fig" rid="fig3">Fig. 3</xref>). </p><fig id="fig1" position="float" orientation="portrait"><label>Fig. 1.</label><caption><title>Photomicrograph of endometrial tissue in a biopsy from acute endometritis (AE; A), subacute endometritis (SE; B), and chronic endometritis (CE, C). Black arrows indicate polymorphonuclear neutrophilic, red arrow indicate lymphocytes. IF: interstitial fibrosis (40&#215;, H&amp;E).</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="OpenVetJ-10-157-g001.jpg"/></fig><fig id="fig2" position="float" orientation="portrait"><label>Fig. 2.</label><caption><title>Expression of COX2 by immunohistochemistry in NE (A, 40&#215;), AE (B, 60&#215;), SE (C, 60&#215;), and CE (D, 60&#215;). Black arrow indicates stained inflammatory cells. Positive control: Expression of COX2 in the macula densa of a section of canine kidney (E, 60&#215;). Negative control: (F, 60&#215;).</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="OpenVetJ-10-157-g002.jpg"/></fig><p>Immunohistochemical expression of COX2 in the endometrial epithelium and stromal cells was also observed in cases of pyometra in the bitch. In addition, the COX2 expression was higher at the glandular and luminal epithelium as well as in the inflammatory cells in bitches with pyometra compared with control group (<xref rid="ref21" ref-type="bibr">Silva <italic toggle="yes">et al.</italic>, 2010</xref>). Similarly, in our work, we observed the expression of COX2 in the luminal epithelium, glandular epithelium, and stromal cells in bitches with endometritis without the presence of cystic endometrial hyperplasia. In woman, <xref rid="ref2" ref-type="bibr">Chishima <italic toggle="yes">et al.</italic> (2002)</xref> observed that COX2 staining was denser in the ectopic endometriosis implants when compared with eutopic endometrium (<xref rid="ref2" ref-type="bibr">Chishima <italic toggle="yes">et al.</italic>, 2002</xref>). In addition, <xref rid="ref15" ref-type="bibr">Ota <italic toggle="yes">et al.</italic> (2001)</xref> found that the expression of COX2 in the glandular epithelium was higher from endometriosis samples compared with control group. In contrast with our results, in woman no differences in the expression of COX2 in stromal cells were found in endometriosis compared with control group; however, the expression tended to be slightly higher (<xref rid="ref15" ref-type="bibr">Ota <italic toggle="yes">et al.</italic>, 2001</xref>). </p><table-wrap id="table1" position="float" orientation="portrait"><label>Table 1.</label><caption><title>Data of the age, breed, parity and days post-estrus at the time of OVX in bitches include in the study.</title></caption><table frame="hsides" rules="rows"><thead><tr><th rowspan="1" colspan="1">
+Bitch
+</th><th rowspan="1" colspan="1">
+Age (years)
+</th><th rowspan="1" colspan="1">
+Breed
+</th><th rowspan="1" colspan="1">
+Number of Parity
+</th><th rowspan="1" colspan="1">
+Days post-estrus at the time of ovariohysterectomy
+</th><th rowspan="1" colspan="1">
+Uterine biopsies samples
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+45
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+6
+</td><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+35
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+7
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+8
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+30
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+9
+</td><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+43
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+10
+</td><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+11
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+12
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+30
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+13
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+14
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+NE
+</td></tr><tr><td rowspan="1" colspan="1">
+16
+</td><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+17
+</td><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+30
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+18
+</td><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+19
+</td><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+43
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+20
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+45
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+21
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+48
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+22
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+33
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+23
+</td><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+24
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+AE
+</td></tr><tr><td rowspan="1" colspan="1">
+25
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+26
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+45
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+27
+</td><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+28
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+20
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+29
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+43
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+30
+</td><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+19
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+31
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+SE
+</td></tr><tr><td rowspan="1" colspan="1">
+32
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+33
+</td><td rowspan="1" colspan="1">
+4
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+34
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+35
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+30
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+36
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+17
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+37
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+32
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+38
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+32
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+39
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+40
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+22
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+41
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+43
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+42
+</td><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+20
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+43
+</td><td rowspan="1" colspan="1">
+5
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+44
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+15
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+45
+</td><td rowspan="1" colspan="1">
+2
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+30
+</td><td rowspan="1" colspan="1">
+CE
+</td></tr><tr><td rowspan="1" colspan="1">
+46
+</td><td rowspan="1" colspan="1">
+3
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+Cystic endometrial hyperplasia
+</td></tr><tr><td rowspan="1" colspan="1">
+47
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+50
+</td><td rowspan="1" colspan="1">
+Atrophy
+</td></tr><tr><td rowspan="1" colspan="1">
+48
+</td><td rowspan="1" colspan="1">
+1
+</td><td rowspan="1" colspan="1">
+Mixed
+</td><td rowspan="1" colspan="1">
+0
+</td><td rowspan="1" colspan="1">
+33
+</td><td rowspan="1" colspan="1">
+Atrophy
+</td></tr></tbody></table><table-wrap-foot><fn><p>NE: normal endometrium; AE: acute endometritis; SE: subacute endometritis; CE: chronic endometritis.</p></fn></table-wrap-foot></table-wrap><fig id="fig3" position="float" orientation="portrait"><label>Fig. 3.</label><caption><title>Percentage of immunohistochemical staining of COX2 in stromal cells in bitches with NE, AE, SE, and CE.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="OpenVetJ-10-157-g003.jpg"/></fig><p>It has been reported that COX2 in normal uterine tissue is concerned in cell proliferation and regeneration, promotion of angiogenesis, and immunity (<xref rid="ref2" ref-type="bibr">Chishima <italic toggle="yes">et al.</italic>, 2002</xref>). On the other hand, several reproductive disorders showed a high expression of COX2. This fact has been correlated with pathological abnormalities, such as infertility (<xref rid="ref15" ref-type="bibr">Ota <italic toggle="yes">et al.</italic>, 2001</xref>; <xref rid="ref2" ref-type="bibr">Chishima <italic toggle="yes">et al.</italic>, 2002</xref>). Therefore, is considered that high expression of COX2 with abnormal prostaglandin generation contributes to the pathophysiology of uterine diseases (<xref rid="ref2" ref-type="bibr">Chishima <italic toggle="yes">et al.</italic>, 2002</xref>). </p><p>In conclusion, our results showed that the percentage of COX2 positive stromal cells in bitches with endometritis was significantly higher compared with NE. This fact could be involved in the pathophysiological mechanisms in CHB showing endometritis without cystic endometrial hyperplasia. However, further research studies into the involvement of COX2 in bitches are required. </p></sec></body><back><ack><title>Acknowledgments</title><p>The authors would like to thank Dr. Adriana Massone and Dr. Gonzalo Madariaga (Laboratory of Veterinary Pathology Dr. B. Epstein, FCV UNLP) for her help in performed and classified the uterine samples.</p></ack><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare that there is no conflict of interest.</p></sec><sec><title>Funding</title><p>This study was supported in part by UNLP grant V11/230 to RL de la Sota and MA Stornelli and by a PICT grant 2014-1900 to MC Garc&#237;a Mitacek. Also, MC Garc&#237;a Mitacek was supported by an assistant researcher fellowship from CONICET.</p></sec><sec><title>Authors contribution</title><p>Garc&#237;a Mitacek MC helped to design, conduct the experiment, and process the samples, analyzed data and drafted the manuscript. Stornelli MC and Praderio R helped to conduct the experiment and process the samples. De la Sota RL and Stornelli MA helped to design and conduct the experiment and critically revised the manuscript.</p></sec><ref-list><title>References</title><ref id="ref1"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bukowska</surname><given-names>D</given-names></name><name name-style="western"><surname>Kempisty</surname><given-names>B</given-names></name><name name-style="western"><surname>Zawierucha</surname><given-names>P</given-names></name><name name-style="western"><surname>Jopek</surname><given-names>K</given-names></name><name name-style="western"><surname>Piotrowska</surname><given-names>H</given-names></name><name name-style="western"><surname>Antosik</surname><given-names>P</given-names></name><name name-style="western"><surname>Ciesi&#243;&#322;ka</surname><given-names>S</given-names></name><name name-style="western"><surname>Wo&#378;na</surname><given-names>M</given-names></name><name name-style="western"><surname>Br&#252;ssow</surname><given-names>K.P</given-names></name><name name-style="western"><surname>Ja&#347;kowski</surname><given-names>J.M</given-names></name></person-group><article-title>Microarray analysis of inflammatory response-related gene expression in the uteri of dogs with pyometra</article-title><source>J Biol. Regul. Homeost. Agents</source><year>2014</year><volume>28</volume><issue>4</issue><fpage>637</fpage><lpage>48</lpage><pub-id pub-id-type="pmid">25620174</pub-id></element-citation></ref><ref id="ref2"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chishima</surname><given-names>F</given-names></name><name name-style="western"><surname>Hayakawa</surname><given-names>S</given-names></name><name name-style="western"><surname>Sugita</surname><given-names>K</given-names></name><name name-style="western"><surname>Kinukawa</surname><given-names>N</given-names></name><name name-style="western"><surname>Aleemuzzaman</surname><given-names>S</given-names></name><name name-style="western"><surname>Nemoto</surname><given-names>N</given-names></name><name name-style="western"><surname>Yamamoto</surname><given-names>T</given-names></name><name name-style="western"><surname>Honda</surname><given-names>M</given-names></name></person-group><article-title>Increased expression of cyclooxygenase-2 in local lesions of endometriosis patients</article-title><source>Am. J. Reprod. Immunol</source><year>2002</year><volume>48</volume><issue>1</issue><fpage>50</fpage><lpage>6</lpage><pub-id pub-id-type="pmid">12322896</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1034/j.1600-0897.2002.01101.x</pub-id></element-citation></ref><ref id="ref3"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>De Bosschere</surname><given-names>H</given-names></name><name name-style="western"><surname>Ducatelle</surname><given-names>R</given-names></name><name name-style="western"><surname>Vermeirsch</surname><given-names>H</given-names></name><name name-style="western"><surname>Van Den Broeck</surname><given-names>W</given-names></name><name name-style="western"><surname>Coryn</surname><given-names>M</given-names></name></person-group><article-title>Cystic endometrial hyperplasia-pyometra complex in the bitch: should the two entities be disconnected?</article-title><source>Theriogenology</source><year>2001</year><volume>55</volume><issue>7</issue><fpage>1509</fpage><lpage>19</lpage><pub-id pub-id-type="pmid">11354710</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0093-691x(01)00498-8</pub-id></element-citation></ref><ref id="ref4"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dow</surname><given-names>C</given-names></name></person-group><article-title>The cystic hyperplasia-pyometra complex in the bitch</article-title><source>J. Comp. Pathol</source><year>1959</year><volume>69</volume><fpage>237</fpage><lpage>50</lpage><pub-id pub-id-type="pmid">13817874</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0368-1742(59)80023-0</pub-id></element-citation></ref><ref id="ref5"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Feldman</surname><given-names>C.E</given-names></name><name name-style="western"><surname>Nelson</surname><given-names>R.W</given-names></name></person-group><source>Endocrinolog&#237;a y reproducci&#243;n en perros y gatos</source><year>2000</year><edition>2nd</edition><publisher-loc>M&#233;xico, M&#233;xico</publisher-loc><publisher-name>Mc Graw-Hill Interamericana</publisher-name></element-citation></ref><ref id="ref6"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fontaine</surname><given-names>E</given-names></name><name name-style="western"><surname>Levy</surname><given-names>X</given-names></name><name name-style="western"><surname>Grellet</surname><given-names>A</given-names></name><name name-style="western"><surname>Luc</surname><given-names>A</given-names></name><name name-style="western"><surname>Bernex</surname><given-names>F</given-names></name><name name-style="western"><surname>Boulouis</surname><given-names>H.J</given-names></name><name name-style="western"><surname>Fontbonne</surname><given-names>A</given-names></name></person-group><article-title>Diagnosis of endometritis in the bitch: a new approach</article-title><source>Reprod. Domest. Anim</source><year>2009</year><volume>44</volume><fpage>196</fpage><lpage>9</lpage><pub-id pub-id-type="pmid">19754567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1439-0531.2009.01376.x</pub-id></element-citation></ref><ref id="ref7"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Foster</surname><given-names>R.A</given-names></name></person-group><person-group person-group-type="editor"><name name-style="western"><surname>Zachary</surname><given-names>J.F</given-names></name><name name-style="western"><surname>McGavin</surname><given-names>M.D</given-names></name></person-group><article-title>Chapter 18. Female reproductive system and mammary gland</article-title><source>Pathologic basis of veterinary disease</source><year>2012</year><edition>5th</edition><publisher-loc>Amsterdam, Netherlands</publisher-loc><publisher-name>Elsevier</publisher-name><fpage>1085</fpage><lpage>127</lpage></element-citation></ref><ref id="ref8"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Galabova</surname><given-names>G</given-names></name><name name-style="western"><surname>Egerbacher</surname><given-names>M</given-names></name><name name-style="western"><surname>Aurich</surname><given-names>J.E</given-names></name><name name-style="western"><surname>Leitner</surname><given-names>M</given-names></name><name name-style="western"><surname>Walter</surname><given-names>I</given-names></name></person-group><article-title>Morphological changes of the endometrial epithelium in the bitch during metoestrus and anoestrus</article-title><source>Reprod. Domest. Anim</source><year>2003</year><volume>38</volume><fpage>415</fpage><lpage>20</lpage><pub-id pub-id-type="pmid">12950696</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1046/j.1439-0531.2003.00459.x</pub-id></element-citation></ref><ref id="ref9"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Garc&#237;a Mitacek</surname><given-names>M.C</given-names></name><name name-style="western"><surname>Praderio</surname><given-names>R.G</given-names></name><name name-style="western"><surname>Stornelli</surname><given-names>M.C</given-names></name><name name-style="western"><surname>de la Sota</surname><given-names>R.L</given-names></name><name name-style="western"><surname>Stornelli</surname><given-names>M.A</given-names></name></person-group><article-title>Prostaglandin synthesis enzymes' gene transcription in bitches with endometritis</article-title><source>Reprod. Domest. Anim</source><year>2017</year><volume>52</volume><fpage>298</fpage><lpage>302</lpage><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/rda.12950</pub-id><pub-id pub-id-type="pmid">28402056</pub-id></element-citation></ref><ref id="ref10"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gifford</surname><given-names>A.T</given-names></name><name name-style="western"><surname>Scarlett</surname><given-names>J.M</given-names></name><name name-style="western"><surname>Schlafer</surname><given-names>D.H</given-names></name></person-group><article-title>Histopathologic findings in uterine biopsy samples from subfertile bitches: 399 cases (1990&#8211;2005)</article-title><source>J. Am. Vet. Med. Assoc</source><year>2014</year><volume>244</volume><fpage>180</fpage><lpage>6</lpage><pub-id pub-id-type="pmid">24378027</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2460/javma.244.2.180</pub-id></element-citation></ref><ref id="ref11"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Haas</surname><given-names>M</given-names></name><name name-style="western"><surname>Kaup</surname><given-names>F.J</given-names></name><name name-style="western"><surname>Neumann</surname><given-names>S</given-names></name></person-group><article-title>Canine pyometra: a model for the analysis of serum CXCL8 in inflammation</article-title><source>J. Vet. Med. Sci</source><year>2016</year><volume>78</volume><issue>3</issue><fpage>375</fpage><lpage>81</lpage><pub-id pub-id-type="pmid">26522810</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1292/jvms.15-0415</pub-id><pub-id pub-id-type="pmcid">PMC4829503</pub-id></element-citation></ref><ref id="ref12"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hagman</surname><given-names>R</given-names></name></person-group><article-title>Molecular aspects of uterine diseases in dogs</article-title><source>Reprod. Domest. Anim</source><year>2017</year><volume>52</volume><issue>3</issue><fpage>37</fpage><lpage>42</lpage><pub-id pub-id-type="pmid">28815849</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/rda.13039</pub-id></element-citation></ref><ref id="ref13"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Khan</surname><given-names>K.N</given-names></name><name name-style="western"><surname>Stanfield</surname><given-names>K.M</given-names></name><name name-style="western"><surname>Trajkovic</surname><given-names>D</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>D.W</given-names></name></person-group><article-title>Expression of cyclooxygenase-2 in canine renal cell carcinoma</article-title><source>Vet. Pathol</source><year>2001</year><volume>38</volume><issue>1</issue><fpage>116</fpage><lpage>9</lpage><pub-id pub-id-type="pmid">11199159</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1354/vp.38-1-116</pub-id></element-citation></ref><ref id="ref13a"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kowalewski</surname><given-names>M.P</given-names></name><name name-style="western"><surname>Schuler</surname><given-names>G</given-names></name><name name-style="western"><surname>Taubert</surname><given-names>A</given-names></name><name name-style="western"><surname>Engel</surname><given-names>E</given-names></name><name name-style="western"><surname>Hoffmann</surname><given-names>B</given-names></name></person-group><article-title>Expression of cyclooxygenase 1 and 2 in the canine corpus luteum during diestrus</article-title><source>Theriogenology</source><year>2006</year><volume>66</volume><issue>6&#8211;7</issue><fpage>1423</fpage><lpage>30</lpage><pub-id pub-id-type="pmid">16481032</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.theriogenology.2006.01.039</pub-id></element-citation></ref><ref id="ref14"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mir</surname><given-names>F</given-names></name><name name-style="western"><surname>Fontaine</surname><given-names>E</given-names></name><name name-style="western"><surname>Albaric</surname><given-names>O</given-names></name><name name-style="western"><surname>Greer</surname><given-names>M</given-names></name><name name-style="western"><surname>Vannier</surname><given-names>F</given-names></name><name name-style="western"><surname>Schlafer</surname><given-names>D.H</given-names></name><name name-style="western"><surname>Fontbone</surname><given-names>A</given-names></name></person-group><article-title>Findings in uterine biopsies obtained by laparotomy from bitches with unexplained infertility or pregnancy loss: an observational study</article-title><source>Theriogenology</source><year>2013</year><volume>79</volume><issue>2</issue><fpage>312</fpage><lpage>22</lpage><pub-id pub-id-type="pmid">23178080</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.theriogenology.2012.09.005</pub-id></element-citation></ref><ref id="ref15"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ota</surname><given-names>H</given-names></name><name name-style="western"><surname>Igarashi</surname><given-names>S</given-names></name><name name-style="western"><surname>Sasaki</surname><given-names>M</given-names></name><name name-style="western"><surname>Tanaka</surname><given-names>T</given-names></name></person-group><article-title>Distribution of cyclooxygenase-2 in eutopic and ectopic endometrium in endometriosis and adenomyosis</article-title><source>Hum. Reprod</source><year>2001</year><volume>16</volume><issue>3</issue><fpage>561</fpage><lpage>66</lpage><pub-id pub-id-type="pmid">11228229</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/humrep/16.3.561</pub-id></element-citation></ref><ref id="ref16"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Praderio</surname><given-names>R.G</given-names></name><name name-style="western"><surname>Garc&#237;a Mitacek</surname><given-names>M.C</given-names></name><name name-style="western"><surname>N&#250;&#241;ez Favre</surname><given-names>R</given-names></name><name name-style="western"><surname>Rearte</surname><given-names>R</given-names></name><name name-style="western"><surname>de la Sota</surname><given-names>R.L</given-names></name><name name-style="western"><surname>Stornelli</surname><given-names>M.A</given-names></name></person-group><article-title>Uterine endometrial cytology, biopsy, bacteriology, and serum C-reactive protein in clinically healthy diestrus bitches</article-title><source>Theriogenology</source><year>2019</year><volume>131</volume><fpage>153</fpage><lpage>61</lpage><pub-id pub-id-type="pmid">30974392</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.theriogenology.2019.03.039</pub-id></element-citation></ref><ref id="ref17"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Santelices Iglesias</surname><given-names>O.A</given-names></name><name name-style="western"><surname>Wright</surname><given-names>C</given-names></name><name name-style="western"><surname>Duchene</surname><given-names>A.G</given-names></name><name name-style="western"><surname>Risso</surname><given-names>M.A</given-names></name><name name-style="western"><surname>Risso</surname><given-names>P</given-names></name><name name-style="western"><surname>Zanuzzi</surname><given-names>C.N</given-names></name><name name-style="western"><surname>Nishida</surname><given-names>F</given-names></name><name name-style="western"><surname>Lavid</surname><given-names>A</given-names></name><name name-style="western"><surname>Confente</surname><given-names>F</given-names></name><name name-style="western"><surname>D&#237;az</surname><given-names>M</given-names></name><name name-style="western"><surname>Portiansky</surname><given-names>E.L</given-names></name><name name-style="western"><surname>Gimeno</surname><given-names>E.J</given-names></name><name name-style="western"><surname>Barbeito</surname><given-names>C.G</given-names></name></person-group><article-title>Association between degree of anaplasia and degree of inflammation with the expression of COX-2 in feline injection site sarcomas</article-title><source>J. Comp. Pathol</source><year>2018</year><volume>165</volume><fpage>45</fpage><lpage>51</lpage><pub-id pub-id-type="pmid">30502795</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jcpa.2018.09.002</pub-id></element-citation></ref><ref id="ref18"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schlafer</surname><given-names>D.H</given-names></name></person-group><article-title>Diseases of the canine uterus</article-title><source>Reprod. Domest. Anim</source><year>2012</year><volume>47</volume><fpage>318</fpage><lpage>22</lpage><pub-id pub-id-type="pmid">23279528</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/rda.12064</pub-id></element-citation></ref><ref id="ref19"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Schlafer</surname><given-names>D.H</given-names></name><name name-style="western"><surname>Foster</surname><given-names>R.A</given-names></name></person-group><person-group person-group-type="editor"><name name-style="western"><surname>Maxie</surname><given-names>M.G</given-names></name></person-group><article-title>Female genital system. Pathology of the genital of the nongravid female</article-title><source>Jubb Kennedy &amp; Palmer's. Pathology of domestic animals (3)</source><year>2016</year><edition>6th</edition><publisher-loc>Saint Louis, MO</publisher-loc><publisher-name>Elsevier</publisher-name><fpage>358</fpage><lpage>464</lpage></element-citation></ref><ref id="ref20"><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Schlafer</surname><given-names>D.H</given-names></name><name name-style="western"><surname>Miller</surname><given-names>R</given-names></name></person-group><person-group person-group-type="editor"><name name-style="western"><surname>Maxie</surname><given-names>M. G</given-names></name></person-group><article-title>Pathology of the female reproductive system</article-title><source>Jubb Kennedy and Palmer&#8217;s pathology of domestic animals</source><year>2007</year><volume>3</volume><edition>5th</edition><publisher-loc>Philadelphia, PA</publisher-loc><publisher-name>Elsiever Saunders</publisher-name><fpage>429</fpage><lpage>564</lpage></element-citation></ref><ref id="ref21"><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Silva</surname><given-names>E</given-names></name><name name-style="western"><surname>Leitao</surname><given-names>S</given-names></name><name name-style="western"><surname>Henriques</surname><given-names>S</given-names></name><name name-style="western"><surname>Kowalewski</surname><given-names>M.P</given-names></name><name name-style="western"><surname>Hoffmann</surname><given-names>B</given-names></name><name name-style="western"><surname>Ferreira-Dias</surname><given-names>G</given-names></name><name name-style="western"><surname>da Costa</surname><given-names>L.L</given-names></name><name name-style="western"><surname>Mateus</surname><given-names>L</given-names></name></person-group><article-title>Gene transcription of TLR2, TLR4, LPS ligands and prostaglandin synthesis enzymes are up-regulated in canine uteri with cystic endometrial hyperplasia-pyometra complex</article-title><source>J. Reprod. Immunol</source><year>2010</year><volume>84</volume><fpage>66</fpage><lpage>74</lpage><pub-id pub-id-type="pmid">19945173</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jri.2009.10.004</pub-id></element-citation></ref></ref-list></back></article></pmc-articleset>

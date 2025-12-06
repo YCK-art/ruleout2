@@ -1,0 +1,907 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="vms370114" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vet Med Sci</journal-id><journal-id journal-id-type="iso-abbrev">Vet Med Sci</journal-id><journal-id journal-id-type="pmc-domain-id">3144</journal-id><journal-id journal-id-type="pmc-domain">vetmedsci</journal-id><journal-id journal-id-type="publisher-id">VMS3</journal-id><journal-title-group><journal-title>Veterinary Medicine and Science</journal-title></journal-title-group><issn pub-type="epub">2053-1095</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11538250</article-id><article-id pub-id-type="pmcid-ver">PMC11538250.1</article-id><article-id pub-id-type="pmcaid">11538250</article-id><article-id pub-id-type="pmcaiid">11538250</article-id><article-id pub-id-type="pmid">39501603</article-id><article-id pub-id-type="doi">10.1002/vms3.70114</article-id><article-id pub-id-type="publisher-id">VMS370114</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject><subj-group subj-group-type="heading"><subject>Equine</subject></subj-group></subj-group></article-categories><title-group><article-title>Evaluations of Morphometric Traits and Body Conformation Indices of Horse Ecotypes Reared in the Highlands of Bale Eco&#8208;Region, Ethiopia</article-title></title-group><contrib-group><contrib id="vms370114-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Guyo</surname><given-names initials="M">Mesay</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3887-1739</contrib-id><xref rid="vms370114-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>mesayguyo11@gmail.com</email></address></contrib><contrib id="vms370114-cr-0002" contrib-type="author"><name name-style="western"><surname>Tareke</surname><given-names initials="M">Melaku</given-names></name><xref rid="vms370114-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="vms370114-cr-0003" contrib-type="author"><name name-style="western"><surname>Tonamo</surname><given-names initials="A">Andualem</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2552-9843</contrib-id><xref rid="vms370114-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="vms370114-cr-0004" contrib-type="author"><name name-style="western"><surname>Bediye</surname><given-names initials="D">Diriba</given-names></name><xref rid="vms370114-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="vms370114-cr-0005" contrib-type="author"><name name-style="western"><surname>Defar</surname><given-names initials="G">Girma</given-names></name><xref rid="vms370114-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="vms370114-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Animal Science</named-content>
+<institution>College of Agriculture and Natural Resources</institution>
+<institution>Madda Walabu University</institution>
+<city>Bale&#8208;Robe</city>
+<country country="ET">Ethiopia</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold>: Mesay Guyo (<email>mesayguyo11@gmail.com</email>)<break/></corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>11</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2024</year></pub-date><volume>10</volume><issue seq="750">6</issue><issue-id pub-id-type="pmc-issue-id">471032</issue-id><issue-id pub-id-type="doi">10.1002/vms3.v10.6</issue-id><elocation-id>e70114</elocation-id><history><date date-type="rev-recd"><day>12</day><month>10</month><year>2024</year></date><date date-type="received"><day>15</day><month>8</month><year>2024</year></date><date date-type="accepted"><day>18</day><month>10</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>05</day><month>11</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>06</day><month>11</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-11-07 13:25:15.637"><day>07</day><month>11</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">&#169; 2024 The Author(s). <italic toggle="yes">Veterinary Medicine and Science</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VMS3-10-e70114.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:VMS3-10-e70114.pdf"/><abstract><title>ABSTRACT</title><sec id="vms370114-sec-0010"><title>Background</title><p>Morphometric traits discrepancies are associated with production, reproduction, adaptation and behaviours in horses. It also determines the design of harnessing implements, physical injury level and working performance of the native horses. Thus, the study was conducted to evaluate morphometric traits and body conformation indices of horse ecotypes reared across four districts of Bale Zone, Ethiopia.</p></sec><sec id="vms370114-sec-0020"><title>Methods</title><p>Data of croup height, croup length, hip height, mid&#8208;back height, wither height, hip width, thoracic depth, chest width, body length, sternum height, thorax perimeter and cannon perimeter were measured in 500 horses (294 male and 206 female). Using those traits, 17 body conformation indices were calculated to define the horses for multi&#8208;faceted performances.</p></sec><sec id="vms370114-sec-0030"><title>Results</title><p>The study revealed that croup height, hip height, wither height, hip width, croup length, body length, thorax perimeter and sternum height were significantly (<italic toggle="yes">p</italic> &lt; 0.0001) different among the studied districts. The district effect was also significant at <italic toggle="yes">p</italic> &lt; 0.05 for mid&#8208;back height, thoracic depth, chest width and cannon perimeter. The sexual dimorphism effect was statistically significant for all measured traits; however, females were inferior to males except for cannon perimeter. Body conformation indices of pelvic index, body index, transversal pelvic index and weight were highly significant (<italic toggle="yes">p</italic> &lt; 0.0001) among the studied districts. The sex dimorphism effect was significant (<italic toggle="yes">p</italic> &lt; 0.001) for dactyl&#8208;costal index, pelvic index, longitudinal pelvic index, transversal pelvic index, weight, tare index 1 (trot or gallop), tare index 2 (walk) and riding comfort degree, while non&#8208;significant (<italic toggle="yes">p</italic> &gt; 0.05) for the remaining indices. The studied horses were classified as mediline, elipometric, light, small and suitable riding ecotypes with a medium&#8208;conforming body structure and good capacity for carrying loads on carts and backs for functional effectiveness. The correlations of body conformation indices ranged from very high to low, with positive and negative associations for functional capabilities.</p></sec><sec id="vms370114-sec-0040"><title>Conclusion</title><p>Therefore, selection for improvement needs to rank morphometric traits and body conformation indices in correlation to developing racing and modern sport horses in the highlands of the Bale eco&#8208;regions. Further, molecular studies will be essential to determine whether the predominated phenotypic multiplicity is genetic or environmentally progressed.</p></sec></abstract><abstract id="vms370114-abs-0001" abstract-type="graphical"><p>Diversity in morphology has persisted in horse populations for genetic and environmental effects. Those variations are associated with production, reproduction, adaptation and behaviours. It determines designing of harnessing implement, physical injury level and working performance of the native horses. As a result, genetic resource characterization, selection, conservation and improvement interventions are key steps to efficiently mobilize available genetic resources in respective agroecologies for economic contributions of the country
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="VMS3-10-e70114-g001.jpg"/></boxed-text>.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="vms370114-kwd-0001">Bale Zone</kwd><kwd id="vms370114-kwd-0002">body conformation indices</kwd><kwd id="vms370114-kwd-0003">horse</kwd><kwd id="vms370114-kwd-0004">morphometric traits</kwd></kwd-group><counts><fig-count count="3"/><table-count count="5"/><page-count count="11"/><word-count count="8219"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>November 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.0 mode:remove_FC converted:06.11.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group><fn id="vms370114-note-0001"><p>
+<bold>Funding</bold>: The authors received no specific funding for this work.</p></fn></fn-group></notes></front><body><sec id="vms370114-sec-0050"><label>1</label><title>Introduction</title><p>Numerous indigenous horses (<italic toggle="yes">Equus caballus</italic>), including highlands of the Bale eco&#8208;region ecotypes, are reared among different topography of Ethiopia. They have evolved and ecologically adapted to various production scenarios over the past decades (Effa et&#160;al. <xref rid="vms370114-bib-0015" ref-type="bibr">2021</xref>). They are the most important animal species in the daily lives and agricultural practices of rural and urban societies. Horse selections are influenced by the owner's handling and management practices to improve working performances at the farmer's level. They are managed according to the owner's requirement for daily occupation, training, welfare and behavioural handling reimbursement (Tennah et&#160;al. <xref rid="vms370114-bib-0056" ref-type="bibr">2014</xref>; G&#243;rniak et&#160;al. <xref rid="vms370114-bib-0022" ref-type="bibr">2020</xref>).</p><p>Horses raised across different ecological regions have distinct phenotypic characteristics that allow them to adapt to their environments (Mousavi et&#160;al. <xref rid="vms370114-bib-0039" ref-type="bibr">2023</xref>). Hence, the differences in management conquer the diversity of morphometric appearances persist to this day in horse populations (G&#243;mez et&#160;al. <xref rid="vms370114-bib-0019" ref-type="bibr">2012</xref>; Bonow et&#160;al. <xref rid="vms370114-bib-0005" ref-type="bibr">2024</xref>). They also maintain various reproductive and productive performances via proceeding morphometric physiognomies in shifting production environment adaptability (Ablondi et&#160;al. <xref rid="vms370114-bib-0001" ref-type="bibr">2020</xref>; Krebs et&#160;al. <xref rid="vms370114-bib-0032" ref-type="bibr">2021</xref>). In popular horse marketing approaches, dealers set marketing prices on phenotypic appearances of morphology, management, care level and welfare aspects of handling for dispositions. Thus, price tagging reflects the body conformation scores attained during evaluations for the rider and handler's welfare during the marketing period as well as risk behaviours noticed (Fenner et&#160;al. <xref rid="vms370114-bib-0017" ref-type="bibr">2020</xref>).</p><p>Given that, horse ecotypes originated in the highlands of the Bale eco&#8208;region and have been maintained for decades under traditional management practices. They play a crucial part in agricultural livelihood practices in the terrain of Bale Mountains where infrastructure has not yet been established. They are resourcefully used in day&#8208;to&#8208;day agricultural practices, transportation, carrying loads on backs, and pulling carts and wagons. Their role is not only limited to daily livelihoods but they are also employed in leisure events and cultural competitive sports of Arsi&#8208;Bale Oromo people. Moreover, they play a great role in Oromo political movements for the impartiality of Oromo societies in the country for a long (Effa et&#160;al. <xref rid="vms370114-bib-0014" ref-type="bibr">2012</xref>). Most of the horses are named in Ethiopia based on their place of origin, and the ethnic societies that kept them similarly horses in the Bale highlands are named Arsi&#8208;Bale horses (Asfaw and Tadesse <xref rid="vms370114-bib-0003" ref-type="bibr">2020</xref>; Kebede <xref rid="vms370114-bib-0030" ref-type="bibr">2023</xref>).</p><p>Regardless of multi&#8208;economic influences on rural and urban communities and the ethno&#8208;political role they have played under traditional husbandry practices, no outlook attention is present for evaluations of phenotypic performances using morphometric traits for further genetic upgrading and performance improvements in the study area. Except for keeper's interventions during cross&#8208;breeding, and selection for elite morphometric traits, they have not been scientifically improved for instantly recognizable employment. So they are kept for a long without any genetic modifications except the owner's selection for some traits.</p><p>Additionally, there is a lack of comprehensive documentation regarding their useful morphometric traits and body conformation indices. Over decades, uncontrolled breeding practices and natural selection led to the acquisition of diverse body conformations. Thus, they are recognized for inconsistencies in morphological appearances, and body condition scores under current climatic scenarios and owners&#8217; monitoring levels (Bukhari et&#160;al. <xref rid="vms370114-bib-0006" ref-type="bibr">2021</xref>). Management level determines body condition scores of working horses as an essential part of maintaining the adaptations they experience (Schork, de Azevedo, and Young <xref rid="vms370114-bib-0050" ref-type="bibr">2018</xref>). Because of inherited and environmental influences, native horses have developed variable body conformation scores and genetic performances within and between breeds (McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>; S&#225;nchez&#8208;Guerrero et&#160;al. <xref rid="vms370114-bib-0047" ref-type="bibr">2016</xref>). However, inadequate management overshadows genetic achievements and undervalues long&#8208;lasting conformations (Zuluaga&#8208;Cabrera et&#160;al. <xref rid="vms370114-bib-0063" ref-type="bibr">2021</xref>). Although body conformation indices play a significant part in the selection of productive and reproductive trait preferences for hard work, the most indispensable aspects are function, aptitude, disposition and training (Folla et&#160;al. <xref rid="vms370114-bib-0018" ref-type="bibr">2020</xref>).</p><p>Horse performances are described using body conformation indices depending on how they are interpreted and assessed from various angles, as well as behavioural changes alongside age. Such body conformation analysis is suggested as an indirect performance indicator and signifies an important consideration during purchasing and breeding of modern sport horses (Sanchez&#8208;Guerrero et&#160;al. <xref rid="vms370114-bib-0047" ref-type="bibr">2016</xref>; G&#243;mez et&#160;al. <xref rid="vms370114-bib-0020" ref-type="bibr">2021</xref>). There are convinced body conformations and dimensions that are deemed attractive to improve one's competency for employment, jumping and riding in modern sports (S&#225;nchez&#8208;Guerrero et&#160;al. <xref rid="vms370114-bib-0048" ref-type="bibr">2019</xref>). So linear and circular morphometric measurements of various horse body parts have been used to study body condition scores and functional effectiveness from the perspective of farmers and researchers (Silva et&#160;al. <xref rid="vms370114-bib-0051" ref-type="bibr">2002</xref>; Falaschini, Rizzi, and Pasquini <xref rid="vms370114-bib-0016" ref-type="bibr">2003</xref>; McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>; G&#243;mez et&#160;al. <xref rid="vms370114-bib-0019" ref-type="bibr">2012</xref>; Komosa et&#160;al. <xref rid="vms370114-bib-0031" ref-type="bibr">2013</xref>; Sole et&#160;al. <xref rid="vms370114-bib-0053" ref-type="bibr">2014</xref>; Padilha et&#160;al. <xref rid="vms370114-bib-0040" ref-type="bibr">2017</xref>; Kawareti et&#160;al. <xref rid="vms370114-bib-0029" ref-type="bibr">2017</xref>; Souza et&#160;al. <xref rid="vms370114-bib-0055" ref-type="bibr">2017</xref>; Bussiman et&#160;al. <xref rid="vms370114-bib-0007" ref-type="bibr">2018</xref>; Popova, Nikolov, and Krastev <xref rid="vms370114-bib-0042" ref-type="bibr">2019</xref>; G&#243;mez et&#160;al. <xref rid="vms370114-bib-0020" ref-type="bibr">2021</xref>; Lemos et&#160;al. <xref rid="vms370114-bib-0033" ref-type="bibr">2021</xref>; Ribeiro et&#160;al. <xref rid="vms370114-bib-0046" ref-type="bibr">2024</xref>; Bonow et&#160;al. <xref rid="vms370114-bib-0005" ref-type="bibr">2024</xref>). Therefore, body conformation indices have been used in determining the degree of suitability for specific services like traction, riding, resistance and velocity because of their distinctive morphometric characteristics, proficiencies and aptitudes (G&#243;mez et&#160;al. <xref rid="vms370114-bib-0019" ref-type="bibr">2012</xref>). However, seasonal variations, management style, workload and the effects of sexual dimorphism all have significant impacts on the body conformation index.</p><p>Consequently, objectively pooled morphometric trait narratives that comprehend structure and functions are important ways to describe phenotypic performances. It is a more resourceful methodological approach to reduce misrepresentation of breed and avoid bias in selection decisions using unit morphometric traits for further conservations and upgrading. Additionally, comparative analyses of body conformation indices help to provide evidence for genetic diversity and racial classification (Silva et&#160;al. <xref rid="vms370114-bib-0051" ref-type="bibr">2002</xref>; McManus et&#160;al. <xref rid="vms370114-bib-0036" ref-type="bibr">2005</xref>). This enables the straightforward comprehension of animal performances for selection, breeding initiatives and conservation strategies of farm animal genetic resources in production scenarios. Therefore, this study was undertaken to evaluate morphometric traits and body conformation indices that revealed phenotypic diversity among the horse ecotypes found in the highlands of Bale eco&#8208;regions, South&#8208;Eastern Ethiopia.</p></sec><sec id="vms370114-sec-0060"><label>2</label><title>Materials and Methods</title><sec id="vms370114-sec-0070"><label>2.1</label><title>Description of the Study Area</title><p>The study was undertaken in the highlands of the Bale eco&#8208;region of the Oromia region, Ethiopia. Geographically, the area lies between 5<sup>&#176;</sup>11&#8242;03&#8243;N&#8211;8<sup>&#176;</sup>09&#8242;27&#8243;N latitude and 38<sup>&#176;</sup>12&#8242;04&#8243;E&#8211;42<sup>&#176;</sup>12&#8242;47&#8243;E longitude (Figure&#160;<xref rid="vms370114-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="vms370114-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Map of the study area.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="VMS3-10-e70114-g002.jpg"/></fig><p>The study districts are found in the altitude range of 2424&#8211;3207&#160;m above sea level for geographic locations and climatic conditions (Table&#160;<xref rid="vms370114-tbl-0001" ref-type="table">1</xref>). The agroecology has potential for both livestock and crop cultivation for worthy climatic conditions. Livestock (cattle, small ruminants, equines) herding and crop cultivations (wheat, barley, maize) are among the major livelihood activities. Hence, horses are helpfully used in agricultural activities of everyday works in the terrain topography of Bale Mountains, especially for transporting, threshing and harvesting crops while, in urban and peri&#8208;urban for transportation, water fetching, and carrying of marketing goods, and grains to milling plants and woods besides daily income sources.</p><table-wrap position="float" id="vms370114-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Altitude and annual average temperature and relative humidity (RH) of the study districts.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Districts</th><th align="center" rowspan="1" colspan="1">Altitude (m)</th><th align="center" rowspan="1" colspan="1">Minimum and maximum temperature (&#176;C)</th><th align="center" rowspan="1" colspan="1">Minimum and maximum RH (%)</th><th align="center" rowspan="1" colspan="1">Climatic condition</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Dinsho</td><td align="center" rowspan="1" colspan="1">3207</td><td align="center" rowspan="1" colspan="1">3&#8211;17</td><td align="center" rowspan="1" colspan="1">53&#8211;80</td><td align="center" rowspan="1" colspan="1">Tropical Afro&#8208;Alpine</td></tr><tr><td align="left" rowspan="1" colspan="1">Goba</td><td align="center" rowspan="1" colspan="1">2705.1</td><td align="center" rowspan="1" colspan="1">5&#8211;18</td><td align="center" rowspan="1" colspan="1">59&#8211;69.3</td><td align="center" rowspan="1" colspan="1">Tropical wet and dry</td></tr><tr><td align="left" rowspan="1" colspan="1">Agarfa</td><td align="center" rowspan="1" colspan="1">2466.8</td><td align="center" rowspan="1" colspan="1">8.6&#8211;18.6</td><td align="center" rowspan="1" colspan="1">47.9&#8211;58.1</td><td align="center" rowspan="1" colspan="1">Tropical wet and dry</td></tr><tr><td align="left" rowspan="1" colspan="1">Sinana</td><td align="center" rowspan="1" colspan="1">2424</td><td align="center" rowspan="1" colspan="1">9.5&#8211;21</td><td align="center" rowspan="1" colspan="1">45&#8211;56</td><td align="center" rowspan="1" colspan="1">Sub&#8208;humid to cool mild</td></tr></tbody></table><table-wrap-foot><fn id="vms370114-tbl1-note-0001"><p>
+<italic toggle="yes">Source</italic>: Bale Zone Livestock Office (<xref rid="vms370114-bib-0008" ref-type="bibr">2020</xref>).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="vms370114-sec-0080"><label>2.2</label><title>Sampling Procedures</title><p>The study's districts, namely, Goba, Dinsho, Agarfa and Sinana were selected for their potential to have large horse populations in the Bale Zone of Oromia region (Figure&#160;<xref rid="vms370114-fig-0001" ref-type="fig">1</xref>). Accordingly, a total of three towns and eight kebeles were selected among the study districts. The districts of Dinsho, Goba and Agrafa were the most experienced in horse breeding and husbandry practices among Bale Zone districts. In addition, horses were resourcefully and effectively used ranking first, second and third in Sinana, Goba and Agarfa, respectively, for daily financial support of most rural and urban households (BZLD, <xref rid="vms370114-bib-0008" ref-type="bibr">2020</xref>). Thus, over 500 horses (294 males and 206 females) aged 3&#8211;10 years were selected randomly among the study districts (125 horses from each district) (Table&#160;<xref rid="vms370114-tbl-0002" ref-type="table">2</xref>).</p><table-wrap position="float" id="vms370114-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Study district horse population size, kebeles and sampled population.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">District</th><th align="center" rowspan="1" colspan="1">Horse population</th><th align="center" rowspan="1" colspan="1">Rank</th><th align="center" rowspan="1" colspan="1">Kebeles and towns</th><th align="center" rowspan="1" colspan="1">Sample size</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Dinsho</td><td align="center" rowspan="1" colspan="1">19,376</td><td align="center" rowspan="1" colspan="1">4<sup>th</sup>
+</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">Aba Kara</italic>; Hora Soba</td><td align="center" rowspan="1" colspan="1">125 (M: 46, F: 79)</td></tr><tr><td align="left" rowspan="1" colspan="1">Goba</td><td align="center" rowspan="1" colspan="1">28,598</td><td align="center" rowspan="1" colspan="1">1<sup>st</sup>
+</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">Rira</italic>, <italic toggle="yes">Wacho Misherge</italic>; Goba town</td><td align="center" rowspan="1" colspan="1">125 (M: 53, F: 72)</td></tr><tr><td align="left" rowspan="1" colspan="1">Agarfa</td><td align="center" rowspan="1" colspan="1">16,062</td><td align="center" rowspan="1" colspan="1">2<sup>nd</sup>
+</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">Kaso Wara</italic>, <italic toggle="yes">Kaso Maniso</italic>; Ali town</td><td align="center" rowspan="1" colspan="1">125 (M: 85, F: 40)</td></tr><tr><td align="left" rowspan="1" colspan="1">Sinana</td><td align="center" rowspan="1" colspan="1">19,401</td><td align="center" rowspan="1" colspan="1">3<sup>rd</sup>
+</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">Nano Robe</italic>, <italic toggle="yes">Horeboka</italic>; Robe town</td><td align="center" rowspan="1" colspan="1">125 (M: 110, F: 15)</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="vms370114-sec-0090"><label>2.3</label><title>Data Collection</title><p>Measurement data were collected using a tape metre and measuring stick (in centimetres) in line with ethical guidelines for animal experiments. Additionally, researchers obtained verbally approved consent from the horse owners before data collection. Measurements were done in the morning before the horses were released for feeding. Pregnant mares were snubbed for data collection. Data of croup height (CorpH), croup length (CorpL), hip height (hipH), mid back height (MBH), height at wither (HW), hip width (hipW), thoracic depth (ThD), chest width (ChW), body length (BL), sternum height (SH), thorax perimeter (TP) and cannon perimeter (CP) were measured as described by Costa et&#160;al. (<xref rid="vms370114-bib-0012" ref-type="bibr">1998</xref>)), Miserani et&#160;al. (<xref rid="vms370114-bib-0038" ref-type="bibr">2002</xref>), Cabral et&#160;al. (<xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>), and Kawareti et&#160;al. (<xref rid="vms370114-bib-0029" ref-type="bibr">2017</xref>) as shown below Figure&#160;<xref rid="vms370114-fig-0002" ref-type="fig">2</xref>.</p><fig position="float" fig-type="FIGURE" id="vms370114-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Model of anatomical point measurement of morphometric traits in horse.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="VMS3-10-e70114-g003.jpg"/></fig><p>From measured morphometric traits, 17 body conformation indices listed below were calculated following cited references.</p><p>
+<italic toggle="yes">BARON and CREVAT (BC)</italic>: TP<sup>2</sup>/HW; The greater the index, the closer the animal is to a traction type, the lower the index the weaker used for riding, and packing type of work, also called the conformation index (McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">Body index (BI)</italic>: BL &#215; 100/TP; if BI &gt; 0.90, they are longiline, suited for speedy animals; between 0.86 and 0.88, mediline with midway ratios has intermediate abilities and &lt;0.85, breviline, more apt for force or strength (Cabral et&#160;al. <xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>).</p><p>
+<italic toggle="yes">Body ratio (BR)</italic>: HW &#215; 100/CorpH; if the WH's are lower than CropH, the animal is low in front and vice versa considered as defects. This inequality in heights may hinder both gait and resistance (Rezende et&#160;al. <xref rid="vms370114-bib-0044" ref-type="bibr">2015</xref>).</p><p>
+<italic toggle="yes">Compact index 1 (CI1)</italic>: (W/HW)/100 indicates how compact the horse is. Animals used as saddle horses have CI1 &lt; 2.20; animals suited for light traction have 2.60 &#8804; CI1 &#8804; 3.15 and horses used for heavy pulling/traction have CI1 &gt; 3.15 (Cabral et&#160;al. <xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>).</p><p>
+<italic toggle="yes">Dactyl thorax index (DTI)</italic>: CP &#215; 100/TP; the DTI &gt; 0.105 for light small horses, up to 0.108 in intermediary horses, up to 0.110 in light traction animals and up to 0.115 in heavy traction and riding horses. This index also indicates thoracic development (Cabral et&#160;al. <xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>).</p><p>
+<italic toggle="yes">Dactyl&#8208;costal index (DCI)</italic>: CP &#215; 100/ChW indicates balanced bone development for excellent sport performance due to its lightness in horses. Long, light and thin limbs (minimum bone and tendon, and no muscle at all) with proportional inner and outer ChW are qualities of horse gaits and practical predispositions. This allows the horse to swing its limbs back and forth quickly during competitions with a minimal expenditure of energy.</p><p>
+<italic toggle="yes">Longitudinal pelvic index (LPI)</italic>: CorpL &#215; 100/HW shows the size of the croup. The higher the value, the better is its conformation for meat production (Alberti et&#160;al. <xref rid="vms370114-bib-0002" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">Pectoral index (PI)</italic>: MBH/SH; when the back height is less than the space under the horse, the animal is considered &#8216;far from ground&#8217; a trait that favours speed due to relatively long legs (C. McManus et&#160;al. <xref rid="vms370114-bib-0036" ref-type="bibr">2005</xref>; McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">Pelvic index (PVI)</italic>: hipW &#215; 100/CorpL; PVI &#8805; 1 indicates wide pelvic bones (ilium, ischium and pubis) supporting parturition where there is no difficulty of dystocia in a female horse while PVI &lt; 1 indicates higher occurrence of the dystocia (G&#243;mez et&#160;al. <xref rid="vms370114-bib-0019" ref-type="bibr">2012</xref>).</p><p>
+<italic toggle="yes">Relative proportionality of thorax index (RPTI)</italic>: ThD/HW indicates RPTI with values &#8805;50% shows breed with good thoracic development as the higher values are linked to greater depth (G&#243;mez et&#160;al. <xref rid="vms370114-bib-0019" ref-type="bibr">2012</xref>).</p><p>
+<italic toggle="yes">Relative body index (RBI)</italic>: BL &#215; 100/HW indicates useful indices in assessing functionality in horses. If &gt;110 in RBI, they are fatty with poor gait and lower than &lt;90 poor gaits and emaciated muscular appearances (Hill et&#160;al. <xref rid="vms370114-bib-0025" ref-type="bibr">2020</xref>).</p><p>
+<italic toggle="yes">Riding comfort degree (RCD)</italic>: MBH&#8211;(HW + CorpH)/2 indicates the back inclination of the animal where the saddle is seated (McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">Tare index 1 (trot or gallop) (TI1)</italic>: TP<sup>2</sup> &#215; 56/HW indicates weight in kilograms the animal can withstand without excessive stress on the back, which can be carried working at a trot or gallop.</p><p>
+<italic toggle="yes">Tare index 2 (walk) (TI2)</italic>: TP<sup>2</sup> &#215; 95/HW indicates weight in kilograms the animal can be carried at walking step endure without excessive stress on the back, working at a walking speed (McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">Thoracic development (TD)</italic>: TP/HW; the values &gt;1.2 indicate animals with good TD or massiveness. Poor TD is associated with a lack of good musculature and deficiencies in the cardiovascular system. A horse with an excessively large thorax is also not desirable as the centre of gravity moves to the front of the horse (McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">The relative thickness of cannon bone index (RTCI)</italic>: CP &#215; 100/HW; the higher values indicate the harmony between the body conformation and bone development and vice versa (Cabral et al. <xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>).</p><p>
+<italic toggle="yes">Transversal pelvic index (TPI)</italic>: hipW &#215; 100/HW; this shows the size of the croup relative to body height. The higher the value, the better is its conformation for meat production (Alberti et&#160;al. <xref rid="vms370114-bib-0002" ref-type="bibr">2008</xref>).</p><p>
+<italic toggle="yes">Weight (W) (kg)</italic>: TP<sup>3</sup> &#215; 80; weight &#8805; 550&#160;kg corresponds to large or hypermetric horses, between 350 and 550&#160;kg medium or eumetric horses and &#8804;350&#160;kg small or elipometric/hypometric horses (Cabral et al. <xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>).</p></sec><sec id="vms370114-sec-0100"><label>2.4</label><title>Data Analysis</title><p>Measured data were entered into a Microsoft Excel spreadsheet for the statistical analysis using general linear model (GLM) procedures (SAS <xref rid="vms370114-bib-0049" ref-type="bibr">2012</xref> vr 9.4). Analysis of variance was used to determine means for linearly measured morphometric traits and body conformation indices among the study districts and sexes. Duncan's multiple range tests were used to differentiate means when the F&#8208;test was declared significant. The model used for the analysis was:
+<disp-formula id="vms370114-disp-0001"><mml:math id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:mi>&#956;</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>S</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula>where
+<list list-type="simple" id="vms370114-list-0001"><list-item><p>
+<italic toggle="yes">Y<sub>ij</sub>
+</italic> = morphometric traits and body conformation indices among fixed factors</p></list-item><list-item><p>
+<italic toggle="yes">&#956;</italic> = the overall mean</p></list-item><list-item><p>
+<italic toggle="yes">S<sub>i</sub>
+</italic> = fixed effects of the <italic toggle="yes">i</italic>th district (1 = Dinsho, 2 = Goba, 3 = Agarfa, 4 = Sinana)</p></list-item><list-item><p>
+<italic toggle="yes">P<sub>j</sub>
+</italic> = fixed effect of the <italic toggle="yes">j</italic>th sex (1 = Male; 2 = Female)</p></list-item><list-item><p>
+<italic toggle="yes">e<sub>ij</sub>
+</italic> = random error</p></list-item></list>
+</p><p>The CORR procedure was applied to determine associations of body conformation indices. The correlation (<italic toggle="yes">R</italic>
+<sup>2</sup>) measures the proportion of variation, where <italic toggle="yes">r</italic> represents the correlation coefficient between the fitted body conformation indices. The <italic toggle="yes">R</italic>
+<sup>2</sup> values were classified: as very low (<italic toggle="yes">R</italic>
+<sup>2</sup> &lt; 0.20), low (<italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.20 to &lt; 0.40), moderate (<italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.40 to &lt; 0.60), high (<italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.60 to &lt; 0.80) and very high (<italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.80 to &lt; 1.00).</p></sec></sec><sec id="vms370114-sec-0110"><label>3</label><title>Results</title><sec id="vms370114-sec-0120"><label>3.1</label><title>Morphometric Traits</title><p>The influences of the study district and sexual dimorphism on morphometric traits of horse ecotypes reared in the highlands of Bale eco&#8208;regions are shown in Table&#160;<xref rid="vms370114-tbl-0003" ref-type="table">3</xref>. The overall coefficients of variations among measured morphometric traits range from 4.4% to 11.4%. The effect of study districts was significantly (<italic toggle="yes">p</italic> &lt; 0.0001) different on CorpH, hipH, HW, hipW, CorpL, BL, TP and SH. The effects of the district were also statistically significant (<italic toggle="yes">p</italic> &lt; 0.001) for MBH and ThD, whereas it had a significant effect (<italic toggle="yes">p</italic> &lt; 0.05) on ChW and CP. Most of the morphometric traits were significantly higher among the studied districts for stallions regularly employed in daily livelihoods than reproductive mares (Table&#160;<xref rid="vms370114-tbl-0003" ref-type="table">3</xref>).</p><table-wrap position="float" id="vms370114-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Mean values of morphometric trait measurements (in centimetres) of horse ecotypes reared in highlands of the Bale eco&#8208;region.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Traits</th><th align="center" rowspan="1" colspan="1">No.</th><th align="center" rowspan="1" colspan="1">CorpH</th><th align="center" rowspan="1" colspan="1">hipH</th><th align="center" rowspan="1" colspan="1">MBH</th><th align="center" rowspan="1" colspan="1">HW</th><th align="center" rowspan="1" colspan="1">hipW</th><th align="center" rowspan="1" colspan="1">CorpL</th><th align="center" rowspan="1" colspan="1">ThD</th><th align="center" rowspan="1" colspan="1">ChW</th><th align="center" rowspan="1" colspan="1">BL</th><th align="center" rowspan="1" colspan="1">TP</th><th align="center" rowspan="1" colspan="1">SH</th><th align="center" rowspan="1" colspan="1">CP</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Mean</td><td align="center" rowspan="1" colspan="1">500</td><td align="center" rowspan="1" colspan="1">128.2</td><td align="center" rowspan="1" colspan="1">117.7</td><td align="center" rowspan="1" colspan="1">126.1</td><td align="center" rowspan="1" colspan="1">128.4</td><td align="center" rowspan="1" colspan="1">38.7</td><td align="center" rowspan="1" colspan="1">36.9</td><td align="center" rowspan="1" colspan="1">46.4</td><td align="center" rowspan="1" colspan="1">31.7</td><td align="center" rowspan="1" colspan="1">123.8</td><td align="center" rowspan="1" colspan="1">140.5</td><td align="center" rowspan="1" colspan="1">68.0</td><td align="center" rowspan="1" colspan="1">15.6</td></tr><tr><td align="left" rowspan="1" colspan="1">CV</td><td align="center" rowspan="1" colspan="1">%</td><td align="center" rowspan="1" colspan="1">4.6</td><td align="center" rowspan="1" colspan="1">6.7</td><td align="center" rowspan="1" colspan="1">4.7</td><td align="center" rowspan="1" colspan="1">4.4</td><td align="center" rowspan="1" colspan="1">11.4</td><td align="center" rowspan="1" colspan="1">9.7</td><td align="center" rowspan="1" colspan="1">11.1</td><td align="center" rowspan="1" colspan="1">8.3</td><td align="center" rowspan="1" colspan="1">5.5</td><td align="center" rowspan="1" colspan="1">9.3</td><td align="center" rowspan="1" colspan="1">7.6</td><td align="center" rowspan="1" colspan="1">9.2</td></tr><tr><td align="left" rowspan="1" colspan="1">District</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p&#8208;</italic>value</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Dinsho</td><td align="center" rowspan="1" colspan="1">125</td><td align="center" rowspan="1" colspan="1">125.6<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">113.7<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">123.9<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">125.5<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">38.2<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">35.5<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">43.9<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">28.2<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">119.0<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">139.2<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">68.2<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">16.0<sup>a</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Goba</td><td align="center" rowspan="1" colspan="1">125</td><td align="center" rowspan="1" colspan="1">127.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">116.4<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">124.8<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">127.0<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">36.1<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">35.3<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">47.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">28.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">120.9<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">134.6<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">66.4<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">14.7<sup>b</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Agarfa</td><td align="center" rowspan="1" colspan="1">125</td><td align="center" rowspan="1" colspan="1">128.3<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">118.1<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">127.6<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">129.0<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">40.8<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">38.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">46.7<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">31.8<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">128.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">145.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">67.7<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">16.4<sup>a</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sinana</td><td align="center" rowspan="1" colspan="1">125</td><td align="center" rowspan="1" colspan="1">131.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">122.7<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">128.0<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">132.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">38.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">38.5<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">46.1<sup>ab</sup>
+</td><td align="center" rowspan="1" colspan="1">31.6<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">127.4<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">144.6<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">70.0<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">16.2<sup>a</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sex</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p&#8208;</italic>value</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl3-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td></tr><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="center" rowspan="1" colspan="1">206</td><td align="center" rowspan="1" colspan="1">124.3</td><td align="center" rowspan="1" colspan="1">114.3</td><td align="center" rowspan="1" colspan="1">123.3</td><td align="center" rowspan="1" colspan="1">124.7</td><td align="center" rowspan="1" colspan="1">37.5</td><td align="center" rowspan="1" colspan="1">37.7</td><td align="center" rowspan="1" colspan="1">44.8</td><td align="center" rowspan="1" colspan="1">34.2</td><td align="center" rowspan="1" colspan="1">119.7</td><td align="center" rowspan="1" colspan="1">135.4</td><td align="center" rowspan="1" colspan="1">66.1</td><td align="center" rowspan="1" colspan="1">15.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Male</td><td align="center" rowspan="1" colspan="1">294</td><td align="center" rowspan="1" colspan="1">130.1</td><td align="center" rowspan="1" colspan="1">120.1</td><td align="center" rowspan="1" colspan="1">128.1</td><td align="center" rowspan="1" colspan="1">131.0</td><td align="center" rowspan="1" colspan="1">39.9</td><td align="center" rowspan="1" colspan="1">36.4</td><td align="center" rowspan="1" colspan="1">47.5</td><td align="center" rowspan="1" colspan="1">38.0</td><td align="center" rowspan="1" colspan="1">127.7</td><td align="center" rowspan="1" colspan="1">144.0</td><td align="center" rowspan="1" colspan="1">69.5</td><td align="center" rowspan="1" colspan="1">16.9</td></tr></tbody></table><table-wrap-foot><fn id="vms370114-tbl3-note-0004"><p>Abbreviations: BL, body length; ChW, chest width; CorpH, croup height; CorpL, croup length; CP, cannon perimeter; hipH, hip height; hipW, hip width; HW, height at wither; MBH, mid back height; ns, non&#8208;significant; SH, sternum height; ThD, thoracic depth; TP, thorax perimeter.</p></fn><fn id="vms370114-tbl3-note-0001"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05. significant</p></fn><fn id="vms370114-tbl3-note-0002"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.001.highly significant</p></fn><fn id="vms370114-tbl3-note-0003"><label>***</label><p>
+<italic toggle="yes">p</italic> &lt; 0.0001.significantly very highly</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>The sexual dimorphism effect was statistically significant (<italic toggle="yes">p &lt;</italic> 0.0001) for CorpH, hipH, mid&#8208;back height, HW, ChW, BL, TP and SH. The sex difference had also a significant effect (<italic toggle="yes">p</italic> &lt; 0.05) on hipW, CorpL and ThD, but it was non&#8208;significant (<italic toggle="yes">p &gt;</italic> 0.05) for CP. Additionally, mares were inferior to stallions for utmost measured morphometric traits in this study (Table&#160;<xref rid="vms370114-tbl-0003" ref-type="table">3</xref>).</p></sec><sec id="vms370114-sec-0130"><label>3.2</label><title>Body Conformation Indices</title><p>Table&#160;<xref rid="vms370114-tbl-0004" ref-type="table">4</xref> presents the study results of body conformation indices analysed from multiple linearly measured morphometric traits for the effects of district and sex. The study revealed that body conformation indices of BI, PVI, TPI and weight were significantly affected (<italic toggle="yes">p</italic> &lt; 0.0001) among the studied districts. In addition, the effect of studied districts was significant (<italic toggle="yes">p</italic> &lt; 0.001) for tare index 1, tare index 2 and RCD. Furthermore, the effect of districts was statistically significant (<italic toggle="yes">p</italic> &lt; 0.05) for relative BI, DCI, PI, LPI and CI1. In contrast, the effect of studied districts was non&#8208;significant (<italic toggle="yes">p</italic> &gt; 0.05) for DTI, RTCI, relative proportionality of thorax index, TD, BR and BC.</p><table-wrap position="float" id="vms370114-tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>Mean values of body conformation indices of horse ecotypes reared in the highlands of Bale eco&#8208;region.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Body indices</th><th align="center" rowspan="1" colspan="1">&#8470;</th><th align="center" rowspan="1" colspan="1">BI</th><th align="center" rowspan="1" colspan="1">RBI</th><th align="center" rowspan="1" colspan="1">DTI</th><th align="center" rowspan="1" colspan="1">DCI</th><th align="center" rowspan="1" colspan="1">RTCI</th><th align="center" rowspan="1" colspan="1">PVI</th><th align="center" rowspan="1" colspan="1">PI</th><th align="center" rowspan="1" colspan="1">RPTI</th><th align="center" rowspan="1" colspan="1">LPI</th><th align="center" rowspan="1" colspan="1">TPI</th><th align="center" rowspan="1" colspan="1">TD</th><th align="center" rowspan="1" colspan="1">BR</th><th align="center" rowspan="1" colspan="1">BC</th><th align="center" rowspan="1" colspan="1">W</th><th align="center" rowspan="1" colspan="1">TI1</th><th align="center" rowspan="1" colspan="1">TI2</th><th align="center" rowspan="1" colspan="1">CI1</th><th align="center" rowspan="1" colspan="1">RCD</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Mean</td><td align="center" rowspan="1" colspan="1">500</td><td align="center" rowspan="1" colspan="1">88.7</td><td align="center" rowspan="1" colspan="1">96.5</td><td align="center" rowspan="1" colspan="1">0.106</td><td align="center" rowspan="1" colspan="1">49.1</td><td align="center" rowspan="1" colspan="1">11.6</td><td align="center" rowspan="1" colspan="1">105.0</td><td align="center" rowspan="1" colspan="1">0.9</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">28.9</td><td align="center" rowspan="1" colspan="1">30.2</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">1.0</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">228.5</td><td align="center" rowspan="1" colspan="1">96.7</td><td align="center" rowspan="1" colspan="1">163.9</td><td align="center" rowspan="1" colspan="1">1.8</td><td align="center" rowspan="1" colspan="1">&#8722;2.2</td></tr><tr><td align="left" rowspan="1" colspan="1">CV</td><td align="center" rowspan="1" colspan="1">%</td><td align="center" rowspan="1" colspan="1">7.6</td><td align="center" rowspan="1" colspan="1">5.1</td><td align="center" rowspan="1" colspan="1">1.8</td><td align="center" rowspan="1" colspan="1">3.1</td><td align="center" rowspan="1" colspan="1">0.5</td><td align="center" rowspan="1" colspan="1">12.2</td><td align="center" rowspan="1" colspan="1">4.4</td><td align="center" rowspan="1" colspan="1">0.6</td><td align="center" rowspan="1" colspan="1">2.8</td><td align="center" rowspan="1" colspan="1">11.7</td><td align="center" rowspan="1" colspan="1">1.8</td><td align="center" rowspan="1" colspan="1">2.3</td><td align="center" rowspan="1" colspan="1">1.9</td><td align="center" rowspan="1" colspan="1">34.7</td><td align="center" rowspan="1" colspan="1">14.2</td><td align="center" rowspan="1" colspan="1">18.4</td><td align="center" rowspan="1" colspan="1">3.5</td><td align="center" rowspan="1" colspan="1">12.7</td></tr><tr><td align="left" rowspan="1" colspan="1">Districts</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">p&#8208;</italic>value</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Dinsho</td><td align="center" rowspan="1" colspan="1">125</td><td align="center" rowspan="1" colspan="1">84.4<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">95.1<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">0.106</td><td align="center" rowspan="1" colspan="1">50.5<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">11.9</td><td align="center" rowspan="1" colspan="1">102.6<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">0.8<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">30.6<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">31.4<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">1.2</td><td align="center" rowspan="1" colspan="1">1.0</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">216.4<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">100.8<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">170.9<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">2.1<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">&#8722;1.6<sup>b</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Goba</td><td align="center" rowspan="1" colspan="1">89.9<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">95.2<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">0.109</td><td align="center" rowspan="1" colspan="1">50.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">11.5</td><td align="center" rowspan="1" colspan="1">106.9<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">0.9<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">30.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">32.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">0.9</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">196.8<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">95.5<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">162.0<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">1.6<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">&#8722;2.4<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">125</td></tr><tr><td align="left" rowspan="1" colspan="1">Agarfa</td><td align="center" rowspan="1" colspan="1">91.9<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">99.3<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.106</td><td align="center" rowspan="1" colspan="1">47.9<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">11.4</td><td align="center" rowspan="1" colspan="1">102.4<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">0.9<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">27.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">28.0<sup>cd</sup>
+</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">1.0</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">261.6<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">94.6<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">160.4<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">1.7<sup>bc</sup>
+</td><td align="center" rowspan="1" colspan="1">&#8722;1.0<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">125</td></tr><tr><td align="left" rowspan="1" colspan="1">Sinana</td><td align="center" rowspan="1" colspan="1">88.5<sup>bc</sup>
+</td><td align="center" rowspan="1" colspan="1">96.4<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">0.104</td><td align="center" rowspan="1" colspan="1">47.6<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">11.4</td><td align="center" rowspan="1" colspan="1">108.2<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.9<sup>a</sup>
+</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">27.2<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">29.1<sup>c</sup>
+</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">1.0</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">239.2<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">95.8<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">162.5<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">1.8<sup>b</sup>
+</td><td align="center" rowspan="1" colspan="1">&#8722;3.6<sup>d</sup>
+</td><td align="center" rowspan="1" colspan="1">125</td></tr><tr><td align="left" rowspan="1" colspan="1">Sex</td><td align="center" rowspan="1" colspan="1">Ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">ns</td><td align="center" rowspan="1" colspan="1">
+<xref rid="vms370114-tbl4-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<italic toggle="yes">P value</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Male</td><td align="center" rowspan="1" colspan="1">88.9</td><td align="center" rowspan="1" colspan="1">96.1</td><td align="center" rowspan="1" colspan="1">0.110</td><td align="center" rowspan="1" colspan="1">50.8</td><td align="center" rowspan="1" colspan="1">11.9</td><td align="center" rowspan="1" colspan="1">104.2</td><td align="center" rowspan="1" colspan="1">0.9</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">30.3</td><td align="center" rowspan="1" colspan="1">31.5</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">234.2</td><td align="center" rowspan="1" colspan="1">99.1</td><td align="center" rowspan="1" colspan="1">167.9</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">&#8722;1.7</td><td align="center" rowspan="1" colspan="1">294</td></tr><tr><td align="left" rowspan="1" colspan="1">Female</td><td align="center" rowspan="1" colspan="1">88.6</td><td align="center" rowspan="1" colspan="1">96.8</td><td align="center" rowspan="1" colspan="1">0.104</td><td align="center" rowspan="1" colspan="1">47.8</td><td align="center" rowspan="1" colspan="1">11.4</td><td align="center" rowspan="1" colspan="1">105.6</td><td align="center" rowspan="1" colspan="1">0.9</td><td align="center" rowspan="1" colspan="1">0.4</td><td align="center" rowspan="1" colspan="1">27.9</td><td align="center" rowspan="1" colspan="1">29.3</td><td align="center" rowspan="1" colspan="1">1.1</td><td align="center" rowspan="1" colspan="1">1.0</td><td align="center" rowspan="1" colspan="1">1.6</td><td align="center" rowspan="1" colspan="1">221.6</td><td align="center" rowspan="1" colspan="1">95.1</td><td align="center" rowspan="1" colspan="1">161.3</td><td align="center" rowspan="1" colspan="1">1.9</td><td align="center" rowspan="1" colspan="1">&#8722;2.5</td><td align="center" rowspan="1" colspan="1">206</td></tr></tbody></table><table-wrap-foot><fn id="vms370114-tbl4-note-0004"><p>Abbreviations: BC, BARON and CREVAT; BI, body index; BR, body ratio; CI1, compact index 1; DCI, dactyl&#8208;costal index; DTI, dactyl thorax index; LPI, longitudinal pelvic index; ns, non&#8208;significant at <italic toggle="yes">p</italic> &gt; 0.05; PI, pectoral index; PVI, pelvic index; RBI, relative body index; RCD, riding comfort degree; RPTI, relative proportionality of thorax index; RTCI, relative thickness of cannon bone index; TD, thoracic development; TI1, tare index 1 (trot or gallop); TI2, tare index 2 (walk); TPI, transversal pelvic index; W, weight.</p></fn><fn id="vms370114-tbl4-note-0001"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05. significant</p></fn><fn id="vms370114-tbl4-note-0002"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.001. highly significant</p></fn><fn id="vms370114-tbl4-note-0003"><label>***</label><p>
+<italic toggle="yes">p</italic> &lt; 0.0001. significantly very high</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>The sexual dimorphism effect was highly significant (<italic toggle="yes">p</italic> &lt; 0.0001) for weight and tare index 1. The effect was also significant (<italic toggle="yes">p</italic> &lt; 0.001) for LPI and tare index 2. Furthermore, the sexual effect was significant (<italic toggle="yes">p</italic> &lt; 0.05) for the DCI, PVI, TPI and RCD. However, the sexual dimorphism effect was non&#8208;significant (<italic toggle="yes">p</italic> &gt; 0.05) for BI, RBI, DTI, RTCI, PI, RPTI, TD, BR, BC and compact index 1 (Table&#160;<xref rid="vms370114-tbl-0004" ref-type="table">4</xref>).</p></sec><sec id="vms370114-sec-0140"><label>3.3</label><title>Correlations of Body Conformation Indices</title><p>Table&#160;<xref rid="vms370114-tbl-0005" ref-type="table">5</xref> presents the correlations between body conformation indices of the horse ecotypes distributed in the highlands of Bale eco&#8208;regions. The study indicated that correlations between body conformation indices of BC and RTCI (<italic toggle="yes">r</italic> = 0.85), weight and TD (<italic toggle="yes">r</italic> = 0.87), tare index 1 and RTCI (<italic toggle="yes">r</italic> = 0.96), tare index 1 and B C (<italic toggle="yes">r</italic> = 0.89), B C and DTI (<italic toggle="yes">r</italic> = 0.93), tare index 2 and RTCI (<italic toggle="yes">r</italic> = 0.96), tare index 2 and BC (<italic toggle="yes">r</italic> = 0.89), tare index 2 and tare index 1 (<italic toggle="yes">r</italic> = 1.0), CI1 and TD (<italic toggle="yes">r</italic> = 0.90), and CI1 and weight (<italic toggle="yes">r</italic> = 0.99) were very high (<italic toggle="yes">R</italic>
+<sup>2</sup> &gt; 0.80)&#8212;positive and highly significant (<italic toggle="yes">p</italic> &lt; 0.0001). In addition, body conformation indices of LPI and RTCI (<italic toggle="yes">r</italic> = 0.23), BR and TD (<italic toggle="yes">r</italic> = 0.26), BC and BI (<italic toggle="yes">r</italic> = 0.31) had positive associations (<italic toggle="yes">p</italic> &lt; 0.0001) with low correlations. Conversely, the study showed that negative correlations were identified between TD and BI, TD and DTI, weight and BI, weight and DTI, CI1 and BI, and CI1 and DTI with positive associations. Moreover, negative correlations were reported between conformation indices of RBI, PI, RPTI, TPI and BR with non&#8208;significant association (<italic toggle="yes">p</italic> &gt; 0.05) (Table&#160;<xref rid="vms370114-tbl-0005" ref-type="table">5</xref>).</p><table-wrap position="float" id="vms370114-tbl-0005" content-type="TABLE" orientation="portrait"><label>TABLE 5</label><caption><p>Pearson's correlations between body conformation indices of the horses reared in highlands of the Bale eco&#8208;region.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1">BI</th><th align="center" rowspan="1" colspan="1">RBI</th><th align="center" rowspan="1" colspan="1">DTI</th><th align="center" rowspan="1" colspan="1">DCI</th><th align="center" rowspan="1" colspan="1">RTCI</th><th align="center" rowspan="1" colspan="1">PVI</th><th align="center" rowspan="1" colspan="1">PI</th><th align="center" rowspan="1" colspan="1">RPTI</th><th align="center" rowspan="1" colspan="1">LPI</th><th align="center" rowspan="1" colspan="1">TPI</th><th align="center" rowspan="1" colspan="1">TD</th><th align="center" rowspan="1" colspan="1">BR</th><th align="center" rowspan="1" colspan="1">BC</th><th align="center" rowspan="1" colspan="1">W</th><th align="center" rowspan="1" colspan="1">TI1</th><th align="center" rowspan="1" colspan="1">TI2</th><th align="center" rowspan="1" colspan="1">CI1</th><th align="center" rowspan="1" colspan="1">RCD</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">BI</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">RBI</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#0097FF">0.57</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#0097FF">***</styled-content>
+</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">DTI</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#0097FF">0.51</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#0097FF">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">DCI</td><td align="center" rowspan="1" colspan="1">0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.30<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#7CD378">0.65</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#7CD378">***</styled-content>
+</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">RTCI</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.11<xref rid="vms370114-tbl5-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#7CD378">0.75</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#7CD378">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#0097FF">0.56</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#0097FF">***</styled-content>
+</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">PVI</td><td align="center" rowspan="1" colspan="1">0.16<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.09<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.09<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">PI</td><td align="center" rowspan="1" colspan="1">&#8722;0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.15<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">RPTI</td><td align="center" rowspan="1" colspan="1">&#8722;0.00<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.14<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">LPI</td><td align="center" rowspan="1" colspan="1">&#8722;0.07<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.07<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.17<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.11<xref rid="vms370114-tbl5-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#FF0000">0.23</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#FF0000">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.38<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">TPI</td><td align="center" rowspan="1" colspan="1">0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.19<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.14<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#0097FF">0.47</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#0097FF">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.07<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.63<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">TD</td><td align="center" rowspan="1" colspan="1">&#8722;0.81<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.10<xref rid="vms370114-tbl5-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.61<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.22<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.15<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.17<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">BR</td><td align="center" rowspan="1" colspan="1">&#8722;0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.15<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.14<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.00<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.17<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.15<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#FF0000">0.26</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#FF0000">***</styled-content>
+</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">BC</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#FF0000">0.31</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#FF0000">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.93</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#7CD378">0.65</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#7CD378">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.85</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.07<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.07<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.38<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">W</td><td align="center" rowspan="1" colspan="1">&#8722;0.83<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.25<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.68<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.23<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.16<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.11<xref rid="vms370114-tbl5-note-0002" ref-type="table-fn">
+<sup>**</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.13<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.20<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.87</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.07<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.42<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">TI1</td><td align="center" rowspan="1" colspan="1">&#8722;0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#7CD378">0.73</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#7CD378">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#0097FF">0.56</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#0097FF">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.96</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.10<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.89</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.07<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">TI2</td><td align="center" rowspan="1" colspan="1">&#8722;0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#7CD378">0.73</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#7CD378">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#0097FF">0.56</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#0097FF">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.96</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.10<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.89</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.07<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">1.00</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">CI1</td><td align="center" rowspan="1" colspan="1">&#8722;0.86<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.22<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.66<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.22<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.10<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.14<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.08<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.18<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.90</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.42<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">
+<styled-content style="color:#CB84F1">0.99</styled-content>
+<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>
+<styled-content style="color:#CB84F1">***</styled-content>
+</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.05<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">RCD</td><td align="center" rowspan="1" colspan="1">0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.19<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.01<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.15<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.07<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.11<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.19<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.12<xref rid="vms370114-tbl5-note-0001" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.16<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.04<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.13<xref rid="vms370114-tbl5-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.02<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.07<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">0.03<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td align="center" rowspan="1" colspan="1">&#8722;0.06<xref rid="vms370114-tbl5-note-0004" ref-type="table-fn">
+<sup>ns</sup>
+</xref>
+</td><td style="background-color:#92D050" align="center" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="vms370114-tbl5-note-0005"><p>Abbreviations: BC, BARON and CREVAT; BI, body index; BR, body ratio; CI1, compact index 1; DCI, dactyl&#8208;costal index; DTI, dactyl thorax index; LPI, longitudinal pelvic index; PI, pectoral index; PVI, pelvic index; RBI, relative body index; RCD, riding comfort degree; RPTI, relative proportionality of thorax index; RTCI, relative thickness of Cannon bone index; TD, thoracic development; TI1, tare index 1 (trot or gallop); TI2, tare index 2 (walk); TPI, transversal pelvic index; W, weight.</p></fn><fn id="vms370114-tbl5-note-0001"><label>*</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05. significant</p></fn><fn id="vms370114-tbl5-note-0002"><label>**</label><p>
+<italic toggle="yes">p</italic> &lt; 0.001. highly significant</p></fn><fn id="vms370114-tbl5-note-0003"><label>***</label><p>
+<italic toggle="yes">p</italic> &lt; 0.0001. significantly very high</p></fn><fn id="vms370114-tbl5-note-0004"><label>
+<sup>ns</sup>
+</label><p>non&#8208;significant at <italic toggle="yes">p</italic> &gt; 0.05.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec id="vms370114-sec-0150"><label>4</label><title>Discussion</title><sec id="vms370114-sec-0160"><label>4.1</label><title>Morphometric Traits</title><p>Diversity in the morphology of farm animals provides an outline for breeding goals and selection tactics focused on improving genetic performances (Von Borstel et&#160;al. <xref rid="vms370114-bib-0059" ref-type="bibr">2013</xref>; Perdomo&#8208;Gonz&#225;lez et&#160;al. <xref rid="vms370114-bib-0041" ref-type="bibr">2024</xref>). The causes of modifications in phenotypic characteristics resulted in variations in the morphological, reproductive and productive performances of native horses enabling them to effectively implement ecological and adaptive adaptations (Jez et&#160;al. <xref rid="vms370114-bib-0027" ref-type="bibr">2013</xref>). Moreover, interventions by the owner during breeding practices and selections for preference traits also had significant contributions to performance variations. The current investigation revealed notable differences in morphological appearances among study districts due to climatic conditions for the availability of feed resources in quality and quantity. These variations might also be long&#8208;time selections for improvements besides breed type and supervision levels of keepers. Moreover, the discrepancies could be due to the selective handling and feeding of more working stallions for daily occupations.</p><p>The appearance of symmetry and balance in dressage and racing horses indicated the presence of a good proportion of HWs, CorpH and BL for better conformation and performances (Sol&#233; et&#160;al. <xref rid="vms370114-bib-0054" ref-type="bibr">2013</xref>). Per the study, the measured value of BL was nearly comparable to HW, MBH and CorpH among the studied districts. This indicates the studied horses had a balanced position of whole body parts to support health and comfort for heavy packing and riding in strenuous hikes of Bale Mountains. Moreover, whole body dimensions including lengths from the ground up to the saddle placement and chest to buttock points are used to control and transfer loads via chains, reins, halters and straps. Therefore, balanced body dimension and height from frontal, mid and distal body parts are important considerations in the selection of horses in modern sports when purchasing and breeding programmes (G&#243;mez et&#160;al. <xref rid="vms370114-bib-0020" ref-type="bibr">2021</xref>). Correspondingly, the studies of C. M. McManus et&#160;al. (<xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>), Souza et&#160;al. (<xref rid="vms370114-bib-0055" ref-type="bibr">2017</xref>), and Popova, Nikolov, and Krastev (<xref rid="vms370114-bib-0042" ref-type="bibr">2019</xref>) indicated that balanced body dimensions had positive possessions on connecting loads using harnessing straps and minimized physical injuries. This was due to balanced dimensions helping horses to effectively ride squarely using whole body parts. Conversely, the studies of Padilha et&#160;al. (<xref rid="vms370114-bib-0040" ref-type="bibr">2017</xref>) and Lemos et&#160;al. (<xref rid="vms370114-bib-0033" ref-type="bibr">2021</xref>) reported lower BL compared to the height of the body from the ground as of frontal (HW), middle (MBH) and distal (CorpH) parts. This has a significant impact on motor and racing performance (Sobczuk and Komosa <xref rid="vms370114-bib-0052" ref-type="bibr">2012</xref>). They have flattened hindered body conformations due to comparable sizes of hipW and CorpL (Table&#160;<xref rid="vms370114-tbl-0003" ref-type="table">3</xref>). Therefore, the studied horses have satisfactorily massive and compact presentations comparatively. However, they have greater TP than WH and BL, which was similarly reported by Popova, Nikolov, and Krastev (<xref rid="vms370114-bib-0042" ref-type="bibr">2019</xref>) for the Karakachan horse breed. This was conferring to the selection criteria of wither height for efficient racers as published by Ribeiro et al. (<xref rid="vms370114-bib-0046" ref-type="bibr">2024</xref>), whereas the growth performances of these horses were negligible. This was because most of the horses were males and received poor feed in quality and quantity even though they were used for pulling carts and wagons in the study area. Moreover, females were grazed on poor feed resources of communal rangelands with zero supplementation.</p><p>The study also showed that Agarfa and Sinana horses were comparable for CorpH, MBH and HW that revealed front and hindquarter body portions are long. Similarly, they have equivalent MBH with CorpH indicating they have more appropriate straight backs that make the studied horses powerful for pulling carts. Conversely, horses in Goba and Dinsho districts were lower in frontal parts than distal indicating that they are preferably used for riding and packing on the back. This shows that they have exceptionally refined conformations in respective districts regardless of height variations. Additionally, horses of Sinana and Agarfa have wider chests suitable for easy harnessing of straps to associate cartloads from the hinder. Also, the horses have good bone development to carry well&#8208;muscled bodies. This remains because daily working horses offered supplementation (when available) resulting in the development of larger and more muscular body parts. However, poor ChW was described for the Dinsho and Goba districts that might be due to more number of reproductive females and young foals in the area. Overall, the reported ChW of the present study was lower than that reported by Padilha et&#160;al. (<xref rid="vms370114-bib-0040" ref-type="bibr">2017</xref>), Kawareti et&#160;al. (<xref rid="vms370114-bib-0029" ref-type="bibr">2017</xref>), G&#243;mez et&#160;al. (<xref rid="vms370114-bib-0019" ref-type="bibr">2012</xref>), Krebs et&#160;al. (<xref rid="vms370114-bib-0032" ref-type="bibr">2021</xref>), and Lemos et&#160;al. (<xref rid="vms370114-bib-0033" ref-type="bibr">2021</xref>) for Brazilian sport horses, thoroughbred horses, Spanish heavy horse breeds, Campolina horse breed and Brazilian Fjord horse breeds, respectively.</p><p>On the other hand, widely apprehended reproductive females in the Dinsho and Goba districts attain poor muscle mass and body conformations due to poor feedings on the rangelands. The changes in body conformation occur during the reproductive periods for the entire morphology in the female consort with inadequate nutrition before, during and post&#8208;pregnancy. Additionally, in most seasons, females are allowed to graze on inadequate and poor&#8208;quality feed resources. However, stallions were supplemented with comparatively nutritionally worthy feed resources.</p></sec><sec id="vms370114-sec-0170"><label>4.2</label><title>Body Conformation Indices</title><p>On the basis of the average BI (88.7), they are categorized as mediline horse type with intermediate aptitude. These horses exhibit equal standing in the frontal and hind parts due to equivalent WH and CorpH that makes them efficient runners with slight speed and suitable for carrying loads using a wagon as previously reported by Souza et&#160;al. (<xref rid="vms370114-bib-0055" ref-type="bibr">2017</xref>) for Mangalarga Marchador horses. Furthermore, these horses acquired a body weight of &lt;350&#160;kg that is a small or elipometric type compared to the weight of the Pantaneiro horses as reported by C. M. McManus et&#160;al. (<xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>). However, the Dinsho horses were classified as brevigline or short type and exhibited significantly developed pelvic space (PVI), consistent with a horse&#8208;like reproductive type. However, the inferior TPI they possess may not allow them to take advantage of any employment choices. This might be due to inadequate management and handling of mares.</p><p>The TI1 of horses exhibit variations in tolerating loads on the back when standing and walking despite being small or elipometric/hypometric horses. Hence, the Dinsho horses were chosen to carry the weight on their backs. This resulted from inadequate TP muscles for easily transitory straps for workload and lower pulling ability of heavy objects. However, the remaining horses were used to pull carts and wagons. These horses have concave and convex back inclinations that make saddle seating challenging for them. Mostly, they are employed as a remedy for overloads that cause the backbone to distort riding to a comfortable degree.</p><p>Additionally, they developed poor bone and muscles besides middling DTI (0.106) that makes them suited for light work. They have also comparable heights of the sternum or back height that subsidize them to have intermediate speed when working. Because of this, they are either saddle or riding horses due to their poor massiveness with shrunken muscles (light small to intermediary horses, &gt;0.105 to 0.108) compared to heavy traction and riding horses of the Mangalarga Marchador race (Cabral et&#160;al. <xref rid="vms370114-bib-0009" ref-type="bibr">2004</xref>) and the Brazilian Fjord (Lemos et&#160;al. <xref rid="vms370114-bib-0033" ref-type="bibr">2021</xref>).</p><p>The BR (1.0) shows that WH and CorpH were balanced for any movement patterns. These qualities help them to develop an efficient breathing system and increase flexibility during lengthy and arduous treks. However, imbalance may suggest a tendency for issues with the anterior and posterior limb joints, which might be detrimental to the skeleton (Zamborlini <xref rid="vms370114-bib-0062" ref-type="bibr">1996</xref>; McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>). On the contrary, a strangely big thorax is likewise undesirable, as it causes the horse's centre of gravity to shift to the front. So the corresponding hipH and shoulder heights are important body parts taken into justification when selecting and developing breeding programmes for improvement. Additionally, the rider might feel comfortable when ChW is in the optimal range to avoid certain body lesions from harnessing (Ribeiro et al., <xref rid="vms370114-bib-0046" ref-type="bibr">2024</xref>). Moderate body conformation reduces the likelihood of occupational&#8208;related injuries resulting from imbalanced harnessing devices and facilitates easier harnessing (Carpenter et&#160;al. <xref rid="vms370114-bib-0010" ref-type="bibr">2020</xref>). Therefore, modern sport horse buyers and breeders place a premium on body conformation with dependable performances for horses' grace and attractiveness that keepers' oversight for deliberate selection (Warriach et&#160;al. <xref rid="vms370114-bib-0060" ref-type="bibr">2014</xref>; Folla et&#160;al. <xref rid="vms370114-bib-0018" ref-type="bibr">2020</xref>). Additionally, evidence confirms that nearly all recreational riders exhibit violence when riding young horses (Grandin and Shivley <xref rid="vms370114-bib-0023" ref-type="bibr">2015</xref>). Behavioural changes improved when maturity enhanced across increasing age and training. Thus, horses are gentle when they are aged (Hausberger et&#160;al. <xref rid="vms370114-bib-0026" ref-type="bibr">2008</xref>). Correspondingly, Duensing, Stock, and Krieter (<xref rid="vms370114-bib-0013" ref-type="bibr">2016</xref>) indicated that body confirmations are used to identify behaviours enabling a competitive and durable riding horse to be selected using detailed direct approaches. Therefore, an eternal grasp of the horses under inquiry was made possible via testing angular and linear dimensions in conjunction with body conformation and behaviour in selection, conservation and breeding interventions.</p><p>As per the present study, body conformation scores described the entire achievement of growth under the prevailing husbandry practices (restrictions on nutrition, hydration, breeding and adaption), where the management techniques are key components in achieving acceptable standard results (Willekes <xref rid="vms370114-bib-0061" ref-type="bibr">2019</xref>; Librado and Orlando <xref rid="vms370114-bib-0034" ref-type="bibr">2021</xref>). Thus, body conformations are considered aimed at improving the market price caps and selections (Thiruvenkadan, Kandasamy, and Panneerselvam <xref rid="vms370114-bib-0057" ref-type="bibr">2009</xref>; G&#243;mez, Valera, and Molina <xref rid="vms370114-bib-0021" ref-type="bibr">2010</xref>).</p><p>Consequently, breeders and farming societies assigned standards for selection during marketing and breeding for suggested employment and health status of the horses. This allows selection for very high to moderate body conformation indices (J&#246;nsson et&#160;al. <xref rid="vms370114-bib-0028" ref-type="bibr">2014</xref>). Per the study, among the most associated body conformation indices were those between BC and RTCI, TI1; TI2 and DTI, RTCI, TI1; W and TD, CI1; TI1 and RTCI; and CI1 and TD with positive correlations (Table&#160;<xref rid="vms370114-tbl-0005" ref-type="table">5</xref>). Thus, advanced interventions can be made easier by taking into account for highly associated body conformation indices throughout the selection process employing morphometric traits used in body conformation analysis (Ribeiro et&#160;al. <xref rid="vms370114-bib-0046" ref-type="bibr">2024</xref>; Guyo et&#160;al. <xref rid="vms370114-bib-0024" ref-type="bibr">2024</xref>). Therefore, selections of morphometric traits employed for BC, W, and TI1 and TI2 analysis might favour an increase in improvements for breeding programmes. So selections of morphometric traits like thoracic perimeter, HW, ThD, thoracic width, canon perimeter, and length and width croup can improve muscle mass, with good skeletal standing of horses for ringing, racing and drawing of carts and wagons under intensive management conditions (McManus et&#160;al. <xref rid="vms370114-bib-0037" ref-type="bibr">2008</xref>; G&#243;mez et&#160;al. <xref rid="vms370114-bib-0020" ref-type="bibr">2021</xref>; Bonow et&#160;al. <xref rid="vms370114-bib-0005" ref-type="bibr">2024</xref>). Additionally, morphometric traits associations were weighed for harnessing assistance during riding, packing, and loading carts and wagons to link loads via straps (Recht <xref rid="vms370114-bib-0043" ref-type="bibr">2022</xref>). Thus, rating for predicted improvement interferences relayed for highly associated and positively correlated body conformation indices. Furthermore, correlation standards indicate the relationship is strengthened via assortment selection and interaction for considerations of highly correlated traits (G&#243;mez et&#160;al. <xref rid="vms370114-bib-0020" ref-type="bibr">2021</xref>). This helps in selections for subjective&#8208; and objective&#8208;centred breeding interventions for the application of desirable characteristics for intended performance (Martin et&#160;al. <xref rid="vms370114-bib-0035" ref-type="bibr">1978</xref>).</p></sec></sec><sec id="vms370114-sec-0180"><label>5</label><title>Conclusions and Recommendations</title><p>The study revealed that the studied horses varied in morphometric appearances among the study districts. The comprehensive morphometric descriptions of the studied horse also indicated they were diverse for body conformation indices except for DTI, relative thickness of cane bone index, RPTI, TD, BR and BC. Body conformation indices described that the studied horses were lighter and smaller that makes them more suitable for saddle&#8208;type horses. Body conformation indices were very high to low with positive and negative associations. In community&#8208;based breeding programmes, highly associated body conformation indices could be useful for selecting and improving the functional competency of the investigated horses. Further, genomic studies are needed to determine whether the observed morphometric merits are the result of genotype or environmental advancement under prevailing management practices.</p></sec><sec id="vms370114-sec-0190"><title>Author Contributions</title><p>
+<bold>Mesay Guyo</bold>: conceptualization, methodology, writing&#8211;original draft, writing&#8211;review and editing, visualization, formal analysis, data curation, supervision. <bold>Melaku Tareke</bold>: conceptualization, writing&#8211;original draft, writing&#8211;review and editing, formal analysis. <bold>Andualem Tonamo</bold>: writing&#8212;review and editing. <bold>Diriba Bediye</bold>: writing&#8211;original draft, data curation, validation, visualization. <bold>Girma Defar</bold>: writing&#8211;review and editing, conceptualization, data curation, supervision.</p></sec><sec id="vms370114-sec-0200"><title>Ethics Statement</title><p>The study follows ethical guidelines for animal experiments (Madda Walabu University Animal Welfare and Ethical Committee 2008). The committee declared that all conditions had been met by approving the study and issuing a certificate (ref. no RPEED/012/2015, 18 April 2022).</p></sec><sec sec-type="COI-statement" id="vms370114-sec-0210"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><sec sec-type="data-availability" id="vms370114-sec-0230"><title>Data Availability Statement</title><p>Ready when requested by the corresponding author.</p></sec><ref-list id="vms370114-bibl-0001"><title>References</title><ref id="vms370114-bib-0001"><mixed-citation publication-type="journal" id="vms370114-cit-0001"><string-name name-style="western"><surname>Ablondi</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>C.</given-names><surname>Dadousis</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Vasini</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Eriksson</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Mikko</surname></string-name>, and <string-name name-style="western"><given-names>A.</given-names><surname>Sabbioni</surname></string-name>. <year>2020</year>. &#8220;<article-title>Genetic Diversity and Signatures of Selection in a Native Italian Horse Breed Based on SNP Data</article-title>.&#8221; <source>Animals</source><volume>10</volume>, no. <issue>6</issue>: <fpage>1005</fpage>.<pub-id pub-id-type="pmid">32521830</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ani10061005</pub-id><pub-id pub-id-type="pmcid">PMC7341496</pub-id></mixed-citation></ref><ref id="vms370114-bib-0002"><mixed-citation publication-type="journal" id="vms370114-cit-0002"><string-name name-style="western"><surname>Alberti</surname>, <given-names>P.</given-names></string-name>, <string-name name-style="western"><given-names>B.</given-names><surname>Panea</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names><surname>Sa&#241;udo</surname></string-name>, et al. <year>2008</year>. &#8220;<article-title>Live Weight, Body Size, and Carcass Characteristics of Young Bulls of Fifteen European Breeds</article-title>.&#8221; <source>Livestock Science</source><volume>114</volume>, no. <issue>1</issue>: <fpage>19</fpage>&#8211;<lpage>30</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0003"><mixed-citation publication-type="journal" id="vms370114-cit-0003"><string-name name-style="western"><surname>Asfaw</surname>, <given-names>H.</given-names></string-name>, and <string-name name-style="western"><given-names>G.</given-names><surname>Tadesse</surname></string-name>. <year>2020</year>. &#8220;<article-title>Economic Contribution of Cart Horses to the Livelihoods of Families in Gondar Town Ethiopia</article-title>.&#8221; <source>Momona Ethiopian Journal of Science</source><volume>12</volume>, no. <issue>1</issue>: <fpage>135</fpage>&#8211;<lpage>147</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0005"><mixed-citation publication-type="journal" id="vms370114-cit-0005"><string-name name-style="western"><surname>Bonow</surname>, <given-names>S.</given-names></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Eriksson</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names><surname>Strandberg</surname></string-name>, <string-name name-style="western"><given-names>E. T.</given-names><surname>Hellsten</surname></string-name>, and <string-name name-style="western"><given-names>&#197;. G.</given-names><surname>Viklund</surname></string-name>. <year>2024</year>. &#8220;<article-title>Phenotypic Associations Between Linearly Scored Traits and Sports Performance in the Swedish Warmblood Horse Population</article-title>.&#8221; <source>Livestock Science</source><volume>282</volume>: <elocation-id>105438</elocation-id>.</mixed-citation></ref><ref id="vms370114-bib-0006"><mixed-citation publication-type="journal" id="vms370114-cit-0006"><string-name name-style="western"><surname>Bukhari</surname>, <given-names>S. S.</given-names></string-name>, <string-name name-style="western"><given-names>A. G.</given-names><surname>McElligott</surname></string-name>, and <string-name name-style="western"><given-names>R. S.</given-names><surname>Parkes</surname></string-name>. <year>2021</year>. &#8220;<article-title>Quantifying the Impact of Mounted Load Carrying on Equids: A Review</article-title>.&#8221; <source>Animals</source><volume>11</volume>, no. <issue>5</issue>: <fpage>1333</fpage>.<pub-id pub-id-type="pmid">34067208</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ani11051333</pub-id><pub-id pub-id-type="pmcid">PMC8151148</pub-id></mixed-citation></ref><ref id="vms370114-bib-0007"><mixed-citation publication-type="journal" id="vms370114-cit-0007"><string-name name-style="western"><surname>Bussiman</surname>, <given-names>F. D. O.</given-names></string-name>, <string-name name-style="western"><given-names>B. C.</given-names><surname>Perez</surname></string-name>, <string-name name-style="western"><given-names>R. V.</given-names><surname>Ventura</surname></string-name>, <string-name name-style="western"><given-names>M. G. C. D.</given-names><surname>Peixoto</surname></string-name>, <string-name name-style="western"><given-names>R. A.</given-names><surname>Curi</surname></string-name>, and <string-name name-style="western"><given-names>J. D. C.</given-names><surname>Balieiro</surname></string-name>. <year>2018</year>. &#8220;<article-title>Pedigree Analysis and Inbreeding Effects Over Morphological Traits in Campolina Horse Population</article-title>.&#8221; <source>Animals</source><volume>12</volume>, no. <issue>11</issue>: <fpage>2246</fpage>&#8211;<lpage>2255</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1017/S175173111800023X</pub-id><pub-id pub-id-type="pmid">29467044</pub-id></mixed-citation></ref><ref id="vms370114-bib-0008"><mixed-citation publication-type="miscellaneous" id="vms370114-cit-0008"><collab collab-type="authors">BZLD</collab>
+. <year>2020</year>. <article-title>Bale Zone livestock development office data on livestock population statistical data report of 2019</article-title>.</mixed-citation></ref><ref id="vms370114-bib-0009"><mixed-citation publication-type="journal" id="vms370114-cit-0009"><string-name name-style="western"><surname>Cabral</surname>, <given-names>G. C.</given-names></string-name>, <string-name name-style="western"><given-names>F. Q.</given-names><surname>Almeida</surname></string-name>, <string-name name-style="western"><given-names>C. R.</given-names><surname>Quirino</surname></string-name>, <string-name name-style="western"><given-names>P. C. N.</given-names><surname>Azevedo</surname></string-name>, <string-name name-style="western"><given-names>L. F. B.</given-names><surname>Pinto</surname></string-name>, and <string-name name-style="western"><given-names>E. M.</given-names><surname>Santos</surname></string-name>. <year>2004</year>. &#8220;<article-title>Morphometric Evaluation of Horses of the Mangalarga Marchador Race: Indices of Conformation and Body Proportions</article-title>.&#8221; <source>Revista Brasileira De Zootecnia</source><volume>33</volume>: <fpage>1798</fpage>&#8211;<lpage>1805</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0010"><mixed-citation publication-type="book" id="vms370114-cit-0010"><string-name name-style="western"><surname>Carpenter</surname>, <given-names>R.</given-names></string-name>, <string-name name-style="western"><given-names>K.</given-names><surname>Johnston</surname></string-name>, <string-name name-style="western"><given-names>F. A.</given-names><surname>Nickels</surname></string-name>, et al. <year>2020</year>. &#8220;<part-title>Occupational&#8208;Related Lameness Conditions: The Thoroughbred Racehorse</part-title>.&#8221; In <source>Adams and Stashak's Lameness in Horses</source>, 7th edition edited by <person-group person-group-type="editor"><string-name name-style="western"><given-names>G. M.</given-names><surname>Baxter</surname></string-name></person-group>, <fpage>949</fpage>&#8211;<lpage>1031</lpage>. <publisher-name>Wiley online liberary</publisher-name>.</mixed-citation></ref><ref id="vms370114-bib-0012"><mixed-citation publication-type="journal" id="vms370114-cit-0012"><string-name name-style="western"><surname>Costa</surname>, <given-names>M. D.</given-names></string-name>, <string-name name-style="western"><given-names>J. A. G.</given-names><surname>Bergamann</surname></string-name>, <string-name name-style="western"><given-names>C. S.</given-names><surname>Pereira</surname></string-name>, <string-name name-style="western"><given-names>A. S. C.</given-names><surname>Rezende</surname></string-name>, and <string-name name-style="western"><given-names>J. C. C.</given-names><surname>Pereira</surname></string-name>. <year>1998</year>. &#8220;<article-title>Valuation of Genetic Factors and Environmental Factors That Interfere With Linear Measurements of Brazilian Breed Ponies</article-title>.&#8221; <source>Revista Brasileira De Zootecnia</source><volume>27</volume>, no. <issue>3</issue>: <fpage>491</fpage>&#8211;<lpage>497</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0013"><mixed-citation publication-type="journal" id="vms370114-cit-0013"><string-name name-style="western"><surname>Duensing</surname>, <given-names>J.</given-names></string-name>, <string-name name-style="western"><given-names>K. F.</given-names><surname>Stock</surname></string-name>, and <string-name name-style="western"><given-names>J.</given-names><surname>Krieter</surname></string-name>. <year>2016</year>. &#8220;<article-title>Implementation and Prospects of Linear Profiling in the Warmblood Horse</article-title>.&#8221; <source>Journal of Equine Veterinary Science</source><volume>34</volume>: <fpage>360</fpage>&#8211;<lpage>368</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0014"><mixed-citation publication-type="journal" id="vms370114-cit-0014"><string-name name-style="western"><surname>Effa</surname>, <given-names>K.</given-names></string-name>, <string-name name-style="western"><given-names>D.</given-names><surname>Tadelle</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names><surname>Han</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Kurtu</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Rosenbom</surname></string-name>, and <string-name name-style="western"><given-names>A.</given-names><surname>Beja&#8208;Pereira</surname></string-name>. <year>2012</year>. &#8220;<article-title>Morphological Diversities and Ecozones of Ethiopian Horse Populations</article-title>.&#8221; <source>Animal Genetic Resources</source><volume>50</volume>: <fpage>1</fpage>&#8211;<lpage>12</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0015"><mixed-citation publication-type="journal" id="vms370114-cit-0015"><string-name name-style="western"><surname>Effa</surname>, <given-names>K.</given-names></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Rosenbom</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names><surname>Han</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names><surname>Dessie</surname></string-name>, and <string-name name-style="western"><given-names>A.</given-names><surname>Beja&#8208;Pereira</surname></string-name>. <year>2021</year>. &#8220;<article-title>Genetic Diversities and Historical Dynamics of Native Ethiopian Horse Populations (<italic toggle="yes">Equus caballus</italic>) Inferred From Mitochondrial DNA Polymorphisms</article-title>.&#8221; <source>Genes</source><volume>12</volume>, no. <issue>2</issue>: <fpage>155</fpage>.<pub-id pub-id-type="pmid">33503948</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/genes12020155</pub-id><pub-id pub-id-type="pmcid">PMC7912211</pub-id></mixed-citation></ref><ref id="vms370114-bib-0016"><mixed-citation publication-type="journal" id="vms370114-cit-0016"><string-name name-style="western"><surname>Falaschini</surname>, <given-names>A.</given-names></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Rizzi</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Pasquini</surname></string-name>. <year>2003</year>. &#8220;<article-title>Morphological Evolution of the Haflinger Horse</article-title>.&#8221; <source>Italian Journal of Animal Science</source><volume>2</volume>, no. <issue>1</issue>: <fpage>595</fpage>&#8211;<lpage>597</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0017"><mixed-citation publication-type="journal" id="vms370114-cit-0017"><string-name name-style="western"><surname>Fenner</surname>, <given-names>K.</given-names></string-name>, <string-name name-style="western"><given-names>K.</given-names><surname>Dashper</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names><surname>Serpell</surname></string-name>, et al. <year>2020</year>. &#8220;<article-title>The Development of a Novel Questionnaire Approach to the Investigation of Horse Training, Management, and Behaviour</article-title>.&#8221; <source>Animals</source><volume>10</volume>, no. <issue>11</issue>: <fpage>1960</fpage>.<pub-id pub-id-type="pmid">33114408</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ani10111960</pub-id><pub-id pub-id-type="pmcid">PMC7693391</pub-id></mixed-citation></ref><ref id="vms370114-bib-0018"><mixed-citation publication-type="journal" id="vms370114-cit-0018"><string-name name-style="western"><surname>Folla</surname>, <given-names>F.</given-names></string-name>, <string-name name-style="western"><given-names>C.</given-names><surname>Sartori</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names><surname>Mancin</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names><surname>Pigozzi</surname></string-name>, and <string-name name-style="western"><given-names>R.</given-names><surname>Mantovani</surname></string-name>. <year>2020</year>. &#8220;<article-title>Genetic Parameters of Linear Type Traits Scored at 30 Months in Italian Heavy Draught Horse</article-title>.&#8221; <source>Animals</source><volume>10</volume>, no. <issue>6</issue>: <fpage>1099</fpage>.<pub-id pub-id-type="pmid">32630510</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ani10061099</pub-id><pub-id pub-id-type="pmcid">PMC7341255</pub-id></mixed-citation></ref><ref id="vms370114-bib-0019"><mixed-citation publication-type="journal" id="vms370114-cit-0019"><string-name name-style="western"><surname>G&#243;mez</surname>, <given-names>M. D.</given-names></string-name>, <string-name name-style="western"><given-names>P. J.</given-names><surname>Azor</surname></string-name>, <string-name name-style="western"><given-names>M. E.</given-names><surname>Alonso</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names><surname>Jordana</surname></string-name>, and <string-name name-style="western"><given-names>M. J. L. S.</given-names><surname>Valera</surname></string-name>. <year>2012</year>. &#8220;<article-title>Morphological and Genetic Characterization of Spanish Heavy Horse Breeds: Implications for Their Conservation</article-title>.&#8221; <source>Livestock Science</source><volume>144</volume>, no. <issue>1&#8211;2</issue>: <fpage>57</fpage>&#8211;<lpage>66</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0020"><mixed-citation publication-type="journal" id="vms370114-cit-0020"><string-name name-style="western"><surname>G&#243;mez</surname>, <given-names>M. D.</given-names></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Molina</surname></string-name>, <string-name name-style="western"><given-names>M. J.</given-names><surname>S&#225;nchez&#8208;Guerrero</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Valera</surname></string-name>. <year>2021</year>. &#8220;<article-title>Prediction of Adult Conformation Traits From Shape Characteristics of Pura Raza Espa&#241;ol Foals</article-title>.&#8221; <source>Livestock Science</source><volume>253</volume>: <elocation-id>104701</elocation-id>.</mixed-citation></ref><ref id="vms370114-bib-0021"><mixed-citation publication-type="journal" id="vms370114-cit-0021"><string-name name-style="western"><surname>G&#243;mez</surname>, <given-names>M. D.</given-names></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Valera</surname></string-name>, and <string-name name-style="western"><given-names>A.</given-names><surname>Molina</surname></string-name>. <year>2010</year>. &#8220;<article-title>Genetic Analysis of Racing Performance of Trotter Horses in Spain</article-title>.&#8221; <source>Livestock Science</source><volume>127</volume>, no. <issue>2&#8211;3</issue>: <fpage>197</fpage>&#8211;<lpage>204</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0022"><mixed-citation publication-type="journal" id="vms370114-cit-0022"><string-name name-style="western"><surname>G&#243;rniak</surname>, <given-names>W.</given-names></string-name>, <string-name name-style="western"><given-names>E.</given-names><surname>Walkowicz</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Soroko</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Korczynski</surname></string-name>. <year>2020</year>. &#8220;<article-title>Impact of the Individual Characteristics of French Trotters on Their Racing Performance</article-title>.&#8221; <source>Turkish Journal of Veterinary &amp; Animal Sciences</source><volume>44</volume>, no. <issue>1</issue>: <fpage>110</fpage>&#8211;<lpage>117</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0023"><mixed-citation publication-type="journal" id="vms370114-cit-0023"><string-name name-style="western"><surname>Grandin</surname>, <given-names>T.</given-names></string-name>, and <string-name name-style="western"><given-names>C.</given-names><surname>Shivley</surname></string-name>. <year>2015</year>. &#8220;<article-title>How Farm Animals React and Perceive Stressful Situations Such as Handling, Restraint, and Transport</article-title>.&#8221; <source>Animals</source><volume>5</volume>, no. <issue>4</issue>: <fpage>1233</fpage>&#8211;<lpage>1251</lpage>.<pub-id pub-id-type="pmid">26633523</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ani5040409</pub-id><pub-id pub-id-type="pmcid">PMC4693213</pub-id></mixed-citation></ref><ref id="vms370114-bib-0024"><mixed-citation publication-type="journal" id="vms370114-cit-0024"><string-name name-style="western"><surname>Guyo</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Tareke</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Tonamo</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names><surname>Bediye</surname></string-name>, and <string-name name-style="western"><given-names>G.</given-names><surname>Defar</surname></string-name>. <year>2024</year>. &#8220;<article-title>Multivariate Analysis of Morphometric Traits of the Horse Ecotypes Reared in Highlands of Bale Zone, Ethiopia</article-title>.&#8221; <source>Veterinary and Animal Science</source><volume>25</volume>: <elocation-id>100391</elocation-id>.<pub-id pub-id-type="pmid">39280772</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.vas.2024.100391</pub-id><pub-id pub-id-type="pmcid">PMC11399705</pub-id></mixed-citation></ref><ref id="vms370114-bib-0025"><mixed-citation publication-type="journal" id="vms370114-cit-0025"><string-name name-style="western"><surname>Hill</surname>, <given-names>J. A.</given-names></string-name>, <string-name name-style="western"><given-names>J. F.</given-names><surname>Tyma</surname></string-name>, <string-name name-style="western"><given-names>G. M.</given-names><surname>Hayes</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names><surname>Radcliffe</surname></string-name>, and <string-name name-style="western"><given-names>S. L.</given-names><surname>Fubini</surname></string-name>. <year>2020</year>. &#8220;<article-title>Higher Body Mass Index May Increase the Risk for the Development of Incisional Complications in Horses Following Emergency Ventral Midline Celiotomy</article-title>.&#8221; <source>Equine Veterinary Journal</source><volume>52</volume>, no. <issue>6</issue>: <fpage>799</fpage>&#8211;<lpage>804</lpage>.<pub-id pub-id-type="pmid">31994775</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/evj.13242</pub-id></mixed-citation></ref><ref id="vms370114-bib-0026"><mixed-citation publication-type="journal" id="vms370114-cit-0026"><string-name name-style="western"><surname>Hausberger</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>H.</given-names><surname>Roche</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Henry</surname></string-name>, and <string-name name-style="western"><given-names>E. K.</given-names><surname>Visser</surname></string-name>. <year>2008</year>. &#8220;<article-title>A Review of the Human&#8211;Horse Relationship</article-title>.&#8221; <source>Applied Animal Behaviour Science</source><volume>109</volume>, no. <issue>1</issue>: <fpage>1</fpage>&#8211;<lpage>24</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0027"><mixed-citation publication-type="journal" id="vms370114-cit-0027"><string-name name-style="western"><surname>Jez</surname>, <given-names>C.</given-names></string-name>, <string-name name-style="western"><given-names>B.</given-names><surname>Coudurier</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Cressent</surname></string-name>, and <string-name name-style="western"><given-names>F.</given-names><surname>M&#233;a</surname></string-name>. <year>2013</year>. &#8220;<article-title>Factors Driving Change in the French Horse Industry to 2030</article-title>.&#8221; <source>Advances in Animal Biosciences</source><volume>4</volume>, no. <issue>s2</issue>: <fpage>66</fpage>&#8211;<lpage>105</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0028"><mixed-citation publication-type="journal" id="vms370114-cit-0028"><string-name name-style="western"><surname>J&#246;nsson</surname>, <given-names>L.</given-names></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>N&#228;sholm</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names><surname>Roepstorff</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Egenvall</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names><surname>Dalin</surname></string-name>, and <string-name name-style="western"><given-names>J.</given-names><surname>Philipsson</surname></string-name>. <year>2014</year>. &#8220;<article-title>Conformation Traits and Their Genetic and Phenotypic Associations With Health Status in Young Swedish Warmblood Riding Horses</article-title>.&#8221; <source>Livestock Science</source><volume>163</volume>: <fpage>12</fpage>&#8211;<lpage>25</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0029"><mixed-citation publication-type="journal" id="vms370114-cit-0029"><string-name name-style="western"><surname>Kawareti</surname>, <given-names>P. K.</given-names></string-name>, <string-name name-style="western"><given-names>N. C.</given-names><surname>Nandeshwar</surname></string-name>, <string-name name-style="western"><given-names>S. B.</given-names><surname>Banubakode</surname></string-name>, <string-name name-style="western"><given-names>P. M.</given-names><surname>Gedam</surname></string-name>, and <string-name name-style="western"><given-names>S.</given-names><surname>Ganguly</surname></string-name>. <year>2017</year>. &#8220;<article-title>Morphometrical Measurements of Thoroughbred Horses (<italic toggle="yes">Equus caballus</italic>)</article-title>.&#8221; <source>International Journal of Pure &amp; Applied Bioscience</source><volume>5</volume>, no. <issue>3</issue>: <fpage>37</fpage>&#8211;<lpage>39</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0030"><mixed-citation publication-type="journal" id="vms370114-cit-0030"><string-name name-style="western"><surname>Kebede</surname>, <given-names>A. A.</given-names></string-name><year>2023</year>. &#8220;<article-title>A Short History of Awi Agew Horse Culture, Northwestern Ethiopia</article-title>.&#8221; <source>Cogent Arts &amp; Humanities</source><volume>10</volume>, no. <issue>1</issue>: <elocation-id>2231705</elocation-id>.</mixed-citation></ref><ref id="vms370114-bib-0031"><mixed-citation publication-type="journal" id="vms370114-cit-0031"><string-name name-style="western"><surname>Komosa</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>H.</given-names><surname>Fr&#261;ckowiak</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names><surname>Purzyc</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Wojnowska</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Gramacki</surname></string-name>, and <string-name name-style="western"><given-names>J.</given-names><surname>Gramacki</surname></string-name>. <year>2013</year>. &#8220;<article-title>Differences in Exterior Conformation Between Primitive, Half&#8208;Bred, and Thoroughbred Horses: Anatomic&#8208;Breeding Approach</article-title>.&#8221; <source>Journal of Animal Science</source><volume>91</volume>, no. <issue>4</issue>: <fpage>1660</fpage>&#8211;<lpage>1668</lpage>.<pub-id pub-id-type="pmid">23345554</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2527/jas.2012-5367</pub-id></mixed-citation></ref><ref id="vms370114-bib-0032"><mixed-citation publication-type="journal" id="vms370114-cit-0032"><string-name name-style="western"><surname>Krebs</surname>, <given-names>L. C.</given-names></string-name>, <string-name name-style="western"><given-names>M. M.</given-names><surname>de Moraes Santos</surname></string-name>, <string-name name-style="western"><given-names>M. C.</given-names><surname>Siqueira</surname></string-name>, et al. <year>2021</year>. &#8220;<article-title>Morphometric Measurements for Sexual Dimorphism in the Campolina Horse Breed</article-title>.&#8221; <source>Pesquisa Agropecu&#225;ria Brasileira</source><volume>56</volume>: <elocation-id>e02148</elocation-id>.</mixed-citation></ref><ref id="vms370114-bib-0033"><mixed-citation publication-type="journal" id="vms370114-cit-0033"><string-name name-style="western"><surname>Lemos</surname>, <given-names>G. B.</given-names></string-name>, <string-name name-style="western"><given-names>P. A.</given-names><surname>Di Filippo</surname></string-name>, <string-name name-style="western"><given-names>A. B. F. R.</given-names><surname>Godinho</surname></string-name>, <string-name name-style="western"><given-names>F. P.</given-names><surname>Gobbi</surname></string-name>, and <string-name name-style="western"><given-names>C. R. A.</given-names><surname>Quirino</surname></string-name>. <year>2021</year>. &#8220;<article-title>Morphometrics Study of Equine Brazilian Fjord</article-title>.&#8221; <source>Archivos de Zootecnia</source><volume>70</volume>, no. <issue>271</issue>: <fpage>304</fpage>&#8211;<lpage>310</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0034"><mixed-citation publication-type="journal" id="vms370114-cit-0034"><string-name name-style="western"><surname>Librado</surname>, <given-names>P.</given-names></string-name>, and <string-name name-style="western"><given-names>L.</given-names><surname>Orlando</surname></string-name>. <year>2021</year>. &#8220;<article-title>Genomics and the Evolutionary History of Equids</article-title>.&#8221; <source>Annual Review of Animal Biosciences</source><volume>9</volume>: <fpage>81</fpage>&#8211;<lpage>101</lpage>.<pub-id pub-id-type="pmid">33197207</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-animal-061220-023118</pub-id></mixed-citation></ref><ref id="vms370114-bib-0035"><mixed-citation publication-type="book" id="vms370114-cit-0035"><string-name name-style="western"><surname>Martin</surname>, <given-names>D. V. M.</given-names></string-name>, <string-name name-style="western"><given-names>W. C.</given-names><surname>McMullan</surname></string-name>, <string-name name-style="western"><given-names>J. R.</given-names><surname>Joyce</surname></string-name>, and <string-name name-style="western"><given-names>D. V.</given-names><surname>Hansekla</surname></string-name>. <year>1978</year>. <source>Equine Genetics &amp; Selection Procedures</source>. <publisher-loc>Texas</publisher-loc>: <publisher-name>Equine Research</publisher-name>.</mixed-citation></ref><ref id="vms370114-bib-0036"><mixed-citation publication-type="journal" id="vms370114-cit-0036"><string-name name-style="western"><surname>McManus</surname>, <given-names>C.</given-names></string-name>, <string-name name-style="western"><given-names>R. A.</given-names><surname>Falc&#227;o</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Spritze</surname></string-name>, et al. <year>2005</year>. &#8220;<article-title>Morphological Characterization of Campeiro Breed Horses</article-title>.&#8221; <source>Revista Brasileira de Zootecnia</source><volume>34</volume>, no. <issue>5</issue>: <fpage>1553</fpage>&#8211;<lpage>1562</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0037"><mixed-citation publication-type="journal" id="vms370114-cit-0037"><string-name name-style="western"><surname>McManus</surname>, <given-names>C. M.</given-names></string-name>, <string-name name-style="western"><given-names>S. A.</given-names><surname>Santos</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names><surname>Silva</surname></string-name>, et al. <year>2008</year>. &#8220;<article-title>Body Indices of the Pantaneiro Horses</article-title>.&#8221; <source>Brazilian Journal of Veterinary Research and Animal Science</source><volume>45</volume>, no. <issue>5</issue>: <fpage>362</fpage>&#8211;<lpage>370</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0038"><mixed-citation publication-type="journal" id="vms370114-cit-0038"><string-name name-style="western"><surname>Miserani</surname>, <given-names>M. G.</given-names></string-name>, <string-name name-style="western"><given-names>C.</given-names><surname>McManus</surname></string-name>, <string-name name-style="western"><given-names>S. A.</given-names><surname>Santos</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names><surname>Silva</surname></string-name>, <string-name name-style="western"><given-names>A. S.</given-names><surname>Mariante</surname></string-name>, and <string-name name-style="western"><given-names>U. G. P.</given-names><surname>Abreu</surname></string-name>. <year>2002</year>. &#8220;<article-title>Factors That Influence the Linear Measurements of the Pantaneiro Horse</article-title>.&#8221; <source>Revista Brasileira De Zootecnia</source><volume>31</volume>, no. <issue>1</issue>: <fpage>335</fpage>&#8211;<lpage>341</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0039"><mixed-citation publication-type="journal" id="vms370114-cit-0039"><string-name name-style="western"><surname>Mousavi</surname>, <given-names>S. F.</given-names></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Razmkabir</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names><surname>Rostamzadeh</surname></string-name>, et al. <year>2023</year>. &#8220;<article-title>Genetic Diversity and Signatures of Selection in Four Indigenous Horse Breeds of Iran</article-title>.&#8221; <source>Heredity</source><volume>131</volume>, no. <issue>2</issue>: <fpage>96</fpage>&#8211;<lpage>108</lpage>.<pub-id pub-id-type="pmid">37308718</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41437-023-00624-7</pub-id><pub-id pub-id-type="pmcid">PMC10382556</pub-id></mixed-citation></ref><ref id="vms370114-bib-0040"><mixed-citation publication-type="journal" id="vms370114-cit-0040"><string-name name-style="western"><surname>Padilha</surname>, <given-names>F. G. F.</given-names></string-name>, <string-name name-style="western"><given-names>A. M.</given-names><surname>Andrade</surname></string-name>, <string-name name-style="western"><given-names>A. B. M.</given-names><surname>Fonseca</surname></string-name>, <string-name name-style="western"><given-names>F. N.</given-names><surname>Godoi</surname></string-name>, <string-name name-style="western"><given-names>F. Q.</given-names><surname>Almeida</surname></string-name>, and <string-name name-style="western"><given-names>A. M. R.</given-names><surname>Ferreira</surname></string-name>. <year>2017</year>. &#8220;<article-title>Morphometric Measurements and Animal&#8208;Performance Indices in a Study of Racial Forms of Brazilian Sport Horses Undergoing Training for Eventing</article-title>.&#8221; <source>Revista Brasileira de Zootecnia</source><volume>46</volume>, no. <issue>1</issue>: <fpage>25</fpage>&#8211;<lpage>32</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0041"><mixed-citation publication-type="journal" id="vms370114-cit-0041"><string-name name-style="western"><surname>Perdomo&#8208;Gonz&#225;lez</surname>, <given-names>D. I.</given-names></string-name>, <string-name name-style="western"><given-names>M. J.</given-names><surname>S&#225;nchez&#8208;Guerrero</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names><surname>Bartolom&#233;</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names><surname>Guedes dos Santos</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Molina</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Valera</surname></string-name>. <year>2024</year>. &#8220;<article-title>Designing an Early Selection Morphological Traits Index for Reproductive Efficiency in Pura Raza Espa&#241;ola Mares</article-title>.&#8221; <source>Journal of Animal Science</source><volume>102</volume>: <elocation-id>skad409</elocation-id>.<pub-id pub-id-type="pmid">38118055</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jas/skad409</pub-id><pub-id pub-id-type="pmcid">PMC10762892</pub-id></mixed-citation></ref><ref id="vms370114-bib-0042"><mixed-citation publication-type="journal" id="vms370114-cit-0042"><string-name name-style="western"><surname>Popova</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>V.</given-names><surname>Nikolov</surname></string-name>, and <string-name name-style="western"><given-names>N.</given-names><surname>Krastev</surname></string-name>. <year>2019</year>. &#8220;<article-title>Body Indices of the Karakachan Horse Breed</article-title>.&#8221; <source>Bulgarian Journal of Agricultural Science</source><volume>25</volume>, no. <issue>1</issue>: <fpage>12</fpage>&#8211;<lpage>16</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0043"><mixed-citation publication-type="book" id="vms370114-cit-0043"><string-name name-style="western"><surname>Recht</surname>, <given-names>L.</given-names></string-name><year>2022</year>. <source>The Spirited Horse: Equid&#8211;Human Relations in the Bronze Age Near East</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Bloomsbury Publishing</publisher-name>.</mixed-citation></ref><ref id="vms370114-bib-0044"><mixed-citation publication-type="journal" id="vms370114-cit-0044"><string-name name-style="western"><surname>Rezende</surname>, <given-names>M. P. G.</given-names></string-name>, <string-name name-style="western"><given-names>U. G. P.</given-names><surname>Abreu</surname></string-name>, <string-name name-style="western"><given-names>J. C.</given-names><surname>Souza</surname></string-name>, <string-name name-style="western"><given-names>S. A.</given-names><surname>Santos</surname></string-name>, <string-name name-style="western"><given-names>G. G.</given-names><surname>Ramires</surname></string-name>, and <string-name name-style="western"><given-names>L. G.</given-names><surname>Sitorski</surname></string-name>. <year>2015</year>. &#8220;<article-title>Body Morphology of Pure and Mixed Quarto de Milha Horses Used in La&#231;o Comprido in Mato Grosso do Sul</article-title>.&#8221; <source>Archivos de Zootecnia</source><volume>64</volume>, no. <issue>246</issue>: <fpage>183</fpage>&#8211;<lpage>186</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0046"><mixed-citation publication-type="journal" id="vms370114-cit-0046"><string-name name-style="western"><surname>Ribeiro</surname>, <given-names>N. L.</given-names></string-name>, <string-name name-style="western"><given-names>G. R.</given-names><surname>de Medeiros</surname></string-name>, <string-name name-style="western"><given-names>N. M. V.</given-names><surname>da Silva</surname></string-name>, et al. <year>2024</year>. &#8220;<article-title>Phenotypic Characterization and Production System of the Nordestino Horse From a Multivariate Perspective</article-title>.&#8221; <source>Scientific Reports</source><volume>14</volume>, no. <issue>1</issue>: <fpage>1173</fpage>.<pub-id pub-id-type="pmid">38216575</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-023-51018-y</pub-id><pub-id pub-id-type="pmcid">PMC10786842</pub-id></mixed-citation></ref><ref id="vms370114-bib-0047"><mixed-citation publication-type="journal" id="vms370114-cit-0047"><string-name name-style="western"><surname>S&#225;nchez&#8208;Guerrero</surname>, <given-names>M. J.</given-names></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Molina</surname></string-name>, <string-name name-style="western"><given-names>M. D.</given-names><surname>G&#243;mez</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names><surname>Pe&#241;a</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Valera</surname></string-name>. <year>2016</year>. &#8220;<article-title>Relationship Between Morphology and Performance: Signature of Mass&#8208;Selection in Pura Raza Espa&#241;ol Horse</article-title>.&#8221; <source>Livestock Science</source><volume>185</volume>: <fpage>148</fpage>&#8211;<lpage>155</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0048"><mixed-citation publication-type="journal" id="vms370114-cit-0048"><string-name name-style="western"><surname>S&#225;nchez&#8208;Guerrero</surname>, <given-names>M. J.</given-names></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Negro&#8208;Rama</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Demyda&#8208;Peyras</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Sol&#233;&#8208;Berga</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names><surname>Azor&#8208;Ortiz</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Valera&#8208;C&#243;rdoba</surname></string-name>. <year>2019</year>. &#8220;<article-title>Morphological and Genetic Diversity of Pura Raza Espa&#241;ol Horse With Regard to the Coat Colour</article-title>.&#8221; <source>Animal Science Journal</source><volume>90</volume>, no. <issue>1</issue>: <fpage>14</fpage>&#8211;<lpage>22</lpage>.<pub-id pub-id-type="pmid">30467923</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/asj.13102</pub-id></mixed-citation></ref><ref id="vms370114-bib-0049"><mixed-citation publication-type="book" id="vms370114-cit-0049"><collab collab-type="authors">SAS</collab>
+. <year>2012</year>. <source>SAS Release 9.4 Edition</source>. <publisher-loc>Cary NC, USA</publisher-loc>: <publisher-name>Statistical Analysis Systems Institute Inc</publisher-name>.</mixed-citation></ref><ref id="vms370114-bib-0050"><mixed-citation publication-type="journal" id="vms370114-cit-0050"><string-name name-style="western"><surname>Schork</surname>, <given-names>I. G.</given-names></string-name>, <string-name name-style="western"><given-names>C. S.</given-names><surname>de Azevedo</surname></string-name>, and <string-name name-style="western"><given-names>R. J.</given-names><surname>Young</surname></string-name>. <year>2018</year>. &#8220;<article-title>Personality, Abnormal Behaviour, and Health: An Evaluation of the Welfare of Police Horses</article-title>.&#8221; <source>PLoS ONE</source><volume>13</volume>, no. <issue>9</issue>: <elocation-id>e0202750</elocation-id>.<pub-id pub-id-type="pmid">30183748</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0202750</pub-id><pub-id pub-id-type="pmcid">PMC6124763</pub-id></mixed-citation></ref><ref id="vms370114-bib-0051"><mixed-citation publication-type="journal" id="vms370114-cit-0051"><string-name name-style="western"><surname>Silva</surname>, <given-names>J. A.</given-names></string-name>, <string-name name-style="western"><given-names>J. R. B.</given-names><surname>Sereno</surname></string-name>, <string-name name-style="western"><given-names>M. G.</given-names><surname>Miserani</surname></string-name>, et al. <year>2002</year>. &#8220;<article-title>Variance Analyses for Biometric Measures of the Pantaneiro Horse in Brazil</article-title>.&#8221; <source>Archivos de Zootecnia</source><volume>51</volume>, no. <issue>193</issue>: <fpage>13</fpage>.</mixed-citation></ref><ref id="vms370114-bib-0052"><mixed-citation publication-type="journal" id="vms370114-cit-0052"><string-name name-style="western"><surname>Sobczuk</surname>, <given-names>D.</given-names></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Komosa</surname></string-name>. <year>2012</year>. &#8220;<article-title>Morphological Differentiation of Polish Arabian Horses&#8208;Multivariate Analysis</article-title>.&#8221; <source>Journal of Veterinary Research</source><volume>56</volume>, no. <issue>4</issue>: <fpage>623</fpage>&#8211;<lpage>629</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0053"><mixed-citation publication-type="journal" id="vms370114-cit-0053"><string-name name-style="western"><surname>Sole</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>I.</given-names><surname>Cervantes</surname></string-name>, <string-name name-style="western"><given-names>J. P.</given-names><surname>Gutierrez</surname></string-name>, <string-name name-style="western"><given-names>M. D.</given-names><surname>Gomez</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Valera</surname></string-name>. <year>2014</year>. &#8220;<article-title>Estimation of Genetic Parameters for Morphological and Functional Traits in a Menorca Horse Population</article-title>.&#8221; <source>Spanish Journal of Agricultural Research</source><volume>12</volume>: <fpage>125</fpage>&#8211;<lpage>132</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0054"><mixed-citation publication-type="journal" id="vms370114-cit-0054"><string-name name-style="western"><surname>Sol&#233;</surname>, <given-names>M.</given-names></string-name>, <string-name name-style="western"><given-names>M. D.</given-names><surname>G&#243;mez</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Molina</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names><surname>Pe&#241;a</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Valera</surname></string-name>. <year>2013</year>. &#8220;<article-title>Analyses of Conformational Performance Differentiation Among Functional Breeding Goals in the Menorca Horse Breed</article-title>.&#8221; <source>Archives Animal Breeding</source><volume>56</volume>, no. <issue>1</issue>: <fpage>367</fpage>&#8211;<lpage>379</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0055"><mixed-citation publication-type="journal" id="vms370114-cit-0055"><string-name name-style="western"><surname>Souza</surname>, <given-names>F. A. C.</given-names></string-name>, <string-name name-style="western"><given-names>J. A.</given-names><surname>Muniz</surname></string-name>, <string-name name-style="western"><given-names>T. J.</given-names><surname>Fernandes</surname></string-name>, et al. <year>2017</year>. &#8220;<article-title>Estimation Methods and Correction Factors for Body Weight in Mangalarga Marchador Horses</article-title>.&#8221; <source>Revista Brasileira de Zootecnia</source><volume>46</volume>, no. <issue>12</issue>: <fpage>903</fpage>&#8211;<lpage>909</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0056"><mixed-citation publication-type="journal" id="vms370114-cit-0056"><string-name name-style="western"><surname>Tennah</surname>, <given-names>S.</given-names></string-name>, <string-name name-style="western"><given-names>F.</given-names><surname>Farnir</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names><surname>Kafidi</surname></string-name>, <string-name name-style="western"><given-names>I. N.</given-names><surname>Nsangou</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names><surname>Leroy</surname></string-name>, and <string-name name-style="western"><given-names>N.</given-names><surname>Antoine&#8208;Moussiaux</surname></string-name>. <year>2014</year>. &#8220;<article-title>Selective Breeding of Arabian and Thoroughbred Racehorses in Algeria: Perceptions, Objectives and Practices of Owners&#8208;Breeders</article-title>.&#8221; <source>Revista Brasileira de Zootecnia</source><volume>43</volume>: <fpage>188</fpage>&#8211;<lpage>196</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0057"><mixed-citation publication-type="journal" id="vms370114-cit-0057"><string-name name-style="western"><surname>Thiruvenkadan</surname>, <given-names>A. K.</given-names></string-name>, <string-name name-style="western"><given-names>N.</given-names><surname>Kandasamy</surname></string-name>, and <string-name name-style="western"><given-names>S.</given-names><surname>Panneerselvam</surname></string-name>. <year>2009</year>. &#8220;<article-title>Inheritance of Racing Performance of Thoroughbred Horses</article-title>.&#8221; <source>Livestock Science</source><volume>121</volume>, no. <issue>2&#8211;3</issue>: <fpage>308</fpage>&#8211;<lpage>326</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0059"><mixed-citation publication-type="journal" id="vms370114-cit-0059"><string-name name-style="western"><surname>Von Borstel</surname>, <given-names>U. K.</given-names></string-name>, <string-name name-style="western"><given-names>S.</given-names><surname>Pasing</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names><surname>Gauly</surname></string-name>, and <string-name name-style="western"><given-names>L.</given-names><surname>Christmann</surname></string-name>. <year>2013</year>. &#8220;<article-title>Status Quo of the Personality Trait Evaluation in Horse Breeding: Judges' Assessment of the Situation and Strategies for Improvement</article-title>.&#8221; <source>Journal of Veterinary Behavior</source><volume>8</volume>, no. <issue>5</issue>: <fpage>326</fpage>&#8211;<lpage>334</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0060"><mixed-citation publication-type="journal" id="vms370114-cit-0060"><string-name name-style="western"><surname>Warriach</surname>, <given-names>H. M.</given-names></string-name>, <string-name name-style="western"><given-names>M. A.</given-names><surname>Memon</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names><surname>Ahmad</surname></string-name>, <string-name name-style="western"><given-names>S. T.</given-names><surname>Norman</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names><surname>Ghafar</surname></string-name>, and <string-name name-style="western"><given-names>M.</given-names><surname>Arif</surname></string-name>. <year>2014</year>. &#8220;<article-title>Reproductive Performance of Arabian and Thoroughbred Mares Under Subtropical Conditions of Pakistan</article-title>.&#8221; <source>Asian&#8208;Australasian Journal of Animal Sciences</source><volume>27</volume>, no. <issue>7</issue>: <fpage>932</fpage>.<pub-id pub-id-type="pmid">25050033</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.5713/ajas.2013.13547</pub-id><pub-id pub-id-type="pmcid">PMC4093568</pub-id></mixed-citation></ref><ref id="vms370114-bib-0061"><mixed-citation publication-type="journal" id="vms370114-cit-0061"><string-name name-style="western"><surname>Willekes</surname>, <given-names>C.</given-names></string-name><year>2019</year>. &#8220;<article-title>Breeding Success: The Creation of the Racehorse in Antiquity</article-title>.&#8221; <source>Mouseion</source><volume>16</volume>, no. <issue>3</issue>: <fpage>453</fpage>&#8211;<lpage>469</lpage>.</mixed-citation></ref><ref id="vms370114-bib-0062"><mixed-citation publication-type="book" id="vms370114-cit-0062"><string-name name-style="western"><surname>Zamborlini</surname>, <given-names>L. C.</given-names></string-name><year>1996</year>. &#8220;<article-title>Genetic&#8208;Quantitative Study of Linear Measurements of the Mangalarga Marchador Breed</article-title>.&#8221; PhD diss., <publisher-name>UFMG&#8208;Escola de Veterin&#225;ria</publisher-name>.</mixed-citation></ref><ref id="vms370114-bib-0063"><mixed-citation publication-type="journal" id="vms370114-cit-0063"><string-name name-style="western"><surname>Zuluaga&#8208;Cabrera</surname>, <given-names>A.</given-names></string-name>, <string-name name-style="western"><given-names>N.</given-names><surname>Correa&#8208;Valencia</surname></string-name>, <string-name name-style="western"><given-names>A. M. Z.</given-names><surname>Cabrera</surname></string-name>, and <string-name name-style="western"><given-names>N. M. D. P. C.</given-names><surname>Valencia</surname></string-name>. <year>2021</year>. &#8220;<article-title>Erratum: Body Fat Evaluation in Colombian Paso Horses: Body Condition Score and Morphometric and Ultrasound Measurements</article-title>.&#8221; <source>Brazilian Journal of Veterinary Research and Animal Science</source><volume>58</volume>: <elocation-id>e189449</elocation-id>.</mixed-citation></ref></ref-list></back></article></pmc-articleset>

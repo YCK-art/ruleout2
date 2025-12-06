@@ -1,0 +1,42 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><!--The publisher of this article does not allow downloading of the full text in XML form.--><front><journal-meta><journal-id journal-id-type="nlm-ta">Zool Stud</journal-id><journal-id journal-id-type="iso-abbrev">Zool Stud</journal-id><journal-id journal-id-type="pmc-domain-id">3536</journal-id><journal-id journal-id-type="pmc-domain">zoostud</journal-id><journal-id journal-id-type="publisher-id">BRCAS</journal-id><journal-title-group><journal-title>Zoological Studies</journal-title></journal-title-group><issn pub-type="ppub">1021-5506</issn><issn pub-type="epub">1810-522X</issn><publisher><publisher-name>Biodiversity Research Center, Academia Sinica</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12417142</article-id><article-id pub-id-type="pmcid-ver">PMC12417142.1</article-id><article-id pub-id-type="pmcaid">12417142</article-id><article-id pub-id-type="pmcaiid">12417142</article-id><article-id pub-id-type="pmid">40933668</article-id><article-id pub-id-type="doi">10.6620/ZS.2024.63-58</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Assessing Phylogeographic Patterns and Genetic Diversity in <italic toggle="yes">Culex
+quinquefasciatus</italic> (Diptera: Culicidae) via mtDNA Sequences from Public
+Databases</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Garc&#237;a-Escobar</surname><given-names initials="GC">Gian Carlo</given-names></name><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gonz&#225;lez</surname><given-names initials="JJT">Juan Jos&#233; Trujillo</given-names></name><xref rid="A1" ref-type="aff">1</xref><xref rid="A3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>AguirreObando</surname><given-names initials="OA">Oscar Alexander</given-names></name><xref rid="A1" ref-type="aff">1</xref><xref rid="A3" ref-type="aff">3</xref></contrib></contrib-group><aff id="A1">
+<label>1</label>
+<italic toggle="yes">Escuela de investigaci&#243;n en Biomatem&#225;tica, Universidad
+del Quind&#237;o. Carrera 15, Calle 12 Norte, Armenia, Quind&#237;o, Colombia. E-mail:
+gcgarciae@uqvirtual.edu.co (Garc&#237;a-Escobar)</italic>
+</aff><aff id="A2">
+<label>2</label>
+<italic toggle="yes">Programa de Licenciatura en Biolog&#237;a y Educaci&#243;n
+Ambiental, Facultad de Educaci&#243;n, Universidad del Quind&#237;o. Carrera 15, Calle 12 Norte,
+Armenia, Quind&#237;o, Colombia</italic>
+</aff><aff id="A3">
+<label>3</label>
+<italic toggle="yes">Programa de Biolog&#237;a, Facultad de Ciencias B&#225;sicas y
+Tecnolog&#237;as, Universidad del Quind&#237;o. Carrera 15, Calle 12 Norte, Armenia, Quind&#237;o,
+Colombia. E-mail: oscaraguirre@uniquindio.edu.co (Aguirre-Obando);
+juanj.trujillog@uqvirtual.edu.co (Gonz&#225;lez)</italic>
+</aff><author-notes><corresp id="COR1">*Correspondence: E-mail:
+<email>oscaraguirre@uniquindio.edu.co</email></corresp></author-notes><pub-date pub-type="collection"><year>2024</year></pub-date><pub-date pub-type="epub"><day>31</day><month>12</month><year>2024</year></pub-date><volume>63</volume><issue-id pub-id-type="pmc-issue-id">470208</issue-id><elocation-id>e58</elocation-id><history><date date-type="received"><day>28</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>27</day><month>11</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>31</day><month>12</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>10</day><month>09</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-09-12 20:25:27.070"><day>12</day><month>09</month><year>2025</year></date></event></pub-history><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="zoolstud-63-058.pdf"/><abstract abstract-type="executive-summary"><p>To identify the worldwide genetic structure, gene flow, and diversity of <italic toggle="yes">Culex
+quinquefasciatus</italic>, we conducted phylogeographic and population genetics analyses
+utilizing publicly available mtDNA sequences. Therefore, the aim of this study was to
+investigate the genetic structure and diversity of natural populations of <italic toggle="yes">C.
+quinquefasciatus</italic> worldwide, using available genetic data reflecting its natural
+distribution. Our study focused on the cytochrome <italic toggle="yes">c</italic> oxidase subunit I
+(<italic toggle="yes">COI</italic>) gene, mirroring the species&#8217; distribution pattern. We examined
+<italic toggle="yes">COI</italic> gene sequences from <italic toggle="yes">C. quinquefasciatus</italic>
+populations across Asia (<italic toggle="yes">n</italic> = 1,698), America (<italic toggle="yes">n</italic> = 334),
+Africa (<italic toggle="yes">n</italic> = 30), Oceania (<italic toggle="yes">n</italic> = 21), and Europe
+(<italic toggle="yes">n</italic> = 1), identifying 69 haplotypes. Genetic links were observed between
+Asian populations and those from other continents. Global genetic diversity was 0.531,
+varying from 0.095 in Oceania to 0.648 in South America. Neutrality tests indicated
+demographic expansions at the continental level in the Americas, North America, and Asia,
+as well as in some countries within these regions. In contrast, at both global and
+continental levels (South America, Oceania, and Africa), and in most countries within
+these continents, neutral populations were observed. AMOVA revealed genetic structuring
+among and within countries, with no genetic isolation observed
+(<italic toggle="yes">R</italic><sup>2</sup> = 0.03144; <italic toggle="yes">p</italic> &gt; 0.05). Despite lower
+genetic diversity, Asian populations facilitated gene flow with other continents,
+suggesting a possible native origin of the species in Asia. The dispersal of this mosquito
+to new regions, coupled with its ability to transmit various arboviruses, underscores its
+significance as a potential public health threat.</p></abstract><kwd-group kwd-group-type="author"><kwd>Epidemiology</kwd><kwd>Genetic diversity</kwd><kwd>Public health</kwd><kwd>Southern house mosquito</kwd><kwd>Vector capacity</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front></article></pmc-articleset>

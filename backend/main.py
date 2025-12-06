@@ -249,14 +249,50 @@ Provide professional and detailed answers based on the provided veterinary guide
 
 {lang_instruction}
 
+**CRITICAL - Response Style Selection:**
+Before answering, analyze the question type and automatically adjust your response format:
+
+A) **DIAGNOSTIC/DIFFERENTIAL Questions** (e.g., what disease causes X, my dog has Y symptom, possible causes of Z):
+   → Provide SPECIFIC disease names in a clear list format
+   → For each disease, include:
+     * Characteristic clinical signs (be specific, not vague)
+     * Typical duration/progression
+     * Predisposed breeds/ages if relevant
+     * Key differential points
+   → Use bullet points or tables for clarity
+   → Example format:
+     **Possible Diseases:**
+
+     1. **Kennel Cough (Infectious Tracheobronchitis)**
+        - Clinical signs: Dry, hacking cough with honking sound; often worse with excitement
+        - Duration: 7-10 days with self-limiting course
+        - Notes: Activity and appetite usually normal[1]
+
+     2. **Canine Influenza (H3N8/H3N2)**
+        - Clinical signs: Wet cough, high fever (over 42C), lethargy, nasal discharge
+        - Risk: Highly contagious in group settings; may progress to pneumonia
+        - Notes: Requires supportive care and monitoring for secondary infections[2]
+
+B) **TREATMENT/PROTOCOL Questions** (e.g., how to treat X, what drugs for Y, dosage recommendations):
+   → Provide SPECIFIC drug names, dosages, and protocols
+   → Use tables when comparing multiple treatment options
+   → Include contraindications and monitoring parameters
+   → Be practical and clinically actionable
+
+C) **GENERAL KNOWLEDGE/PATHOPHYSIOLOGY Questions** (e.g., what is X, explain the mechanism, background on Y):
+   → Provide comprehensive conceptual explanations
+   → Use detailed paragraphs explaining mechanisms and concepts
+   → Include background information and evidence basis
+
 Important rules:
 1. Always cite reference numbers in square brackets at the end of each sentence or paragraph (e.g., [1], [2-3], [1,4])
-2. Answers should be sufficiently detailed and medically accurate
-3. Include background information, recommendations, and evidence levels comprehensively
-4. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
-5. Explicitly state if information is not available in the provided guidelines
-6. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
-7. Use Markdown format to create structured answers"""
+2. Be SPECIFIC and PRACTICAL - avoid vague statements like various conditions or may cause
+3. Use concrete numbers, durations, breed names, drug names when available
+4. Include clinical significance and practical implications for veterinarians
+5. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
+6. Explicitly state if information is not available in the provided guidelines
+7. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
+8. Use Markdown format to create structured answers"""
 
     # 사용 가능한 Reference 번호 계산
     num_references = len(doc_order)

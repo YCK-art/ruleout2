@@ -1,0 +1,562 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10643535</article-id><article-id pub-id-type="pmcid-ver">PMC10643535.1</article-id><article-id pub-id-type="pmcaid">10643535</article-id><article-id pub-id-type="pmcaiid">10643535</article-id><article-id pub-id-type="pmid">38023809</article-id><article-id pub-id-type="doi">10.18699/VJGB-23-78</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Molecular basis and genetics
+of hypohidrotic ectodermal dysplasias</article-title><trans-title-group xml:lang="ru"><trans-title>&#1052;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;&#1103;&#1088;&#1085;&#1086;-&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1075;&#1080;&#1087;&#1086;&#1075;&#1080;&#1076;&#1088;&#1086;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1081;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Kovalskaia</surname><given-names initials="VA">V.A.</given-names></name><aff>
+<institution>Research Centre for Medical Genetics, Moscow, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cherevatova</surname><given-names initials="TB">T.B.</given-names></name><aff>
+<institution>Research Centre for Medical Genetics, Moscow, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Polyakov</surname><given-names initials="AV">A.V.</given-names></name><aff>
+<institution>Research Centre for Medical Genetics, Moscow, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ryzhkova</surname><given-names initials="OP">O.P.</given-names></name><aff>
+<institution>Research Centre for Medical Genetics, Moscow, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: V.A. Kovalskaia
+<email>kovalskaya@med-gen.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>10</month><year>2023</year></pub-date><volume>27</volume><issue>6</issue><issue-id pub-id-type="pmc-issue-id">448986</issue-id><fpage>676</fpage><lpage>683</lpage><history><date date-type="received"><day>19</day><month>8</month><year>2022</year></date><date date-type="rev-recd"><day>06</day><month>2</month><year>2023</year></date><date date-type="accepted"><day>24</day><month>3</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>10</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>01</day><month>10</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-10-09 14:25:15.503"><day>09</day><month>10</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-27-2378.pdf"/><abstract><p>Ectodermal dysplasia (ED) is a heterogeneous group of hereditary diseases of the skin and its appendages, which are characterized by impaired development and/or homeostasis of two or more ectoderm derivatives, including: hair, teeth, nails, sweat glands and their modifications (mammary glands, for instance). The overall prevalence of ectodermal dysplasia remains precisely unknown not only in Russia, but also in the world, nor is known the contribution of individual genes to its structure. This complicates the DNA diagnosis establishment of this disease due to the lack of an accurate diagnostic algorithm and a universal cost-effective method of analysis. To date, the most highly-researched genes involved in the development of anhydrous or hypohidrotic forms of ED are EDA, EDAR, EDARADD and WNT10A. The ectodysplasin A (EDA) gene is the cause of the most common X-linked form of ED, a gene from the Wnt family (WNT10A) is responsible for the autosomal recessive form of the disease, and two other genes (EDAR and EDARADD) can cause both autosomal recessive and autosomal dominant forms. This review provides the characteristics of the genes involved in ED, their mutation spectra, the level of their expression in human tissues, as well as the interrelation of the aforementioned genes. The domain structures of the corresponding proteins are considered, as well as the molecular genetic pathways in which they are involved. Animal models for studying this disorder are also taken into consideration. Due to the cross-species genes conservation, their mutations cause the disruption of the development of ectoderm derivatives not only in humans, but also in mice, cows, dogs, and even fish. It can be exploited for a better understanding of the etiopathogenesis of ectodermal dysplasias. Moreover, this article brings up the possibility of recurrent mutations in the EDA and WNT10A genes. The review also presents data on promising approaches for intrauterine ED treatment.</p></abstract><trans-abstract xml:lang="ru"><p>&#1069;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1080; &#8211; &#1075;&#1077;&#1090;&#1077;&#1088;&#1086;&#1075;&#1077;&#1085;&#1085;&#1072;&#1103; &#1075;&#1088;&#1091;&#1087;&#1087;&#1072; &#1085;&#1072;&#1089;&#1083;&#1077;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1093; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081; &#1082;&#1086;&#1078;&#1080; &#1080; &#1077;&#1077; &#1087;&#1088;&#1080;&#1076;&#1072;&#1090;&#1082;&#1086;&#1074;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1079;&#1091;&#1102;&#1090;&#1089;&#1103; &#1085;&#1072;&#1088;&#1091;&#1096;&#1077;&#1085;&#1080;&#1077;&#1084; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1103; &#1080;/&#1080;&#1083;&#1080; &#1075;&#1086;&#1084;&#1077;&#1086;&#1089;&#1090;&#1072;&#1079;&#1072; &#1076;&#1074;&#1091;&#1093; &#1080; &#1073;&#1086;&#1083;&#1077;&#1077; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1085;&#1099;&#1093; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1099;, &#1074;&#1082;&#1083;&#1102;&#1095;&#1072;&#1103;: &#1074;&#1086;&#1083;&#1086;&#1089;&#1099;, &#1079;&#1091;&#1073;&#1099;, &#1085;&#1086;&#1075;&#1090;&#1080;, &#1087;&#1086;&#1090;&#1086;&#1074;&#1099;&#1077; &#1078;&#1077;&#1083;&#1077;&#1079;&#1099; &#1080; &#1080;&#1093; &#1084;&#1086;&#1076;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1080; (&#1085;&#1072;&#1087;&#1088;&#1080;&#1084;&#1077;&#1088;, &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1099;&#1077; &#1078;&#1077;&#1083;&#1077;&#1079;&#1099;). &#1054;&#1073;&#1097;&#1072;&#1103; &#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1100; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1081; &#1086;&#1089;&#1090;&#1072;&#1077;&#1090;&#1089;&#1103; &#1090;&#1086;&#1095;&#1085;&#1086; &#1085;&#1077;&#1080;&#1079;&#1074;&#1077;&#1089;&#1090;&#1085;&#1086;&#1081; &#1085;&#1077; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1074; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080;, &#1085;&#1086; &#1080; &#1074; &#1084;&#1080;&#1088;&#1077;, &#1090;&#1072;&#1082; &#1078;&#1077; &#1082;&#1072;&#1082; &#1080; &#1074;&#1082;&#1083;&#1072;&#1076; &#1086;&#1090;&#1076;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074; &#1074; &#1077;&#1077; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1091;. &#1069;&#1090;&#1086; &#1079;&#1072;&#1090;&#1088;&#1091;&#1076;&#1085;&#1103;&#1077;&#1090; &#1044;&#1053;&#1050;-&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1091; &#1076;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1103; &#1074;&#1074;&#1080;&#1076;&#1091; &#1086;&#1090;&#1089;&#1091;&#1090;&#1089;&#1090;&#1074;&#1080;&#1103; &#1089;&#1090;&#1088;&#1086;&#1075;&#1086;&#1075;&#1086; &#1072;&#1083;&#1075;&#1086;&#1088;&#1080;&#1090;&#1084;&#1072; &#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1080; &#1080; &#1091;&#1085;&#1080;&#1074;&#1077;&#1088;&#1089;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086;, &#1101;&#1082;&#1086;&#1085;&#1086;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080; &#1074;&#1099;&#1075;&#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1084;&#1077;&#1090;&#1086;&#1076;&#1072; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072;. &#1053;&#1072; &#1089;&#1077;&#1075;&#1086;&#1076;&#1085;&#1103;&#1096;&#1085;&#1080;&#1081; &#1076;&#1077;&#1085;&#1100; &#1085;&#1072;&#1080;&#1073;&#1086;&#1083;&#1077;&#1077; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1084;&#1080; &#1075;&#1077;&#1085;&#1072;&#1084;&#1080;, &#1074;&#1086;&#1074;&#1083;&#1077;&#1095;&#1077;&#1085;&#1085;&#1099;&#1084;&#1080; &#1074; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1077; &#1072;&#1085;&#1075;&#1080;&#1076;&#1088;&#1086;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1080;&#1083;&#1080; &#1075;&#1080;&#1087;&#1086;&#1075;&#1080;&#1076;&#1088;&#1086;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1092;&#1086;&#1088;&#1084; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1080; &#1103;&#1074;&#1083;&#1103;&#1102;&#1090;&#1089;&#1103; EDA, EDAR, EDARADD &#1080; WNT10A. &#1043;&#1077;&#1085; &#1101;&#1082;&#1090;&#1086;&#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1085;&#1072; &#1040; (EDA) &#1089;&#1083;&#1091;&#1078;&#1080;&#1090; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1086;&#1081; &#1089;&#1072;&#1084;&#1086;&#1081; &#1095;&#1072;&#1089;&#1090;&#1086;&#1081; &#1061;-&#1089;&#1094;&#1077;&#1087;&#1083;&#1077;&#1085;&#1085;&#1086;&#1081; &#1092;&#1086;&#1088;&#1084;&#1099; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1080;, &#1075;&#1077;&#1085; &#1080;&#1079; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;&#1072; Wnt (WNT10A) &#1086;&#1090;&#1074;&#1077;&#1095;&#1072;&#1077;&#1090; &#1079;&#1072; &#1072;&#1091;&#1090;&#1086;&#1089;&#1086;&#1084;&#1085;&#1086;-&#1088;&#1077;&#1094;&#1077;&#1089;&#1089;&#1080;&#1074;&#1085;&#1091;&#1102; &#1092;&#1086;&#1088;&#1084;&#1091; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1103;, &#1072; &#1076;&#1074;&#1072; &#1076;&#1088;&#1091;&#1075;&#1080;&#1093; &#1075;&#1077;&#1085;&#1072; (EDAR &#1080; EDARADD) &#1084;&#1086;&#1075;&#1091;&#1090; &#1073;&#1099;&#1090;&#1100; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1086;&#1081; &#1082;&#1072;&#1082; &#1072;&#1091;&#1090;&#1086;&#1089;&#1086;&#1084;&#1085;&#1086;-&#1088;&#1077;&#1094;&#1077;&#1089;&#1089;&#1080;&#1074;&#1085;&#1099;&#1093;, &#1090;&#1072;&#1082; &#1080; &#1072;&#1091;&#1090;&#1086;&#1089;&#1086;&#1084;&#1085;&#1086;-&#1076;&#1086;&#1084;&#1080;&#1085;&#1072;&#1085;&#1090;&#1085;&#1099;&#1093; &#1092;&#1086;&#1088;&#1084;. &#1042; &#1085;&#1072;&#1089;&#1090;&#1086;&#1103;&#1097;&#1077;&#1084; &#1083;&#1080;&#1090;&#1077;&#1088;&#1072;&#1090;&#1091;&#1088;&#1085;&#1086;&#1084; &#1086;&#1073;&#1079;&#1086;&#1088;&#1077; &#1087;&#1088;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1099; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1075;&#1077;&#1085;&#1086;&#1074;, &#1074;&#1086;&#1074;&#1083;&#1077;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093; &#1074; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1091;&#1102; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1102;, &#1089;&#1087;&#1077;&#1082;&#1090;&#1088;&#1099; &#1080;&#1093; &#1084;&#1091;&#1090;&#1072;&#1094;&#1080;&#1081;, &#1091;&#1088;&#1086;&#1074;&#1077;&#1085;&#1100; &#1080;&#1093; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1080; &#1074; &#1090;&#1082;&#1072;&#1085;&#1103;&#1093; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1074;&#1079;&#1072;&#1080;&#1084;&#1086;&#1089;&#1074;&#1103;&#1079;&#1100; &#1074;&#1099;&#1096;&#1077;&#1091;&#1087;&#1086;&#1084;&#1103;&#1085;&#1091;&#1090;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074; &#1076;&#1088;&#1091;&#1075; &#1089; &#1076;&#1088;&#1091;&#1075;&#1086;&#1084;. &#1054;&#1073;&#1089;&#1091;&#1078;&#1076;&#1072;&#1077;&#1090;&#1089;&#1103; &#1090;&#1072;&#1082;&#1078;&#1077; &#1076;&#1086;&#1084;&#1077;&#1085;&#1085;&#1072;&#1103; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1072; &#1089;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1091;&#1102;&#1097;&#1080;&#1093; &#1073;&#1077;&#1083;&#1082;&#1086;&#1074;, &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1099; &#1084;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;&#1103;&#1088;&#1085;&#1086;-&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1087;&#1091;&#1090;&#1080;, &#1074; &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1086;&#1085;&#1080; &#1087;&#1088;&#1077;&#1080;&#1084;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086; &#1074;&#1086;&#1074;&#1083;&#1077;&#1095;&#1077;&#1085;&#1099;, &#1080; &#1086;&#1087;&#1080;&#1089;&#1072;&#1085;&#1099; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080; &#1076;&#1083;&#1103; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1103; &#1076;&#1072;&#1085;&#1085;&#1086;&#1081; &#1087;&#1072;&#1090;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080;. &#1042;&#1074;&#1080;&#1076;&#1091; &#1084;&#1077;&#1078;&#1074;&#1080;&#1076;&#1086;&#1074;&#1086;&#1081; &#1082;&#1086;&#1085;&#1089;&#1077;&#1088;&#1074;&#1072;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080; &#1091;&#1087;&#1086;&#1084;&#1103;&#1085;&#1091;&#1090;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074;, &#1084;&#1091;&#1090;&#1072;&#1094;&#1080;&#1080; &#1074; &#1085;&#1080;&#1093; &#1074;&#1099;&#1079;&#1099;&#1074;&#1072;&#1102;&#1090; &#1085;&#1072;&#1088;&#1091;&#1096;&#1077;&#1085;&#1080;&#1103; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1103; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1085;&#1099;&#1093; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1099; &#1085;&#1077; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1091; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;, &#1085;&#1086; &#1080; &#1091; &#1084;&#1099;&#1096;&#1077;&#1081;, &#1082;&#1086;&#1088;&#1086;&#1074;, &#1089;&#1086;&#1073;&#1072;&#1082; &#1080; &#1076;&#1072;&#1078;&#1077; &#1088;&#1099;&#1073;,
+&#1095;&#1090;&#1086; &#1084;&#1086;&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1086; &#1076;&#1083;&#1103; &#1083;&#1091;&#1095;&#1096;&#1077;&#1075;&#1086; &#1087;&#1086;&#1085;&#1080;&#1084;&#1072;&#1085;&#1080;&#1103; &#1101;&#1090;&#1080;&#1086;&#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1077;&#1079;&#1072; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1081;. &#1041;&#1086;&#1083;&#1077;&#1077;
+&#1090;&#1086;&#1075;&#1086;, &#1074; &#1089;&#1090;&#1072;&#1090;&#1100;&#1077; &#1087;&#1086;&#1076;&#1085;&#1080;&#1084;&#1072;&#1102;&#1090;&#1089;&#1103; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1086; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1099;&#1093; &#1084;&#1091;&#1090;&#1072;&#1094;&#1080;&#1103;&#1093; &#1074; &#1075;&#1077;&#1085;&#1072;&#1093; EDA &#1080; WNT10A. &#1055;&#1088;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1099; &#1090;&#1072;&#1082;&#1078;&#1077;
+&#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1082;&#1072;&#1089;&#1072;&#1077;&#1084;&#1086; &#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1072;&#1090;&#1099;&#1074;&#1072;&#1077;&#1084;&#1099;&#1093; &#1087;&#1077;&#1088;&#1089;&#1087;&#1077;&#1082;&#1090;&#1080;&#1074;&#1085;&#1099;&#1093; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076;&#1086;&#1074; &#1082; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1091;&#1090;&#1088;&#1086;&#1073;&#1085;&#1086;&#1084;&#1091; &#1083;&#1077;&#1095;&#1077;&#1085;&#1080;&#1102; &#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081;
+&#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1080;.</p></trans-abstract><kwd-group><kwd>ectodermal dysplasia</kwd><kwd>EDA</kwd><kwd>tooth agenesis</kwd><kwd>Wnt family</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1101;&#1082;&#1090;&#1086;&#1076;&#1077;&#1088;&#1084;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1076;&#1080;&#1089;&#1087;&#1083;&#1072;&#1079;&#1080;&#1103;</kwd><kwd>EDA</kwd><kwd>&#1072;&#1075;&#1077;&#1085;&#1077;&#1079;&#1080;&#1103; &#1079;&#1091;&#1073;&#1086;&#1074;</kwd><kwd>&#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;&#1086; Wnt</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Ectodermal dysplasia (ED) refers to a diverse set of molecular
+genetic disorders that share a common feature of developmental
+abnormalities or imbalances affecting two or more
+ectodermal structures (Wright et al., 2019). Despite the fact
+that the ectoderm determines the development of many organs
+and tissues, such as: the central and peripheral nervous system,
+pituitary gland, olfactory neuroepithelium, melanocytes, tooth
+enamel, epidermis, including sweat glands, hair, nails, ED
+primarily affects the latter group of ectodermal derivatives.</p><p>The exact prevalence of ED is uncertain due to limited
+research and differing classification criteria across countries.
+Nonetheless, some estimate that it may affect as many as 70
+out of 100,000 newborns (Itin, Fistarol, 2004). Reported data
+for the Danish population, collected from 1995 to 2010, indicate
+that the prevalence of ectodermal dysplasia corresponds
+to 21.9 per 100,000, and molecularly confirmed X-linked
+ectodermal dysplasia &#8211; 1.6 per 100,000 (Nguyen-Nielsen et
+al., 2013). Thus, ectodermal dysplasias, although they are not
+among the most common hereditary diseases, have a widespread
+presence and make a significant contribution to the
+structure of dental, dermatological, and genetic pathologies.</p><p>This group of pathological conditions may have been
+known since the end of the 18th century, however, the first
+documented case of ectodermal dysplasia dates back to 1838,
+when Wedderburn, in a letter to Charles Darwin, described
+10 men from an Indian family suffering from partial absence
+of teeth, baldness and excessive dry skin (Felsher, 1944). In
+1848, two additional patients were reported by Thurman, and
+another case was documented by Guilford in 1883. However,
+only in 1929 the term &#8220;hereditary ectodermal dysplasia&#8221; was
+introduced by Weech, who also introduced the term &#8220;anhidrotic&#8221;
+to describe individuals with ectodermal dysplasia who
+exhibit a diminished ability to sweat. This term was subsequently
+replaced by &#8220;hypohidrotic&#8221; (Weech, 1929). Following
+an analysis of 19 affected families in 1937, Siemens concluded
+that the genetic etiology of ectodermal dysplasia could not
+be explained by a single gene and one mode of inheritance.
+Thus, it was realized that both dominant and recessive forms
+of the disease were present, along with sex-linked forms that
+exhibited phenotypic overlap but did not entirely replicate it
+(Siemens, 1937). In 1939, Clouston noticed that despite similar
+clinical data patients with manifestations of ectodermal dysplasia
+may differ significantly from each other in the extent of
+sweat gland development. As a result, he classified them into
+two broad categories: hypohidrotic type, which was limited
+to only 4 cases, and hidrotic ectodermal dysplasia, which
+encompassed over 50 patients (Clouston, 1939).</p><p>Further study of this nosological unit resulted in the development
+of the initial clinical classification by Freire-Maia and
+Pinheiro (Freire-Maia, 1971; Freire-Maia, Pinheiro, 1988),
+which has been widely employed in routine medical practice.
+Their classification was based on the principle of involvement
+of certain ectodermal structures in the pathological process.
+They assigned to group A all conditions in which at least
+two classical derivatives of the ectoderm were affected, such
+as: hair, teeth, nails and sweat glands. Diseases assigned to
+group B included deviations in only one of the four structures
+mentioned above and one additional ectodermal defect,
+such as abnormalities of the ears, lips, or palmar and plantar
+hyperkeratosis. The condition, which was characterized by
+the presence of only ectodermal signs, they called pure ectodermal
+dysplasia. The combination of ectodermal signs with
+other anomalies was called ectodermal dysplasia syndrome
+by the authors. In addition, all the classical structures of the
+ectoderm were numbered, where 1 &#8211; hair, 2 &#8211; teeth, 3 &#8211; nails,
+4 &#8211; sweat glands, in order to distinguish further the main
+groups of ED: ED1 &#8211; trichodysplasia, ED2 &#8211; dental dysplasia,
+ED3 &#8211; onychodysplasia, ED4 &#8211; dyshidrosis (Deshmukh,
+Prashanth, 2012). It is worth mentioning that the classification
+proposed by Freire-Maia and Pinheiro did not consider
+the molecular and genetic aspects of ectodermal dysplasia
+and necessitated revision with the emergence of next-generation
+sequencing techniques and advancements in genomic
+medicine.</p><p>At the end of 2019, a group of international experts associated
+with the National Foundation for Ectodermal Dysplasias
+(NFED) published a revised classification of ectodermal
+dysplasia (ED) in the American Journal of Medical Genetics.
+This updated classification system is based on the molecular
+pathways involved in the development of ED and provides
+a more precise list of pathologies than previous classifications.
+Specifically, the new classification identifies 102 syndromes
+that fall under the definition of ectodermal dysplasia, reflecting
+a more comprehensive understanding of this complex condition
+(Wright et al., 2019). In addition to non-syndromic ectodermal
+dysplasia, it included such heterogeneous syndromes
+as: Coffin&#8211;Siris, Dubowitz, Hallermann&#8211;
+Streiff, Gorlin&#8211;Goltz,
+Johanson&#8211;Blizzard and others, which does not meet the
+criteria set by domestic terminology. In the Russian Federation,
+the term &#8220;ectodermal dysplasia&#8221; typically refers only to
+non-syndromic forms of the condition, specifically anhidrotic
+(hypohidrotic) and hidrotic forms (Kozlova, Demikova, 2007).
+However, it is worth noting that these isolated forms are fully
+consistent with the molecular etiology proposed by experts
+from NFED.</p><p>The current understanding of ED suggests the involvement
+of four major signaling pathways: EDA-mediated, WNT-,
+NF-&#954;B-, and TP63-mediated pathways. Of these, only the first
+three have been implicated in the development of anhidrotic
+forms of ectodermal dysplasia (Fig. 1) (Mikkola, 2009; Sadier
+et al., 2015; Wright et al., 2019).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>The major proteins involved in the development of ectodermal structures</title><p>EDA is expressed on the cell surface, but its extracellular domain can be proteolytically cleaved to form a soluble signaling molecule
+that binds to the ectodysplasin receptor (EDAR). EDAR interacts with the EDARADD protein, and further downstream signaling via
+activation of the NF&#954;B pathway leads to the expression of genes specific to the epidermis, hair, teeth, and nails. XL-HED &#8211; X-linked
+hypohidrotic ectodermal dysplasia, AD-HED &#8211; autosomal dominant hypohidrotic ectodermal dysplasia, AR-HED &#8211; autosomal recessive
+hypohidrotic ectodermal dysplasia, HED-ID &#8211; hypohidrotic ectodermal dysplasia with immunodeficiency.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2378-Fig1.jpg"/></fig></sec><sec><title>Major genes involved in the development
+of ectodermal dysplasia</title><p>The human EDA gene (also known as ED1, HED, EDA1,
+EDA2, HED1, ODT1, XHED, ECTD1) is a protein-coding
+gene responsible for the synthesis of ectodysplasin A, a type II
+transmembrane protein belonging to the tumor necrosis factor
+(TNF) family, which is involved in the transmission of
+epithelial-mesenchymal signals during the morphogenesis of
+ectodermal structures in humans (Bay&#233;s et al., 1998; Mikkola,
+Thesleff, 2003).</p><p>The EDA (ectodysplasin A) gene is mapped on the X chromosome,
+at the Xq13.1 locus, according to the main transcript
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NM_001399.5">NM_001399.5</ext-link>), it contains 8 exons, with start and
+stop codons in the first and last exons, respectively. A total
+of 8 protein-coding isoforms have been described, differing
+in length and function, but isoform 1 (EDA-A1), consisting
+of 391 amino acids, is the main one and is the ligand for the
+EDAR receptor. Another isoform, known as EDA-2, is distinguished
+by the absence of Val307 and Glu308 in the TNF
+domain and binds only to EDA2R, ensuring the subsequent
+correct postembryonic functioning of various structures and
+tissues (Kere et al., 1996). Both isoforms, EDA1 and EDA2,
+through the EDAR and EDA2R receptors activate the NF&#954;B
+signaling pathway, but only the EDA1/EDAR interaction is
+important in the development of ectoderm derivatives and
+the disease (Newton et al., 2004). The precise reason why the
+disruption of EDA-A2/XEDAR interaction does not lead to
+the ectodermal dysplasia phenotype is currently unknown and
+requires further investigation, however, studies have shown
+that EDA-A2 is expressed primarily in aging adipose tissue,
+arteries, heart, lungs, muscle, and skin, and may also regulate
+glucose metabolism, and serves as a predictor of steatosis
+aggravation in patients with non-alcoholic fatty liver disease
+(Yang et al., 2015; Cai et al., 2021).</p><p>Besides the C-terminal TNF domain (249&#8211;383 aa), ectodysplasin
+A contains a collagen domain (180&#8211;229 aa), a furin
+cleavage site (153&#8211;160 aa), and a transmembrane N-terminal
+domain (42&#8211;62 aa) (Chen et al., 2001; www.ncbi.nlm.nih.gov/
+Structure/cdd/wrpsb.cgi; www.uniprot.org/uniprot/<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-protein" xlink:href="Q92838">Q92838</ext-link>)
+(Fig. 2). Ectodysplasin A, as a member of the TNF-ligand family,
+can function locally through direct intercellular contacts
+as a complete membrane form. However, it predominantly acts
+in its secreted form, which is generated through proteolytic
+cleavage at a furin consensus site that releases the C-terminal
+part of the protein as a soluble trimeric ligand. This ligand then
+initiates downstream signaling by activating various proteins
+(Elomaa, 2001) (see Fig. 1).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>Domain structure of the main proteins involved in the EDA-mediated
+pathway.</title><p>TM &#8211; transmembrane domain; Furin cleavage &#8211; Furin cleavage site; COL &#8211; collagen
+domain; TNF &#8211; tumor necrosis factor domain; LBD &#8211; ligand-binding domain;
+DD &#8211; death domain.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2378-Fig2.jpg"/></fig><p>EDAR is another key protein in this molecular genetic
+pathway, encoded by the gene of the same name at the
+chr2q12.3 locus. As for the topology, the ectodysplasin A
+receptor has an extracellular part, including a ligand-binding
+domain (LBD) (13&#8211;148 aa), encoded by exons 2&#8211;5 and a cytoplasmic
+part, represented by a death domain, encoded by
+exon 12 (354&#8211;428 aa) for interaction with the &#946;-isoform of
+EDARADD (Sadier et al., 2015; Zhang et al., 2020; www.
+ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml). The latter, in turn,
+through the EDAR-associated death domain (124&#8211;189 aa)
+and the TRAF6-binding site (27&#8211;31 aa) leads to subsequent
+activation of the NF-&#954;B pathway (Morlon et al., 2005; Asano
+et al., 2021) (see Fig. 1).</p><p>The high degree of similarity between the human and
+mouse genes facilitated the generation of several mutant
+mouse lines in the 1990s (Headon, Overbeek, 1999; Trzeciak,
+Koczorowski, 2015). It was observed that subjects lacking
+EDA2R(XEDAR) did not exhibit any symptoms of ectodermal
+dysplasia (Newton et al., 2004). However, individuals harboring
+recessive (downless) and dominant (Sleek) mutations in
+the EDAR gene demonstrated significant disruption in the
+development of ectodermal structures, such as sparse hair,
+absence of cover behind the ear, and presence of abnormal
+teeth, particularly incisors (Crocker, Cattanach, 1979). In the
+phenotype of Tabby mutant (analog of human EDA) male
+mice, there were found alopecia areata behind the ears, tail
+alopecia, an absence of some vibrissae, abnormal fur texture
+due to the absence of zigzag-shaped and protective hairs, and
+an absence of sweat glands normally found on the paw pads
+(Ferguson et al., 1997; Srivastava et al., 1997). In crinkled and
+swh/swh mice, due to homozygous variants in the EDARADD
+gene, a similar ectodermal dysplasia phenotype was observed,
+and females were unable to feed offspring due to underdevelopment
+of the mammary glands (Yan et al., 2002; Kuramoto
+et al., 2005, 2011).</p><p>The highly conserved nature of the EDA-mediated pathway
+has enabled the identification of a common phenotype in other
+vertebrates, as well as distinct mutations in genes of interest
+(Pantalacci et al., 2008). Notably, a long deletion spanning
+exon 3 of the EDA gene was identified in four male calves,
+resulting in a significant reduction in hair density on the head,
+auricles, neck, back, and tail. These areas of the body exhibited
+sparse hair growth, while teeth abnormalities such as partial
+adentia and conical teeth were also observed (Dr&#246;gem&#252;ller
+et al., 2001, 2002). In male dogs with a hemizygous mutation
+in the splicing acceptor site of exon 8 of the EDA gene, all
+sweat glands were absent, they were completely devoid of
+hair in the frontal part and in the pelvic region on the back.
+Most premolars and some incisors were missing, and the
+present teeth were mostly conical. Moreover, affected dogs
+showed increased morbidity and mortality from pulmonary
+infectious diseases compared to other dogs in the same environment
+(Casal et al., 2005). Zebrafish and medaka mutants
+with disturbances in EDA signaling (EDA and EDAR genes)
+were observed to have lost fins and scales, lacked teeth, or had
+abnormally-shaped teeth (Harris et al., 2008; Atukorala et al.,
+2010). The situation was similar with marine and freshwater
+sticklebacks: marine representatives of Gasterosteus aculeatus,
+in which the expression of the EDA gene is much higher,
+demonstrated a more developed cover with 32 lateral plates,
+while freshwater individuals were limited to 0&#8211;9 lateral plates
+(O&#8217;Brown et al., 2015). Based on these data, the EDA pathway
+probably controls the development of ectoderm derivatives in
+all vertebrates (Sadier et al., 2014).</p><p>EDA is mostly expressed in endocrine organs (adrenals,
+thyroid, ovaries), various parts of the brain and heart, the lowest
+level of expression is observed in blood cells (TPM 0.18).
+For cultured fibroblasts, this indicator is 0.89, which makes
+them the most accessible object for studying EDA-transcripts
+(www.gtexportal.org). Expression of EDAR and EDARADD
+predominantly occurs in the bladder, esophageal mucosa, and
+skin. However, it is also more efficient to study EDARADD
+expression patterns on a culture of fibroblasts, while studying
+the structure of mRNA and splicing disorders of EDAR-transcripts
+is possible mainly only when using blood leukocytes
+(www.gtexportal.org).</p><p>According to the HGMD database, mutations in EDA, EDAR
+and EDARADD are relatively evenly distributed throughout
+the genes and affect all significant domains (www.hgmd.cf.
+ac.uk). To date, 371 pathogenic variants have been described
+in the EDA gene, 83 in EDAR, and 19 in EDARADD, including
+missense and nonsense mutations that make up the major
+part, deletions and insertions, including gross ones, as well as
+splicing variants, affecting both canonical splicing sites and
+leading to activation of cryptic ones (www.hgmd.cf.ac.uk).</p><p>To date, there is no record of classical recurrent mutations in
+the genes related to the EDA-mediated pathway in any population.
+However, some researchers have reported that variants
+in EDA affecting amino acids R155 and R156 at overlapping
+furin cleavage sites may amount to from 7 to 30 % (Vincent
+et al., 2001; Chaudhary et al., 2022). This phenomenon can,
+in particular, be explained by the presence of a CpG rich
+region in exon 3 in arginine codons 155, 156, which, when
+methylated, causes the so-called C-T transition (Chen et al.,
+2001).</p><p>Another notable observation is that the majority of mutations
+occurring in the EDA gene lead to X-linked hypohidrotic
+ectodermal dysplasia (OMIM 305100), characterized by classic
+symptoms such as scalp hypotrichosis, nail dystrophy, oligodontia
+with conical incisors, and hypohidrosis (www.omim.
+org). While male patients exhibit a more severe phenotype,
+clinical manifestations can also be observed in females, even in
+the absence of an unequal pattern of X-chromosome inactivation
+(Vincent et al., 2001). Up to 70 % of heterozygous female
+carriers of pathogenic variants in the EDA gene demonstrate
+one or more disorders: some degree of hypotrichosis, reduced
+sweating, missing one or more teeth, underdevelopment of the
+mammary glands, or problems with breastfeeding &#8211; the latter,
+however, can only be fully assessed after puberty or pregnancy,
+respectively (Wahlbuhl-Becker et al., 2017; Wohlfart et al.,
+2020). Moreover, even within the same family, there is a certain
+variability in the phenotype (Ca&#241;ueto et al., 2011; Han et
+al., 2020). Cases of selective tooth agenesis (OMIM 313500)
+of the X-linked mode of inheritance, which were also caused
+by pathogenic variants in the EDA gene, are described. Despite
+the fact that mutations leading to this phenotype have been
+described in different protein domains of ectodysplasin A, the
+presence of residual activity of the protein and the possibility
+of its binding to the EDAR receptor is probably the key factor
+(Mues et al., 2010).</p><p>For the EDAR and EDARADD genes, both autosomal dominant
+and autosomal recessive forms of anhidrotic ectodermal
+dysplasia have been described. Some authors believe
+that dominant mutations are mainly localized in the domains
+of protein-protein interactions, which leads to disruption of
+oligomerization and a dominant negative effect (Sadier et
+al., 2014). However, this assumption is not fully justified.
+Thus, functional analysis of missense mutations p.D120Y,
+p.L122R, and p.D123N located near the EDARADD death
+domain proved not only their dominant nature, but also the
+ability to significantly reduce the interaction with TRAF6 and
+suppress the subsequent activation of NF-&#954;B. The p.E152K
+mutation in the heterozygous state, located directly in the
+EDAR-associated death domain, on the contrary, was recessive
+and showed only a slight decrease in affinity for TRAF6
+(Asano et al., 2021).</p><p>The V370A variant is a conservative amino acid substitution
+in the EDAR gene identified in Asian and Latin American
+populations by whole genome sequencing (Park et al.,
+2012). It is believed to be a gain-of-function mutation that
+leads to a 2-fold increase in the activation of the NF-&#954;B
+pathway (Kataoka et al., 2021) and, accordingly, correlates
+with increased hair thickness and special tooth morphology
+in representatives of Asia and indigenous peoples of the USA
+(Bryk et al., 2008). An interesting fact is that this variant was
+selected, presumably in Central China, about 30,000 years
+ago, and the presence in the genotype of pathogenic variants
+in the EDA gene in the presence of V370A reduces the severity
+of clinical manifestations of anhidrotic ectodermal dysplasia
+(Cluzeau et al., 2011).</p><p>NEMO is another protein involved in the pathogenetic
+cascade.
+Due to the fact that NF-&#954;B also controls the immune
+response and apoptosis, the clinical manifestations of
+mutations in the NEMO gene are not only limited to damage
+to ectodermal structures, but also include immune system disorders,
+with the development, in particular, of anhidrotic ectodermal
+dysplasia with immunodeficiency 1 (OMIM 300291)
+(Smahi et al., 2002).</p><p>Mutations in the WNT10A gene are the most common cause
+of non-syndromic selective tooth agenesis (Xu et al., 2017;
+Yu et al., 2019), but are also associated with the development
+of hypohidrotic ectodermal dysplasia, odonto-onychodermal
+dysplasia, and Sch&#246;pf&#8211;Schulz&#8211;Passarge syndrome.
+The WNT10A
+gene encodes a protein of the same name,
+a component of the canonical Wnt/&#946;-catenin signaling pathway
+that plays an important role in several stages of dental
+morphogenesis, including activation of the mesenchymal
+odontogenic potential during early tooth development, as well
+as the induction and maintenance of primary and secondary
+enamel nodes (Xu et al., 2017). Conversations are currently
+in progress regarding the contribution of Wnt signaling to the
+development and formation of hair follicles and skin structures
+(Adaimy et al., 2007). The human Wnt-family includes genes
+that show significant similarity to mouse wingless genes,
+and therefore alopecia is consistently observed in WNT10Adeficient
+mice (WNT10A&#8211;/&#8211;), besides growth retardation,
+kyphosis, and reproductive dysfunction (Wang et al., 2018).</p><p>Currently, 94 variants for WNT10A are described in the
+HGMD database, however, only p.Cys107Ter (rs121908119)
+and p.Phe228Ile (rs121908120) variants have been suggested
+to be located in hotspots. These mutations were the most
+common among patients of Polish and Italian origin with
+WNT10A-mediated ectodermal dysplasia (Castori et al., 2010;
+Mostowska et al., 2012).</p></sec><sec><title>Treatment approaches of ectodermal dysplasia</title><p>At present, treatment options for ED are primarily aimed at
+managing the symptoms to prevent complications. A targeted
+and effective treatment approach is yet to be developed.
+However, a phase 2 clinical trial (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT04980638">NCT04980638</ext-link>) involving
+the intra-amniotic administration of ER004 to male fetuses
+with confirmed X-linked ectodermal dysplasia is currently underway. ER004 is a novel signaling protein replacement
+molecule that has been specifically designed to bind with high
+affinity to the endogenous EDAR receptor. ER004 is believed
+to function by providing a replacement for the deficient ectodysplasin
+A protein in patients who have pathogenic variants in
+the EDA gene. This replacement aims to facilitate the normal
+development of essential ectodermal structures. The proposed
+administration method is intra-amniotic, with a suggested dose
+of 100 mg/kg fetal weight per injection. Treatment would
+consist of a total of three injections administered at intervals
+of three weeks, beginning at 26 weeks of gestation. In order
+to evaluate the long-term efficacy and safety of the treatment,
+individuals will be monitored for a period of 5 years. The end
+of testing is scheduled for April 2029 (www.clinicaltrials.gov/
+ct2/show/<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT04980638">NCT04980638</ext-link>).</p><p>EDI200 is an additional drug currently being developed.
+It is expected to be administered postnatally, between days 2
+and 14 of life, in male patients diagnosed with X-linked ectodermal
+dysplasia. The treatment would consist of five injections,
+each containing 3 mg/kg of the human ectodysplasin A
+molecule. Similar to ER004, EDI200 also targets the activation
+of the EDA-mediated pathway. In vivo experiments conducted
+on XLHED-affected animals have demonstrated that a course
+of EDI200 therapy, whether administered prenatally or postnatally,
+can correct EDA deficiency. To evaluate long-term
+efficacy and safety, individuals treated with EDI200 will be
+monitored until they reach the age of 10 years (until March
+of 2025) (www.clinicaltrials.gov/ct2/show/<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT01992289">NCT01992289</ext-link>).</p></sec><sec id="Conclusion"><title>Conclusion</title><p>In Russia, molecular genetic studies of ectodermal dysplasia
+have not yet been carried out; the contribution of mutations
+of various ED genes remains unknown. The study of the full
+spectrum of mutations in the ED genes will allow developing
+an algorithm for the molecular genetic diagnosis of ectodermal
+dysplasia.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Adaimy L., Chouery E., Megarbane H., Mroueh S., Delague V., Nicolas
+E., Belguith H., de Mazancourt P., Megarbane A. Mutation in
+WNT10A is associated with an autosomal recessive ectodermal dysplasia:
+the odonto-onycho-dermal dysplasia. Am. J. Hum. Genet.
+2007;81(4):821-828. DOI 10.1086/520064.</p><p>Asano N., Yasuno S., Hayashi R., Shimomura Y. Characterization of
+EDARADD gene mutations responsible for hypohidrotic ectodermal
+dysplasia. J. Dermatol. 2021;48(10):1533-1541. DOI 10.1111/
+1346-8138.16044.</p><p>Atukorala A., Inohaya K., Baba O., Tabata M., Ratnayake R., Abduweli
+D., Kasugai S., Mitani H., Takano Y. Scale and tooth phenotypes
+in medaka with a mutated ectodysplasin-A receptor: implications
+for the evolutionary origin of oral and pharyngeal teeth. Arch.
+Histol. Cytol. 2010;73(3):139-148. DOI 10.1679/aohc.73.139.</p><p>Bay&#233;s M., Hartung A., Ezer S., Pispa J., Thesleff I., Srivastava A.,
+Kere J. The anhidrotic ectodermal dysplasia gene (EDA) undergoes
+alternative splicing and encodes ectodysplasin-A with deletion mutations
+in collagenous repeats. Hum. Mol. Genet. 1998;7(11):1661-
+1669. DOI 10.1093/hmg/7.11.1661.</p><p>Bryk J., Hardouin E., Pugach I., Hughes D., Strotmann R., Stoneking
+M., Myles S. Positive selection in East Asians for an EDAR
+allele that enhances NF-&#954;B activation. PLoS One. 2008;3(5):e2209.
+DOI 10.1371/journal.pone.0002209.</p><p>Cai Z., Deng X., Jia J., Wang D., Yuan G. Ectodysplasin A/ectodysplasin
+A receptor system and their roles in multiple diseases. Front.
+Physiol. 2021;12:788411. DOI 10.3389/fphys.2021.788411.</p><p>Ca&#241;ueto J., Zafra-Cobo M., Ciria S., Unamuno P., Gonz&#225;lez-Sarmiento
+R. A novel EDA gene mutation in a Spanish family with X-linked
+hypohidrotic ectodermal dysplasia. Actas Dermosifiliogr. 2011;
+102(9):722-725. DOI 10.1016/j.adengl.2011.11.012</p><p>Casal M., Scheidt J., Rhodes J., Henthorn P., Werner P. Mutation identification
+in a canine model of X-linked ectodermal dysplasia. Mamm.
+Genome. 2005;16(7):524-531. DOI 10.1007/s00335-004-2463-4.</p><p>Castori M., Castiglia D., Brancati F., Foglio M., Heath S., Floriddia
+G., Madonna S., Fischer J., Zambruno G. Two families confirm
+Sch&#246;pf&#8211;Schulz&#8211;Passarge syndrome as a discrete entity within the
+WNT10A phenotypic spectrum. Clin. Genet. 2011;79(1):92-95. DOI
+10.1111/j.1399-0004.2010.01513.x.</p><p>Chaudhary A.K., Gholse A., Nagarajaram H.A., Dalal A.B., Gupta N.,
+Dutta A.K., Danda S., Gupta R., Sankar H.V., Bhavani G.S., Girisha
+K.M., Phadke S.R., Ranganath P., Bashyam M.D. Ectodysplasin
+pathogenic variants affecting the furin-cleavage site and unusual
+clinical features define X-linked hypohidrotic ectodermal dysplasia
+in India. Am. J. Med. Genet. A. 2022;188(3):788-805. DOI 10.1002/
+ajmg.a.62579.</p><p>Chen Y., Molloy S., Thomas L., Gambee J., B&#228;chinger H., Ferguson B.,
+Zonana J., Thomas G., Morris N. Mutations within a furin consensus
+sequence block proteolytic release of ectodysplasin-A and cause
+X-linked hypohidrotic ectodermal dysplasia. Proc. Natl. Acad. Sci.
+USA. 2001;98(13):7218-7223. DOI 10.1073/pnas.131076098.</p><p>Clouston H. The major forms of hereditary ectodermal dysplasia. (With
+an autopsy and biopsies on the anhydrotic type). Can. Med. Assoc. J.
+1939;40(1):1-7.</p><p>Cluzeau C., Hadj-Rabia S., Bal E., Clauss F., Munnich A., Bodemer C.,
+Headon D., Smahi A. The EDAR370A allele attenuates the severity
+of hypohidrotic ectodermal dysplasia caused by EDA gene mutation.
+Br. J. Dermatol. 2012;166(3):678-681. DOI 10.1111/j.1365-
+2133.2011.10620.x. Epub 2011 Dec. 5.</p><p>Crocker M., Cattanach B.M. The genetics of Sleek: a possible regulatory
+mutation of the tabby-crinkled-downless syndrome. Genet. Res.
+1979;34(3):231. DOI 10.1017/s0016672300019479.</p><p>Deshmukh S., Prashanth S. Ectodermal dysplasia: a genetic review.
+Int. J. Clin. Pediatr. Dent. 2012;5(3):197-202. DOI 10.5005/jpjournals-
+10005-1165.</p><p>Dr&#246;gem&#252;ller C., Distl O., Leeb T. Partial deletion of the bovine ED1
+gene causes anhidrotic ectodermal dysplasia in cattle. Genome Res.
+2001;11(10):1699-1705. DOI 10.1101/gr.182501.</p><p>Dr&#246;gem&#252;ller C., Kuiper H., Peters M., Guionaud S., Distl O., Leeb T.
+Congenital hypotrichosis with anodontia in cattle: a genetic, clinical
+and histological analysis. Vet. Dermatol. 2002;13(6):307-313. DOI
+10.1046/j.1365-3164.2002.00313.x.</p><p>Elomaa O. Ectodysplasin is released by proteolytic shedding and binds
+to the EDAR protein. Hum. Mol. Genet. 2001;10(9):953-962. DOI
+10.1093/hmg/10.9.953.</p><p>Felsher Z. Hereditary ectodermal dysplasia: report of a case, with experimental
+study. Arch. Derm. Syphilol. 1944;49(6):410-414. DOI
+10.1001/archderm.1944.01510120024005</p><p>Ferguson B., Brockdorff N., Formstone E., Ngyuen T., Kronmiller J.,
+Zonana J. Cloning of Tabby, the murine homolog of the human
+EDA gene: evidence for a membrane-associated protein with a short
+collagenous
+domain. Hum. Mol. Genet. 1997;6(9):1589-1594. DOI
+10.1093/hmg/6.9.1589.</p><p>Freire-Maia N. Ectodermal dysplasias. Hum. Hered. 1971;21(4):309-
+312. DOI 10.1159/000152419.</p><p>Freire-Maia N., Pinheiro M. Ectodermal dysplasias &#8211; some recollections
+and a classification. Birth Defects Orig. Artic. Ser. 1988;24:
+3-14.</p><p>Han Y., Wang X., Zheng L., Zhu T., Li Y., Hong J., Xu C., Wang P.,
+Gao M. Pathogenic EDA mutations in Chinese Han families with hypohidrotic ectodermal dysplasia and genotype-phenotype: a correlation
+analysis. Front. Genet. 2020;11:21. DOI 10.3389/fgene.2020.
+00021.</p><p>Harris M., Rohner N., Schwarz H., Perathoner S., Konstantinidis P.,
+N&#252;sslein-Volhard C. Zebrafish eda and edar mutants reveal conserved
+and ancestral roles of ectodysplasin signaling in vertebrates.
+PLoS Genet. 2008;4(10):e1000206. DOI 10.1371/journal.pgen.
+1000206.</p><p>Headon D., Overbeek P. Involvement of a novel Tnf receptor homologue
+in hair follicle induction. Nat. Genet. 1999;22(4):370-374.
+DOI 10.1038/11943</p><p>Itin P., Fistarol S. Ectodermal dysplasias. Am. J. Med. Genet. C Semin.
+Med. Genet. 2004;131C(1):45-51. DOI 10.1002/ajmg.c.30033.</p><p>Kataoka K., Fujita H., Isa M., Gotoh S., Arasaki A., Ishida H., Kimura
+R. The human EDAR 370V/A polymorphism affects tooth
+root morphology potentially through the modification of a reactiondiffusion
+system. Sci. Rep. 2021;11(1):5143. DOI 10.1038/s41598-
+021-84653-4.</p><p>Kere J., Srivastava A.K., Montonen O., Zonana J., Thomas N., Ferguson
+B., Munoz F., Morgan D., Clarke A., Baybayan P., Chen E.Y.,
+Ezer S., Saarialho-Kere U., de la Chapelle A., Schlessinger D.
+X- linked anhidrotic (hypohidrotic) ectodermal dysplasia is caused
+by mutation in a novel transmembrane protein. Nat. Genet. 1996;
+13(4):409-416. DOI 10.1038/ng0895-409.</p><p>Kozlova S.I., Demikova N.S. Hereditary Disorders and Genetic Counseling:
+Guide Atlas. Moscow: KMK&#8211;Avtorskaya Akademiya Publ.,
+2007. (in Russian)</p><p>Kuramoto T., Morimura K., Nomoto T., Namiki C., Hamada S., Fukushima
+S., Sugimura T., Serikawa T., Ushijima T. Sparse and wavy
+hair: a new model for hypoplasia of hair follicle and mammary
+glands on rat chromosome 17. J. Hered. 2005;96(4):339-345. DOI
+10.1093/jhered/esi053.</p><p>Kuramoto T., Yokoe M., Hashimoto R., Hiai H., Serikawa T. A rat
+model of hypohidrotic ectodermal dysplasia carries a missense
+mutation in the Edaradd gene. BMC Genet. 2011;12(1):91. DOI
+10.1186/1471-2156-12-91.</p><p>Mikkola M. Molecular aspects of hypohidrotic ectodermal dysplasia.
+Am. J. Med. Genet. A. 2009;149A(9):2031-2036. DOI 10.1002/
+ajmg.a.32855.</p><p>Mikkola M., Thesleff I. Ectodysplasin signaling in development. Cytokine
+Growth Factor Rev. 2003;14(3-4):211-224. DOI 10.1016/
+s1359-6101(03)00020-0.</p><p>Morlon A., Munnich A., Smahi A. TAB2, TRAF6 and TAK1 are involved
+in NF-&#954;B activation induced by the TNF-receptor, Edar and
+its adaptator Edaradd. Hum. Mol. Genet. 2005;14(23):3751-3757.
+DOI 10.1093/hmg/ddi405.</p><p>Mostowska A., Biedziak B., Zadurska M., Dunin-Wilczynska I., Lianeri
+M., Jagodzinski P. Nucleotide variants of genes encoding components
+of the Wnt signalling pathway and the risk of non-syndromic
+tooth agenesis. Clin. Genet. 2012;84(5):429-440. DOI 10.1111/
+cge.12061.</p><p>Mues G., Tardivel A., Willen L., Kapadia H., Seaman R., Frazier-Bowers
+S., Schneider P., D&#8217;Souza R. Functional analysis of Ectodysplasin-
+A mutations causing selective tooth agenesis. Eur. J. Hum.
+Genet. 2010;18(1):19-25. DOI 10.1038/ejhg.2009.127.</p><p>Newton K., French D., Yan M., Frantz G., Dixit V. Myodegeneration in
+EDA-A2 transgenic mice is prevented by XEDAR deficiency. Mol.
+Cell. Biol. 2004;24(4):1608-1613. DOI 10.1128/MCB.24.4.1608-
+1613.2004.</p><p>Nguyen-Nielsen M., Skovbo S., Svaneby D., Pedersen L., Fryzek J.
+The prevalence of X-linked hypohidrotic ectodermal dysplasia
+(XLHED)
+in Denmark, 1995&#8211;2010. Eur. J. Med. Genet. 2013;56(5):
+236-242. DOI 10.1016/j.ejmg.2013.01.012.</p><p>O&#8217;Brown N., Summers B., Jones F., Brady S., Kingsley D. A recurrent
+regulatory change underlying altered expression and Wnt response
+of the stickleback armor plates gene EDA. eLife. 2015;4:e05290.
+DOI 10.7554/eLife.05290.</p><p>Pantalacci S., Chaumot A., Beno&#238;t G., Sadier A., Delsuc F., Douzery E.,
+Laudet V. Conserved features and evolutionary shifts of the EDA
+signaling pathway involved in vertebrate skin appendage development.
+Mol. Biol. Evol. 2008;25(5):912-928. DOI 10.1093/molbev/
+msn038.</p><p>Park J.H., Yamaguchi T., Watanabe C., Kawaguchi A., Haneji K., Takeda
+M., Kim Y.I., Tomoyasu Y., Watanabe M., Oota H., Hanihara T.,
+Ishida H., Maki K., Park S.B., Kimura R. Effects of an Asian-specific
+nonsynonymous EDAR variant on multiple dental traits. J. Hum.
+Genet. 2012;57(8):508-514. DOI 10.1038/jhg.2012.60.</p><p>Sadier A., Viriot L., Pantalacci S., Laudet V. The ectodysplasin pathway:
+from diseases to adaptations. Trends Genet. 2014;30(1):24-31.
+DOI 10.1016/j.tig.2013.08.006.</p><p>Sadier A., Lambert E., Chevret P., D&#233;cimo D., S&#233;mon M., Tohm&#233; M.,
+Ruggiero F., Ohlmann T., Pantalacci S., Laudet V. Tinkering signaling
+pathways by gain and loss of protein isoforms: the case of the
+EDA pathway regulator EDARADD. BMC Evol. Biol. 2015;15:129.
+DOI 10.1186/s12862-015-0395-0.</p><p>Siemens H.W. Studien &#252;ber Vererbung von Hautkrankheiten. XII. Anhidrosis
+hypotrichotica. Arch. Dermat. Syph. 1937;175:565-577.
+DOI 10.1007/BF02058385.</p><p>Smahi A., Courtois G., Rabia S., D&#246;ffinger R., Bodemer C., Munnich
+A., Casanova J., Isra&#235;l A. The NF-&#954;B signalling pathway in human
+diseases: from incontinentia pigmenti to ectodermal dysplasias
+and immune-deficiency syndromes. Hum. Mol. Genet. 2002;11(20):
+2371-2375. DOI 10.1093/hmg/11.20.2371.</p><p>Srivastava A., Pispa J., Hartung A., Du Y., Ezer S., Jenks T., Shimada
+T., Pekkanen M., Mikkola M., Ko M., Thesleff I., Kere J., Schlessinger
+D. The Tabby phenotype is caused by mutation in a mouse
+homologue of the EDA gene that reveals novel mouse and human
+exons and encodes a protein (ectodysplasin-A) with collagenous domains.
+Proc. Natl. Acad. Sci. USA. 1997;94(24):13069-13074. DOI
+10.1073/pnas.94.24.13069.</p><p>Trzeciak W., Koczorowski R. Molecular basis of hypohidrotic ectodermal
+dysplasia: an update. J. Appl. Genet. 2015;57(1):51-61. DOI
+10.1007/s13353-015-0307-4.</p><p>Vincent M., Biancalana V., Ginisty D., Mandel J., Calvas P. Mutational
+spectrum of the ED1 gene in X-linked hypohidrotic ectodermal
+dysplasia. Eur. J. Hum. Genet. 2001;9(5):355-363. DOI 10.1038/
+sj.ejhg.5200635.</p><p>Wahlbuhl-Becker M., Faschingbauer F., Beckmann M., Schneider H.
+Hypohidrotic ectodermal dysplasia: breastfeeding complications
+due to impaired breast development. Geburtshilfe Frauenheilkd.
+2017;77(4):377-382. DOI 10.1055/s-0043-100106.</p><p>Wang K., Yamada S., Izumi H., Tsukamoto M., Nakashima T., Tasaki
+T., Guo X., Uramoto H., Sasaguri Y., Kohno K. Critical in vivo
+roles of WNT10A in wound healing by regulating collagen expression/
+synthesis in WNT10A-deficient mice. PLoS One. 2018;13(3):
+e0195156. DOI 10.1371/journal.pone.0195156.</p><p>Weech A. Hereditary ectodermal dysplasia (congenital ectodermal defect):
+a report of two cases. Am. J. Dis. Child. 1929;37(4):766-790.
+DOI 10.1001/archpedi.1929.01930040075005.</p><p>Wohlfart S., Meiller R., Hammersen J., Park J., Menzel-Severing J.,
+Melichar V., Huttner K., Johnson R., Porte F., Schneider H. Natural
+history of X-linked hypohidrotic ectodermal dysplasia: a 5-year
+follow-up study. Orphanet J. Rare Dis. 2020;15(1):7. DOI 10.1186/
+s13023-019-1288-x.</p><p>Wright J.T., Fete M., Schneider H., Zinser M., Koster M.I., Clarke A.J.,
+Hadj-Rabia S., Tadini G., Pagnan N., Visinoni A.F., Bergendal B.,
+Abbott B., Fete T., Stanford C., Butcher C., D&#8217;Souza R.N., Sybert
+V.P., Morasso M.I. Ectodermal dysplasias: classification and
+organization by phenotype, genotype and molecular pathway.
+Am. J. Med. Genet. A. 2019;179(3):442-447. DOI 10.1002/ajmg.
+a.61045.</p><p>Xu M., Horrell J., Snitow M., Cui J., Gochnauer H., Syrett C.M., Kallish
+S., Seykora J.T., Liu F., Gaillard D., Katz J.P., Kaestner K.H.,
+Levin B., Mansfield C., Douglas J.E., Cowart B.J., Tordoff M., Liu F., Zhu X., Barlow L.A., Rubin A.I., McGrath J.A., Morrisey
+E.E., Chu E.Y., Millar S.E. WNT10A mutation causes ectodermal
+dysplasia by impairing progenitor cell proliferation and
+KLF4-mediated differentiation. Nat. Commun. 2017;8:15397. DOI
+10.1038/ncomms15397.</p><p>Yan M., Zhang Z., Brady J., Schilbach S., Fairbrother W., Dixit V.
+Identification of a novel death domain-containing adaptor molecule
+for ectodysplasin-A receptor that is mutated in crinkled mice.
+Curr. Biol. 2002;12(5):409-413. DOI 10.1016/s0960-9822(02)
+00687-5.</p><p>Yang J., Huang T., Petralia F., Long Q., Zhang B., Argmann C., Zhao Y.,
+Mobbs C., Schadt E., Zhu J., Tu Z., GTEx Consortium. Synchronized
+age-related gene expression changes across multiple tissues
+in human and the link to complex diseases. Sci. Rep. 2015;5:15145.
+DOI 10.1038/srep15145. Erratum in: Sci. Rep. 2016;6:19384. [corrected
+to Goldmann J.].</p><p>Yu M., Wong S., Han D., Cai T. Genetic analysis: Wnt and other pathways
+in nonsyndromic tooth agenesis. Oral Dis. 2019;25(3):646-
+651. DOI 10.1111/odi.12931</p><p>Zhang L., Yu M., Wong S.W., Qu H., Cai T., Liu Y., Liu H., Fan Z.,
+Zheng J., Zhou Y., Feng H., Han D. Comparative analysis of rare
+EDAR mutations and tooth agenesis pattern in EDAR- and EDAassociated
+nonsyndromic oligodontia. Hum. Mutat. 2020;41(11):
+1957-1966. DOI 10.1002/humu.24104.</p></sec></body></article></pmc-articleset>

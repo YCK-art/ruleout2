@@ -1,0 +1,528 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10784322</article-id><article-id pub-id-type="pmcid-ver">PMC10784322.1</article-id><article-id pub-id-type="pmcaid">10784322</article-id><article-id pub-id-type="pmcaiid">10784322</article-id><article-id pub-id-type="pmid">38223456</article-id><article-id pub-id-type="doi">10.18699/VJGB-23-74</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>In vivo MRS study of long-term effects
+of traumatic intracranial injection of a culture medium in mice</article-title><trans-title-group xml:lang="ru"><trans-title>&#1055;&#1088;&#1080;&#1078;&#1080;&#1079;&#1085;&#1077;&#1085;&#1085;&#1086;&#1077; &#1052;&#1056;&#1057; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1076;&#1086;&#1083;&#1075;&#1086;&#1089;&#1088;&#1086;&#1095;&#1085;&#1099;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1089;&#1090;&#1074;&#1080;&#1081; &#1090;&#1088;&#1072;&#1074;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1095;&#1077;&#1088;&#1077;&#1087;&#1085;&#1086;&#1081; &#1080;&#1085;&#1098;&#1077;&#1082;&#1094;&#1080;&#1080;
+&#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1089;&#1088;&#1077;&#1076;&#1099; &#1091; &#1084;&#1099;&#1096;&#1077;&#1081;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Shevelev</surname><given-names initials="OB">O.B.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Institute &#8220;International Tomografic Center&#8221; of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cherkasova</surname><given-names initials="OP">O.P.</given-names></name><aff>
+<institution>Institute of Laser Physics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State Technical University, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Razumov</surname><given-names initials="IA">I.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State University, Novosibirsk, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zavjalov</surname><given-names initials="EL">E.L.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: O.B. Shevelev
+<email>shevelev.oleg.nsk@gmail.com</email></p></fn></author-notes><pub-date pub-type="ppub"><month>10</month><year>2023</year></pub-date><volume>27</volume><issue>6</issue><issue-id pub-id-type="pmc-issue-id">448986</issue-id><fpage>633</fpage><lpage>640</lpage><history><date date-type="received"><day>16</day><month>5</month><year>2022</year></date><date date-type="rev-recd"><day>21</day><month>2</month><year>2023</year></date><date date-type="accepted"><day>01</day><month>6</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>10</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>12</day><month>01</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-08-30 20:25:26.963"><day>30</day><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-27-2374.pdf"/><abstract><p>Orthotopic transplantation of glioblastoma cells in the brain of laboratory mice is a common animal model for studying brain tumors. It was shown that 1H magnetic resonance spectroscopy (MRS) enables monitoring of the tumor&#8217;s occurrence and its development during therapy based on the ratio of several metabolites. However, in studying new approaches to the therapy of glioblastoma in the model of orthotopic xenotransplantation of glioma cells into the brain of mice, it is necessary to understand which metabolites are produced by a growing tumor and which are the result of tumor cells injection along the modeling of the pathology. Currently, there are no data on the dynamic metabolic processes in the brain that occur after the introduction of glioblastoma cells into the brain of mice. In addition, there is a lack of data on the delayed effects of invasive brain damage. Therefore, this study investigates the long-term dynamics of the neurometabolic profile, assessed using 1H MRS, after intracranial injection of a culture medium used in orthotopic modeling of glioma in mice. Levels of N-acetylaspartate, N-acetylaspartylglutamic acid, myoinositol, taurine, glutathione, the sum of glycerophosphocholine and phosphocholine, glutamic acid (Glu), glutamine (Gln), and gamma aminobutyric acid (GABA) indicate patterns of neurometabolites in the early stage after intracranial injection similar to brain trauma ones. Most of the metabolites, with the exception of Gln, Glu and GABA, returned to their original values on day 28 after injection. A progressive increase in the Glu/Gln and Glu/GABA ratio up to 28 days after surgery potentially indicates an impaired turnover of these metabolites or increased neurotransmission. Thus, the data indicate that the recovery processes are largely completed on day 28 after the traumatic event in the brain tissue, leaving open the question of the neurotransmitter system impairment. Consequently, when using animal models of human glioma, researchers should clearly distinguish between which changes in neurometabolites are a response to the injection of cancer cells into the brain, and which processes may indicate the early development of a brain tumor. It is important to keep this in mind when modeling human glioblastoma in mice and monitoring new treatments. In addition, these results may be important in the development of approaches for non-invasive diagnostics of traumatic brain injury as well as recovery and rehabilitation processes of patients after certain brain surgeries.</p></abstract><trans-abstract xml:lang="ru"><p>&#1054;&#1088;&#1090;&#1086;&#1090;&#1086;&#1087;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1082;&#1089;&#1077;&#1085;&#1086;&#1090;&#1088;&#1072;&#1085;&#1089;&#1087;&#1083;&#1072;&#1085;&#1090;&#1072;&#1094;&#1080;&#1103; &#1082;&#1083;&#1077;&#1090;&#1086;&#1082; &#1075;&#1083;&#1080;&#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1086;&#1084;&#1099; &#1074; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1081; &#1084;&#1086;&#1079;&#1075; &#1083;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1099;&#1093; &#1084;&#1099;&#1096;&#1077;&#1081; &#8211; &#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1072;&#1103; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1072;&#1103; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100; &#1076;&#1083;&#1103; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1103; &#1086;&#1087;&#1091;&#1093;&#1086;&#1083;&#1077;&#1081; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1079;&#1075;&#1072;. &#1055;&#1086;&#1082;&#1072;&#1079;&#1072;&#1085;&#1086;, &#1095;&#1090;&#1086; 1&#1053; &#1084;&#1072;&#1075;&#1085;&#1080;&#1090;&#1085;&#1086;-&#1088;&#1077;&#1079;&#1086;&#1085;&#1072;&#1085;&#1089;&#1085;&#1072;&#1103; &#1089;&#1087;&#1077;&#1082;&#1090;&#1088;&#1086;&#1089;&#1082;&#1086;&#1087;&#1080;&#1103; (&#1052;&#1056;&#1057;) &#1087;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1077;&#1090; &#1086;&#1090;&#1089;&#1083;&#1077;&#1078;&#1080;&#1074;&#1072;&#1090;&#1100; &#1074;&#1086;&#1079;&#1085;&#1080;&#1082;&#1085;&#1086;&#1074;&#1077;&#1085;&#1080;&#1077; &#1086;&#1087;&#1091;&#1093;&#1086;&#1083;&#1080; &#1080; &#1077;&#1077; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1077; &#1074; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1077; &#1090;&#1077;&#1088;&#1072;&#1087;&#1080;&#1080; &#1087;&#1086; &#1089;&#1086;&#1086;&#1090;&#1085;&#1086;&#1096;&#1077;&#1085;&#1080;&#1102; &#1085;&#1077;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1080;&#1093; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1090;&#1086;&#1074;. &#1054;&#1076;&#1085;&#1072;&#1082;&#1086; &#1087;&#1088;&#1080; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1080; &#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076;&#1086;&#1074; &#1074; &#1090;&#1077;&#1088;&#1072;&#1087;&#1080;&#1080; &#1075;&#1083;&#1080;&#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1086;&#1084;&#1099; &#1085;&#1072; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080; &#1086;&#1088;&#1090;&#1086;&#1090;&#1086;&#1087;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1082;&#1089;&#1077;&#1085;&#1086;&#1090;&#1088;&#1072;&#1085;&#1089;&#1087;&#1083;&#1072;&#1085;&#1090;&#1072;&#1094;&#1080;&#1080; &#1082;&#1083;&#1077;&#1090;&#1086;&#1082; &#1075;&#1083;&#1080;&#1086;&#1084;&#1099; &#1074; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1081; &#1084;&#1086;&#1079;&#1075; &#1084;&#1099;&#1096;&#1077;&#1081; &#1085;&#1077;&#1086;&#1073;&#1093;&#1086;&#1076;&#1080;&#1084;&#1086; &#1087;&#1086;&#1085;&#1080;&#1084;&#1072;&#1090;&#1100;, &#1082;&#1072;&#1082;&#1080;&#1077; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; &#1091;&#1088;&#1086;&#1074;&#1085;&#1077;&#1081; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1090;&#1086;&#1074; &#1103;&#1074;&#1083;&#1103;&#1102;&#1090;&#1089;&#1103; &#1089;&#1083;&#1077;&#1076;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084; &#1088;&#1086;&#1089;&#1090;&#1072; &#1086;&#1087;&#1091;&#1093;&#1086;&#1083;&#1080;, &#1072; &#1082;&#1072;&#1082;&#1080;&#1077; &#8211; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1086;&#1084; &#1080;&#1085;&#1098;&#1077;&#1082;&#1094;&#1080;&#1080; &#1086;&#1087;&#1091;&#1093;&#1086;&#1083;&#1077;&#1074;&#1099;&#1093; &#1082;&#1083;&#1077;&#1090;&#1086;&#1082; &#1074; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1081; &#1084;&#1086;&#1079;&#1075; &#1074; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1087;&#1072;&#1090;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080;. &#1042; &#1085;&#1072;&#1089;&#1090;&#1086;&#1103;&#1097;&#1077;&#1077; &#1074;&#1088;&#1077;&#1084;&#1103; &#1086;&#1090;&#1089;&#1091;&#1090;&#1089;&#1090;&#1074;&#1091;&#1102;&#1090; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1086; &#1076;&#1080;&#1085;&#1072;&#1084;&#1080;&#1082;&#1077; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1086;&#1074; &#1074; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1084; &#1084;&#1086;&#1079;&#1075;&#1077;, &#1074;&#1086;&#1079;&#1085;&#1080;&#1082;&#1072;&#1102;&#1097;&#1080;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077; &#1074;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1082;&#1083;&#1077;&#1090;&#1086;&#1082; &#1075;&#1083;&#1080;&#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1086;&#1084;&#1099; &#1074; &#1084;&#1086;&#1079;&#1075;
+&#1084;&#1099;&#1096;&#1077;&#1081;. &#1052;&#1072;&#1083;&#1086; &#1090;&#1072;&#1082;&#1078;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; &#1086;&#1073; &#1086;&#1090;&#1089;&#1088;&#1086;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1089;&#1090;&#1074;&#1080;&#1103;&#1093; &#1080;&#1085;&#1074;&#1072;&#1079;&#1080;&#1074;&#1085;&#1086;&#1075;&#1086; &#1087;&#1086;&#1074;&#1088;&#1077;&#1078;&#1076;&#1077;&#1085;&#1080;&#1103; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1079;&#1075;&#1072;. &#1055;&#1086;&#1101;&#1090;&#1086;&#1084;&#1091;
+&#1074; &#1085;&#1072;&#1096;&#1077;&#1081; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1091;&#1077;&#1090;&#1089;&#1103; &#1076;&#1086;&#1083;&#1075;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1072;&#1103; &#1076;&#1080;&#1085;&#1072;&#1084;&#1080;&#1082;&#1072; &#1085;&#1077;&#1081;&#1088;&#1086;&#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1087;&#1088;&#1086;&#1092;&#1080;&#1083;&#1103;, &#1086;&#1094;&#1077;&#1085;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1089; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;-&#1085;&#1080;&#1077;&#1084;
+1H &#1052;&#1056;&#1057;, &#1087;&#1086;&#1089;&#1083;&#1077; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1095;&#1077;&#1088;&#1077;&#1087;&#1085;&#1086;&#1081; &#1080;&#1085;&#1098;&#1077;&#1082;&#1094;&#1080;&#1080; &#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1089;&#1088;&#1077;&#1076;&#1099;, &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1077;&#1084;&#1086;&#1081; &#1087;&#1088;&#1080; &#1086;&#1088;&#1090;&#1086;&#1090;&#1086;&#1087;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; &#1075;&#1083;&#1080;&#1086;&#1084;&#1099; &#1091; &#1084;&#1099;&#1096;&#1077;&#1081;. &#1059;&#1088;&#1086;&#1074;&#1085;&#1080; N-&#1072;&#1094;&#1077;&#1090;&#1080;&#1083;&#1072;&#1089;&#1087;&#1072;&#1088;&#1090;&#1072;&#1090;&#1072;, N-&#1072;&#1094;&#1077;&#1090;&#1080;&#1083;&#1072;&#1089;&#1087;&#1072;&#1088;&#1090;&#1080;&#1083;&#1075;&#1083;&#1091;&#1090;&#1072;&#1084;&#1080;&#1085;&#1086;&#1074;&#1086;&#1081; &#1082;&#1080;&#1089;&#1083;&#1086;&#1090;&#1099;, &#1084;&#1080;&#1086;-&#1080;&#1085;&#1086;&#1079;&#1080;&#1090;&#1086;&#1083;&#1072;,
+&#1090;&#1072;&#1091;&#1088;&#1080;&#1085;&#1072;, &#1075;&#1083;&#1091;&#1090;&#1072;&#1090;&#1080;&#1086;&#1085;&#1072;, &#1089;&#1091;&#1084;&#1084;&#1099; &#1075;&#1083;&#1080;&#1094;&#1077;&#1088;&#1086;&#1092;&#1086;&#1089;&#1092;&#1086;&#1093;&#1086;&#1083;&#1080;&#1085;&#1072; &#1080; &#1092;&#1086;&#1089;&#1092;&#1086;&#1093;&#1086;&#1083;&#1080;&#1085;&#1072;, &#1075;&#1083;&#1091;&#1090;&#1072;&#1084;&#1080;&#1085;&#1086;&#1074;&#1086;&#1081; &#1082;&#1080;&#1089;&#1083;&#1086;&#1090;&#1099; (Glu), &#1075;&#1083;&#1091;&#1090;&#1072;&#1084;&#1080;&#1085;&#1072; (Gln) &#1080;
+&#1075;&#1072;&#1084;&#1084;&#1072;-&#1072;&#1084;&#1080;&#1085;&#1086;&#1084;&#1072;&#1089;&#1083;&#1103;&#1085;&#1086;&#1081; &#1082;&#1080;&#1089;&#1083;&#1086;&#1090;&#1099; (&#1043;&#1040;&#1052;&#1050;) &#1091;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1102;&#1090; &#1085;&#1072; &#1087;&#1072;&#1090;&#1090;&#1077;&#1088;&#1085;&#1099; &#1085;&#1077;&#1081;&#1088;&#1086;&#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1090;&#1086;&#1074; &#1085;&#1072; &#1088;&#1072;&#1085;&#1085;&#1077;&#1081; &#1089;&#1090;&#1072;&#1076;&#1080;&#1080; &#1087;&#1086;&#1089;&#1083;&#1077; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1095;&#1077;&#1088;&#1077;&#1087;&#1085;&#1086;&#1081; &#1080;&#1085;&#1098;&#1077;&#1082;&#1094;&#1080;&#1080;, &#1089;&#1093;&#1086;&#1078;&#1080;&#1077; &#1089; &#1090;&#1072;&#1082;&#1086;&#1074;&#1099;&#1084;&#1080; &#1087;&#1088;&#1080; &#1090;&#1088;&#1072;&#1074;&#1084;&#1077; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1079;&#1075;&#1072;. &#1041;&#1086;&#1083;&#1100;&#1096;&#1080;&#1085;&#1089;&#1090;&#1074;&#1086; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1090;&#1086;&#1074;, &#1079;&#1072; &#1080;&#1089;&#1082;&#1083;&#1102;&#1095;&#1077;&#1085;&#1080;&#1077;&#1084;
+Gln, Glu &#1080; &#1043;&#1040;&#1052;&#1050;, &#1074;&#1086;&#1079;&#1074;&#1088;&#1072;&#1097;&#1072;&#1083;&#1080;&#1089;&#1100; &#1082; &#1080;&#1089;&#1093;&#1086;&#1076;&#1085;&#1099;&#1084; &#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1080;&#1103;&#1084; &#1085;&#1072; 28-&#1081; &#1076;&#1077;&#1085;&#1100; &#1087;&#1086;&#1089;&#1083;&#1077; &#1080;&#1085;&#1098;&#1077;&#1082;&#1094;&#1080;&#1080;. &#1055;&#1088;&#1086;&#1075;&#1088;&#1077;&#1089;&#1089;&#1080;&#1088;&#1091;&#1102;&#1097;&#1077;&#1077; &#1091;&#1074;&#1077;&#1083;&#1080;&#1095;&#1077;&#1085;&#1080;&#1077; &#1089;&#1086;&#1086;&#1090;&#1085;&#1086;&#1096;&#1077;&#1085;&#1080;&#1103; Glu/Gln &#1080; Glu/GABA &#1076;&#1086; 28 &#1076;&#1085;&#1077;&#1081; &#1087;&#1086;&#1089;&#1083;&#1077; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1080; &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086; &#1091;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1077;&#1090; &#1085;&#1072; &#1085;&#1072;&#1088;&#1091;&#1096;&#1077;&#1085;&#1080;&#1077; &#1086;&#1073;&#1084;&#1077;&#1085;&#1072;
+&#1101;&#1090;&#1080;&#1093; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1090;&#1086;&#1074; &#1080;&#1083;&#1080; &#1091;&#1089;&#1080;&#1083;&#1077;&#1085;&#1080;&#1077; &#1085;&#1077;&#1081;&#1088;&#1086;&#1087;&#1077;&#1088;&#1077;&#1076;&#1072;&#1095;&#1080;. &#1058;&#1072;&#1082;&#1080;&#1084; &#1086;&#1073;&#1088;&#1072;&#1079;&#1086;&#1084;, &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089;&#1074;&#1080;&#1076;&#1077;&#1090;&#1077;&#1083;&#1100;&#1089;&#1090;&#1074;&#1091;&#1102;&#1090; &#1086; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1074;&#1086;&#1089;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1099; &#1074; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1086;&#1084; &#1079;&#1072;&#1074;&#1077;&#1088;&#1096;&#1072;&#1102;&#1090;&#1089;&#1103; &#1085;&#1072; 28-&#1081; &#1076;&#1077;&#1085;&#1100; &#1087;&#1086;&#1089;&#1083;&#1077; &#1090;&#1088;&#1072;&#1074;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1089;&#1086;&#1073;&#1099;&#1090;&#1080;&#1103; &#1074; &#1090;&#1082;&#1072;&#1085;&#1080; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1075;&#1086;
+&#1084;&#1086;&#1079;&#1075;&#1072;, &#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1103; &#1086;&#1090;&#1082;&#1088;&#1099;&#1090;&#1099;&#1084; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089; &#1086; &#1085;&#1072;&#1088;&#1091;&#1096;&#1077;&#1085;&#1080;&#1080; &#1085;&#1077;&#1081;&#1088;&#1086;&#1084;&#1077;&#1076;&#1080;&#1072;&#1090;&#1086;&#1088;&#1085;&#1086;&#1081; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1099;. &#1057;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;, &#1087;&#1088;&#1080; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080;
+&#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093; &#1084;&#1086;&#1076;&#1077;&#1083;&#1077;&#1081; &#1075;&#1083;&#1080;&#1086;&#1084;&#1099; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1080; &#1076;&#1086;&#1083;&#1078;&#1085;&#1099; &#1095;&#1077;&#1090;&#1082;&#1086; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1072;&#1090;&#1100;, &#1082;&#1072;&#1082;&#1080;&#1077; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; &#1085;&#1077;&#1081;&#1088;&#1086;&#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;
+&#1090;&#1086;&#1074; &#1103;&#1074;&#1083;&#1103;&#1102;&#1090;&#1089;&#1103; &#1088;&#1077;&#1072;&#1082;&#1094;&#1080;&#1077;&#1081; &#1085;&#1072; &#1089;&#1072;&#1084;&#1091; &#1080;&#1085;&#1098;&#1077;&#1082;&#1094;&#1080;&#1102; &#1088;&#1072;&#1082;&#1086;&#1074;&#1099;&#1093; &#1082;&#1083;&#1077;&#1090;&#1086;&#1082; &#1074; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1081; &#1084;&#1086;&#1079;&#1075;, &#1072; &#1082;&#1072;&#1082;&#1080;&#1077; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1099; &#1084;&#1086;&#1075;&#1091;&#1090; &#1089;&#1074;&#1080;&#1076;&#1077;&#1090;&#1077;&#1083;&#1100;
+&#1089;&#1090;&#1074;&#1086;&#1074;&#1072;&#1090;&#1100; &#1086; &#1088;&#1072;&#1085;&#1085;&#1077;&#1084; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1080; &#1086;&#1087;&#1091;&#1093;&#1086;&#1083;&#1080; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1079;&#1075;&#1072;. &#1069;&#1090;&#1086; &#1074;&#1072;&#1078;&#1085;&#1086; &#1080;&#1084;&#1077;&#1090;&#1100; &#1074; &#1074;&#1080;&#1076;&#1091; &#1087;&#1088;&#1080; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; &#1075;&#1083;&#1080;&#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1086;&#1084;&#1099;
+&#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072; &#1091; &#1084;&#1099;&#1096;&#1077;&#1081; &#1080; &#1084;&#1086;&#1085;&#1080;&#1090;&#1086;&#1088;&#1080;&#1085;&#1075;&#1077; &#1085;&#1086;&#1074;&#1099;&#1093; &#1084;&#1077;&#1090;&#1086;&#1076;&#1086;&#1074; &#1083;&#1077;&#1095;&#1077;&#1085;&#1080;&#1103;. &#1050;&#1088;&#1086;&#1084;&#1077; &#1090;&#1086;&#1075;&#1086;, &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1084;&#1086;&#1075;&#1091;&#1090; &#1073;&#1099;&#1090;&#1100; &#1074;&#1072;&#1078;&#1085;&#1099; &#1087;&#1088;&#1080;
+&#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1086;&#1090;&#1082;&#1077; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076;&#1086;&#1074; &#1082; &#1085;&#1077;&#1080;&#1085;&#1074;&#1072;&#1079;&#1080;&#1074;&#1085;&#1086;&#1081; &#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1077; &#1095;&#1077;&#1088;&#1077;&#1087;&#1085;&#1086;-&#1084;&#1086;&#1079;&#1075;&#1086;&#1074;&#1086;&#1081; &#1090;&#1088;&#1072;&#1074;&#1084;&#1099;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1087;&#1088;&#1080; &#1084;&#1086;&#1085;&#1080;&#1090;&#1086;&#1088;&#1080;&#1085;&#1075;&#1077; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1086;&#1074; &#1074;&#1086;&#1089;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1080; &#1088;&#1077;&#1072;&#1073;&#1080;&#1083;&#1080;&#1090;&#1072;&#1094;&#1080;&#1080; &#1087;&#1072;&#1094;&#1080;&#1077;&#1085;&#1090;&#1086;&#1074; &#1087;&#1086;&#1089;&#1083;&#1077; &#1085;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1093; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081; &#1085;&#1072; &#1075;&#1086;&#1083;&#1086;&#1074;&#1085;&#1086;&#1084; &#1084;&#1086;&#1079;&#1075;&#1077;.</p></trans-abstract><kwd-group><kwd>magnetic resonance spectroscopy</kwd><kwd>animal model of human glioma</kwd><kwd>neurometabolites</kwd><kwd>traumatic brain injury</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1084;&#1072;&#1075;&#1085;&#1080;&#1090;&#1085;&#1086;-&#1088;&#1077;&#1079;&#1086;&#1085;&#1072;&#1085;&#1089;&#1085;&#1072;&#1103; &#1089;&#1087;&#1077;&#1082;&#1090;&#1088;&#1086;&#1089;&#1082;&#1086;&#1087;&#1080;&#1103;; ; ; </kwd><kwd>&#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1072;&#1103; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100; &#1075;&#1083;&#1080;&#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1086;&#1084;&#1099; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;</kwd><kwd>&#1085;&#1077;&#1081;&#1088;&#1086;&#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1090;&#1099;</kwd><kwd>&#1095;&#1077;&#1088;&#1077;&#1087;&#1085;&#1086;-&#1084;&#1086;&#1079;&#1075;&#1086;&#1074;&#1072;&#1103; &#1090;&#1088;&#1072;&#1074;&#1084;&#1072;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Glioblastoma (GBM) is the most common and aggressive
+tumor of the central nervous system (Goodenberger, Jenkins,
+2012). Even in the case of aggressive therapy of the
+brain glioma, such as surgical resection, radiotherapy, and
+chemotherapy, many types of gliomas almost always have
+a pessimistic prognosis for the patients&#8217; survival (Tykocki et
+al., 2018; Ostrom et al., 2019). Despite the efforts of scientists
+and clinicians to increase the life expectancy of GBM patients,
+survivors do not easily exceed the 15th month (3&#8211;5) and the
+5-year survival rate is as low as 5.8 % (Ostrom et al., 2018,
+2019; Tan et al., 2020).</p><p>Xenograft mice models are widely used for modeling GBM
+and testing developmental therapeutics (Haddad et al., 2021).
+Orthotopic transplantation of glioblastoma cells in the brain
+of laboratory mice is a common animal model for studying
+brain tumors (Zavjalov et al., 2016; Miyai et al., 2017; Haddad
+et al., 2021). This model is characterized by rapid glioma
+growth following injection of tumor cells into the subcortical
+structures of the brain, resulting in destruction of blood vessels
+and neurons, compression of individual brain structures,
+impairment of cognitive function and deep irreversible lesions
+(Hall et al., 2005; Maas et al., 2008). Currently, the most
+accessible
+way to detect and visualize glioma is magnetic
+resonance imaging (MRI), which is widely used in the clinic.
+The main advantage of MRI is its non-invasiveness with the
+ability to image unlabeled cells, while optical methods require
+stable expression of fluorophore-labeled protein in tumor
+cells, which can lead to a change in the behavior of tumor
+cells (Dass, Choong, 2007). Finally, MRI is a reliable and
+sufficiently accurate method that can be used to repeatedly
+study the dynamic processes for the same organism.</p><p>To visualize tumors, reliable MRI contrast agents are used,
+which, however, do not always allow a correct diagnosis. Up
+to 45 % of abnormalities in a patient&#8217;s brain detectable with
+MRI require biopsy and subsequent histological studies. There
+is another significant drawback of this approach for intracerebral
+tumors. Contrast does not always lead to an increase in the
+MRI signal, and although this happens quite rarely &#8211; about 4 %
+of gliomas, the life of the patient is on the line in every such
+case (Barker et al., 1997; Ginsberg et al., 1998; Sugahara et
+al., 1998; Castillo et al., 2001; Nelson, Cha, 2003; Atkinson
+et al., 2008; Stockhammer et al., 2008).</p><p>Recently, in vivo studies of the functional state of the brain
+are increasing due to attempts to assess the metabolic profile
+using 1H magnetic resonance spectroscopy &#8211; MRS (Ratai,
+Gilberto Gonz&#225;lez, 2016). It was shown that MRS enables
+monitoring of the tumor&#8217;s occurrence and its development
+during therapy based on the ratio of several metabolites (Hishii
+et al., 2019; Tiwari et al., 2020). However, at study of new
+approaches in the therapy of glioblastoma in the model of
+orthotopic xenotransplantation of glioma cells into the brain
+of mice, it is necessary to understand which metabolites are
+produced by a growing tumor and which are the result of tumor
+cells injection along the modeling of the pathology. Currently,
+there are no data on the dynamic metabolic processes in the
+brain that occur after the introduction of glioblastoma cells into
+the brain of mice. Furthermore, there is a lack of data on the
+delayed effects of invasive brain damage (Singh et al., 2016;
+Li Y. et al., 2021). These studies require multiple animal MRI
+sessions under anesthesia, and so this study investigates the
+long-term dynamics of the neurometabolic profile by 1H MRS
+repeated sessions after intracranial injection of a culture medium
+used at orthotopic modeling of glioma in mice.</p></sec><sec><title>Materials and methods</title><p>The study was carried out in the Center for Collective Use
+&#8220;SPF-vivarium&#8221; of the Institute of Cytology and Genetics,
+Siberian Branch of the Russian Academy of Sciences
+(RFMEFI62119X0023). This study was approved by the
+Inter-Institutional Commission on Biological Ethics at the
+Institute of Cytology and Genetics, Siberian Branch of the
+Russian Academy of Sciences (Permission #78, April 16,
+2021). Ten SPF male SCID mice aged 6&#8211;7 weeks were used.
+Their health status was investigated in accordance with the
+recommendations of the Federation of European Laboratory Animal Science Associations (FELASA working group&#8230;,
+2014). The animals were kept in single-sex family groups of
+2&#8211;5 mice in individually ventilated cages using the Optimice
+system (Animal Care Systems, Centennial, CO, USA). The
+mice were maintained under controlled conditions: temperature,
+22&#8211;26 &#176;C; relative humidity, 30&#8211;50 %; and 12/12 light/
+dark periods with dawn at 02:00. Standart V1534-300 ssniff&#174;
+diet (ssniff Spezialdi&#228;ten GmbH, Soest, Germany) and reverse
+osmosis water enriched with minerals were provided to the
+animals ad libitum.</p><p>Before the operation, the animal was placed in a chamber
+with an air flow of 300&#8211;350 ml/min and an isoflurane concentration
+of 1.5 % (Baxter International Inc., Deerfield, IL,
+USA). After 3&#8211;5 min, the animal was transferred to a heated
+operating table with a surface temperature of 37 &#176;C and placed
+under an anesthetic mask with 1.5 % isoflurane. The culture
+medium (DMEM\F-12, Thermo Fisher Scientific, Waltham,
+MA, USA) used for orthotopic glioma modeling was introduced
+into the subcortical structures of the brain through a
+hole in the cranium (Zavjalov et al., 2016). A 3&#8211;4 mm skin
+incision was made on the animal&#8217;s head in the caudal-cranial
+direction in the region of the bregma, and 5 &#956;l of medium
+was injected through the hole in the skull. Intravital MRS was
+performed on the anesthetized animals before surgery and on
+days 7, 14, 21 and 28 after the injection.</p><p>Magnetic resonance imaging and MRS protocols. Neurometabolite
+analyses were performed on a horizontal tomograph
+with a magnetic field strength of 11.7 Tesla (Biospec
+117/16; Bruker, Billerica, MA, USA). Five minutes prior
+to the analysis, animals were immobilized with gas anesthesia
+(Isofluran, Baxter International Inc.) using an anesthesia machine
+(The Univentor 400 Anaesthesia Unit; Univentor Ltd.,
+Zejtun, Malta). The body temperature of the animals was
+maintained using a water circuit in a tomographic bed-table
+with a surface temperature of 30 &#176;C. A pneumatic breathing
+sensor (SA Instruments Inc., Stony Brook, NY, USA) was
+placed under the lower torso, which made it possible to control
+the depth of anesthesia.</p><p>All proton spectra of the mouse brain were obtained using
+a 1H volumetric radiofrequency coil (T11440V3). Correct
+positioning of spectroscopic voxels (2.5 &#215; 2.5 &#215; 2.5 mm3) was
+performed using the RARE method (rapid acquisition with
+relaxation enhancement), with the parameters of the pulse
+sequence set at TE = 11 ms and TR = 2.5 s. T2-weighted
+high-resolution mouse brain images (slice thickness, 0.5 mm;
+field of view, 2.0 &#215; 2.0 cm; and matrix size, 256 &#215; 256 points)
+were obtained. The voxel location is shown in Fig. 1, a. All
+proton spectra were obtained using spatially localized singlevoxel
+spectroscopy using the STEAM method (stimulated
+echo acquisition mode spectroscopy) with pulse sequence
+parameters of TE = 3 ms, TR = 5 s, and the number of accumulations
+= 180. Before each spectroscopic measurement,
+the uniformity of the magnetic field was adjusted within the
+selected voxel using the FastMap technique (Gruetter, 1993).
+The water signal in the spectra was suppressed using a variable
+power pulse and an optimized relaxation sequence delay
+(VAPOR) (Tkac et al., 1999).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Voxel location (a), characteristic spectra and FIDs (LCModel) before (b) and 7 (c), 14 (d ), 21 (e) or 28 (f ) days after injection.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2374-Fig1.jpg"/></fig><p>MRS processing. The LCModel software package was used
+to process the experimental 1H MRS spectra and determine
+the number of individual metabolites (Provencher, 2001).
+This software package has a high degree of automation with
+minimal user intervention, which minimizes biased input
+data, thus allowing data exchange, acceptance, and reliable
+comparison with values obtained using different equipment
+or under different conditions. Metabolites with Cramer-Rao
+lower bounds, which represent the estimates of the percentage
+standard deviation of the fit for each metabolite, &lt; 20 %
+were considered reliable and are presented in this study. MRS
+processing is described in more detail in (Singh et al., 2016).
+According to the manual for the LCModel, the following levels
+were estimated: the sum of N-acetylaspartate and N-acetylaspartylglutamic
+acid (tNAA), myoinositol (mIno), taurine
+(Tau), glutathione (GSH), the sum of glycerophosphocholine
+and phosphocholine (tCho), glutamic acid (Glu), glutamine
+(Gln), gamma aminobutyric acid (GABA) as a relation to the
+sum of creatine and creatine phosphate (tCr). Moreover, the
+ratios of neurotransmitters and their precursors Glu/GABA
+and Glu/Gln were estimated (see Fig. 1).</p><p>Statistical analysis. We used Student&#8217;s t-test for dependent
+samples to process the results. The values of the studied parameters
+are presented as means &#177; standard error of the mean.</p></sec><sec><title>Results</title><p>In studies using in vivo MRS, data are presented both as
+concentrations or relative units of individual metabolites,
+and as the ratio of individual metabolites to tCr, using it as an
+internal control. Since in our work the level of tCr in animals
+did not differ from the base level at all the studied time points
+( p &gt; 0.19), it would be appropriate in the future to present the
+data as the ratio of individual metabolites to tCr.</p><p>Evaluation of indicators of brain cell viability, including
+tNAA/tCr (indicator of neuronal viability), mIno/tCr (indicator
+of glial cell viability), tCho/tCr (integrity of cell membranes),
+Tau/tCr (osmolyte, neuromodulator, and trophic factor) and
+GSH/tCr (antioxidant) showed that all of the metabolites returned
+to their initial levels on day 28 after injection ( p &gt; 0.12),
+except mIno (Fig. 2).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>Dynamics of the relative levels of 5 metabolites (tNAA/tCr, mIno/tCr, Tau/tCr, GSH/tCr, tCho/tCr) with levels before (0 days) and 7, 14, 21, and
+28 days after the intracranial injection.</title><p>Here and in Fig. 3 and 4: * Significant difference from 0 days ( p &lt; 0.05; Student&#8217;s t-test for dependent samples).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2374-Fig2.jpg"/></fig><p>The levels of metabolites reflected the viability and integrity
+of cells decreased in the first week of the study and
+then recovered two weeks after the injection significantly for
+tNAA/tCr ( p = 0.0152) and slightly for tCho/tCr ( p = 0.062)
+whereas the mIno/tCr level was significantly lower than the
+original on the 21st and 28th day after injection ( p = 0.0059 and
+p = 0.0484, respectively). A different picture was observed for
+Tau/tCr and GSH/tCr, which reflect the energy processes that
+take place in cells (see Fig. 2). It was found that the relative
+values of these metabolites increased significantly for Tau/
+tCr and slightly for GSH/tCr with maximum at 14 days after
+administration: p = 0.001 and p = 0.054, respectively. The
+levels of Tau/tCr and GSH/tCr returned to the original values
+28 days after the injection (see Fig. 2).</p><p>The analysis of the relative level of metabolites performing
+the functions of neurotransmitters (Glu/tCr, Gln/tCr and
+GABA/tCr) also showed the dynamic processes in brain tissue
+after injection (Fig. 3). The Gln/tCr level progressively
+decreased from 7 to 28 days after the injection and was significantly
+lower than the original level on the 14th and 28th day
+after the surgery ( p = 0.028 and p = 0.026, respectively). The
+GABA/tCr level had the same dynamic profile, but on the 7th
+day, there was a dip before minimal values ( p = 0.015) with a following recovery and the next extinction on the 28th day
+( p = 0.034). On the contrary, Glu/tCr increased, but only on
+14 days after injection, maintaining high values up to 28 days
+( p = 0.017, p = 0.019 and p = 0.045, respectively).</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3</label><caption><title>Dynamics of the relative levels of neurotransmitters (Glu/tCr,
+Gln/ tCr and GABA/tCr) before (0 days) and 7, 14, 21, 28 days after the intracranial
+injection.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2374-Fig3.jpg"/></fig><p>A particularly interesting results were found at analyzing
+the Glu/GABA and Glu/Gln ratios that reflect the effectiveness
+of neurotransmitters metabolism, because both the GABA
+and Gln have converted from Glu (Fig. 4). It was found that
+on the 7th day after the injection of the culture medium, the
+Glu/ GABA ratio significantly increased indicating a shift in
+the balance of neurotransmitters towards excitatory. These
+differences had disappeared by the 14th day post-injection,
+but with some progressive growth to 28th day. These differences
+were significant only for 21 and 28 days ( p = 0.024 and
+p = 0.002, respectively). Contrarily, the Glu/Gln ratio steadily
+increased during the experiment before a significant difference
+appeared on 14, 21 and 28 days after injection ( p = 0.003,
+p = 0.027 and p = 0.015, respectively).</p><fig position="float" id="Fig-4" orientation="portrait"><label>Fig. 4.</label><caption><title>The Glu/GABA and Glu/Gln ratios before (0 days) and 7, 14, 21,
+28 days after the intracranial injection</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2374-Fig4.jpg"/></fig></sec><sec><title>Discussion</title><p>The change in the tNAA/tCre ratio serves as an indicator of the
+dynamics of neuronal integrity and is an important biomarker
+of brain injury (Moffett et al., 2007). tNAA is involved in
+important processes such as lipid and myelin synthesis (Van
+Horn et al., 2017). In our study, the decrease in the tNAA
+level on day seven after surgery may indicate both potential
+neuronal loss and diffuse axonal injury characteristic of the
+early stages of brain trauma (Moffett et al., 2007), and its
+eventually recovery may indicate the stabilization process
+and the restoration of neurons and their viability</p><p>Another metabolite, mIno, is an osmolyte found mainly in
+astrocytes and glial cells of the microglia. Increased mIno levels
+are observed during both the subacute and chronic stages
+after experimental brain trauma, as well as after moderate or
+severe head trauma in humans (Brooks et al., 2001; Ashwal et
+al., 2004; Kierans et al., 2014). These changes are associated
+with reactive astrocytosis and microgliosis, accompanied by
+increased glial content and proliferation in response to brain
+injury (Ashwal et al., 2004), accelerated myelin breakdown,
+or hypertensive stress (Fisher et al., 2002). However, we
+found that mIno did not increase but rather decreased during
+the 28 days of the experiment, reaching the minimum values
+on day 21. Based on the data obtained, it can be assumed that
+the destruction of the integrity of the brain tissue caused by
+the needle injection of the culture medium did not lead to the
+changes in glial cell function</p><p>tCho, including choline compounds such as acetylcholine,
+phosphatidylcholine, and phosphocholine, is considered to
+be a product of nerve myelin disintegration and measures the
+membrane turnover (Xu et al., 2011; Li J. et al., 2017). In a
+study on rats (Lescot et al., 2010), two days after brain damage,
+a slight increase in the tCho level was detected, followed by
+recovery to the control value by seven days. In our study, we
+found a slight decrease in the tCho level seven days after the
+surgery, followed by its recovery to the baseline level, which is
+consistent with the behavior of the NAA level and may reflect
+the violation of membrane integrity and myelin degradation
+processes in the first week after surgery.</p><p>Another important indicator of brain cell activity is the
+balance
+of Tau levels. Tau is an endogenous amino acid synthesized
+in large quantities by neurons and astrocytes in the
+central nervous system. Tau acts as an osmolyte, neuromodulator,
+trophic factor, stabilizer of membrane integrity, and
+regulator of intracellular calcium homeostasis (Niu et al.,
+2018; Gupte et al., 2019). The significant increase in Tau at
+the injection region at 14 and 21 days post-injection, with
+the subsequent decrease at 28 days, may act as an adaptive
+brain tissue response to reduce the negative effects of the
+brain damage.</p><p>In response to the brain injury, markers of oxidative stress
+are produced in the brain, while levels of antioxidant defense
+enzymes (including GSH) are reduced (Rodr&#237;guez-Rodr&#237;guez
+et al., 2014). The addition of Tau to the culture medium in a
+neuron model with trauma led to an increase in GSH levels
+and, accordingly, a decrease in the effect of oxidative stress
+and in the levels of pro-inflammatory cytokines (Niu et al.,
+2018). In our study, it is likely that the increased Tau levels slowed the decline in GSH levels in the first three weeks after
+injection. The increase in the Tau level in the injection area led
+to a slight growth of the level of GSH in 14 days. Then there
+was a subsequent decrease in Tau levels by 21 and 28 days
+after the injection, ultimately accompanied by the reduction of
+GSH levels, which may indicate a completion of the traumatic
+process in 28 days after the traumatic event.</p><p>The Glu level in brain trauma models decreases starting
+from the first hours after trauma and remains at a low level up
+to two weeks post-exposure (Xu et al., 2011). This decrease
+may be due to an increased release of Glu into the synaptic
+cleft in response to brain injury, its capture by astrocytes, and
+its subsequent accelerated conversion to Gln, as evidenced by
+an increase in Gln (Guerriero et al., 2015; Van Horn et al.,
+2017). This is confirmed by the analysis of the Glu/Gln ratio.
+Changes in the Glu/Gln ratio may indicate neuronal death or
+glial cell abnormalities. In our study, the Glu/Gln ratio was
+the only indicator the change in which in the injected area
+intensified over time. There are two potential reasons for
+this. First, it may indicate a disturbance in the conversion of
+Glu to Gln in astrocytes, caused both by the transport of Glu
+into the astrocyte and its conversion to Gln under the action
+of glutamine synthetase. Second, the change in the Glu/Gln
+ratio may have been caused by hyperactivity of the reverse
+conversion of Gln to Glu in neurons, likely due to glutaminase
+hyperactivation (Guerriero et al., 2015; Van Horn et al., 2017).
+Regardless, both of these processes indicate a breakdown of
+the Gln to Glu conversion system specific to brain trauma
+processes</p><p>Analysis of the GABA level showed a two-wave decline:
+on 7 and 28 days. These results generally agree with those
+in the literature, where it was shown that in the acute phase
+of brain trauma, the GABA level decreases from the first day
+after injury (Harris et al., 2012). We attribute this decrease to
+the reduced conversion of Glu to GABA. The same effect can
+be caused by the accelerated uptake and conversion of GABA
+to Gln by oligodendrocytes (Van Horn et al., 2017). Additionally,
+the Glu/GABA ratio reflects the balance of excitatory
+and inhibitory neurotransmitters and its displacement may
+indicate the development of post-traumatic pathology, for
+example, to epileptogenesis (Cantu et al., 2015).</p><p>In a study on rats with mild traumatic brain injury caused
+by the blast, it was shown that the NAA level did not change,
+changes were observed only for mIno, Glu, and Tau, and
+only the Tau level was restored to the initial values after
+seven days, while the other metabolites showed an increase
+(Li Y. et al., 2021). In our study, metabolites characterizing
+the viability of neurons returned to their original level on
+day 28. However, the levels of mIno, as an indicator of the
+glial cells state, and the levels of neutotransmitters and their
+predictor (Glu, GABA and Gln) did not return to their initial
+values within 28 days, which may indicate some incomplete
+processes of tissue repair (Rodr&#237;guez-Rodr&#237;guez et al., 2014;
+Guerriero et al., 2015). All this results in longitudinal changes
+to the functional state of the brain cells obtained during the
+modeling surgery procedure of glioma.</p><p>Many studies have aimed to determine methods of early
+diagnosis of brain tumor diseases, including the use of in vivo
+1H MRS (Porcari et al., 2016; Hyare et al., 2017). It is known
+that during the development of glioblastoma, especially at
+its later stages, the amount of NAA is significantly reduced.
+Also, at the early stages of tumor development, the level of
+mIno increases significantly, decreasing towards the later stage
+(Bulik et al., 2013). At the same time, our data show that the
+process of cell xenotransplantation itself leads to a decrease
+in NAA on the 7th day after the surgery and a decrease in
+the level of mIno on the 21st day. Besides, glioma cells that
+secrete Glu lead to an increase in extracellular Glu. Although
+Gln concentrations in the contralateral brain tissue in patients
+with glioblastoma were significantly elevated compared with
+the levels found in normal brain (Chaumeil et al., 2015). In
+our study, we found an elevated level of Glu and an increased
+level of Gln.</p><p>The data obtained on the dynamics of the level of neurotransmitters
+in the brain during the simulation of the xenotransplantation
+process, on the one hand, can be the result
+of surgical intervention, as well as the result of multiple
+MRS procedures using anesthesia. At the same time, there is
+evidence of minimal effects of isoflurane anesthesia on the
+metabolomic profile in animals (Menshanov, Akulov, 2015;
+S&#246;bbeler et al., 2018).</p><p>Taking together, when using animal models of human
+glioma, researchers should clearly distinguish between the
+changes in neurometabolites that are a response to brain
+injury caused by the injection of cancer cells into the brain,
+and the processes that may indicate the early development of
+a brain tumor. Therefore, this is important for understanding
+how the level of metabolites changes during the process of
+tumor development.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>For modeling orthotopic xenotransplantation of glioma cells
+into the brain of mice, it is necessary to understand which
+metabolites are produced by a growing tumor and which are
+the result of surgery invasion of the tumor cells injection.
+The dynamic of nine neurometabolites in the mouse brain
+after needle injection with in vivo 1H magnetic resonance
+spectroscopy was studied. On the 28th day after injection,
+only metabolic levels of cells reflecting neurons&#8217; viability in
+the area of the injection were restored. However, the levels
+of neutotransmitters and their predictor (Glu, GABA and
+Gln) did not return to their initial values within 28 days. So,
+the recovery processes are largely completed on the 28th day
+after the traumatic event in the brain tissue, leaving open the
+question of the neurotransmitter system impairment. It is important
+to keep in mind when modeling human glioblastoma
+in mice and monitoring new treatments. In addition, these
+results may be important at the development of approaches for
+non-invasive diagnostics of traumatic brain injury as well as
+recovery and rehabilitation processes of patients after certain
+brain surgeries.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Ashwal S., Holshouser B., Tong K., Serna T., Osterdock R., Gross M.,
+Kido D. Proton spectroscopy detected myoinositol in children with
+traumatic brain injury. Pediatr. Res. 2004;56(4):630-638. DOI
+10.1203/01.PDR.0000139928.60530.7D.</p><p>Atkinson M., Juhasz C., Shah J., Guo X., Kupsky W., Fuerst D., Johnson
+R., Watson C. Paradoxical imaging findings in cerebral gliomas.
+J. Neurol. Sci. 2008;269(1-2):180-183. DOI 10.1016/j.jns.2007.
+12.029.</p><p>Barker F.G. 2nd, Chang S.M., Huhn S.L., Davis R.L., Gutin P.H.,
+McDermott
+M.W., Wilson C.B., Prados M.D. Age and the risk of
+anaplasia in magnetic resonance-nonenhancing supratentorial cerebral
+tumors. Cancer. 1997;80(5):936-941.</p><p>Brooks W.M., Friedman S., Gasparovic C. Magnetic resonance spectroscopy
+in traumatic brain injury. J. Head Trauma Rehabil. 2001;
+16(2):149-164. DOI 10.1097/00001199-200104000-00005.</p><p>Bulik M., Jancalek R., Vanicek J., Skoch A., Mechl M. Potential of MR
+spectroscopy for assessment of glioma grading. Clin. Neurol. Neurosurg.
+2013;115(2):146-153. DOI 10.1016/j.clineuro.2012.11.002.</p><p>Cantu D., Walker K., Andresen L., Taylor-Weiner A., Hampton D.,
+Tesco G., Dulla C.G. Traumatic brain injury increases cortical glutamate
+network activity by compromising GABAergic control. Cereb.
+Cortex. 2015;25(8):2306-2320. DOI 10.1093/cercor/bhu041.</p><p>Castillo M., Smith J.K., Kwock L., Wilber K. Apparent diffusion coefficients
+in the evaluation of high-grade cerebral gliomas. Am. J.
+Neuroradiol. 2001;22(1):60-64.</p><p>Chaumeil M.M., Lupo J.M., Ronen S.M. Magnetic resonance (MR)
+metabolic imaging in glioma. Brain Pathol. 2015;25(6):769-780.
+DOI 10.1111/bpa.12310.</p><p>Dass C.R., Choong P.F. GFP expression alters osteosarcoma cell
+biology.
+DNA Cell Biol. 2007;26(8):599-601. DOI 10.1089/dna.
+2006.053.</p><p>FELASA working group on revision of guidelines for health monitoring
+of rodents and rabbits; M&#228;hler Convenor M., Berard M.,
+Feinstein R., Gallagher A., Illgen-Wilcke B., Pritchett-Corning K.,
+Raspa M. FELASA recommendations for the health monitoring
+of mouse, rat, hamster, guinea pig and rabbit colonies in breeding
+and experimental units. Lab. Anim. 2014;48(3):178-192. DOI
+10.1177/0023677213516312.</p><p>Fisher S.K., Novak J.E., Agranoff B.W. Inositol and higher inositol
+phosphates in neural tissues: homeostasis, metabolism and functional
+significance. J. Neurochem. 2002;82(4):736-754. DOI 10.1046/
+j.1471-4159.2002.01041.x.</p><p>Ginsberg L.E., Fuller G.N., Hashmi M., Leeds N.E., Schomer D.F. The
+significance of lack of MR contrast enhancement of supratentorial
+brain tumors in adults: histopathological evaluation of a series. Surg.
+Neurol. 1998;49(4):436-440. DOI 10.1016/s0090-3019(97)00360-1.</p><p>Goodenberger M.L., Jenkins R.B. Genetics of adult glioma. Cancer Genet.
+2012;205(12):613-621. DOI 10.1016/j.cancergen.2012.10.009.</p><p>Gruetter R. Automatic, localized in vivo adjustment of all &#64257;rst-and
+second-
+order shim coils. Magn. Reson. Med. 1993;29(6):804-811.
+DOI 10.1002/mrm.1910290613.</p><p>Guerriero R.M., Giza C.C., Rotenberg A. Glutamate and GABA imbalance
+following traumatic brain injury. Curr. Neurol. Neurosci. Rep.
+2015;15(5):27. DOI 10.1007/s11910-015-0545-1.</p><p>Gupte R., Christian S., Keselman P., Habiger J., Brooks W.M., Harris
+J.L. Evaluation of taurine neuroprotection in aged rats with traumatic
+brain injury. Brain Imaging Behav. 2019;13(2):461-471. DOI
+10.1007/s11682-018-9865-5.</p><p>Haddad A.F., Young J.S., Amara D., Berger M.S., Raleigh D.R.,
+Aghi M.K., Butowski N.A. Mouse models of glioblastoma for the
+evaluation of novel therapeutic strategies. Neurooncol. Adv. 2021;
+3(1):vdab100. DOI 10.1093/noajnl/vdab100.</p><p>Hall E.D., Sullivan P.G., Gibson T.R., Pavel K.M., Thompson B.M.,
+Scheff S.W. Spatial and temporal characteristics of neurodegeneration
+after controlled cortical impact in mice: More than a focal brain
+injury. J. Neurotrauma. 2005;22(2):252-265. DOI 10.1089/neu.2005.
+22.252.</p><p>Harris J.L., Yeh H.W., Choi I.Y., Lee P., Berman N.E., Swerdlow R.H.,
+Craciunas S.C., Brooks W.M. Altered neurochemical profile after
+traumatic brain injury: 1H-MRS biomarkers of pathological mechanisms.
+J. Cereb. Blood Flow Metab. 2012;32(12):2122-2134. DOI
+10.1038/jcbfm.2012.114.</p><p>Hishii M., Matsumoto T., Arai H. Diagnosis and treatment of earlystage
+glioblastoma. Asian J. Neurosurg. 2019;14(2):589-592. DOI
+10.4103/ajns.AJNS_18_19.</p><p>Hyare H., Thust S., Rees J. Advanced MRI techniques in the monitoring
+of treatment of gliomas. Curr. Treat. Options Neurol. 2017;
+19(3):11. DOI 10.1007/s11940-017-0445-6.</p><p>Kierans A.S., Kirov I.I., Gonen O., Haemer G., Nisenbaum E., Babb J.S.,
+Grossman R.I., Lui Y.W. Myoinositol and glutamate complex neurometabolite
+abnormality after mild traumatic brain injury. Neurology.
+2014;82(6):521-528. DOI 10.1212/WNL.0000000000000105</p><p>Lescot T., Fulla-Oller L., Po C., Chen X.R., Puybasset L., Gillet B.,
+Plotkine M., Meric P., Marchand-Leroux C. Temporal and regional
+changes after focal traumatic brain injury. J. Neurotrauma. 2010;
+27(1):85-94. DOI 10.1089/neu.2009.0982.</p><p>Li J., Zhao C., Rao J.S., Yang F.X., Wang Z.J., Lei J.F., Yang Z.Y.,
+Li X.G. Structural and metabolic changes in the traumatically injured
+rat brain: high-resolution in vivo proton magnetic resonance
+spectroscopy at 7 T. Neuroradiology. 2017;59(12):1203-1212. DOI
+10.1007/s00234-017-1915-y.</p><p>Li Y., Liu K., Li C., Guo Y., Fang J., Tong H., Tang Y., Zhang J., Sun J.,
+Jiao F., Zhang Q., Jin R., Xiong K., Chen X. 18F-FDG PET combined
+with MR spectroscopy elucidates the progressive metabolic
+cerebral alterations after blast-induced mild traumatic brain injury
+in rats. Front. Neurosci. 2021;15:593723. DOI 10.3389/fnins.2021.
+593723.</p><p>Maas A.I., Stocchetti N., Bullock R. Moderate and severe traumatic
+brain injury in adults. Lancet Neurol. 2008;7(8):728-741. DOI
+10.1016/S1474-4422(08)70164-9.</p><p>Menshanov P.N., Akulov A.E. The neurochemical profile of the hippocampus
+in isoflurane-treated and unanesthetized rat pups. Interdiscip.
+Toxicol. 2015;8(3):113-117. DOI 10.1515/intox-2015-0017.</p><p>Miyai M., Tomita H., Soeda A., Yano H., Iwama T., Hara A. Current
+trends in mouse models of glioblastoma. J. Neurooncol. 2017;
+135(3):423-432. DOI 10.1007/s11060-017-2626-2.</p><p>Moffett J.R., Ross B., Arun P., Madhavarao C.N., Namboodiri A.M.
+N-Acetylaspartate in the CNS: from neurodiagnostics to neurobiology.
+Prog. Neurobiol. 2007;81(2):89-131. DOI 10.1016/j.pneurobio.
+2006.12.003.</p><p>Nelson S.J., Cha S. Imaging glioblastoma multiforme. Cancer J. 2003;
+9(2):134-145. DOI 10.1097/00130404-200303000-00009.</p><p>Niu X., Zheng S., Liu H., Li S. Protective effects of taurine against
+inflammation, apoptosis, and oxidative stress in brain injury. Mol.
+Med. Rep. 2018;18(5):4516-4522. DOI 10.3892/mmr.2018.9465.</p><p>Ostrom Q.T., Cote D.J., Ascha M., Kruchko C., Barnholtz-Sloan J.S.
+Adult glioma incidence and survival by race or ethnicity in the
+United
+States from 2000 to 2014. JAMA Oncol. 2018;4(9):1254-
+1262. DOI 10.1001/jamaoncol.2018.1789.</p><p>Ostrom Q.T., Cioffi G., Gittleman H., Patil N., Waite K., Kruchko C.,
+Barnholtz-Sloan J.S. CBTRUS statistical report: Primary brain
+and other central nervous system tumors diagnosed in the United
+States in 2012&#8211;2016. Neuro Oncol. 2019;21(Suppl. 5):v1-v100. DOI
+10.1093/neuonc/noz150.</p><p>Porcari P., Hegi M.E., Lei H., Hamou M.F., Vassallo I., Capuani S.,
+Gruetter R., Mlynarik V. Early detection of human glioma sphere
+xenografts
+in mouse brain using diffusion MRI at 14.1 T. NMR
+Biomed. 2016;29(11):1577-1589. DOI 10.1002/nbm.3610.</p><p>Provencher S.W. Automatic quantitation of localized in vivo 1H spectra
+with LCModel. NMR Biomed. 2001;14(4):260-264. DOI 10.1002/
+nbm.698.</p><p>Ratai E.M., Gilberto Gonz&#225;lez R. Clinical magnetic resonance spectroscopy
+of the central nervous system. Handb. Clin. Neurol. 2016;
+135:93-116. DOI 10.1016/B978-0-444-53485-9.00005-2.</p><p>Rodr&#237;guez-Rodr&#237;guez A., Egea-Guerrero J.J., Murillo-Cabezas F., Carrillo-
+Vico A. Oxidative stress in traumatic brain injury. Curr. Med.
+Chem. 2014;21(10):1201-1211. DOI 10.2174/09298673216661312
+17153310.</p><p>Singh K., Trivedi R., Haridas S., Manda K., Khushu S. Study of neurometabolic
+and behavioral alterations in rodent model of mild traumatic
+brain injury: a pilot study. NMR Biomed. 2016;29(12):1748-
+1758. DOI 10.1002/nbm.3627.</p><p>S&#246;bbeler F.J., Carrera I., Pasloske K., Ranasinghe M.G., Kircher P.,
+K&#228;stner S.B.R. Effects of isoflurane, sevoflurane, propofol and alfaxalone
+on brain metabolism in dogs assessed by proton magnetic
+resonance spectroscopy (1H MRS). BMC Vet. Res. 2018;14(1):69.
+DOI 10.1186/s12917-018-1396-1</p><p>Stockhammer F., Plotkin M., Amthauer H., van Landeghem F.K.,
+Woiciechowsky
+C. Correlation of F-18-fluoro-ethyl-tyrosin uptake
+with vascular and cell density in non-contrastenhancing gliomas.
+J. Neurooncol. 2008;88(2):205-210. DOI 10.1007/s11060-008-
+9551-3.</p><p>Sugahara T., Korogi Y., Kochi M., Ikushima I., Hirai T., Okuda T.,
+Shigematsu Y., Liang L., Ge Y., Ushio Y., Takahashi M. Correlation
+of MR imaging-determined cerebral blood volume maps with
+histologic and angiographic determination of vascularity of gliomas.
+AJR Am. J. Roentgenol. 1998;171(6):1479-1486. DOI 10.2214/ajr.
+171.6.9843274.</p><p>Tan A.C., Ashley D.M., Lopez G.Y., Malinzak M., Friedman H.S.,
+Khasraw M. Management of glioblastoma: State of the art and future
+directions. CA Cancer J. Clin. 2020;70(4):299-312. DOI 10.3322/
+caac.21613.</p><p>Tiwari V., Mashimo T., An Z., Vemireddy V., Piccirillo S., Askari P.,
+Hulsey K.M., Zhang S., de Graaf R.A., Patel T.R., Pan E., Mickey
+B.E., Maher E.A., Bachoo R.M., Choi C. In vivo MRS measurement
+of 2-hydroxyglutarate in patient-derived IDH-mutant xenograft
+mouse models versus glioma patients. Magn. Reson. Med.
+2020;84(3):1152-1160. DOI 10.1002/mrm.28183.</p><p>Tkac I., Starcuk Z., Choi I.-Y., Gruetter R. In vivo 1H NMR spectroscopy
+of rat brain at 1 ms echo time. Magn. Reson. Med. 1999;41(4):
+649-656. DOI 10.1002/(sici)1522-2594(199904)41:4&lt;649::aid-mrm
+2&gt;3.0.co;2-g.</p><p>Tykocki T., Eltayeb M. Ten-year survival in glioblastoma. A systematic
+review. J. Clin. Neurosci. 2018;54:7-13. DOI 10.1016/j.jocn.2018.
+05.002.</p><p>Van Horn J.D., Bhattrai A., Irimia A. Multimodal imaging of neurometabolic
+pathology due to traumatic brain injury. Trends Neurosci.
+2017;40(1):39-59. DOI 10.1016/j.tins.2016.10.007.</p><p>Xu S., Zhuo J., Racz J., Shi D., Roys S., Fiskum G., Gullapalli R. Early
+microstructural and metabolic changes following controlled cortical
+impact injury in rat: a magnetic resonance imaging and spectroscopy
+study. J. Neurotrauma. 2011;28(10):2091-2102. DOI 10.1089/
+neu.2010.1739.</p><p>Zavjalov E.L., Razumov I.A., Gerlinskaya L.A., Romashchenko A.V.
+In vivo MRI visualization of U87 glioblastoma development dynamics
+in the model of orthotopic xenotransplantation to the scid
+mouse. Russ. J. Genet. Appl. Res. 2016;6(4):448-453. DOI 10.1134/
+S2079059716040225.</p></sec></body><back><ack><p>The study was carried out with the support of the Russian Foundation for Basic Research (RFBR) grant 19&#8211;52&#8211;55004 using the
+equipment of the Center for Genetic Resources of Laboratory Animals, Institute of Cytology and Genetics, SB RAS, supported by the Ministry of Education
+and Science of Russia (RFMEFI62119X0023).</p></ack></back></article></pmc-articleset>

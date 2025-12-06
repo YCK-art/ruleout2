@@ -1,0 +1,566 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11214901</article-id><article-id pub-id-type="pmcid-ver">PMC11214901.1</article-id><article-id pub-id-type="pmcaid">11214901</article-id><article-id pub-id-type="pmcaiid">11214901</article-id><article-id pub-id-type="pmid">38952705</article-id><article-id pub-id-type="doi">10.18699/vjgb-24-35</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Phylogenetic and pangenomic analyses
+of members of the family Micrococcaceae
+related to a plant-growth-promoting rhizobacterium isolated from the rhizosphere of potato (Solanum tuberosum L.)</article-title><trans-title-group xml:lang="ru"><trans-title>&#1060;&#1080;&#1083;&#1086;&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1080; &#1087;&#1072;&#1085;&#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1099;&#1081; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;
+&#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1077;&#1083;&#1077;&#1081; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;&#1072; Micrococcaceae,
+&#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1093; &#1089;&#1090;&#1080;&#1084;&#1091;&#1083;&#1080;&#1088;&#1091;&#1102;&#1097;&#1077;&#1081; &#1088;&#1086;&#1089;&#1090; &#1088;&#1072;&#1089;&#1090;&#1077;&#1085;&#1080;&#1081; &#1088;&#1080;&#1079;&#1086;&#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1080;, &#1080;&#1079;&#1086;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1081; &#1080;&#1079; &#1088;&#1080;&#1079;&#1086;&#1089;&#1092;&#1077;&#1088;&#1099; &#1082;&#1072;&#1088;&#1090;&#1086;&#1092;&#1077;&#1083;&#1103; (Solanum tuberosum L.)</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Shchyogolev</surname><given-names initials="SY">S.Yu.</given-names></name><aff>
+<institution>Institute of Biochemistry and Physiology of Plants and Microorganisms &#8211; Subdivision of the Saratov Federal Scientific Centre
+of the Russian Academy of Sciences, Saratov, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Burygin</surname><given-names initials="GL">G.L.</given-names></name><aff>
+<institution>Institute of Biochemistry and Physiology of Plants and Microorganisms &#8211; Subdivision of the Saratov Federal Scientific Centre of the Russian Academy of Sciences, Saratov, Russia</institution>
+<institution>Saratov State Vavilov Agrarian University, Saratov, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Dykman</surname><given-names initials="LA">L.A.</given-names></name><aff>
+<institution>Institute of Biochemistry and Physiology of Plants and Microorganisms &#8211; Subdivision of the Saratov Federal Scientific Centre of the Russian Academy of Sciences, Saratov, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Matora</surname><given-names initials="LY">L.Yu.</given-names></name><aff>
+<institution>Institute of Biochemistry and Physiology of Plants and Microorganisms &#8211; Subdivision of the Saratov Federal Scientific Centre of the Russian Academy of Sciences, Saratov, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: S.Yu. Shchyogolev
+<email>shegolev_s@ibppm.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>6</month><year>2024</year></pub-date><volume>28</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">465669</issue-id><fpage>308</fpage><lpage>316</lpage><history><date date-type="received"><day>15</day><month>9</month><year>2023</year></date><date date-type="rev-recd"><day>29</day><month>11</month><year>2023</year></date><date date-type="accepted"><day>30</day><month>11</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>06</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>01</day><month>07</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-07-02 17:25:17.400"><day>02</day><month>07</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-28-2435.pdf"/><abstract><p>We report the results of taxonomic studies on members of the family Micrococcaceae that, according to the 16S rRNA, internal transcribed spacer 1 (ITS1), average nucleotide identity (ANI), and average amino acid identity (AAI) tests, are related to Kocuria rosea strain RCAM04488, a plant-growth-promoting rhizobacterium (PGPR) isolated from the rhizosphere of potato (Solanum tuberosum L.). In these studies, we used whole-genome phylogenetic tests and pangenomic analysis. According to the ANI &gt; 95 % criterion, several known members of K. salina, K. polaris, and K. rosea (including K. rosea type strain ATCC 186T) that are related most closely to isolate RCAM04488 in the ITS1 test should be assigned to the same species with appropriate strain verification. However, these strains were isolated from strongly contrasting ecological and geographical habitats, which could not but affect their genotypes and phenotypes and which should be taken into account in evaluation of their systematic position. This contradiction was resolved by a pangenomic analysis, which showed that the strains differed strongly in the number of accessory and strain-specific genes determining their individuality and possibly their potential for adaptation to different ecological niches. Similar results were obtained in a full-scale AAI test against the UniProt database (about 250 million records), by using the AAI-profiler program and the proteome of K. rosea strain ATCC 186T as a query. According to the AAI &gt; 65 % criterion, members of the genus Arthrobacter and several other genera belonging to the class Actinomycetes, with a very wide geographical and ecological range of sources of isolation, should be placed into the same genus as Kocuria. Within the paradigm with vertically inherited phylogenetic markers, this could be regarded as a signal for their following taxonomic reclassification. An important factor in this case may be the detailing of the gene composition of the strains and the taxonomic ratios resulting from analysis of the pangenomes of the corresponding clades.</p></abstract><trans-abstract xml:lang="ru"><p>&#1048;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1099; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1077;&#1083;&#1080; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;&#1072; Micrococcaceae, &#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1077;, &#1089;&#1086;&#1075;&#1083;&#1072;&#1089;&#1085;&#1086; &#1090;&#1077;&#1089;&#1090;&#1072;&#1084; 16S &#1088;&#1056;&#1053;&#1050;, ITS1 (&#1090;&#1088;&#1072;&#1085;&#1089;&#1082;&#1088;&#1080;&#1073;&#1080;&#1088;&#1091;&#1077;&#1084;&#1099;&#1081; &#1084;&#1077;&#1078;&#1075;&#1077;&#1085;&#1085;&#1099;&#1081; &#1089;&#1087;&#1077;&#1081;&#1089;&#1077;&#1088;), &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1081; &#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1085;&#1086;&#1081; &#1080;&#1076;&#1077;&#1085;&#1090;&#1080;&#1095;&#1085;&#1086;&#1089;&#1090;&#1080; (ANI) &#1080; &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1081; &#1072;&#1084;&#1080;&#1085;&#1086;&#1082;&#1080;&#1089;&#1083;&#1086;&#1090;&#1085;&#1086;&#1081; &#1080;&#1076;&#1077;&#1085;&#1090;&#1080;&#1095;&#1085;&#1086;&#1089;&#1090;&#1080; (AAI), &#1096;&#1090;&#1072;&#1084;&#1084;&#1091; RCAM04488 Kocuria rosea &#8211; &#1089;&#1090;&#1080;&#1084;&#1091;&#1083;&#1080;&#1088;&#1091;&#1102;&#1097;&#1077;&#1081; &#1088;&#1086;&#1089;&#1090; &#1088;&#1072;&#1089;&#1090;&#1077;&#1085;&#1080;&#1081; &#1088;&#1080;&#1079;&#1086;&#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1080; (PGPR), &#1080;&#1079;&#1086;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1084;&#1091; &#1080;&#1079; &#1088;&#1080;&#1079;&#1086;&#1089;&#1092;&#1077;&#1088;&#1099; &#1082;&#1072;&#1088;&#1090;&#1086;&#1092;&#1077;&#1083;&#1103; (Solanum tuberosum L.) &#1089; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1087;&#1086;&#1083;&#1085;&#1086;&#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1099;&#1093;
+&#1092;&#1080;&#1083;&#1086;&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074; &#1080; &#1087;&#1072;&#1085;&#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072;. &#1057;&#1086;&#1075;&#1083;&#1072;&#1089;&#1085;&#1086; &#1082;&#1088;&#1080;&#1090;&#1077;&#1088;&#1080;&#1102; ANI &gt; 95 %, &#1088;&#1103;&#1076; &#1080;&#1079;&#1074;&#1077;&#1089;&#1090;&#1085;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1077;&#1083;&#1077;&#1081; &#1074;&#1080;&#1076;&#1086;&#1074; K. salina, K. polaris &#1080; K. rosea (&#1074;&#1082;&#1083;&#1102;&#1095;&#1072;&#1103; &#1090;&#1080;&#1087;&#1086;&#1074;&#1086;&#1081; &#1096;&#1090;&#1072;&#1084;&#1084; K. rosea ATCC 186T), &#1085;&#1072;&#1080;&#1073;&#1086;&#1083;&#1077;&#1077; &#1073;&#1083;&#1080;&#1079;&#1082;&#1086;&#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1093; &#1080;&#1079;&#1086;&#1083;&#1103;&#1090;&#1091; &#1074; &#1090;&#1077;&#1089;&#1090;&#1077; ITS1, &#1076;&#1086;&#1083;&#1078;&#1085;&#1099; &#1073;&#1099;&#1090;&#1100; &#1087;&#1088;&#1080;&#1087;&#1080;&#1089;&#1072;&#1085;&#1099; &#1082; &#1086;&#1076;&#1085;&#1086;&#1084;&#1091; &#1080; &#1090;&#1086;&#1084;&#1091; &#1078;&#1077; &#1074;&#1080;&#1076;&#1091; &#1089; &#1089;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1091;&#1102;&#1097;&#1077;&#1081;
+&#1074;&#1077;&#1088;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1077;&#1081;
+&#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074;. &#1054;&#1076;&#1085;&#1072;&#1082;&#1086; &#1091;&#1082;&#1072;&#1079;&#1072;&#1085;&#1085;&#1099;&#1077; &#1096;&#1090;&#1072;&#1084;&#1084;&#1099; &#1073;&#1099;&#1083;&#1080; &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1099; &#1080;&#1079; &#1074;&#1077;&#1089;&#1100;&#1084;&#1072; &#1082;&#1086;&#1085;&#1090;&#1088;&#1072;&#1089;&#1090;&#1085;&#1099;&#1093; &#1087;&#1086; &#1101;&#1082;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1080; &#1075;&#1077;&#1086;&#1075;&#1088;&#1072;&#1092;&#1080;&#1080; &#1084;&#1077;&#1089;&#1090;
+&#1086;&#1073;&#1080;&#1090;&#1072;&#1085;&#1080;&#1103;, &#1095;&#1090;&#1086; &#1085;&#1077; &#1084;&#1086;&#1075;&#1083;&#1086; &#1085;&#1077; &#1089;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1080;&#1093; &#1075;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1077; &#1080; &#1092;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1077; &#1080; &#1076;&#1086;&#1083;&#1078;&#1085;&#1086; &#1073;&#1099;&#1090;&#1100; &#1090;&#1072;&#1082; &#1080;&#1083;&#1080; &#1080;&#1085;&#1072;&#1095;&#1077; &#1091;&#1095;&#1090;&#1077;&#1085;&#1086; &#1074; &#1086;&#1094;&#1077;&#1085;&#1082;&#1072;&#1093;
+&#1080;&#1093; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;. &#1044;&#1072;&#1085;&#1085;&#1086;&#1077; &#1087;&#1088;&#1086;&#1090;&#1080;&#1074;&#1086;&#1088;&#1077;&#1095;&#1080;&#1077; &#1087;&#1088;&#1086;&#1103;&#1089;&#1085;&#1103;&#1102;&#1090; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1087;&#1072;&#1085;&#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072;, &#1087;&#1088;&#1086;&#1076;&#1077;&#1084;&#1086;&#1085;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1074;&#1096;&#1080;&#1077; &#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1077; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1080;&#1103; &#1074; &#1101;&#1090;&#1080;&#1093; &#1096;&#1090;&#1072;&#1084;&#1084;&#1072;&#1093; &#1082;&#1086;&#1083;&#1080;&#1095;&#1077;&#1089;&#1090;&#1074;&#1072; &#1072;&#1082;&#1094;&#1077;&#1089;&#1089;&#1086;&#1088;&#1085;&#1099;&#1093; &#1080; &#1096;&#1090;&#1072;&#1084;&#1084;-&#1089;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1085;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074;, &#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1103;&#1102;&#1097;&#1080;&#1093; &#1080;&#1093; &#1080;&#1085;&#1076;&#1080;&#1074;&#1080;&#1076;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100; &#1080;, &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;, &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083; &#1076;&#1083;&#1103; &#1072;&#1076;&#1072;&#1087;&#1090;&#1072;&#1094;&#1080;&#1080; &#1082; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1085;&#1099;&#1084; &#1101;&#1082;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;
+&#1085;&#1080;&#1096;&#1072;&#1084; &#1089; &#1089;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1091;&#1102;&#1097;&#1080;&#1084;&#1080; &#1092;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;&#1080; &#1087;&#1088;&#1080;&#1079;&#1085;&#1072;&#1082;&#1072;&#1084;&#1080;. &#1040;&#1085;&#1072;&#1083;&#1086;&#1075;&#1080;&#1095;&#1085;&#1099;&#1077; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1099; &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1099; &#1074; &#1090;&#1077;&#1089;&#1090;&#1077; AAI &#1074;
+&#1087;&#1086;&#1083;&#1085;&#1086;&#1084;&#1072;&#1089;&#1096;&#1090;&#1072;&#1073;&#1085;&#1086;&#1084; &#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1077; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; &#1087;&#1088;&#1086;&#1090;&#1080;&#1074; &#1073;&#1072;&#1079;&#1099; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; UniProt (&#1086;&#1082;&#1086;&#1083;&#1086; 250 &#1084;&#1083;&#1085; &#1079;&#1072;&#1087;&#1080;&#1089;&#1077;&#1081;) &#1089; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1084;&#1099; AAI-profiler &#1080; &#1087;&#1088;&#1086;&#1090;&#1077;&#1086;&#1084;&#1072; &#1096;&#1090;&#1072;&#1084;&#1084;&#1072; K. rosea ATCC 186T &#1074; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1077; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089;&#1072;. &#1057;&#1086;&#1075;&#1083;&#1072;&#1089;&#1085;&#1086; &#1082;&#1088;&#1080;&#1090;&#1077;&#1088;&#1080;&#1102;
+AAI &gt; 65 %, &#1074; &#1086;&#1076;&#1080;&#1085; &#1080; &#1090;&#1086;&#1090; &#1078;&#1077; &#1088;&#1086;&#1076; &#1089; Kocuria &#1076;&#1086;&#1083;&#1078;&#1085;&#1099; &#1073;&#1099;&#1090;&#1100; &#1086;&#1073;&#1098;&#1077;&#1076;&#1080;&#1085;&#1077;&#1085;&#1099; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1077;&#1083;&#1080; &#1088;&#1086;&#1076;&#1072; Arthrobacter &#1080; &#1085;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1093; &#1076;&#1088;&#1091;&#1075;&#1080;&#1093; &#1088;&#1086;&#1076;&#1086;&#1074;, &#1086;&#1090;&#1085;&#1086;&#1089;&#1103;&#1097;&#1080;&#1093;&#1089;&#1103; &#1082; &#1082;&#1083;&#1072;&#1089;&#1089;&#1091; &#1072;&#1082;&#1090;&#1080;&#1085;&#1086;&#1084;&#1080;&#1094;&#1077;&#1090;&#1086;&#1074;, &#1089; &#1074;&#1077;&#1089;&#1100;&#1084;&#1072; &#1096;&#1080;&#1088;&#1086;&#1082;&#1080;&#1084; &#1075;&#1077;&#1086;&#1075;&#1088;&#1072;&#1092;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1080; &#1101;&#1082;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1089;&#1087;&#1077;&#1082;&#1090;&#1088;&#1086;&#1084; &#1080;&#1089;&#1090;&#1086;&#1095;&#1085;&#1080;&#1082;&#1086;&#1074; &#1080;&#1093; &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1080;&#1103;. &#1042; &#1088;&#1072;&#1084;&#1082;&#1072;&#1093; &#1087;&#1072;&#1088;&#1072;&#1076;&#1080;&#1075;&#1084;&#1099; &#1086; &#1074;&#1077;&#1088;&#1090;&#1080;&#1082;&#1072;&#1083;&#1100;&#1085;&#1086; &#1085;&#1072;&#1089;&#1083;&#1077;&#1076;&#1091;&#1077;&#1084;&#1099;&#1093; &#1092;&#1080;&#1083;&#1086;&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093;
+&#1084;&#1072;&#1088;&#1082;&#1077;&#1088;&#1072;&#1093; &#1101;&#1090;&#1086; &#1084;&#1086;&#1078;&#1085;&#1086; &#1090;&#1088;&#1072;&#1082;&#1090;&#1086;&#1074;&#1072;&#1090;&#1100; &#1082;&#1072;&#1082; &#1089;&#1080;&#1075;&#1085;&#1072;&#1083; &#1076;&#1083;&#1103; &#1080;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1077;&#1081; &#1090;&#1072;&#1082;&#1089;&#1086;&#1085;&#1086;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1087;&#1077;&#1088;&#1077;&#1082;&#1074;&#1072;&#1083;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1080;. &#1042;&#1072;&#1078;&#1085;&#1099;&#1084;
+&#1092;&#1072;&#1082;&#1090;&#1086;&#1088;&#1086;&#1084; &#1087;&#1088;&#1080; &#1101;&#1090;&#1086;&#1084; &#1084;&#1086;&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100; &#1076;&#1077;&#1090;&#1072;&#1083;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103; &#1075;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1072; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074; &#1080; &#1090;&#1072;&#1082;&#1089;&#1086;&#1085;&#1086;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1089;&#1086;&#1086;&#1090;&#1085;&#1086;&#1096;&#1077;&#1085;&#1080;&#1081;, &#1087;&#1086;&#1083;&#1091;&#1095;&#1072;&#1077;&#1084;&#1099;&#1093; &#1074; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1077; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; &#1087;&#1072;&#1085;&#1075;&#1077;&#1085;&#1086;&#1084;&#1086;&#1074; &#1089;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1091;&#1102;&#1097;&#1080;&#1093; &#1082;&#1083;&#1072;&#1076;.</p></trans-abstract><kwd-group><kwd>Arthrobacter</kwd><kwd>Kocuria</kwd><kwd>Micrococcaceae</kwd><kwd>pangenome</kwd><kwd>PGPR</kwd><kwd>phylogenetic analysis;</kwd><kwd>strain verification</kwd><kwd>Solanum tuberosum L.</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>Arthrobacter</kwd><kwd>Kocuria</kwd><kwd>Micrococcaceae</kwd><kwd>&#1087;&#1072;&#1085;&#1075;&#1077;&#1085;&#1086;&#1084;</kwd><kwd>PGPR</kwd><kwd>&#1092;&#1080;&#1083;&#1086;&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;</kwd><kwd>&#1074;&#1077;&#1088;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074;</kwd><kwd>Solanum tuberosum L.</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>The paper (Potanina et al., 2017) presented the results of phylogenetic
+studies on the plant-growth-promoting (Kargapolova
+et al., 2017) bacterial strain Kocuria rosea RCAM04488,
+isolated from surface-sterilized roots of potato (Solanum tuberosum
+L. &#8216;Kondor&#8217;). For the genotypic taxonomic identification
+of this isolate, sequences of the 16S rRNA gene (GenBank
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF754147.1">MF754147.1</ext-link>) and of the ITS1 transcribed intergenic spacer
+(GenBank <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link>) were obtained. By using 16S rRNA
+(Potanina et al., 2017), the evolutionary proximity of this
+isolate to the genera Rothia, Arthrobacter, and Zhihengliuella,
+as well as to members of the species K. rosea and K. polaris,
+was ascertained.</p><p>Kocuria is a genus of gram-positive bacteria of the family
+Micrococcaceae, phylum Actinobacteria, which are either
+aerobic or facultatively anaerobic. To date, 32 Kocuria species
+have been identified.</p><p>Kocuria bacteria have been found on human and animal
+skin and mucous membranes. They are generally considered
+nonpathogenic but can be detected in some urinary tract infections
+and in hepatobiliary, cardiovascular, nervous system,
+and gastrointestinal infections (Kandi et al., 2016). Although
+Kocuria can infect immunocompromised patients, they are
+weakly pathogenic and are highly sensitive to antibiotics
+(Odeberg et al., 2023).</p><p>Many Kocuria members, including the type species K. rosea,
+live in soil (Stackebrandt, Schumann, 2015) and are endophytes;
+i. e., they have been isolated from the rhizosphere
+and tissues of many plants. Endophytic Kocuria are inhibitory
+to several pathogenic fungi and bacteria (Cho et al., 2007;
+Rao et al., 2015; Andreolli et al., 2016; Candra et al., 2022;
+Tavarideh et al., 2022; Tedsree et al., 2022). In addition,
+some of them have properties of plant-growth-promoting rhizobacteria
+(PGPR), because they produce indole-3-acetic acid
+and other phytohormones and because they increase plant
+resistance to stress (Passari et al., 2017; Li et al., 2020).</p><p>Bacteriocins from nonlactic acid bacteria, in particular
+variacin from K. varians, can be used for the biopreservation
+of food (cheese and meat) products (G&#225;lvez et al., 2010). The
+K. rosea exopolysaccharide, kocuran, is used in the production
+of antimicrobial coatings (Kumar, Sujitha, 2014).</p><p>A number of soil Kocuria can degrade some xenobiotics,
+in particular phthalate esters, pesticides, and salts of arsenic,
+copper, and other heavy metals (Kaur et al., 2015; Rom&#225;n-
+Ponce et al., 2016; Hansda et al., 2017; Mukherjee et al., 2018;
+Vital et al., 2019; Yastrebova, Plotnikova, 2020; Gonz&#225;lez-
+Ben&#237;tez et al., 2021; Mawang et al., 2021). Various Kocuria
+have been recovered from soils; marine sediments; meat,
+dairy and seafood products; beer; seawater; rocks; livestock
+bedding; manure; surface spring water; and other sources
+(Church et al., 2020).</p><p>The aim of this research was to obtain phylogenetic and
+genetic information on Micrococcaceae members related to
+K. rosea isolate RCAM04488 according to the following
+tests: 16S rRNA (Potanina et al., 2017), internal transcribed
+spacer (ITS1), average nucleotide identity (ANI), and average
+amino acid identity (AAI). Whole-genome phylogenetic tests
+and pangenomic analysis were applied to the known results of
+whole-genome DNA sequencing of these strains.</p></sec><sec><title>Materials and methods</title><p>In our phylogenetic and pangenomic studies, we used the
+published genomes of the bacterial strains under study, brought
+into consideration as a result of the use of the bioinformatic
+resources mentioned below. The characteristics of the genomes
+are summarized in Results and Discussion and in Supplementary
+Materials.</p><p>The blastn program (Standard Nucleotide BLAST.<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://blast.ncbi.nlm.nih.gov/Blast.cgi?" ext-link-type="uri">https://blast.ncbi.nlm.nih.gov/Blast.cgi?</ext-link> 
+PROGRAM=blastn&amp;PAGE_TYPE=BlastSearch&amp;LINK_LOC=blasthome.
+Accessed 09/06/2023) was used in taxonomic analysis with
+the genetic sequence of the ITS1 intergenic spacer of K. rosea
+RCAM04488 (GenBank <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link>). Strain RCAM04488 is
+part of the Russian Collection of Agricultural 
+RCAM04488) and of the Collection of Rhizosphere Microorganisms, Institute of Biochemistry and Physiology of Plants
+and Microorganisms, Russian Academy of Sciences (IBPPM
+RAS) <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://collection.ibppm.ru," ext-link-type="uri">http://collection.ibppm.ru,</ext-link>accessed 09/06/2023;
+IBPPM604).</p><p>The average nucleotide identity (ANI) test <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://enve-omics.ce.gatech.edu/g-matrix" ext-link-type="uri">http://enve-omics.ce.gatech.edu/g-matrix</ext-link>(Goris et al.,
+2007; Rodriguez-R, Konstantinidis, 2014; Jain et al., 2018), in
+its OAT modification <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ezbiocloud.net/tools/orthoani." ext-link-type="uri">https://www.ezbiocloud.net/tools/orthoani.</ext-link> (Lee et al., 2016), was used for quantitative
+species/genus demarcation on the basis of whole-genome
+sequencing of the strains&#8217; DNA. Note that the 16S rRNA,
+ITS1, ANI, and AAI tests were developed within the paradigm
+of vertically inherited prokaryotic genotypic traits by
+using markers from the core component of the pangenome
+(Tettelin, Medini, 2020) without any account of the effects
+of horizontal gene transfer (HGT) in its accessory (optional)
+and strain-specific parts. The HGT effects largely control the
+variety of phenotypic traits that determine, in particular, the
+ability of bacteria and archaea to adapt and function in diverse,
+frequently changing ecological niches (Koonin, 2012). These
+traits are taken into account in the analysis of the systematic
+position of entries that is based on the polyphasic approach,
+which is very common in the traditional systematics of the
+prokaryotes (Oren, Garrity, 2014). Hence follows the obvious
+conventionality of phylogenetic analysis within any scheme
+using only vertically inherited phylogenetic markers, as do
+possible contradictions of its results to the traditional classification
+and nomenclature of the prokaryotes (Shchyogolev,
+2021). This probably explains, in particular, the need for their
+verification with appropriate classification changes, which
+turned out to be relevant for about 60 % of the Genome
+Taxonomy Database <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://gtdb.ecogenomic.org" ext-link-type="uri">https://gtdb.ecogenomic.org</ext-link> (GTDB) entries analyzed in Parks et
+al. (2018)</p><p>We used the PGAP program <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pgaweb.vlcc.cn/analyze." ext-link-type="uri">http://pgaweb.vlcc.cn/analyze.</ext-link> (Chen et al., 2018) to obtain
+information on pangenome composition for selected phylogenetic
+groups of bacteria (clades).</p><p>We used the AAI-profiler program <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ekhidna2.biocenter.helsinki.fi/AAI" ext-link-type="uri">http://ekhidna2.biocenter.helsinki.fi/AAI</ext-link> (Medlar et al., 2018)
+to evaluate the whole-genome systematic position of Kocuria
+members relative to the entries from the UniProt protein
+property database <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.uniprot.org." ext-link-type="uri">https://www.uniprot.org.</ext-link> (250 million records) for Kocuria members
+found by the 16S rRNA and ITS1 tests to be closely related
+to K. rosea RCAM04488. In particular, the program detects
+and visualizes possible contradictions in the classification of
+pro- and eukaryotes and microbial contamination (Medlar et
+al., 2018). To visualize and analyze phylogenetic trees, we
+used the MEGA11 program <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.megasoftware.net." ext-link-type="uri">https://www.megasoftware.net.</ext-link>.</p></sec><sec><title>Results and discussion</title><p>Strains closely related to Kocuria rosea isolate RCAM04488
+in the ITS1 test</p><p>Use of blastn with the sequence of the ITS1 intergenic spacer
+of K. rosea RCAM04488 (GenBank <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link>) against
+the RefSeq Genome Database (refseq_genomes) with the Kocuria
+option (taxid:57493) yielded a set of 12 hits. These included
+ITS1 sequences from Kocuria members and references
+to the results of whole-genome DNA sequencing of all (mostly
+type) strains in the set (Supplementary Material 1). Of note,
+in the BacDive database (Reimer et al., 2022), on the web
+page <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://bacdive.dsmz.de/strain/7641" ext-link-type="uri">https://bacdive.dsmz.de/strain/7641</ext-link>, information is given on 29 entries representing the
+type strain of K. rosea, including K. rosea DSM 20447T,
+which, according to the 16S rRNA test, is evolutionarily close
+to the isolate we are studying (Potanina et al., 2017). Among
+the results of similar studies conducted by us with the use of
+the resource <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ezbiocloud.net" ext-link-type="uri">https://www.ezbiocloud.net</ext-link>(data not shown), K. rosea strain ATCC 186T
+(characteristics summarized in Supplementary Material 1) is
+indicated as the type strain. It is also found on the K. rosea
+DSM 20447T BacDive web page, presented as the type strain
+in Trachtenberg et al. (2018), and used for comparison in
+pangenomic analysis and in AAI-profiler studies</p><p>
+<fn id="suppl"><p>Supplementary Materials are available in the online version of the paper:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilovj-icg.ru/download/pict-2024-28/appx12.pdf" ext-link-type="uri">https://vavilovj-icg.ru/download/pict-2024-28/appx12.pdf</ext-link></p></fn>
+</p><p>The BLAST distance tree for ITS1 of K. rosea RCAM04488
+(GenBank <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link>) with the indicated 12 hits (Fig. 1)
+shows clustering of K. rosea RCAM04488 with members
+of K. rosea, K. polaris, and K. salina, in agreement with the
+main results of the 16S rRNA test (Potanina et al., 2017).
+The value of the ITS1 sequence identity I = 99.1 % among
+those marked in Figure 1 and the general structure of the
+cluster, the node of which is marked by a red dot in Figure 1,
+indicates that K. rosea RCAM04488 is most closely related
+taxonomically to K. rosea strain AF099C18 in this test. Strain
+AF099C18 belongs to the type species of the genus Kocuria,
+the members of which are found in very diverse ecological
+niches (Stackebrandt, Schumann, 2015) (see Introduction
+and Supplementary Material 1), and was isolated in Eugene
+(Oregon, USA) from a dust sample during the study of the
+effect of the finishing of indoor surfaces on bacterial viability
+(Hu et al., 2019).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Distance tree for BLAST hits with the ITS1 query sequence (GenBank <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link>) of K. rosea RCAM04488
+against the RefSeq Genome Database (refseq_genomes) with the Kocuria option (taxid:57493).</title><p>The identity values (I, %) between sequence <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link> and hit sequences are indicated in curly brackets.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2435-Fig1.jpg"/></fig><p>The other members of this cluster include K. rosea strain
+DSM 20447T, a member of the Actinobacteria; K. polaris
+type strain CMS 76orT, isolated from cyanobacterial mats in
+McMurdo Dry Valley, Antarctica (Gundlapally et al., 2015);
+and K. salina strain CV6 29, isolated in the vicinity of Lake
+Schott el Djerid (Tunisia) from the roots of Cistanche violacea,
+a desert plant of the Orobanchaceae family that lives on the
+roots of host plants (tamarix, black saxaul). The adaptation
+of these strains to such a contrasting diversity of habitats and
+conditions can be attributed to the phenotypic traits encoded
+by the genes in the accessory and strain-specific parts of the
+Kocuria pangenome, to which a large contribution is probably
+made by HGT (Treangen, Rocha, 2011; Koonin, 2012).</p><p>At the whole-genome level with housekeeping genes, however
+(ANI test, orthologous genes), all four strains in the
+monophyletic group with sequence <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MF765458.1">MF765458.1</ext-link> (Fig. 1)
+obey the ANI &gt; 95 % condition and, therefore, should be
+considered as belonging to the same species (Jain et al., 2018).
+This is illustrated by the ANI dendrogram (UPGMA variant)
+obtained by the OAT method described in Lee et al. (2016)
+(Supplementary Material 2). In addition to the four strains
+listed above, the ANI &gt; 95 % condition, which groups the strains into the same species (Jain et al., 2018), is also obeyed
+by the K. sediminis JCM 17929T&#8211;K. turfanensis HO-9042T
+pair. Unlike 16S rRNA and ANI, the ITS1 test (Fig. 1) does
+not have quantitative criteria for grouping/demarcating taxa.
+In our case, this turned out to be possible only by combining
+the OrthoANI dendrogram with the heat map in Supplementary
+Material 2.</p><p>To elucidate those whole-genome details that determine the
+strains&#8217; individuality and possibly also differences in adaptation
+behavior in contrasting ecological niches, we performed
+a pangenomic analysis (Chen et al., 2018; Tettelin, Medini,
+2020) of the strains included in Figure 1 and Supplementary
+Material 2 by using the PGAweb program. To the 12 genomes
+of these strains, we added the genome of K. rosea strain
+ATCC 186T (see above).</p><p>Figure 2A shows the dependences of pangenome size
+(curve 1) and core genome size (curve 2) on the number of genomes
+being considered for the set corresponding to Figure 1.
+Different colors and numbers in the pie chart of Figure 2B
+denote the content of the core, accessory, and strain-specific
+genes in their total pool for a clade of 13 strains. The general
+appearance of curves 1 and 2 indicates that this pangenome is
+of the open type, which means that it allows DNA exchange
+with the global prokaryote gene pool through a variety of
+mechanisms (Chen et al., 2018; Tettelin, Medini, 2020), including
+HGT (Treangen, Rocha, 2011; Koonin, 2012).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>Pangenomic analysis of the Kocuria strains included in Figure 1 and Supplementary Material 2. A, size of the pangenome (1) and core genome (2)
+versus the number of genomes being considered. B, pie chart of pangenome contents in Fig. A with core, accessory, and strain-specific genes. C, pie
+chart of the pangenome contents corresponding to the monophyletic group highlighted in Figure 1 (red dot), with core, accessory, and strain-specific
+genes. D, histogram of the number of strain-specific genes in the strains corresponding to the pangenome in Fig. C.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2435-Fig2.jpg"/></fig><p>To elucidate subtle differences among these five genomes,
+which possibly contribute substantially to their distribution
+across different ecological niches and other individual phenotypic
+traits but are not evident in the ANI test (see Supplementary
+Material 2), we conducted a separate pangenomic
+analysis for 5 strains corresponding to the monophyletic group
+highlighted in Figure 1 (red dot) (Fig. 2C, D). For this clade of
+closely related species, the analysis showed a relatively high
+content of core genes (70 %), a lower content of accessory
+genes (24 %), and a low percentage of unique (strain-specific)
+genes (6 %), with very marked interstrain differences in their
+number (Fig. 2D).</p><p>The largest number of unique genes is present in the endophytic
+strain K. salina CV6 (480), which is followed by
+K. rosea AF099C18 (287) and K. polaris CMS 76orT (235).
+The letter R in K. rosea strain AF099C18 in Figure 2, D shows
+its status as a representative of K. rosea isolate RCAM04488
+at the whole-genome level, which is the most closely related
+to it in the 16S rRNA (Potanina et al., 2017) and ITS1 tests
+(Fig. 1).</p><p>Strains related to Kocuria rosea RCAM04488
+in the AAI-profiler test</p><p>Using AAI-profiler, we made an extended whole-genome
+evaluation
+of the systematic position of the Kocuria members
+related to K. rosea RCAM04488 according to the 16S rRNA
+(Potanina et al., 2017) and ITS1 tests (see above). This was
+done at the level of the UniProt database, which has about
+250 million records as of autumn 2023. With allowance for
+the close kinship between K. rosea strains, which is shown
+in Supplementary Material 2, we chose K. rosea type strain
+ATCC 186T as the initial one for use in AAI-profiler</p><p>The query was the proteome of K. rosea ATCC 186T (genome
+assembly GCF_006094695.1), used by AAI-profiler to
+determine AAI between the query proteome and the proteomes
+of the species members in UniProt and to construct an AAI
+distribution diagram (Fig. 3). AAI values are plotted on the
+horizontal axis, and the values of the MF (matched fraction,
+the proportion of query proteins that have matches in the species
+analyzed by the program) are plotted on the vertical axis.
+The diagram icons correspond to the species that received the
+highest scores, with account taken of AAI and coverage, i. e.,
+the sum of the sequence identity values for all query proteins
+with established matches</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3.</label><caption><title>AAI distribution diagram for K. rosea ATCC 186T, as found in the
+AAI-profiler output data.</title><p>Explanations are in the text.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2435-Fig3.jpg"/></fig><p>Related species, grouped and colored on the basis of genus,
+form a characteristic &#8220;cloud&#8221; in the diagram, with AAI values
+reflecting the evolutionary closeness of the UniProt strains and
+the query strain. The horizontal axis has icons for the species
+for which only individual proteins have been sequenced.
+The icons are colored according to genus (bacteria) or order
+(eukaryotes).
+Eukaryotic species are marked with rhombuses;
+bacteria, with circles; archaea, with crosses; and everything
+else (viruses, metagenomes, and unclassified samples), with
+squares. The vertical dashed lines in Figure 3 correspond to the
+AAI cutoff values for strain demarcation on the basis of genus
+(AAI &gt; 0.65) and species (AAI &gt; 0.9) under the conditions
+presented in the ANI/AAI-Matrix resource, on the website<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://help.microbial-genomes.org/understanding-results#distance" ext-link-type="uri">https://help.microbial-genomes.org/
+understanding-results#distance</ext-link> ,
+and in Rodriguez-R and Konstantinidis (2014).</p><p>The results (Fig. 3) show that the query proteome corresponds
+to a set of 11 K. rosea strains with average coverage
+and AAI values of 0.989 and 99.8 %, respectively. The closest
+to this set among the classified ones is that of two K. polaris
+strains (including the type strain CMS 76or), the icon of which
+is located in the area of the diagram with AAI values &gt; 90 %
+(to the right of the vertical dashed line with an abscissa of 0.9).
+In the AAI test, this means that all these 13 strains and some
+other Kocuria members (not shown here) belong to the same
+species (Luo et al., 2014).</p><p>As an example, the Figure 3 diagram includes K. turfanensis
+strain NBRC 107627T, the icon of which is located within the range of 0.65 &lt;ANI &lt; 0.9, where most species belonging to
+the same genus in the AAI test (Luo et al., 2014) are concentrated.
+These include Kocuria of the following species: coralli,
+flava, indica, marina, palustris, rhizophila, sediminis, soli,
+subflava, turfanensis, tytonicola, tytonis, and varians. However,
+the same area in the diagram with coverage in the range
+0.12&#8211;0.74 also includes members of the genus Arthrobacter
+(the most widely represented genus in the Fig. 3 diagram)
+and of the genera Pseudarthrobacter, Micrococcus, Microbacterium,
+and some other actinomycetes. The placement of
+these entries (and other bacterial species/strains marked with
+pink, green, and light green dots) into the main cluster of the
+genus Kocuria, which groups species related to the query
+strain K. rosea ATCC 186T (to the right of the dashed line
+with abscissa AAI = 0.65), could be interpreted as a signal for
+their probable taxonomic reclassification (Medlar et al., 2018)
+within the paradigm with vertically inherited phylogenetic
+markers (Koonin, 2012). However, a decision on this should
+be made after additional genotypic and phenotypic features
+are considered within a polyphasic approach (Oren, Garrity,
+2014). These strains are listed together with their detailed
+characteristics in the AAI-profiler output</p><p>Six icons corresponding to eukaryotes are located on the abscissa
+axis at the intraspecies level with AAI values &gt; 0.9. The
+relatively small (symbolically zero) coverage values mean that
+only individual proteins have been sequenced for them (Medlar
+et al., 2018). The protein system from the fruit fly Drosophila
+mauritiana proved closest to that of K. rosea ATCC 186T
+on the basis of AAI = 100 %. Next in descending order of
+AAI values in the intraspecies interval 90 % &lt; AAI &lt; 100 %
+(Luo et al., 2014) are Penicillium polonicum (imperfect fungus),
+Poeciliopsis prolifica (small freshwater fish), Drosophila
+sechellia (another fruit fly species), Nothoprocta ornata
+(flightless bird), and Hirsutella minnesotensis (asexual
+propagating fungus). For clarity, some of these are marked with arrows in Figure 3. In the same ANI &gt; 90 % interval, the
+icons for members of the prokaryotes and the genera Kocuria,
+Arthrobacter, Micrococcus (all actinomycetes), and Nitrosomonas
+(&#946;-proteobacteria) are shown on the abscissa axis.</p><p>For prokaryotes, this is explained by HGT (Treangen, Rocha,
+2011; Medlar et al., 2018). For eukaryotes, which in our
+case include members of the animal and fungal kingdoms, the
+high homology between their protein systems and those of the
+genus Kocuria (class Actinomycetia) may be associated with
+symbiogenesis as a very probable mechanism of the origin
+of eukaryotes with the participation of prokaryotes (Dey et
+al., 2016; Provorov et al., 2018). Bioinformatic studies of this
+phenomenon have been reported, for example, in Markov and
+Kulikov (2005) and in Nikitin (2016). They provide data to
+show that although archaea [from which a considerable part
+of the eukaryotic genome originates (Stairs, Ettema, 2020)],
+&#945;-proteobacteria (precursors to mitochondria), and cyanobacteria
+(precursors to plastids) play fundamental parts in symbiogenesis,
+substantial contributions to these processes are
+made by various bacteria, not limited to the above two taxa.</p><p>In the context of the above-mentioned AAI-profiler results,
+of interest is the information on the general genomic structure
+of Kocuria and Arthrobacter members. This information was
+obtained by pangenomic analysis with the PGAweb software
+package described in Chen et al. (2018). In the database of
+the results of whole-genome DNA sequencing of prokaryotic
+strains <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/datasets/genome" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/datasets/genome</ext-link>, as of autumn 2023, we found a fairly representative
+set of genomes for 20 mostly type strains of Kocuria species,
+having the status of reference genomes (Supplementary
+Material 3) and used by us for pangenomic analysis (Fig. 4).</p><fig position="float" id="Fig-4" orientation="portrait"><label>Fig. 4.</label><caption><title>Results of pangenomic analysis of Kocuria strains with the reference genomes, listed in Supplementary Material 3. A, size of the pangenome (1)
+and core genome (2) versus the number of genomes being considered. B, pie chart of pangenome contents in Fig. A with core, accessory, and strainspecific
+genes. C, histogram of the number of strain-specific genes in the strains corresponding to the pangenome in Figs. A and B. D, phylogram for the
+set of strains from the pangenome in Figs. A&#8211;C.</title><p>The phylogram was obtained by the NJ method on the basis of the gene acquisition/loss matrix. Red dots and Roman numerals indicate nodes of monophyletic
+groups.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2435-Fig4.jpg"/></fig><p>The Figure 4 results show the overall conservatism of the
+genomes being considered (26 % of the core genes) and the
+pronounced openness of the pangenome (Fig. 4A, B, curves
+1 and 2). The changes in the accessory (62 % of the total
+number of genes) and strain-specific (Fig. 4C) components
+of the pangenome, which reflect the species diversity of Kocuria,
+can also be attributed to the great diversity of habitats
+of these strains &#8211; from animal and plant organs and tissues to
+food, soil, air, and marine environments, including Antarctic
+cyanobacterial mats</p><p>Figure 4D shows the phylogram presented in the final
+PGAweb results. It was obtained by the neighbor-joining (NJ)
+method on the basis of the gene acquisition/loss matrix for the
+pangenome as a whole (Chen et al., 2018). This tree shows
+a clear distribution of strains over three monophyletic groups
+(Fig. 4D, red dots). There is no sufficiently pronounced dependence on geographical or environmental factors. It can
+only be noted that strains of animal origin are concentrated
+in Figure 4D in group iii.</p><p>For comparison and with account taken of the wide representation
+of Arthrobacter species in the AAI-profiler output
+(Fig. 3), we also performed a pangenomic analysis for the
+species of this genus corresponding to these members. The
+obtained set of predominantly type strains and genomes in
+the &#8220;Reference genomes&#8221; category, which we found in the
+Genome database, is presented in Supplementary Material 4.</p><p>Figure 5A, B shows the pangenome characteristics for the
+group of Arthrobacter species listed in Supplementary Material
+4. Note that the relative number of core genes for the
+Arthrobacter group is much smaller than that for the Kocuria
+group (Supplementary Material 3, Fig. 4). The greater number
+of accessory and strain-specific genes in Arthrobacter
+(94 %), as compared with Kocuria (74 %), indicates higher
+overall genomic heterogeneity of the Arthrobacter group
+under consideration and greater openness of its pangenome.
+The number of strain-specific genes in each of the strains
+forming part of the Arthrobacter pangenome group varies in
+a wide range, from 130 (A. crystallopoietes) to 1,517 (A. terricola)
+(Fig. 5C).</p><fig position="float" id="Fig-5" orientation="portrait"><label>Fig. 5.</label><caption><title>Results of pangenomic analysis of Arthrobacter strains with reference genomes, listed in Supplementary Material 4. A, size of the pangenome (1)
+and core genome (2) versus the number of genomes being considered. B, pie chart of pangenome contents in Fig. A with core, accessory, and strainspecific
+genomes. C, histogram of the number of strain-specific genes in the strains corresponding to the pangenome in Figs. A and B.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2435-Fig5.jpg"/></fig></sec><sec id="Conclusion"><title>Conclusion</title><p>We have shown that, according to the ANI test, the strains
+K. salina CV6 and K. polaris CMS 76orT, together with
+K. rosea DSM 20447, K. rosea AF099C18, and K. rosea
+ATCC 186T, formally within a phylogeny with vertically
+inherited markers, should be assigned to the same species
+(ANI &gt; 95 %) with appropriate species verification of the
+strains. Because all five strains have been isolated from
+strongly contrasting ecological and geographical habitats,
+this fact could not but affect their genotypes and phenotypes
+and should be taken into account in the analysis of their systematic
+position.</p><p>We have clarified this contradiction by pangenomic analysis
+of a clade of 13 Kocuria strains closely related in the
+16S rRNA and ITS1 tests to the K. rosea strain of interest,
+RCAM04488, isolated from surface-sterilized potato roots.
+The clade includes the above-mentioned Kocuria strains. The
+analysis has shown the pangenome to be of the open type and
+has revealed large differences between the above strains in
+the content of accessory and strain-specific genes, which determine
+their individuality and possibly potential for adaptation
+to different ecological niches with the corresponding
+phenotypic traits. The largest number of unique genes, which
+are listed in the output of the PGAP program, was observed
+in the endophytic strain K. salina CV6 (480). This strain is
+followed by K. rosea AF099C18 (287), which is most closely
+related to K. rosea RCAM04488 in the 16S rRNA and ITS1
+tests. These observations seem important for evaluating the
+possible gene content of K. rosea RCAM04488 in terms of
+its abilities as a PGPR. This will be the subject of our further
+work, which will use the results of whole-genome DNA sequencing
+of this strain.</p><p>Using AAI-profiler, we obtained similar results in a fullscale
+AAI test against the UniProt database (approximately
+250 million records). In particular, these results confirm the
+need to assign K. rosea and K. polaris members and several
+other members of the genus Kocuria to the same species
+(AAI &gt; 90 %). In the phylogenetic aspect, our most substantial
+finding is the established association of Kocuria, Arthrobacter
+(the genus most widely represented in these results), Pseudarthrobacter,
+Micrococcus, Microbacterium, and several
+other genera as members of the same genus according to
+the AAI &gt; 65 % criterion. Within a paradigm with vertically
+inherited phylogenetic markers, this could be regarded as a
+signal for the following taxonomic reclassification of these
+entries. In this respect, it may help to comparatively evaluate
+their gene content and taxonomic relationships on the basis
+of pangenomic studies. However, to make this responsible
+decision, one should consider additional genotypic and phenotypic
+characteristics of the strains under study within a
+polyphasic approach</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Andreolli M., Lampis S., Zapparoli G., Angelini E., Vallini G. Diversity
+of bacterial endophytes in 3 and 15 year-old grapevines of Vitis
+vinifera cv. Corvina and their potential for plant growth promotion
+and phytopathogen control. Microbiol. Res. 2016;183:42-52. DOI
+10.1016/j.micres.2015.11.009</p><p>Candra R.T., Prasasty V.D., Karmawan L.U. Biochemical analysis of
+banana plants in interaction between endophytic bacteria Kocuria
+rhizophila and the fungal pathogen Fusarium oxysporum f. sp. cubense
+tropical race (Foc TR4). Biol. Life Sci. Forum. 2022;11(1):84.
+DOI 10.3390/IECPS2021-11990</p><p>Chen X., Zhang Y., Zhang Z., Zhao Y., Sun C., Yang M., Wang J.,
+Liu Q., Zhang B., Chen M., Yu J., Wu J., Jin Z., Xiao J. PGAweb:
+a web server for bacterial pan-genome analysis. Front. Microbiol.
+2018;9:1910. DOI 10.3389/fmicb.2018.01910</p><p>Cho K.M., Hong S.Y., Lee S.M., Kim Y.H., Kahng G.G., Lim Y.P.,
+Kim H., Yun H.D. Endophytic bacterial communities in ginseng
+and their antifungal activity against pathogens. Microb. Ecol. 2007;
+54(2):341-351. DOI 10.1007/s00248-007-9208-3</p><p>Church D.L., Cerutti L., G&#252;rtler A., Griener T., Zelazny A., Emler S.
+Performance and application of 16S rRNA gene cycle sequencing
+for routine identification of bacteria in the clinical microbiology laboratory.
+Clin. Microbiol. Rev. 2020;33(4):e00053-19. DOI 10.1128/
+CMR.00053-19</p><p>Dey G., Thattai M., Baum B. On the archaeal origins of eukaryotes and
+the challenges of inferring phenotype from genotype. Trends Cell
+Biol. 2016;26(7):476-485. DOI 10.1016/j.tcb.2016.03.009</p><p>G&#225;lvez A., Abriouel H., Benomar N., Lucas R. Microbial antagonists to
+food-borne pathogens and biocontrol. Curr. Opin. Biotechnol. 2010;
+21(2):142-148. DOI 10.1016/j.copbio.2010.01.005</p><p>Gonz&#225;lez-Ben&#237;tez N., Mart&#237;n-Rodr&#237;guez I., Cuesta I., Array&#225;s M.,
+White J.F., Molina M.C. Endophytic microbes are tools to increase
+tolerance in Jasione plants against arsenic stress. Front. Microbiol.
+2021;12:664271. DOI 10.3389/fmicb.2021.664271</p><p>Goris J., Konstantinidis K.T., Klappenbach J.A., Coenye T., Vandamme
+P., Tiedje J.M. DNA-DNA hybridization values and their relationship
+to whole-genome sequence similarities. Int. J. Syst. Evol.
+Microbiol. 2007;57(1):81-91. DOI 10.1099/ijs.0.64483-0</p><p>Gundlapally S.R., Ara S., Sisinthy S. Draft genome of Kocuria polaris
+CMS 76orT isolated from cyanobacterial mats, McMurdo Dry
+Valley, Antarctica: an insight into CspA family of proteins from
+Kocuria polaris CMS 76orT. Arch. Microbiol. 2015;197(8):1019-
+1026. DOI 10.1007/s00203-015-1138-8</p><p>Hansda A., Kumar V., Anshumali. Cu-resistant Kocuria sp. CRB15:
+a potential PGPR isolated from the dry tailing of Rakha copper mine.
+3 Biotech. 2017;7(2):132. DOI 10.1007/s13205-017-0757-y</p><p>Hu J., Maamar S.B., Glawe A.J., Gottel N., Gilbert J.A., Hartmann E.M.
+Impacts of indoor surface finishes on bacterial viability. Indoor Air.
+2019;29(4):551-562. DOI 10.1111/ina.12558</p><p>Jain C., Rodriguez-R L.M., Phillippy A.M., Konstantinidis K.T., Aluru
+S. High throughput ANI analysis of 90K prokaryotic genomes reveals
+clear species boundaries. Nat. Commun. 2018;9(1):5114. DOI
+10.1038/s41467-018-07641-9</p><p>Kandi V., Palange P., Vaish R., Bhatti A.B., Kale V., Kandi M.R.,
+Bhoomagiri M.R. Emerging bacterial infection: identification and
+clinical significance of Kocuria species. Cureus. 2016;8(8):e731.
+DOI 10.7759/cureus.731</p><p>Kargapolova K.Yu., Tkachenko O.V., Burygin G.L. Evaluation of
+rhizospheric bacterial isolates for their ability to promote potato
+growth in vitro and ex vitro. In: Collection of articles from the Int.
+Sci. and Pract. Conf. dedicated to the 130th anniversary of the birth
+of Academician N.I. Vavilov &#8220;Vavilov Readings &#8211; 2017&#8221;. Saratov:
+Saratov State Vavilov Agrarian University, 2017;127-128 (in Russian)</p><p>Kaur H., Dolma K., Kaur N., Malhotra A., Kumar N., Dixit P., Sharma
+D., Mayilraj S., Choudhury A.R. Marine microbe as nano-factories
+for copper biomineralization. Biotechnol. Bioprocess Eng. 2015;
+20:51-57. DOI 10.1007/s12257-014-0432-7</p><p>Koonin E.V. The Logic of Chance: The Nature and Origin of Biological
+Evolution. New Jersey: Pearson Education, Inc., 2012</p><p>Kumar C.G., Sujitha P. Green synthesis of Kocuran-functionalized silver
+glyconanoparticles for use as antibiofilm coatings on silicone
+urethral catheters. Nanotechnology. 2014;25(32):325101. DOI
+10.1088/0957-4484/25/32/325101</p><p>Lee I., Kim Y.O., Park S.-C., Chun J. OrthoANI: an improved algorithm
+and software for calculating average nucleotide identity. Int. J.
+Syst. Evol. Microbiol. 2016;66(2):1100-1103. DOI 10.1099/ijsem.0.
+000760</p><p>Li X., Sun P., Zhang Y., Jin C., Guan C. A novel PGPR strain Kocuria
+rhizophila Y1 enhances salt stress tolerance in maize by regulating
+phytohormone levels, nutrient acquisition, redox potential, ion
+homeostasis, photosynthetic capacity and stress-responsive genes
+expression. Environ. Exp. Bot. 2020;174:104023. DOI 10.1016/
+j.envexpbot.2020.104023</p><p>Luo C., Rodriguez-R L.M., Konstantinidis K.T. MyTaxa: an advanced
+taxonomic classifier for genomic and metagenomic sequences.
+Nucleic
+Acids Res. 2014;42(8):e73. DOI 10.1093/nar/gku169</p><p>Markov A.V., Kulikov A.M. Origin of Eukaryota: conclusions based
+on the analysis of protein homologies in the three superkingdoms.
+Paleontol. J. 2005;39(4):345-357</p><p>Mawang C.-I., Azman A.-S., Fuad A.-S.M., Ahamad M. Actinobacteria:
+an eco-friendly and promising technology for the bioaugmentation
+of contaminants. Biotechnol. Rep. 2021;32:e00679. DOI 10.1016/
+j.btre.2021.e00679</p><p>Medlar A.J., T&#246;r&#246;nen P., Holm L. AAI-profiler: fast proteome-wide exploratory
+analysis reveals taxonomic identity, misclassification and
+contamination. Nucleic Acids Res. 2018;46(W1):W479-W485. DOI
+10.1093/nar/gky359</p><p>Mukherjee G., Saha C., Naskar N., Mukherjee A., Mukherjee A., Lahiri
+S., Majumder A.L., Seal A. An endophytic bacterial consortium
+modulates multiple strategies to improve arsenic phytoremediation
+efficacy in Solanum nigrum. Sci. Rep. 2018;8(1):6979. DOI 10.1038/
+s41598-018-25306-x</p><p>Nikitin M. The Origin of Life: From Nebula to Cell. Moscow, 2016 (in
+Russian)</p><p>Odeberg G., Bl&#228;ckberg A., Sunnerhagen T. Infection or contamination
+with Rothia, Kocuria, Arthrobacter and Pseudoglutamicibacter &#8211;
+a retrospective observational study of non-Micrococcus Micrococcaceae
+in the clinic. J. Clin. Microbiol. 2023;61(4):e0148422. DOI
+10.1128/jcm.01484-22</p><p>Oren A., Garrity G.M. Then and now: a systematic review of the systematics
+of prokaryotes in the last 80 years. Antonie Van Leeuwenhoek.
+2014;106(1):43-56. DOI 10.1007/s10482-013-0084-1</p><p>Parks D.H., Chuvochina M., Waite D.W., Rinke C., Skarshewski A.,
+Chaumeil P.-A., Hugenholtz P. A standardized bacterial taxonomy
+based on genome phylogeny substantially revises the tree of life.
+Nat. Biotechnol. 2018;36(10):996-1004. DOI 10.1038/nbt.4229</p><p>Passari A.K., Mishra V.K., Singh G., Singh P., Kumar B., Gupta V.K.,
+Sarma R.K., Saikia R., O&#8217;Donovan A., Singh B.P. Insights into the
+functionality of endophytic actinobacteria with a focus on their biosynthetic
+potential and secondary metabolites production. Sci. Rep.
+2017;7(1):11809. DOI 10.1038/s41598-017-12235-4</p><p>Potanina P.A., Safronova V.I., Belimov A.A., Kargapolova K.Yu.,
+Tkachenko O.V., Burygin G.L. Species identification of plantgrowth-
+promoting bacteria isolated from potato roots in Saratov
+Oblast. In: Collection of articles from the Int. Sci. and Pract. Conf.
+dedicated to the 130th anniversary of the birth of Academician
+N.I. Vavilov &#8220;Vavilov Readings &#8211; 2017&#8221;. Saratov: Saratov State
+Vavilov Agrarian University, 2017;149-154 (in Russian)</p><p>Provorov N.A., Tikhonovich I.A., Vorob&#8217;ev N.I. Symbiosis and Symbiogenesis.
+St. Petersburg, 2018 (in Russian)</p><p>Rao H.C.Y., Rakshith D., Satish S. Antimicrobial properties of endophytic
+actinomycetes isolated from Combretum latifolium Blume,
+a medicinal shrub from Western Ghats of India. Front. Biol. 2015;
+10:528-536. DOI 10.1007/s11515-015-1377-8</p><p>Reimer L.C., Carbasse J.S., Koblitz J., Ebeling C., Podstawka A.,
+Overmann J. BacDive in 2022: the knowledge base for standardized
+bacterial and archaeal data. Nucleic Acids Res. 2022;50(D1):D741-
+D746. DOI 10.1093/nar/gkab961</p><p>Rodriguez-R L.M., Konstantinidis K.T. Bypassing cultivation to identify
+bacterial species. Microbe. 2014;9(3):111-118. DOI 10.1128/
+microbe.9.111.1</p><p>Rom&#225;n-Ponce B., Wang D., Soledad V&#225;squez-Murrieta M., Chen W.F.,
+Estrada-de Los Santos P., Sui X.H., Wang E.T. Kocuria arsenatis
+sp. nov., an arsenic-resistant endophytic actinobacterium associated
+with Prosopis laegivata grown on high-arsenic-polluted mine tailing.
+Int. J. Syst. Evol. Microbiol. 2016;66(2):1027-1033. DOI
+10.1099/ijsem.0.000830</p><p>Shchyogolev S.Yu. A review of the textbook &#8220;Biodiversity and Systematics
+of Microorganisms&#8221;, by I.B. Ivshina, A.V. Krivoruchko,
+M.S. Kuyukina. Microbiology. 2021;90(2):247-249. DOI 10.31857/
+S0026365621010079 (in Russian)</p><p>Stackebrandt E., Schumann P. Kocuria. In: Bergey&#8217;s Manual of Systematics
+of Archaea and Bacteria. John Wiley &amp; Sons, 2015. DOI
+10.1002/9781118960608.gbm00120</p><p>Stairs C.W., Ettema T.J.G. The archaeal roots of the eukaryotic dynamic
+actin cytoskeleton. Curr. Biol. 2020;30(10):R521-R526. DOI
+10.1016/j.cub.2020.02.074</p><p>Tavarideh F., Pourahmad F., Nemati M. Diversity and antibacterial
+activity of endophytic bacteria associated with medicinal plant,
+Scrophularia striata. Vet. Res. Forum. 2022;13(3):409-415. DOI
+10.30466/vrf.2021.529714.3174</p><p>Tedsree N., Likhitwitayawuid K., Sritularak B., Tanasupawat S. Diversity
+and antimicrobial activity of plant growth promoting endophytic
+actinomycetes isolated from Thai orchids. Environ. Nat. Resour. J.
+2022;20(4):379-392. DOI 10.32526/ennrj/20/202200039</p><p>Tettelin H., Medini D. (Eds.) The Pangenome. Diversity, Dynamics and
+Evolution of Genomes. Cham: Springer, 2020. DOI 10.1007/978-3-
+030-38281-0</p><p>Trachtenberg A.M., Goen A.E., MacLea K.S. Genome sequences
+for three strains of Kocuria rosea, including the type strain. Genome
+Announc. 2018;6(25):e00594-18. DOI 10.1128/genomeA.
+00594-18</p><p>Treangen T.J., Rocha E.P.C. Horizontal transfer, not duplication, drives
+the expansion of protein families in prokaryotes. PLoS Genet. 2011;
+7(1):e1001284. DOI 10.1371/journal.pgen.1001284</p><p>Vital T.Z., Rom&#225;n-Ponce B., Ordu&#241;a F.N.R., Estrada-de Los Santos P.,
+V&#225;squez-Murrieta M.S., Deng Y., Yuan H.L., Wang E.T. An endophytic
+Kocuria palustris strain harboring multiple arsenate reductase
+genes. Arch. Microbiol. 2019;201(9):1285-1293. DOI 10.1007/
+s00203-019-01692-2</p><p>Yastrebova O.V., Plotnikova E.G. Phylogenetic diversity of bacteria
+of the family Micrococcaceae isolated from biotopes with different
+anthropogenic impact. Bulletin of Perm University. Biology.
+2020;4:321-333. DOI 10.17072/1994-9952-2020-4-321-333 (in
+Russian)</p></sec></body><back><ack><p>We thank O.V. Tkachenko for participation in the discovery and study of K. rosea RCAM04488 and D.N. Tychinin for translation of the manuscript into English</p></ack></back></article></pmc-articleset>

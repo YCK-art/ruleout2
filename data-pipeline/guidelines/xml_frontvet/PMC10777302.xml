@@ -1,0 +1,805 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10777302</article-id><article-id pub-id-type="pmcid-ver">PMC10777302.1</article-id><article-id pub-id-type="pmcaid">10777302</article-id><article-id pub-id-type="pmcaiid">10777302</article-id><article-id pub-id-type="pmid">38213712</article-id><article-id pub-id-type="doi">10.18699/VJGB-23-97</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>On the space of SARS-CoV-2 genetic sequence variants</article-title><trans-title-group xml:lang="ru"><trans-title>&#1054; &#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1077; &#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1074;
+&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081; SARS-CoV-2</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Palyanov</surname><given-names initials="AY">A.Yu.</given-names></name><aff>
+<institution>A.P. Ershov Institute of Informatics Systems of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Research Institute of Virology, Federal Research Center of Fundamental and Translational Medicine of the Siberian Branch
+of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State University, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Palyanova</surname><given-names initials="NV">N.V.</given-names></name><aff>
+<institution>Research Institute of Virology, Federal Research Center of Fundamental and Translational Medicine of the Siberian Branch
+of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: A.Yu. Palyanov
+<email>palyanov@iis.nsk.su</email></p></fn></author-notes><pub-date pub-type="ppub"><month>12</month><year>2023</year></pub-date><volume>27</volume><issue>7</issue><issue-id pub-id-type="pmc-issue-id">453058</issue-id><fpage>839</fpage><lpage>850</lpage><history><date date-type="received"><day>16</day><month>7</month><year>2023</year></date><date date-type="rev-recd"><day>14</day><month>9</month><year>2023</year></date><date date-type="accepted"><day>18</day><month>9</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>12</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>11</day><month>01</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-09-05 13:25:28.107"><day>05</day><month>09</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-27-2397.pdf"/><abstract><p>The coronavirus pandemic caused by the SARS-CoV-2 virus, which humanity resisted using the latest advances
+in science, left behind, among other things, extensive genetic data. Every day since the end of 2019, samples
+of the virus genomes have been collected around the world, which makes it possible to trace its evolution in detail
+from its emergence to the present. The accumulated statistics of testing results showed that the number of confirmed
+cases of SARS-CoV-2 infection was at least 767.5 million (9.5 % of the current world population, excluding
+asymptomatic people), and the number of sequenced virus genomes is more than 15.7 million (which is over 2 % of
+the total number of infected people). These new data potentially contain information about the mechanisms of the
+variability and spread of the virus, its interaction with the human immune system, the main parameters characterizing
+the mechanisms of the development of a pandemic, and much more. In this article, we analyze the space of possible
+variants of SARS-CoV-2 genetic sequences both from a mathematical point of view and taking into account the
+biological limitations inherent in this system, known both from general biological knowledge and from the consideration
+of the characteristics of this particular virus. We have developed software capable of loading and analyzing
+SARS-CoV-2 nucleotide sequences in FASTA format, determining the 5&#8217; and 3&#8217; UTR positions, the number and location
+of unidentified nucleotides (&#8220;N&#8221;), performing alignment with the reference sequence by calling the program
+designed for this, determining mutations, deletions and insertions, as well as calculating various characteristics
+of
+virus genomes with a given time step (days, weeks, months, etc.). The data obtained indicate that, despite the apparent
+mathematical diversity of possible options for changing the virus over time, the corridor of the evolutionary
+trajectory that the coronavirus has passed through seems to be quite narrow. Thus it can be assumed that it is determined
+to some extent, which allows us to hope for a possibility of modeling the evolution of the coronavirus.</p></abstract><trans-abstract xml:lang="ru"><p>&#1055;&#1072;&#1085;&#1076;&#1077;&#1084;&#1080;&#1103; &#1082;&#1086;&#1088;&#1086;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;&#1085;&#1086;&#1081; &#1080;&#1085;&#1092;&#1077;&#1082;&#1094;&#1080;&#1080;, &#1074;&#1099;&#1079;&#1074;&#1072;&#1085;&#1085;&#1072;&#1103; &#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1084; SARS-CoV-2, &#1082;&#1086;&#1090;&#1086;&#1088;&#1086;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086;
+&#1087;&#1088;&#1086;&#1090;&#1080;&#1074;&#1086;&#1089;&#1090;&#1086;&#1103;&#1083;&#1086; &#1089; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1085;&#1086;&#1074;&#1077;&#1081;&#1096;&#1080;&#1093; &#1076;&#1086;&#1089;&#1090;&#1080;&#1078;&#1077;&#1085;&#1080;&#1081; &#1085;&#1072;&#1091;&#1082;&#1080;, &#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1083;&#1072; &#1087;&#1086;&#1089;&#1083;&#1077; &#1089;&#1077;&#1073;&#1103; &#1074; &#1090;&#1086;&#1084; &#1095;&#1080;&#1089;&#1083;&#1077; &#1086;&#1073;&#1096;&#1080;&#1088;&#1085;&#1099;&#1077;
+&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077;. &#1045;&#1078;&#1077;&#1076;&#1085;&#1077;&#1074;&#1085;&#1086; &#1085;&#1072;&#1095;&#1080;&#1085;&#1072;&#1103; &#1089; &#1082;&#1086;&#1085;&#1094;&#1072; 2019 &#1075;. &#1074; &#1084;&#1080;&#1088;&#1077; &#1089;&#1086;&#1073;&#1080;&#1088;&#1072;&#1083;&#1080;&#1089;&#1100; &#1086;&#1073;&#1088;&#1072;&#1079;&#1094;&#1099; &#1075;&#1077;&#1085;&#1086;&#1084;&#1086;&#1074; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;, &#1095;&#1090;&#1086;
+&#1087;&#1088;&#1077;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1077;&#1090; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100; &#1076;&#1077;&#1090;&#1072;&#1083;&#1100;&#1085;&#1086; &#1087;&#1088;&#1086;&#1089;&#1083;&#1077;&#1076;&#1080;&#1090;&#1100; &#1077;&#1075;&#1086; &#1101;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1102; &#1089; &#1084;&#1086;&#1084;&#1077;&#1085;&#1090;&#1072; &#1074;&#1086;&#1079;&#1085;&#1080;&#1082;&#1085;&#1086;&#1074;&#1077;&#1085;&#1080;&#1103; &#1076;&#1086; &#1085;&#1072;&#1089;&#1090;&#1086;&#1103;&#1097;&#1077;&#1075;&#1086;
+&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1080;. &#1053;&#1072;&#1082;&#1086;&#1087;&#1083;&#1077;&#1085;&#1085;&#1072;&#1103; &#1089;&#1090;&#1072;&#1090;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1086;&#1074; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;-&#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1083;&#1072;, &#1095;&#1090;&#1086; &#1095;&#1080;&#1089;&#1083;&#1086; &#1087;&#1086;&#1076;&#1090;&#1074;&#1077;&#1088;&#1078;&#1076;&#1077;&#1085;&#1085;&#1099;&#1093;
+&#1089;&#1083;&#1091;&#1095;&#1072;&#1077;&#1074; &#1079;&#1072;&#1088;&#1072;&#1078;&#1077;&#1085;&#1080;&#1103; SARS-CoV-2 &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1083;&#1086; &#1085;&#1077; &#1084;&#1077;&#1085;&#1077;&#1077; 767.5 &#1084;&#1083;&#1085; (9.5 % &#1085;&#1099;&#1085;&#1077;&#1096;&#1085;&#1077;&#1075;&#1086; &#1085;&#1072;&#1089;&#1077;&#1083;&#1077;&#1085;&#1080;&#1103; &#1047;&#1077;&#1084;&#1083;&#1080; &#1073;&#1077;&#1079; &#1091;&#1095;&#1077;&#1090;&#1072;
+&#1073;&#1077;&#1089;&#1089;&#1080;&#1084;&#1087;&#1090;&#1086;&#1084;&#1085;&#1080;&#1082;&#1086;&#1074;), &#1072; &#1095;&#1080;&#1089;&#1083;&#1086; &#1089;&#1077;&#1082;&#1074;&#1077;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1084;&#1086;&#1074; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072; &#8211; &#1073;&#1086;&#1083;&#1077;&#1077; 15.7 &#1084;&#1083;&#1085; (&#1095;&#1090;&#1086; &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1077;&#1090; &#1095;&#1091;&#1090;&#1100; &#1073;&#1086;&#1083;&#1077;&#1077; 2 %
+&#1086;&#1090; &#1086;&#1073;&#1097;&#1077;&#1075;&#1086; &#1095;&#1080;&#1089;&#1083;&#1072; &#1079;&#1072;&#1088;&#1072;&#1079;&#1080;&#1074;&#1096;&#1080;&#1093;&#1089;&#1103;). &#1069;&#1090;&#1080; &#1085;&#1086;&#1074;&#1099;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086; &#1085;&#1077;&#1089;&#1091;&#1090; &#1074; &#1089;&#1077;&#1073;&#1077; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1102; &#1086; &#1084;&#1077;&#1093;&#1072;&#1085;&#1080;&#1079;&#1084;&#1072;&#1093;
+&#1080;&#1079;&#1084;&#1077;&#1085;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1080; &#1080; &#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1103; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;, &#1077;&#1075;&#1086; &#1074;&#1079;&#1072;&#1080;&#1084;&#1086;&#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103; &#1089; &#1080;&#1084;&#1084;&#1091;&#1085;&#1085;&#1086;&#1081; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1086;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1082;&#1072;, &#1086;&#1073; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1093;
+&#1087;&#1072;&#1088;&#1072;&#1084;&#1077;&#1090;&#1088;&#1072;&#1093;, &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1079;&#1091;&#1102;&#1097;&#1080;&#1093; &#1084;&#1077;&#1093;&#1072;&#1085;&#1080;&#1079;&#1084;&#1099; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1103; &#1087;&#1072;&#1085;&#1076;&#1077;&#1084;&#1080;&#1080;, &#1080; &#1084;&#1085;&#1086;&#1075;&#1086;&#1077; &#1076;&#1088;&#1091;&#1075;&#1086;&#1077;. &#1042; &#1101;&#1090;&#1086;&#1081; &#1089;&#1090;&#1072;&#1090;&#1100;&#1077; &#1084;&#1099; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1091;&#1077;&#1084; &#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1086; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1099;&#1093; &#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1074; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081; SARS-CoV-2 &#1082;&#1072;&#1082; &#1089; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081;
+&#1090;&#1086;&#1095;&#1082;&#1080; &#1079;&#1088;&#1077;&#1085;&#1080;&#1103;, &#1090;&#1072;&#1082; &#1080; &#1089; &#1091;&#1095;&#1077;&#1090;&#1086;&#1084; &#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1086;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1077;&#1085;&#1080;&#1081;, &#1087;&#1088;&#1080;&#1089;&#1091;&#1097;&#1080;&#1093; &#1101;&#1090;&#1086;&#1081; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1077; (&#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1093; &#1085;&#1072; &#1086;&#1073;&#1097;&#1077;&#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1079;&#1085;&#1072;&#1085;&#1080;&#1103;&#1093; &#1080; &#1091;&#1095;&#1080;&#1090;&#1099;&#1074;&#1072;&#1102;&#1097;&#1080;&#1093; &#1086;&#1089;&#1086;&#1073;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1080; &#1076;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1082;&#1086;&#1085;&#1082;&#1088;&#1077;&#1090;&#1085;&#1086;&#1075;&#1086; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072;). &#1044;&#1083;&#1103; &#1101;&#1090;&#1086;&#1075;&#1086; &#1084;&#1099; &#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1083;&#1080; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1084;&#1085;&#1086;&#1077; &#1086;&#1073;&#1077;&#1089;&#1087;&#1077;&#1095;&#1077;&#1085;&#1080;&#1077;, &#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1085;&#1086;&#1077; &#1079;&#1072;&#1075;&#1088;&#1091;&#1078;&#1072;&#1090;&#1100; &#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1085;&#1099;&#1077; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; SARSCoV-
+2 &#1074; &#1092;&#1086;&#1088;&#1084;&#1072;&#1090;&#1077; FASTA, &#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1103;&#1090;&#1100; &#1087;&#1086;&#1079;&#1080;&#1094;&#1080;&#1080; 5&#8217; &#1080; 3&#8217; UTR, &#1095;&#1080;&#1089;&#1083;&#1086; &#1080; &#1088;&#1072;&#1089;&#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077; &#1085;&#1077;&#1080;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1094;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1093; &#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1086;&#1074; (&#8220;N&#8221;), &#1086;&#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1083;&#1103;&#1090;&#1100; &#1074;&#1099;&#1088;&#1072;&#1074;&#1085;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; &#1086;&#1090;&#1085;&#1086;&#1089;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1088;&#1077;&#1092;&#1077;&#1088;&#1077;&#1085;&#1089;&#1085;&#1086;&#1081; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1087;&#1086;&#1089;&#1088;&#1077;&#1076;&#1089;&#1090;&#1074;&#1086;&#1084;
+&#1074;&#1099;&#1079;&#1086;&#1074;&#1072; &#1087;&#1088;&#1077;&#1076;&#1085;&#1072;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093; &#1076;&#1083;&#1103; &#1101;&#1090;&#1086;&#1075;&#1086; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1084;, &#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1103;&#1090;&#1100; &#1084;&#1091;&#1090;&#1072;&#1094;&#1080;&#1080;, &#1076;&#1077;&#1083;&#1077;&#1094;&#1080;&#1080; &#1080; &#1074;&#1089;&#1090;&#1072;&#1074;&#1082;&#1080;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1088;&#1072;&#1089;&#1089;&#1095;&#1080;&#1090;&#1099;&#1074;&#1072;&#1090;&#1100;
+&#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1085;&#1099;&#1077; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1080; &#1075;&#1077;&#1085;&#1086;&#1084;&#1086;&#1074; &#1074;&#1080;&#1088;&#1091;&#1089;&#1086;&#1074; &#1089; &#1079;&#1072;&#1076;&#1072;&#1085;&#1085;&#1099;&#1084; &#1096;&#1072;&#1075;&#1086;&#1084; &#1087;&#1086; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1080; (&#1076;&#1085;&#1080;, &#1085;&#1077;&#1076;&#1077;&#1083;&#1080;, &#1084;&#1077;&#1089;&#1103;&#1094;&#1099; &#1080; &#1090;. &#1076;.). &#1055;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089;&#1074;&#1080;&#1076;&#1077;&#1090;&#1077;&#1083;&#1100;&#1089;&#1090;&#1074;&#1091;&#1102;&#1090; &#1086; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086;, &#1085;&#1077;&#1089;&#1084;&#1086;&#1090;&#1088;&#1103; &#1085;&#1072; &#1082;&#1072;&#1078;&#1091;&#1097;&#1077;&#1077;&#1089;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1084;&#1085;&#1086;&#1075;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1080;&#1077; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1099;&#1093; &#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1074; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; &#1074;&#1080;&#1088;&#1091;&#1089;&#1072; &#1074;&#1086; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1080;, &#1082;&#1086;&#1088;&#1080;&#1076;&#1086;&#1088; &#1101;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086;&#1081; &#1090;&#1088;&#1072;&#1077;&#1082;&#1090;&#1086;&#1088;&#1080;&#1080;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1084; &#1087;&#1088;&#1086;&#1096;&#1077;&#1083;
+&#1082;&#1086;&#1088;&#1086;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;, &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1076;&#1086;&#1089;&#1090;&#1072;&#1090;&#1086;&#1095;&#1085;&#1086; &#1091;&#1079;&#1082;&#1080;&#1084;. &#1069;&#1090;&#1086; &#1076;&#1072;&#1077;&#1090; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1087;&#1086;&#1083;&#1072;&#1075;&#1072;&#1090;&#1100;, &#1095;&#1090;&#1086; &#1086;&#1085; &#1074; &#1085;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1086;&#1081; &#1089;&#1090;&#1077;&#1087;&#1077;&#1085;&#1080;
+&#1076;&#1077;&#1090;&#1077;&#1088;&#1084;&#1080;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;, &#1095;&#1090;&#1086; &#1087;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1077;&#1090; &#1085;&#1072;&#1076;&#1077;&#1103;&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1101;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1080; &#1082;&#1086;&#1088;&#1086;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;&#1072;.</p></trans-abstract><kwd-group><kwd>coronavirus</kwd><kwd>SARS-CoV-2</kwd><kwd>genome</kwd><kwd>space of variants</kwd><kwd>evolution</kwd><kwd>variability</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1082;&#1086;&#1088;&#1086;&#1085;&#1072;&#1074;&#1080;&#1088;&#1091;&#1089;</kwd><kwd>SARS-CoV-2</kwd><kwd>&#1075;&#1077;&#1085;&#1086;&#1084;</kwd><kwd>&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1086; &#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1074;</kwd><kwd>&#1101;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1103;</kwd><kwd>&#1080;&#1079;&#1084;&#1077;&#1085;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>The possibility of computational modeling of the evolution,
+life cycle and reproduction of the simplest biological organism
+down to the gene level would be a scientific breakthrough, but
+it is still far beyond the capabilities of modern supercomputers.
+The process of natural selection of the fittest individuals takes
+into account a huge number of factors in both the external and
+internal environment. The characteristics of an organism are
+realized through sets of protein characteristics and features,
+and the impact of changes in each protein on an organism&#8217;s
+fitness is quite difficult to assess due to the need to take into
+account all the resulting changes in the interactions of a protein
+with all environmental factors and other proteins, the number
+of which is very significant.</p><p>Usually, in computer models of evolving objects, changes
+to the genome of descendants are not carried out directly (by
+reproducing molecular mechanisms), but are only simulated
+by describing algorithms for making changes to a copy of the
+genome of ancestors. However, the mechanisms of introducing
+mutations and horizontal gene transfer themselves are subjects
+of evolution, and among possible changes that do not lead to
+the death or sterility of an individual, there are also those that
+affect the speed and accuracy of genome replication. Due to
+this, intraspecific competition arises, as a result of which, for
+example, in the case of SARS-CoV-2, from the moment of
+its appearance to the present time, the duration of the incubation
+period, directly related to the rate of virus replication, is
+constantly decreasing (Malone et al., 2022).</p><p>In comparison with cellular life forms, viruses are substantially
+simpler and thus are much more convenient for investigation
+and computational modeling of their evolution, especially
+taking into account their significantly smaller genomes
+and, at the same time, still quite wide range of interactions
+with the external environment and host organism. Before the
+appearance of fast genome sequencing technologies, evolution
+of viruses could only be considered within the framework of
+&#8220;parasite&#8211;host&#8221; models, which described statistical, but not
+molecular features of their interaction. Since the beginning of
+the SARS-CoV-2 pandemic, the number of confirmed cases
+of this infection has been at least 767.5 million (9.5 % of the
+current world population, excluding asymptomatic people)
+(Palyanova et al., 2022). During this period, the global scientific
+community has obtained more than 15.7 million variants
+of the genomes of this coronavirus (including the date
+of sampling and the geographical location of the place where
+it was collected), providing unprecedentedly extensive data
+on its evolution, in such quantities that were not available for
+any other virus before.</p><p>Based on these data, the dynamics of spread and change
+of the virus can be calculated not only in physical space and
+time, but also in the multidimensional space of possible viable
+variants of viral genomes with a metric determined by
+the minimum number of single changes (mutation, deletion
+or insertion) required to transform one genome into another
+(known as the &#8220;Levenshtein distance&#8221; or &#8220;edit distance&#8221;).
+The virus changes over time, including the response to
+vaccination and the formation of immunity in people who have
+recovered from the disease. This means that both the genome
+of the virus and its &#8220;phenotypic&#8221; manifestations change
+when interacting with the carrier&#8217;s body, i. e. two parallel
+processes occur simultaneously &#8211; both a change (spread) of
+a set (cloud) of points representing the virus population (at
+one time or another) in the space of possible RNA sequences,
+and a change in the very landscape of this multidimensional
+surface of the &#8220;fitness function&#8221; of the virus. Each point in the
+space of possible states corresponds to a specific nucleotide
+sequence, more or less different from the original reference
+genome (from which it all began at the end of 2019 (Wu et al.,
+2020)) by a certain number of changes &#8211; mutations, deletions
+and insertions.</p><p>Transitions can and should exist between pairs of points
+(in the space of viral RNA sequence variants), each of which
+corresponds to a viable sequence, if one of them has resulted
+from the other via changes that have occurred within the
+virus from the moment it enters the host&#8217;s body until the
+appearance of the next generation of virions (usually many
+more than one cycle of replication of the virus genome takes
+place before this). Most of the possible changes that occur
+during replication (each copy of the viral sequence has its
+own set) will lead to the appearance of a non-viable variant
+(especially deletions or insertions the length of which is not
+a multiple of three &#8211; i. e. those that will lead to a reading
+frame shift during translation). However, some changes can
+leave the fitness of the virus at the same level or even increase
+it &#8211; for example, by raising the rate of synthesis of new viral
+particles or increasing their number per time unit (which will give them advantage over other variants located in the body
+at the same time, i. e. intraspecific competition arises). The
+fitness function of some viral sequence can be thought of as
+the number of its copies existing in the human population
+at a given time (with or without normalization to the total
+number of virus copies).</p><p>Thus, the landscape of the &#8220;surface&#8221; of the (multidimensional)
+fitness function is formed, which may have more or less
+extensive &#8220;valleys&#8221; corresponding to many similar sequences
+(appearing as a result of small changes in the variant that
+first fell into this valley), surrounded by &#8220;mountains&#8221;. There
+are &#8220;mountain ridges&#8221; or &#8220;plateaus&#8221; (all points of which
+correspond to non-viable sequences) delimiting &#8220;valleys&#8221; of
+viable sequences and &#8220;passes&#8221; between them. Regions of nonviable
+sequences correspond to the cases when, for example,
+a virus cannot make copies of itself due to damage to the
+gene encoding RNA-dependent RNA polymerase (RdRp),
+which performs viral RNA replication, or when changes in the
+structure of the capsid proteins prevents the virus from forming
+a protein shell, as well as for many other diverse reasons.
+Also, presumably, there are &#8220;valleys&#8221; for which none of the
+sequence variants belonging to them have yet been realized,
+but which can be reached in the future &#8211; for example, due to
+the emergence of a viable recombinant strain resulting from a
+combination of the genomes of two not very similar variants
+of the virus. It is possible that this is how the initial WT strain
+of SARS-CoV-2 arose.</p><p>There are currently two major databases providing online
+access to SARS-CoV-2 genetic sequences. The largest of
+them is GISAID (https://gisaid.org) &#8211; Global Initiative on
+Sharing All Influenza Data (started in 2006) (Khare et al.,
+2021). Since the emergence of SARS-CoV-2 at the end of
+2019, it has also become a repository for the accumulation
+of sequenced variants of this virus obtained by laboratories
+around the world. In July 2023, there are more than 15.7 million
+SARS-CoV-2 sequences stored in it. Another database,
+NCBI SARS-CoV-2 Data Hub (Sayers et al., 2022) (https://
+www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?VirusLineage_
+ss=taxid:2697049), contains more than 7.7 million SARSCoV-
+2 genome sequences. Such unprecedentedly vast and
+detailed data have never been available to humanity before,
+so it is necessary to extract as much useful information and
+knowledge as possible from their comprehensive analysis.
+In this work we consider only the first steps on this path, and
+much remains to be done.</p><p>The Nextstrain/Nextclade project (https://clades.nextstrain.
+org) (Aksamentov et al., 2021), which provides online tools
+for analysis and visualization of genetic data on various
+viruses, including SARS-CoV-2, is also of great importance
+for the scientific community of viral genome researchers.
+Nextclade&#8217;s functionality stands out by providing a graphical
+representation of the genome map of the loaded sequences,
+showing mutations, deletions, insertions, unidentified
+nucleotides (&#8220;N&#8221;) and a number of other features of each
+sequence, including, for example, detection of reassortant
+(recombinant) variants.</p><p>The description of the space of variants of SARS-CoV-2
+genetic sequences fundamentally includes (a) those that we
+can already observe and study thanks to extensive sequencing,
+(b) variants from the real space of variants that have
+already been implemented, but have not come to the attention
+of researchers, and (c) other possible variants that could be
+realized in the future and are of particular interest, since they
+are potentially dangerous to humanity and it would be good
+to be prepared in advance for their possible appearance (rapid
+tests for their detection, vaccines, etc.).</p><p>Let&#8217;s now consider the most important characteristics of
+SARS-CoV-2 as a system, the basis of which is self-replication
+in the host cells, and which may be important in the future
+when creating its evolutionary simulator. They include the
+speed of genome replication (600&#8211;700 nt/s, the highest among
+the known speeds of viral RNA polymerases) (Shannon et al.,
+2020), the time of viral RNA replication ( 3 &#183; 104 nt
+600 nt/s = 50 s),
+the entire virus reproduction time (7&#8211;24 hours) (Grebennikov
+et al., 2021) and the frequency of replication errors occurrence
+(1.3 &#183; 10&#8722;6 &#177; 0.2 &#183; 10&#8722;6 per position, per cycle of cell infection,
+i. e. from the entry of the virus into a cell until the release of
+new virions out of it) (Amicone et al., 2022). The rate of its
+evolution is estimated as 8.9 &#183; 10&#8722;4 changes per position per
+year (Sonnleitner, 2022), which could lead to an average of
+93 changes in 3.5 years. This correlates quite well with the
+fact that one of the variants most distant from the reference
+sequence (belonging to the &#8220;Omicron&#8221; variant, obtained on
+June 20, 2023) has 103 substitutions (the maximum number
+of mutations among the variants, see the Table). The &#8220;Alpha&#8221;
+and the &#8220;Beta&#8221; variants differ from the reference sequence
+by more than 30 point mutations and more than 17 deletions.
+The variants that arose later have more differences. It is also
+noticeable that during the evolution of the virus the number of
+deletions increases, reaching 59 in one of the recent branches
+of &#8220;Omicron&#8221;.</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>The most recent representatives of various branches of the phylogenetic tree of coronavirus SARS-CoV-2
+(https://nextstrain.org/ncov/open/global/all-time)</title><p>Note. Representatives of some branches (mainly belonging to different variants of &#8220;Omicron&#8221;) are still being found in sequenced specimens of SARS-CoV-2
+genomes from recently infected people, and some have ceased to be detected at all (&#8220;Alpha&#8221;, &#8220;Beta&#8221;, &#8220;Gamma&#8221;, &#8220;Delta&#8221;, etc.). The reference sequences in both
+databases differ only in the length of the poly-A region located at the very end, and in all other positions they are completely identical.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Tab1.jpg"/></fig><p>As was already mentioned, the SARS-CoV-2 coronavirus
+has the fastest RNA polymerase, but it also has one of the
+lowest (for RNA viruses) rates of mutation occurrence
+during the replication process, which is necessary due to its
+rather large genome. This is achieved thanks to the errorcorrecting
+exonuclease (nsp14-ExoN), which is found only
+in viruses with large genomes (coronaviruses and toroviruses)
+(Campagnola et al., 2022).</p><p>Also among important parameters are the minimum infectious
+dose (the number of virions required for infection),
+which is about 100 particles (Karimzadeh et al., 2021), the
+reproductive number (1.8&#8211;3.2) (Xu et al., 2021), the number
+of viral particles carried by a patient during the peak of infection
+((1&#8211;100) &#183; 109) and the number of virions contained
+on average in an infected cell (105 ) (Sender et al., 2021), as
+well as other epidemiological characteristics. Viral particles
+are found in many tissues and organs, from the lungs to the
+brain, but only those present in the respiratory tract or intestines
+will be released and can be transmitted to subsequent carriers. All other virions will not leave &#8220;descendants&#8221;, which
+significantly narrows the evolutionary corridor. The works
+of (Day et al., 2020) and (Markov et al., 2023) addressed
+a number of important issues regarding the epidemiology and
+evolution of the SARS-CoV-2 virus, including the mechanism
+of the emergence of recombinant strains.</p></sec><sec><title>Materials and methods</title><p>The most rational way to obtain both fast data processing
+speed and unlimited capabilities (which can be expanded
+if necessary) for their analysis, in our opinion, is to work
+with source FASTA files using the software package that
+combines our own software with third party libraries and
+programs. To date, a prototype that includes the minimum
+required functionality has been implemented. For the development,
+we used the C++ programming language available
+in Microsoft Visual Studio Community 2019. The hardware
+used was a PC based on an Intel Core i7-10700K processor,
+3.8 GHz, 8 cores, 16 GB of RAM.</p><p>The methods used in this work mainly belong to the following
+two categories:
+&#8211; theoretical estimates and numerical calculations of some
+important characteristics of the system under consideration,
+including the quality and reliability of the data;
+&#8211; analysis of available genetic data using our own and existing
+software tools.</p><p>Whole genome genetic sequences of SARS-CoV-2. The
+GISAID and the Genbank databases provide, through a web
+interface, some functionality for studying the properties of
+the sequences they contain, but they are not flexible enough
+to perform the analysis required for investigation of the
+space of variants of SARS-CoV-2 genetic sequences, which
+is the goal of this work. There is also an API (Application
+Programming Interface) for GISAID (Wirth, Duchene,
+2022), implemented in the R language. However, its capabilities
+also have limitations (including speed of operation
+with significant volumes of processed data) compared to
+direct access to genetic sequences stored as FASTA-files on
+a local workstation. GISAID significantly limits the possibili-
+ties of downloading from its website: no more than 2000 sequences
+per download, which completely eliminates the
+possibility of downloading a significant
+amount of data &#8220;manually&#8221;. The NCBI SARS-CoV-2 Data Hub has no such
+restrictions.</p><p>To analyze the already realized genetic variants of
+SARS-CoV-2, full-genome sequences from the GISAID
+(https://gisaid.org/) (Khare at al., 2021) and NCBI Virus
+SARS-CoV-2 Data Hub (https://www.ncbi.nlm.nih.gov/
+labs/virus/) (Sayers et al., 2022) were used. Sequences from
+Genbank (2019&#8211;2020) were downloaded to a local workstation
+and analyzed using our own software developed for this
+purpose, named ParSeq. Because of the limitations, sequences
+from GISAID were not downloaded &#8211; instead we accessed
+them through API to obtain only some of their properties
+(for example, full lengths of sequences; however, we were
+unable to obtain viral RNAs translatable part length and the
+positions of its start and end).</p><p>To calculate the edit distance between pairs of SARS-CoV-2
+sequence variants (including a separate calculation of the
+number of mutations, deletions and insertions), the Nextstrain
+web resource (https://clades.nextstrain.org) was used.</p></sec><sec><title>Results</title><p>The estimation of the number of realized
+and potentially possible genetic variants
+of SARS-CoV-2 sequences</p><p>Let&#8217;s start with considering the space of genetic sequences
+from a mathematical point of view, in the most general case.
+Any pair of sequences can be characterized by a measure of the
+difference between them, called the Levenshtein distance, or
+edit distance &#8211; the minimum number of point (single) substitutions
+(mutations, deletions, insertions) that must be made in
+the first sequence in order to transform it into the second one.
+Each element of the set of sequences of a given length L has
+a distance between itself and the empty sequence (&#216;) which
+is exactly equal to L. The number of variants of nucleotide
+sequences of length L equals 4L. The number of possible single
+mutations in a sequence of length L equals 3&#8729;L (the nucleotide
+at each position can be replaced by any of the other three).
+Also, 3&#8729;L different single deletions and 3&#8729;(L+1) different single
+insertions are possible. All possible single deletions for all
+possible sequences of length L compose the set of all possible
+sequences of length (L&#8211;1), with the number of variants equal
+to 4(L&#8211;1). And all possible single insertions for all possible
+sequences of length L result in a set of all possible sequences
+of length (L+1), with the number of variants equal to 4(L+1).</p><p>Let&#8217;s consider all possible variants of nucleotide sequences
+of length L = 2 (Fig. 1). The set of sequences of L = 2 is quite
+small, but even in this simple case a hypercube in 4D space
+(tesseract, with 16 vertices) is required to represent all of this
+set&#8217;s elements. For a more complex case, L = 4, in a similar
+way, a 6-dimensional hypercube (hexeract) with 64 vertices
+can be used (however, its visualization, together with the signatures
+of nodes and edges, will be oversaturated with details
+and difficult to perceive). Nevertheless, it can be displayed,
+in some degree, on a 2D plane using one of the Gray codes
+variants (M&#252;tze, 2023) (this theory is closely connected with
+hypercubes), in this case &#8211; 2D code which we were able to
+find for this demonstration (Fig. 2).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>The space of nucleotide sequence variants of length = 2, represented
+as a hypercube</title><p>One of many Hamiltonian cycles on a hypercube (purple arrows) is presented &#8211;
+a closed path passing through each vertex exactly once. Each transition
+corresponds to a single change (mutation, deletion or insertion). There are
+also hyperplanes that can be associated with subsequences appearing from
+sequence of L = 2 after single deletions from the left (-A,-T,-G,-C) or from the
+right (A-,T-,G-,C-), which turn out to be the same in this simple case.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Fig1.jpg"/></fig><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>The set of nucleotide sequence variants of length 4, depicted on a plane using 2D Gray codes.</title><p>The top edge of the table is coupled with the bottom, the left &#8211; with the right, i. e. one can map this set onto the surface of a torus. Then, when moving both
+horizontally and vertically (in the coordinate system of the table), in accordance with the properties of Gray codes, each pair of adjacent sequences will differ by
+exactly one (single) replacement (mutation).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Fig2.jpg"/></fig><p>The usual metric, such as the sum of squared differences of
+Cartesian coordinates, is apparently not suitable in this case.</p><p>The number of all possible sequences of equal length, in this
+case &#8211; the length of the reference genome of SARS-CoV-2,
+L = 29903, is very huge: 429903, or approximately 2.511&#8729;1018003.
+In this space of variants, the set of sequences corresponding to
+the realized variants of the SARS-CoV-2 genome constitutes
+only a small part, composed of the point corresponding to
+the reference sequence and its small neighborhood, currently
+limited by the distance from the reference sequence to the
+most recent &#8220;Omicron&#8221; strain. It is possible to estimate the
+number of possible sequence variants within this distance.
+For the reference sequence, with L = 29903, the number
+of its variations with only one single mutation = 3&#8729;L, with
+two mutations = (3&#8729;L)2 &#8211; 3&#8729;L = 3&#8729;L&#8729;(3&#8729;L&#8211;1) (from all possible
+cases we subtract those in which second mutation occurs in the
+same position as the first one, and we get one of the already
+existing sequences &#8211; the reference one or a sequence which
+differs from it in only one position). Similarly, for the third
+mutation: (3&#8729;L)3 &#8211; ((3&#8729;L)2 &#8211; 3&#8729;L), and so on. For L = 29903,
+the number of all variants of sequences with a number of mutations from 0 to n (relative to the reference sequence) is
+equal to 1.387&#8729;10510 for n = 103, and for L = 29847 (56 deletions)
+&#8211; 1.108&#8729;10510. Summing over all lengths from 29903
+to 29847, we obtain 7.190&#8729;10511</p><p>Sequences with synonymous single nucleotide mutations
+that do not result in an amino acid change are also part of the
+total sequence variants space. However, the actual number of
+variants in the context of considering the structure and functions
+of proteins translated from viral RNA is significantly
+smaller due to the degeneracy of the genetic code (20 amino
+acids are encoded by 61 RNA triplets, i. e., on average,
+3.05 triplets encode the same amino acid). Let&#8217;s also take into
+account that not the entire genome of SARS-CoV-2 encodes
+proteins: 771 out of 29903 nucleotides are non-coding. As a
+result, the dependence proportional to (3L)n is transformed
+into &#8776; ((L&#8211;771)+(3&#183;771))n and thus the corrected number of
+protein sequence variants can be estimated as 1.02&#8729;10465.
+If we assume that someday the number of mutations will
+exceed the above-mentioned 103 pcs. by 10&#8211;11 times, then
+the sequence will most likely still be a coronavirus, but will
+already belong to a different species. For example, the bat
+coronavirus RaTG13, the closest neighbor of SARS-CoV-2
+in the space of genetic sequence variants, differs from it by
+1135 point mutations.</p><p>Let&#8217;s try to look at the many variants of SARS-CoV-2 genetic
+sequences &#8220;tested&#8221; by nature from a biological point of
+view. The virus gets into a body (usually by airborne droplets,
+ending up in the lungs) and enters a cell, where a host ribosome
+begins to synthesize viral proteins in accordance with
+the nucleotide sequence of the SARS-CoV-2 genome. Among
+these proteins, there is a viral RNA polymerase (RdRp), which
+initiates a process of viral RNA replication. At the beginning,
+when there is only one viral RNA and one RdRp in the cell,
+the probability of their meeting is extremely low, but then, as
+these and other molecules accumulate in the cell, it starts to
+grow rapidly. As a result, the concentration reaches a level
+sufficient for the assembly of new virions, and when their
+number in the cell reaches approximately 105 pieces, these
+virions leave it and begin to infect neighboring cells, and more
+distant cells as well, if some of the virions enter the bloodstream
+and are distributed throughout the body. Considering
+that the number of viral particles in a patient&#8217;s organism during
+the peak of infection can reach up to 1011 pcs. (Sender et al.,
+2021), let&#8217;s divide this value by the average number of virions
+in an infected cell and get the number of infected cells in the
+body, 106. A human being has approximately 3&#183;1013 cells, so
+it appears that the percentage of infected among all is less
+than 10&#8722;4 %.</p><p>The frequency of errors occurrence during SARS-CoV-2
+genome replication, according to (Amicone et al., 2022), is
+1.3&#183;10&#8722;6 &#177; 0.2&#183;10&#8722;6 changes per position, per cell infection
+cycle, and is (1&#8211;2) &#183;10&#8722;6 according to (Markov et al., 2023),
+that is, approximately 1.4&#183;10&#8722;6 on average. Taking into account
+the length of the sequence, we obtain the probability
+of a single mutation occurring in the entire sequence per
+replication cycle &#8776; 0.04. Thus, even if all infected cells in
+the body contain the same viral RNA variant at some moment,
+then after one replication cycle the body may contain
+all possible variants of single substitutions (3&#183;29903 pcs.)
+related to source viral RNA (which existed before the start
+of the cycle). So, there will be about 4 % of these (and most
+of them will not be viable), and 96 % will be exact copies of
+the replicated sequence. What will be the probability of occurrence
+of a viable non-synonymous mutation (changing not only the RNA sequence of the virus, but also the amino acid
+sequence of one of its proteins), which is also superior to its
+predecessor in fitness? This question remains open; however,
+the required probability will definitely be very small. In the
+vast majority of cases, all copies of the virus spread by the
+infected person into the external environment are identical,
+and only rarely two variants occur simultaneously in one
+organism. How then new mutant variants not only appear,
+but also quickly displace their predecessors on a planetary
+scale every now and again?</p><p>Considering that the ratio of 4 % : 96 % with each subsequent
+replication cycle will change towards a decrease in the
+proportion of mutant sequences (&#8220;founder effect&#8221; (Ruan et
+al., 2020)) until they completely dissappear, we can suppose
+the following possible scenarios (with low probabilities)
+for the emergence and spread of mutant variants of SARSCoV-
+2:</p><p>(a) The body does not have immunity to SARS-CoV-2 since
+it has not yet encountered it. A single copy of the viral RNA
+enters the cell; during the first round of replication, a mutation
+arises in it, and it turns out to be viable (this indeed can
+happen &#8211; with a low, but non-zero probability). Then all new
+virions synthesized by this cell will be carriers of this mutation,
+and if it is noticeably advantageous, they may have a chance
+of displacing the initial variant.</p><p>(b) The body already has immunity against SARS-CoV-2.
+It simultaneously contains two variants of SARS-CoV-2
+virions &#8211; the one which is dominant in the population and
+the new one, mutant (arising by the mechanism from (a) or
+a recombinant). The immune system destroys the &#8220;old&#8221; variant
+that is familiar to it, but the new one goes unnoticed, passes
+through replication cycles and is transmitted further.</p><p>The probabilities of the occurrence of these two options
+have yet to be estimated, but even without this it is clear
+that the corridor of possible variants along which evolution
+took place turned out to be quite narrow. The opposite of
+this picture is, for example, the influenza virus, the distinctive
+feature and basis of survival of which is high variability
+due to the mechanisms of antigenic drift and antigenic shift
+(Kim et al., 2018).</p><p>We evaluate the modeling of the evolution of SARS-CoV-2
+as possible, because despite the large number of variants that
+should have already been realized and which could have been
+realized from the point of view of mathematics (probability
+theory) and biology, in reality only a small part of them was
+realized and one can observe only a small part of the possible
+space of variants.</p><p>The development of the ParSeq software</p><p>To analyze the genetic sequences of SARS-CoV-2, we
+developed the software called ParSeq (Parser of Sequences) &#8211;
+parser and analyzer of SARS-CoV-2 nucleotide sequences
+in FASTA format, which we already used while working
+on analysis of the SARS-CoV-2 epidemic in regions of
+Siberia (Palyanova et al., 2023). Its main abilities already
+implemented at the moment are described below:</p><p>&#8226; Loading and parsing one or many FASTA files (using
+the list of file names) for further analysis, including the
+following data fields: full-genome nucleotide sequence,
+&#8220;Accession ID&#8221;, &#8220;Length&#8221;, &#8220;Pango lineage&#8221;, &#8220;Nuc.
+completeness&#8221;, &#8220;Collection date&#8221;, &#8220;Geo location&#8221; and
+&#8220;Country&#8221;.</p><p>&#8226; Primary analysis of the nucleotide sequence, including
+calculation of its length and nucleotide content (A, U(T),
+G, C and non-identified nucleotides represented by the
+letter &#8220;N&#8221;). Also, in some sequences, the following
+letters of the extended alphabet are found sometimes:
+(https://www.bioinformatics.org/sms/iupac.html):</p><fig position="float" id="Formula-1" orientation="portrait"><label>Formula. 1.</label><caption><title>Formula 1</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Formula1.jpg"/></fig><p>Determination of the positions of the beginning and end of
+the coding part of the sequence. In the case of a reference
+sequence, its total length is 29903 nt, the length of noncoding
+5&#8242; UTR &#8211; 265 nt, non-coding 3&#8242; UTR &#8211; 229 nt. To do
+this, the following simple algorithm is used: in the case of
+a 5&#8242; UTR, we move along the sequence from its beginning to
+the 500th nucleotide (for convenience, a &#8220;round&#8221; value was
+chosen, for which 265 is approximately in the middle) with
+a window of length 17 and count the number of nucleotide
+matches in this window with a fragment of the reference
+sequence of the same length, corresponding to the interval
+266&#8211;282 (where 266 is the position of the translation start
+in the reference genome). If 14 or more out of 17 positions
+match, then the position is determined correctly (numerical
+parameters are defined as sufficient for correct operation in
+the vast majority of cases using a small window length &#8211; to
+avoid unnecessary calculations). In the case of a 3&#8242; UTR,
+everything is similar &#8211; with a 17 nt long window we move
+along the last 500 nucleotides of the analyzed sequence,
+comparing its contents with the 17 nucleotides that end
+the coding region of the reference sequence. The criterion
+of the correct position is the same &#8211; 14 or more matches
+within the 17 nt long window.</p><p>&#8226; Calculation of the lengths of the non-coding 5&#8242; UTR and
+3&#8242; UTR, as well as the coding region located between
+them, which makes up the vast majority of the genome of
+the viral sequence (98.35 % of its length in the case of the
+reference sequence).</p><p>&#8226; Calculation of distributions of these values for any selection
+of SARS-CoV-2 genome sequences (e. g., within a specified
+time interval for the collection date, or for sequences
+containing no more than a specified number of &#8220;N&#8221;s, etc.;
+combinations of various filters are also supported).</p><p>&#8226; Calculation of distribution of sequences by number of their
+lengths.</p><p>The results obtained using ParSeq software</p><p>Using the software we developed, we analyzed the nucleotide
+sequences of SARS-CoV-2, available to users around
+the world thanks to the Genbank and GISAID projects. As a
+result, the following facts were established.</p><p>1. The calculation of the distribution of genetic sequences
+by their full lengths (5&#8242; UTR + coding sequence + 3&#8242; UTR)
+among sequences with a length &#8805; 28000 revealed that for data
+from Genbank (for the period from 01.12.2019 to 31.12.2022)
+the minimum length of the complete sequence was 28784,
+and the maximum was 29985. The vast majority of the
+distribution corresponds to lengths less than or equal to the
+reference sequence length, 29903. The difference between the
+reference and the minimum length was 1119. This does not
+match well with the data from the Table, according to which
+the maximum difference between the length reference and any
+other sequence is about 159 (103 mutations + 56 deletions).
+Moreover, with such a difference, this sequence would most
+likely belong to a different type of virus, since the reference
+sequence of SARS-CoV-2 and the bat coronavirus RaTG13
+have a similar difference (GenBank <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MN996532.2">MN996532.2</ext-link>, collection_
+date=24-Jul-2013). According to (Li et al., 2023), they
+differ by 96.2 %, i. e. by 1136 single mutations (distributed
+throughout the sequence). Calculation of the distance between
+the same sequences, made using the Nextstrain web service,
+showed a difference of 1135 single mutations, as well as
+20 deletions (in the coding part of RaTG13 relative to the
+reference sequence of SARS-CoV-2). The total genome length
+of RaTG13 is 28855, i. e. the number of deletions relative
+to SARS-CoV-2 is 48. Most probably, such too short or too
+long sequences correspond to low-quality data with errors in
+genome assembly.</p><p>Because the difference between the full length of the
+SARS-CoV-2 reference genome and the rest of the sequences
+stored in the database for some of them significantly exceeds
+the number of differences (point mutations, deletions and
+insertions) between the SARS-CoV-2 reference genome and
+the most different variant of &#8220;Omicron&#8221; (see the last row in
+the Table), we decided to study the distribution not only of</p><p>full lengths of genomes, but of their coding and non-coding
+regions as well (Fig. 3, 4). As seen in Figure 3, the 5&#8242; UTR
+and 3&#8242; UTR regions found in the databases have lengths from
+0 to reference values, and in a small number of cases they are
+slightly longer. Sequences, the 5&#8242; UTR and 3&#8242; UTR lengths
+of which coincide with the reference ones, account for 49.7
+and 51.2 % of their total number, respectively. Sequences, the
+5&#8242; UTR and 3&#8242; UTR lengths of which differ from the reference
+ones by no more than 10 nt, constitute 55.9 and 55.7 % of
+their total number, respectively.</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3.</label><caption><title>Distributions of 5&#8217; UTR and 3&#8217; UTR lengths for sequences from the
+Genbank database for the period from the emergence of SARS-CoV-2
+(at the end of 2019) to the end of 2020.</title><p>The lengths of 5&#8217; UTR and 3&#8217; UTR in the reference genome of SARS-CoV-2
+are 265 and 229 nt, respectively. The peak values of both curves correspond
+precisely to these lengths.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Fig3.jpg"/></fig><fig position="float" id="Fig-4" orientation="portrait"><label>Fig. 4.</label><caption><title>A, Distribution of lengths of full genomes (GISAID, Genbank) and their lengths without UTRs (Genbank) during a period from the emergence of
+SARS-CoV-2 in 2019 until the end of 2020. The full length of the SARS-CoV-2 reference genome is 29903 nt, and the length of its coding part (without
+UTRs) is 29409. Peak (maximal) values for all three curves correspond to these values. B, Change of the lengths of the SARS-CoV-2 genomes coding part
+(Genbank) during 12.2019&#8211;12.2020 by months. Horizontal signatures are numerical representations of the year and the month, vertical represent the
+lengths of the genome coding part; colors correspond to the frequency of genome sequences with a specified length (logarithmic scale).</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Fig4.jpg"/></fig><p>Also, Figure 4, A shows that the main source of the
+observed scatter in the distribution of full lengths of the
+SARS-CoV-2 genomes was indeed due to the scatter in
+lengths of the untranslated regions &#8211; 5&#8242; and 3&#8242; UTRs. If we
+consider only the coding part, the scatter is significantly
+reduced: 84.9 % of all sequences have the length of the
+coding part equal to the length of the reference genome, and
+90.7 % have a length of the coding part that differs from it
+by no more than 10 nt. In addition, Figure 4, B shows that
+among the genomes, the length of the coding part of which
+differs from that of the reference sequence (29409), prevail
+those in which this difference is a multiple of 3 &#8211; to prevent
+a shift in the reading frame during translation, which usually
+leads to non-viability. Thus, most of the processed viral
+sequences appear to be biologically meaningful.</p><p>It can be seen that the distributions obtained based on
+complete genomes data from GISAID (obtained using the
+access through API) and Genbank (through analysis of
+downloaded sequences using ParSeq software) have a fairly
+high similarity &#8211; probably due to the fact that most sequences
+are stored in both databases (see Fig. 4). The question about
+how many sequences that differ in length from the reference
+one actually have deletions or insertions, and how many of
+them have these differences due to errors in sequencing and
+genome assembly, remains open.</p><p>2. When studying genetic sequences representing the
+genomes of different variants of a virus that change over
+time, there is often a need to compare them with each other.
+Even if a pair of sequences have identical coding region
+lengths, the ability to calculate the amount of difference
+between them (the number of point mutations) will depend
+on whether the sequences contain undefined nucleotides,
+usually denoted &#8220;N&#8221;, or letters other than the standard A,
+T(U), G and C. Using the ParSeq software and the genomes
+of SARS-CoV-2 sequences collected in 2019&#8211;2020 (from
+the Genbank database), we calculated the distribution of
+sequences by the number of unidentified or partially identified
+nucleotides in them (Fig. 5).</p><fig position="float" id="Fig-5" orientation="portrait"><label>Fig. 5.</label><caption><title>Distribution of SARS-CoV-2 sequences by the number of non-identified or partially identified nucleotides
+in the translatable part of their genomes (from Genbank, collection date within the interval from 12.2019 until
+12.2020).</title><p>The inset contains part of the same graph as in the main picture, but for the area from 0 to 1000 horizontally.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Fig5.jpg"/></fig><p>Throughout most of the graph, the number of sequences
+decreases exponentially with the number of unidentified
+nucleotides, although there are areas with some peculiarities.
+The number of sequences for which all nucleotides are
+identified is 47.8 %, the number of sequences where less than
+10 nucleotides are uncertain is 58.9 %. Thus, for the analysis
+of evolutionary changes occurring in the SARS-CoV-2 virus,
+a significant part of the total number of sequences
+is suitable.</p></sec><sec><title>Discussion</title><p>We carried out a number of estimates, calculations and
+computational analyses (using software developed by us),
+to improve our understanding of the space of SARS-CoV-2
+genetic sequences variants, find out what are its main
+properties and features associated with a quite long genomic
+sequence (for RNA viruses) and a low frequency of mutations
+occurring in the process of its replication.</p><p>There are viruses the genome of which is significantly
+smaller than that of SARS-CoV-2. Because of its relatively
+large length, the number of viable variants exceeds that of
+small viruses. Let&#8217;s try to determine some other landmarks
+in the space of viral genetic sequence variants. SARS-CoV-2
+belongs to single-stranded RNA(+) viruses (Modrow et al.,
+2013). One on the smallest ssRNA(+) human viruses is the
+Astrovirus type 1 (genome length = 6771 nt) (Lewis et al.,
+1994). An even smaller ssRNA(+) genome (4294 nt) belongs
+to the shrimp nodavirus (Penaeus vannamei nodavirus)
+(Chen et al., 2019). The total number of variants of different
+sequences of these two lengths is equal to 3.533&#8729;104076 and
+1.760&#8729;102585, correspondingly.</p><p>If in our search for the smallest viral genome we consider
+DNA viruses as well, then among the record holders we will
+find pig circovirus type 1, Porcine circovirus 1 (PCV-1) (Cao et
+al., 2018), with genome size equal to 1757&#8211;1759 bp (17 times
+less than that of SARS-CoV-2). The number of possible variants
+of genetic sequences of such length is 6.597&#8729;101057. This is
+still a far cry from the number of variants that were potentially
+available to SARS-CoV-2 during the period of its existence
+(3.5 years), 7.985&#8729;10511. And a genome with a length of 850 nt
+would have a very close number of possible sequence variants,
+5.636&#8729;10511. However, there are single-stranded circular RNA
+infectious agents with even shorter sequence lengths (from 246
+to 467 nt), named viroids (Katsarou et al., 2015). Their RNA
+is not protected by any envelope and does not encode proteins.</p><p>So, SARS-CoV-2, like all other viruses, potentially has
+a very large number of possible variants, compared both to
+the number of collected and sequenced specimens, and to the
+number of variants that have been &#8220;tested&#8221; during evolution,
+but turned out to be non-viable.</p><p>And finally let&#8217;s get back to the bat coronavirus RaTG13
+(L = 29855) &#8211; the nearest neighbor of SARS-CoV-2 in the
+space of genetic sequences variants, which differ from it
+by 1135 single mutations. The total number of variants of
+sequences generated by the reference SARS-CoV-2 genome
+modified by a number of mutations (from 1 to 1135), may be
+estimated as &#8776; 2.943&#8729;105621, which exceeds by many orders of
+magnitude the total number of possible variants of sequences
+as long as 4294 nt (1.76&#183;102585) and 6771 nt (3.53&#183;104076), i. e.
+it can contain in itself the amount of information enough for
+a huge number of different small viruses.</p><p>The global phylogenetic tree of the SARS-CoV-2 shows that
+the virus cannot remain unchanged over time; it is forced to
+alter, apparently due to the fact that natural selection pressure
+acts on it. Another reason for changes is intraspecific competition
+&#8211; for example, variants with faster RNA polymerases
+displace variants with slower ones (since their number grows
+faster) and thereby reduce the incubation period of the virus
+over time; less lethal strains allow the virus to spread longer
+and wider (the carrier remains alive and spreads the virus
+throughout almost the entire period of the disease; an infected
+person with mild symptoms or their absence remains socially
+active and infects more people in their environment). Unlike
+the viroids mentioned above, changes in the genome of real
+viruses, including SARS-CoV-2, can have different effects on
+intraspecific competition depending on the functions of the
+proteins encoded in the genome. This issue remained outside
+the scope of this work, but in subsequent publications we plan
+to pay due attention to it.</p><p>In addition, the formation of immunity to this virus in
+humanity also has an impact on further virus evolution, and
+there are probably other mechanisms too. Moreover, all these
+changes should occur without compromising the functionality
+of the virus. Thus, it turns out that the space of variants available
+to the SARS-CoV-2 coronavirus is quite narrow, and the
+trajectories of its development may be determined to some
+extent. Indeed, the SARS-CoV-2 genome has been shown
+to have a much lower mutation rate and genetic diversity
+compared to the SARS-CoV virus that caused the atypical
+pneumonia outbreak in 2002&#8211;2003 (Jia et al., 2020; Zhou et
+al., 2020; Nikonova et al., 2021). Thus, for example, for the
+SARS-CoV-2 S-protein, the dN and dS values appeared to be
+approximately 12 and 7 times lower than those for SARS-CoV
+(where dN is the fraction of sequences in a sample of genomes
+that contain non-synonymous mutations in a particular gene;
+dS is a similar value, but for synonymous mutations). For
+more conservative genes, ORF1a and ORF1b, the ratios of
+mutation frequencies</p><fig position="float" id="Formula-2" orientation="portrait"><label>Formula. 2.</label><caption><title>Formula 2</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Formula2.jpg"/></fig><p>are less than those for S-protein, but values for SARS-CoV-2
+are also lower than the corresponding values for SARS-CoV
+(belonging to the interval from</p><fig position="float" id="Formula-3" orientation="portrait"><label>Formula. 3.</label><caption><title>Formula 3</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-27-2397-Formula3.jpg"/></fig><p>The hypothesis
+about the partial determinism of coronavirus evolutionary
+trajectories is that if the development of the SARS-CoV-2
+pandemic, from its very beginning in December 2019, due to
+random factors, would have gone somewhat differently, then,
+despite this, sooner or later, in the same order or in a different
+one, the space of viable variants &#8220;visited&#8221; by the virus would
+still be approximately the same. The above allows to suggest
+that creating an evolutionary simulator based on an analysis
+of the trajectories of virus change over time might be quite
+possible, which is part of our future plans.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>Investigation of the space of genetic sequence variants is an
+important step in developing approaches for modeling the
+evolution of viruses and other organisms. To build a new,
+significantly more realistic model of virus evolution, capable
+of calculating potentially possible viral genome sequences variants, which are not yet realized in nature, in order to
+proactively prevent their emergence, it is necessary to answer
+questions such as: What is the probability of recombination
+and are there preferred positions in which it usually occurs?
+Can we guess or calculate which variant will be realized
+and which will not be viable? Could &#8220;Delta&#8221; or &#8220;Omicron&#8221;
+genetic sequences have been predicted (calculated before
+their emergence)? And finally, if it were possible to create
+a realistic model of the evolution of SARS-CoV-2 and
+calculate the process several times from the very beginning,
+from the initial reference sequence, would it proceed
+differently each time and lead to significantly different
+results, or would everything happen approximately the same
+with minor variations?</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Aksamentov I., Roemer C., Hodcroft E.B., Neher R.A. Nextclade:
+clade assignment, mutation calling and quality control for viral genomes.
+J. Open Source Software. 2021;6(67):3773. DOI 10.21105/
+joss.03773</p><p>Amicone M., Borges V., Alves M.J., Isidro J., Z&#233;-Z&#233; L., Duarte S.,
+Vieira L., Guiomar R., Gomes J.P., Gordo I. Mutation rate of SARSCoV-
+2 and emergence of mutators during experimental evolution.
+Evol. Med. Public Health. 2022;10(1):142-155. DOI 10.1093/
+emph/eoac010</p><p>Campagnola G., Govindarajan V., Pelletier A., Canard B., Peersen O.B.
+The SARS-CoV nsp12 polymerase active site is tuned for largegenome
+replication. J. Virol. 2022;96(16):e0067122. DOI 10.1128/
+jvi.00671-22</p><p>Cao L., Sun W., Lu H., Tian M., Xie C., Zhao G., Han J., Wang W.,
+Zheng M., Du R., Jin N., Qian A. Genetic variation analysis of PCV1
+strains isolated from Guangxi Province of China in 2015. BMC Vet.
+Res. 2018;14(1):43. DOI 10.1186/s12917-018-1345-z</p><p>Chen N.C., Yoshimura M., Miyazaki N., Guan H.-H., Chuankhayan P.,
+Lin C.-C., Chen S.-K., Lin P.-J., Huang Y.-C., Iwasaki K., Nakagawa
+A., Chan S.I., Chen C.J. The atomic structures of shrimp nodaviruses
+reveal new dimeric spike structures and particle polymorphism.
+Commun. Biol. 2019;2:72. DOI 10.1038/s42003-019-0311-z</p><p>Day T., Gandon S., Lion S., Otto S.P. On the evolutionary epidemiology
+of SARS-CoV-2. Curr. Biol. 2020;30(15):R849-R857. DOI
+10.1016/j.cub.2020.06.031</p><p>Grebennikov D., Kholodareva E., Sazonov I., Karsonova A., Meyerhans
+A., Bocharov G. Intracellular life cycle kinetics of SARS-CoV-2
+predicted using mathematical modelling. Viruses. 2021;13(9):1735.
+DOI 10.3390/v13091735</p><p>Jia Y., Shen G., Nguyen S., Zhang Y., Huang K., Ho H., Hor W.,
+Yang C., Bruning J.B., Li C., Wang W. Analysis of the mutation dynamics
+of SARS-CoV-2 reveals the spread history and emergence of
+RBD mutant with lower ACE2 binding affinity. bioRxiv. 2020. DOI
+10.1101/2020.04.09.034942</p><p>Karimzadeh S., Raj B., Nguyen T.H. Review of infective dose, routes
+of transmission and outcome of COVID-19 caused by the SARSCOV-
+2: comparison with other respiratory viruses. Epidemiol. Infect.
+2021;149:e96. DOI 10.1017/S0950268821000790</p><p>Katsarou K., Rao A.L.N., Tsagris M., Kalantidis K. Infectious long
+non-coding RNAs. Biochimie. 2015;117:37-47. DOI 10.1016/
+j.biochi.2015.05.005</p><p>Khare S., Gurry C., Freitas L., Schultz M.B., Bach G., Diallo A.,
+Akite N., Ho J., Lee R.T., Yeo W., Curation Team GC, Maurer-
+Stroh S. GISAID&#8217;s role in pandemic response. China CDC Weekly.
+2021;3(49):1049-1051. DOI 10.46234/ccdcw2021.255</p><p>Kim H., Webster R.G., Webby R.J. Influenza virus: dealing with a drifting
+and shifting pathogen. Viral Immunol. 2018;31(2):174-183. DOI
+10.1089/vim.2017.0141</p><p>Lewis T.L., Greenberg H.B., Herrmann J.E., Smith L.S., Matsui S.M.
+Analysis of astrovirus serotype 1 RNA, identification of the viral
+RNA-dependent RNA polymerase motif, and expression of a viral
+structural protein. J. Virol. 1994;68(1):77-83. DOI 10.1128/JVI.68.
+1.77-83.1994</p><p>Li P., Hu J., Liu Y., Ou X., Mu Z., Lu X., Zan F., Cao M., Tan L.,
+Dong S., Zhou Y., Lu J., Jin Q., Wang J., Wu Z., Zhang Y., Qian Z.
+Effect of polymorphism in Rhinolophus affinis ACE2 on entry of
+SARS-CoV-2 related bat coronaviruses. PLoS Pathog. 2023;19(1):
+e1011116. DOI 10.1371/journal.ppat.1011116</p><p>Malone B., Urakova N., Snijder E.J., Campbell E.A. Structures and
+functions of coronavirus replication-transcription complexes and
+their relevance for SARS-CoV-2 drug design. Nat. Rev. Mol. Cell
+Biol. 2022;23(1):21-39. DOI 10.1038/s41580-021-00432-z</p><p>Markov P.V., Ghafari M., Beer M., Lythgoe K., Simmonds P., Stilianakis
+N.I., Katzourakis A. The evolution of SARS-CoV-2. Nat.
+Rev. Microbiol. 2023;21(6):361-379. DOI 10.1038/s41579-023-
+00878-2</p><p>Modrow S., Falke D., Truyen U., Sch&#228;tzl H. Viruses with single-stranded,
+positive-sense RNA genomes. In: Molecular Virology. Berlin:
+Springer, 2013;185-349. DOI 10.1007/978-3-642-20718-1_14</p><p>M&#252;tze T. Combinatorial Gray codes &#8211; an updated survey. Electron. J.
+Comb. 2023;30(3):DS26. DOI 10.37236/11023</p><p>Nikonova A.A., Faizuloev E.B., Gracheva A.V., Isakov I.Yu., Zverev
+V.V. Genetic diversity and evolution of the biological features
+of the pandemic SARS-CoV-2. Acta Naturae. 2021;13(3):
+77-89. DOI 10.32607/actanaturae.11337</p><p>Palyanova N., Sobolev I., Alekseev A., Glushenko A., Kazachkova E.,
+Markhaev A., Kononova Y., Gulyaeva M., Adamenko L., Kurskaya
+O., Bi Y., Xin Y., Sharshov K., Shestopalov A. Genomic and
+epidemiological features of COVID-19 in the Novosibirsk region
+during the beginning of the pandemic. Viruses. 2022;14(9):2036.
+DOI 10.3390/v14092036</p><p>Palyanova N.V., Sobolev I.A., Palyanov A.Y., Kurskaya O.G., Komissarov
+A.B., Danilenko D.M., Fadeev A.V., Shestopalov A.M. The
+development of the SARS-CoV-2 epidemic in different regions
+of Siberia in the 2020&#8211;2022 period. Viruses. 2023;15:2014. DOI
+10.3390/v15102014</p><p>Ruan Y., Luo Z., Tang X., Li G., Wen H., He X., Lu X., Lu J., Wu C.I.
+On the founder effect in COVID-19 outbreaks: how many infected
+travelers may have started them all? Natl. Sci. Rev. 2020;8(1):
+nwaa246. DOI 10.1093/nsr/nwaa246</p><p>Sayers E.W., Bolton E.E., Brister J.R., Canese K., Chan J., Comeau
+D.C., Connor R., Funk K., Kelly C., Kim S., Madej T.,
+Marchler-Bauer A., Lanczycki C., Lathrop S., Lu Z., Thibaud-Nissen
+F., Murphy T., Phan L., Skripchenko Y., Tse T., Wang J., Williams
+R., Trawick B.W., Pruitt K.D., Sherry S.T. Database resources
+of the national center for biotechnology information. Nucleic Acids
+Res. 2022;50(D1):D20-D26. DOI 10.1093/nar/gkab1112</p><p>Sender R., Bar-On Y.M., Gleizer S., Bernshtein B., Flamholz A., Phillips
+R., Milo R. The total number and mass of SARS-CoV-2 virions.
+Proc. Natl. Acad. Sci. USA. 2021;118(25):e2024815118. DOI
+10.1073/pnas.2024815118</p><p>Shannon A., Selisko B., Le N.T., Huchting J., Touret F., Piorkowski G.,
+Fattorini V., Ferron F., Decroly E., Meier C., Coutard B., Peersen O.,
+Canard B. Rapid incorporation of Favipiravir by the fast and permissive
+viral RNA polymerase complex results in SARS-CoV-2
+lethal mutagenesis. Nat. Commun. 2020;11(1):4682. DOI 10.1038/
+s41467-020-18463-z</p><p>Sonnleitner S.T., Prelog M., Sonnleitner S., Hinterbichler E., Halbfurter
+H., Kopecky D.B.C., Almanzar G., Koblm&#252;ller S., Sturmbauer C.,
+Feist L., Horres R., Posch W., Walder G. Cumulative SARS-CoV-2
+mutations and corresponding changes in immunity in an immunocompromised
+patient indicate viral evolution within the host. Nat.
+Commun. 2022;13(1):2560. DOI 10.1038/s41467-022-30163-4</p><p>Wirth W., Duchene S. GISAIDR: programmatically interact with the
+GISAID databases. Zenodo. 2022. DOI 10.5281/zenodo.6474693</p><p>Wu F., Zhao S., Yu B., Chen Y.M., Wang W., Song Z.G., Hu Y.,
+Tao Z.W., Tian J.H., Pei Y.Y., Yuan M.L., Zhang Y.L., Dai F.H.,
+Liu Y., Wang Q.M., Zheng J.J., Xu L., Holmes E.C., Zhang Y.Z.
+A new coronavirus associated with human respiratory disease in
+China. Nature. 2020;579(7798):265-269. DOI 10.1038/s41586-020-
+2008-3</p><p>Xu H., Zhang Y., Yuan M., Ma L., Liu M., Gan H., Liu W., Lum G.G.A.,
+Tao F. Basic reproduction number of the 2019 novel coronavirus
+disease in the major endemic areas of China: a latent profile analysis. Front. Public Health. 2021;9:575315. DOI 10.3389/fpubh.2021.
+575315</p><p>Zhou P., Yang X.-L., Wang X.-G., Hu B., Zhang L., Zhang W., Si H.R.,
+Zhu Y., Li B., Huang C.L., Chen H.D., Chen J., Luo Y., Guo H.,
+Jiang R.D., Liu M.Q., Chen Y., Shen X.R., Wang X., Zheng X.S.,
+Zhao K., Chen Q.J., Deng F., Liu L.L., Yan B., Zhan F.X., Wang Y.Y.,
+Xiao G.F., Shi Z.L. A pneumonia outbreak associated with a new
+coronavirus of probable bat origin. Nature. 2020;579(7798):270-
+273. DOI 10.1038/s41586-020-2012-7</p></sec></body><back><ack><p>We gratefully acknowledge all data contributors, i. e., the Authors and their Originating laboratories responsible for obtaining
+the specimens, and their Submitting laboratories for generating the genetic sequence and metadata and sharing them via the GISAID Initiative and
+Genbank SARS-CoV-2 Data Hub, on which this research is based. We are also grateful to the Authors of the Nextclade project, which provides online
+tools for analysis and visualization of genetic data on various viruses.</p></ack></back></article></pmc-articleset>

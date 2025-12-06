@@ -1,0 +1,627 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Vet Med Sci</journal-id><journal-id journal-id-type="iso-abbrev">J Vet Med Sci</journal-id><journal-id journal-id-type="pmc-domain-id">2350</journal-id><journal-id journal-id-type="pmc-domain">jvms</journal-id><journal-id journal-id-type="publisher-id">JVMS</journal-id><journal-title-group><journal-title>The Journal of Veterinary Medical Science</journal-title></journal-title-group><issn pub-type="ppub">0916-7250</issn><issn pub-type="epub">1347-7439</issn><publisher><publisher-name>Japanese Society of Veterinary Science</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11964865</article-id><article-id pub-id-type="pmcid-ver">PMC11964865.1</article-id><article-id pub-id-type="pmcaid">11964865</article-id><article-id pub-id-type="pmcaiid">11964865</article-id><article-id pub-id-type="pmid">39924182</article-id><article-id pub-id-type="doi">10.1292/jvms.24-0250</article-id><article-id pub-id-type="publisher-id">24-0250</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Laboratory Animal Science</subject><subj-group><subject>Full Paper</subject></subj-group></subj-group></article-categories><title-group><article-title>Assessment of gelatin-epigallocatechin gallate nanoparticles with hyaluronic
+acid coating for treating dry eye associated keratopathy in rats</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>CHAN</surname><given-names initials="MH">Man-Ha</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="con" ref-type="author-notes">
+<sup>#</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>TSENG</surname><given-names initials="CL">Ching-Li</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="con" ref-type="author-notes">
+<sup>#</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>HUANG</surname><given-names initials="WH">Wei-Hsiang</given-names></name><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>LIN</surname><given-names initials="CT">Chung-Tien</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cor1" ref-type="corresp">
+<sup>*</sup>
+</xref></contrib><aff id="aff1"><label>1)</label>Institute of Veterinary Clinical Sciences, School of
+Veterinary Medicine, National Taiwan University, Taipei, Taiwan</aff><aff id="aff2"><label>2)</label>Department of Ophthalmology, National Taiwan University
+Veterinary Hospital, Taipei, Taiwan</aff><aff id="aff3"><label>3)</label>Graduate Institute of Biomedical Materials and Tissue
+Engineering, College of Biomedical Engineering, Taipei Medical University, Taipei,
+Taiwan</aff><aff id="aff4"><label>4)</label>Graduate Institute of Molecular and Comparative
+Pathobiology, School of Veterinary Medicine, National Taiwan University, Taipei,
+Taiwan</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Correspondence to: Lin C-T: <email xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="eyevet.lin@gmail.com">eyevet.lin@gmail.com</email>, Institute of Veterinary
+Clinical Sciences, School of Veterinary Medicine, College of Bio resources and
+Agriculture, National Taiwan University, No. 1, Section 4, Roosevelt Road, Taipei 106,
+Taiwan</corresp><fn id="con"><label>#</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>10</day><month>2</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>4</month><year>2025</year></pub-date><volume>87</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">485874</issue-id><fpage>364</fpage><lpage>376</lpage><history><date date-type="received"><day>03</day><month>7</month><year>2024</year></date><date date-type="accepted"><day>29</day><month>1</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>04</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>04</day><month>04</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-04-26 04:25:20.190"><day>26</day><month>04</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>&#169;2025 The Japanese Society of Veterinary Science</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative
+Commons Attribution Non-Commercial No Derivatives (by-nc-nd) License. (CC-BY-NC-ND 4.0:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>)</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="jvms-87-364.pdf"/><abstract><p>Keratoconjunctivitis sicca (KCS) is a common ocular disease in dogs characterized by
+inflammation of the cornea and conjunctiva. This study investigates the effectiveness of
+gelatin-epigallocatechin gallate nanoparticles with hyaluronic acid coating (GEH NPs) and
+various artificial tears in treating KCS led keratopathy in a rat model. Eighteen female
+Sprague-Dawley rats, aged 6 to 8 weeks were randomly assigned to 6 groups of 3. All rats
+except the Sham group underwent unilateral exorbital and infraorbital lacrimal gland
+excisions to induce KCS. The treatment groups included a KCS group without treatment, a
+GEH group treated with GEH NPs, and 3 groups receiving different artificial tears.
+Clinical examinations, including slit-lamp biomicroscopy, optical coherence tomography
+(OCT), and ocular surface analyser-VET (OSA-VET) were conducted preoperatively at 1 and 2
+weeks postoperatively. For treating KCS associated keratopathy, the GEH NPs showed
+superior outcomes and consistently ranked among the strongest treatment options in most
+aspects evaluated, including reduced corneal irregularity, improved tear film stability,
+and lower fluorescein scores, indicating better corneal integrity. Additionally, the GEH
+group displayed the least inflammatory cell infiltration and maintained a healthier
+epithelial structure, further underscoring its protective effects. GEH was administered
+twice daily while other treatment groups were administrated 3 times daily, highlighting
+its efficacy even with a lower dosing frequency. The artificial tears demonstrated
+variable benefits on KCS led keratopathy across different evaluations. GEH NPs exhibited
+excellent protective effects and therapeutic potential on dry eye associated keratopathy
+based on this study.</p></abstract><kwd-group><kwd>artificial tear</kwd><kwd>epigallocatechin gallate</kwd><kwd>keratoconjunctivitis sicca</kwd><kwd>nanoparticle</kwd><kwd>rat model</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="s1"><title>INTRODUCTION</title><p>Keratoconjunctivitis sicca (KCS), commonly known as dry eye, is a prevalent condition in
+veterinary ophthalmology, especially in dogs, with reported prevalence ranging from 4% to
+35% [<xref rid="r19" ref-type="bibr">19</xref>, <xref rid="r37" ref-type="bibr">37</xref>].
+Artificial tears are frequently used to treat KCS, in which, hyaluronic acid (HA)
+application in artificial tears has increased due to its benefits. HA binds closely to cells
+on the corneal surface [<xref rid="r13" ref-type="bibr">13</xref>], has higher residence
+time [<xref rid="r29" ref-type="bibr">29</xref>, <xref rid="r36" ref-type="bibr">36</xref>],
+spreads evenly on the cornea [<xref rid="r30" ref-type="bibr">30</xref>] and improves
+epithelial cell migration [<xref rid="r15" ref-type="bibr">15</xref>]. Research in human and
+veterinary medicine showed hyaluronic acid-containing artificial tears outperformed to those
+with hydroxypropylmethylcellulose and carbomer [<xref rid="r18" ref-type="bibr">18</xref>,
+<xref rid="r36" ref-type="bibr">36</xref>].</p><p>Despite the convenience of traditional eye drops for veterinary patients and their owners,
+there are some notable limitations. These include limited drug retention time and
+nasolacrimal duct drainage of the drug [<xref rid="r11" ref-type="bibr">11</xref>],
+resulting in less than 5% of the drug retaining on the ocular surface [<xref rid="r6" ref-type="bibr">6</xref>, <xref rid="r35" ref-type="bibr">35</xref>]. A potential solution is the
+use of nanoparticles (NPs) as a colloidal drug-delivery system. NPs can encapsulate and
+enhance intraocular uptake of the drug, control drug release rate, target delivery site and
+achieve higher drug retention rate, thereby reducing dosing frequency [<xref rid="r1" ref-type="bibr">1</xref>, <xref rid="r2" ref-type="bibr">2</xref>, <xref rid="r7" ref-type="bibr">7</xref>, <xref rid="r10" ref-type="bibr">10</xref>, <xref rid="r11" ref-type="bibr">11</xref>, <xref rid="r33" ref-type="bibr">33</xref>]. Nanoparticle size smaller than 800
+nm can be readily absorbed by cornea and conjunctiva via endocytosis or phagocytosis [<xref rid="r10" ref-type="bibr">10</xref>, <xref rid="r14" ref-type="bibr">14</xref>, <xref rid="r34" ref-type="bibr">34</xref>]. In this study, a biopolymer, gelatin (a denatured
+form of collagen) was selected as the raw component for NPs preparation due to the fact that
+collagen is the main constitute of corneal stroma, and can also interact well with corneal
+and conjunctival glycoproteins [<xref rid="r4" ref-type="bibr">4</xref>, <xref rid="r16" ref-type="bibr">16</xref>].</p><p>This study also incorporates epigallocatechin gallate (EGCG), a polyphenol found in tea,
+known for its antioxidant and anti-inflammatory properties. EGCG has demonstrated
+effectiveness in suppressing inflammatory response in human corneal epithelial cells
+<italic toggle="yes">in vitro</italic> experiment [<xref rid="r5" ref-type="bibr">5</xref>] and murine
+<italic toggle="yes">in vivo</italic> experiment [<xref rid="r22" ref-type="bibr">22</xref>]. However,
+EGCG, as an antioxidant, is prone to oxidation, which can reduce its bioactivity during drug
+delivery. Therefore, encapsulation of EGCG in NPs can protect it from oxidation and enhance
+its active effect after transportation. Furthermore, the advantages of using nanoparticles
+as eye drops include enhanced accumulation of nanoparticles on the cornea and conjunctiva,
+improved drug bioavailability in ocular tissues, and a sustained drug release rate that
+prolongs therapeutic effects while reducing dosing frequency [<xref rid="r6" ref-type="bibr">6</xref>, <xref rid="r11" ref-type="bibr">11</xref>, <xref rid="r14" ref-type="bibr">14</xref>, <xref rid="r17" ref-type="bibr">17</xref>]. It is proven that
+gelatin-epigallocatechin gallate nanoparticles with a hyaluronic acid coating (GEH NPs) can
+help drug retention on the ocular surface, and effectively relieve the dry eye syndrome in a
+benzalkonium chloride (BAC)-induced rabbit model [<xref rid="r17" ref-type="bibr">17</xref>].</p><p>In this study, we aim to confirm if GEH NPs can effectively treat KCS led keratopathy in a
+rat model. Specifically, we evaluated the therapeutic effects of GEH NPs in comparison to
+existing treatments with 3 commercial artificial tears. Additionally, the effectiveness of
+GEH NPs on the KCS led keratopathy was assessed by Optical Coherence Tomography (OCT) and
+Ocular Surface Analyzer-VET (OSA-VET) throughout the experiment.</p></sec><sec sec-type="materials|methods" id="s2"><title>MATERIALS AND METHODS</title><sec><title>Production of nanoparticles</title><p>The GEH NPs were produced following the protocol by Huang <italic toggle="yes">et al.</italic>, 2018
+[<xref rid="r17" ref-type="bibr">17</xref>] (<xref rid="fig_001" ref-type="fig">Fig.
+1</xref><fig position="float" fig-type="figure" id="fig_001" orientation="portrait"><label>Fig. 1.</label><caption><p>Schematic illustration of gelatin-epigallocatechin gallate nanoparticles with
+hyaluronic acid coating (GEH NPs) synthesization, and their application in
+keratoconjunctivitis sicca (KCS) treatment. (A) GEH NPs were fabricated by mixing an
+equal amount of gelatin and Epigallocatechin-3-gallate (EGCG) to form nanoparticles.
+Subsequently, hyaluronate (HA) solution was added to coat on the surface to from GEH
+NPs. (B) Treatment of KCS rats with GEH NPs eye drops. Adjusted GEH NPs at a
+concentration containing 20 &#956;g/mL of EGCG were applied twice daily topically to rats
+underwent unilateral lacrimal gland (LG) excision.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g001.jpg"/></fig>) under dim light conditions. Type A gelatin powder (bloom 110 from porcine skin,
+Product Number G6144; Sigma-Aldrich, St. Louis, MO, USA) was dissolved in deionized water
+at 40&#176;C to obtain a 0.42% (w/v) solution. EGCG (&#8805;95%, Product Number 324880;
+Sigma-Aldrich) was dissolved in deionized water to achieve a concentration of 4.44 mg/mL.
+Sodium hyaluronate 1% (ArtiAid<sup>&#174;</sup>; Maxigen Biotech Inc., New Taipei City, Taiwan)
+was diluted to 0.125% with deionized water.</p><p>In a clean glass container, 450 &#956;L of Type A gelatin solution was mixed with 450 &#956;L of
+EGCG solution (4.44 mg/mL) at 990 rpm for 5 min to form the gelatin-EGCG (GE)
+nanoparticles. Subsequently, 100 &#956;L of 0.125% of sodium hyaluronate solution was added,
+and the mixture was stirred for an additional 10 min to obtain 1 mL of GEH NPs. The size
+and the zeta potential which represents the charge of NPs were examined after by a
+Zetasizer Nano ZS90 (Malvern Instruments, Malvern, UK) via dynamic light scattering (DLS)
+analysis, with 3 measurements taken per batch at 25&#176;C. For therapeutic testing in the
+animal study, the eye drops containing GEH NPs were diluted with phosphate buffer saline
+(PBS) in a final EGCG concentration of 20 &#956;g/mL. All products were stored at 4&#176;C under
+dark conditions. The morphology of nanoparticles was examined using transmission electron
+microscopy (TEM; HT7700, Hitachi, Ltd., Tokyo, Japan), where a diluted GEH NP solution was
+placed on a nickel mesh and dried for examination.</p></sec><sec><title>Animals</title><p>Eighteen Sprague-Dawley female rats aged 6 to 8 weeks were used for this study. All
+animal care and experimental methods adhered to the ARVO Statement for the Use of Animals
+in Ophthalmic and Vision Research. The protocol was approved by the National Taiwan
+University Institutional Animal Care and Use Committee (IACUC Approval No.
+NTU-110-EL-00086). Rats were housed under a 12-hr light/12-hr dark cycle, normal
+temperature and humidity, and food and water <italic toggle="yes">ad libitum</italic>.</p><p>The rats were randomly separated into 6 groups of 3. The Sham group (n=3) did not undergo
+unilateral lacrimal glands (LG) excision. The remaining groups underwent unilateral gland
+excision to induce KCS: KCS group (n=3), GEH group (n=3), I-drop group (n=3), OPT group
+(n=3) and Refresh group (n=3). The KCS group received no treatment post-surgery, while the
+GEH group had GEH NPs applied twice daily to the surgical side of the eye starting one day
+after surgery. I-drop group, OPT group and Refresh group had I-DROP<sup>&#174;</sup> VET PLUS
+(Lot: 6N44B; I-Med Animal Health, Saint-Laurent, Quebec, Canada), Optixcare<sup>&#174;</sup>
+Eyelube gel (Lot: 13453; CLC MEDICA, Ontario, Canada) and Refresh Plus&#8482; (Lot: E92721;
+Allergan Ltd, North Chicago, IL, USA) applied respectively on the surgical side of eye 3
+times per day since 1 day after surgery. Detailed ingredients of the artificial tears used
+in this study are shown in the <xref rid="tbl_001" ref-type="table">Table
+1</xref><table-wrap position="float" id="tbl_001" orientation="portrait"><label>Table 1.</label><caption><title>Ingredients of tested agents used in this study</title></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" rowspan="1" colspan="1">Tested agents</th><th align="center" rowspan="1" colspan="1">Ingredients</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">I-DROP<sup>&#174;</sup> VET PLUS</td><td align="left" rowspan="1" colspan="1">Water for injection, sodium chloride, <underline>0.25%
+hyaluronan</underline>, glycerin, sodium phosphate, potassium sorbate, EDTA.
+Dosing frequency: 3 times/day.</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Optixcare<sup>&#174;</sup> Eyelube gel</td><td align="left" rowspan="1" colspan="1">Deionized water, sorbitol, <underline>carbomer, 0.25%
+hyaluron</underline>, sodium hydroxide, disodium EDTA, Cetrimide. Dosing
+frequency: 3 times/day.</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Refresh Plus&#8482;</td><td align="left" rowspan="1" colspan="1"><underline>0.5% carboxymethylcellulose sodium</underline>,
+calcium chloride, magnesium chloride, potassium chloride, purified water, sodium
+chloride, sodium lactate. Dosing frequency: 3 times/day.</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GEH NPs</td><td align="left" rowspan="1" colspan="1">Gelatin, <underline>epigallocatechin gallate EGCG (20
+mg/mL)</underline>, <underline>hyaluronic acid (HA, 0.000125%)</underline>,
+phosphate buffer saline (PBS). Dosing frequency: 2 times/day.</td></tr></tbody></table><table-wrap-foot><p>*Underlined are the active ingredients of the artificial tears.</p></table-wrap-foot></table-wrap>.</p></sec><sec><title>Establishment of an induced KCS rat model</title><p>Rats were anesthetized using a combination of Tiletamine hydrochloride and Zolazepam
+hydrochloride (Zoletil<sup>&#174;</sup>; containing 250 mg Tiletamine as HCl and 250 mg
+Zolazepam as HCl in 5 mL, Virbac AH, Inc., Carros, France) at 30 mg/kg, along with
+Xylazine hydrochloride at 10 mg/kg, administered intraperitoneally. All ophthalmic
+examinations were conducted prior to surgery on Day 0. Other than the Sham group,
+unilateral excision of left exorbital and intraorbital lacrimal glands (ELG and ILG) was
+performed while the right eye remained intact. For the Sham group individuals, incisions
+were made to expose left ILG and ELG without excision.</p><p>Prior to surgery, the rats received oral meloxicam 2 mg/kg (Mobic<sup>&#174;</sup> Tablets 7.5
+mg; Boehringer Ingelheim Ellas A.E., Koropi, Greece) and oral amoxicillin 25 mg/kg
+(Amoxicillin capsules 500 mg; China Chemical &amp; Pharmaceutical Co., Ltd., Taiwan) at
+least 1 hr before the surgery. All surgeries were conducted by the same investigator,
+involving an incision lateral to the lateral canthus to access and excise the ILG using
+ophthalmic forceps and tenotomy scissors. The incision then extended caudally towards the
+cranioventral part of the ear to access and excise the ELG. Surgical incisions were closed
+using 5&#8211;0 Nylon sutures. Post-operative oral medication included oral meloxicam (1 mg/kg,
+once a day for 2 days, starting from Day 1) and amoxicillin (25 mg/kg, twice daily for 5
+days, starting after rat&#8217;s recovery from anesthesia).</p></sec><sec><title>Clinical ophthalmic examinations</title><p>Clinical ophthalmic evaluations of the rats were conducted through a series of ophthalmic
+and laboratory tests on Day 0 (pre-surgery), Day 7, and Day 14 post-surgery. On each
+examination day, all ophthalmic examinations were performed in the same order, that was,
+assessing palpebral opening, Schirmer&#8217;s tear test (STT), OSA-VET, fluorescein staining,
+slit-lamp biomicroscopy, and OCT. An additional STT was also performed on Day 1 prior to
+any treatment to confirm successful KCS model establishment. Among examinations,
+fluorescein staining and OCT evaluations were performed under anesthesia with 30 mg/kg
+Zoletil and 10 mg/kg Xylazine injected intraperitoneally.</p><p>Palpebral openings (both height and width) were measured with an electronic caliper
+(Mitutoyo, Kawasaki, Japan) (<xref rid="fig_002" ref-type="fig">Fig. 2</xref><fig position="float" fig-type="figure" id="fig_002" orientation="portrait"><label>Fig. 2.</label><caption><p>Images of clinical examination and evaluation. (A) Palpebral opening measurements,
+with X and Y representing the width and height, respectively. (B) Ocular Surface
+Analyzer-VET (OSA-VET) device containing a real time camera was placed in front of
+the eye, projecting the multi-ring image. Images were captured through the device.
+(C) Fluorescein stain scoring. 0.1 mL of 1 mg/mL sodium fluorescein was applied on
+the cornea for 2 min, rinsed with normal saline, then scored with a slit-lamp
+biomicroscope. The cornea was divided into 3 portions and scored based on density of
+fluorescein.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g002.jpg"/></fig>). The size of the STT strips was used according to a previous study [<xref rid="r21" ref-type="bibr">21</xref>]. STT paper strips (Omni Schirmer; Omni Lens Pvt.
+Ltd., Gujarat, India) were cut to 1.0 &#215; 15 mm, placed in the lower lateral third of the
+conjunctival fornix for 1 min. The strips were then removed and the length of wetted
+strips were recorded. The measurements were conducted by the same investigator to
+eliminate variations between different operators.</p><p>Fluorescein staining involved applying 0.1 mL of 1 mg/mL sodium fluorescein (Omni Fluro;
+Omni Lens Pvt. Ltd.) on the cornea for 2 min, then rinsing with normal saline. Fluorescein
+stains were assessed through a slit-lamp biomicroscope (SL-17; KOWA, Tokyo, Japan) and
+scored with a method modified from a previous study [<xref rid="r31" ref-type="bibr">31</xref>], where the cornea was divided into dorsal, intermediate and ventral sections
+and given a score of 0&#8211;3 for each section. Scoring from 0&#8211;3 was based on the density of
+the fluorescein: 0=no fluorescein uptake;1=sparse dots of fluorescein uptake; 2=dense dots
+of fluorescein uptake; 3=very dense dots or areas with fluorescein uptake. Scores between
+0 and 1 were calculated as 0.5, between 1 and 2 were calculated as 1.5, between 2 and 3
+were calculated as 2.5. The total sum of scores of 3 sections (highest possible score of
+9) was calculated (<xref rid="fig_002" ref-type="fig">Fig. 2C</xref>). Images were
+captured by digital camera (Pentax Q, Pentax Ricoh Imaging Co., Ltd., Tokyo, Japan) and a
+yellow filter.</p><p>OSA-VET (SBM Sistemi, Torino, Italy) was used to assess corneal irregularity and
+non-invasive tear film break-up time (NIBUT). Corneal irregularity was scored on a scale
+of 0&#8211;5 based on the distortion of a projected white ring, as mentioned in a previous study
+[<xref rid="r39" ref-type="bibr">39</xref>]. (0: no distortion; 1: distortion in 1
+quadrant; 2: distortion in 2 quadrants; 3: distortion in 3 quadrants; 4: distortion in all
+quadrants; 5: A ring could not be projected on the cornea due to severe distortion).
+Smooth corneas result in no distortion of the white ring, whereas increased corneal
+surface irregularity leads to greater distortion. NIBUT measured the time until the first
+sign of distortion in a multiple-ring image projected on the cornea. Three measurements
+were averaged for analysis.</p><p>During OCT examination, rats were secured on a platform under general anesthesia. OCT
+Spectralis<sup>&#174;</sup> (Heidelberg Engineering Inc., Franklin, MA, USA) with anterior
+segment module was used to scan the entire cornea of the left eye systemically from left
+to right with a standardized scanning pattern of the same interval. The computer screen of
+the OCT displayed the corresponding position of the scan on the cornea, allowing for
+precise localization of the imaging data. Only median plane images were used for
+comparison.</p></sec><sec><title>Histopathological examination</title><p>After clinical evaluations on Day 14, rats were euthanized using a combination of
+Zoletil<sup>&#174;</sup> and Xylazine for anesthesia, followed by intracardial administration
+of Potassium Chloride 2 mmol/kg (KCL Inj. 15%; Taiwan Biotech Co., Ltd., Taiwan). All 18
+globes and conjunctiva were fixed in Modified Davidson&#8217;s solution. After dehydration, the
+specimens were fixed in paraffin, cross-sectioned and stained with hematoxylin-eosin
+(H&amp;E) stain. Inflammatory cell presence in the corneal stroma was evaluated under high
+power field (HPF) microscopy. The evaluation involved averaging counts from 5 random
+locations on the cornea, with the following classification of cell infiltration as advised
+by a veterinary pathologist: none &#8722;0 inflammatory cells/HPF, rare &#8722;less than or equal to 5
+inflammatory cells/HPF, mild &#8722;6 to 10 inflammatory cells/HPF, moderate &#8722;10&#8211;20 inflammatory
+cells/HPF, severe&#8722;more than 20 inflammatory cells/HPF. Conjunctival assessments focused on
+the fornices and palpebral conjunctiva, measuring epithelial thickness (&#956;m) and goblet
+cell density (number of goblet cell clusters/400 &#956;m of conjunctival lining) in 3 areas
+each eye under high magnification (400x), modified from a previous study [<xref rid="r21" ref-type="bibr">21</xref>]. The respective averages were analyzed and
+compared.</p></sec><sec><title>Data interpretation and statistical analysis</title><p>Statistical analyses were performed using Prism 9 for macOS version 9.3.1 (GraphPad
+Software Inc., La Jolla, CA, USA). The results were presented as mean &#177; standard deviation
+(SD) in graphs. Data were analyzed by two-way mixed ANOVA for all clinical ophthalmic
+examinations and one-way ANOVA for histopathological examinations, followed by Tukey&#8217;s
+test for post-hoc comparisons. Results were considered statistically significant at
+<italic toggle="yes">P</italic>&lt;0.05.</p></sec></sec><sec sec-type="results" id="s3"><title>RESULTS</title><sec><title>Characterization of nanoparticles</title><p>As illustrated in <xref rid="fig_001" ref-type="fig">Fig. 1</xref>, gelatin and EGCG
+solutions were mixed to form nanoparticles, which were then decorated with HA. A
+milky-white colloidal solution of GEH NPs was fabricated at final EGCG concentration at
+2.0 mg/mL and HA at 0.0125%. For animal testing, this GEH NPs solution was diluted to a
+final EGCG concentration of 20 &#956;g/mL for use as eyedrops.</p><p>DLS of particle size, zeta (&#950;)-potential pattern, 3 values of GEH NPs, and TEM image were
+analyzed (<xref rid="fig_003" ref-type="fig">Fig. 3</xref><fig position="float" fig-type="figure" id="fig_003" orientation="portrait"><label>Fig. 3.</label><caption><p>Characterization of gelatin-epigallocatechin gallate nanoparticles with hyaluronic
+acid coating (GEH NPs). Dynamic Light Scattering (DLS) results of (A) particle size,
+(B) zeta (&#950;)-potential pattern, (C) 3 values of GEH NPs, and (D) transmission
+electron microscopy (TEM) image. It showed a single peak of narrow size and charge
+distribution of the prepared GEH NPs (A, B). The value of particle size of GEH NPs
+was 270.1 &#177; 1.88 nm (C). With a very small size, GEH NPs can facilitate its
+endocytosis by corneal and conjunctival cells to work intracellularly [<xref rid="r17" ref-type="bibr">17</xref>]. The &#950;-potential of the particles was &#8722;21.6 &#177;
+0.5 mV which was consistent with a previous study of the same protocol [<xref rid="r17" ref-type="bibr">17</xref>], indicating successful production of GEH. A
+low polydispersity index (PdI) of the GEH NPs at 0.24 &#177; 0.03 (C) in a mono-dispersed
+colloidal solution made it remain stable effectiveness without aggregation or
+precipitation for a long time. The TEM image revealed that the GEH NPs were round
+and spherical in shape, demonstrating a good suspension without precipitation or
+aggregation (D, scale bar: 1 &#956;m).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g003.jpg"/></fig>). It showed a single peak of narrow size and charge distribution of the prepared
+GEH NPs (<xref rid="fig_003" ref-type="fig">Fig. 3A, 3B</xref>). The value of particle
+size of GEH NPs was 270.1 &#177; 1.88 nm (<xref rid="fig_003" ref-type="fig">Fig. 3C</xref>).
+With a very small size, GEH NPs can facilitate its endocytosis by corneal and conjunctival
+cells to work intracellularly [<xref rid="r17" ref-type="bibr">17</xref>]. The &#950;-potential
+of the particles was &#8722;21.6 &#177; 0.5 mV which was consistent with a previous study of the same
+protocol [<xref rid="r17" ref-type="bibr">17</xref>], indicating successful production of
+GEH. The GEH NPs exhibited a low polydispersity index (PdI) of 0.24 &#177; 0.03 (<xref rid="fig_003" ref-type="fig">Fig. 3C</xref>), indicating a monodispersed colloidal
+solution that remains stable and effective without aggregation or precipitation over time.
+The TEM image revealed that the GEH NPs were round and spherical in shape, demonstrating a
+good suspension without precipitation or aggregation (<xref rid="fig_003" ref-type="fig">Fig. 3D</xref>, scale bar: 1 &#956;m).</p></sec><sec><title>Clinical ophthalmic examinations</title><p><italic toggle="yes">Palpebral opening</italic>: As the widths (X of <xref rid="fig_002" ref-type="fig">Fig. 2A</xref>) of palpebral openings were measured equally in all
+individuals at all time points, only the heights (Y of <xref rid="fig_002" ref-type="fig">Fig. 2A</xref>) of palpebral openings were used for comparison. No significant
+differences were observed among the groups on Day 0. On Day 7, while the KCS group showed
+significantly lower palpebral opening values compared to the Sham group
+(<italic toggle="yes">P</italic>&lt;0.05), all treatment groups (the GEH, I-drop, OPT and refresh
+groups) maintained relatively higher values, indicating better ocular comfort than the KCS
+group (<xref rid="fig_004" ref-type="fig">Fig. 4A</xref><fig position="float" fig-type="figure" id="fig_004" orientation="portrait"><label>Fig. 4.</label><caption><p>Examinations of palpebral opening, Schirmer&#8217;s tear test (STT) and non-invasive tear
+film break-up time (NIBUT). (A) Palpebral opening measurements across different
+groups at various time points. *<italic toggle="yes">P</italic>&lt;0.05. The KCS group had
+significantly smaller palpebral openings than all other groups on Days 7 and 14.
+Although not statistically significant, trend of larger palpebral opening of all
+treatment groups is noted compared to the KCS group. (B) STT values of the different
+groups at various time points. *<italic toggle="yes">P</italic>&lt;0.05,
+**<italic toggle="yes">P</italic>&lt;0.01. The Sham group had significantly higher STT values
+than all other groups at all time points. On Day 14, the KCS group (valued 0 mm) had
+significantly lower STT values than the GEH, I-drop, and OPT groups. (C) NIBUT of
+the different groups at various time points. *<italic toggle="yes">P</italic>&lt;0.05,
+**<italic toggle="yes">P</italic>&lt;0.01, ***<italic toggle="yes">P</italic>&lt;0.001. In NIBUT
+measurements, the Sham group exhibited significantly longer time at all time points.
+On Day 7, the GEH group had significantly longer NIBUT than the KCS group.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g004.jpg"/></fig>). By Day 14, although both the KCS and I-Drop groups had smaller palpebral openings
+compared to the Sham group (<italic toggle="yes">P</italic>&lt;0.05), the treatment groups demonstrated
+a trend toward larger palpebral openings, suggesting more favorable comfort in comparison
+to the KCS group, despite no significant differences being noted (<xref rid="fig_004" ref-type="fig">Fig. 4A</xref>).</p><p><italic toggle="yes">Schirmer&#8217;s tear test (STT)</italic>: On Day 0, no significant differences in STT
+values were noted among groups. However, on Day 1, Day 7 and Day 14, the Sham group
+consistently showed higher STT values than all other groups, indicating normal tear
+secretion. In contrast, on Day 1, all groups with LG excision showed tear shortage
+following establishment of the KCS model than the Sham group (<italic toggle="yes">P</italic>&lt;0.05
+compared with GEH group and <italic toggle="yes">P</italic>&lt;0.01 compared with KCS, I-drop, OPT and
+Refresh group). In comparison, on Day 7, all treatment groups exhibited higher STT values
+compared to the KCS group, suggesting a positive trend in tear quantity, even though these
+differences were not statistically significant. On Day 14, the KCS group had undetectable
+STT values, measuring 0 mm. In contrast, the GEH, I-Drop, and OPT groups demonstrated
+significantly higher STT values than the KCS group, indicating their effectiveness in
+promoting tear quantity (<italic toggle="yes">P</italic>&lt;0.05) (<xref rid="fig_004" ref-type="fig">Fig. 4B</xref>).</p></sec><sec><title>OSA-VET evaluations&#8722;NIBUT and corneal irregularity</title><p>For NIBUT, no significant differences were observed on Day 0. By Day 7, all groups that
+underwent LG excision had significantly shorter NIBUT times compared to the Sham group
+(<italic toggle="yes">P</italic>&lt;0.05 compared with KCS, GEH, OPT and Refresh groups,
+<italic toggle="yes">P</italic>&lt;0.001 compared with I-drop group). Notably, the GEH group
+demonstrated significantly longer NIBUT compared to the KCS group
+(<italic toggle="yes">P</italic>&lt;0.05), indicating that GEH effectively enhances tear film stability
+in the LG excision groups. On Day 14, although all LG excision groups continued to show
+shorter NIBUT times than the Sham group (<italic toggle="yes">P</italic>&lt;0.05 compared with KCS
+group, <italic toggle="yes">P</italic>&lt;0.01 compared with GEH, I-drop, OPT and Refresh groups), the
+GEH, I-drop and Refresh groups exhibited trends toward improved NIBUT, suggesting their
+potential benefits in maintaining tear stability post-surgery (<xref rid="fig_004" ref-type="fig">Fig. 4C</xref>).</p><p>Corneal irregularity scoring was used to evaluate the smooth level of corneal surface. On
+Day 0, no significant differences in irregularity scores were noted among groups. On Day
+7, although not statistically significant, the GEH, I-drop and Refresh group had lower
+irregularity scores compared to the KCS group (<xref rid="fig_005" ref-type="fig">Fig.
+5A</xref><fig position="float" fig-type="figure" id="fig_005" orientation="portrait"><label>Fig. 5.</label><caption><p>Examination of corneal irregularity. (A) Corneal irregularity scores for different
+groups at various time points. *<italic toggle="yes">P</italic>&lt;0.05. Scoring of corneal
+irregularity: 0- no distortion; 1- distortion in 1 quadrant; 2- distortion in 2
+quadrants; 3- distortion in 3 quadrants; 4- distortion in all quadrants; 5- A ring
+could not be projected on the cornea due to severe distortion. On Day 7, the GEH,
+I-drop and Refresh groups had lower corneal irregularity scores compared to the KCS
+group. On Day 14, much lower corneal irregularity scores were noted in the GEH group
+than all other treatment groups, indicating less corneal damage and a smoother
+corneal surface in the GEH group. (B) Sham group on Day 14 (score 0) showing no
+distortion of the ring, indicating smooth corneal surface. (C) GEH group on Day 14
+(score 1) with slight distortion in the left lower quadrant. (D) Refresh group on
+Day 14 (score 4) with distortion in all quadrants. (E) KCS group on Day 14 (score 5)
+with no distinct projection of the ring on the cornea, indicating rough and
+irregular corneal surface.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g005.jpg"/></fig>), revealing a less extent of corneal damage. On Day 14, the GEH group revealed the
+lowest irregularity scores among all treatment groups, indicating the least corneal damage
+and a smoother ocular surface. The round globe shape with smooth corneal surface was
+observed in the GEH treated eyes (<xref rid="fig_005" ref-type="fig">Fig. 5B</xref>).</p></sec><sec><title>OCT evaluations</title><p>The quantification results of OCT assessments for corneal stromal and corneal epithelial
+thickness are shown in <xref rid="fig_006" ref-type="fig">Fig. 6.</xref><fig position="float" fig-type="figure" id="fig_006" orientation="portrait"><label>Fig. 6.</label><caption><p>Corneal thickness assessment by Optical Coherence Tomography (OCT). (A)
+Measurements of corneal stromal thickness indicated the GEH group with the closest
+stromal thickness to the Sham group among all groups with the least corneal edema.
+In contrast, the KCS and I-Drop groups had much thicker stromal thickness than other
+groups. (B) Measurements of corneal epithelial thickness indicated the GEH group
+with the least thickness among treatment groups despite no significant difference
+between groups. (C-H) OCT images and measurements of epithelial and stromal
+thickness at Day 14&#8722;C: Sham group; D: KCS group; E: GEH group; F: I-drop group; G:
+OPT group; H: Refresh group. Increased corneal opacity was noted in all groups
+following LG excision, with much thicker corneal stroma in the KCS and I-drop
+groups.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g006.jpg"/></fig> Measurements of corneal stromal thickness indicated the GEH group with the closest
+stromal thickness to the Sham group among all groups with the least corneal edema. In
+contrast, the KCS and I-Drop groups had much thicker stromal thickness than other groups
+(<xref rid="fig_006" ref-type="fig">Fig. 6A</xref>). Measurements of corneal epithelial
+thickness indicated the GEH group with the least thickness among treatment groups, despite
+no significant difference between groups (<xref rid="fig_006" ref-type="fig">Fig.
+6B</xref>). OCT images and measurements of epithelial and stromal thickness on Day 14
+are presented in <xref rid="fig_006" ref-type="fig">Fig. 6</xref> (<xref rid="fig_006" ref-type="fig">Fig. 6C&#8211;H</xref>, C: Sham group; D: KCS group; E: GEH group; F: I-drop
+group; G: OPT group; H: Refresh group). Increased corneal opacity was noted in all groups
+with LG excision, with much thicker corneal stroma and edema in the KCS and I-drop
+groups.</p></sec><sec><title>Fluorescein scores of corneas</title><p>A lower fluorescein score (FS) indicates a more intact corneal epithelium. The KCS group
+had the highest FS among all groups, indicating more severe damage following LG excision
+in the untreated KCS group (<xref rid="fig_007" ref-type="fig">Fig. 7A</xref><fig position="float" fig-type="figure" id="fig_007" orientation="portrait"><label>Fig. 7.</label><caption><p>Fluorescein scores (FS) of corneas. FS of cornea were analyzed in all groups. The
+KCS group had the highest FS among all groups. Scoring from 0-3 was based on the
+density of the fluorescein: 0=no fluorescein uptake;1=sparse dots of fluorescein
+uptake; 2=dense dots of fluorescein uptake; 3=very dense dots or areas with
+fluorescein uptake. Scores between 0 and 1 were calculated as 0.5, between 1 and 2
+were calculated as 1.5, between 2 and 3 were calculated as 2.5. The total sum of
+scores of 3 sections (highest possible score of 9) was calculated. On Day 7, the GEH
+group had the lowest FS among the KCS and other treatment groups. On Day 14, the GEH
+and OPT groups had significantly lower FS than the KCS and other treatment groups.
+(*<italic toggle="yes">P</italic>&lt;0.05, **<italic toggle="yes">P</italic>&lt;0.01). (B&#8211;G) Images of
+fluorescein staining on the corneas. B: Sham group, score 0 (Day 14); C: KCS group,
+score 7 with large areas stained with green fluorescein dye (Day 14); D: GEH group,
+score 1.5 (Day 140; E: I-drop group, score 3 (Day 14); F: OPT group, score 2 (Day
+14); G: Refresh group, score 3 (Day 14).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g007.jpg"/></fig>). On Day 7, the GEH group had the lowest FS among the KCS and other treatment
+groups. On Day 14, the GEH and OPT groups had significantly lower FS than the KCS group
+(<italic toggle="yes">P</italic>&lt;0.05, <italic toggle="yes">P</italic>&lt;0.01 respectively). Images of
+fluorescein staining on the corneas on Day 14 are displayed in <xref rid="fig_007" ref-type="fig">Fig. 7</xref> (<xref rid="fig_007" ref-type="fig">Fig. 7B&#8211;G</xref>, B:
+Sham group, score 0; C: KCS group, score 7 with large areas stained with green fluorescein
+dye; D: GEH group, score 1.5; E: I-drop group, score 3; F: OPT group, score 2; G: Refresh
+group, score 3).</p></sec><sec><title>Histopathological examinations</title><p>Histopathological analysis of the cornea across different groups on Day 14 is summarized
+in <xref rid="tbl_002" ref-type="table">Table 2</xref><table-wrap position="float" id="tbl_002" orientation="portrait"><label>Table 2.</label><caption><title>Summary of histopathological findings of the corneas of different groups on Day
+14</title></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" rowspan="1" colspan="1">Group</th><th align="center" rowspan="1" colspan="1">Corneal structure</th><th align="center" rowspan="1" colspan="1">Layers of corneal epithelium</th><th align="center" rowspan="1" colspan="1">Infiltration of inflammatory cells</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Sham group</td><td align="left" rowspan="1" colspan="1">Well-organized and compact</td><td align="center" rowspan="1" colspan="1">6&#8211;7</td><td align="center" rowspan="1" colspan="1">None</td></tr><tr><td align="left" rowspan="1" colspan="1">KCS group</td><td align="left" rowspan="1" colspan="1">Less organized, collagen layers were loose, sponge-like,
+epithelial damage.</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">Moderate</td></tr><tr><td align="left" rowspan="1" colspan="1">GEH group</td><td align="left" rowspan="1" colspan="1">Epithelium and stroma were organized.</td><td align="center" rowspan="1" colspan="1">5&#8211;6</td><td align="center" rowspan="1" colspan="1">Rare</td></tr><tr><td align="left" rowspan="1" colspan="1">I-drop group</td><td align="left" rowspan="1" colspan="1">Epithelium less organized, looser collagen layers.</td><td align="center" rowspan="1" colspan="1">4&#8211;5</td><td align="center" rowspan="1" colspan="1">Mild</td></tr><tr><td align="left" rowspan="1" colspan="1">OPT group</td><td align="left" rowspan="1" colspan="1">Epithelium and stroma were organized.</td><td align="center" rowspan="1" colspan="1">5&#8211;6</td><td align="center" rowspan="1" colspan="1">Mild</td></tr><tr><td align="left" rowspan="1" colspan="1">Refresh group</td><td align="left" rowspan="1" colspan="1">Epithelium and stroma were organized.</td><td align="center" rowspan="1" colspan="1">4&#8211;5</td><td align="center" rowspan="1" colspan="1">Mild</td></tr></tbody></table></table-wrap>. The KCS group exhibited loss of epithelial layers, moderate infiltration of
+neutrophils and lymphocytes in the stroma, evidence of epithelial damage with fibrous
+membrane underneath the damage, and less organized corneal structure (<xref rid="fig_008" ref-type="fig">Fig. 8G</xref><fig position="float" fig-type="figure" id="fig_008" orientation="portrait"><label>Fig. 8.</label><caption><p>Corneal conditions on Day 14. (A&#8211;F) H&amp;E-stained cornea from different groups in
+the axial portion of the median plane (400&#215; magnification). A: Sham group; B: KCS
+group; C: GEH group; D: I-drop group; E: OPT group with a part of palpebral
+conjunctiva; F: Refresh group. The KCS group exhibited the most pronounced
+infiltration of neutrophils and lymphocytes (arrowheads in B), while other treatment
+groups showed milder infiltration (arrowheads in C&#8211;F), particularly the GEH group,
+which had the least inflammatory cells. Epithelial loss was significant in the KCS
+group, while other groups displayed minimal to no epithelial loss. (G)
+H&amp;E-stained cornea of KCS group on Day 14 (100&#215; magnification) showing
+epithelial damage (arrow) with fibrous membrane beneath, and moderate inflammatory
+cell infiltration (arrowheads).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g008.jpg"/></fig> and <xref rid="fig_008" ref-type="fig">Fig. 8B</xref>). All artificial tears groups
+(I-drop group, OPT group and Refresh group) showed mild infiltration of inflammatory
+cells, with epithelial layers ranging from 4 to 6 (<xref rid="fig_008" ref-type="fig">Fig.
+8D, 8E, 8F)</xref>. In particular, the I-drop group displayed less organized corneal
+structures compared to other artificial tears groups (<xref rid="fig_008" ref-type="fig">Fig. 8D</xref>). In contrast, the GEH group had the least inflammatory cell
+infiltration in the stroma and retained 5&#8211;6 layers of epithelium (<xref rid="fig_008" ref-type="fig">Fig. 8C</xref>).</p><p>For conjunctival assessments, the KCS group had significantly thinner conjunctival
+epithelium compared to the Sham, GEH, OPT and Refresh groups on Day 14
+(<italic toggle="yes">P</italic>&lt;0.01 compared with Sham and Refresh groups,
+<italic toggle="yes">P</italic>&lt;0.05 compared with GEH and OPT groups) (<xref rid="fig_009" ref-type="fig">Fig. 9A</xref><fig position="float" fig-type="figure" id="fig_009" orientation="portrait"><label>Fig. 9.</label><caption><p>Conjunctival conditions on Day 14. (A) Conjunctival epithelial thickness
+measurements on Day 14. *<italic toggle="yes">P</italic>&lt;0.05, **<italic toggle="yes">P</italic>&lt;0.01.
+The KCS group exhibited significantly thinner conjunctival epithelium compared to
+the GEH and OPT groups (<italic toggle="yes">P</italic>&lt;0.01). (B) Goblet cell density on Day
+14. *<italic toggle="yes">P</italic>&lt;0.05. The KCS group had significantly lower goblet cell
+density than the GEH and OPT groups (<italic toggle="yes">P</italic>&lt;0.05). (C-H)
+H&amp;E-stained conjunctiva images from different groups on Day 14 (400&#215;
+magnification). C: Sham group; D: KCS group; E: GEH group; F: I-drop group; G: OPT
+group; H: Refresh group. Arrowheads indicate the location of goblet cells on
+conjunctiva. Arrow in D indicates the disrupted and thinner epithelial lining in the
+KCS group.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-87-364-g009.jpg"/></fig>). Goblet cell density also differed significantly, with the KCS group showing lower
+density than the GEH and OPT groups (<xref rid="fig_009" ref-type="fig">Fig. 9B</xref>,
+<italic toggle="yes">P</italic>&lt;0.05). Under microscopic observation, it was also evident that the
+conjunctival epithelium of the KCS group had a greater proportion of epithelial damage,
+characterized by discontinuity of the epithelial lining compared to the Sham group and
+other treatment groups (<xref rid="fig_009" ref-type="fig">Fig. 9C&#8211;H</xref>).</p></sec></sec><sec sec-type="discussion" id="s4"><title>DISCUSSION</title><p>The interaction and roles of the components in GEH NPs are complex. On the ocular surface,
+cornea and conjunctiva are negatively charged. The cationic nanoparticles (NPs) can be
+attracted to the cornea and retained on the cornea for a longer time to prolong or enhance
+therapeutic effects, thus Gelatin (Type A), a positively charged amino acid was used in
+producing nanoparticles in this experiment. Gelatin also attracts the negatively charged
+component (EGCG) to form self-assembled nanoparticles (GE) through electrostatic
+interactions. Additionally, a coating of HA was applied on its surface to improve
+mucus-adhesion of NPs with the tear film. The EGCG also plays the role as the
+anti-inflammatory agent to treat inflammation condition caused by KCS. According to our
+previous study, the GEH NPs at EGCG concentration of 20 &#956;g/mL can effectively treat KCS in a
+rabbit model twice daily as eyedrops [<xref rid="r17" ref-type="bibr">17</xref>]. Therefore,
+the same therapeutic dosage and frequency were adopted for treating KCS led keratopathy in
+the rats in this study.</p><p>Keratoconjunctivitis sicca models have been established through various methods and
+primarily classified into tear production insufficiency, increased tear evaporation, or a
+combination of both. Based on recent studies [<xref rid="r24" ref-type="bibr">24</xref>,
+<xref rid="r31" ref-type="bibr">31</xref>, <xref rid="r32" ref-type="bibr">32</xref>] and
+the absence of surgical complications, the excision of ELG and ILG was chosen to effectively
+mimic keratopathy led by severe aqueous deficiency. The use of female rats was justified, as
+they tend to exhibit more pronounced keratopathy both clinically and histopathologically, as
+mentioned in previous studies.</p><p>Successful imaging techniques, including OCT and OSA-VET, were utilized in this experiment.
+While OCT has been well-documented in anterior segment imaging of laboratory animals,
+studies of OSA-VET evaluations in rats are limited to date. This study was able to assess
+corneal irregularity assessment and non-invasive break-up time (NIBUT) in minimally
+restrained rats with OSA-VET. OSA-VET was an ophthalmic equipment modified for veterinary
+use. However, several limitations arose due to the small size and unique anatomy of rat
+eyes, which made imaging more challenging compared to larger veterinary patients. For
+instance, meibography, which is straightforward in larger animals, was difficult to perform
+on rats due to limited eyelid inversion and globe protrusion. Additionally, tear meniscus
+height evaluation and lipid layer analysis were difficult due to the albino characteristics
+of Sprague-Dawley rats. Despite these challenges, OSA-VET&#8217;s ease of use under minimal
+restraint suggests its potential for broader applications in clinical settings.</p><p>Palpebral opening measurements have been employed to evaluate ocular pain in previous
+studies [<xref rid="r9" ref-type="bibr">9</xref>, <xref rid="r12" ref-type="bibr">12</xref>,
+<xref rid="r25" ref-type="bibr">25</xref>]. Although metrics such as blinking rate are
+often used to evaluate ocular comfort in animals, the squinty behavior of the rats
+post-surgery made blinking assessment impractical. Therefore, palpebral opening was adopted
+in this study. Throughout the experiment, only the GEH group and Refresh group exhibited no
+significant differences in palpebral opening when compared to the Sham group, indicating
+much better ocular comfort in these groups. While not statistically significant, all
+treatment groups showed a trend toward larger palpebral openings on Day 7 and Day 14.</p><p>Various methods have been used to measure tear volume in rodent KCS models, including the
+use of phenol red thread [<xref rid="r24" ref-type="bibr">24</xref>, <xref rid="r31" ref-type="bibr">31</xref>]. This study adopted a modified version of STT strips (1 &#215; 17 mm),
+referring to a previous study [<xref rid="r21" ref-type="bibr">21</xref>], which were well
+tolerated by the rats. In this experiment, all groups that underwent LG excision exhibited
+significantly lower STT values compared to the Sham group on Day 7 and Day 14. In
+particular, the GEH, I-drop and OPT groups produced significantly higher STT values when
+compared to the KCS group on Day 14. The presence of hyaluronic acid (HA) in these
+treatments suggests enhanced tear retention on the ocular surface. When the therapeutic
+dosage of GEH NPs was diluted to EGCG concentration of 20 &#956;g/mL, the final HA concentration
+was lowered to 0.000125% in the GEH, which is much lower than all the active ingredients of
+the tested artificial tears shown in <xref rid="tbl_001" ref-type="table">Table 1</xref>.
+The synergistic effect of the nanoparticle combined with EGCG and HA can help to increase
+the drug retention on ocular surface, inhibiting the inflammation in the KCS eyes as proved
+in our previous study [<xref rid="r17" ref-type="bibr">17</xref>]. The combination of GEH
+NPs and EGCG, which supports tear retention and reduces inflammation, demonstrates the
+efficacy of GEH NPs in treating KCS in rat eyes in this study.</p><p>Tear film gradually becomes unstable after a blink and the time to tear film instability
+depends on the composition and dynamics of the tear film. NIBUT, which measures either the
+time from a blink to tear film discontinuity or the urge for the tested subject to blink,
+showed that all groups with lacrimal glands excisions had significantly shorter tear film
+break-up time than the Sham group on Day 7 and Day 14. The GEH group demonstrated a
+short-term advantage in tear film stability on Day 7, while the I-Drop, OPT, and Refresh
+groups also showed promising trends, indicating potential benefits in maintaining tear film
+integrity.</p><p>In assessing corneal irregularity, the OSA-VET projected a ring-shaped light onto the
+cornea, where less distortion indicated a smoother surface. Similar analysis was performed
+in previous studies on dry eye mice [<xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r39" ref-type="bibr">39</xref>]. Only the GEH and Refresh groups maintained low
+corneal irregularity scores comparable to the Sham group, suggesting effective preservation
+of smooth and complete ocular surface during damages caused by KCS.</p><p>OCT evaluations did not reveal significant differences in corneal stromal and epithelial
+thickness among groups, though a trend of thicker stromal thickness was noted in the KCS and
+I-drop groups, indicative of more severe structural changes. These findings were
+corroborated by histopathological examinations, which showed more pronounced inflammation in
+these groups. However, due to small sample sizes, further studies are required to determine
+if there are statistical differences in corneal thickness among groups.</p><p>Fluorescein staining, indicating the presence of corneal epithelium damage [<xref rid="r3" ref-type="bibr">3</xref>, <xref rid="r27" ref-type="bibr">27</xref>, <xref rid="r38" ref-type="bibr">38</xref>], showed that the KCS and I-drop groups had
+significantly higher FS than the Sham group on Day 7. While on Day 14, the KCS, I-drop and
+refresh groups continued to show elevated FS. The GEH and OPT groups, however, had
+significantly lower FS compared to the KCS group, demonstrating superior protective effects
+on corneal epithelial integrity by GEH and OPT. Previous studies showed the presence of
+hyaluronic acid may enhance wound healing [<xref rid="r23" ref-type="bibr">23</xref>].
+Although the hyaluronic acid-dominant I-drop group did not show a significant advantage in
+FS compared to the KCS group, a more favorable outcome was observed when hyaluronic acid was
+combined with carbomer in Optixcare<sup>&#174;</sup> Eyelube gel (OPT group). Furthermore, the
+slow release of EGCG from GEH NPs has been shown to inhibit corneal inflammation and promote
+the repair of damaged epithelial cells, as noted in a previous study [<xref rid="r17" ref-type="bibr">17</xref>]. This is consistent with the significantly lower FS in GEH group
+observed in our experiment. Remarkably, even at a low concentration of EGCG, GEH
+demonstrated a notable protective effect.</p><p>Histopathological analysis revealed reduced epithelial layers and significant inflammatory
+cell infiltration in the KCS group, consistent with previous studies showing similar
+findings in KCS rat models [<xref rid="r24" ref-type="bibr">24</xref>, <xref rid="r31" ref-type="bibr">31</xref>, <xref rid="r32" ref-type="bibr">32</xref>]. Inflammatory cell
+infiltration disrupts the organization of corneal cells, leading to unevenness and increased
+opacity. In contrast, the GEH group exhibited the fewest inflammatory cells and the
+best-preserved corneal architecture, likely due to the anti-inflammatory properties of
+EGCG.</p><p>Conjunctival epithelial evaluations showed a marked decrease in epithelial thickness in the
+KCS group compared to the Sham group, aligning with findings in other dry eye models in rats
+[<xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r21" ref-type="bibr">21</xref>]. On
+the contrary, another study on similar mouse models showed conjunctival epithelial
+hyperplasia at 4 and 8 weeks after surgery, as well as evidence of inflammatory cell
+infiltration at mucosa layer, submucosa layer and around meibomian glands [<xref rid="r31" ref-type="bibr">31</xref>]. Further evaluation is required to see if similar
+pathological changes will also be noticed on KCS rat models over the long term. The loss of
+goblet cells was also observed, resembling results in previous studies in mice and human
+with aqueous tear deficiency [<xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r26" ref-type="bibr">26</xref>, <xref rid="r28" ref-type="bibr">28</xref>]. Higher percentage of HA
+present in artificial tears was found to better preserve goblet cell density than that with
+lower HA percentage [<xref rid="r40" ref-type="bibr">40</xref>], which suggested the results
+are consistent with the insignificant differences of the I-drop and OPT groups compared to
+the Sham group. Interestingly, the GEH group, despite its lower hyaluronic acid
+concentration, showed superior preservation of goblet cell density, possibly due to the
+protective effects of EGCG.</p><p>For treating KCS associated keratopathy, despite the lack of statistically significant
+differences among treatment groups in certain assessments, the GEH NPs showed superior
+outcomes and consistently ranked among the strongest treatment options in most aspects
+evaluated, including reduced corneal irregularity, improved tear film stability, and lower
+fluorescein scores, indicating better corneal integrity. Additionally, the GEH group
+displayed the least inflammatory cell infiltration and maintained a healthier epithelial
+structure, further underscoring its protective effects. Notably, GEH was administered only
+twice per day while other treatment groups received applications 3 times per day,
+highlighting its efficacy even with a lower dosing frequency. While the artificial tears
+demonstrated variable benefits on KCS led keratopathy across different evaluations, GEH NPs
+exhibited excellent protective effects and therapeutic potential on dry eye associated
+keratopathy based on this study. Overall, this study highlights the potential of
+nanotechnology in enhancing treatment for KCS led keratopathy and warrants further
+investigation into its clinical applications.</p></sec><sec sec-type="COI-statement" id="s5"><title>CONFLICT OF INTEREST</title><p>The authors have declared that they have no conflict of interest.</p></sec></body><back><ref-list><title>REFERENCES</title><ref id="r1"><label>1</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ali</surname><given-names>Y</given-names></name><name name-style="western"><surname>Lehmussaari</surname><given-names>K</given-names></name></person-group>. <year>2006</year>. <article-title>Industrial perspective in ocular drug
+delivery</article-title>. <source><italic toggle="yes">Adv Drug Deliv
+Rev</italic></source><volume>58</volume>: <fpage>1258</fpage>&#8211;<lpage>1268</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/j.addr.2006.07.022</pub-id><pub-id pub-id-type="pmid">17079049</pub-id></mixed-citation></ref><ref id="r2"><label>2</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Bachu</surname><given-names>RD</given-names></name><name name-style="western"><surname>Chowdhury</surname><given-names>P</given-names></name><name name-style="western"><surname>Al-Saedi</surname><given-names>ZHF</given-names></name><name name-style="western"><surname>Karla</surname><given-names>PK</given-names></name><name name-style="western"><surname>Boddu</surname><given-names>SHS</given-names></name></person-group>. <year>2018</year>. <article-title>Ocular drug delivery barriers&#8212;role of
+nanocarriers in the treatment of anterior segment ocular diseases</article-title>.
+<source><italic toggle="yes">Pharmaceutics</italic></source><volume>10</volume>: <fpage>28</fpage>.
+doi: <pub-id pub-id-type="doi">10.3390/pharmaceutics10010028</pub-id><pub-id pub-id-type="pmid">29495528</pub-id><pub-id pub-id-type="pmcid">PMC5874841</pub-id></mixed-citation></ref><ref id="r3"><label>3</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Barabino</surname><given-names>S</given-names></name><name name-style="western"><surname>Chen</surname><given-names>W</given-names></name><name name-style="western"><surname>Dana</surname><given-names>MR</given-names></name></person-group>. <year>2004</year>. <article-title>Tear film and ocular surface tests in
+animal models of dry eye: uses and limitations</article-title>. <source><italic toggle="yes">Exp Eye
+Res</italic></source><volume>79</volume>: <fpage>613</fpage>&#8211;<lpage>621</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/j.exer.2004.07.002</pub-id><pub-id pub-id-type="pmid">15500820</pub-id></mixed-citation></ref><ref id="r4"><label>4</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Boddu</surname><given-names>SH</given-names></name><name name-style="western"><surname>Gupta</surname><given-names>H</given-names></name><name name-style="western"><surname>Patel</surname><given-names>S</given-names></name></person-group>. <year>2014</year>. <article-title>Drug delivery to the back of the eye
+following topical administration: an update on research and patenting
+activity</article-title>. <source><italic toggle="yes">Recent Pat Drug Deliv
+Formul</italic></source><volume>8</volume>: <fpage>27</fpage>&#8211;<lpage>36</lpage>. doi:
+<pub-id pub-id-type="doi">10.2174/1872211308666140130093301</pub-id><pub-id pub-id-type="pmid">24475918</pub-id></mixed-citation></ref><ref id="r5"><label>5</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Cavet</surname><given-names>ME</given-names></name><name name-style="western"><surname>Harrington</surname><given-names>KL</given-names></name><name name-style="western"><surname>Vollmer</surname><given-names>TR</given-names></name><name name-style="western"><surname>Ward</surname><given-names>KW</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>JZ</given-names></name></person-group>. <year>2011</year>. <article-title>Anti-inflammatory and anti-oxidative
+effects of the green tea polyphenol epigallocatechin gallate in human corneal epithelial
+cells</article-title>. <source><italic toggle="yes">Mol Vis</italic></source><volume>17</volume>:
+<fpage>533</fpage>&#8211;<lpage>542</lpage>. <pub-id pub-id-type="pmid">21364905</pub-id><pub-id pub-id-type="pmcid">PMC3044696</pub-id></mixed-citation></ref><ref id="r6"><label>6</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Chang</surname><given-names>CY</given-names></name><name name-style="western"><surname>Wang</surname><given-names>MC</given-names></name><name name-style="western"><surname>Miyagawa</surname><given-names>T</given-names></name><name name-style="western"><surname>Chen</surname><given-names>ZY</given-names></name><name name-style="western"><surname>Lin</surname><given-names>FH</given-names></name><name name-style="western"><surname>Chen</surname><given-names>KH</given-names></name><name name-style="western"><surname>Liu</surname><given-names>GS</given-names></name><name name-style="western"><surname>Tseng</surname><given-names>CL</given-names></name></person-group>. <year>2016</year>. <article-title>Preparation of
+arginine-glycine-aspartic acid-modified biopolymeric nanoparticles containing
+epigalloccatechin-3-gallate for targeting vascular endothelial cells to inhibit corneal
+neovascularization</article-title>. <source><italic toggle="yes">Int J
+Nanomedicine</italic></source><volume>12</volume>:
+<fpage>279</fpage>&#8211;<lpage>294</lpage>. doi: <pub-id pub-id-type="doi">10.2147/IJN.S114754</pub-id><pub-id pub-id-type="pmid">28115846</pub-id><pub-id pub-id-type="pmcid">PMC5221810</pub-id></mixed-citation></ref><ref id="r7"><label>7</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Chen</surname><given-names>H</given-names></name><name name-style="western"><surname>Jin</surname><given-names>Y</given-names></name><name name-style="western"><surname>Sun</surname><given-names>L</given-names></name><name name-style="western"><surname>Li</surname><given-names>X</given-names></name><name name-style="western"><surname>Nan</surname><given-names>K</given-names></name><name name-style="western"><surname>Liu</surname><given-names>H</given-names></name><name name-style="western"><surname>Zheng</surname><given-names>Q</given-names></name><name name-style="western"><surname>Wang</surname><given-names>B</given-names></name></person-group>. <year>2018</year>. <article-title>Recent developments in ophthalmic drug
+delivery systems for therapy of both anterior and posterior segment
+diseases</article-title>. <source><italic toggle="yes">Colloid Interface Sci
+Commun</italic></source><volume>24</volume>: <fpage>54</fpage>&#8211;<lpage>61</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/j.colcom.2018.03.008</pub-id></mixed-citation></ref><ref id="r8"><label>8</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Dursun</surname><given-names>D</given-names></name><name name-style="western"><surname>Wang</surname><given-names>M</given-names></name><name name-style="western"><surname>Monroy</surname><given-names>D</given-names></name><name name-style="western"><surname>Li</surname><given-names>DQ</given-names></name><name name-style="western"><surname>Lokeshwar</surname><given-names>BL</given-names></name><name name-style="western"><surname>Stern</surname><given-names>ME</given-names></name><name name-style="western"><surname>Pflugfelder</surname><given-names>SC</given-names></name></person-group>. <year>2002</year>. <article-title>A mouse model of keratoconjunctivitis
+sicca</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis
+Sci</italic></source><volume>43</volume>: <fpage>632</fpage>&#8211;<lpage>638</lpage>. <pub-id pub-id-type="pmid">11867577</pub-id></mixed-citation></ref><ref id="r9"><label>9</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Fakih</surname><given-names>D</given-names></name><name name-style="western"><surname>Zhao</surname><given-names>Z</given-names></name><name name-style="western"><surname>Nicolle</surname><given-names>P</given-names></name><name name-style="western"><surname>Reboussin</surname><given-names>E</given-names></name><name name-style="western"><surname>Joubert</surname><given-names>F</given-names></name><name name-style="western"><surname>Luzu</surname><given-names>J</given-names></name><name name-style="western"><surname>Labb&#233;</surname><given-names>A</given-names></name><name name-style="western"><surname>Rost&#232;ne</surname><given-names>W</given-names></name><name name-style="western"><surname>Baudouin</surname><given-names>C</given-names></name><name name-style="western"><surname>M&#233;lik Parsadaniantz</surname><given-names>S</given-names></name><name name-style="western"><surname>R&#233;aux-Le Goazigo</surname><given-names>A</given-names></name></person-group>. <year>2019</year>. <article-title>Chronic dry eye induced corneal
+hypersensitivity, neuroinflammatory responses, and synaptic plasticity in the mouse
+trigeminal brainstem</article-title>. <source><italic toggle="yes">J
+Neuroinflammation</italic></source><volume>16</volume>: <fpage>268</fpage>. doi: <pub-id pub-id-type="doi">10.1186/s12974-019-1656-4</pub-id><pub-id pub-id-type="pmid">31847868</pub-id><pub-id pub-id-type="pmcid">PMC6918709</pub-id></mixed-citation></ref><ref id="r10"><label>10</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Gaudana</surname><given-names>R</given-names></name><name name-style="western"><surname>Ananthula</surname><given-names>HK</given-names></name><name name-style="western"><surname>Parenky</surname><given-names>A</given-names></name><name name-style="western"><surname>Mitra</surname><given-names>AK</given-names></name></person-group>. <year>2010</year>. <article-title>Ocular drug delivery</article-title>.
+<source><italic toggle="yes">AAPS J</italic></source><volume>12</volume>:
+<fpage>348</fpage>&#8211;<lpage>360</lpage>. doi: <pub-id pub-id-type="doi">10.1208/s12248-010-9183-3</pub-id><pub-id pub-id-type="pmid">20437123</pub-id><pub-id pub-id-type="pmcid">PMC2895432</pub-id></mixed-citation></ref><ref id="r11"><label>11</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>G&#246;k&#231;e</surname><given-names>EH</given-names></name><name name-style="western"><surname>Sandri</surname><given-names>G</given-names></name><name name-style="western"><surname>E&#287;rilmez</surname><given-names>S</given-names></name><name name-style="western"><surname>Bonferoni</surname><given-names>MC</given-names></name><name name-style="western"><surname>G&#252;neri</surname><given-names>T</given-names></name><name name-style="western"><surname>Caramella</surname><given-names>C</given-names></name></person-group>. <year>2009</year>. <article-title>Cyclosporine a-loaded solid lipid
+nanoparticles: ocular tolerance and in vivo drug release in rabbit eyes</article-title>.
+<source><italic toggle="yes">Curr Eye Res</italic></source><volume>34</volume>:
+<fpage>996</fpage>&#8211;<lpage>1003</lpage>. doi: <pub-id pub-id-type="doi">10.3109/02713680903261405</pub-id><pub-id pub-id-type="pmid">19958116</pub-id></mixed-citation></ref><ref id="r12"><label>12</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Gonzalez</surname><given-names>GG</given-names></name><name name-style="western"><surname>Garcia de la Rubia</surname><given-names>P</given-names></name><name name-style="western"><surname>Gallar</surname><given-names>J</given-names></name><name name-style="western"><surname>Belmonte</surname><given-names>C</given-names></name></person-group>. <year>1993</year>. <article-title>Reduction of capsaicin-induced ocular
+pain and neurogenic inflammation by calcium antagonists</article-title>.
+<source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><volume>34</volume>:
+<fpage>3329</fpage>&#8211;<lpage>3335</lpage>. <pub-id pub-id-type="pmid">8225868</pub-id></mixed-citation></ref><ref id="r13"><label>13</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Guillaumie</surname><given-names>F</given-names></name><name name-style="western"><surname>Furrer</surname><given-names>P</given-names></name><name name-style="western"><surname>Felt-Baeyens</surname><given-names>O</given-names></name><name name-style="western"><surname>Fuhlendorff</surname><given-names>BL</given-names></name><name name-style="western"><surname>Nymand</surname><given-names>S</given-names></name><name name-style="western"><surname>Westh</surname><given-names>P</given-names></name><name name-style="western"><surname>Gurny</surname><given-names>R</given-names></name><name name-style="western"><surname>Schwach-Abdellaoui</surname><given-names>K</given-names></name></person-group>. <year>2010</year>. <article-title>Comparative studies of various
+hyaluronic acids produced by microbial fermentation for potential topical ophthalmic
+applications</article-title>. <source><italic toggle="yes">J Biomed Mater Res
+A</italic></source><volume>92</volume>: <fpage>1421</fpage>&#8211;<lpage>1430</lpage>. doi:
+<pub-id pub-id-type="doi">10.1002/jbm.a.32481</pub-id><pub-id pub-id-type="pmid">19358259</pub-id></mixed-citation></ref><ref id="r14"><label>14</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Hagigit</surname><given-names>T</given-names></name><name name-style="western"><surname>Abdulrazik</surname><given-names>M</given-names></name><name name-style="western"><surname>Valamanesh</surname><given-names>F</given-names></name><name name-style="western"><surname>Behar-Cohen</surname><given-names>F</given-names></name><name name-style="western"><surname>Benita</surname><given-names>S</given-names></name></person-group>. <year>2012</year>. <article-title>Ocular antisense oligonucleotide
+delivery by cationic nanoemulsion for improved treatment of ocular neovascularization:
+an in-vivo study in rats and mice</article-title>. <source><italic toggle="yes">J Control
+Release</italic></source><volume>160</volume>: <fpage>225</fpage>&#8211;<lpage>231</lpage>.
+doi: <pub-id pub-id-type="doi">10.1016/j.jconrel.2011.11.022</pub-id><pub-id pub-id-type="pmid">22138070</pub-id></mixed-citation></ref><ref id="r15"><label>15</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Haider</surname><given-names>AS</given-names></name><name name-style="western"><surname>Grabarek</surname><given-names>J</given-names></name><name name-style="western"><surname>Eng</surname><given-names>B</given-names></name><name name-style="western"><surname>Pedraza</surname><given-names>P</given-names></name><name name-style="western"><surname>Ferreri</surname><given-names>NR</given-names></name><name name-style="western"><surname>Balazs</surname><given-names>EA</given-names></name><name name-style="western"><surname>Darzynkiewicz</surname><given-names>Z</given-names></name></person-group>. <year>2003</year>. <article-title>In vitro model of &#8220;wound healing&#8221;
+analyzed by laser scanning cytometry: accelerated healing of epithelial cell monolayers
+in the presence of hyaluronate</article-title>. <source><italic toggle="yes">Cytometry
+A</italic></source><volume>53</volume>: <fpage>1</fpage>&#8211;<lpage>8</lpage>. doi: <pub-id pub-id-type="doi">10.1002/cyto.a.10032</pub-id><pub-id pub-id-type="pmid">12701127</pub-id></mixed-citation></ref><ref id="r16"><label>16</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Hathout</surname><given-names>RM</given-names></name><name name-style="western"><surname>Omran</surname><given-names>MK</given-names></name></person-group>. <year>2016</year>. <article-title>Gelatin-based particulate systems in
+ocular drug delivery</article-title>. <source><italic toggle="yes">Pharm Dev
+Technol</italic></source><volume>21</volume>: <fpage>379</fpage>&#8211;<lpage>386</lpage>.
+doi: <pub-id pub-id-type="doi">10.3109/10837450.2014.999786</pub-id><pub-id pub-id-type="pmid">25567143</pub-id></mixed-citation></ref><ref id="r17"><label>17</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Huang</surname><given-names>HY</given-names></name><name name-style="western"><surname>Wang</surname><given-names>MC</given-names></name><name name-style="western"><surname>Chen</surname><given-names>ZY</given-names></name><name name-style="western"><surname>Chiu</surname><given-names>WY</given-names></name><name name-style="western"><surname>Chen</surname><given-names>KH</given-names></name><name name-style="western"><surname>Lin</surname><given-names>IC</given-names></name><name name-style="western"><surname>Yang</surname><given-names>WV</given-names></name><name name-style="western"><surname>Wu</surname><given-names>CC</given-names></name><name name-style="western"><surname>Tseng</surname><given-names>CL</given-names></name></person-group>. <year>2018</year>. <article-title>Gelatin-epigallocatechin gallate
+nanoparticles with hyaluronic acid decoration as eye drops can treat rabbit dry-eye
+syndrome effectively via inflammatory relief</article-title>. <source><italic toggle="yes">Int J
+Nanomedicine</italic></source><volume>13</volume>:
+<fpage>7251</fpage>&#8211;<lpage>7273</lpage>. doi: <pub-id pub-id-type="doi">10.2147/IJN.S173198</pub-id><pub-id pub-id-type="pmid">30510416</pub-id><pub-id pub-id-type="pmcid">PMC6231513</pub-id></mixed-citation></ref><ref id="r18"><label>18</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Iester</surname><given-names>M</given-names></name><name name-style="western"><surname>Orsoni</surname><given-names>GJ</given-names></name><name name-style="western"><surname>Gamba</surname><given-names>G</given-names></name><name name-style="western"><surname>Taffara</surname><given-names>M</given-names></name><name name-style="western"><surname>Mangiafico</surname><given-names>P</given-names></name><name name-style="western"><surname>Giuffrida</surname><given-names>S</given-names></name><name name-style="western"><surname>Rolando</surname><given-names>M</given-names></name></person-group>. <year>2000</year>. <article-title>Improvement of the ocular surface using
+hypotonic 0.4% hyaluronic acid drops in keratoconjunctivitis sicca</article-title>.
+<source><italic toggle="yes">Eye (Lond)</italic></source><volume>14</volume>:
+<fpage>892</fpage>&#8211;<lpage>898</lpage>. doi: <pub-id pub-id-type="doi">10.1038/eye.2000.244</pub-id><pub-id pub-id-type="pmid">11584850</pub-id></mixed-citation></ref><ref id="r19"><label>19</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Kaswan</surname><given-names>R</given-names></name><name name-style="western"><surname>Pappas</surname><given-names>C</given-names></name><name name-style="western"><surname>Wall</surname><given-names>K</given-names></name><name name-style="western"><surname>Hirsh</surname><given-names>SG</given-names></name></person-group>. <year>1998</year>. Survey of canine tear deficiency in veterinary
+practice. pp. 931&#8211;939. In: Lacrimal Gland, Tear Film, and Dry Eye Syndromes 2, Springer,
+Boston.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-4615-5359-5_132</pub-id><pub-id pub-id-type="pmid">9634990</pub-id></mixed-citation></ref><ref id="r20"><label>20</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kim</surname><given-names>CS</given-names></name><name name-style="western"><surname>Jo</surname><given-names>K</given-names></name><name name-style="western"><surname>Lee</surname><given-names>IS</given-names></name><name name-style="western"><surname>Kim</surname><given-names>J</given-names></name></person-group>. <year>2016</year>. <article-title>Topical application of apricot kernel
+extract improves dry eye symptoms in a unilateral exorbital lacrimal gland excision
+mouse</article-title>. <source><italic toggle="yes">Nutrients</italic></source><volume>8</volume>:
+<fpage>750</fpage>. doi: <pub-id pub-id-type="doi">10.3390/nu8110750</pub-id><pub-id pub-id-type="pmid">27886047</pub-id><pub-id pub-id-type="pmcid">PMC5133132</pub-id></mixed-citation></ref><ref id="r21"><label>21</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Kim</surname><given-names>DW</given-names></name><name name-style="western"><surname>Lee</surname><given-names>SH</given-names></name><name name-style="western"><surname>Ku</surname><given-names>SK</given-names></name><name name-style="western"><surname>Lee</surname><given-names>JE</given-names></name><name name-style="western"><surname>Cha</surname><given-names>HJ</given-names></name><name name-style="western"><surname>Youn</surname><given-names>JK</given-names></name><name name-style="western"><surname>Kwon</surname><given-names>HY</given-names></name><name name-style="western"><surname>Park</surname><given-names>JH</given-names></name><name name-style="western"><surname>Park</surname><given-names>EY</given-names></name><name name-style="western"><surname>Cho</surname><given-names>SW</given-names></name><name name-style="western"><surname>Han</surname><given-names>KH</given-names></name><name name-style="western"><surname>Park</surname><given-names>J</given-names></name><name name-style="western"><surname>Eum</surname><given-names>WS</given-names></name><name name-style="western"><surname>Choi</surname><given-names>SY</given-names></name></person-group>. <year>2015</year>. <article-title>The effects of PEP-1-FK506BP on dry eye
+disease in a rat model</article-title>. <source><italic toggle="yes">BMB
+Rep</italic></source><volume>48</volume>: <fpage>153</fpage>&#8211;<lpage>158</lpage>. doi:
+<pub-id pub-id-type="doi">10.5483/BMBRep.2015.48.3.123</pub-id><pub-id pub-id-type="pmid">24998262</pub-id><pub-id pub-id-type="pmcid">PMC4453030</pub-id></mixed-citation></ref><ref id="r22"><label>22</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Lee</surname><given-names>HS</given-names></name><name name-style="western"><surname>Chauhan</surname><given-names>SK</given-names></name><name name-style="western"><surname>Okanobo</surname><given-names>A</given-names></name><name name-style="western"><surname>Nallasamy</surname><given-names>N</given-names></name><name name-style="western"><surname>Dana</surname><given-names>R</given-names></name></person-group>. <year>2011</year>. <article-title>Therapeutic efficacy of topical
+epigallocatechin gallate in murine dry eye</article-title>.
+<source><italic toggle="yes">Cornea</italic></source><volume>30</volume>:
+<fpage>1465</fpage>&#8211;<lpage>1472</lpage>. doi: <pub-id pub-id-type="doi">10.1097/ICO.0b013e31821c9b5a</pub-id><pub-id pub-id-type="pmid">21993466</pub-id><pub-id pub-id-type="pmcid">PMC3703663</pub-id></mixed-citation></ref><ref id="r23"><label>23</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Liu</surname><given-names>L</given-names></name><name name-style="western"><surname>Tiffany</surname><given-names>J</given-names></name><name name-style="western"><surname>Dang</surname><given-names>Z</given-names></name><name name-style="western"><surname>Dart</surname><given-names>JK</given-names></name><name name-style="western"><surname>Watson</surname><given-names>SL</given-names></name><name name-style="western"><surname>Daniels</surname><given-names>JT</given-names></name><name name-style="western"><surname>Geerling</surname><given-names>G</given-names></name></person-group>. <year>2009</year>. <article-title>Nourish and nurture: development of a
+nutrient ocular lubricant</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis
+Sci</italic></source><volume>50</volume>: <fpage>2932</fpage>&#8211;<lpage>2939</lpage>.
+doi: <pub-id pub-id-type="doi">10.1167/iovs.08-1991</pub-id><pub-id pub-id-type="pmid">19074805</pub-id></mixed-citation></ref><ref id="r24"><label>24</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mecum</surname><given-names>NE</given-names></name><name name-style="western"><surname>Cyr</surname><given-names>D</given-names></name><name name-style="western"><surname>Malon</surname><given-names>J</given-names></name><name name-style="western"><surname>Demers</surname><given-names>D</given-names></name><name name-style="western"><surname>Cao</surname><given-names>L</given-names></name><name name-style="western"><surname>Meng</surname><given-names>ID</given-names></name></person-group>. <year>2019</year>. <article-title>Evaluation of corneal damage after
+lacrimal gland excision in male and female mice</article-title>. <source><italic toggle="yes">Invest
+Ophthalmol Vis Sci</italic></source><volume>60</volume>:
+<fpage>3264</fpage>&#8211;<lpage>3274</lpage>. doi: <pub-id pub-id-type="doi">10.1167/iovs.18-26457</pub-id><pub-id pub-id-type="pmid">31369671</pub-id><pub-id pub-id-type="pmcid">PMC6675517</pub-id></mixed-citation></ref><ref id="r25"><label>25</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mecum</surname><given-names>NE</given-names></name><name name-style="western"><surname>Demers</surname><given-names>D</given-names></name><name name-style="western"><surname>Sullivan</surname><given-names>CE</given-names></name><name name-style="western"><surname>Denis</surname><given-names>TE</given-names></name><name name-style="western"><surname>Kalliel</surname><given-names>JR</given-names></name><name name-style="western"><surname>Meng</surname><given-names>ID</given-names></name></person-group>. <year>2020</year>. <article-title>Lacrimal gland excision in male and
+female mice causes ocular pain and anxiety-like behaviors</article-title>.
+<source><italic toggle="yes">Sci Rep</italic></source><volume>10</volume>: <fpage>17225</fpage>.
+doi: <pub-id pub-id-type="doi">10.1038/s41598-020-73945-w</pub-id><pub-id pub-id-type="pmid">33057056</pub-id><pub-id pub-id-type="pmcid">PMC7560880</pub-id></mixed-citation></ref><ref id="r26"><label>26</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Nelson</surname><given-names>JD</given-names></name><name name-style="western"><surname>Wright</surname><given-names>JC</given-names></name></person-group>. <year>1984</year>. <article-title>Conjunctival goblet cell densities in
+ocular surface disease</article-title>. <source><italic toggle="yes">Arch
+Ophthalmol</italic></source><volume>102</volume>:
+<fpage>1049</fpage>&#8211;<lpage>1051</lpage>. doi: <pub-id pub-id-type="doi">10.1001/archopht.1984.01040030851031</pub-id><pub-id pub-id-type="pmid">6378156</pub-id></mixed-citation></ref><ref id="r27"><label>27</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Norn</surname><given-names>MS</given-names></name></person-group>. <year>1970</year>. <article-title>Micropunctate fluorescein vital
+staining of the cornea</article-title>. <source><italic toggle="yes">Acta Ophthalmol
+(Copenh)</italic></source><volume>48</volume>: <fpage>108</fpage>&#8211;<lpage>118</lpage>.
+doi: <pub-id pub-id-type="doi">10.1111/j.1755-3768.1970.tb06578.x</pub-id><pub-id pub-id-type="pmid">4192302</pub-id></mixed-citation></ref><ref id="r28"><label>28</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Pflugfelder</surname><given-names>SC</given-names></name><name name-style="western"><surname>Tseng</surname><given-names>SC</given-names></name><name name-style="western"><surname>Yoshino</surname><given-names>K</given-names></name><name name-style="western"><surname>Monroy</surname><given-names>D</given-names></name><name name-style="western"><surname>Felix</surname><given-names>C</given-names></name><name name-style="western"><surname>Reis</surname><given-names>BL</given-names></name></person-group>. <year>1997</year>. <article-title>Correlation of goblet cell density and
+mucosal epithelial membrane mucin expression with rose bengal staining in patients with
+ocular irritation</article-title>.
+<source><italic toggle="yes">Ophthalmology</italic></source><volume>104</volume>:
+<fpage>223</fpage>&#8211;<lpage>235</lpage>. doi: <pub-id pub-id-type="doi">10.1016/S0161-6420(97)30330-3</pub-id><pub-id pub-id-type="pmid">9052626</pub-id></mixed-citation></ref><ref id="r29"><label>29</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Schaefer</surname><given-names>K</given-names></name><name name-style="western"><surname>George</surname><given-names>MA</given-names></name><name name-style="western"><surname>Abelson</surname><given-names>MB</given-names></name><name name-style="western"><surname>Garofalo</surname><given-names>C</given-names></name></person-group>. <year>1994</year>. A scanning electron micrographic comparison of the
+effects of two preservative-free artificial tear solutions on the corneal epithelium as
+compared to a phosphate buffered saline and a 0.02% benzalkonium chloride control. pp.
+459&#8211;464. In: Lacrimal Gland, Tear Film, and Dry Eye Syndromes (Mathers WD ed.), Springer,
+Boston.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-4615-2417-5_79</pub-id><pub-id pub-id-type="pmid">8030519</pub-id></mixed-citation></ref><ref id="r30"><label>30</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shimmura</surname><given-names>S</given-names></name><name name-style="western"><surname>Goto</surname><given-names>E</given-names></name><name name-style="western"><surname>Shimazaki</surname><given-names>J</given-names></name><name name-style="western"><surname>Tsubota</surname><given-names>K</given-names></name></person-group>. <year>1998</year>. <article-title>Viscosity-dependent fluid dynamics of
+eyedrops on the ocular surface</article-title>. <source><italic toggle="yes">Am J
+Ophthalmol</italic></source><volume>125</volume>: <fpage>386</fpage>&#8211;<lpage>388</lpage>.
+doi: <pub-id pub-id-type="doi">10.1016/S0002-9394(99)80151-2</pub-id><pub-id pub-id-type="pmid">9512158</pub-id></mixed-citation></ref><ref id="r31"><label>31</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Shinomiya</surname><given-names>K</given-names></name><name name-style="western"><surname>Ueta</surname><given-names>M</given-names></name><name name-style="western"><surname>Kinoshita</surname><given-names>S</given-names></name></person-group>. <year>2018</year>. <article-title>A new dry eye mouse model produced by
+exorbital and intraorbital lacrimal gland excision</article-title>. <source><italic toggle="yes">Sci
+Rep</italic></source><volume>8</volume>: <fpage>1483</fpage>. doi: <pub-id pub-id-type="doi">10.1038/s41598-018-19578-6</pub-id><pub-id pub-id-type="pmid">29367638</pub-id><pub-id pub-id-type="pmcid">PMC5784089</pub-id></mixed-citation></ref><ref id="r32"><label>32</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Skrzypecki</surname><given-names>J</given-names></name><name name-style="western"><surname>Tomasz</surname><given-names>H</given-names></name><name name-style="western"><surname>Karolina</surname><given-names>C</given-names></name></person-group>. <year>2019</year>. Variability of dry eye disease following removal of
+lacrimal glands in rats. pp. 109&#8211;115. In: Medical Science and Research (Pokorski M ed.),
+Springer, Cham.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/5584_2019_348</pub-id><pub-id pub-id-type="pmid">30806916</pub-id></mixed-citation></ref><ref id="r33"><label>33</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Tsai</surname><given-names>CH</given-names></name><name name-style="western"><surname>Wang</surname><given-names>PY</given-names></name><name name-style="western"><surname>Lin</surname><given-names>IC</given-names></name><name name-style="western"><surname>Huang</surname><given-names>H</given-names></name><name name-style="western"><surname>Liu</surname><given-names>GS</given-names></name><name name-style="western"><surname>Tseng</surname><given-names>CL</given-names></name></person-group>. <year>2018</year>. <article-title>Ocular drug delivery: Role of
+degradable polymeric nanocarriers for ophthalmic application</article-title>.
+<source><italic toggle="yes">Int J Mol Sci</italic></source><volume>19</volume>:
+<fpage>2830</fpage>. doi: <pub-id pub-id-type="doi">10.3390/ijms19092830</pub-id><pub-id pub-id-type="pmid">30235809</pub-id><pub-id pub-id-type="pmcid">PMC6164366</pub-id></mixed-citation></ref><ref id="r34"><label>34</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Tseng</surname><given-names>CL</given-names></name><name name-style="western"><surname>Chen</surname><given-names>KH</given-names></name><name name-style="western"><surname>Su</surname><given-names>WY</given-names></name><name name-style="western"><surname>Lee</surname><given-names>YH</given-names></name><name name-style="western"><surname>Wu</surname><given-names>CC</given-names></name><name name-style="western"><surname>Lin</surname><given-names>FH</given-names></name></person-group>. <year>2013</year>. <article-title>Cationic gelatin nanoparticles for drug
+delivery to the ocular surface: in vitro and in vivo evaluation</article-title>.
+<source><italic toggle="yes">J Nanomater</italic></source><volume>2013</volume>:
+<fpage>1</fpage>&#8211;<lpage>11</lpage>. doi: <pub-id pub-id-type="doi">10.1155/2013/238351</pub-id></mixed-citation></ref><ref id="r35"><label>35</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Urtti</surname><given-names>A</given-names></name></person-group>. <year>2006</year>. <article-title>Challenges and obstacles of ocular
+pharmacokinetics and drug delivery</article-title>. <source><italic toggle="yes">Adv Drug Deliv
+Rev</italic></source><volume>58</volume>: <fpage>1131</fpage>&#8211;<lpage>1135</lpage>.
+doi: <pub-id pub-id-type="doi">10.1016/j.addr.2006.07.027</pub-id><pub-id pub-id-type="pmid">17097758</pub-id></mixed-citation></ref><ref id="r36"><label>36</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Williams</surname><given-names>D</given-names></name><name name-style="western"><surname>Middleton</surname><given-names>S</given-names></name><name name-style="western"><surname>Fattahian</surname><given-names>H</given-names></name><name name-style="western"><surname>Moridpour</surname><given-names>R</given-names></name></person-group>. <year>2012</year>. Comparison of hyaluronic acid-containing topical eye
+drops with carbomer-based topical ocular gel as a tear replacement in canine
+keratoconjunctivitis sicca: A prospective study in twenty five dogs. p. 229. In: Vet Res
+Forum, Faculty of Veterinary Medicine, Urmia University, Urmia.<pub-id pub-id-type="pmcid">PMC4313040</pub-id><pub-id pub-id-type="pmid">25653763</pub-id></mixed-citation></ref><ref id="r37"><label>37</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Williams</surname><given-names>DL</given-names></name></person-group>. <year>2008</year>. <article-title>Immunopathogenesis of
+keratoconjunctivitis sicca in the dog</article-title>. <source><italic toggle="yes">Vet Clin North Am
+Small Anim Pract</italic></source><volume>38</volume>: <fpage>251</fpage>&#8211;<lpage>268,
+vi</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.cvsm.2007.12.002</pub-id><pub-id pub-id-type="pmid">18299006</pub-id></mixed-citation></ref><ref id="r38"><label>38</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Wilson</surname><given-names>G</given-names></name><name name-style="western"><surname>Ren</surname><given-names>H</given-names></name><name name-style="western"><surname>Laurent</surname><given-names>J</given-names></name></person-group>. <year>1995</year>. <article-title>Corneal epithelial fluorescein
+staining</article-title>. <source><italic toggle="yes">J Am Optom
+Assoc</italic></source><volume>66</volume>: <fpage>435</fpage>&#8211;<lpage>441</lpage>.
+<pub-id pub-id-type="pmid">7560732</pub-id></mixed-citation></ref><ref id="r39"><label>39</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Yoon</surname><given-names>KC</given-names></name><name name-style="western"><surname>Ahn</surname><given-names>KY</given-names></name><name name-style="western"><surname>Choi</surname><given-names>W</given-names></name><name name-style="western"><surname>Li</surname><given-names>Z</given-names></name><name name-style="western"><surname>Choi</surname><given-names>JS</given-names></name><name name-style="western"><surname>Lee</surname><given-names>SH</given-names></name><name name-style="western"><surname>Park</surname><given-names>SH</given-names></name></person-group>. <year>2011</year>. <article-title>Tear production and ocular surface
+changes in experimental dry eye after elimination of desiccating stress</article-title>.
+<source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><volume>52</volume>:
+<fpage>7267</fpage>&#8211;<lpage>7273</lpage>. doi: <pub-id pub-id-type="doi">10.1167/iovs.11-7231</pub-id><pub-id pub-id-type="pmid">21849424</pub-id></mixed-citation></ref><ref id="r40"><label>40</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>You</surname><given-names>IC</given-names></name><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name><name name-style="western"><surname>Jin</surname><given-names>R</given-names></name><name name-style="western"><surname>Ahn</surname><given-names>M</given-names></name><name name-style="western"><surname>Choi</surname><given-names>W</given-names></name><name name-style="western"><surname>Yoon</surname><given-names>KC</given-names></name></person-group>. <year>2018</year>. <article-title>Comparison of 0.1%, 0.18%, and 0.3%
+hyaluronic acid eye drops in the treatment of experimental dry eye</article-title>.
+<source><italic toggle="yes">J Ocul Pharmacol Ther</italic></source><volume>34</volume>:
+<fpage>557</fpage>&#8211;<lpage>564</lpage>. doi: <pub-id pub-id-type="doi">10.1089/jop.2018.0032</pub-id><pub-id pub-id-type="pmid">30036099</pub-id><pub-id pub-id-type="pmcid">PMC6206550</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

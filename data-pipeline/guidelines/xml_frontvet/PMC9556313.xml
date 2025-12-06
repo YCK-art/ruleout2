@@ -1,0 +1,506 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9556313</article-id><article-id pub-id-type="pmcid-ver">PMC9556313.1</article-id><article-id pub-id-type="pmcaid">9556313</article-id><article-id pub-id-type="pmcaiid">9556313</article-id><article-id pub-id-type="pmid">36313829</article-id><article-id pub-id-type="doi">10.18699/VJGB-22-66</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Molecular genetic detection and differentiation
+of Xanthomonas oryzae pv. oryzicola,
+bacterial leaf streak agents of rice</article-title><trans-title-group xml:lang="ru"><trans-title>66&#1052;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;&#1103;&#1088;&#1085;&#1086;-&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1080; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1094;&#1080;&#1103; &#1074;&#1086;&#1079;&#1073;&#1091;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1081; &#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1087;&#1086;&#1083;&#1086;&#1089;&#1072;&#1090;&#1086;&#1089;&#1090;&#1080; &#1083;&#1080;&#1089;&#1090;&#1100;&#1077;&#1074; &#1088;&#1080;&#1089;&#1072; Xanthomonas oryzae pv. oryzicola</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Koroleva</surname><given-names initials="ML">M.L.</given-names></name><aff>
+<institution>Limited Liability Company &#8220;Syntol&#8221;, Moscow, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Blinova</surname><given-names initials="SA">S.A.</given-names></name><aff>
+<institution>Limited Liability Company &#8220;Syntol&#8221;, Moscow, Russia</institution>
+<institution>All-Russian Research Institute of Agricultural Biotechnology, Moscow, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shvartsev</surname><given-names initials="AA">A.A.</given-names></name><aff>
+<institution>Limited Liability Company &#8220;Syntol&#8221;, Moscow, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kurochkin</surname><given-names initials="VE">V.E.</given-names></name><aff>
+<institution>Institute for Analytical Instrumentation of the Russian Academy of Science, St. Petersburg, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Alekseev</surname><given-names initials="YI">Ya.I.</given-names></name><aff>
+<institution>Limited Liability Company &#8220;Syntol&#8221;, Moscow, Russia</institution>
+<institution>Institute for Analytical Instrumentation of the Russian Academy of Science, St. Petersburg, Russia</institution></aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: S.A. Blinova
+<email>sofya.blinova@yandex.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>10</month><year>2022</year></pub-date><volume>26</volume><issue>6</issue><issue-id pub-id-type="pmc-issue-id">419030</issue-id><fpage>544</fpage><lpage>552</lpage><history><date date-type="received"><day>24</day><month>1</month><year>2022</year></date><date date-type="rev-recd"><day>28</day><month>3</month><year>2022</year></date><date date-type="accepted"><day>11</day><month>5</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>10</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>27</day><month>10</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-03-12 20:25:42.313"><day>12</day><month>03</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2022</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-26-2266.pdf"/><abstract><p>The genus Xanthomonas comprises phytopathogenic bacteria which infect about 400 host species, including a wide variety of economically important plants. Xanthomonas oryzae pv. oryzicola (Fang et al., 1957) Swings et al., 1990 is the causal agent of bacterial leaf streak (BLS) being one of the most destructive bacterial diseases of rice. BLS symptoms are very similar to those of bacterial blight caused by closely related Xanthomonas oryzae pv. oryzae. X. o. pv. oryzae and X. o. pv. oryzicola and often occur in rice f ields simultaneously, so separate leaves may show symptoms of both diseases. The quarantine status and high severity of the pathogen require a highly eff icient, fast and precise diagnostic method. We have developed an assay for Xanthomonas oryzae pv. oryzicola detection using real-time polymerase chain reaction (qPCR) and PCR amplicon sequencing. The DNA samples of X. o. pv. oryzae and X. o. pv. oryzicola were obtained from the collection of CIRM-CFBR (France). To evaluate the analytical sensitivity of the assay, a vector construct based on the pAL2-T plasmid was created through the insertion of X. o. pv. oryzicola target fragment (290 bp). Primers and a probe for qPCR were selected for the hpa1 gene site. They allowed identifying all the strains the sequences of which had been loaded in the GenBank NCBI Nucleotide database before November 11, 2021. The SeqX.o.all sequencing primers were selected for the hrp gene cluster sequence, namely for the nucleotide sequence encoding the Hpa1 protein, the sequencing of which allows for eff icient differentiation of X. oryzae species. The analytical specif icity of the system was tested using the DNAs of 53 closely related and accompanying microorganisms and comprised 100 % with no false-positive or false-negative results registered. The system&#8217;s analytical sensitivity was not less than 25 copies per PCR reaction. Its eff icacy has been conf irmed using f ive different qPCR detection systems from different manufacturers, so it can be recommended for diagnostic and screening studies.</p></abstract><trans-abstract xml:lang="ru"><p>&#1041;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1080; &#1088;&#1086;&#1076;&#1072; Xanthomonas Dowson, 1939 &#1087;&#1086;&#1088;&#1072;&#1078;&#1072;&#1102;&#1090; &#1086;&#1082;&#1086;&#1083;&#1086; 400 &#1074;&#1080;&#1076;&#1086;&#1074; &#1088;&#1072;&#1089;&#1090;&#1077;&#1085;&#1080;&#1081;, &#1074; &#1090;&#1086;&#1084; &#1095;&#1080;&#1089;&#1083;&#1077; &#1074;&#1072;&#1078;&#1085;&#1099;&#1077; &#1089;&#1077;&#1083;&#1100;&#1089;&#1082;&#1086;&#1093;&#1086;&#1079;&#1103;&#1081;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1077; &#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1099;. &#1041;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1087;&#1086;&#1083;&#1086;&#1089;&#1072;&#1090;&#1086;&#1089;&#1090;&#1100; &#1088;&#1080;&#1089;&#1072; &#8211; &#1086;&#1076;&#1085;&#1086; &#1080;&#1079; &#1089;&#1072;&#1084;&#1099;&#1093; &#1088;&#1072;&#1079;&#1088;&#1091;&#1096;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081;, &#1074;&#1099;&#1079;&#1074;&#1072;&#1085;&#1086; &#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1103;&#1084;&#1080; &#1074;&#1080;&#1076;&#1072; Xanthomonas oryzae pv. oryzicola (Fang et al., 1957) Swings et al., 1990. &#1057;&#1080;&#1083;&#1100;&#1085;&#1086;&#1077; &#1089;&#1093;&#1086;&#1076;&#1089;&#1090;&#1074;&#1086; &#1089;&#1080;&#1084;&#1087;&#1090;&#1086;&#1084;&#1086;&#1074; &#1087;&#1086;&#1088;&#1072;&#1078;&#1077;&#1085;&#1080;&#1103; &#1089; &#1076;&#1088;&#1091;&#1075;&#1080;&#1084; &#1082;&#1072;&#1088;&#1072;&#1085;&#1090;&#1080;&#1085;&#1085;&#1099;&#1084; &#1073;&#1083;&#1080;&#1079;&#1082;&#1086;&#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1084; &#1087;&#1072;&#1090;&#1086;&#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1084; &#8211; Xanthomonas oryzae pv. oryzae (Ishiyama, 1922) Swings et al., 1990, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100; &#1089;&#1086;&#1074;&#1084;&#1077;&#1089;&#1090;&#1085;&#1086;&#1075;&#1086; &#1079;&#1072;&#1088;&#1072;&#1078;&#1077;&#1085;&#1080;&#1103; &#1076;&#1077;&#1083;&#1072;&#1102;&#1090; &#1074;&#1080;&#1079;&#1091;&#1072;&#1083;&#1100;&#1085;&#1091;&#1102; &#1080;&#1076;&#1077;&#1085;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1102; &#1085;&#1077;&#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;&#1081;. &#1050;&#1072;&#1088;&#1072;&#1085;&#1090;&#1080;&#1085;&#1085;&#1099;&#1081; &#1089;&#1090;&#1072;&#1090;&#1091;&#1089; &#1080; &#1074;&#1099;&#1089;&#1086;&#1082;&#1072;&#1103; &#1074;&#1088;&#1077;&#1076;&#1086;&#1085;&#1086;&#1089;&#1085;&#1086;&#1089;&#1090;&#1100; &#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1072; &#1090;&#1088;&#1077;&#1073;&#1091;&#1102;&#1090; &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1101;&#1092;&#1092;&#1077;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1075;&#1086;, &#1073;&#1099;&#1089;&#1090;&#1088;&#1086;&#1075;&#1086; &#1080; &#1090;&#1086;&#1095;&#1085;&#1086;&#1075;&#1086; &#1084;&#1077;&#1090;&#1086;&#1076;&#1072; &#1077;&#1075;&#1086; &#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1080;. &#1062;&#1077;&#1083;&#1100;&#1102; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1073;&#1099;&#1083;&#1080; &#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1086;&#1090;&#1082;&#1072; &#1080; &#1072;&#1087;&#1088;&#1086;&#1073;&#1072;&#1094;&#1080;&#1103; &#1085;&#1072;&#1073;&#1086;&#1088;&#1086;&#1074; &#1088;&#1077;&#1072;&#1075;&#1077;&#1085;&#1090;&#1086;&#1074; &#1076;&#1083;&#1103; &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1080; Xanthomonas oryzae pv. oryzicola, &#1074;&#1099;&#1079;&#1099;&#1074;&#1072;&#1102;&#1097;&#1077;&#1081; &#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1091;&#1102; &#1087;&#1086;&#1083;&#1086;&#1089;&#1072;&#1090;&#1086;&#1089;&#1090;&#1100; &#1083;&#1080;&#1089;&#1090;&#1100;&#1077;&#1074; &#1088;&#1080;&#1089;&#1072;, &#1084;&#1077;&#1090;&#1086;&#1076;&#1086;&#1084; &#1087;&#1086;&#1083;&#1080;&#1084;&#1077;&#1088;&#1072;&#1079;&#1085;&#1086;&#1081; &#1094;&#1077;&#1087;&#1085;&#1086;&#1081; &#1088;&#1077;&#1072;&#1082;&#1094;&#1080;&#1080; &#1074; &#1088;&#1077;&#1072;&#1083;&#1100;&#1085;&#1086;&#1084; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1080; (&#1055;&#1062;&#1056;- &#1056;&#1042;),
+&#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1055;&#1062;&#1056; &#1089; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1084; &#1089;&#1077;&#1082;&#1074;&#1077;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1072;&#1084;&#1087;&#1083;&#1080;&#1082;&#1086;&#1085;&#1086;&#1074;. &#1042; &#1088;&#1072;&#1073;&#1086;&#1090;&#1077; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1099; &#1086;&#1073;&#1088;&#1072;&#1079;&#1094;&#1099; &#1044;&#1053;&#1050; X. o. pv. oryzae &#1080;
+X. o. pv. oryzicola, &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1077; &#1080;&#1079; &#1082;&#1086;&#1083;&#1083;&#1077;&#1082;&#1094;&#1080;&#1080; CIRM-CFBR (&#1060;&#1088;&#1072;&#1085;&#1094;&#1080;&#1103;). &#1044;&#1083;&#1103; &#1087;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1095;&#1091;&#1074;&#1089;&#1090;&#1074;&#1080;&#1090;&#1077;&#1083;&#1100;-
+&#1085;&#1086;&#1089;&#1090;&#1080; &#1073;&#1099;&#1083;&#1072; &#1089;&#1086;&#1079;&#1076;&#1072;&#1085;&#1072; &#1082;&#1086;&#1085;&#1089;&#1090;&#1088;&#1091;&#1082;&#1094;&#1080;&#1103; &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1077; &#1074;&#1077;&#1082;&#1090;&#1086;&#1088;&#1072; pAL2-T &#1089; &#1094;&#1077;&#1083;&#1077;&#1074;&#1086;&#1081; &#1074;&#1089;&#1090;&#1072;&#1074;&#1082;&#1086;&#1081; 290 &#1087;. &#1085;. &#1041;&#1099;&#1083;&#1080; &#1087;&#1086;&#1076;&#1086;&#1073;&#1088;&#1072;&#1085;&#1099; &#1080;
+&#1072;&#1087;&#1088;&#1086;&#1073;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1099; &#1087;&#1088;&#1072;&#1081;&#1084;&#1077;&#1088;&#1099; &#1080; &#1079;&#1086;&#1085;&#1076; &#1076;&#1083;&#1103; &#1089;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1072;&#1084;&#1087;&#1083;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1080; &#1092;&#1088;&#1072;&#1075;&#1084;&#1077;&#1085;&#1090;&#1072; &#1075;&#1077;&#1085;&#1072; hpa1 &#1084;&#1077;&#1090;&#1086;&#1076;&#1086;&#1084; &#1055;&#1062;&#1056;-&#1056;&#1042;,
+&#1087;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1102;&#1097;&#1080;&#1077; &#1086;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1080;&#1074;&#1072;&#1090;&#1100; &#1044;&#1053;&#1050; X. o. pv. oryzicola. &#1055;&#1086;&#1082;&#1072;&#1079;&#1072;&#1085;&#1072; &#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1100; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1088;&#1072;&#1079;&#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1085;&#1085;&#1099;&#1093; &#1087;&#1088;&#1072;&#1081;-
+&#1084;&#1077;&#1088;&#1086;&#1074; &#1086;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1080;&#1074;&#1072;&#1090;&#1100; &#1074;&#1089;&#1077; &#1096;&#1090;&#1072;&#1084;&#1084;&#1099; X. o. pv. oryzicola, &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1093; &#1085;&#1072;&#1093;&#1086;&#1076;&#1080;&#1083;&#1080;&#1089;&#1100; &#1074; &#1073;&#1072;&#1079;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093;
+GenBank NCBI &#1085;&#1072; 11.11.2021. &#1040;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1089;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1085;&#1086;&#1089;&#1090;&#1100; &#1085;&#1072;&#1073;&#1086;&#1088;&#1072; &#1088;&#1077;&#1072;&#1075;&#1077;&#1085;&#1090;&#1086;&#1074; &#1087;&#1088;&#1086;&#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1072; &#1085;&#1072; &#1074;&#1099;&#1073;&#1086;&#1088;&#1082;&#1077;
+&#1080;&#1079; &#1044;&#1053;&#1050;, &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1080;&#1079; 53 &#1073;&#1083;&#1080;&#1079;&#1082;&#1086;&#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1093; &#1080; &#1089;&#1086;&#1087;&#1091;&#1090;&#1089;&#1090;&#1074;&#1091;&#1102;&#1097;&#1080;&#1093; &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1084;&#1086;&#1074;, &#1080; &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1083;&#1072; &#1085;&#1072; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1085;&#1086;&#1081;
+&#1074;&#1099;&#1073;&#1086;&#1088;&#1082;&#1077; 100 %. &#1051;&#1086;&#1078;&#1085;&#1086;&#1087;&#1086;&#1083;&#1086;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1080; &#1083;&#1086;&#1078;&#1085;&#1086;&#1086;&#1090;&#1088;&#1080;&#1094;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1086;&#1074; &#1085;&#1077; &#1086;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1077;&#1085;&#1086;. &#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1072; &#1072;&#1085;&#1072;&#1083;&#1080;-
+&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1095;&#1091;&#1074;&#1089;&#1090;&#1074;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1083;&#1072;, &#1095;&#1090;&#1086; &#1089;&#1090;&#1072;&#1073;&#1080;&#1083;&#1100;&#1085;&#1099;&#1081; &#1089;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1085;&#1099;&#1081; &#1089;&#1080;&#1075;&#1085;&#1072;&#1083; &#1055;&#1062;&#1056;-&#1056;&#1042; &#1085;&#1072;&#1073;&#1083;&#1102;&#1076;&#1072;&#1083;&#1089;&#1103; &#1087;&#1088;&#1080; &#1088;&#1072;&#1079;&#1074;&#1077;&#1076;&#1077;-
+&#1085;&#1080;&#1080; &#1082;&#1086;&#1085;&#1090;&#1088;&#1086;&#1083;&#1100;&#1085;&#1086;&#1081; &#1087;&#1083;&#1072;&#1079;&#1084;&#1080;&#1076;&#1099; &#1076;&#1086; 25 &#1082;&#1086;&#1087;&#1080;&#1081; &#1085;&#1072; &#1088;&#1077;&#1072;&#1082;&#1094;&#1080;&#1102;. &#1056;&#1072;&#1073;&#1086;&#1090;&#1086;&#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1100; &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1085;&#1072;&#1073;&#1086;&#1088;&#1072; &#1088;&#1077;&#1072;&#1075;&#1077;&#1085;&#1090;&#1086;&#1074; &#1073;&#1099;&#1083;&#1072;
+&#1087;&#1086;&#1076;&#1090;&#1074;&#1077;&#1088;&#1078;&#1076;&#1077;&#1085;&#1072; &#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1085;&#1072; &#1087;&#1103;&#1090;&#1080; &#1087;&#1088;&#1080;&#1073;&#1086;&#1088;&#1072;&#1093; &#1076;&#1083;&#1103; &#1055;&#1062;&#1056;-&#1056;&#1042; &#1088;&#1072;&#1079;&#1085;&#1099;&#1093; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1081;, &#1095;&#1090;&#1086; &#1076;&#1072;&#1077;&#1090; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100;
+&#1088;&#1077;&#1082;&#1086;&#1084;&#1077;&#1085;&#1076;&#1086;&#1074;&#1072;&#1090;&#1100; &#1077;&#1075;&#1086; &#1076;&#1083;&#1103; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1080; &#1089;&#1082;&#1088;&#1080;&#1085;&#1080;&#1085;&#1075;&#1086;&#1074;&#1099;&#1093; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081;. &#1055;&#1088;&#1072;&#1081;&#1084;&#1077;&#1088;&#1099; &#1076;&#1083;&#1103; &#1089;&#1077;&#1082;&#1074;&#1077;&#1085;&#1080;-
+&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; seqX.o.all &#1073;&#1099;&#1083;&#1080; &#1087;&#1086;&#1076;&#1086;&#1073;&#1088;&#1072;&#1085;&#1099; &#1085;&#1072; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1090;&#1077;&#1088;&#1072; &#1075;&#1077;&#1085;&#1086;&#1074; hrp, &#1072; &#1080;&#1084;&#1077;&#1085;&#1085;&#1086; &#1085;&#1072; &#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1085;&#1091;&#1102;
+&#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100;, &#1082;&#1086;&#1076;&#1080;&#1088;&#1091;&#1102;&#1097;&#1091;&#1102; &#1073;&#1077;&#1083;&#1086;&#1082; Hpa1. &#1057;&#1077;&#1082;&#1074;&#1077;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1074;&#1099;&#1073;&#1088;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1091;&#1095;&#1072;&#1089;&#1090;&#1082;&#1072; &#1087;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1077;&#1090; &#1101;&#1092;&#1092;&#1077;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;
+&#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1080; &#1074;&#1080;&#1076;&#1072; X. oryzae.</p></trans-abstract><kwd-group><kwd>Xanthomonas oryzae pv. oryzicola</kwd><kwd>Xanthomonas</kwd><kwd>polymerase chain reaction</kwd><kwd>qPCR</kwd><kwd>bacterial leaf streak</kwd><kwd>sensitivity</kwd><kwd>species diagnostics</kwd><kwd>specif icity</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>Xanthomonas oryzae pv. oryzicola</kwd><kwd>Xanthomonas</kwd><kwd>&#1087;&#1086;&#1083;&#1080;&#1084;&#1077;&#1088;&#1072;&#1079;&#1085;&#1072;&#1103; &#1094;&#1077;&#1087;&#1085;&#1072;&#1103; &#1088;&#1077;&#1072;&#1082;&#1094;&#1080;&#1103;</kwd><kwd>&#1055;&#1062;&#1056;-&#1056;&#1042;</kwd><kwd>&#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1087;&#1086;&#1083;&#1086;&#1089;&#1072;&#1090;&#1086;&#1089;&#1090;&#1100; &#1088;&#1080;&#1089;&#1072;</kwd><kwd>&#1089;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1085;&#1086;&#1089;&#1090;&#1100;</kwd><kwd>&#1095;&#1091;&#1074;&#1089;&#1090;&#1074;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100;</kwd><kwd>&#1074;&#1080;&#1076;&#1086;&#1074;&#1072;&#1103; &#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Bacteria Xanthomonas Dowson, 1939 are spread worldwide
+and able to infect at least 400 kinds of plants including
+those of high economic importance (Bogdanove et
+al., 2011; Ryan et al., 2011; Fang et al., 2019). Currently,
+27 species of this family have been known, many of which
+demonstrate high levels of virulence and specificity in certain
+kinds of plants (Leyns et al., 1984; Ryan et al., 2011;
+An et al., 2020). Bacterial leaf streak (BLS) is considered
+to be one of the most devastating diseases caused in rice
+by Xanthomonas oryzae pv. oryzicola (Fang et al., 1957),
+Swings et al., 1990 (Soto Su&#225;rez et al., 2010).</p><p>The disease results in 8 to 32 % of yield loss and is
+regarded as a serious problem in rice-producing countries
+(Liu et al., 2014; Jiang et al., 2020). Since the damage done
+by BLS can seriously threaten the world&#8217;s food security
+(Tang et al., 2000; Lang et al., 2014), Xanthomonas oryzae
+pv. oryzicola was included in List 1 of harmful quarantine
+organisms that are not present in the EEU territory as well
+as in List A1 of the European and Mediterranean Plant
+Protection Organization (EPPO) that considers the bacteria
+as quarantine ones( EPPO for the EU under Contract 90/399003. Data Sheets on Quarantine
+Pests. https://gd.eppo.int/download/doc/530_ds_XANTOR_en [Accessed:
+23.11.2021]). Despite the fact that BLS is believed
+to have been detected for the first time in 1918 in the Philippines,
+its pathogen was identified only in 1957 in China
+(Nino-Liu et al., 2006). For the time being, BLS spread
+is limited to the tropical and subtropical parts of Asia,
+Northern Australia and a part of Western Africa (EPPO,
+2007; Xie et al., 2014; Jiang et al., 2020). The pathogen is
+absent in the Russian Federation despite cases of infection (Cabi Invasive Species Compendium. Datasheet Xanthomonas oryzae
+pv. oryzicola (bacterial leaf streak of rice). https://www.cabi.org/isc/
+[Accessed: 23.11.2021].)
+in the southern part of the country and the Russian Far East (EPPO, 2007, 2018). According to the EPPO Reporting
+Service, no cases of X. o. pv. oryzicola infection have been
+registered since 1994.(EPPO Global Database. https://gd.eppo.int [Accessed: 23.11.2021].)</p><p>Oryza sativa L., 1753, commonly known as Asian rice,
+is a typical host plant for X. o. pv. oryzicola. In addition,
+it affects some weed cereals and several other cultivated
+plants such as Poaceae including Leersia spp., Leptochloa
+spp., Oryza spp., Paspalum scrobiculatum, Zizania,
+Zoysia
+spp. (Ou, 1985; Saddler, Bradbury, 2005; EPPO,
+2007). The bacteria mainly spread through infected seeds
+as well as due to mechanical damage. In case of small
+plants, infection occurs through wind, raindrops, watering
+or after contacting infected plant material (Mew et al.,
+1993).</p><p>In plants, X. o. pv. oryzicola reproduce in the substomatal
+cavity where they get through the stomata to affect
+the intercellular space of the parenchyma. However, they
+do not get as far as the xylem and their spread is limited
+by the mesophyll tissue&#8217;s apoplast (Nino-Liu et al., 2006;
+Triplett et al., 2011; Jacques et al., 2016). The early stage
+of infection is characterized by small watery interveinal
+strokes that later transform into bacterial effusion (Mew et
+al., 1993). The veins act as barriers preventing the pathogen&#8217;s
+further spread and extending a leaf&#8217;s affected areas
+along its length, so they can merge later. In case of severe
+infection, BLS becomes difficult to differ from the bacterial
+burn caused by Xanthomonas oryzae pv. oryzae, another
+quarantine bacterial species. Visual identification can also
+be complicated by favorable environmental conditions and
+plant resistance (Swings et al., 1990; Poulin et al., 2014),
+since both species can infect rice fields at the same time
+(Mew et al., 1993; Nino-Liu et al., 2006).</p><p>The objective of the presented study was to develop and
+test an assay for genetic detection and diagnostics of the</p><p>Xanthomonas oryzae pv. oryzicola pathogen using real
+time polymerase chain reaction (qPCR) and PCR amplicon
+sequencing.</p></sec><sec><title>Materials and methods</title><p>The presented study was carried out at the Biotechnology
+Collective Use Center of the All-Russian Research Institute
+of Agricultural Biotechnology and Syntol LLC. As qPCR
+positive controls, the DNA samples of the Indian typical
+strain of X. o. pv. oryzae (2532) and Malaysian pathotype
+of X. o. pv. oryzicola (2286) from the French Collection
+of Plant Associated Bacteria (CIRM-CFBP, France) were
+used. For the last pathotype, a draft whole genome assembly
+was obtained (Wilkins et al., 2015). X. o. pv. oryzae&#8217;s
+geographic distribution is limited to the territories of Asia,
+Africa and North America, while that of X. o. pv. oryzicola
+&#8211; to the countries of Asia and Africa. Selecting the target
+strains, we relied upon the customs statistics of rice import
+to Russia and according to their data 31.7 % of imported
+rice in 2018 was supplied by India, followed by Thailand,
+Pakistan and Kazakhstan.(Agrobusiness Think Tank. https://ab-centre.ru/articles/analiz-importarisa-
+v-rossiyu-v-2001-2019-gglabelled)</p><p>In design of oligonucleotides for qualitative detection of
+X. o. pv. oryzicola DNA, the hpa1 gene region was used.
+As many other gram-negative pathogens, X. o. pv. oryzicola
+has the type III secretion system (T3SS) being a
+molecular syringe with which the bacteria deliver effector
+proteins directly into the host cell cytosol (Zhu et al., 2000;
+Furutani, 2003; Li et al., 2011). The T3SS and its secreted
+components promote a hypersensitive response (HR) in
+resistant plants and plants not being the main host for the
+pathogen. The system is coded as hrp, a hypersensitivity
+and pathogenicity gene (Cho et al., 2008; Fan et al.,
+2017), the main operon of which is composed of more than
+20 genes in several transcription units that contain the hrp,
+hrc and hpa genes (Zou et al., 2006; Cho et al., 2008). The
+oligonucleotides were synthesized by Syntol LLC using
+their expendables. To design the qPCR and PCR amplicon
+sequencing reactions, reaction buffer B-009 (Syntol LLC,
+Russia) was used.</p><p>The buffer had the following component concentrations:
+3 mmol of MgCl2, 0.25 mmol of dNTP, and 2.5 &#1077;. &#1072;.
+of polymerase with antibodies to inhibit ferment activity
+(Syntol LLC). When designing the oligonucleotides, we
+made sure the annealing temperature was 60&#8211;62 &#176;&#1057; for the
+primers and 64&#8211;67 &#176;&#1057; &#8211; for the probe with 3&#8242;-GC-clamp.</p><p>The multiparameter analysis of the properties of the
+selected primers was performed using such online applications
+as Thermofisher Multiple Primer Analyzer (https://
+www.thermofisher.com), Promega Biomath Calculator &#8211;
+Tm for Oligos Calculator (https://worldwide.promega.
+com), Oligonucleotide Properties Calculator (http://bio
+tools.nubic.northwestern.edu). The qPCR fluorescence- gglabelled
+probe incorporated a FAM dye attached to the
+probe&#8217;s 5&#8242; end. The RTQ-1 dye attached to the probe&#8217;s 3&#8242; end
+served as a quencher. The primer concentration in reaction
+mixture was 800 nM, and 400 nM &#8211; in the probe. The qPCR
+reaction&#8217;s repeatability and reproducibility was assessed
+using the following detection systems: ANK-M (IAI RAS,
+Russia), QuantStudio 5 (Thermo Fisher Scientific, USA),
+CFX-96 (Bio-Rad, USA), DTprime 5 (DNA-Technology,
+Russia), Rotor-Gene 6000 (Qiagen, USA). The obtained
+results were considered positive if the fluorescence signal
+level exceeded the threshold of 10 % module difference of
+the lowest and highest signals.</p><p>To verify the analytical sensitivity of the assay, a vector
+pAL2-T-based structure (Eurogen, Russia) with a 290 bps
+inclusion of X. oryzae pv. oryzicola was designed. Ligation
+was carried out after the PCR product was purified
+using the ColGen DNA purification kit (Syntol LLC). To
+design the vector-based structure, a T4 DNA ligase buffer
+(Thermo Fisher Scientific) was used. The plasmid DNA
+was impregnated into Escherihia coli bacteria (Migula
+1895) through thermal shock. The vector&#8217;s presence was
+attested using the PCR-colony method with the standard
+M13 primers followed by 1.5 % agarose-gel visualization.
+Plasmid DNA separation was carried out using a PlasGen
+reagent kit (Syntol LLC). The obtained circular plasmid
+was processed with the NotI restriction enzyme (ThermoFisher
+Scientific), its concentration measured in a Quantus
+fluorometer (Promega Corporation, USA). To test the analytical
+sensitivity of the designed assay, qPCR to dissolve
+the plasmid were replicated 2 and 4 times. The analytic
+specificity of the designed primers and probes was tested
+using the DNAs of 53 closely related and accompanying
+microorganisms (Alyapkina et al., 2018).</p><p>Bioinformatic analysis and data processing were performed
+using the UGENE (Unipro, Russia) and AliView
+(Sweden) software solutions.</p><p>To sequence X. o. pv. oryzicola&#8217;s DNA, a primer couple
+including seqX.o.all_F 5&#8242;-TCTTTGAACACACAATTC
+GGCGG-3&#8242; and seqX.o.all_R 5&#8242;-TGG AGAATCTCTC
+CGACGATA-3&#8242; was designed. The amplification program
+of PCR amplicon sequencing reaction included primary
+denaturation (5 min at 95 &#176;&#1057;); cyclic denaturation (15 s
+at 95 &#176;&#1057;); annihilation (40 s at 60 &#176;&#1057;); cyclic elongation
+(36 cycles of 30 s at 72 &#176;&#1057;); final elongation (5 min at
+72 &#176;&#1057;). The sequencing was carried out using a Nanofor 05
+genetic analyzer (IAI RAS).</p></sec><sec><title>Results and discussion</title><p>The search for nucleotide sequences in GenBank NCBI
+found 208 of them to belong to the Xanthomonas family
+including 20 strains of X. o. pv. oryzicola. During sequence
+alignment performed in AliView, qPCR oligonucleotides
+were selected for the regions of the hpa1 target gene conservative
+to X. o. pv. oryzicola in such a way that the selected primers&#8217; attachment sites were strictly specific and enabled
+the detection of all the target&#8217;s stains the DNA sequences
+of which had been loaded in the GenBank NCBI database
+before 11.11.2021.(National Center for Biotechnology Information. http://www.ncbi.nlm.
+nih.gov [Accessed: 23.11.2021].) Table 1 demonstrates the primer and
+probe sequencies for X. o. pv. oryzicola diagnostics, selected
+for its hpa1 gene region</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>Primer and probe sequencies selected for the hpa1 gene region of X. o. pv. oryzicola and their amplification programs</title><p>Not&#1077;. F &#8211; forward primer; R &#8211; reverse primer; Pb &#8211; probe.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Tab1.jpg"/></fig><p>The analytic specificity of the assay was tested using
+53 DNA samples of closely related and accompanying
+microorganisms from different collections that included
+9 DNA samples of the bacteria belonging to the Xanthomonas
+family. The samples were obtained from collections:
+&#8211; of the All-Russian Center of Plant Quarantine and Federal
+Service for Veterinary and Phytosanitary Surveillance&#8217;s
+divisions: Ralstonia solanacearum 0023, 0027,
+0029, 0030, Erwinia amylovora, Clavibacter michiganensis
+subsp. sepedonicus 0140, 0028, 0244, C. m.
+subsp. michiganensis 0240, 0241, 0242, 0243, X. o. pv.
+oryzae 0227, X. phaseoli, Pectobacterium carotovorum
+subsp. carotovorum 0141, 0168, P. atrosepticum 0142,
+Dickeya solani, Xylophilus ampelinus 0124, Pantoea
+stewarti, P. st. subsp. indologenes, P. aglomerance,
+Candidatus Liberibacter, Acidovorax citrulli;
+&#8211; CIRM-CFBP collection, France: P. st. subsp. indologenes
+CFBP 3614, C. m. subsp. nebraskensis CFBP 2405,
+CFBP 3491, Curtobacterium f laccumfaciens pv. f laccumfaciens
+CFBP 3418, C. f l. pv. poinsettiae CFBP
+2403, C. f l. pv. oortii CFBP 1384, X. axonopodis pv.
+phaseoli CFBP 2534;
+&#8211; Leibniz Institute DSMZ-German Collection of Microorganisms
+and Cell Cultures GmbH, Germany: X. gardneri
+DSM 19127, X. perforans DSM 18975, P. wasabiae
+DSM 18074, X. euvesicatoria DSM 19128, X. vesicatoria
+DSM 22252, X. translucens pv. translucens DSM
+18974, P. cacticida DSM 21821, P. betavasculorum
+DSM 18076, D. dadantii subsp. dieffenbachiae DSM
+18013, D. d. subs. dadantii DSM 18020, D. paradisiaca
+DSM 18069, D. chrysanthemi DSM 4610, D. zeae DSM
+18068, P. c. subsp. odoriferum DSM 22556;
+&#8211; Singerta Company&#8217;s collection (Russia): C. m. subsp. michiganensis,
+Agrobacteria spp., X. campestris pv. campestris,
+X. translucens pv. translucens;
+&#8211; All-Russian Microorganism Collection of G.K. Skryabin
+Institute of Microorganism Biochemistry and Physiology
+(Pushchino, Moscow region, Russia): C. m.
+subsp.
+insidiosus &#1042;&#1050;&#1052; &#1040;&#1089;-1402&#1058;, C. m. subsp. nebraskensis
+&#1042;&#1050;&#1052; Ac-1404&#1058;, Pseudomonas savastanoi &#1042;&#1050;&#1052;
+&#1042;-1546;
+&#8211; All-Russian Collection of Industrial Microorganisms of
+Kurchatov National Research Center &#8211; GosNIIgenetika
+(Moscow, Russia): C. albidum &#1042;&#1050;&#1055;&#1052; &#1042;-1834.</p><p>The primers and probe&#8217;s analytic specificity for the
+abovementioned sample set was 100 %. All the samples containing
+X. o. pv. oryzicola DNA came positive, which was
+confirmed by sequencing. No false-positive results were
+registered including those for the DNA of X. o. pv. oryzae,
+which is a closely related variant of the target pathogen.</p><p>For testing the assay&#8217;s analytical sensitivity, the initial
+concentration of the plasmid with X. o. pv. oryzicola insertion
+of 13 ng/&#956;l or 3 &#215; 109 copies/&#956;l was used. qPCR in a
+series of seven dilutions was performed as four 10-time
+dilutions, first in double repeat, and then in quadruple
+repeat starting from the fifth series (Fig. 1). After the first
+dilution, the plasmid concentration reduced to 3 &#215; 105 copies/
+&#956;l. Starting from 150 copies, all the following dilution
+series were additionally titrated as 2 &#215; 10n, 5 &#215; 10n, 7 &#215; 10n
+in quadruple repeat. For a series of seven 10-time dilutions,
+the kinetic curve slope comprised A = &#8211;2.671, and
+the correlation ratio, R2 = 0.989. A stable specific signal
+was observed down to 25 copies in the reaction mixture.
+In case of 10-time dilution of X. o. pv. oryzicola DNA, the assay showed lower sensitivity &#8211; down to 43 copies in the
+reaction mixture.</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>qPCR results, a series of dilutions of a plasmid containing X. o. pv.
+oryzicola
+DNA target insertion (0376), FAM detection channel.
+CFX-96 (Bio-Rad) interface; NCS &#8211; negative control sample.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Fig1.jpg"/></fig><p>The designed assay was tested using five qPCR detection
+systems from Russian and foreign manufacturers (Fig. 2,
+Table 2). As a matrix, a series of 10-time dilutions
+of the
+pathogen&#8217;s DNA was applied. The kinetic curve slope
+comprised &#1040; = 3.00&#8211;3.67, the correlation ratio, R2 = 0.997&#8211;
+1.000, and the efficiency, &#1045; = 87&#8211;116 %. The threshold
+value difference comprised &#177; 1 cycle, which was due to the
+features of the systems&#8217; design and their threshold cycle
+computation algorithms.</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>qPCR results, a series of dilutions of a plasmid containing X. o. pv. oryzicola DNA target insertion (0376), FAM detection channel.
+ANK-M (IAI RAS) interface. NCS &#8211; negative control sample.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Fig2.jpg"/></fig><fig position="float" id="Tab-2" orientation="portrait"><label>Table 2.</label><caption><title>qPCR results obtained in different detection systems using the assay to detect X. o. pv. oryzicola&#8217;s hpa1 gene region</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Tab2.jpg"/></fig><p>To test the primer pair (seqX.o.all_F and seqX.o.all_R)
+enabling for Sanger sequencing diagnostics, direct PCR
+was performed. As a matrix, the DNAs of X. o. pv. oryzae
+(2532) and X. o. pv. oryzicola (2286) were used as well
+as a 1:1 bacterial DNA mixture to imitate joint infection.</p><p>To differentiate the two closely related bacterial species,
+a region from 2 288 483&#8211;2 288 778 bps characterized
+by a large number of nucleotide changes relative to the
+reference sequence <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP050113.1">CP050113.1</ext-link> from the NCBI GenBank
+database was used. Comparison of X. o. pv. oryzae and
+X. o. pv. oryzicola&#8217;s
+nucleotide sequences and their mixture can be seen in Fig. 3 where peaks C (X. o. pv. oryzicola)
+and G (X. o. pv. oryzae) match unlike the sequencing results
+for each of the agents. Bioinformatic analysis of the
+obtained sequences confirmed they could infect a host both
+individually and jointly.</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3.</label><caption><title>DNA sequence fragments of X. oryzae pv. oryzicola (1), X. oryzae pv. oryzae (2), and a DNA mixture of the two agents (3)
+that resulted from the sequencing using the seqX.o.all primer pair.</title><p>The box marks peak matching. Data processed in UGENE v. 38.1 (Unipro).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Fig3.jpg"/></fig><p>Alignment of the obtained nucleotide sequences in the
+mixture of DNA X .o. pv. oryzae and X. o. pv. oryzicola
+detected 19 nucleotide changes relative to the reference
+genome <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP050113.1">CP050113.1</ext-link> (Table 3)</p><fig position="float" id="Tab-3" orientation="portrait"><label>Table 3.</label><caption><title>Detected nucleotide changes in the amplified fragment
+resulted from the sequencing using the seqX.o.all primer pair</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Tab3.jpg"/></fig><p>Apart from the nucleotide changes listed in the Table 3,
+a three-nucleotide insertion in X. o. pv. oryzicola (in position
+2288667 bps) and a three-nucleotide deletion in X. o.
+pv. oryzicola (in position 2288702 bps) were found relative
+to the reference X. o. pv. oryzae genome (Fig. 4).</p><fig position="float" id="Fig-4" orientation="portrait"><label>Fig. 4.</label><caption><title>Alignment of the DNA sequencies of X. o. pv. oryzae and X. o. pv. oryzicola and that of their mixture resulted from the sequencing using the
+seqX.o.all primer pair.</title><p>The box marks the deletion. The alignments were obtained in AliView v. 1.27 (Sweden).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2266-Fig4.jpg"/></fig><p>The specific primer placement on X. oryzae enables
+analyzing pathovariant sequences to detect joint infection
+by two closely related bacteria and indicate their species.</p><p>The obtained nucleotide sequences made it possible
+to confirm the cultures&#8217; relation to the collected strains
+in relation to the genome data base. Alignment of the sequences
+from the data base enabled us to understand certain
+intraspecific diversity of the X. o. pv. oryzae strains that
+came from Africa. At the same time, X. o. pv. oryzicola&#8217;s
+diversity was not that high and limited to a single SNP per
+studied region of the hpa1 gene cluster. Despite the genetic
+polymorphism of the population of bacterial infections in
+rice, the designed sequencing and qPCR primers make it
+possible to detect all isolates irrespectively of the origin
+of the material included in the Nucleotide NCBI database.</p><p>Most of the procedures to detect X. o. pv. oryzae are
+applicable for X. o. pv. oryzicola as well. Their identification begins with selecting the samples with clear infection
+symptoms for further cultivation in a nutrient solution.
+The method has its drawbacks since the colonies of both
+bacteria grow slowly in isolation media. Another problem
+is the presence of dominating kinds of bacteria and
+bacterial antagonists that prevent proper observation of
+the target ones. Division of X. oryzae&#8217;s two pathovariants
+is possible due to their phenotypical features, induction
+symptoms, serological test, fingerprinting (polyacrylamide
+gel electrophoresis) and phagotyping results (Vera Cruz et
+al., 1984; Benedict et al., 1989; EPPO, 2007).</p><p>Restriction fragment length polymorphism changes allow
+one to observe the almost compete genetic diversity of
+isolates and their origin (Gonzalez et al., 2007). However,
+this technique has a number of significant disadvantages
+such as insufficient sensitivity and specificity; high labor
+intensity that prevents the method from being used in diagnostic
+and industrial laboratories. For that reason, PCR
+has become the key method for detection of the X. oryzae
+bacteria (Sakthivel et al., 2001).</p><p>Current assays allow for X. oryzae detection in general,
+and further separation into pathovariants requires a standard
+PCR assay with species-specific primers recommended by
+the EPPO and All-Russian Center of Plant Quarantine, the
+results of which are to be sequenced. The EPPO protocol
+for X. o. pv. oryzae and X. o. pv. oryzicola identification
+recommends the TXT/TXT-4R primers (Sakthivel et al.,
+2001; EPPO, 2007; Lang et al., 2010) to be used. To detect
+X. oryzae DNA using qPCR, it is recommended to use the
+X.o.F/X.o.R primers devised by the All-Russian Center of
+Plant Quarantine (Egorova et al., 2014). To separate the two
+pathovariants, qPCR can be performed using the PF/ PR
+primers and the TaqMan probe that have been specifically
+designed to detect X. o. pv. oryzae (Zhao et al., 2007).</p><p>In 2021, the All-Russian Center of Plant Quarantine
+carried out an interlaboratory comparison to detect BLS
+in rice (21XOO). 16 reference centers and interregional
+vet laboratories took part and successfully passed a test to
+detect the disease using the Xanthomonas oryzae pv. oryzicola-
+RT assay we have designed.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>The designed assay enables the detection of BLS agents in
+rice. Being a reagent kit for qPCR, is also equipped with the
+seqX.o.all_F/R primers for PCR amplicon sequencing that
+detect X. oryzae in cases of individual and joint infection.
+The system allows for robust screening of quarantinable
+products and confirms obtained qPCR results with DNA
+sequencing. The assay has been successfully tested using
+five qPCR diagnostic systems from different manufactures
+and can be recommended for diagnostic and screening
+analysis in research and diagnostic laboratories.</p></sec><sec><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Alyapkina Yu.S., Moiseeva M.V., Ksenofontova O.V., Alekseev
+Ya.I. Development andvalidation of multiplex real-time
+PCR test system for analyzing regulator elements (SsuAra promoter
+and E9 terminator) to detect genetically-modified strains
+of rape, soybeans, potatoes, and other plants. Izvestiya Timiryazevskoy
+Selskokhozyajstvennoy
+Akademii = Izvestiya of Timiryazev
+Agricultural Academy. 2018;3:5-16. DOI 10.26897/0021-
+342X-2018-3-5-16. (in Russian)</p><p>An S.Q., Potnis N., Dow M., Vorh&#246;lter F.J., He Y.Q., Becker A., Teper
+D., Li Y., Wang N., Bleris L., Tang J.L. Mechanistic insights
+into host adaptation, virulence and epidemiology of the phytopathogen
+Xanthomonas. FEMS Microbiol. Rev. 2020;44(1):
+1-32. DOI 10.1093/femsre/fuz024.</p><p>Benedict A.A., Alvarez A.M., Berestecky J., Imanaka W., Mizumoto
+C.Y., Pollard L.W., Mew T.W., Gonzalez C.F. Pathovarspecific
+monoclonal antibodies for Xanthomonas campestris pv.
+oryzae and for Xanthomonas campestris pv. oryzicola. Phytopathology.
+1989; 79(3):322-328. DOI 10.1094/Phyto-79-322.</p><p>Bogdanove A.J., Koebnik R., Lu H., Furutani A., Angiuoli S.V., Patil
+P.B., &#8230; Brendel V.P., Rabinowicz P.D., Leach J.E., White F.F.,
+Salzberg S.L. Two new complete genome sequences offer insight
+into host and tissue specificity of plant pathogenic Xanthomonas
+spp. J. Bacteriol. 2011;193(19):5450-5464. DOI 10.1128/
+JB.05262-11.</p><p>Cho H.J., Park Y.J., Noh T.H., Kim Y.T., Kim J.G., Song E.S.,
+Lee D.H., Lee B.M. Molecular analysis of the hrp gene cluster
+in Xanthomonas oryzae pathovar oryzae KACC10859. Microb.
+Pathog.
+2008;44(6):473-483. DOI 10.1016/j.micpath.2007.12.
+002.</p><p>Egorova M.S., Ignatov A.N., Mazurin E.S. Improvement of PCRbased
+methods for detecting bacterial blight of rice. Vestnik RosFigsijskogo
+Universiteta Druzhby Narodov. Seriya Agronomiya i
+Zhivotnovodstvo = RUDN Journal of Agronomy and Animal
+Industries.
+2014;2:22-27. DOI 10.22363/2312-797X-2014-2-
+22-27. (in Russian)</p><p>EPPO. Xanthomonas oryzae. Bulletin OEPP/EPPO Bulletin. 2007;
+37(3):543-553. DOI 10.1111/j.1365-2338.2007.01162.x.</p><p>EPPO. Corrigendum. Bulletin OEPP/EPPO Bulletin. 2018;48(2):
+318. DOI 10.1111/epp.12474.</p><p>Fan S., Tian F., Li J., Hutchins W., Chen H., Yang F., Yuan X.,
+Cui Z., Yang C.H., He C. Identification of phenolic compounds
+that suppress the virulence of Xanthomonas oryzae on rice via
+the type III secretion system. Mol. Plant. Pathol. 2017;18(4):
+555-568. DOI 10.1111/mpp.12415.</p><p>Fang Y., Wang H., Liu X., Xin D., Rao Y., Zhu B. Transcriptome
+analysis of Xanthomonas oryzae pv. oryzicola exposed to H2O2
+reveals horizontal gene transfer contributes to its oxidative stress
+response. PLoS One. 2019;14(10):e0218844. DOI 10.1371/
+journal.pone.0218844.</p><p>Furutani A., Tsuge S., Oku T., Tsuno K., Inoue Y., Ochiai H.,
+Kaku H., Kubo Y. Hpa1 secretion via type III secretion system
+in Xanthomonas
+oryzae pv. oryzae. J. Gen. Plant. Pathol. 2003;
+69(4):271-275. DOI 10.1007/s10327-003-0042-2.</p><p>Gonzalez C., Szurek B., Manceau C., Mathieu T., S&#233;r&#233; Y., Verdier V.
+Molecular and pathotypic characterization of new Xanthomonas
+oryzae strains from West Africa. Mol. Plant Microbe Interact.
+2007;20(5):534-546. DOI 10.1094/MPMI-20-5-0534.</p><p>Jacques M.A., Arlat M., Boulanger A., Boureau T., Carr&#232;re S., Cesbron
+S., Chen N.W., Cociancich S., Darrasse A., Denanc&#233; N.,
+Fischer-
+Le Saux M., Gagnevin L., Koebnik R., Lauber E.,
+No&#235;l L.D., Pieretti I., Portier P., Pruvost O., Rieux A., Rob&#232;ne I.,
+Royer M., Szurek B., Verdier V., Verni&#232;re C. Using ecology,
+physiology, and genomics to understand host specificity in
+Xanthomonas. Annu. Rev. Phytopathol. 2016;54:163-187. DOI
+10.1146/annurev-phyto-080615-100147.</p><p>Jiang N., Yan J., Liang Y., Shi Y., He Z., Wu Y., Zeng Q., Liu X.,
+Peng J. Resistance genes and their interactions with bacterial
+blight/leaf streak pathogens (Xanthomonas oryzae) in rice
+(Oryza sativa L.) &#8211; an updated review. Rice. 2020;13(1):3. DOI
+10.1186/s12284-019-0358-y.</p><p>Lang J.M., Hamilton J.P., Diaz M.G.Q., Van Sluys M.A., Burgos
+M.R.G., Vera Cruz C.M., Buell C.R., Tisserat N.A.,
+Leach J.E. Genomics-based diagnostic marker development
+for Xanthomonas oryzae pv. oryzae and X. oryzae pv. oryzicola.
+Plant Dis. 2010;94(3):311-319. DOI 10.1094/pdis-94-3-
+0311.</p><p>Lang J.M., Langlois P., Nguyen M.H., Triplett L.R., Purdie L.,
+Holton T.A., Djikeng A., Vera Cruz C.M., Verdier V., Leach J.E.
+Sensitive detection of Xanthomonas oryzae pathovars oryzae
+and oryzicola by loop-mediated isothermal amplification. Appl.
+Environ. Microbiol. 2014;80(15):4519-4530. DOI 10.1128/
+AEM.00274-14.</p><p>Leyns F., De Cleene M., Swings J.G., De Ley J. The host range
+of the genus Xanthomonas. Bot. Rev. 1984;50(3):308-356. DOI
+10.1007/bf02862635.</p><p>Li Y.R., Zou H.S., Che Y.Z., Cui Y.P., Guo W., Zou L.F., Chatterjee
+S., Biddle E.M., Yang C.H., Chen G.Y. A novel regulatory
+role of HrpD6 in regulating hrp-hrc-hpa genes in Xanthomonas
+oryzae pv. oryzicola. Mol. Plant Microbe Interact. 2011;24(9):
+1086-1101. DOI 10.1094/MPMI-09-10-0205.</p><p>Liu W., Liu J., Triplett L., Leach J.E., Wang G.L. Novel insights
+into rice innate immunity against bacterial and fungal pathogens.
+Annu. Rev. Phytopathol. 2014;52:213-241. DOI 10.1146/
+annurev-phyto-102313-045926.</p><p>Mew T.W., Alvarez A.M., Leach J.E., Swings J. Focus on bacterial
+blight of rice. Plant Dis. 1993;77:5-12. DOI 10.1094/PD-
+77-0005.</p><p>Nino-Liu D.O., Ronald P.C., Bogdanove A.J. Xanthomonas oryzae
+pathovars: model pathogens of a model crop. Mol. Plant Pathol.
+2006;7(5):303-324. DOI 10.1111/j.1364-3703.2006.00344.x.</p><p>Ou S.H. Rice Diseases. Kew: Commonwealth Mycological Institute,
+1985;96-101.</p><p>Poulin L., Grygiel P., Magne M., Gagnevin L., Rodriguez-R L.M.,
+Forero Serna N., Zhao S., El Rafii M., Dao S., Tekete C., Wonni
+I., Koita O., Pruvost O., Verdier V., Verni&#232;re C., Koebnik R.
+New multilocus variable-number tandem-repeat analysis tool
+for surveillance and local epidemiology of bacterial leaf blight
+and bacterial leaf streak of rice caused by Xanthomonas oryzae.
+Appl. Environ. Microbiol. 2014;81(2):688-698. DOI 10.1128/
+aem.02768-14.</p><p>Ryan R.P., Vorh&#246;lter F.J., Potnis N., Jones J.B., Van Sluys M.A.,
+Bogdanove A.J., Dow J.M. Pathogenomics of Xanthomonas:
+understanding bacterium-plant interactions. Nat. Rev. Microbiol.
+2011;9(5):344-355. DOI 10.1038/nrmicro2558.</p><p>Saddler G.S., Bradbury J.F. Xanthomonadales ord. nov. In: Brenner
+D.J., Krieg N.R., Staley J.T. (Eds.). Bergey&#8217;s Manual of
+Systematic
+Bacteriology. Boston: Springer, 2005;63-122. DOI
+10.1007/0-387-28022-7_3.</p><p>Sakthivel N., Mortensen C.N., Mathur S.B. Detection of Xanthomonas
+oryzae pv. oryzae in artificially inoculated and naturally
+infected rice seeds and plants by molecular techniques. Appl.
+Microbiol. Biotechnol.
+2001;56(3-4):435-441. DOI 10.1007/
+s002530100641.</p><p>Soto-Su&#225;rez M., Gonzalez C., Pi&#233;gu B., Tohme J., Verdier V. Genomic
+comparison between Xanthomonas oryzae pv. oryzae and
+Xanthomonas oryzae pv. oryzicola, using suppression-subtractive
+hybridization. FEMS Microbiol. Lett. 2010;308(1):16-23.
+DOI 10.1111/j.1574-6968.2010.01985.x.</p><p>Swings J., Van Den Mooter M., Vauterin L., Hoste B., Gillis M.,
+Mew T.W., Kersters K. Reclassification of the causal agents of
+bacterial blight (Xanthomonas campestris pv. oryzae) and bacterial
+leaf streak (Xanthomonas campestris pv. oryzicola) of
+rice as pathovars
+of Xanthomonas oryzae (ex Ishiyama 1922)
+sp. nov., nom. rev. Int. J. Syst. Bacteriol. 1990;40(3):309-311.
+DOI 10.1099/00207713-40-3-309.</p><p>Tang D., Wu W., Li W., Lu H., Worland A.J. Mapping of QTLs
+conferring
+resistance to bacterial leaf streak in rice. Theor. Appl.
+Genet. 2000;101:286-291. DOI 10.1007/s001220051481.</p><p>Triplett L.R., Hamilton J.P., Buell C.R., Tisserat N.A., Verdier V.,
+Zink F., Leach J.E. Genomic analysis of Xanthomonas oryzae
+isolates from rice grown in the United States reveals substantial
+divergence from known X. oryzae pathovars. Appl. Environ.
+Microbiol. 2011;77(12):3930-3937. DOI 10.1128/AEM.
+00028-11.</p><p>Vera Cruz C.M., Gossele F., Kersters K., Segers P., Van Den
+Mooter M., Swings J., De Ley J. Differentiation between Xanthomonas
+campetris pv. oryzae, Xanthomonas campestris pv.
+oryzicola and the bacterial &#8216;brown blotch&#8217; pathogen on rice by
+numerical analysis of phenotypic features and protein gel electrophoregrams.
+J. Gen. Microbiol. 1984;130(11):2983-2999.
+DOI 10.1099/00221287-130-11-2983.</p><p>Wilkins K.E., Booher N.J., Wang L., Bogdanove A.J. TAL effectors
+and activation of predicted host targets distinguish Asian
+from African strains of the rice pathogen Xanthomonas oryzae
+pv. oryzicola while strict conservation suggests universal importance
+of five TAL effectors. Front. Plant Sci. 2015;6:536. DOI
+10.3389/fpls.2015.00536.</p><p>Xie X., Chen Z., Cao J., Guan H., Lin D., Li C., Lan T., Duan Y.,
+Mao D., Wu W. Toward the positional cloning of qBlsr5a, a QTL
+underlying resistance to bacterial leaf streak, using overlapping
+sub-CSSLs in rice. PLoS One. 2014;9(4):e95751. DOI 10.1371/
+journal.pone.0095751.</p><p>Zhao W.J., Zhu S.F., Liao X.L., Chen H.Y., Tan T.W. Detection of
+Xanthomonas oryzae pv. oryzae in seeds using a specific TaqMan
+probe. Mol. Biotechnol. 2007;35(2):119-127. DOI 10.1007/
+BF02686106.</p><p>Zhu W., MaGbanua M.M., White F.F. Identification of two novel
+hrp-associated genes in the hrp gene cluster of Xanthomonas
+oryzae pv. oryzae. J. Bacteriol. 2000;182(7):1844-1853. DOI
+10.1128/JB.182.7.1844-1853.2000.</p><p>Zou L.F., Wang X.P., Xiang Y., Zhang B., Li Y.R., Xiao Y.L.,
+Wang J.S., Walmsley A.R., Chen G.Y. Elucidation of the hrp
+clusters of Xanthomonas oryzae pv. oryzicola that control the
+hypersensitive response in nonhost tobacco and pathogenicity
+in susceptible host rice. Appl. Environ. Microbiol. 2006;72(9):
+6212-6224. DOI 10.1128/AEM.00511-06.</p></sec></body><back><ack><p>The authors are grateful to the following organizations and institutions that provided DNA samples for research: Federal State
+Budgetary Institution &#8220;All-Russian Center for Plant Quarantine&#8221; (FGBU &#8220;VNIIKR&#8221;), the department of the Rosselkhoznadzor for plant protection and
+quarantine, Leibniz Institute DSMZ &#8211; German Collection of Microorganisms and Cell Cultures GmbH, CIRM-CFBP French Collection for Plant Associated
+Bacteria, LLC &#8220;Syngenta&#8221;, All-Russian Collection of Microorganisms &#8211; VKM, Skryabin Institute of Biochemistry and Physiology of Microorganisms (IBPM)
+RAS, State Research Institute of Genetics and Selection of Industrial Microorganisms of the National Research Center &#8220;Kurchatov Institute&#8221;.</p></ack></back></article></pmc-articleset>

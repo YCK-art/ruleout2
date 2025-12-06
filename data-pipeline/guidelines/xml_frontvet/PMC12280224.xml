@@ -1,0 +1,822 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12280224</article-id><article-id pub-id-type="pmcid-ver">PMC12280224.1</article-id><article-id pub-id-type="pmcaid">12280224</article-id><article-id pub-id-type="pmcaiid">12280224</article-id><article-id pub-id-type="pmid">40697935</article-id><article-id pub-id-type="doi">10.18699/vjgb-25-53</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Unconventional animal models
+to study the role of telomeres in aging and longevity</article-title><trans-title-group xml:lang="ru"><trans-title>&#1053;&#1077;&#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093; &#1076;&#1083;&#1103; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1103;
+&#1088;&#1086;&#1083;&#1080; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1074; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1072;&#1093; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1103; &#1080; &#1076;&#1086;&#1083;&#1075;&#1086;&#1083;&#1077;&#1090;&#1080;&#1103;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Simoroz</surname><given-names initials="EV">E.V.</given-names></name><aff>
+<institution>Research Center for Genetics and Life Sciences, Sirius University of Science and Technology, Sirius Federal Territory, Krasnodar region, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Vasilevska</surname><given-names initials="J">J.</given-names></name><aff>
+<institution>Research Center for Genetics and Life Sciences, Sirius University of Science and Technology, Sirius Federal Territory, Krasnodar region, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Arakelyan</surname><given-names initials="NA">N.A.</given-names></name><aff>
+<institution>Research Center for Genetics and Life Sciences, Sirius University of Science and Technology, Sirius Federal Territory, Krasnodar region, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Manakhov</surname><given-names initials="AD">A.D.</given-names></name><aff>
+<institution>Research Center for Genetics and Life Sciences, Sirius University of Science and Technology, Sirius Federal Territory, Krasnodar region, Russia</institution>
+<institution>Vavilov Institute of General Genetics of the Russian Academy of Sciences, Moscow, Russia</institution></aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Rogaev</surname><given-names initials="EI">E.I.</given-names></name><aff>
+<institution>Research Center for Genetics and Life Sciences, Sirius University of Science and Technology, Sirius Federal Territory, Krasnodar region, Russia</institution>
+<institution>Vavilov Institute of General Genetics of the Russian Academy of Sciences, Moscow, Russia</institution></aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: J. Vasilevska
+<email>vasilevskaya.e@talantiuspeh.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>7</month><year>2025</year></pub-date><volume>29</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">493387</issue-id><fpage>496</fpage><lpage>507</lpage><history><date date-type="received"><day>19</day><month>10</month><year>2024</year></date><date date-type="rev-recd"><day>26</day><month>12</month><year>2024</year></date><date date-type="accepted"><day>28</day><month>12</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>07</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>22</day><month>07</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-07-23 15:25:15.447"><day>23</day><month>07</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-29-2553.pdf"/><abstract><p>The progressive shortening of telomeres is significantly implicated in various cellular processes related to aging, including the limitation of cellular proliferative lifespan through the activation of DNA damage response pathways, ultimately leading to replicative senescence. Telomere shortening is considered an indicator of biological age rather than chronological age. The restoration of telomere length is mediated by the enzyme telomerase; however, it is crucial to maintain a balance in this process, as excessive telomerase activity and overly elongated chromosomes may increase the susceptibility of individuals to cancer. It has been proposed that variations in telomere length among individuals of the same chronological age may be associated with differences in potential lifespan. However, recent studies suggest that telomere length may serve only as a rough estimate of the aging process and is likely not a clinically relevant biomarker for age-related diseases or mortality risk. Furthermore, variations in telomere length are not solely determined by chronological age; rather, they are modulated by a multitude of factors, including genetic predispositions, environmental conditions, and heightened metabolic activities such as reproduction and body weight, which may lead to increased telomere attrition in certain species. It has been argued that traditional animal models, such as the mouse (Mus musculus) and the rat (Rattus norvegicus domestica), are suboptimal for investigating the relationship between telomere length and aging, as their lifespans and telomere lengths do not adequately reflect those of humans. Consequently, it is recommended to use long-lived species as they would provide a more appropriate framework for such research initiatives. This review aims to examine the correlation between telomere length and longevity in various non-traditional long-lived animal models, evaluating their suitability for investigating the molecular mechanisms underlying telomere attrition in the context of aging. Nevertheless, the question of whether telomere length is a causative factor or a consequence of longevity remains an area that necessitates further investigation.</p></abstract><trans-abstract xml:lang="ru"><p>&#1059;&#1082;&#1086;&#1088;&#1086;&#1095;&#1077;&#1085;&#1080;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1080;&#1075;&#1088;&#1072;&#1077;&#1090; &#1074;&#1072;&#1078;&#1085;&#1091;&#1102; &#1088;&#1086;&#1083;&#1100; &#1074; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1085;&#1099;&#1093; &#1082;&#1083;&#1077;&#1090;&#1086;&#1095;&#1085;&#1099;&#1093; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1072;&#1093;, &#1089;&#1074;&#1103;&#1079;&#1072;&#1085;&#1085;&#1099;&#1093; &#1089;&#1086; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1077;&#1084;. &#1054;&#1085;&#1086; &#1086;&#1075;&#1088;&#1072;&#1085;&#1080;&#1095;&#1080;&#1074;&#1072;&#1077;&#1090; &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1077;&#1090;&#1086;&#1095;&#1085;&#1086;&#1081; &#1087;&#1088;&#1086;&#1083;&#1080;&#1092;&#1077;&#1088;&#1072;&#1094;&#1080;&#1080; &#1080; &#1072;&#1082;&#1090;&#1080;&#1074;&#1080;&#1088;&#1091;&#1077;&#1090; &#1084;&#1077;&#1093;&#1072;&#1085;&#1080;&#1079;&#1084;&#1099;, &#1089;&#1074;&#1103;&#1079;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089; &#1087;&#1086;&#1074;&#1088;&#1077;&#1078;&#1076;&#1077;&#1085;&#1080;&#1077;&#1084; &#1044;&#1053;&#1050;, &#1095;&#1090;&#1086;, &#1074; &#1089;&#1074;&#1086;&#1102; &#1086;&#1095;&#1077;&#1088;&#1077;&#1076;&#1100;, &#1087;&#1088;&#1080;&#1074;&#1086;&#1076;&#1080;&#1090; &#1082; &#1088;&#1077;&#1087;&#1083;&#1080;&#1082;&#1072;&#1090;&#1080;&#1074;&#1085;&#1086;&#1084;&#1091; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1102;. &#1059;&#1082;&#1086;&#1088;&#1086;&#1095;&#1077;&#1085;&#1080;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1086;&#1090;&#1088;&#1072;&#1078;&#1072;&#1077;&#1090; &#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081;, &#1072; &#1085;&#1077; &#1093;&#1088;&#1086;&#1085;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;. &#1052;&#1077;&#1093;&#1072;&#1085;&#1080;&#1079;&#1084; &#1074;&#1086;&#1089;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1076;&#1083;&#1080;&#1085;&#1099; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1086;&#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1092;&#1077;&#1088;&#1084;&#1077;&#1085;&#1090;&#1072; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;&#1072;&#1079;&#1099;. &#1054;&#1076;&#1085;&#1072;&#1082;&#1086; &#1074; &#1101;&#1090;&#1086;&#1084; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1077; &#1085;&#1077;&#1086;&#1073;&#1093;&#1086;&#1076;&#1080;&#1084;&#1086; &#1089;&#1086;&#1073;&#1083;&#1102;&#1076;&#1072;&#1090;&#1100; &#1073;&#1072;&#1083;&#1072;&#1085;&#1089;, &#1087;&#1086;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1091; &#1080;&#1079;&#1073;&#1099;&#1090;&#1086;&#1095;&#1085;&#1072;&#1103; &#1072;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1100; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;&#1072;&#1079;&#1099; &#1080; &#1095;&#1088;&#1077;&#1079;&#1084;&#1077;&#1088;&#1085;&#1086; &#1076;&#1083;&#1080;&#1085;&#1085;&#1099;&#1077; &#1093;&#1088;&#1086;&#1084;&#1086;&#1089;&#1086;&#1084;&#1099; &#1084;&#1086;&#1075;&#1091;&#1090; &#1087;&#1088;&#1080;&#1074;&#1077;&#1089;&#1090;&#1080; &#1082; &#1088;&#1072;&#1079;&#1074;&#1080;&#1090;&#1080;&#1102; &#1086;&#1085;&#1082;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081;. &#1055;&#1088;&#1077;&#1076;&#1087;&#1086;&#1083;&#1072;&#1075;&#1072;&#1077;&#1090;&#1089;&#1103;, &#1095;&#1090;&#1086; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1080;&#1103; &#1074; &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1078;&#1080;&#1079;&#1085;&#1080; &#1084;&#1086;&#1075;&#1091;&#1090; &#1073;&#1099;&#1090;&#1100; &#1089;&#1074;&#1103;&#1079;&#1072;&#1085;&#1099; &#1089; &#1074;&#1072;&#1088;&#1080;&#1072; &#1094;&#1080;&#1103;&#1084;&#1080; &#1074; &#1076;&#1083;&#1080;&#1085;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1091; &#1086;&#1089;&#1086;&#1073;&#1077;&#1081; &#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;&#1072;. &#1058;&#1077;&#1084; &#1085;&#1077; &#1084;&#1077;&#1085;&#1077;&#1077; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1085;&#1080;&#1077; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1087;&#1086;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1102;&#1090;, &#1095;&#1090;&#1086; &#1076;&#1083;&#1080;&#1085;&#1072;
+&#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1084;&#1086;&#1078;&#1077;&#1090; &#1089;&#1083;&#1091;&#1078;&#1080;&#1090;&#1100; &#1083;&#1080;&#1096;&#1100; &#1087;&#1088;&#1080;&#1073;&#1083;&#1080;&#1079;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1081; &#1086;&#1094;&#1077;&#1085;&#1082;&#1086;&#1081; &#1089;&#1082;&#1086;&#1088;&#1086;&#1089;&#1090;&#1080; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1103; &#1080;, &#1074;&#1077;&#1088;&#1086;&#1103;&#1090;&#1085;&#1086;, &#1085;&#1077; &#1103;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1082;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;
+&#1079;&#1085;&#1072;&#1095;&#1080;&#1084;&#1099;&#1084; &#1084;&#1072;&#1088;&#1082;&#1077;&#1088;&#1086;&#1084; &#1088;&#1080;&#1089;&#1082;&#1072; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;&#1085;&#1099;&#1093; &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081; &#1080; &#1089;&#1084;&#1077;&#1088;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080;. &#1042;&#1072;&#1088;&#1080;&#1072;&#1094;&#1080;&#1080; &#1074; &#1076;&#1083;&#1080;&#1085;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1095;&#1072;&#1089;&#1090;&#1086; &#1086;&#1073;&#1091;&#1089;&#1083;&#1086;&#1074;&#1083;&#1077;&#1085;&#1099;
+&#1085;&#1077; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;&#1086;&#1084;, &#1085;&#1086; &#1080; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;&#1080; &#1080;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103;&#1084;&#1080;, &#1092;&#1072;&#1082;&#1090;&#1086;&#1088;&#1072;&#1084;&#1080; &#1086;&#1082;&#1088;&#1091;&#1078;&#1072;&#1102;&#1097;&#1077;&#1081; &#1089;&#1088;&#1077;&#1076;&#1099;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;
+&#1079;&#1072;&#1090;&#1088;&#1072;&#1090;&#1085;&#1099;&#1084;&#1080; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1072;&#1084;&#1080;, &#1090;&#1072;&#1082;&#1080;&#1084;&#1080; &#1082;&#1072;&#1082; &#1088;&#1072;&#1079;&#1084;&#1085;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077; &#1080; &#1076;&#1072;&#1078;&#1077; &#1084;&#1072;&#1089;&#1089;&#1072; &#1090;&#1077;&#1083;&#1072;. &#1069;&#1090;&#1080; &#1092;&#1072;&#1082;&#1090;&#1086;&#1088;&#1099; &#1084;&#1086;&#1075;&#1091;&#1090; &#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1089;&#1090;&#1074;&#1086;&#1074;&#1072;&#1090;&#1100; &#1091;&#1089;&#1082;&#1086;&#1088;&#1077;&#1085;&#1085;&#1086;&#1081; &#1087;&#1086;&#1090;&#1077;&#1088;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1091; &#1085;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1093; &#1074;&#1080;&#1076;&#1086;&#1074;. &#1057;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090; &#1084;&#1085;&#1077;&#1085;&#1080;&#1077;, &#1095;&#1090;&#1086; &#1076;&#1083;&#1103; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1103; &#1088;&#1086;&#1083;&#1080; &#1076;&#1083;&#1080;&#1085;&#1099; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1074; &#1082;&#1086;&#1085;&#1090;&#1077;&#1082;&#1089;&#1090;&#1077;
+&#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1103; &#1080; &#1076;&#1086;&#1083;&#1075;&#1086;&#1083;&#1077;&#1090;&#1080;&#1103; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080;, &#1085;&#1072;&#1087;&#1088;&#1080;&#1084;&#1077;&#1088; &#1084;&#1099;&#1096;&#1100; (Mus musculus) &#1080; &#1082;&#1088;&#1099;&#1089;&#1072; (Rattus norvegicus domestica),
+&#1085;&#1077; &#1086;&#1087;&#1090;&#1080;&#1084;&#1072;&#1083;&#1100;&#1085;&#1099;, &#1087;&#1086;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1091; &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100; &#1078;&#1080;&#1079;&#1085;&#1080; &#1101;&#1090;&#1080;&#1093; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093; &#1080; &#1076;&#1083;&#1080;&#1085;&#1072; &#1080;&#1093; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1085;&#1077; &#1089;&#1086;&#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1084;&#1099; &#1089; &#1095;&#1077;&#1083;&#1086;&#1074;&#1077;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;&#1080;. &#1062;&#1077;&#1083;&#1077;&#1089;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1085;&#1086; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1100; &#1074;&#1080;&#1076;&#1099; &#1089; &#1073;&#1086;&#1083;&#1077;&#1077; &#1076;&#1083;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1084; &#1078;&#1080;&#1079;&#1085;&#1077;&#1085;&#1085;&#1099;&#1084; &#1094;&#1080;&#1082;&#1083;&#1086;&#1084;. &#1042; &#1076;&#1072;&#1085;&#1085;&#1086;&#1084; &#1086;&#1073;&#1079;&#1086;&#1088;&#1077; &#1088;&#1072;&#1089;&#1089;&#1084;&#1072;&#1090;&#1088;&#1080;&#1074;&#1072;&#1077;&#1090;&#1089;&#1103; &#1089;&#1090;&#1077;&#1087;&#1077;&#1085;&#1100; &#1082;&#1086;&#1088;&#1088;&#1077;&#1083;&#1103;&#1094;&#1080;&#1080; &#1084;&#1077;&#1078;&#1076;&#1091; &#1076;&#1083;&#1080;&#1085;&#1086;&#1081; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1080; &#1076;&#1086;&#1083;&#1075;&#1086;&#1083;&#1077;&#1090;&#1080;&#1077;&#1084; &#1074; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1085;&#1099;&#1093; &#1085;&#1077;&#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1084;&#1086;&#1076;&#1077;&#1083;&#1103;&#1093;
+&#1076;&#1086;&#1083;&#1075;&#1086;&#1078;&#1080;&#1074;&#1091;&#1097;&#1080;&#1093; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1080;&#1093; &#1087;&#1088;&#1080;&#1075;&#1086;&#1076;&#1085;&#1086;&#1089;&#1090;&#1100; &#1076;&#1083;&#1103; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1080;&#1103; &#1084;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;&#1103;&#1088;&#1085;&#1099;&#1093; &#1084;&#1077;&#1093;&#1072;&#1085;&#1080;&#1079;&#1084;&#1086;&#1074;, &#1087;&#1088;&#1080;&#1074;&#1086;&#1076;&#1103;&#1097;&#1080;&#1093; &#1082; &#1080;&#1089;&#1090;&#1086;&#1097;&#1077;&#1085;&#1080;&#1102; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1074; &#1082;&#1086;&#1085;&#1090;&#1077;&#1082;&#1089;&#1090;&#1077; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1103;. &#1042;&#1072;&#1078;&#1085;&#1086; &#1087;&#1086;&#1084;&#1085;&#1080;&#1090;&#1100;, &#1095;&#1090;&#1086; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089; &#1086; &#1087;&#1088;&#1080;&#1095;&#1080;&#1085;&#1085;&#1086;-&#1089;&#1083;&#1077;&#1076;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1081; &#1089;&#1074;&#1103;&#1079;&#1080; &#1076;&#1083;&#1080;&#1085;&#1099; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;
+&#1089; &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100;&#1102; &#1078;&#1080;&#1079;&#1085;&#1080; &#1087;&#1086;-&#1087;&#1088;&#1077;&#1078;&#1085;&#1077;&#1084;&#1091; &#1090;&#1088;&#1077;&#1073;&#1091;&#1077;&#1090; &#1076;&#1072;&#1083;&#1100;&#1085;&#1077;&#1081;&#1096;&#1077;&#1075;&#1086; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;.</p></trans-abstract><kwd-group><kwd>telomere length</kwd><kwd>telomerase</kwd><kwd>aging</kwd><kwd>longevity</kwd><kwd>unconventional animal models</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1076;&#1083;&#1080;&#1085;&#1072; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;</kwd><kwd>&#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;&#1072;&#1079;&#1072;</kwd><kwd>&#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1077;</kwd><kwd>&#1076;&#1086;&#1083;&#1075;&#1086;&#1083;&#1077;&#1090;&#1080;&#1077;</kwd><kwd>&#1085;&#1077;&#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1084;&#1086;&#1076;&#1077;&#1083;&#1080; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Biological aging is characterized by a progressive decline
+in the functional capacities of an organism following the
+attainment of maturity, ultimately culminating in its demise.
+Substantial evidence indicates that telomere length may serve
+as a significant biomarker for aging and longevity. Telomeres
+are nucleoprotein structures that protect the ends of linear
+chromosomes from DNA degradation and are involved in
+repair processes, thereby playing a crucial role in maintaining
+chromosomal stability. With each cell division, telomeres
+undergo shortening due to the phenomenon known
+as the end-replication problem, particularly exacerbated by
+oxidative stress, which arises from an imbalance between
+the production of reactive oxygen species and the organism&#8217;s
+antioxidant defense mechanisms (Allsopp et al., 1995; Armstrong,
+Boonekamp, 2023).</p><p>It has been proposed that telomere length may significantly
+influence the allocation of resources between growth and
+reproduction, as well as the maintenance of the somatic state
+of cells (Young, 2018). This hypothesis is grounded in the
+aging theory articulated by T. Kirkwood (Kirkwood, 1977;
+Kirkwood, Rose, 1991), who posited that mortality associated
+with advanced age may result from an energy-conserving
+strategy designed to minimize the regulation of errors in
+somatic cells. Consequently, the metabolic costs associated
+with early reproduction may ultimately result in a depletion
+of energy resources essential for sustaining a stable somatic
+state, which could, in turn, expedite the aging process and
+increase mortality rates. Notably, in certain species, a negative
+correlation has been observed between telomere length and
+active reproduction.</p><p>The principle of age-related telomere shortening is a complex
+phenomenon, and the biological mechanisms underlying
+this process remain poorly understood. Specifically, it is not
+yet clear whether telomeric aging functions as an analogue
+of the mitotic clock or serves as a biomarker of cellular stress
+(Koliada et al., 2015; Lin, Epel, 2022). Telomere attrition can
+be counteracted by telomerase, a specialized enzyme, the
+primary function of which is to extend telomeres. Telomerase
+is a ribonucleoprotein DNA polymerase composed of two
+subunits: telomerase RNA (TER) and telomerase reverse transcriptase
+(TERT). This enzyme facilitates the de novo addition
+of TTAGGG repeats to the terminal regions of chromosomes,
+thereby compensating for telomere loss. Figure 1 illustrates the
+variations in telomere length in relation to age and telomerase
+activity. Telomerase initiates its action by binding to the end of
+a telomere, with TER first interacting with the single-stranded
+DNA at the terminus of the chromosome. TERT utilizes the incorporated
+RNA as a template to synthesize new DNA repeats.
+This synthesis is typically mediated by reverse transcriptase,
+which generates a new segment of DNA by adding nucleotides
+to the single-stranded DNA of the telomere. The newly synthesized
+DNA fragment is complementary to the existing strand,
+as complementary nucleotides bind to the template, resulting
+in telomere elongation. Following the synthesis of several
+repeats, telomerase translocates along the telomere, allowing
+the enzyme to repeatedly add new nucleotides to the end of
+the chromosome. This process is repeated multiple times, significantly
+lengthening the telomere. After synthesizing a new
+stretch of DNA, the single-stranded DNA of the telomere can
+form a double helix by pairing with complementary strands.
+Additional enzymes, such as ligase and DNA polymerases,
+are also involved in this process to ensure proper telomere
+joining and completion (Nguyen, 2021).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Variation in telomere length in relation to age and telomerase activity.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2553-Fig1.jpg"/></fig><p>There are two main telomere protection complexes: CST
+(Centriole- and Spindle-Associated Telomerase) and shelterin.
+These complexes can function in parallel in most mammals,
+including humans. The shelterin complex consists of six key
+components: TRF1 and TRF2 (Telomeric Repeat Binding
+Factor 1 and 2), TIN2 (TRF1-interacting protein), TPP1
+(Telomeric Protein 1), POT1 (Protection of Telomeres 1),
+and RAP1 (Repressor-Activator Protein 1). The CST complex
+includes three components: Ctc1 (Cell Cycle Protein 1), Stn1
+(Suppressor of Telomere Lengthening 1), and Ten1 (Telomere
+Length Maintenance 1). Both complexes play a crucial role
+in protecting and maintaining telomere structure and are also
+involved in regulating telomere length (Jenner et al., 2022;
+Zaug et al., 2022). Telomerase activity is notably elevated during
+the early stages of human fetal development; however, it
+is considerably restricted in the majority of normal adult cells.
+When telomeres attain critically short lengths, they initiate a
+persistent DNA damage response, which subsequently leads
+to various cellular processes, including cellular senescence
+and/or apoptosis. It also diminishes the capacity of stem
+cells to regenerate tissue. Furthermore, accelerated telomere
+shortening is a characteristic feature of age-related diseases which adversely impacts overall health and lifespan (Rossiello
+et al., 2022).</p><p>Research has indicated that telomere length may serve as
+a positive predictor of lifespan in humans. For instance, centenarians
+tend to possess longer telomeres, and studies have
+demonstrated that their offspring inherit this characteristic
+(Atzmon et al., 2010). Furthermore, healthy centenarians exhibit
+significantly longer telomeres compared to individuals afflicted
+with various diseases (Terry et al., 2008). Nevertheless,
+not all studies support this assertion, which raises questions
+regarding the reliability of telomere length as a biomarker for
+longevity and underscores the necessity for further investigation
+(Arai et al., 2015).</p><p>In many studies, traditional animal models, such as the
+mouse (Mus musculus) and the rat (Rattus norvegicus domestica),
+have been used to investigate the molecular mechanisms
+underlying aging and longevity (Sahm et al., 2018). Research
+involving genetically modified mice with hyperlong telomeres
+has demonstrated that these organisms exhibit reduced DNA
+damage as they age. Furthermore, these mice typically possess
+a lean body composition, lower cholesterol levels, enhanced
+glucose and insulin sensitivity, a decreased incidence of cancer,
+and an extended lifespan (Mu&#241;oz-Lorente et al., 2019).
+However, the applicability of these findings to humans is
+limited due to significant differences in telomere dynamics
+between the two species. For instance, the lifespan of mice
+is approximately 30 times shorter than that of humans, while
+their telomeres are 5 to 10 times longer and undergo shortening
+at a rate approximately 100 times faster. Additionally,
+there are notable disparities in the organization of repetitive
+elements and the shelterin complex within subtelomeric regions
+(Vera et al., 2012; Smoom et al., 2023). The complete
+absence of telomerase in mice results in a relatively weak
+phenotype over several generations, whereas heterozygosity
+for telomerase mutations in humans is sufficient to induce
+defects in organ regeneration and facilitate cancer progression
+(Calado, Dumitriu, 2013). Moreover, the majority of studies
+are conducted on specific inbred strains of rodents, such as
+C57BL/6 and BALB/c mice (Bernardes de Jesus et al., 2012).
+However, the lifespan observed in natural populations significantly
+surpasses that achieved in inbred strains, particularly
+due to anti-aging interventions conducted in vitro (Miller et
+al., 2002). This observation has prompted the consideration
+of alternative models with exceptionally long lifespans as
+potentially valuable for elucidating the mechanisms of telomere
+shortening and their viability as reliable biomarkers for
+aging and longevity.</p><p>This review aims to explore non-traditional long-lived animal
+models that may offer various advantages in supporting or
+challenging the role of telomeres as biomarkers that determine
+age and predict longevity (see the Table).</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>Relationship between telomere length, telomerase activity, and age in non-classical animal models</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2553-Tab1.jpg"/></fig><fig position="float" id="Tab-1end" orientation="portrait"><label>Table 1end.</label><caption><title>Table 1end.</title><p>Note. TRF &#8211; restriction fragment assay; PCR &#8211; polymerase chain reaction; qFISH &#8211; quantitative fluorescence in situ hybridization; TRAPeze&#174; XL &#8211; telomerase
+activity assay.
+Source of animal age data:
+1<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://animaldiversity.org/accounts/Eptesicus_fuscus/#:~:text=Lifespan%2FLongevity,die%20in%20their%20first%20winter" ext-link-type="uri"> https://animaldiversity.org/accounts/Eptesicus_fuscus/#:~:text=Lifespan%2FLongevity,die%20in%20their%20first%20winter</ext-link>
+2<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://animaldiversity.org/accounts/Tadarida_brasiliensis/" ext-link-type="uri"> https://animaldiversity.org/accounts/Tadarida_brasiliensis/</ext-link>
+3<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fish.gov.au/docs/SharkReport/2023_FRDC_Etmopterus_granulosus%20_final.pdf" ext-link-type="uri"> https://fish.gov.au/docs/SharkReport/2023_FRDC_Etmopterus_granulosus%20_final.pdf</ext-link>
+4<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://animaldiversity.org/accounts/Megaptera_novaeangliae/" ext-link-type="uri"> https://animaldiversity.org/accounts/Megaptera_novaeangliae/</ext-link>
+5<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://marilimitado.com/blog/fin-whale/" ext-link-type="uri"> https://marilimitado.com/blog/fin-whale/</ext-link>
+6<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://dlnr.hawaii.gov/dar/whales-and-dolphins/" ext-link-type="uri">https://dlnr.hawaii.gov/dar/whales-and-dolphins/</ext-link></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2553-Tab1end.jpg"/></fig></sec><sec><title>Birds</title><p>Birds serve as a distinctive model for investigating essential
+cellular mechanisms that are associated with extended
+lifespan. Despite their significant energetic expenditures
+throughout life, the majority of bird species can be classified
+as long-lived homeotherms exhibiting relatively slow aging
+processes. Notably, birds tend to have longer lifespans compared
+to mammals of equivalent size. Furthermore, critical
+aging processes in birds, such as cellular responses to oxidative
+stress and telomere dynamics, frequently exhibit similarities
+to those observed in mammals (Harper, Holmes, 2021).</p><p>A study conducted by C.G. Foote et al. examined telomere
+length as a potential indicator of the relationship between life
+history and fitness in southern giant petrels (Macronectes
+giganteus). In a cohort of adults aged between 12 and 40 years,
+no significant association was found between telomere length
+and age. However, individuals who died within an eight-year
+period following the measurement of telomere length exhibited
+significantly shorter telomeres compared to those who
+survived, irrespective of age or sex, which were not significant
+predictors of survival. These findings suggest that relatively
+short telomere length may serve as a biomarker for predicting
+life expectancy and may also indicate adult health (Foote et al.,
+2011). In a recent study, the telomere length in red blood cells
+and the markers of oxidative stress in plasma were examined
+in both long-lived and short-lived avian species belonging to
+the order Psittaciformes over a four-year duration. The findings
+indicated that long-lived birds, with lifespans ranging
+from 33 to 65 years, exhibited longer telomeres in comparison
+to their short-lived counterparts, which have lifespans of 10
+to 17 years. However, it was noted that the long-lived birds
+experienced a higher rate of telomere shortening. Notably, the
+study established a significant correlation between the rate of
+telomere shortening and the levels of accumulated oxidative
+stress in short-lived birds. This correlation enhances the understanding
+of the underlying causes and dynamics associated
+with changes in telomere length (Dom&#237;nguez-de-Barros et
+al., 2023, 2024).</p><p>Species exhibiting lower metabolic costs of reproduction
+at a young age are posited to develop more effective mechanisms
+for the maintenance and repair of somatic cells. This
+phenomenon may subsequently contribute to an increased
+potential lifespan and a deceleration of aging processes. In
+2021, a phylogenetic meta-analysis encompassing data from
+53 avian species was conducted to investigate the relationships
+among average telomere length in both chicks and adults, the
+average rate of change in telomere length throughout the lifespan,
+and various life history traits. The findings indicated that,
+irrespective of body size, longer-lived species characterized
+by smaller clutch sizes and slower embryonic growth rates
+demonstrate a reduced decline in telomere length over their
+lifespan (Criscuolo et al., 2021). Comparable results were
+observed in another study that analyzed telomere length across
+19 bird species with lifespans ranging from 7 to 50 years. This
+study concluded that species with extended lifespans exhibited
+a slower decline in telomere length in comparison to those
+with shorter lifespans (Tricola et al., 2018).</p><p>Telomerase activity plays a crucial role in determining
+the rate of telomere attrition and is likely to have a direct influence
+on lifespan. A study conducted by M.F. Haussmann et
+al. examined telomerase activity in the bone marrow of two
+short-lived avian species: zebra finches (Taeniopygia guttata)
+and tree swallows (Tachycineta bicolor), which have maximum
+lifespans of 5 and 11 years, respectively. Additionally,
+two long-lived avian species were investigated: common terns
+(Sterna hirundo) and Leach&#8217;s storm petrels (Oceanodroma
+leucorhoa), which can live for 27 and 36 years, respectively.
+The findings indicated that the short-lived species exhibited
+high telomerase activity in nestlings; however, this activity
+declined significantly in both young and older adults. In contrast,
+the long-lived species maintained relatively high levels
+of telomerase activity in their bone marrow, which did not
+diminish with age (Haussmann et al., 2004).</p><p>In conclusion, the inherent anti-aging mechanisms observed
+in avian species render them more appropriate models for the
+study of longevity compared to short-lived laboratory rodents.
+Investigations focused on birds may ultimately contribute to
+the identification of therapeutic interventions for diseases
+related to human aging.</p></sec><sec><title>Bats</title><p>Bats represent a distinctive subject for the investigation of
+aging and longevity. Similar to birds, they exhibit an atypical
+combination of small body size and extended lifespan
+relative to other mammals. For instance, individuals of the
+species Myotis brandtii can live for 40 years or more (Garg
+et al., 2023), whereas M. myotis has an average lifespan of
+approximately 37 years, Rhinolophus ferrumequinum about
+30 years, and Miniopterus schreibersii around 22 years (Foley
+et al., 2018).</p><p>The existing literature on telomere length in bats presents
+conflicting findings. For instance, research indicates that telomeres
+shorten with age in species such as R. ferrumequinum
+and M. schreibersii, whereas this phenomenon is not observed
+in the genus Myotis, which is characterized by an extended
+lifespan (Gomes et al., 2011; Ineson et al., 2020). Furthermore,
+telomere shortening does not exhibit a correlation with age
+in species including Myotis lucifugus, Pteropus rodricensis,
+Eptesicus fuscus, and Tadarida brasiliensis. Notably,
+M. lucifugus individuals infected with the fungal disease
+known as white-nose syndrome (WNS) displayed significantly
+shorter telomeres compared to their uninfected
+counterparts (Ineson et al., 2020). These findings lend additional
+support to the hypothesis that environmental factors
+may exert an influence on telomere length, suggesting that
+telomere length is not invariably associated with the aging
+process.</p><p>The analysis of telomerase expression in wing fibroblasts
+and blood cells of M. myotis revealed that this enzyme is not
+expressed, suggesting the existence of alternative mechanisms
+that maintain telomere length. A more comprehensive
+investigation demonstrated a significant upregulation of
+20 genes associated with telomere maintenance and DNA
+repair in Myotis bats when compared to other mammalian
+species. Notable among these genes are Atm and SETX, which
+have been identified as evolving under divergent selection in
+Myotis, alongside Abl1, Cct4, Dclre1a, Dot1l, Gnl3l, Mlh3,
+Mre11a, Parp1, Rad50, Rb1, Rfc3, Rpa1, Sde2, Ssb, Terf2ip,
+Wrap53, Wrn, and Xrcc5, all of which may play a role in
+maintaining genomic stability in bats. Furthermore, it was
+observed that variations in mean and minimum temperature,
+precipitation, and wind speed were significantly correlated
+with telomere length in bats (Foley et al., 2020). Consequently,
+telomere length may serve primarily as a biomarker for aging
+and longevity in specific contexts, although this does not
+appear to apply to the majority of bat species. Nonetheless,
+this model could be instrumental in examining the impact
+of environmental stressors on telomeres. Future research
+should explore whether variations in telomere length are
+linked to body size or survival strategies, such as hibernation
+or aestivation.</p></sec><sec><title>Mollusks</title><p>Another noteworthy model for longevity studies is the mollusk.
+The North Atlantic oceanic quahog (Arctica islandica) is
+the most extensively researched long-lived bivalve, possessing
+the longest documented lifespan of at least 507 years. These
+organisms exhibit a remarkable tolerance to various environmental
+factors, including elevated salinity, temperature, and
+oxygen levels. It is important to highlight that the Icelandic
+population of A. islandica demonstrates an unusually high
+lifespan, whereas populations in the Baltic and White Seas
+have a maximum lifespan ranging from 30 to 50 years (Basova
+et al., 2012; Gruber et al., 2015).</p><p>The investigation of telomere length and telomerase activity
+in the longest-lived non-colonial organism, A. islandica,
+is crucial for comprehending the mechanisms underlying
+telomere length maintenance and its contribution to the
+organism&#8217;s exceptionally prolonged lifespan. An analysis
+of both short-lived and long-lived populations of young
+and old specimens (ranging from 10 to 226 years of age)
+revealed significant heterogeneity in telomere length among
+A. islandica. Notably, consistent telomerase activity and
+telomere length were observed across all age groups, with no
+correlation identified between these factors and population age
+or habitat. It is posited that stable telomere maintenance may
+play a role in the longevity of A. islandica; however, telomere
+dynamics alone do not account for its extraordinary lifespan
+(Gruber et al., 2014). Currently, the molecular mechanisms
+and potential mutations associated with this organism remain
+largely unknown, as the genome of A. islandica has yet to be
+published. Consequently, the specific factors that contribute
+to the longevity of this species are yet to be fully understood</p></sec><sec><title>Corals</title><p>Due to their extended lifespans, corals represent a compelling
+yet underexplored model for investigating telomere responses
+to aging and environmental stressors. Recent radiocarbon
+dating of the deep-sea proteinaceous corals Gerardia sp. and
+Leiopathes sp. has revealed that these species exhibit radial
+growth rates ranging from 4 to 35 &#956;m per year, with individual
+colonies possessing lifespans that extend to thousands of years.
+Notably, the oldest recorded individuals of Gerardia sp. and
+Leiopathes sp. were found to be 2,742 and 4,265 years old,
+respectively (Roark et al., 2009).</p><p>Research involving corals predominantly investigates the
+function of telomeres in response to stress. For instance,
+A. Rouan et al. (2022) analyzed telomere alterations in the
+symbiotic coral species Stylophora pistillata, which was
+subjected to a continuous dark environment for a duration of
+six months. This stressful condition led to a significant loss
+of symbiotic organisms. The study revealed that prolonged
+darkness was correlated with a reduction in telomere DNA
+length and a decrease in the expression of the Pot2 protein.
+In mammals, Pot2 forms a heterodimeric complex with Tpp1
+and is essential for the recruitment of telomerase to telomeres.
+However, the authors did not establish connections between
+their findings and the concepts of aging or accelerated aging
+(Rouan et al., 2022). Additionally, another investigation
+explored the feasibility of using telomere length as a biomarker
+for estimating the age of colonial corals, specifically
+examining Acropora digitifera at three developmental stages:
+sperm, planula larvae, and polyps of adult colonies (Tsuta
+et al., 2014). The findings indicated that telomere length
+diminishes throughout coral development, with the highest
+values observed in spermatozoa, and the lowest in the polyps
+of adult colonies. It has been established that telomere length
+is affected not only by the chronological age of polyps but
+also by the rate of cell proliferation. Consequently, it can be
+inferred that attempts to accurately determine the age of corals
+based on telomere length may yield inconclusive results
+(Tsuta et al., 2014).</p><p>The long-term and short-term water temperature regimes
+are critical factors that influence intercolony variations in the
+Pacific Ocean. In this regard, telomere length was examined in
+short-lived, more stress-sensitive colonies of Pocillopora spp.
+and in long-lived, more stress-tolerant colonies of Porites spp.
+The findings indicated that telomere DNA length in short-lived
+colonies was significantly affected by seasonal temperature
+fluctuations. Conversely, telomere DNA length in long-lived
+colonies was not influenced by seasonal variations; rather, it
+was determined by historical thermal anomalies (Rouan et
+al., 2023).</p><p>In conclusion, the length of telomeres in corals is significantly
+influenced by environmental factors. The mechanisms
+involved in telomere maintenance are associated with the
+productivity of the organism, which is particularly relevant
+in light of the effects of climate change on overall health.
+Nevertheless, corals may not serve as optimal models for
+investigating the mechanisms of aging and lifespan, as their
+distinct environmental adaptations and slow metabolic rates
+could hinder the generalizability of findings to more complex
+multicellular organisms</p></sec><sec><title>Sea urchins</title><p>Sea urchins serve as a compelling model organism for the
+investigation of developmental biology, longevity, and aging.
+Within this group, one can differentiate between shortlived
+species, such as Lytechinus variegatus and L. pictus,
+which have a lifespan that does not exceed four years, and
+long-lived species, including Mesocentrotus franciscanus,
+Strongylocentrotus purpuratus, Echinometra mathaei, and
+Stomopneustes variolaris, which can live for over 100 years
+and are recognized as some of the longest-lived organisms.
+The genomes of several species within this group have been
+sequenced and published, providing valuable resources for the
+study of genomic characteristics in relation to longevity (Sea
+Urchin Genome Sequencing Consortium et al., 2006; Sergiev
+et al., 2016; Polinski et al., 2024). Due to their capacity for
+indeterminate growth, sustained reproductive activity, and
+the absence of increased mortality with age, these organisms
+represent an ideal model for examining the phenomenon of
+negative aging (Ebert, 2019).</p><p>Research conducted within the established frameworks
+of aging theories, such as alterations in telomere length, has
+demonstrated that both short-lived and long-lived species
+of sea urchins exhibit minimal signs of aging. These marine
+organisms maintain consistent telomere length and telomerase
+activity. Furthermore, they preserve antioxidant and proteasome
+enzyme activities, and there is a negligible accumulation
+of oxidative cellular damage as they age. Their regenerative
+potential remains robust throughout their lifespan, irrespective of its length (Francis et al., 2006; Du et al., 2013). To
+investigate the mechanisms associated with longevity and
+aging in this model organism, a comparative analysis of
+gene expression in the radial nerve cord of M. franciscanus
+at various ages was conducted. This analysis identified over
+4,000 differentially expressed genes that encompass a broad
+spectrum of cellular functions and molecular pathways, including
+neural function, metabolism, and the maintenance of
+DNA stability. Additionally, two genes, the expression levels
+of which increase with age, are implicated in the preservation
+of telomere length (Polinski et al., 2020).</p><p>A comparative study examined the amino acid sequence
+of the telomere-binding protein Pot1, which is crucial for
+the maintenance of telomere length through the regulation
+of telomerase-mediated elongation (Aramburu et al., 2020).
+In cell culture experiments, it was observed that mutations in
+the coding gene result in various telomere phenotypes, and
+the absence of this protein contributes to cellular aging (Zade,
+Khattar, 2023). Notably, the amino acid at position 198 of
+Pot1 exhibits variability across different species. In long-lived
+organisms, such as the red sea urchin and the bat (M. brandtii),
+this position is occupied by valine, whereas in short-lived
+species of sea urchins and bats, it is represented by threonine
+and serine, respectively. Interestingly, in humans and the
+long-lived naked mole rat, the amino acid at this position is
+isoleucine (Sergiev et al., 2016).</p><p>Although telomere length does not function as a reliable
+marker for longevity and aging in these models, it remains of
+significant interest for investigating the mechanisms underlying
+longevity and the preservation of DNA stability.</p></sec><sec><title>Arthropods</title><p>Crustaceans represent a diverse group of arthropods characterized
+by significant variability in the size and structure of their
+genomes. For instance, the genus Homarus, which includes
+lobsters, is estimated to have a lifespan of up to 50 years in
+the wild and potentially up to 100 years in captivity. These
+organisms exhibit continuous growth throughout their lives,
+possess the ability to regenerate limbs even in advanced age,
+and older individuals may demonstrate greater fertility compared
+to their younger counterparts (Koopman et al., 2015;
+Bowden et al., 2020). A particularly noteworthy species within
+this group is the American lobster (H. americanus), which is
+distinguished by its remarkable longevity, potentially reaching
+100 years. Lobsters serve as compelling subjects for research
+on longevity, aging, and telomerase function, as they may
+provide critical insights into the molecular mechanisms that
+underlie these exceptional longevity traits. Nevertheless, the
+available data on this model organism remain limited (Louzon
+et al., 2019).</p><p>Lobsters exhibit a slow aging process, making the analysis of
+telomerase activity in these organisms particularly intriguing.
+A study conducted in 1998 identified elevated telomerase
+activity across all organs of the lobster species H. americanus.
+The authors concluded that the activation of telomerase represents
+a conserved mechanism that aids in sustaining longterm
+cellular proliferative capacity and mitigating aging, not
+only in cellular models or during embryonic development but
+also in adult multicellular organisms (Klapper et al., 1998).
+Furthermore, the lobster genome was scrutinized for genes
+that contribute to DNA stability. Comparative analysis of expanded
+gene families in lobsters versus short-lived arthropods
+revealed the presence of Fancc and Ddb2, both of which play
+critical roles in maintaining genomic integrity (Polinski et al.,
+2021). Importantly, there is currently a lack of data regarding
+the relationship between telomere length and age in lobsters,
+underscoring the necessity for further investigation in this area.</p></sec><sec><title>Naked mole-rat</title><p>The naked mole rat (Heterocephalus glaber) is a unique
+species notable for its remarkably extended lifespan, which
+can exceed 38 years. Traditional markers of aging, such as
+reduced reproductive capacity, neurodegenerative disorders,
+and cancer, are observed to manifest only minimally in this
+species (Yang et al., 2024). A study was conducted to examine
+telomere length across three age categories of naked mole
+rats: young, adult, and old. The results indicated that telomere
+length increased with age when compared to the young cohort;
+however, the authors acknowledged a limitation due to
+the small sample size. These findings support the hypothesis
+that telomeres are preserved in these animals as they age
+(Leonida et al., 2020). Additionally, naked mole rats exhibit
+low levels of telomerase activity (Seluanov et al., 2007), and
+a comparative analysis has revealed a negative correlation
+between telomerase expression levels and rodent size (Gomes
+et al., 2011). To date, the precise role of telomeres in the
+aging process remains unclear, suggesting that naked mole
+rats may offer valuable insights into the relationship between
+telomeres and aging</p></sec><sec><title>Large animals (elephants, whales, and sharks)</title><p>The lifespan of large mammals is significantly influenced by
+their habitat, behavioral strategies, and physiological adaptations.
+For instance, forest elephants (Loxodonta cyclotis),
+which typically weigh between 2,000 and 2,500 kg, have an
+average lifespan of approximately 50 years. In contrast, African
+savannah elephants (L. africana), which weigh between
+4,000 and 7,000 kg, and Asian elephants (Elephas maximus),
+weighing between 2,500 and 5,500 kg, can live for 60 to
+70 years. These interspecies variations in longevity present a
+valuable model for investigating the molecular mechanisms
+of aging, including telomere dynamics (Crawley et al., 2017;
+Chusyd et al., 2021).</p><p>Comparative analyses of telomere length across species
+with differing lifespans indicate that initial telomere length
+may influence longevity. For instance, Asian elephants exhibit
+relatively longer telomeres at a young age when compared to
+Chihuahuas, a small dog breed that typically weighs between
+1 and 3 kg and has a considerably shorter lifespan. Despite
+this initial advantage in telomere length, both elephants and
+Chihuahuas demonstrate similar rates of telomere shortening
+over time. This observation implies that while initial telomere
+length may partially contribute to determining maximum
+lifespan, the process of telomere shortening with age appears
+to be a relatively conserved trait across species.</p><p>An important factor associated with interspecies variations
+in longevity is the activity of telomerase and its correlation
+with body size. Research indicates that the suppression of
+telomerase activity in the somatic cells of larger mammals may
+represent an evolutionary adaptation aimed at decreasing the incidence of cancers commonly observed in organisms with
+greater body mass. Consequently, the restriction of telomerase
+activity and the presence of shorter telomeres in large, longlived
+species seem to function as an additional barrier against
+tumorigenesis (Buddhachat et al., 2017).</p><p>The lifespan of large mammals is intricately linked not only
+to their terrestrial counterparts but also to those inhabiting
+marine environments. Among cetaceans (Cetacea), which
+encompass the parvorders of baleen whales (Mysticeti) and
+toothed whales (Odontoceti), a considerable variation in longevity
+is observed. Numerous whale species, characterized by
+substantial body mass &#8211; ranging from several tons in dolphins
+to tens and even hundreds of tons in the largest species &#8211; exhibit
+remarkable lifespans. For instance, the bowhead whale
+(Balaena mysticetus), belonging to the family Balaenidae, is
+documented to live for over 200 years, thereby earning its
+status as one of the longest-lived mammals on Earth (Buddhachat
+et al., 2021; Lagunas-Rangel, 2021).</p><p>In contrast to several terrestrial species, for which a correlation
+between initial telomere length and potential lifespan has
+been established, the data concerning cetaceans remain more
+ambiguous. A study using quantitative PCR on skin samples
+from 28 humpback whales (Megaptera novaeangliae) aged
+0 to 26 years revealed a statistically significant correlation
+between telomere length and age. However, the considerable
+variability observed among individuals of the same age suggests
+that telomere length cannot be regarded as a reliable
+indicator for determining age in free-swimming whales. This
+variability may be attributed to both methodological factors,
+such as measurement accuracy, and biological influences,
+including hereditary traits, adaptations to unpredictable environmental
+conditions, and stochastic processes related to
+resource allocation (Olsen et al., 2014).</p><p>Additional comparative studies encompassing 23 marine
+mammal species, which include four Mysticeti and 19 Odontoceti
+species, revealed no significant association between
+relative telomere length and maximum lifespan. Statistical
+analyses indicated that longevity exhibited a stronger correlation
+with body size; specifically, adult mass and length
+were identified as robust predictors, whereas relative telomere
+length did not demonstrate a significant association (Buddhachat
+et al., 2021).</p><p>Another marine species notable for its exceptional lifespan
+is the shark; however, determining their age can be
+particularly challenging. For example, the Greenland shark
+(Somniosus microcephalus) has recently been identified as
+the longest-living vertebrate on Earth. Despite this recognition,
+many aspects of its biology, physiology, and ecology
+remain insufficiently understood. This species can live for
+nearly 400 years and reaches sexual maturity at approximately
+150 years of age, with weights ranging from 700 to 1,000 kilograms
+(Nielsen et al., 2016). Recent studies involving samples
+from Greenland sharks have enabled researchers to analyze
+RNA and identify a highly expressed long interspersed nuclear
+element-like (LINE-like) transcript (Bartas et al., 2023). It
+has been suggested that this transcript may be linked to an
+increased lifespan and enhanced resistance to age-related
+diseases. The authors of the study hypothesize that this factor
+could contribute to improved telomere maintenance. However,
+there is currently no scientific evidence to support this
+hypothesis, nor are there any data regarding telomere length
+in these animals (Bartas et al., 2023).</p><p>A separate study focusing on other shark species, such as
+the southern lantern shark (Etmopterus granulosus), examined
+the relative telomere length in relation to age, which in
+this case was assessed based on body mass (Nehmens et al.,
+2021). The findings indicated that telomeres in this species do
+shorten in accordance with size; however, it remains uncertain
+whether age directly influences telomere length in this context
+(Nehmens et al., 2021).</p><p>In conclusion, although the current body of research is insufficient
+to reach definitive conclusions, it can be suggested
+that large body size is a significant factor for the organisms
+discussed. This phenomenon may reflect a combination of
+evolutionary and physiological strategies that are aimed at
+maintaining genomic stability, regulating cell division, and
+reducing the risk of cancer.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>In this review, we summarize the distinctive characteristics
+of various alternative animal models that exhibit delayed and
+accelerated aging phenotypes. The species examined are notable
+for their exceptional longevity, significant regenerative
+capabilities, or resistance to age-related diseases. However, the
+findings from studies investigating the relationship between
+telomere length and age-related diseases, as well as lifespan,
+remain inconsistent and contradictory. In this context, birds
+and naked mole rats appear to be the most appropriate models
+for studying the mechanisms of telomere shortening in relation
+to aging and longevity, while bats and corals are more suitable
+for analyzing the effects of stressors on telomere length. Large,
+long-lived animals such as elephants, whales, and sharks
+demonstrate a correlation between telomere length and body
+mass. Sea urchins and lobsters are particularly intriguing for
+exploring alternative aging mechanisms that have yet to be
+identified (Fig. 2).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>Factors affecting telomere length in various long-lived organisms</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2553-Fig2.jpg"/></fig><p>It is evident that all the aforementioned models possess
+unique mechanisms for life extension and telomere length
+maintenance that lack analogs in traditional model organisms.
+Nevertheless, the extent to which insights gained from longlived
+model organisms regarding aging and longevity can
+be applied to humans to promote a longer and healthier life
+remains uncertain. Therefore, optimizing the application of
+these models in applied research is crucial. Species exhibiting
+constant telomere length and active telomerase, such as Arctica
+islandica, Mesocentrotus franciscanus, and Homarus americanus,
+are particularly well-suited for in-depth investigations
+into the molecular mechanisms underlying extreme longevity
+and the identification of potential geroprotective targets. Organisms,
+in which telomere length varies significantly due to
+external factors, such as bats of the genus Myotis and corals
+of the genus Pocillopora, are appropriate for assessing the
+impact of environmental stressors, diseases, or habitat quality
+on aging processes. A combined study of sea urchins (e. g.,
+Strongylocentrotus variolaris and Mesocentrotus franciscanus)
+or corals (e. g., Pocillopora spp. and Porites spp.) will
+facilitate the identification of factors influencing telomere dynamics
+across different lifespan scenarios. Large-scale models,
+including elephants, sharks, and whales, exhibit a correlation
+between telomere length, body mass, and lifespan, which may be beneficial for developing biomarkers of population health
+in natural settings. Data obtained from species with notable
+resistance to age-related pathologies, such as naked mole rats
+and Myotis bats, can be extrapolated to identify new therapeutic
+targets for age-related diseases in humans.</p><p>Thus, the use of alternative species with diverse aging strategies
+and unique telomere maintenance mechanisms not only
+broadens the scope for testing the hypothesis of telomeres as a
+universal biomarker of aging but also enables a more objective
+evaluation of their contributions to longevity and age-related
+pathologies. Incorporating these extreme models alongside
+classical organisms enhances our understanding of the fundamental
+mechanisms of longevity and opens new strategies for
+applying the knowledge acquired in medicine, ecology, and
+the conservation of endangered species, potentially aiding in
+the extension of the active and healthy lifespan of humans.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Allsopp R.C., Chang E., Kashefi-Aazam M., Rogaev E.I., Piatyszek
+M.A., Shay J.W., Harley C.B. Telomere shortening is associated
+with cell division in vitro and in vivo. Exp Cell Res. 1995;
+220(1):194-200. doi 10.1006/excr.1995.1306</p><p>Arai Y., Martin-Ruiz C.M., Takayama M., Abe Y., Takebayashi T.,
+Koyasu S., Suematsu M., Hirose N., von Zglinicki T. Inflammation,
+but not telomere length, predicts successful ageing at extreme old
+age: a longitudinal study of semi-supercentenarians. EBioMedicine.
+2015;2(10):1549-1558. doi 10.1016/j.ebiom.2015.07.029</p><p>Aramburu T., Plucinsky S., Skordalakes E. POT1-TPP1 telomere length
+regulation and disease. Comput Struct Biotechnol J. 2020;18:1939-
+1946. doi 10.1016/j.csbj.2020.06.040</p><p>Armstrong E., Boonekamp J. Does oxidative stress shorten telomeres
+in vivo? A meta-analysis. Ageing Res Rev. 2023;85:101854. doi
+10.1016/j.arr.2023.101854</p><p>Atzmon G., Cho M., Cawthon R.M., Budagov T., Katz M., Yang X.,
+Siegel G., Bergman A., Huffman D.M., Schechter C.B., Wright W.E.,
+Shay J.W., Barzilai N., Govindaraju D.R., Suh Y. Genetic variation
+in human telomerase is associated with telomere length in Ashkenazi
+centenarians. Proc Natl Acad Sci USA. 2010;107(1):1710-1717. doi
+10.1073/pnas.0906191106</p><p>Bartas M., &#268;erve&#328; J., Valkov&#225; N., Voln&#225; A., Dobrovoln&#225; M.,
+&#352;islerov&#225; L., Baldvinsson H., Pe&#269;inka P., Br&#225;zda V. RNA analysis
+of the longest living vertebrate Greenland shark revealed an abundance
+of LINE-like elements in its transcriptome. Czech Polar Rep.
+2023;13(2):210-227. doi 10.5817/CPR2023-2-17</p><p>Basova L., Begum S., Strahl J., Sukhotin A., Brey T., Philipp E.,
+Abele D. Age-dependent patterns of antioxidants in Arctica islandica
+from six regionally separate populations with different lifespans.
+Aquat Biol. 2012;14(2):141-152. doi 10.3354/ab00387</p><p>Bernardes De Jesus B., Vera E., Schneeberger K., Tejera A.M.,
+Ayuso
+E., Bosch F., Blasco M.A. Telomerase gene therapy in adult
+and old mice delays aging and increases longevity without increasing
+cancer. EMBO Mol Med. 2012;4(8):691-704. doi 10.1002/
+emmm.201200245</p><p>Bowden T.J., Kraev I., Lange S. Extracellular vesicles and post-translational
+protein deimination signatures in haemolymph of the American
+lobster (Homarus americanus). Fish Shellfish Immunol. 2020;
+106:79-102. doi 10.1016/j.fsi.2020.06.053</p><p>Buddhachat K., Kriangwanich W., Kumoun I., Brown J.L., Chailangkarn
+S., Somgird C., Thitaram C., Prasitwattanaseree S., Nganvongpanit
+K. Telomeric attrition with increasing age in short- (Chihuahua
+dog) and long- (Asian elephant) life span animals. Kafkas Univ Vet
+Fak Derg. 2017;23(4):643-649. doi 10.9775/kvfd.2017.17504</p><p>Buddhachat K., Brown J.L., Kaewkool M., Poommouang A., Kaewmong
+P., Kittiwattanawong K., Nganvongpanit K. Life expectancy
+in marine mammals is unrelated to telomere length but is associated
+with body size. Front Genet. 2021;12:737860. doi 10.3389/
+fgene.2021.737860</p><p>Bythell J.C., Brown B.E., Kirkwood T.B.L. Do reef corals age? Biol Rev
+Camb Philos Soc. 2018;93(2):1192-1202. doi 10.1111/brv.12391</p><p>Calado R.T., Dumitriu B. Telomere dynamics in mice and humans.
+Semin Hematol. 2013;50(2):165-174. doi 10.1053/j.seminhematol.
+2013.03.030</p><p>Chusyd D.E., Ackermans N.L., Austad S.N., Hof P.R., Mielke M.M.,
+Sherwood C.C., Allison D.B. Aging: what we can learn from elephants.
+Front Aging. 2021;2:726714. doi 10.3389/fragi.2021.726714</p><p>Crawley J.A.H., Mumby H.S., Chapman S.N., Lahdenper&#228; M.,
+Mar K.U., Htut W., Thura Soe A., Aung H.H., Lummaa V. Is bigger
+better? The relationship between size and reproduction in female
+Asian elephants. J Evol Biol. 2017;30(10):1836-1845. doi 10.1111/
+jeb.13143</p><p>Criscuolo F., Dobson F.S., Schull Q. The influence of phylogeny and
+life history on telomere lengths and telomere rate of change among
+bird species: a meta&#8208;analysis. Ecol Evol. 2021;11(19):12908-12922.
+doi 10.1002/ece3.7931</p><p>Dom&#237;nguez-de-Barros A., Sifaoui I., Borecka Z., Dorta-Guerra R., Lorenzo-
+Morales J., Castro-Fuentes R., C&#243;rdoba-Lan&#250;s E. An approach
+to the effects of longevity, sexual maturity, and reproduction on
+telomere length and oxidative stress in different Psittacidae species.
+Front Genet. 2023;14:1156730. doi 10.3389/fgene.2023.1156730</p><p>Dom&#237;nguez-de-Barros A., Sifaoui I., Dorta-Guerra R., Lorenzo-Morales
+J., Castro-Fuentes R., C&#243;rdoba-Lan&#250;s E. Telomere- and oxidative
+stress dynamics in Psittacidae species with different longevity
+trajectories. GeroScience. 2024. doi 10.1007/s11357-024-01397-5</p><p>Du C., Anderson A., Lortie M., Parsons R., Bodnar A. Oxidative
+damage
+and cellular defense mechanisms in sea urchin models of
+aging.
+Free Radic Biol Med. 2013;63:254-263. doi 10.1016/j.free
+radbiomed.2013.05.023</p><p>Ebert T.A. Negative senescence in sea urchins. Exp Gerontol. 2019;
+122:92-98. doi 10.1016/j.exger.2019.04.018</p><p>Foley N.M., Hughes G.M., Huang Z., Clarke M., Jebb D., Whelan C.V.,
+Petit E.J., &#8230; Kerth G., Rebelo H., Rodrigues L., Puechmaille S.J.,
+Teeling E.C. Growing old, yet staying young: the role of telomeres
+in bats&#8217; exceptional longevity. Sci Adv. 2018;4(2):eaao0926. doi
+10.1126/sciadv.aao0926</p><p>Foley N.M., Petit E.J., Brazier T., Finarelli J.A., Hughes G.M., Touzalin
+F., Puechmaille S.J., Teeling E.C. Drivers of longitudinal telomere
+dynamics in a long&#8208;lived bat species, Myotis myotis. Mol Ecol.
+2020;29(16):2963-2977. doi 10.1111/mec.15395</p><p>Foote C.G., Daunt F., Gonz&#225;lez-Sol&#237;s J., Nasir L., Phillips R.A.,
+Monaghan P. Individual state and survival prospects: age, sex, and
+telomere length in a long-lived seabird. Behav Ecol. 2011;22(1):
+156-161. doi 10.1093/beheco/arq178</p><p>Francis N., Gregg T., Owen R., Ebert T., Bodnar A. Lack of age&#8208;associated
+telomere shortening in long&#8208; and short&#8208;lived species of sea
+urchins. FEBS Lett. 2006;580(19):4713-4717. doi 10.1016/j.febslet.
+2006.07.049</p><p>Garg K.M., Lamba V., Sanyal A., Dovih P., Chattopadhyay B. Next
+generation sequencing revolutionizes organismal biology research
+in bats. J Mol Evol. 2023;91(4):391-404. doi 10.1007/s00239-023-
+10107-2</p><p>Gomes N.M.V., Ryder O.A., Houck M.L., Charter S.J., Walker W.,
+Forsyth N.R., Austad S.N., Venditti C., Pagel M., Shay J.W.,
+Wright W.E. Comparative biology of mammalian telomeres: hypotheses
+on ancestral states and the roles of telomeres in longevity
+determination. Aging Cell. 2011;10(5):761-768. doi 10.1111/j.1474-
+9726.2011.00718.x</p><p>Gruber H., Schaible R., Ridgway I.D., Chow T.T., Held C., Philipp
+E.E.R. Telomere-independent ageing in the longest-lived noncolonial
+animal, Arctica islandica. Exp Gerontol. 2014;51:38-45.
+doi 10.1016/j.exger.2013.12.014</p><p>Gruber H., Wessels W., Boynton P., Xu J., Wohlgemuth S., Leeuwenburgh
+C., Qi W., Austad S.N., Schaible R., Philipp E.E.R. Age-related
+cellular changes in the long-lived bivalve A. islandica. Age.
+2015;37(5):90. doi 10.1007/s11357-015-9831-8</p><p>Harper J.M., Holmes D.J. New perspectives on avian models for studies
+of basic aging processes. Biomedicines. 2021;9(6):649. doi 10.3390/
+biomedicines9060649</p><p>Haussmann M.F., Winkler D.W., Huntington C.E., Nisbet I.C.T.,
+Vleck C.M. Telomerase expression is differentially regulated in
+birds of differing life span. Ann NY Acad Sci. 2004;1019(1):186-190.
+doi 10.1196/annals.1297.029</p><p>Ineson K.M., O&#8217;Shea T.J., Kilpatrick C.W., Parise K.L., Foster J.T.
+Ambiguities in using telomere length for age determination in two
+North American bat species. J Mammal. 2020;101(4):958-969. doi
+10.1093/jmammal/gyaa064</p><p>Jenner L.P., Peska V., Fulne&#269;kov&#225; J., S&#253;korov&#225; E. Telomeres and their
+neighbors. Genes. 2022;13(9):1663. doi 10.3390/genes13091663</p><p>Kirkwood T.B.L. Evolution of ageing. Nature. 1977;270(5635):301-
+304. doi 10.1038/270301a0</p><p>Kirkwood T.B.L., Rose M.R. Evolution of senescence: late survival
+sacrificed for reproduction. Philos Trans R Soc Lond B Biol Sci.
+1991;332(1262):15-24. doi 10.1098/rstb.1991.0028</p><p>Klapper W., K&#252;hne K., Singh K.K., Heidorn K., Parwaresch R.,
+Krupp G. Longevity of lobsters is linked to ubiquitous telomerase
+expression. FEBS Lett. 1998;439(1-2):143-146. doi 10.1016/S0014-
+5793(98)01357-X</p><p>Koliada A.K., Krasnenkov D.S., Vaiserman A.M. Telomeric aging: mitotic
+clock or stress indicator? Front Genet. 2015;6:82. doi 10.3389/
+fgene.2015.00082</p><p>Koopman H.N., Westgate A.J., Siders Z.A. Declining fecundity and
+factors affecting embryo quality in the American lobster (Homarus
+americanus) from the Bay of Fundy. Can J Fish Aquat Sci. 2015;
+72(3):352-363. doi 10.1139/cjfas-2014-0277</p><p>Lagunas-Rangel F.A. Deciphering the whale&#8217;s secrets to have a long
+life. Exp Gerontol. 2021;151:111425. doi 10.1016/j.exger.2021.
+111425</p><p>Leonida S.R.L., Bennett N.C., Leitch A.R., Faulkes C.G. Patterns of
+telomere length with age in African mole-rats: new insights from
+quantitative fluorescence in situ hybridisation (qFISH). PeerJ.
+2020;8:e10498. doi 10.7717/peerj.10498</p><p>Lin J., Epel E. Stress and telomere shortening: insights from cellular
+mechanisms. Ageing Res Rev. 2022;73:101507. doi 10.1016/
+j.arr.2021.101507</p><p>Louzon M., Coeurdassier M., Gimbert F., Pauget B., De Vaufleury A.
+Telomere dynamic in humans and animals: review and perspectives
+in environmental toxicology. Environ Int. 2019;131:105025. doi
+10.1016/j.envint.2019.105025</p><p>Miller R.A., Harper J.M., Dysko R.C., Durkee S.J., Austad S.N. Longer
+life spans and delayed maturation in wild-derived mice. Exp
+Biol Med (Maywood). 2002;227(7):500-508. doi 10.1177/1535370
+20222700715</p><p>Mu&#241;oz-Lorente M.A., Cano-Martin A.C., Blasco M.A. Mice with hyper-
+long telomeres show less metabolic aging and longer lifespans.
+Nat Commun. 2019;10(1):4723. doi 10.1038/s41467-019-12664-x</p><p>Nehmens M.C., Varney R.M., Janosik A.M., Ebert D.A. An exploratory
+study of telomere length in the deep-sea shark, Etmopterus granulosus.
+Front Mar Sci. 2021;8:642872. doi 10.3389/fmars.2021.
+642872</p><p>Nguyen T.H.D. Structural biology of human telomerase: progress and
+prospects. Biochem Soc Trans. 2021;49(5):1927-1939. doi 10.1042/
+BST20200042</p><p>Nielsen J., Hedeholm R.B., Heinemeier J., Bushnell P.G., Christiansen
+J.S., Olsen J., Ramsey C.B., Brill R.W., Simon M., Steffensen
+K.F., Steffensen J.F. Eye lens radiocarbon reveals centuries
+of longevity in the Greenland shark (Somniosus microcephalus).
+Science.
+2016;353(6300):702-704. doi 10.1126/science.aaf1703</p><p>Olsen M.T., Robbins J., B&#233;rub&#233; M., Rew M.B., Palsb&#248;ll P.J. Utility of
+telomere length measurements for age determination of humpback
+whales. NAMMCO Sci Publ. 2014;10. doi 10.7557/3.3194</p><p>Polinski J.M., Kron N., Smith D.R., Bodnar A.G. Unique age-related
+transcriptional signature in the nervous system of the long-lived red
+sea urchin Mesocentrotus franciscanus. Sci Rep. 2020;10(1):9182.
+doi 10.1038/s41598-020-66052-3</p><p>Polinski J.M., Zimin A.V., Clark K.F., Kohn A.B., Sadowski N.,
+Timp W., Ptitsyn A., Khanna P., Romanova D.Y., Williams P., Greenwood
+S.J., Moroz L.L., Walt D.R., Bodnar A.G. The American lobster
+genome reveals insights on longevity, neural, and immune adaptations.
+Sci Adv. 2021;7(26):eabe8290. doi 10.1126/sciadv.abe8290</p><p>Polinski J.M., Castellano K.R., Buckley K.M., Bodnar A.G. Genomic
+signatures of exceptional longevity and negligible aging in the longlived
+red sea urchin. Cell Rep. 2024;43(4):114021. doi 10.1016/
+j.celrep.2024.114021</p><p>Puechmaille S.J., Frick W.F., Kunz T.H., Racey P.A., Voigt C.C., Wibbelt
+G., Teeling E.C. White-nose syndrome: is this emerging disease
+a threat to European bats? Trends Ecol Evol. 2011;26(11):570-576.
+doi 10.1016/j.tree.2011.06.013</p><p>Roark E.B., Guilderson T.P., Dunbar R.B., Fallon S.J., Mucciarone D.A.
+Extreme longevity in proteinaceous deep-sea corals. Proc Natl Acad
+Sci USA. 2009;106(13):5204-5208. doi 10.1073/pnas.0810875106</p><p>Rossiello F., Jurk D., Passos J.F., d&#8217;Adda Di Fagagna F. Telomere dysfunction
+in ageing and age-related diseases. Nat Cell Biol. 2022;
+24(2):135-147. doi 10.1038/s41556-022-00842-x</p><p>Rouan A., Pousse M., Tambutt&#233; E., Djerbi N., Zozaya W., Capasso L.,
+Zoccola D., Tambutt&#233; S., Gilson E. Telomere dysfunction is associated
+with dark&#8208;induced bleaching in the reef coral Stylophora pistillata.
+Mol Ecol. 2022;31(23):6087-6099. doi 10.1111/mec.16199</p><p>Rouan A., Pousse M., Djerbi N., Porro B., Bourdin G., Carradec Q.,
+Hume B.C., &#8230; Furla P., Voolstra C.R., Forcioli D., Lombard F.,
+Gilson E. Telomere DNA length regulation is influenced by seasonal
+temperature differences in short-lived but not in long-lived
+reef-building corals. Nat Commun. 2023;14(1):3038. doi 10.1038/
+s41467-023-38499-1</p><p>Sahm A., Bens M., Henning Y., Vole C., Groth M., Schwab M., Hoffmann
+S., Platzer M., Szafranski K., Dammann P. Higher gene expression
+stability during aging in long-lived giant mole-rats than
+in short-lived rats. Aging. 2018;10(12):3938-3956. doi 10.18632/
+aging.101683</p><p>Sea Urchin Genome Sequencing Consortium; Sodergren E., Weinstock
+G.M., Davidson E.H., Cameron R.A., Gibbs R.A., Angerer
+R.C., &#8230; Okwuonu G., Parker D., Pu L.-L., Thorn R., Wright R.
+The genome of the sea urchin Strongylocentrotus purpuratus.
+Science.
+2006;314(5801):941-952. doi 10.1126/science.1133609</p><p>Seluanov A., Chen Z., Hine C., Sasahara T.H.C., Ribeiro A.A.C.M.,
+Catania K.C., Presgraves D.C., Gorbunova V. Telomerase activity
+coevolves with body mass, not lifespan. Aging Cell. 2007;6(1):
+45-52. doi 10.1111/j.1474-9726.2006.00262.x</p><p>Sergiev P.V., Artemov A.A., Prokhortchouk E.B., Dontsova O.A.,
+Berezkin
+G.V. Genomes of Strongylocentrotus franciscanus and
+Lytechinus variegatus: are there any genomic explanations for the
+two order of magnitude difference in the lifespan of sea urchins?
+Aging.
+2016;8(2):260-271. doi 10.18632/aging.100889</p><p>Smith A., Cook N., Cook K., Brown R., Woodgett R., Veron J., Saylor
+V. Field measurements of a massive Porites coral at Goolboodi
+(Orpheus Island), Great Barrier Reef. Sci Rep. 2021;11(1):15334.
+doi 10.1038/s41598-021-94818-w</p><p>Smoom R., May C.L., Ortiz V., Tigue M., Kolev H.M., Rowe M.,
+Reizel Y., Morgan A., Egyes N., Lichtental D., Skordalakes E.,
+Kaestner K.H., Tzfati Y. Telomouse &#8211; a mouse model with humanlength
+telomeres generated by a single amino acid change in RTEL1.
+Nat Commun. 2023;14(1):6708. doi 10.1038/s41467-023-42534-6</p><p>Terry D.F., Nolan V.G., Andersen S.L., Perls T.T., Cawthon R. Association
+of longer telomeres with better health in centenarians.
+J Gerontol A Biol Sci Med Sci. 2008;63(8):809-812. doi 10.1093/
+gerona/63.8.809</p><p>Tricola G.M., Simons M.J.P., Atema E., Boughton R.K., Brown J.L.,
+Dearborn D.C., Divoky G., &#8230; Wheelwright N.T., Winkler D.W.,
+Young R., Vleck C.M., Haussmann M.F. The rate of telomere loss
+is related to maximum lifespan in birds. Phil Trans R Soc B. 2018;
+373(1741):20160445. doi 10.1098/rstb.2016.0445</p><p>Tsuta H., Shinzato C., Satoh N., Hidaka M. Telomere shortening in the
+colonial coral Acropora digitifera during development. Zoolog Sci.
+2014;31(3):129-134. doi 10.2108/zsj.31.129</p><p>Vera E., Bernardes de Jesus B., Foronda M., Flores J.M., Blasco M.A.
+The rate of increase of short telomeres predicts longevity in mammals.
+Cell Rep. 2012;2(4):732-737. doi 10.1016/j.celrep.2012.08.023</p><p>Yang W., Hu Y., Cui S. Fighting with aging: the secret for keeping
+health and longevity of naked mole rats. Aging Dis. 2024;16(1):
+137-145. doi 10.14336/AD.2024.0109</p><p>Young A.J. The role of telomeres in the mechanisms and evolution
+of life-history trade-offs and ageing. Phil Trans R Soc B. 2018;
+373(1741):20160452. doi 10.1098/rstb.2016.0452</p><p>Zade N.H., Khattar E. POT1 mutations cause differential effects on
+telomere length leading to opposing disease phenotypes. J Cell
+Physiol. 2023;238(6):1237-1255. doi 10.1002/jcp.31034</p><p>Zaug A.J., Goodrich K.J., Song J.J., Sullivan A.E., Cech T.R. Reconstitution
+of a telomeric replicon organized by CST. Nature. 2022;
+608(7924):819-825. doi 10.1038/s41586-022-04930-8</p></sec></body><back><ack><p>The research conducted by V.J. and A.N.A. was funded by the Sirius Federal Territory. Agreement 18-03, project MB-BFT-2403.</p></ack></back></article></pmc-articleset>

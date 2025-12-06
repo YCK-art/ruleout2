@@ -1,0 +1,549 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10917680</article-id><article-id pub-id-type="pmcid-ver">PMC10917680.1</article-id><article-id pub-id-type="pmcaid">10917680</article-id><article-id pub-id-type="pmcaiid">10917680</article-id><article-id pub-id-type="pmid">38465251</article-id><article-id pub-id-type="doi">10.18699/vjgb-24-14</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Association of three single nucleotide polymorphisms
+in the LPIN1 gene with milk production traits
+in cows of the Yaroslavl breed</article-title><trans-title-group xml:lang="ru"><trans-title>&#1040;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1103; &#1090;&#1088;&#1077;&#1093; &#1086;&#1076;&#1085;&#1086;&#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1085;&#1099;&#1093; &#1087;&#1086;&#1083;&#1080;&#1084;&#1086;&#1088;&#1092;&#1080;&#1079;&#1084;&#1086;&#1074;
+&#1074; &#1075;&#1077;&#1085;&#1077; LPIN1 &#1089; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1077;&#1083;&#1103;&#1084;&#1080; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1081; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080;
+&#1091; &#1082;&#1086;&#1088;&#1086;&#1074; &#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Igoshin</surname><given-names initials="AV">A.V.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mishakova</surname><given-names initials="TM">T.M.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Aitnazarov</surname><given-names initials="RB">R.B.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ilina</surname><given-names initials="AV">A.V.</given-names></name><aff>
+<institution>Federal Williams Research Center for Forage Production and Agroecology, Scientific Research Institute of Livestock Breeding and Forage Production,
+Yaroslavl Region, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Larkin</surname><given-names initials="DM">D.M.</given-names></name><aff>
+<institution>Royal Veterinary College, University of London, London, United Kingdom</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yudin</surname><given-names initials="NS">N.S.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: N.S. Yudin
+<email>yudin@bionet.nsc.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>2</month><year>2024</year></pub-date><volume>28</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">457344</issue-id><fpage>117</fpage><lpage>125</lpage><history><date date-type="received"><day>01</day><month>12</month><year>2023</year></date><date date-type="rev-recd"><day>15</day><month>1</month><year>2024</year></date><date date-type="accepted"><day>15</day><month>1</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>02</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>08</day><month>03</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-10-15 12:25:40.110"><day>15</day><month>10</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-28-2414.pdf"/><abstract><p>Lipin-1 is a member of the evolutionarily conserved family of proteins and is expressed predominantly in adipose tissue and skeletal muscle. On the one hand, lipin-1 is an enzyme that catalyzes the dephosphorylation of phosphatidic acid to diacylglycerol (DAG) and thus participates in the metabolic pathways of biosynthesis of storage lipids in the cell, membrane phospholipids, and intracellular signaling molecules. On the other hand, lipin-1 is able to be transported from the cytoplasm to the nucleus and is a coactivator of lipid metabolism gene transcription. It was shown, using the analysis of single nucleotide polymorphism (SNP) associations, that the lipin-1 coding gene (LPIN1) is a promising candidate gene for milk production traits in Holstein and Brown Swiss cows. However, it is unclear how much of its effect depends on the breed. The Yaroslavl dairy cattle breed was created in the 18&#8211;19 centuries in Russia by breeding northern Great Russian cattle, which were short and poor productive, but well adapted to local climatic conditions and bad food base. It was shown by whole genome genotyping and sequencing that the Yaroslavl breed has unique genetics compared to Russian and other cattle breeds. The aim of the study was to assess the frequency of alleles and genotypes of three SNPs in the LPIN1 gene and to study the association of these SNPs with milk production traits in Yaroslavl cows. Blood samples from 142 cows of the Yaroslavl breed were obtained from two farms in the Yaroslavl region. Genotyping of SNPs was carried out by polymerase chain reaction-restriction fragment length polymorphism method. Associations of SNPs with 305-day milk yield, fat yield, fat percentages, protein yield, and protein percentages were studied from the first to the fourth lactation. Statistical tests were carried out using a mixed linear model, taking into account the relationship between individuals. We identified three SNPs &#8211; rs110871255, rs207681322 and rs109039955 with a frequency of a rare allele of 0.042&#8211;0.261 in Yaroslavl cows. SNP rs110871255 was associated with fat yield during the third and fourth lactations. SNP rs207681322 was associated with milk yield for the second, third and fourth lactations, as well as protein yield for the third lactation. Thus, we identified significant associations of SNPs rs207681322 and rs110871255 in the LPIN1 gene with a number of milk production traits during several lactations in Yaroslavl cows.</p></abstract><trans-abstract xml:lang="ru"><p>&#1051;&#1080;&#1087;&#1080;&#1085;-1 &#1103;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1095;&#1083;&#1077;&#1085;&#1086;&#1084; &#1101;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086;-&#1082;&#1086;&#1085;&#1089;&#1077;&#1088;&#1074;&#1072;&#1090;&#1080;&#1074;&#1085;&#1086;&#1075;&#1086; &#1089;&#1077;&#1084;&#1077;&#1081;&#1089;&#1090;&#1074;&#1072; &#1073;&#1077;&#1083;&#1082;&#1086;&#1074; &#1080; &#1101;&#1082;&#1089;&#1087;&#1088;&#1077;&#1089;&#1089;&#1080;&#1088;&#1091;&#1077;&#1090;&#1089;&#1103; &#1087;&#1088;&#1077;&#1080;&#1084;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086; &#1074; &#1078;&#1080;&#1088;&#1086;&#1074;&#1086;&#1081; &#1090;&#1082;&#1072;&#1085;&#1080; &#1080; &#1089;&#1082;&#1077;&#1083;&#1077;&#1090;&#1085;&#1099;&#1093; &#1084;&#1099;&#1096;&#1094;&#1072;&#1093;. &#1057; &#1086;&#1076;&#1085;&#1086;&#1081; &#1089;&#1090;&#1086;&#1088;&#1086;&#1085;&#1099;, &#1083;&#1080;&#1087;&#1080;&#1085;-1 &#8211; &#1101;&#1090;&#1086; &#1092;&#1077;&#1088;&#1084;&#1077;&#1085;&#1090;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1081; &#1076;&#1077;&#1092;&#1086;&#1089;&#1092;&#1086;&#1088;&#1080;&#1083;&#1080;&#1088;&#1091;&#1077;&#1090; &#1092;&#1086;&#1089;&#1092;&#1072;&#1090;&#1080;&#1076;&#1085;&#1091;&#1102; &#1082;&#1080;&#1089;&#1083;&#1086;&#1090;&#1091; &#1076;&#1086; &#1076;&#1080;&#1072;&#1094;&#1080;&#1083;&#1075;&#1083;&#1080;&#1094;&#1077;&#1088;&#1080;&#1085;&#1072; &#1080; &#1090;&#1072;&#1082;&#1080;&#1084; &#1086;&#1073;&#1088;&#1072;&#1079;&#1086;&#1084; &#1091;&#1095;&#1072;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090; &#1074; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1091;&#1090;&#1103;&#1093; &#1073;&#1080;&#1086;&#1089;&#1080;&#1085;&#1090;&#1077;&#1079;&#1072; &#1079;&#1072;&#1087;&#1072;&#1089;&#1085;&#1099;&#1093; &#1083;&#1080;&#1087;&#1080;&#1076;&#1086;&#1074; &#1074; &#1082;&#1083;&#1077;&#1090;&#1082;&#1077;, &#1092;&#1086;&#1089;&#1092;&#1086;&#1083;&#1080;&#1087;&#1080;&#1076;&#1086;&#1074; &#1084;&#1077;&#1084;&#1073;&#1088;&#1072;&#1085;&#1099; &#1080; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1082;&#1083;&#1077;&#1090;&#1086;&#1095;&#1085;&#1099;&#1093; &#1089;&#1080;&#1075;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1084;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;. &#1057; &#1076;&#1088;&#1091;&#1075;&#1086;&#1081; &#1089;&#1090;&#1086;&#1088;&#1086;&#1085;&#1099;, &#1083;&#1080;&#1087;&#1080;&#1085;-1 &#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1077;&#1085; &#1090;&#1088;&#1072;&#1085;&#1089;&#1087;&#1086;&#1088;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;&#1089;&#1103; &#1080;&#1079; &#1094;&#1080;&#1090;&#1086;&#1087;&#1083;&#1072;&#1079;&#1084;&#1099; &#1074; &#1103;&#1076;&#1088;&#1086; &#1080; &#1089;&#1083;&#1091;&#1078;&#1080;&#1090; &#1082;&#1086;&#1072;&#1082;&#1090;&#1080;&#1074;&#1072;&#1090;&#1086;&#1088;&#1086;&#1084; &#1090;&#1088;&#1072;&#1085;&#1089;&#1082;&#1088;&#1080;&#1087;&#1094;&#1080;&#1080; &#1075;&#1077;&#1085;&#1086;&#1074; &#1083;&#1080;&#1087;&#1080;&#1076;&#1085;&#1086;&#1075;&#1086; &#1084;&#1077;&#1090;&#1072;&#1073;&#1086;&#1083;&#1080;&#1079;&#1084;&#1072;. &#1057; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;&#1084; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1081; &#1086;&#1076;&#1085;&#1086;&#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1085;&#1099;&#1093; &#1087;&#1086;&#1083;&#1080;&#1084;&#1086;&#1088;&#1092;&#1080;&#1079;&#1084;&#1086;&#1074; (&#1054;&#1053;&#1055;) &#1073;&#1099;&#1083;&#1086; &#1087;&#1086;&#1082;&#1072;-
+&#1079;&#1072;&#1085;&#1086;, &#1095;&#1090;&#1086; &#1075;&#1077;&#1085; &#1083;&#1080;&#1087;&#1080;&#1085;&#1072;-1 (LPIN1) &#1103;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1087;&#1077;&#1088;&#1089;&#1087;&#1077;&#1082;&#1090;&#1080;&#1074;&#1085;&#1099;&#1084; &#1075;&#1077;&#1085;&#1086;&#1084;-&#1082;&#1072;&#1085;&#1076;&#1080;&#1076;&#1072;&#1090;&#1086;&#1084; &#1087;&#1088;&#1080;&#1079;&#1085;&#1072;&#1082;&#1086;&#1074; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1081; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080; &#1091;
+&#1082;&#1086;&#1088;&#1086;&#1074; &#1075;&#1086;&#1083;&#1096;&#1090;&#1080;&#1085;&#1089;&#1082;&#1086;&#1081; &#1080; &#1073;&#1091;&#1088;&#1086;&#1081; &#1096;&#1074;&#1080;&#1094;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;. &#1054;&#1076;&#1085;&#1072;&#1082;&#1086; &#1085;&#1077;&#1103;&#1089;&#1085;&#1086;, &#1085;&#1072;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1077;&#1075;&#1086; &#1101;&#1092;&#1092;&#1077;&#1082;&#1090; &#1079;&#1072;&#1074;&#1080;&#1089;&#1080;&#1090; &#1086;&#1090; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099;. &#1071;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1072;&#1103; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1072;&#1103; &#1087;&#1086;&#1088;&#1086;&#1076;&#1072; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072; &#1073;&#1099;&#1083;&#1072; &#1074;&#1099;&#1074;&#1077;&#1076;&#1077;&#1085;&#1072; &#1074; XVIII&#8211;XIX &#1074;&#1074;. &#1074; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080; &#1087;&#1091;&#1090;&#1077;&#1084; &#1088;&#1072;&#1079;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#171;&#1074; &#1089;&#1077;&#1073;&#1077;&#187;
+&#1089;&#1077;&#1074;&#1077;&#1088;&#1085;&#1086;&#1075;&#1086; &#1074;&#1077;&#1083;&#1080;&#1082;&#1086;&#1088;&#1091;&#1089;&#1089;&#1082;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1081; &#1073;&#1099;&#1083; &#1085;&#1080;&#1079;&#1082;&#1086;&#1088;&#1086;&#1089;&#1083;&#1099;&#1084; &#1080; &#1084;&#1072;&#1083;&#1086;&#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1099;&#1084;, &#1085;&#1086; &#1093;&#1086;&#1088;&#1086;&#1096;&#1086; &#1072;&#1076;&#1072;&#1087;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1084; &#1082;
+&#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1084; &#1082;&#1083;&#1080;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103;&#1084; &#1080; &#1089;&#1082;&#1091;&#1076;&#1085;&#1086;&#1081; &#1082;&#1086;&#1088;&#1084;&#1086;&#1074;&#1086;&#1081; &#1073;&#1072;&#1079;&#1077;. &#1057; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1087;&#1086;&#1083;&#1085;&#1086;&#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1086;&#1075;&#1086; &#1075;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1080; &#1089;&#1077;&#1082;&#1074;&#1077;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1073;&#1099;&#1083;&#1086; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1085;&#1086;, &#1095;&#1090;&#1086; &#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1072;&#1103; &#1087;&#1086;&#1088;&#1086;&#1076;&#1072; &#1086;&#1073;&#1083;&#1072;&#1076;&#1072;&#1077;&#1090; &#1091;&#1085;&#1080;&#1082;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1082;&#1086;&#1081; &#1087;&#1086; &#1089;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1102; &#1089; &#1088;&#1086;&#1089;&#1089;&#1080;&#1081;&#1089;&#1082;&#1080;&#1084;&#1080;
+&#1080; &#1079;&#1072;&#1088;&#1091;&#1073;&#1077;&#1078;&#1085;&#1099;&#1084;&#1080; &#1087;&#1086;&#1088;&#1086;&#1076;&#1072;&#1084;&#1080; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;. &#1062;&#1077;&#1083;&#1100;&#1102; &#1088;&#1072;&#1073;&#1086;&#1090;&#1099; &#1073;&#1099;&#1083;&#1072; &#1086;&#1094;&#1077;&#1085;&#1082;&#1072; &#1095;&#1072;&#1089;&#1090;&#1086;&#1090;&#1099; &#1072;&#1083;&#1083;&#1077;&#1083;&#1077;&#1081; &#1080; &#1075;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1086;&#1074; &#1090;&#1088;&#1077;&#1093;
+&#1054;&#1053;&#1055; &#1074; &#1075;&#1077;&#1085;&#1077; LPIN1 &#1080; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1080; &#1101;&#1090;&#1080;&#1093; &#1054;&#1053;&#1055; &#1089; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1077;&#1083;&#1103;&#1084;&#1080; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1081; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080; &#1091; &#1082;&#1086;&#1088;&#1086;&#1074; &#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099;. &#1054;&#1073;&#1088;&#1072;&#1079;&#1094;&#1099; &#1082;&#1088;&#1086;&#1074;&#1080; &#1086;&#1090; 142 &#1082;&#1086;&#1088;&#1086;&#1074; &#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1073;&#1099;&#1083;&#1080; &#1087;&#1086;&#1083;&#1091;&#1095;&#1077;&#1085;&#1099; &#1080;&#1079; &#1076;&#1074;&#1091;&#1093; &#1093;&#1086;&#1079;&#1103;&#1081;&#1089;&#1090;&#1074; &#1071;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;. &#1043;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1054;&#1053;&#1055; &#1074;&#1099;&#1087;&#1086;&#1083;&#1085;&#1103;&#1083;&#1080; &#1084;&#1077;&#1090;&#1086;&#1076;&#1086;&#1084; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; &#1087;&#1086;&#1083;&#1080;&#1084;&#1086;&#1088;&#1092;&#1080;&#1079;&#1084;&#1072; &#1076;&#1083;&#1080;&#1085; &#1088;&#1077;&#1089;&#1090;&#1088;&#1080;&#1082;&#1094;&#1080;&#1086;&#1085;&#1085;&#1099;&#1093; &#1092;&#1088;&#1072;&#1075;&#1084;&#1077;&#1085;&#1090;&#1086;&#1074; &#1087;&#1086;&#1089;&#1083;&#1077;
+&#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1087;&#1086;&#1083;&#1080;&#1084;&#1077;&#1088;&#1072;&#1079;&#1085;&#1086;&#1081; &#1094;&#1077;&#1087;&#1085;&#1086;&#1081; &#1088;&#1077;&#1072;&#1082;&#1094;&#1080;&#1080;. &#1040;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1080; &#1054;&#1053;&#1055; &#1089; &#1091;&#1076;&#1086;&#1077;&#1084;, &#1074;&#1099;&#1093;&#1086;&#1076;&#1086;&#1084; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1075;&#1086; &#1078;&#1080;&#1088;&#1072; &#1080; &#1073;&#1077;&#1083;&#1082;&#1072;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1089;
+&#1087;&#1088;&#1086;&#1094;&#1077;&#1085;&#1090;&#1085;&#1099;&#1084; &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1072;&#1085;&#1080;&#1077;&#1084; &#1078;&#1080;&#1088;&#1072; &#1080; &#1073;&#1077;&#1083;&#1082;&#1072; &#1074; &#1084;&#1086;&#1083;&#1086;&#1082;&#1077; &#1079;&#1072; 305 &#1076;&#1085;&#1077;&#1081; &#1083;&#1072;&#1082;&#1090;&#1072;&#1094;&#1080;&#1080; &#1073;&#1099;&#1083;&#1080; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1099; &#1089; &#1087;&#1077;&#1088;&#1074;&#1086;&#1081; &#1087;&#1086; &#1095;&#1077;&#1090;&#1074;&#1077;&#1088;&#1090;&#1091;&#1102;
+&#1083;&#1072;&#1082;&#1090;&#1072;&#1094;&#1080;&#1102;. &#1044;&#1083;&#1103; &#1089;&#1090;&#1072;&#1090;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1083;&#1080; &#1089;&#1084;&#1077;&#1096;&#1072;&#1085;&#1085;&#1091;&#1102; &#1083;&#1080;&#1085;&#1077;&#1081;&#1085;&#1091;&#1102; &#1084;&#1086;&#1076;&#1077;&#1083;&#1100; &#1089; &#1091;&#1095;&#1077;&#1090;&#1086;&#1084; &#1088;&#1086;&#1076;&#1089;&#1090;&#1074;&#1072; &#1084;&#1077;&#1078;&#1076;&#1091; &#1080;&#1085;&#1076;&#1080;&#1074;&#1080;&#1076;&#1072;&#1084;&#1080;. &#1055;&#1088;&#1080; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; &#1082;&#1086;&#1088;&#1086;&#1074; &#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1074;&#1099;&#1103;&#1074;&#1080;&#1083;&#1080; &#1090;&#1088;&#1080; &#1054;&#1053;&#1055;: rs110871255, rs207681322 &#1080; rs109039955
+&#1089; &#1095;&#1072;&#1089;&#1090;&#1086;&#1090;&#1086;&#1081; &#1088;&#1077;&#1076;&#1082;&#1086;&#1075;&#1086; &#1072;&#1083;&#1083;&#1077;&#1083;&#1103; 0.042&#8211;0.261. &#1054;&#1053;&#1055; rs110871255 &#1073;&#1099;&#1083; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085; &#1089; &#1074;&#1099;&#1093;&#1086;&#1076;&#1086;&#1084; &#1078;&#1080;&#1088;&#1072; &#1079;&#1072; &#1090;&#1088;&#1077;&#1090;&#1100;&#1102; &#1080; &#1095;&#1077;&#1090;&#1074;&#1077;&#1088;&#1090;&#1091;&#1102;
+&#1083;&#1072;&#1082;&#1090;&#1072;&#1094;&#1080;&#1080;, rs207681322 &#1073;&#1099;&#1083; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085; &#1089; &#1091;&#1076;&#1086;&#1077;&#1084; &#1079;&#1072; &#1074;&#1090;&#1086;&#1088;&#1091;&#1102;, &#1090;&#1088;&#1077;&#1090;&#1100;&#1102; &#1080; &#1095;&#1077;&#1090;&#1074;&#1077;&#1088;&#1090;&#1091;&#1102; &#1083;&#1072;&#1082;&#1090;&#1072;&#1094;&#1080;&#1080;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1089; &#1074;&#1099;&#1093;&#1086;&#1076;&#1086;&#1084; &#1073;&#1077;&#1083;&#1082;&#1072;
+&#1079;&#1072; &#1090;&#1088;&#1077;&#1090;&#1100;&#1102; &#1083;&#1072;&#1082;&#1090;&#1072;&#1094;&#1080;&#1102;. &#1058;&#1072;&#1082;&#1080;&#1084; &#1086;&#1073;&#1088;&#1072;&#1079;&#1086;&#1084;, &#1084;&#1099; &#1074;&#1099;&#1103;&#1074;&#1080;&#1083;&#1080; &#1076;&#1086;&#1089;&#1090;&#1086;&#1074;&#1077;&#1088;&#1085;&#1099;&#1077; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1080; &#1054;&#1053;&#1055; rs207681322 &#1080; rs110871255 &#1074; &#1075;&#1077;&#1085;&#1077;
+LPIN1 &#1089; &#1088;&#1103;&#1076;&#1086;&#1084; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1077;&#1083;&#1077;&#1081; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1081; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080; &#1074; &#1093;&#1086;&#1076;&#1077; &#1085;&#1077;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1080;&#1093; &#1083;&#1072;&#1082;&#1090;&#1072;&#1094;&#1080;&#1081; &#1091; &#1082;&#1086;&#1088;&#1086;&#1074; &#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099;.</p></trans-abstract><kwd-group><kwd>cow</kwd><kwd>Yaroslavl breed</kwd><kwd>milk yield</kwd><kwd>fat percentage</kwd><kwd>protein percentage</kwd><kwd>fat yield</kwd><kwd>protein yield</kwd><kwd>LPIN1 gene</kwd><kwd>single nucleotide polymorphism</kwd><kwd>association</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1082;&#1086;&#1088;&#1086;&#1074;&#1072;</kwd><kwd>&#1103;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;&#1089;&#1082;&#1072;&#1103; &#1087;&#1086;&#1088;&#1086;&#1076;&#1072;</kwd><kwd>&#1091;&#1076;&#1086;&#1081;</kwd><kwd>&#1087;&#1088;&#1086;&#1094;&#1077;&#1085;&#1090; &#1078;&#1080;&#1088;&#1072;</kwd><kwd>&#1087;&#1088;&#1086;&#1094;&#1077;&#1085;&#1090; &#1073;&#1077;&#1083;&#1082;&#1072;</kwd><kwd>&#1074;&#1099;&#1093;&#1086;&#1076; &#1078;&#1080;&#1088;&#1072;</kwd><kwd>&#1074;&#1099;&#1093;&#1086;&#1076; &#1073;&#1077;&#1083;&#1082;&#1072;</kwd><kwd>&#1075;&#1077;&#1085; LPIN1</kwd><kwd>&#1086;&#1076;&#1085;&#1086;&#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1090;&#1080;&#1076;&#1085;&#1099;&#1081; &#1087;&#1086;&#1083;&#1080;&#1084;&#1086;&#1088;&#1092;&#1080;&#1079;&#1084;</kwd><kwd>&#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1072;&#1094;&#1080;&#1103;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>The most important economic trait in dairy farming is cow
+milk productivity which includes milk, fat and protein yields,
+and fat and protein percentage (Gutierrez-Reinoso et al.,
+2021). All of these characteristics are complex quantitative
+traits controlled by a large number of genes having little impact
+on phenotype (Weller et al., 2017; Silpa et al., 2021; Bekele
+et al., 2023; Singh et al., 2023). Recently, such methods as
+quantitative trait loci (QTL) mapping, genome-wide association
+studies (GWAS) (Bekele et al., 2023; Chen S.Y. et al.,
+2023; Teng et al., 2023), targeted RNA sequencing (RNA-seq)
+(Fang et al., 2020; Ahmad et al., 2021) and detecting signatures
+of selection in genomes (Rajawat et al., 2022; Nayak et al.,
+2023; Persichilli et al., 2023) have been widely applied to
+identify the genes and mutations directly affecting milk yield
+and milk composition (Khatkar et al., 2004; Weller, Ron,
+2011; Lopdell, 2023).</p><p>Previously, when analyzing the whole-genome genotyping
+(WGG) data, we identified selection signatures on chromosome
+11 in a group of European dairy and dual-purpose
+(Bestuzhev,
+Holstein, Kholmogory, Black Pied, and Yaroslavl)
+cattle breeds, and the top SNP was localized in the
+lipin-1 (LPIN1) gene (Yurchenko et al., 2018a). Other authors
+also found selection signatures in this gene when analyzing the
+WGG data of the Yaroslavl and Holstein breeds (Zinovieva et
+al., 2020). However, our study did not detect any selection signatures
+in the LPIN1 gene region when analyzing the wholegenome
+sequencing data of the Yaroslavl breed (Ruvinskiy
+et al., 2022), which may be due to both a high significance
+threshold (q = 0.01) and a different set of breeds (Holstein,
+Kholmogory,
+Yakut) used for comparison.</p><p>Lipin-1 is a member of an evolutionarily conserved family
+that is represented by three proteins (lipins 1, 2, and 3) in most
+vertebrates (Csaki et al., 2013; Siniossoglou, 2013; Chen Y. et
+al., 2015; Saydakova et al., 2021). Lipin-1 is expressed predominantly
+in adipose tissues, skeletal muscles and, to a lesser
+extent, in the liver, brain and other tissues (Reue, Zhang,
+2008). In one respect, it is a phosphohydrolase enzyme that
+dephosphorylates phosphatidic acid to diacylglycerol (DAG)
+and thus participates in the metabolic pathways for biosynthesis
+of cellular-storage lipids, membrane phospholipids,
+and intracellular signalling molecules. At the same time,
+lipin-1 is transported from the cytoplasm to the nucleus to
+coactivate lipid metabolism gene transcription. Although this
+protein lacks a DNA-binding domain, it has been shown to
+regulate transcription by interacting with other transcription
+factors (TF), e. g., it regulates adipocyte differentiation and
+functioning by interacting with the PPARgamma transcription
+factor (Kim et al., 2013), and fatty acid oxidation gene
+expression by interacting with the PPARalpha TF (Barroso et
+al., 2011). Also, lipin-1 binds to the mTORC1 protein complex
+and thus regulates the activity of the SREBP TF that, in turn,
+regulates multiple pathways for fatty acid, triglyceride and
+cholesterol biosynthesis (Peterson et al., 2011).</p><p>According to the NCBI Gene database, in cattle, the LPIN1
+gene spans about 136 Kb on chromosome 11, consists of
+25 exons, and encodes eight transcripts translated into proteins
+ranging in size from 895 to 1,010 amino acids (https://www.
+ncbi.nlm.nih.gov/gene/537224). LPIN1 mRNA expression in
+cow liver and mammary gland increases significantly at the
+peak of lactation compared to the beginning of lactation and
+dry periods (Bionaz, Loor, 2008; Li et al., 2020). Keeping
+lactating Holstein cows on a diet supplemented with fish and
+soybean oils to reduce milk fat yield caused an increase in
+LPIN1 mRNA expression in their subcutaneous adipose tissue
+(Thering et al., 2009). In vitro treatment of bovine mammary
+gland cells with rosiglitazone (BRL49653), a PPARgammaselective
+agonist, resulted in activation of LPIN1 mRNA expression
+(Kadegowda et al., 2009).</p><p>The rs137457402 and rs136905033 SNPs in this gene were
+associated with the content of five fatty acids in the milk of
+Brown Swiss cows (Pegolo et al., 2016). The rs137457402
+SNP was also associated with the percentage of protein content
+in the milk of the same cows (Cecchinato et al., 2014). Han B. et al. (2019) showed the relationship of seven SNPs
+with milk yield, fat or protein percentage, and fat or protein
+yield in Chinese Holsteins, yet most of these associations
+were revealed only for the first or second lactations. Two
+nonsynonymous SNPs in the sixth exon of the LPIN1 gene
+were associated with fat and protein percentages in the milk of
+Holstein-Friesian&#215;Jersey crossbred cows from New Zealand
+(Du et al., 2021). All of the above indicates that LPIN1 has
+been a promising candidate gene for milk productivity traits,
+but it is unclear to what extent its effect is breed-specific.</p><p>The Yaroslavl dairy breed was created in the 18&#8211;19th centuries
+in Russia in Yaroslavl Province (Dmitriev, 1978; Dmitriev,
+Ernst, 1989; Dunin, Dankvert, 2013; Stolpovsky et al., 2022).
+The animals are mostly black, with the head, belly, lower
+limbs and tip of the tail being white. They have characteristic
+black glasses-like markings around the eyes (see the Figure).
+The breed was created based on inter-se mating of Northern
+Great Russian cattle which was stunted and unproductive but
+well adapted to local climatic conditions and poor forage.
+The initial selection was based on the exterior and then on
+milk yield and fat percentage. In the 19&#8211;20th centuries, the
+Yaroslavl breed was crossbred with the Tyrolean, Angeln, Simmental,
+Algauz, Jersey, Dutch and Kholmogory cattle. In the
+USSR, crossbreeding with the Ostfriesian and Holstein bulls
+was also carried out. However, these crosses are believed to
+have had a small impact, as the Yaroslavl cattle have retained
+their specific exterior (Dmitriev, 1978; Dmitriev, Ernst, 1989;
+Stolpovsky et al., 2022).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Yaroslavl cattle.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2414-Fig1.jpg"/></fig><p>In 2022, the total breed population was about 30,000 animals
+that are characterized by high milk yield (6,590 kg for
+305 lactation days) and fat percentage (4.13 %) (Shichkin et
+al., 2023). WGG (Iso-Touru et al., 2016) and microsatellite
+analysis (Abdelmanova et al., 2020) have demonstrated that
+the Yaroslavl breed has unique genetic parameters compared
+to Russian and foreign livestock, and foreign breeds have
+had a minor impact on the Yaroslavl cattle&#8217;s gene pool (Sermyagin
+et al., 2018; Yurchenko et al., 2018b; Zinovieva et al.,
+2020).</p><p>The purpose of the present study was to estimate the allele
+and genotype frequencies of three SNPs in the LPIN1 gene and
+to study the association of these SNPs with milk productivity
+traits in Yaroslavl cows.</p></sec><sec><title>Materials and methods</title><p>As a material for the study, blood samples from 142 Yaroslavl
+cows from two farms of the Yaroslavl Region were used. The
+phenotypic data extracted from breeding record cards were
+provided by the Selex Information and Analytical System.</p><p>DNA extraction was performed using the standard phenolchloroform
+extraction method with preliminary proteolytic
+treatment (Sambrook, Russell, 2006). Genotyping of the
+rs110871255, rs109039955, and rs207681322 SNPs in the
+LPIN1 gene was carried out by restriction fragment length
+polymorphism (RFLP) analysis after polymerase chain reaction
+(PCR). Primers were designed using the Vector NTI software
+package (Lu, Moriyama, 2004). The specificity of each
+primer pair was evaluated in silico using the primer-BLAST
+algorithm (Ye et al., 2012). The primers, PCR reaction conditions
+and restriction enzymes are given in Supplementary
+Material 11. The test for deviation from Hardy&#8211;Weinberg equilibrium
+and linkage disequilibrium between the studied SNPs
+(LD) were calculated in PLINK v1.9 (--ld option) (Purcell et al., 2007). For this purpose, the genotypic data were converted
+to the PED format recognized by the program</p><p>
+<fn id="suppl"><p>Supplementary Materials are available in the online version of the paper:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/manager/files/Suppl_Igoshin_Engl_28_1.pdf" ext-link-type="uri">https://vavilov.elpub.ru/jour/manager/files/Suppl_Igoshin_Engl_28_1.pdf</ext-link></p></fn>
+</p><p>The studied associations included those related to such
+traits as milk, milk fat and protein yields as well as milk fat
+and protein percentages for 305 lactation days. Data from four
+lactations were included in the analysis. If a cow&#8217;s lactation
+period was less than 305 days, its milk, fat and protein yields
+for this period were standardized to 305 days by the formula
+(Wiggans, Van Vleck, 1979):</p><fig position="float" id="Formula-1" orientation="portrait"><label>Formula. 1.</label><caption><title>Formula. 1</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2414-Formula1.jpg"/></fig><p>Here, Y305 is the expected productivity for 305 days; n is
+the actual lactation duration in days; Yn is the productivity
+for the actual lactation period; Fn is Shook&#8217;s factor for the
+n-th day to account for the decrease in productivity during
+lactation (Hillers, Williams, 1981). This factor is calculated
+based on the productivity data for the animals with lactation
+duration &#8805; 305 days as</p><fig position="float" id="Formula-2" orientation="portrait"><label>Formula. 2.</label><caption><title>Formula. 2</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2414-Formula2.jpg"/></fig><p>where RY is the difference between the 305-day productivity
+and that for n days; and LP is the productivity at the n-th day.
+The daily data required to calculate the corresponding values
+were derived from cumulative productivity curves (Supplementary
+Material 2). The protein and fat percentages for incomplete
+lactations were calculated from the data standardized
+to 305 days.</p><p>Statistical analysis was performed using the mixed linear
+model implemented in the &#8220;lme4qtl&#8221; R package (&#8220;relmatLmer&#8221;
+function) (Ziyatdinov et al., 2018). This model allows one to
+account for genetic relationships between individuals by modelling
+polygenic effects based on a kinship matrix. The matrix
+was calculated using the &#8220;kinship2&#8221; R package (&#8220;kinship&#8221;
+function) (Sinnwell et al., 2014), based on the animal pedigree
+data from their breeding record cards. Genotypes were coded
+as 0, 1, and 2 implying the additive contribution of SNP alleles
+to a trait. The cows&#8217; birth and calving (one preceding the lactation
+period) seasons were used as additional predictors. Since
+the error in calculating the expected milk yield for 305 days
+was probably higher for shorter lactations, the analysis was
+performed using the &#8220;weights&#8221; option of the &#8220;relmatLmer&#8221;
+function. For lactation periods of 305 days or more, a weight
+of 305 was taken, and for shorter durations, one equal to the
+actual number of lactation days. The Benjamini&#8211;Hochberg
+method (Benjamini, Hochberg, 1995) implemented in the
+&#8220;qvalue&#8221; R package (the &#8220;qvalue&#8221; function with &#8220;lambda=0&#8221;
+parameter) was applied to correct for multiple comparisons
+(Storey et al., 2023).</p></sec><sec><title>Results</title><p>Target fragments were successfully amplified for 136
+(rs109039955), 130 (rs207681322) and 109 (rs110871255) animals.
+All three studied SNPs were found to be polymorphic
+in the studied sample (Table 1). The genotype distributions
+of rs207681322 and rs110871255 deviated significantly from
+Hardy&#8211;Weinberg equilibrium ( p = 0.0141 and p = 0.0039, respectively),
+and that of rs109039955 did not. The LD between
+the studied SNPs was r2 = 0.098, D&#8242; = 0.853 for rs109039955
+and rs207681322; r2 = 0.003, D&#8242; = 0.061 for rs109039955
+and rs110871255; r2 = 0.001, D&#8242; = 0.088 for rs207681322
+and rs110871255.</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>Characteristics of the genotyped SNPs</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2414-Tab1.jpg"/></fig><p>Statistical tests revealed a total of six associations of two
+SNPs with three milk production traits from the 2nd to 4th lactations
+(Table 2). No associations of all three SNPs were detected
+for the first lactation. For the second lactation, one SNP
+(rs207681322) was associated with milk yield (q = 0.043). For
+the third lactation period, one SNP (rs110871255) was associated
+with fat yield (q = 0.0135) and another (rs207681322)
+with milk (q = 2.54E&#8211;04) and protein (q = 0.021) yields. For
+the fourth period, one SNP (rs110871255) was associated
+with fat yield (q = 0.0348) and another (rs207681322) with
+milk yield (q = 0.021).</p><fig position="float" id="Tab-2" orientation="portrait"><label>Table 2.</label><caption><title>Associations of the studied SNPs with milk productivity traits from 1st to 4th lactations
+and their corresponding phenotypic values (mean &#177; standard deviation) for different genotypes</title><p>The statistically significant associations (q &lt;0.05) are indicated in bold.
+* Only animals having respective phenotypic data were accounted for. The markedly lower number of animals genotyped for rs110871255 was due to the limited
+amount of DNA available for analysis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2414-Tab2.jpg"/></fig><p>Therefore, rs110871255 was associated with fat yield during
+the third and fourth lactations, and rs207681322 with milk
+yield in the second, third and fourth lactations as well as with
+protein yield in the third lactation.</p></sec><sec><title>Discussion</title><p>In the studied Yaroslavl cows, three SNPs (rs110871255,
+rs207681322 and rs10903995) with a rare allele frequency
+of 0.042&#8211;0.261 were identified. For the rs207681322 and
+rs110871255 loci, genotype distributions differed significantly from those expected by Hardy&#8211;Weinberg equilibrium due to an
+excess of rare homozygotes, which may be due to inbreeding,
+gene drift, or selection in farm animal populations (Hedrick,
+2005). Such deviations are often observed in studies of microsatellite
+DNA markers or SNPs in different cattle breeds
+(Melka, Schenkel, 2012; Madilindi et al., 2020; Ocampo et al.,
+2021). It is noteworthy that tests for Hardy&#8211;Weinberg equilibrium
+deviation are used to verify random mating in populations,
+while tests for deviations from expected homozygote
+frequency are performed to estimate inbreeding coefficients
+(Haldane, 1984; Robertson, Hill, 1984). The LD between the
+studied SNPs in Yaroslavl cows differs significantly from that
+described previously for the same SNPs in Chinese Holstein
+cows (Han B. et al., 2019), but these patterns are known to vary
+significantly between cattle breeds (Porto-Neto et al., 2014).</p><p>For two SNPs, we found significant associations with such
+traits as milk, fat and protein yields across multiple lactations,
+e. g., allele A of rs207681322 had a positive effect on the cows&#8217;
+milk and protein yields. Previously, these associations were
+found in the first or second lactation in Chinese Holsteins
+(Han B. et al., 2019). In our study, the &#1040; allele of rs110871255
+positively affected fat yield. However, in Holstein cows, the
+same allele was associated with increased fat percentage
+during
+the second lactation period (Han B. et al., 2019).</p><p>Unlike Han B. et al. (2019), the associations we found were
+in subsequent lactations rather than in the first one, which may
+be due to both genetic (different breeds) and environmental
+(different breeding conditions) factors. It should be emphasized
+that there is still no consensus on the effect hereditary
+factors have on milk productivity during lactation. While some
+authors believe that the heritability of these traits in the Holstein
+breed for the first lactation is higher than for subsequent
+ones (Dimov et al., 1995; Yamazaki et al., 2016; Lee et al.,
+2020), the latest large-scale study of nearly 3.5 million records
+from over 1 million Holstein cows found increased heritability
+of milk, fat and protein yields specifically in lactations 3
+and 4 compared to lactations 1 and 2 (Williams et al., 2022),
+which agrees well with our results. Milk yield heritability for
+individual test days has been significantly higher during the
+third lactation compared to the first lactation in holsteinized
+native cattle from Thailand (Buaban et al., 2020) and Sahiwal
+cows from Kenya (Ilatsia et al., 2007).</p><p>The associations we found correspond well with the data
+of other authors on the effect LPIN1 has on lactation, lipid
+biosynthesis and general metabolic levels. The gene&#8217;s mRNA
+expression has significantly increased during lactation in the
+mammary gland of humans (Mohammad, Haymond, 2013),
+pigs (Lv et al., 2015) and mice (Han L.Q. et al., 2010). SNP in
+the LPIN1 gene is associated with the percentage of visceral
+and intramuscular fat in pigs (He et al., 2009). The gene&#8217;s mutation
+leading to the expression of a truncated protein causes
+lipodystrophy in rats (Mul et al., 2011). The FLD mice with
+mutated LPIN1 have a phenotype similar to that of hereditary
+lipodystrophy in humans characterized by subcutaneous fat
+loss, hepatic steatosis, insulin resistance, etc. (P&#233;terfy et al.,
+2001). Conversely, LPIN1 overexpression in adipose tissues
+or skeletal muscles causes obesity in transgenic mice (Phan,
+Reue, 2005). Moreover, while LPIN1 expression in adipose
+tissue stimulates adipocytes to accumulate fat, in muscle tissue
+its expression affects the whole body&#8217;s energy expenditure
+(temperature; food and oxygen consumption). Suppression of
+LPIN1 expression in muscle cells in vitro has led to insulin
+resistance (Huang et al., 2017). At the same time, a negative
+correlation was observed between LPIN1 mRNA levels in
+adipose tissue and blood glucose/insulin concentrations in
+humans and mice (Suviolahti et al., 2006). The same authors
+found the SNPs in the LPIN1 gene are associated with blood
+insulin levels in dyslipidemia families (Suviolahti et al., 2006).
+In their opinion, LPIN1 plays an essential role in glucose
+homeostasis and its genetic variants affect metabolism traits.
+Indeed, genetic variations of the gene are associated with the
+development of some metabolic syndromes in humans (Brahe
+et al., 2013; Zhang et al., 2013).</p></sec><sec id="Conclusion"><title>Conclusion</title><p>Our study has found the rs207681322 and rs110871255 SNPs
+in the LPIN1 gene have statistically significant associations
+with some milk productivity traits during several lactations in
+the Yaroslavl cows to be previously found by other authors in
+the Holstein breed. The results obtained can be used in markerassisted
+and genomic selection for dairy cattle breeding.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Abdelmanova A.S., Kharzinova V.R., Volkova V.V., Mishina A.I., Dotsev
+A.V., Sermyagin A.A., Boronetskaya O.I., Petrikeeva L.V.,
+Chinarov R.Y., Brem G., Zinovieva N.A. Genetic diversity of historical
+and modern populations of Russian cattle breeds revealed
+by microsatellite analysis. Genes (Basel). 2020;11(8):940. DOI
+10.3390/genes11080940</p><p>Ahmad S.M., Bhat B., Bhat S.A., Yaseen M., Mir S., Raza M., Iquebal
+M.A., Shah R.A., Ganai N.A. SNPs in mammary gland epithelial
+cells unraveling potential difference in milk production between
+Jersey and Kashmiri cattle using RNA sequencing. Front. Genet.
+2021;12:666015. DOI 10.3389/fgene.2021.666015</p><p>Barroso E., Rodr&#237;guez-Calvo R., Serrano-Marco L., Astudillo A.M.,
+Balsinde J., Palomer X., V&#225;zquez-Carrera M. The PPAR&#946;/&#948; activator
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="GW501516">GW501516</ext-link> prevents the down-regulation of AMPK caused by
+a high-fat diet in liver and amplifies the PGC-1&#945;-Lipin 1-PPAR&#945;
+pathway leading to increased fatty acid oxidation. Endocrinology.
+2011;152(5):1848-1859. DOI 10.1210/en.2010-1468</p><p>Bekele R., Taye M., Abebe G., Meseret S. Genomic regions and candidate
+genes associated with milk production traits in Holstein and
+its crossbred cattle: a review. Int. J. Genomics. 2023;2023:8497453.
+DOI 10.1155/2023/8497453</p><p>Benjamini Y., Hochberg Y. Controlling the false discovery rate: a practical
+and powerful approach to multiple testing. J. R. Stat. Soc. Ser. B
+Methodol. 1995;57(1):289-300. DOI 10.1111/j.2517-6161.1995.tb
+02031</p><p>Bionaz M., Loor J.J. ACSL1, AGPAT6, FABP3, LPIN1, and SLC27A6
+are the most abundant isoforms in bovine mammary tissue and their
+expression is affected by stage of lactation. J. Nutr. 2008;138(6):
+1019-1024. DOI 10.1093/jn/138.6.1019</p><p>Brahe L.K., &#196;ngquist L., Larsen L.H., Vimaleswaran K.S., Hager J.,
+Viguerie N., Loos R.J., Handjieva-Darlenska T., Jebb S.A., Hlavaty
+P., Larsen T.M., Martinez J.A., Papadaki A., Pfeiffer A.F.,
+van Baak M.A., S&#248;rensen T.I., Holst C., Langin D., Astrup A., Saris
+W.H. Influence of SNPs in nutrient-sensitive candidate genes and
+gene-diet interactions on blood lipids: the DiOGenes study. Br. J.
+Nutr. 2013;110(5):790-796. DOI 10.1017/S0007114512006058</p><p>Buaban S., Puangdee S., Duangjinda M., Boonkum W. Estimation of
+genetic parameters and trends for production traits of dairy cattle
+in Thailand using a multiple-trait multiple-lactation test day model.Asian-Australas. J. Anim. Sci. 2020;33(9):1387-1399. DOI 10.5713/
+ajas.19.0141</p><p>Cecchinato A., Ribeca C., Chessa S., Cipolat-Gotet C., Maretto F., Casellas
+J., Bittante G. Candidate gene association analysis for milk
+yield, composition, urea nitrogen and somatic cell scores in Brown
+Swiss cows. Animal. 2014;8(7):1062-1070. DOI 10.1017/S175173
+1114001098</p><p>Chen S.Y., Gloria L.S., Pedrosa V.B., Doucette J., Boerman J.P., Brito
+L.F. Unravelling the genomic background of resilience based on
+variability in milk yield and milk production levels in North American
+Holstein cattle through GWAS and Mendelian randomization
+analyses. J. Dairy Sci. 2023;107:1035-1053. DOI 10.3168/jds.2023-
+23650</p><p>Chen Y., Rui B.B., Tang L.Y., Hu C.M. Lipin family proteins &#8211; key
+regulators in lipid metabolism. Ann. Nutr. Metab. 2015;66(1):10-18.
+DOI 10.1159/000368661</p><p>Csaki L.S., Dwyer J.R., Fong L.G., Tontonoz P., Young S.G., Reue K.
+Lipins, lipinopathies, and the modulation of cellular lipid storage
+and signaling. Prog. Lipid Res. 2013;52(3):305-316. DOI 10.1016/
+j.plipres.2013.04.001</p><p>Dimov G., Albuquerque L.G., Keown J.F., Van Vleck L.D., Norman
+H.D. Variance of interaction effects of sire and herd for yield
+traits of Holsteins in California, New York, and Pennsylvania with
+an animal model. J. Dairy Sci. 1995;78(4):939-946. DOI 10.3168/
+jds.S0022-0302(95)76709-1</p><p>Dmitriev N.G. Breed Cattle by Countries of the World. Leningrad: Kolos
+Publ., 1978 (in Russian)</p><p>Dmitriev N.G., Ernst L.K. (Eds.) Animal Genetics Resources of the
+USSR. Rome: Food and Agriculture Organization of the United Nations,
+1989</p><p>Du X., Zhou H., Liu X., Li Y., Hickford J.G.H. Sequence variation in
+the bovine lipin-1 gene (LPIN1) and its association with milk fat
+and protein contents in New Zealand Holstein-Friesian &#215; Jersey
+(HF &#215; J)-cross dairy cows. Animals (Basel). 2021;11(11):3223. DOI
+10.3390/ani11113223</p><p>Dunin I.M., Dankvert A.G. (Eds.) Breeds and Types of Farm Animals
+in the Russian Federation. Moscow: All-Russia Research Institute of
+Animal Breeding, 2013 (in Russian)</p><p>Fang L., Cai W., Liu S., Canela-Xandri O., Gao Y., Jiang J., Rawlik K.,
+Li B., Schroeder S.G., Rosen B.D., Li C.J., Sonstegard T.S., Alexander
+L.J., Van Tassell C.P., Van Raden P.M., Cole J.B., Yu Y.,
+Zhang S., Tenesa A., Ma L., Liu G.E. Comprehensive analyses of
+723 transcriptomes enhance genetic and biological interpretations
+for complex traits in cattle. Genome Res. 2020;30(5):790-801. DOI
+10.1101/gr.250704.119</p><p>Gutierrez-Reinoso M.A., Aponte P.M., Garcia-Herreros M. Genomic
+analysis, progress and future perspectives in dairy cattle selection:
+a review. Animals (Basel). 2021;11(3):599. DOI 10.3390/ani11030
+599</p><p>Haldane J.B.S. An exact test for randomness of mating. J. Genet. 1954;
+52:631-635. DOI 10.1007/BF02985085</p><p>Han B., Yuan Y., Liang R., Li Y., Liu L., Sun D. Genetic effects of
+LPIN1 polymorphisms on milk production traits in dairy cattle.
+Genes (Basel). 2019;10(4):265. DOI 10.3390/genes10040265</p><p>Han L.Q., Li H.J., Wang Y.Y., Zhu H.S., Wang L.F., Guo Y.J., Lu W.F.,
+Wang Y.L., Yang G.Y. mRNA abundance and expression of SLC27A,
+ACC, SCD, FADS, LPIN, INSIG, and PPARGC1 gene isoforms in
+mouse mammary glands during the lactation cycle. Genet. Mol. Res.
+2010;9(2):1250-1257. DOI 10.4238/vol9-2gmr814</p><p>He X.P., Xu X.W., Zhao S.H., Fan B., Yu M., Zhu M.J., Li C.C.,
+Peng Z.Z., Liu B. Investigation of Lpin1 as a candidate gene for
+fat deposition in pigs. Mol. Biol. Rep. 2009;36(5):1175-1180. DOI
+10.1007/s11033-008-9294-4</p><p>Hedrick P.W. Genetics of Populations. Jones &lt; Bartlett Learning, 2005</p><p>Hillers J.K., Williams G.F. &#8220;Shook&#8221; factors and lactation milk yield.
+Extension Bull. (Wash. State Univ.). 1981;EB0779</p><p>Huang S., Huang S., Wang X., Zhang Q., Liu J., Leng Y. Downregulation
+of lipin-1 induces insulin resistance by increasing intracellular
+ceramide accumulation in C2C12 myotubes. Int. J. Biol. Sci.
+2017;13(1):1-12. DOI 10.7150/ijbs.17149</p><p>Ilatsia E.D., Muasya T.K., Muhuyi W.B., Kahi A.K. Genetic and
+phenotypic parameters for test day milk yield of Sahiwal cattle in
+the semi-arid tropics. Animal. 2007;1(2):185-192. DOI 10.1017/
+S175173110739263X</p><p>Iso-Touru T., Tapio M., Vilkki J., Kiseleva T., Ammosov I., Ivanova Z.,
+Popov R., Ozerov M., Kantanen J. Genetic diversity and genomic
+signatures of selection among cattle breeds from Siberia, eastern and
+northern Europe. Anim. Genet. 2016;47(6):647-657. DOI 10.1111/
+age.12473</p><p>Kadegowda A.K., Bionaz M., Piperova L.S., Erdman R.A., Loor J.J.
+Peroxisome proliferator-activated receptor-gamma activation and
+long-chain fatty acids alter lipogenic gene networks in bovine mammary
+epithelial cells to various extents. J. Dairy Sci. 2009;92(9):
+4276-4289. DOI 10.3168/jds.2008-1932</p><p>Khatkar M.S., Thomson P.C., Tammen I., Raadsma H.W. Quantitative
+trait loci mapping in dairy cattle: review and meta-analysis. Genet.
+Sel. Evol. 2004;36(2):163-190. DOI 10.1186/1297-9686-36-2-163</p><p>Kim H.E., Bae E., Jeong D.Y., Kim M.J., Jin W.J., Park S.W., Han G.S.,
+Carman G.M., Koh E., Kim K.S. Lipin1 regulates PPAR&#947; transcriptional
+activity. Biochem. J. 2013;453(1):49-60. DOI 10.1042/
+BJ20121598</p><p>Lee Y.M., Dang C.G., Alam M.Z., Kim Y.S., Cho K.H., Park K.D.,
+Kim J.J. The effectiveness of genomic selection for milk production
+traits of Holstein dairy cattle. Asian-Australas. J. Anim. Sci. 2020;
+33(3):382-389. DOI 10.5713/ajas.19.0546</p><p>Li Q., Liang R., Li Y., Gao Y., Li Q., Sun D., Li J. Identification of
+candidate genes for milk production traits by RNA sequencing on
+bovine liver at different lactation stages. BMC Genet. 2020;21(1):
+72. DOI 10.1186/s12863-020-00882-y</p><p>Lopdell T.J. Using QTL to identify genes and pathways underlying the
+regulation and production of milk components in cattle. Animals
+(Basel). 2023;13(5):911. DOI 10.3390/ani13050911</p><p>Lu G., Moriyama E.N. Vector NTI, a balanced all-in-one sequence
+analysis suite. Brief. Bioinform. 2004;5(4):378-388. DOI 10.1093/
+bib/5.4.378</p><p>Lv Y., Guan W., Qiao H., Wang C., Chen F., Zhang Y., Liao Z. Veterinary
+Medicine and Omics (Veterinomics): metabolic transition
+of milk triacylglycerol synthesis in sows from late pregnancy to
+lactation. OMICS. 2015;19(10):602-616. DOI 10.1089/omi.2015.
+0102</p><p>Madilindi M.A., Banga C.B., Bhebhe E., Sanarana Y.P., Nxumalo K.S.,
+Taela M.G., Magagula B.S., Mapholi N.O. Genetic diversity and
+relationships among three Southern African Nguni cattle populations.
+Trop. Anim. Health Prod. 2020;52(2):753-762. DOI 10.1007/
+s11250-019-02066-y</p><p>Melka M.G., Schenkel F.S. Analysis of genetic diversity in Brown
+Swiss, Jersey and Holstein populations using genome-wide single
+nucleotide polymorphism markers. BMC Res. Notes. 2012;5:161.
+DOI 10.1186/1756-0500-5-161</p><p>Mohammad M.A., Haymond M.W. Regulation of lipid synthesis genes
+and milk fat production in human mammary epithelial cells during
+secretory activation. Am. J. Physiol. Endocrinol. Metab. 2013;
+305(6):E700-E716. DOI 10.1152/ajpendo.00052.2013</p><p>Mul J.D., Nadra K., Jagalur N.B., Nijman I.J., Toonen P.W., M&#233;dard J.J.,
+Gr&#232;s S., de Bruin A., Han G.S., Brouwers J.F., Carman G.M., Saulnier-
+Blache J.S., Meijer D., Chrast R., Cuppen E. A hypomorphic
+mutation in Lpin1 induces progressively improving neuropathy and
+lipodystrophy in the rat. J. Biol. Chem. 2011;286(30):26781-26793.
+DOI 10.1074/jbc.M110.197947</p><p>Nayak S.S., Panigrahi M., Rajawat D., Ghildiyal K., Sharma A., Parida
+S., Bhushan B., Mishra B.P., Dutt T. Comprehensive selection
+signature analyses in dairy cattle exploiting purebred and crossbred genomic data. Mamm. Genome. 2023;34(4):615-631. DOI 10.1007/
+s00335-023-10021-4</p><p>Ocampo R.J., Mart&#237;nez J.F., Mart&#237;nez R. Assessment of genetic diversity
+and population structure of Colombian Creole cattle using microsatellites.
+Trop. Anim. Health Prod. 2021;53(1):122. DOI 10.1007/
+s11250-021-02563-z</p><p>Pegolo S., Cecchinato A., Mele M., Conte G., Schiavon S., Bittante G.
+Effects of candidate gene polymorphisms on the detailed fatty acids
+profile determined by gas chromatography in bovine milk. J. Dairy
+Sci. 2016;99(6):4558-4573. DOI 10.3168/jds.2015-10420</p><p>Persichilli C., Senczuk G., Mastrangelo S., Marusi M., van Kaam J.T.,
+Finocchiaro R., Di Civita M., Cassandro M., Pilla F. Exploring
+genome-wide differentiation and signatures of selection in Italian
+and North American Holstein populations. J. Dairy Sci. 2023;
+106(8):5537-5553. DOI 10.3168/jds.2022-22159</p><p>P&#233;terfy M., Phan J., Xu P., Reue K. Lipodystrophy in the fld mouse results
+from mutation of a new gene encoding a nuclear protein, lipin.
+Nat. Genet. 2001;27(1):121-124. DOI 10.1038/83685</p><p>Peterson T.R., Sengupta S.S., Harris T.E., Carmack A.E., Kang S.A., Balderas
+E., Guertin D.A., Madden K.L., Carpenter A.E., Finck B.N.,
+Sabatini D.M. mTOR complex 1 regulates lipin 1 localization
+to control the SREBP pathway. Cell. 2011;146(3):408-420. DOI
+10.1016/j.cell.2011.06.034</p><p>Phan J., Reue K. Lipin, a lipodystrophy and obesity gene. Cell Metab.
+2005;1(1):73-83. DOI 10.1016/j.cmet.2004.12.002</p><p>Porto-Neto L.R., Kijas J.W., Reverter A. The extent of linkage disequilibrium
+in beef cattle breeds using high-density SNP genotypes.
+Genet. Sel. Evol. 2014;46(1):22. DOI 10.1186/1297-9686-46-22</p><p>Purcell S., Neale B., Todd-Brown K., Thomas L., Ferreira M.A.,
+Bender D., Maller J., Sklar P., de Bakker P.I., Daly M.J., Sham P.C.
+PLINK: a tool set for whole-genome association and populationbased
+linkage analyses. Am. J. Hum. Genet. 2007;81(3):559-575.
+DOI 10.1086/519795</p><p>Rajawat D., Panigrahi M., Kumar H., Nayak S.S., Parida S., Bhushan B.,
+Gaur G.K., Dutt T., Mishra B.P. Identification of important genomic
+footprints using eight different selection signature statistics
+in domestic cattle breeds. Gene. 2022;816:146165. DOI 10.1016/
+j.gene.2021.146165</p><p>Reue K., Zhang P. The lipin protein family: dual roles in lipid biosynthesis
+and gene expression. FEBS Lett. 2008;582(1):90-96. DOI
+10.1016/j.febslet.2007.11.014</p><p>Robertson A., Hill W.G. Deviations from Hardy&#8211;Weinberg proportions:
+sampling variances and use in estimation of inbreeding coefficients.
+Genetics. 1984;107(4):703-718. DOI 10.1093/genetics/
+107.4.703</p><p>Ruvinskiy D., Igoshin A., Yurchenko A., Ilina A.V., Larkin D.M. Resequencing
+the Yaroslavl cattle genomes reveals signatures of selection
+and a rare haplotype on BTA28 likely to be related to breed
+phenotypes. Anim. Genet. 2022;53(5):680-684. DOI 10.1111/age.
+13230</p><p>Sambrook J., Russell D.W. The Condensed Protocols from Molecular
+Cloning: a Laboratory Manual. New York: Cold Spring Harbor
+Laboratory Press, 2006</p><p>Saydakova S.S., Morozova K.N., Kiseleva E.V. Lipin family proteins:
+structure, functions, and related diseases. Cell Tissue Biol. 2021;
+15(4):317-325. DOI 10.1134/S1990519X21040076</p><p>Sermyagin A.A., Dotsev A.V., Gladyr E.A., Traspov A.A., Deniskova
+T.E., Kostyunina O.V., Reyer H., Wimmers K., Barbato M.,
+Paronyan I.A., Plemyashov K.V., S&#246;lkner J., Popov R.G., Brem G.,
+Zinovieva N.A. Whole-genome SNP analysis elucidates the genetic
+structure of Russian cattle and its relationship with Eurasian taurine
+breeds. Genet. Sel. Evol. 2018;50(1):37. DOI 10.1186/s12711-018-
+0408-8</p><p>Shichkin G.I., Tyapugin E.E., Dunin I.M., Gerasimova E.V., Kozlova
+N.A., Myshkina M.S., Semenova N.V., Dunin M.I., Tyapugin
+S.E. The state of dairy cattle breeding in the Russian Federation.
+In: Yearbook on Breeding Work in Dairy Cattle Breeding in Farms
+of the Russian Federation. Moscow: All-Russia Research Institute of
+Animal Breeding, 2023;3-20 (in Russian)</p><p>Silpa M.V., K&#246;nig S., Sejian V., Malik P.K., Nair M.R.R., Fonseca
+V.F.C., Maia A.S.C., Bhatta R. Climate-resilient dairy cattle production:
+applications of genomic tools and statistical models. Front.
+Vet. Sci. 2021;8:625189. DOI 10.3389/fvets.2021.625189</p><p>Singh A., Malla W.A., Kumar A., Jain A., Thakur M.S., Khare V., Tiwari
+S.P. Review: genetic background of milk fatty acid synthesis in
+bovines. Trop. Anim. Health Prod. 2023;55(5):328. DOI 10.1007/
+s11250-023-03754-6</p><p>Siniossoglou S. Phospholipid metabolism and nuclear function: roles of
+the lipin family of phosphatidic acid phosphatases. Biochim. Biophys.
+Acta. 2013;1831(3):575-581. DOI 10.1016/j.bbalip.2012.09.014</p><p>Sinnwell J.P., Therneau T.M., Schaid D.J. The kinship2 R package
+for pedigree data. Hum. Hered. 2014;78(2):91-93. DOI 10.1159/
+000363105</p><p>Stolpovsky Yu.A., Gosteva E.R., Solodneva E.V. Genetic and Selection
+Aspects of the History of the Development of Cattle Breeding on
+the Territory of Russia. Moscow: Akvarel&#8217; Publ., 2022 (in Russian)</p><p>Storey J.D., Bass A.J., Dabney A., Robinson D. qvalue: Q-value estimation
+for false discovery rate control. R Package version 2.34.0. 2023.
+DOI 10.18129/B9.bioc.qvalue. (https://bioconductor.org/packages/
+qvalue)</p><p>Suviolahti E., Reue K., Cantor R.M., Phan J., Gentile M., Naukkarinen
+J., Soro-Paavonen A., Oksanen L., Kaprio J., Rissanen A., Salomaa
+V., Kontula K., Taskinen M.R., Pajukanta P., Peltonen L. Crossspecies
+analyses implicate Lipin 1 involvement in human glucose
+metabolism. Hum. Mol. Genet. 2006;15(3):377-386. DOI 10.1093/
+hmg/ddi448</p><p>Teng J., Wang D., Zhao C., Zhang X., Chen Z., Liu J., Sun D., Tang H.,
+Wang W., Li J., Mei C., Yang Z., Ning C., Zhang Q. Longitudinal
+genome-wide association studies of milk production traits in Holstein
+cattle using whole-genome sequence data imputed from medium-
+density chip data. J. Dairy Sci. 2023;106(4):2535-2550. DOI
+10.3168/jds.2022-22277</p><p>Thering B.J., Graugnard D.E., Piantoni P., Loor J.J. Adipose tissue lipogenic
+gene networks due to lipid feeding and milk fat depression in
+lactating cows. J. Dairy Sci. 2009;92(9):4290-4300. DOI 10.3168/
+jds.2008-2000</p><p>Weller J.I., Ron M. Invited review: quantitative trait nucleotide determination
+in the era of genomic selection. J. Dairy Sci. 2011;94(3):
+1082-1090. DOI 10.3168/jds.2010-3793</p><p>Weller J.I., Ezra E., Ron M. Invited review: a perspective on the future
+of genomic selection in dairy cattle. J. Dairy Sci. 2017;100(11):
+8633-8644. DOI 10.3168/jds.2017-12879</p><p>Wiggans G.R., Van Vleck L.D. Extending partial lactation milk and
+fat records with a function of last-sample production. J. Dairy Sci.
+1979;62(2):316-325. DOI 10.3168/jds.S0022-0302(79)83242-7</p><p>Williams M., Sleator R.D., Murphy C.P., McCarthy J., Berry D.P.
+Exploiting genetic variability in the trajectory of lactation yield
+and somatic cell score with each progressing parity. J. Dairy Sci.
+2022;105(4):3341-3354. DOI 10.3168/jds.2021-21306</p><p>Yamazaki T., Hagiya K., Takeda H., Osawa T., Yamaguchi S., Nagamine
+Y. Effects of stage of pregnancy on variance components, daily
+milk yields and 305-day milk yield in Holstein cows, as estimated
+by using a test-day model. Animal. 2016;10(8):1263-1270. DOI
+10.1017/S1751731116000185</p><p>Ye J., Coulouris G., Zaretskaya I., Cutcutache I., Rozen S., Madden
+T.L. Primer-BLAST: a tool to design target-specific primers for
+polymerase chain reaction. BMC Bioinformatics. 2012;13:134. DOI
+10.1186/1471-2105-13-134</p><p>Yurchenko A.A., Daetwyler H.D., Yudin N., Schnabel R.D., Vander
+Jagt C.J., Soloshenko V., Lhasaranov B., Popov R., Taylor J.F., Larkin D.M. Scans for signatures of selection in Russian cattle breed
+genomes reveal new candidate genes for environmental adaptation
+and acclimation. Sci. Rep. 2018a;8(1):12984. DOI 10.1038/s41598-
+018-31304-w</p><p>Yurchenko A., Yudin N., Aitnazarov R., Plyusnina A., Brukhin V.,
+Soloshenko V., Lhasaranov B., Popov R., Paronyan I.A., Plemyashov
+K.V., Larkin D.M. Genome-wide genotyping uncovers genetic
+profiles and history of the Russian cattle breeds. Heredity (Edinb).
+2018b;120(2):125-137. DOI 10.1038/s41437-017-0024-3</p><p>Zhang R., Jiang F., Hu C., Yu W., Wang J., Wang C., Ma X., Tang S.,
+Bao Y., Xiang K., Jia W. Genetic variants of LPIN1 indicate an association
+with Type 2 diabetes mellitus in a Chinese population.
+Diabet. Med. 2013;30(1):118-122. DOI 10.1111/j.1464-5491.2012.
+03758.x</p><p>Zinovieva N.A., Dotsev A.V., Sermyagin A.A., Deniskova T.E., Abdelmanova
+A.S., Kharzinova V.R., S&#246;lkner J., Reyer H., Wimmers K.,
+Brem G. Selection signatures in two oldest Russian native cattle
+breeds revealed using high-density single nucleotide polymorphism
+analysis. PLoS One. 2020;15(11):e0242200. DOI 10.1371/journal.
+pone.0242200</p><p>Ziyatdinov A., V&#225;zquez-Santiago M., Brunel H., Martinez-Perez A.,
+Aschard H., Soria J.M. lme4qtl: linear mixed models with flexible
+covariance structure for genetic studies of related individuals. BMC
+Bioinformatics. 2018;19(1):68. DOI 10.1186/s12859-018-2057-x</p></sec></body><back><ack><p>This work was supported by State Budgeted Project No. FWNR-2022-0039.</p></ack></back></article></pmc-articleset>

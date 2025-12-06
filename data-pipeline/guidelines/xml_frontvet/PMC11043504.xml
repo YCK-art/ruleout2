@@ -1,0 +1,626 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11043504</article-id><article-id pub-id-type="pmcid-ver">PMC11043504.1</article-id><article-id pub-id-type="pmcaid">11043504</article-id><article-id pub-id-type="pmcaiid">11043504</article-id><article-id pub-id-type="pmid">38680187</article-id><article-id pub-id-type="doi">10.18699/vjgb-24-23</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Influence of breed and environment
+on leukocyte telomere length in cattle</article-title><trans-title-group xml:lang="ru"><trans-title>&#1042;&#1083;&#1080;&#1103;&#1085;&#1080;&#1077; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1080; &#1089;&#1088;&#1077;&#1076;&#1099; &#1085;&#1072; &#1076;&#1083;&#1080;&#1085;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074;
+&#1091; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Yudin</surname><given-names initials="NS">N.S.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Igoshin</surname><given-names initials="AV">A.V.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Romashov</surname><given-names initials="GA">G.A.</given-names></name><aff>
+<institution>Institute of Cytology and Genetics of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Martynov</surname><given-names initials="AA">A.A.</given-names></name><aff>
+<institution>Arctic State Agrotechnological University, Yakutsk, Republic of Sakha (Yakutia), Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Larkin</surname><given-names initials="DM">D.M.</given-names></name><aff>
+<institution>Royal Veterinary College, University of London, London United Kingdom</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: D.M. Larkin
+<email>dlarkin@rvc.ac.uk</email></p></fn></author-notes><pub-date pub-type="ppub"><month>4</month><year>2024</year></pub-date><volume>28</volume><issue>2</issue><issue-id pub-id-type="pmc-issue-id">460996</issue-id><fpage>190</fpage><lpage>197</lpage><history><date date-type="received"><day>03</day><month>12</month><year>2023</year></date><date date-type="rev-recd"><day>25</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>25</day><month>12</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>04</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>26</day><month>04</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-01-03 15:25:21.240"><day>03</day><month>01</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-28-2423.pdf"/><abstract><p>High milk yield is associated with reduced longevity in high-producing dairy cattle breeds. Pre-term culling leads to high replacement heifer demand and economic losses for the dairy industry. Selection for this trait is limited because of low heritability and difficulties in phenotype measurement. Telomeres are elements found at the ends of chromosomes, consisting of repetitive DNA sequences, several thousand base pairs in length, coupled with nucleoprotein complexes. Eventually, in humans and most other animals, telomere length reduces with age. When telomeric DNA is truncated to a critical length, cell ageing, cell cycle arrest, and apoptosis are induced. As a result, telomere length can be considered as a predictor of health risks and an individual&#8217;s lifespan. The leukocyte telomere length may be used as a proxy phenotype of productive lifespan to improve cattle selection. Our objectives were to assess the effects of breed and breed group (dairy vs. beef) on the leukocyte telomere length and to estimate the effect of cold climate on this trait in Kalmyk cattle populations from the South (Rostov Oblast) and Far North (Republic of Sakha) regions of Russia. The leukocyte telomere lengths were estimated computationally from whole-genome resequencing data. We leveraged data on leukocyte telomere length, sex, and age of 239 animals from 17 cattle breeds. The breed factor had a significant effect on leukocyte telomere length across our sample. There was no difference in leukocyte telomere length between dairy and beef groups. The population factor had a significant effect on leukocyte telomere length in Kalmyk animals. In conclusion, we found that breed, but not breed group (dairy vs. beef), was significantly associated with leukocyte telomere length in cattle. Residence in colder climates was associated with longer leukocyte telomere length in Kalmyk breed cattle.</p></abstract><trans-abstract xml:lang="ru"><p>&#1042;&#1099;&#1089;&#1086;&#1082;&#1080;&#1077; &#1091;&#1076;&#1086;&#1080; &#1084;&#1086;&#1083;&#1086;&#1082;&#1072; &#1089;&#1086;&#1087;&#1088;&#1103;&#1078;&#1077;&#1085;&#1099; &#1089; &#1089;&#1086;&#1082;&#1088;&#1072;&#1097;&#1077;&#1085;&#1080;&#1077;&#1084; &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1078;&#1080;&#1079;&#1085;&#1080; &#1091; &#1074;&#1099;&#1089;&#1086;&#1082;&#1086;&#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1099;&#1093; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1099;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1089;&#1082;&#1086;&#1090;&#1072;. &#1055;&#1088;&#1077;&#1078;&#1076;&#1077;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1072;&#1103; &#1074;&#1099;&#1073;&#1088;&#1072;&#1082;&#1086;&#1074;&#1082;&#1072; &#1087;&#1088;&#1080;&#1074;&#1086;&#1076;&#1080;&#1090; &#1082; &#1079;&#1085;&#1072;&#1095;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1084; &#1101;&#1082;&#1086;&#1085;&#1086;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1087;&#1086;&#1090;&#1077;&#1088;&#1103;&#1084; &#1074; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1084; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1086;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077; &#1080; &#1091;&#1074;&#1077;&#1083;&#1080;&#1095;&#1077;&#1085;&#1080;&#1102; &#1087;&#1086;&#1090;&#1088;&#1077;&#1073;&#1085;&#1086;&#1089;&#1090;&#1080; &#1074; &#1088;&#1077;&#1084;&#1086;&#1085;&#1090;&#1085;&#1099;&#1093; &#1090;&#1077;&#1083;&#1082;&#1072;&#1093;. &#1054;&#1090;&#1073;&#1086;&#1088; &#1087;&#1086; &#1101;&#1090;&#1086;&#1084;&#1091; &#1087;&#1088;&#1080;&#1079;&#1085;&#1072;&#1082;&#1091; &#1079;&#1072;&#1090;&#1088;&#1091;&#1076;&#1085;&#1077;&#1085; &#1080;&#1079;-&#1079;&#1072; &#1085;&#1080;&#1079;&#1082;&#1086;&#1081; &#1085;&#1072;&#1089;&#1083;&#1077;&#1076;&#1091;&#1077;&#1084;&#1086;&#1089;&#1090;&#1080; &#1080; &#1089;&#1083;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1080; &#1080;&#1079;&#1084;&#1077;&#1088;&#1077;&#1085;&#1080;&#1103; &#1076;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1092;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1072;. &#1058;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;&#1099; &#8211; &#1101;&#1090;&#1086; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1099;, &#1085;&#1072;&#1093;&#1086;&#1076;&#1103;&#1097;&#1080;&#1077;&#1089;&#1103; &#1085;&#1072; &#1082;&#1086;&#1085;&#1094;&#1072;&#1093; &#1093;&#1088;&#1086;&#1084;&#1086;&#1089;&#1086;&#1084;, &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1097;&#1080;&#1077; &#1080;&#1079; &#1087;&#1086;&#1074;&#1090;&#1086;&#1088;&#1103;&#1102;&#1097;&#1080;&#1093;&#1089;&#1103; &#1087;&#1086;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081; &#1044;&#1053;&#1050; &#1076;&#1083;&#1080;&#1085;&#1086;&#1081; &#1074; &#1085;&#1077;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1090;&#1099;&#1089;&#1103;&#1095; &#1087;&#1072;&#1088; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081;, &#1089;&#1074;&#1103;&#1079;&#1072;&#1085;&#1085;&#1099;&#1093; &#1089; &#1085;&#1091;&#1082;&#1083;&#1077;&#1086;&#1087;&#1088;&#1086;&#1090;&#1077;&#1080;&#1085;&#1086;&#1074;&#1099;&#1084;&#1080; &#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1089;&#1072;&#1084;&#1080;. &#1059; &#1083;&#1102;&#1076;&#1077;&#1081; &#1080; &#1073;&#1086;&#1083;&#1100;&#1096;&#1080;&#1085;&#1089;&#1090;&#1074;&#1072; &#1076;&#1088;&#1091;&#1075;&#1080;&#1093; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093; &#1076;&#1083;&#1080;&#1085;&#1072; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1091;&#1084;&#1077;&#1085;&#1100;&#1096;&#1072;&#1077;&#1090;&#1089;&#1103; &#1089; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;&#1086;&#1084;. &#1050;&#1086;&#1075;&#1076;&#1072; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;&#1085;&#1072;&#1103; &#1044;&#1053;&#1050; &#1089;&#1086;&#1082;&#1088;&#1072;&#1097;&#1072;&#1077;&#1090;&#1089;&#1103; &#1076;&#1086; &#1082;&#1088;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1081; &#1076;&#1083;&#1080;&#1085;&#1099;, &#1080;&#1085;&#1076;&#1091;&#1094;&#1080;&#1088;&#1091;&#1102;&#1090;&#1089;&#1103; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;&#1099; &#1089;&#1090;&#1072;&#1088;&#1077;&#1085;&#1080;&#1103; &#1082;&#1083;&#1077;&#1090;&#1086;&#1082;, &#1086;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1082;&#1080; &#1082;&#1083;&#1077;&#1090;&#1086;&#1095;&#1085;&#1086;&#1075;&#1086; &#1094;&#1080;&#1082;&#1083;&#1072; &#1080; &#1072;&#1087;&#1086;&#1087;&#1090;&#1086;&#1079;&#1072;. &#1042; &#1088;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090;&#1077; &#1076;&#1083;&#1080;&#1085;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1084;&#1086;&#1078;&#1085;&#1086; &#1088;&#1072;&#1089;&#1089;&#1084;&#1072;&#1090;&#1088;&#1080;&#1074;&#1072;&#1090;&#1100; &#1082;&#1072;&#1082; &#1087;&#1088;&#1077;&#1076;&#1080;&#1082;&#1090;&#1086;&#1088; &#1088;&#1080;&#1089;&#1082;&#1086;&#1074; &#1076;&#1083;&#1103; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1103; &#1080; &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1078;&#1080;&#1079;&#1085;&#1080; &#1080;&#1085;&#1076;&#1080;&#1074;&#1080;&#1076;&#1072;. &#1044;&#1083;&#1080;&#1085;&#1072; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1084;&#1086;&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1072; &#1074; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1077; &#1089;&#1091;&#1088;&#1088;&#1086;&#1075;&#1072;&#1090;&#1085;&#1086;&#1075;&#1086; &#1092;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087;&#1072; &#1076;&#1083;&#1103; &#1087;&#1088;&#1080;&#1079;&#1085;&#1072;&#1082;&#1072; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1075;&#1086; &#1076;&#1086;&#1083;&#1075;&#1086;&#1083;&#1077;&#1090;&#1080;&#1103; &#1076;&#1083;&#1103; &#1091;&#1083;&#1091;&#1095;&#1096;&#1077;&#1085;&#1080;&#1103; &#1089;&#1077;&#1083;&#1077;&#1082;&#1094;&#1080;&#1080; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;. &#1062;&#1077;&#1083;&#1100;&#1102; &#1085;&#1072;&#1096;&#1077;&#1081; &#1088;&#1072;&#1073;&#1086;&#1090;&#1099; &#1073;&#1099;&#1083;&#1086; &#8211; &#1086;&#1094;&#1077;&#1085;&#1080;&#1090;&#1100; &#1074;&#1083;&#1080;&#1103;&#1085;&#1080;&#1077; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1080; &#1085;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080; (&#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1077; &#1080;&#1083;&#1080; &#1084;&#1103;&#1089;&#1085;&#1086;&#1077;) &#1085;&#1072; &#1076;&#1083;&#1080;&#1085;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1087;&#1088;&#1086;&#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1074;&#1083;&#1080;&#1103;&#1085;&#1080;&#1077; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1082;&#1083;&#1080;&#1084;&#1072;&#1090;&#1072; &#1085;&#1072; &#1101;&#1090;&#1086;&#1090; &#1087;&#1088;&#1080;&#1079;&#1085;&#1072;&#1082; &#1074; &#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1103;&#1093; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072; &#1082;&#1072;&#1083;&#1084;&#1099;&#1094;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1085;&#1072; &#1070;&#1075;&#1077; (&#1056;&#1086;&#1089;&#1090;&#1086;&#1074;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;) &#1080; &#1050;&#1088;&#1072;&#1081;&#1085;&#1077;&#1084; &#1057;&#1077;&#1074;&#1077;&#1088;&#1077; (&#1056;&#1077;&#1089;&#1087;&#1091;&#1073;&#1083;&#1080;&#1082;&#1072; &#1057;&#1072;&#1093;&#1072;) &#1056;&#1086;&#1089;&#1089;&#1080;&#1080;. &#1048;&#1079;&#1084;&#1077;&#1088;&#1077;&#1085;&#1080;&#1077; &#1076;&#1083;&#1080;&#1085;&#1099; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1086;&#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1083;&#1077;&#1085;&#1086; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1082;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;&#1085;&#1099;&#1093; &#1084;&#1077;&#1090;&#1086;&#1076;&#1086;&#1074; &#1085;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; &#1087;&#1086;&#1083;&#1085;&#1086;&#1075;&#1077;&#1085;&#1086;&#1084;&#1085;&#1086;&#1075;&#1086; &#1088;&#1077;&#1089;&#1077;&#1082;&#1074;&#1077;&#1085;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;. &#1052;&#1099; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1083;&#1080; &#1076;&#1072;&#1085;&#1085;&#1099;&#1077; &#1086; &#1076;&#1083;&#1080;&#1085;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074;, &#1087;&#1086;&#1083;&#1086;&#1074;&#1086;&#1081; &#1087;&#1088;&#1080;&#1085;&#1072;&#1076;&#1083;&#1077;&#1078;&#1085;&#1086;&#1089;&#1090;&#1080; &#1080; &#1074;&#1086;&#1079;&#1088;&#1072;&#1089;&#1090;&#1077; 239 &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093;, &#1086;&#1090;&#1085;&#1086;&#1089;&#1103;&#1097;&#1080;&#1093;&#1089;&#1103; &#1082; 17 &#1087;&#1086;&#1088;&#1086;&#1076;&#1072;&#1084; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;. &#1060;&#1072;&#1082;&#1090;&#1086;&#1088; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1086;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1077;&#1090; &#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1077; &#1074;&#1083;&#1080;&#1103;&#1085;&#1080;&#1077; &#1085;&#1072; &#1076;&#1083;&#1080;&#1085;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1074; &#1085;&#1072;&#1096;&#1077;&#1081; &#1074;&#1099;&#1073;&#1086;&#1088;&#1082;&#1077;. &#1044;&#1086;&#1089;&#1090;&#1086;&#1074;&#1077;&#1088;&#1085;&#1099;&#1093; &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1080;&#1081; &#1074; &#1076;&#1083;&#1080;&#1085;&#1077; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088;
+&#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1084;&#1077;&#1078;&#1076;&#1091; &#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1099;&#1084;&#1080; &#1080; &#1084;&#1103;&#1089;&#1085;&#1099;&#1084;&#1080; &#1075;&#1088;&#1091;&#1087;&#1087;&#1072;&#1084;&#1080; &#1085;&#1072;&#1084;&#1080; &#1085;&#1077; &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1086;. &#1047;&#1085;&#1072;&#1095;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1077; &#1074;&#1083;&#1080;&#1103;&#1085;&#1080;&#1077; &#1085;&#1072; &#1076;&#1083;&#1080;&#1085;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1091; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093; &#1082;&#1072;&#1083;&#1084;&#1099;&#1094;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1086;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1077;&#1090; &#1092;&#1072;&#1082;&#1090;&#1086;&#1088; &#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1080;. &#1058;&#1072;&#1082;&#1080;&#1084; &#1086;&#1073;&#1088;&#1072;&#1079;&#1086;&#1084;, &#1084;&#1099; &#1086;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1080;&#1083;&#1080;, &#1095;&#1090;&#1086; &#1080;&#1084;&#1077;&#1085;&#1085;&#1086; &#1087;&#1086;&#1088;&#1086;&#1076;&#1072;, &#1085;&#1086; &#1085;&#1077; &#1085;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1080; (&#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1086;&#1077; &#1080;&#1083;&#1080; &#1084;&#1103;&#1089;&#1085;&#1086;&#1077;), &#1076;&#1086;&#1089;&#1090;&#1086;&#1074;&#1077;&#1088;&#1085;&#1086; &#1074;&#1083;&#1080;&#1103;&#1083;&#1072; &#1085;&#1072;
+&#1076;&#1083;&#1080;&#1085;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1091; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;. &#1056;&#1072;&#1079;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1074; &#1073;&#1086;&#1083;&#1077;&#1077; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;&#1086;&#1084; &#1082;&#1083;&#1080;&#1084;&#1072;&#1090;&#1077; &#1073;&#1099;&#1083;&#1086; &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1086; &#1089; &#1073;&#1086;&#1083;&#1100;&#1096;&#1077;&#1081; &#1076;&#1083;&#1080;&#1085;&#1086;&#1081; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074; &#1091; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072; &#1082;&#1072;&#1083;&#1084;&#1099;&#1094;&#1082;&#1086;&#1081; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099;</p></trans-abstract><kwd-group><kwd>longevity</kwd><kwd>selection</kwd><kwd>cattle</kwd><kwd>breed</kwd><kwd>dairy</kwd><kwd>beef</kwd><kwd>environment</kwd><kwd>cold climate</kwd><kwd>leukocyte telomere length</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>&#1076;&#1086;&#1083;&#1075;&#1086;&#1083;&#1077;&#1090;&#1080;&#1077;</kwd><kwd>&#1089;&#1077;&#1083;&#1077;&#1082;&#1094;&#1080;&#1103;</kwd><kwd>&#1082;&#1088;&#1091;&#1087;&#1085;&#1099;&#1081; &#1088;&#1086;&#1075;&#1072;&#1090;&#1099;&#1081; &#1089;&#1082;&#1086;&#1090;</kwd><kwd>&#1084;&#1086;&#1083;&#1086;&#1095;&#1085;&#1099;&#1081;</kwd><kwd>&#1084;&#1103;&#1089;&#1085;&#1086;&#1081;</kwd><kwd>&#1093;&#1086;&#1083;&#1086;&#1076;&#1085;&#1099;&#1081; &#1082;&#1083;&#1080;&#1084;&#1072;&#1090;</kwd><kwd>&#1076;&#1083;&#1080;&#1085;&#1072; &#1090;&#1077;&#1083;&#1086;&#1084;&#1077;&#1088; &#1083;&#1077;&#1081;&#1082;&#1086;&#1094;&#1080;&#1090;&#1086;&#1074;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>High milk production correlates with poor longevity in highproducing
+cattle breeds, primarily Holstein Friesian (Hu et
+al., 2021). Pre-term culling leads to high replacement heifer
+demand and economic losses for the dairy industry (Grandl
+et al., 2019). There is a need to improve the longevity traits
+of dairy cattle. However, selection for these traits is limited
+because of low heritability and difficulties in phenotype measurement
+(Zhang H. et al., 2021).</p><p>Telomeres are elements found at the ends of chromosomes,
+consisting of repetitive DNA sequences, several thousand base
+pairs in length, coupled with nucleoprotein complexes (Jenner
+et al., 2022). They protect the chromosomes from degradation
+and inhibit aberrant rearrangements during cell division
+(Monaghan, Ozanne, 2018). Telomeres become shorter with
+every cell division due to the end replication problem (Chakravarti
+et al., 2021) but can be maintained through telomerase
+activity (Schrumpfov&#225;, Fajkus, 2020) and shelterin complex
+(de Lange, 2018). Eventually, in humans and most other animals,
+telomere length reduces with age (Blackburn et al., 2015;
+Whittemore et al., 2019). When telomeric DNA is truncated
+to a critical length, cell ageing, cell cycle arrest, and apoptosis
+are induced (Chakravarti et al., 2021; L&#243;pez-Ot&#237;n et al., 2023).
+As a result, telomere length can be considered as a predictor
+of health risks and an individual&#8217;s lifespan. Telomere length
+is correlated with many age-related conditions in humans
+(Armanios, 2022; Rossiello et al., 2022) and reduced life expectancy
+in humans and other species (Wilbourn et al., 2018;
+Liu et al., 2019; Crocco et al., 2021)</p><p>Telomeres in cattle shorten with age, similar to most other
+animals (Miyashita et al., 2002). Adult Holstein dams with
+short telomeres are more likely to be culled than dams with
+long telomeres (Brown et al., 2012). Productive lifespan in
+Holsteins was correlated with telomere length at birth (Ilska-
+Warner et al., 2019), at the age of one year (Seeker et al.,
+2018a), as well as telomere attrition rate (Seeker et al., 2021).
+The telomere length in the Agerolese breed, having a long
+lifespan, was significantly higher than that in the Holstein
+breed of the same age (Iannuzzi et al., 2022). Therefore,
+telomere length may be used as a proxy trait of lifespan and
+health to improve cattle selection.</p><p>Telomere length in cattle is a complex trait controlled by
+both genetics and environment. However, it is still unclear to
+what extent these factors influence this trait. A recent metaanalysis
+of the heritability of telomere length showed a moderate
+mean heritability of this trait (0.45) in 18 vertebrate species
+(Chik et al., 2022). Estimates of the heritability of telomere
+length, even in a single species (human), may range from 0.36
+(Andrew et al., 2006) to 0.70 (Broer et al., 2013). This variability
+in estimates appears to be due to different research
+methodologies.
+For example, in most studies, parents and
+offspring
+are of different ages. In statistical analyses, age is
+counted as a covariate, but this implies a linear relationship
+between telomere length and age, which is not always the case
+(Dugdale, Richardson, 2018).</p><p>The influence of environmental factors on telomere length
+has been well studied in human epidemiological studies. For
+example, a negative correlation was found between telomere
+length and emotional stress (Law et al., 2016), Western pattern
+diet (Rafie et al., 2017), cigarette smoking (Astuti et al.,
+2017), and environmental chemicals (Zhang X. et al., 2013).
+In birds, short telomeres or a high rate of telomere shortening
+have been associated with malaria infection (Asghar et
+al., 2016), increased brood size (Reichert et al., 2014), early
+postnatal stress (Herborn et al., 2014) and sibling competition
+(Mizutani et al., 2016).</p><p>Heritability estimates of leukocyte telomere length in Holstein
+cattle ranged from 0.32 to 0.47 (Seeker et al., 2018a, b).
+Fourteen candidate genes at birth and nine at first lactation
+were associated with this trait in this breed using a genomewide
+association study (Ilska-Warner et al., 2019). Our genome-
+wide association study of seventeen cattle breeds revealed
+several SNPs associated with bovine telomere length.
+We also confirmed the effects of loci reported by previous
+studies (Igoshin et al., 2023). Mastitis (Ilska-Warner et al.,
+2019), bovine leukaemia virus infection (Szczotka et al.,
+2019), oxidative stress (Ribas-Maynou et al., 2022), parturition
+and raising the first calf (O&#8217;Daniel et al., 2023), lameness
+(Ilska-Warner et al., 2019), and lactation (Laubenthal et al.,
+2016) have been found to be associated with cattle telomere
+length. The management of the farm and genetics are herdrelated
+factors that can significantly affect telomere length
+(Brown et al., 2012). However, the question remains unanswered:
+to what extent is telomere length in cattle determined
+by breed and influenced by environmental stressors, such as
+weather conditions?</p><p>There are two studies on the association of the animal breed
+and telomere length in cattle (Tilesi et al., 2010; Iannuzzi et
+al., 2022). Both studies found differences in telomere lengths
+between the two cattle breeds in the same tissues. However,
+it is unclear how widespread this phenomenon is across mul-tiple
+cattle breeds with different phylogenetic origins and
+ecogeographic breeding conditions. P. Kordowitzki et al.
+hypothesized
+that severely disturbed energy balance in highproducing
+dairy cows eventually leads to decreased regenerative
+capacity and premature senescence, which can beassessed by telomere length (Kordowitzki et al., 2021). The
+fraction of short telomeres in PBMCs of the high-producing
+Holstein-Friesian breed was higher than in the dual-purpose
+Polish Red breed, but this observation was not supported by
+a statistical test significance. Therefore, it remains unclear
+whether different breeds of cattle (dairy vs. beef) exhibit variation
+in telomere length</p><p>Seeker et al. suggested that heat may be an environmental
+stressor capable of causing telomere attrition (Seeker et al.,
+2021). They found a strong correlation between maximum
+summer temperature and telomere attrition in Holstein-
+Friesian cattle. Heat stress during gestation also affected the
+telomere length in newborn Holstein calves. A higher median
+temperature-humidity index during gestation resulted in calves
+born with shorter telomere lengths (Meesters et al., 2023).
+There are, however, no studies that investigate the influence
+of cold weather on telomere length in cattle. A single human
+study showed that prenatal temperature exposure below 5 &#176;C
+was associated with longer telomere length in newborn babies
+(Martens et al., 2019).</p><p>There are only two native beef cattle breeds in Russia:
+Kalmyk
+and its derivative Kazakh Whiteheaded breeds. It is believed
+that the Kalmyk cattle originated in Northwest China
+(Dzungaria) and was brought to Russia, to the Volga area, by
+migrating nomadic tribes in the seventeenth century (Dmitriev,
+Ernst, 1989). The Kalmyk breed was created under harsh
+conditions: the icy wind in winter or the hot sun in summer,
+frequent epizootics, etc. The specific traits of the Kalmyk
+breed include high viability, adaptation to the harsh climate,
+resistance to infections, long lifespan, thickening of the epidermis
+at the expense of the dermis in winter, abundance of
+sebaceous and sweat glands in the skin compared to other
+breeds (Dmitriev, Ernst, 1989). In Russia, the Kalmyk beef
+herd is mainly found in two regions: the Republic of Kalmykia
+and Rostov Oblast (Kayumov et al., 2014). This breed has
+also been reared in the Republic of Sakha (Yakutia) since 2013
+when about 200 Kalmyk cattle animals were imported from
+the Republic of Kalmykia (Sleptsov, Machakhtyrova, 2019).
+Yakutia has an extreme and severe climate, with the average
+winter temperature below &#8722;35 &#176;C.</p><p>The objectives of our study were (1) to assess the effects
+of breed and breed group (dairy vs. beef) on the leukocyte
+telomere length in the sample of 239 animals from 17 cattle
+breeds and (2) to estimate the effect of cold climate on this trait
+in Kalmyk cattle populations from the South and Far North
+regions of Russia. We hypothesized that high milk yield or
+extreme cold weather may be stress factors that may have led
+to a change in telomere length in cattle.</p></sec><sec><title>Materials and methods</title><p>Samples. In this work, we leveraged data on leukocyte telomere
+length, sex, and age of 239 animals from cattle breeds
+used in our previous study (Igoshin et al., 2023). The leukocyte
+telomere lengths have been estimated computationally from
+whole-genome resequencing data using TelSeq software (Ding
+et al., 2014), which is a frequently used program for this purpose
+and which has been confirmed by multiple experimental
+techniques (Ding et al., 2014; Cook et al., 2016; Pinese et al.,
+2020; Taub et al., 2022; Zhang D. et al., 2022). The details of
+the estimation procedure can be found in our previous work
+(Igoshin et al., 2023).</p><p>The breeds investigated are dairy (Russian Black Pied,
+Holstein, Kholmogory, Red Steppe, Yaroslavl), beef (Charolais,
+Hereford, Kalmyk, Kazakh Whiteheaded, Wagyu), and
+dual-purpose (Alatau, Bestuzhev, Buryat, Kostroma, Tagil,
+Ukrainian Grey, Yakut) (Dunin, Dankvert, 2013; Lhasaranov,
+2020). Among 30 individuals of the Kalmyk cattle breed
+(Supplementary Material 1)1, one group of animals (n = 10)
+was reared in Rostov Oblast (Mechetny settlement), while the
+other (n = 20) was from the Republic of Sakha (Kyuyorelyakh
+settlement). The climatic conditions in these locations differ
+substantially (see the Table). All the Kalmyk animals from
+both locations were raised in a stall-pasture system.</p><p>
+<fn id="suppl"><p>Supplementary Materials are available in the online version of the paper:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilovj-icg.ru/download/pict-2024-28/appx10.pdf" ext-link-type="uri">https://vavilovj-icg.ru/download/pict-2024-28/appx10.pdf</ext-link></p></fn>
+</p><p>Population structure. Even in the absence of selection,
+a founder effect or, more broadly, genetic drift could lead to
+genetic differentiation between two isolated populations of
+common origin. To ensure that two populations of the Kalmyk
+breed are genetically indistinguishable, we performed
+the principal component analysis using PLINK v.1.9 (Purcell
+et al., 2007) (--pca option) and the analysis of population
+structure using fastSTRUCTURE v1.0 (Raj et al., 2014). The
+fastSTRUCTURE program was run with K ranging from K = 2
+to K = 8. The resulting cluster memberships were visualized
+with PONG v.1.5 software (Behr et al., 2016). For both methods,
+we used an LD-pruned (PLINK: --indep-pairwise 5000
+100 0.1) dataset containing genotypes of 20,184 SNPs in
+116 animals (Kalmyk animals and individuals having SRA ID
+from Supplementary Material 1).</p><p>Statistical analysis. Like in many other studies, the distribution
+of LTL in our work was skewed. If not corrected, this
+violates the assumptions of parametric tests, thus affecting
+statistical power (Lantz, 2013). Therefore, associations with
+LTL were tested by using log-transformed LTL values (e. g.
+Leung et al., 2014; Lynch et al., 2016). To find out whether
+a breed factor contributes to LTL variation in cattle, we used ANOVA (&#8220;aov&#8221; R function) with log-transformed LTLs
+(log10(LTLs)) as a response variable and breed as a factor variable,
+accounting for age and sex: aov(logLTL ~ Age + Sex +
+Breed). To find out which breeds significantly differ from each
+other, we additionally performed a standard ANOVA post hoc
+test &#8211; Tukey&#8217;s HSD test utilising the &#8220;glht&#8221; function from the
+&#8220;multcomp&#8221; R package (Hothorn et al., 2008). Also, we combined
+beef and dairy breeds into two groups and tested for a
+difference between them: aov(logLTL ~ Age + Sex + Group).
+As all the Kalmyk individuals used were dams, the test for
+differences between this breed&#8217;s populations was conducted
+by accounting only for age: aov(logLTL ~ Age + Population).</p><p>For statistically significant variables we estimated the variance
+explained (&#951;2) using the &#8220;eta_squared&#8221; function from
+the &#8220;effectsize&#8221; R package (Ben-Shachar et al., 2020) with the
+&#8220;partial = TRUE&#8221; option.</p><p>Preparing data for visualization and descriptive statistics.
+As confirmed in our study, telomere length typically
+decreases with age (Spearman&#8217;s &#961; = &#8211;0.305, p = 1.58 &#215; 10&#8211;6
+for raw and log-transformed LTLs) (Supplementary Material
+2). Therefore, for boxplot visualization and descriptive
+statistics, we calculated the log10(LTL) values expected given
+the constant age. For this purpose, we fitted a regression model
+(&#8220;lm&#8221; R function) with logLTL as the response variable, and
+age, sex (coded by 0/1) and breed (16 covariates coded by
+0/1) variables as predictors. As a result, we obtained regression
+parameters (intercept and slopes for each predictor) and
+residuals. For each animal, we summed up: the intercept, the
+animal&#8217;s residual, and products of each predictor value and
+its respective slope. For the age predictor, however, actual
+values were substituted by the average value of 4.5 years. The
+resulting values represent the expectation for logLTL given
+the constant age of 4.5 years. These age-adjusted
+log10(LTLs)
+and their corresponding values in kilobases (hereafter
+&#8220;ageadjusted
+LTLs&#8221;) are shown in Supplementary Material 1. The
+descriptive statistics for breeds can be found in Supplementary
+Material 3.</p></sec><sec><title>Results</title><p>The statistical analysis shows that breed factor has a significant
+( p = 6.12 &#215; 10&#8211;15, &#951;2 = 0.37) effect on leukocyte telomere
+length across our sample of 239 individuals (see Figure, a).
+Tukey&#8217;s HSD test showed significant differences for 28 breed
+pairs (Supplementary Material 4). At the same time, there is no
+significant difference in LTL between dairy and beef groups
+( p = 0.0748) (see Figure, b).</p><p>The statistical testing performed for the Kalmyk breed
+shows that the population factor has a significant ( p = 0.0283, &#951;2 = 0.17) effect on LTL in studied Kalmyk animals, with
+the individuals from Rostov Oblast having shorter telomeres
+(see Figure, c). The results of the principal component analysis
+show that the Rostov and Sakha populations form two
+highly overlapping clusters (Supplementary Material 5). Also,
+fastSTRUCTURE results suggest that the two Kalmyk populations
+are homogeneous and possible genetic differences
+between them do not exceed the level of variation within
+other breeds (Supplementary Material 6). Therefore, the LTL
+differences between the two groups are most likely explained
+by environmental conditions</p><p>It should also be mentioned that the age variable significantly
+affects LTL in all tests: p = 1.46 &#215; 10&#8211;6, &#951;2 = 0.10 (testing
+for the effect of breed); p = 0.0248, &#951;2 = 0.07 (dairy vs. beef
+group); and p = 0.0038, &#951;2 = 0.27 (Kalmyk Sakha vs. Kalmyk
+Rostov). However, the sex factor has no significant effect on
+LTL either in the test for breed factor ( p = 0.205) or in the
+test for the factor of breed group ( p = 0.8752).</p></sec><sec><title>Discussion</title><p>The primary aim of this study was to investigate the correlation
+between the breed type and leucocyte telomere length (LTL)
+in cattle. Our additional goal was to check the effect of the
+environment (e. g., colder climate) on the LTL within populations
+of the same breed grown in different climates. Based on
+the resequencing data of 17 cattle breeds, our findings indicate
+that the breed factor has a significant impact on LTL. These
+results align with earlier studies that reported LTL differences
+in pairwise comparisons between cattle breeds (Tilesi et al.,
+2010; Iannuzzi et al., 2022). We also found evidence for an
+association between LTL and differences in climatic conditions
+for a single cattle breed reared in different regions of Russia.</p><p>It was shown in our analysis that the breed factor contributes
+more to total LTL variation compared to age. The possible
+practical implication for this could be the use of breeds characterised
+by long telomeres in crossbreeding programs aimed
+to improve telomere-length-associated phenotypes in cattle.</p><p>Apart from cattle, studies are reporting LTL differences
+between Caenorhabditis elegans strains (Cook et al., 2016),
+outbred populations and inbred strains of mice (Mus musculus
+and Peromyscus leucopus) (Manning et al., 2002), and dog
+breeds (Fick et al., 2012). These reports suggest the existence
+of a genetic basis for such variability. Based on heritability
+estimates for LTL in Holsteins (0.32&#8211;0.47) (Seeker et al.,
+2018a, b), we propose that genetic factors may largely explain
+inter-breed differences observed in our study</p><p>Herein we compared the LTL in dairy and beef breeds. The
+results However did not reveal any statistically significant
+difference between these two groups. This finding is consistent
+with a previous study that compared LTLs between
+dairy and dual-purpose cattle breeds, which also showed no
+difference (Kordowitzki et al., 2021). Our study focused on
+distinct groups of cattle breeds, specifically dairy and beef,
+covering a wider range of genetics than the previous study.
+Also, each production breed type was represented by five
+breeds. Therefore, the results reported herein could provide
+stronger support for the lack of LTL differences between the
+cattle breed types. Our results are also consistent with similar
+studies done in other domestic species, e. g., dogs, where no
+difference in LTL was reported for breed groups (working,
+herding, hunting) (Fick et al., 2012). It appears that complementary
+contributions of many factors affecting a particular
+breed (e. g. genetic makeup, management practices, veterinary
+care, climate conditions, etc.) have a greater influence on
+the LTL than physiological features associated with different
+production
+types. This result suggests that the selection for
+telomere-length-associated traits will probably not lead to
+substantial changes in milk or meat yields.</p><p>To investigate the possible effects of environments on
+telomere lengths of the same cattle breed, we compared the
+LTLs between two populations of the Kalmyk cattle reared
+in different climatic conditions. We observed a significant
+difference in agreement with a previous human study showing
+an association between prenatal cold exposure and longer
+blood telomere length in newborns (Martens et al., 2019).
+Indeed, longer telomere lengths detected in animals from the
+Sakha Republic with colder climates compared to the control
+population from Rostov Oblast imply that there could be a
+mechanism of telomere maintenance in colder climates in
+cattle. In ectotherms, however, there are reports that at cooler
+conditions telomere shortening happens during development
+(Friesen et al., 2022; Burraco et al., 2023), but other authors
+did not confirm this observation (McLennan et al., 2018).</p><p>In bat species, Myotis myotis, average and minimum temperatures,
+rainfall and wind speed during the spring when
+bats emerge from hibernation, give birth and rear young were
+associated with higher telomere attrition (Foley et al., 2020).
+The authors, however, did not report which variable is the
+driver for telomere length change. The comparison of telomere
+length between two species of rodents hibernating at either 3
+or 14 &#176;C revealed that individuals hibernating at the warmer
+temperature had longer telomeres than individuals hibernating
+at the colder temperature (Nowack et al., 2019). The authors
+hypothesized that the observed effect was not related to cold
+climate, but rather was associated with restoration of telomere
+length during frequent arousals when the body temperature
+returns to normal values.</p><p>The mechanisms by which cold climate impacts leukocyte
+telomere length in cattle remain unclear. On the one hand,
+cold exposure may inhibit telomere shortening, since low
+temperature reduces the rate of cell proliferation in mammalian
+cells (Kanagawa et al., 2006; Fulbert et al., 2019). On the
+other hand, cold exposure may induce telomere elongation by
+influencing the components of the telomerase complex. It was
+shown that cold-inducible RNA-binding protein (CIRP) was
+essential for telomere maintenance at hypothermia conditions
+in vitro by regulating both reverse transcriptase TERT and the
+RNA subunit TERC in the telomerase core complex (Zhang Y.
+et al., 2016). The transcription of telomeric repeat-containing
+RNAs (TERRAs), which are associated with telomere stability,
+was induced in mice exposed to cold (Galigniana et al.,
+2020).</p><p>One could ask if there is an optimal ambient temperature
+at which the LTL in cattle would be the longest. The few
+studies on the effect of ambient temperature on the LTL of
+endothermic mammals do not allow us to answer this question
+unambiguously. Extremely low or high ambient temperatures
+lead to hypo- and hyperthermia when the body temperature
+deviates substantially below and above the narrow limits of
+the regulated range, i. e., cause stress. The influence of a large number of stressors, including extreme environmental factors,
+is known to be associated with shorter telomeres or an
+increased rate of telomere shortening (Chatelain et al., 2020;
+Lin, Epel, 2022).</p><p>Indirect information on the effect of moderate cold on LTL,
+when body temperature remains within the normal range,
+could be obtained from studies of the effect of body temperature
+on the ageing process. On the one hand, in endotherms,
+a small decrease in body temperature is associated with an
+increase in life expectancy (Conti et al., 2006; Carrillo, Flouris,
+2011). On the other hand, in some cases, there is an inverse
+relationship (Zhao et al., 2022). For example, human females
+tend to have a longer life expectancy than males, but their body
+temperature is higher (Waalen, Buxbaum, 2011). The mechanisms
+that control the relationship between body temperature
+and life expectancy involve not only a decrease in metabolic
+rate when the temperature declines, but also neuroendocrine
+processes that indirectly affect a variety of physiological
+responses when temperature changes. Therefore, the optimal
+limits of ambient temperature at which the LTL in cattle will
+be longest could exist, but this question requires further study.</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Boxplots illustrating the log-transformed and adjusted for age (expectation at 4.5 years) leukocyte telomere lengths
+in a) different breeds; b) beef and dairy breed groups, and c) in two populations of the Kalmyk breed.</title><p>The p-values designate the statistical significance for differences between the abovementioned categories. The brown, pink
+and light-yellow colours correspond to beef, dual-purpose, and dairy breeds. The numbers at the top of boxplots indicate the
+number of animals.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2423-Fig1.jpg"/></fig><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>The climatic conditions for the sampling locations in Rostov Oblast and the Republic of Sakha
+(according to https://climatecharts.net (Zepner et al., 2021), accessed on 30 August 2023)</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2423-Tab1.jpg"/></fig></sec><sec id="Conclusion"><title>Conclusion</title><p>In conclusion, we found that breed, but not breed group (dairy
+vs. beef ), significantly influenced leukocyte telomere length
+in cattle. Residence in colder climates was associated with
+longer leukocyte telomere length in the Kalmyk cattle breed.
+Our results add to the evidence regarding the influence of
+breed origin and cold climate on this trait in farm animals</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Andrew T., Aviv A., Falchi M., Surdulescu G.L., Gardner J.P., Lu X.,
+Kimura M., Kato B.S., Valdes A.M., Spector T.D. Mapping genetic
+loci that determine leukocyte telomere length in a large sample of
+unselected female sibling pairs. Am. J. Hum. Genet. 2006;78(3):
+480-486. DOI 10.1086/500052</p><p>Armanios M. The role of telomeres in human disease. Annu. Rev.
+Genomics Hum. Genet. 2022;23:363-381. DOI 10.1146/annurevgenom-
+010422-091101</p><p>Asghar M., Palinauskas V., Zaghdoudi-Allan N., Valki&#363;nas G., Mukhin
+A., Platonova E., F&#228;rnert A., Bensch S., Hasselquist D. Parallel
+telomere shortening in multiple body tissues owing to malaria
+infection. Proc. Biol. Sci. 2016;283(1836):20161184. DOI 10.1098/
+rspb.2016.1184</p><p>Astuti Y., Wardhana A., Watkins J., Wulaningsih W.; PILAR Research
+Network. Cigarette smoking and telomere length: A systematic review
+of 84 studies and meta-analysis. Environ. Res. 2017;158:480-
+489. DOI 10.1016/j.envres.2017.06.038</p><p>Behr A.A., Liu K.Z., Liu-Fang G., Nakka P., Ramachandran S. pong:
+fast analysis and visualization of latent clusters in population genetic
+data. Bioinformatics. 2016;32(18):2817-2823. DOI 10.1093/
+bioinformatics/btw327</p><p>Ben-Shachar M.S., L&#252;decke D., Makowski D. effectsize: Estimation
+of effect size indices and standardized parameters. J. Open Source
+Softw. 2020;5(56):2815. DOI 10.21105/joss.02815</p><p>Blackburn E.H., Epel E.S., Lin J. Human telomere biology: A contributory
+and interactive factor in aging, disease risks, and protection.
+Science. 2015;350(6265):1193-1198. DOI 10.1126/science.aab3389</p><p>Broer L., Codd V., Nyholt D.R., Deelen J., Mangino M., Willemsen G.,
+Albrecht E., &#8230; Vink J.M., Spector T.D., Slagboom P.E., Martin
+N.G., Samani N.J., van Duijn C.M., Boomsma D.I. Meta-analysis
+of telomere length in 19,713 subjects reveals high heritability,
+stronger maternal inheritance and a paternal age effect. Eur. J. Hum.
+Genet. 2013;21(10):1163-1168. DOI 10.1038/ejhg.2012.303</p><p>Brown D.E., Dechow C.D., Liu W.S., Harvatine K.J., Ott T.L. Hot
+topic: association of telomere length with age, herd, and culling
+in lactating Holsteins. J. Dairy Sci. 2012;95(11):6384-6387. DOI
+10.3168/jds.2012-5593</p><p>Burraco P., Hernandez-Gonzalez M., Metcalfe N.B., Monaghan P.
+Ageing
+across the great divide: tissue transformation, organismal
+growth and temperature shape telomere dynamics through the metamorphic
+transition. Proc. Biol. Sci. 2023;290(1992):20222448. DOI
+10.1098/rspb.2022.2448</p><p>Carrillo A.E., Flouris A.D. Caloric restriction and longevity: effects of
+reduced body temperature. Ageing Res. Rev. 2011;10(1):153-162.
+DOI 10.1016/j.arr.2010.10.001</p><p>Chakravarti D., LaBella K.A., DePinho R.A. Telomeres: history, health,
+and hallmarks of aging. Cell. 2021;184(2):306-322. DOI 10.1016/
+j.cell.2020.12.028</p><p>Chatelain M., Drobniak S.M., Szulkin M. The association between
+stressors and telomeres in non-human vertebrates: a meta-analysis.
+Ecol. Lett. 2020;23(2):381-398. DOI 10.1111/ele.13426</p><p>Chik H.Y.J., Sparks A.M., Schroeder J., Dugdale H.L. A meta-analysis
+on the heritability of vertebrate telomere length. J. Evol. Biol.
+2022;35(10):1283-1295. DOI 10.1111/jeb.14071</p><p>Conti B., Sanchez-Alavez M., Winsky-Sommerer R., Morale M.C., Lucero
+J., Brownell S., Fabre V., Huitron-Resendiz S., Henriksen S.,
+Zorrilla E.P., de Lecea L., Bartfai T. Transgenic mice with a reduced
+core body temperature have an increased life span. Science. 2006;
+314(5800):825-828. DOI 10.1126/science.1132191</p><p>Cook D.E., Zdraljevic S., Tanny R.E., Seo B., Riccardi D.D., Noble
+L.M., Rockman M.V., Alkema M.J., Braendle C., Kammenga J.E.,
+Wang J., Kruglyak L., F&#233;lix M.A., Lee J., Andersen E.C. The genetic
+basis of natural variation in Caenorhabditis elegans telomere
+length. Genetics. 2016;204(1):371-383. DOI 10.1534/genetics.116.
+191148</p><p>Crocco P., De Rango F., Dato S., Rose G., Passarino G. Telomere length
+as a function of age at population level parallels human survival
+curves. Aging (Albany NY ). 2021;13(1):204-218. DOI 10.18632/
+aging.202498</p><p>de Lange T. Shelterin-mediated telomere protection. Annu. Rev. Genet.
+2018;52:223-247. DOI 10.1146/annurev-genet-032918-021921</p><p>Ding Z., Mangino M., Aviv A., Spector T., Durbin R. Estimating telomere
+length from whole genome sequence data. Nucleic Acids Res.
+2014;42(9):e75. DOI 10.1093/nar/gku181</p><p>Dmitriev N.G., Ernst L.K. (Eds.). Animal Genetics Resources of the
+USSR. Rome: Food and Agriculture Organization of the United Nations,
+1989</p><p>Dugdale H.L., Richardson D.S. Heritability of telomere variation: it is
+all about the environment! Philos. Trans. R. Soc. Lond. B Biol. Sci.
+2018;373(1741):20160450. DOI 10.1098/rstb.2016.0450</p><p>Dunin I.M., Dankvert A.G. (Eds.). Breeds and Types of Farm Animals
+in the Russian Federation. Moscow: All-Russia Research Institute of
+Animal Breeding, 2013 (in Russian)</p><p>Fick L.J., Fick G.H., Li Z., Cao E., Bao B., Heffelfinger D., Parker
+H.G., Ostrander E.A., Riabowol K. Telomere length correlates
+with life span of dog breeds. Cell Rep. 2012;2(6):1530-1536. DOI
+10.1016/j.celrep.2012.11.021</p><p>Foley N.M., Petit E.J., Brazier T., Finarelli J.A., Hughes G.M., Touzalin
+F., Puechmaille S.J., Teeling E.C. Drivers of longitudinal telomere
+dynamics in a long-lived bat species, Myotis myotis. Mol. Ecol.
+2020;29(16):2963-2977. DOI 10.1111/mec.15395</p><p>Friesen C.R., Wapstra E., Olsson M. Of telomeres and temperature:
+Measuring thermal effects on telomeres in ectothermic animals. Mol.
+Ecol. 2022;31(23):6069-6086. DOI 10.1111/mec.16154</p><p>Fulbert C., Gaude C., Sulpice E., Chabard&#232;s S., Ratel D. Moderate hypothermia
+inhibits both proliferation and migration of human glioblastoma
+cells. J. Neurooncol. 2019;144(3):489-499. DOI 10.1007/
+s11060-019-03263-3</p><p>Galigniana N.M., Char&#243; N.L., Uranga R., Cabanillas A.M., Piwien-Pilipuk G. Oxidative stress induces transcription of telomeric repeatcontaining
+RNA (TERRA) by engaging PKA signaling and cytoskeleton
+dynamics. Biochim. Biophys. Acta Mol. Cell. Res. 2020;
+1867(4):118643. DOI 10.1016/j.bbamcr.2020.118643</p><p>Grandl F., Furger M., Kreuzer M., Zehetmeier M. Impact of longevity
+on greenhouse gas emissions and profitability of individual dairy
+cows analysed with different system boundaries. Animal. 2019;
+13(1):198-208. DOI 10.1017/S175173111800112X</p><p>Herborn K.A., Heidinger B.J., Boner W., Noguera J.C., Adam A.,
+Daunt F., Monaghan P. Stress exposure in early post-natal life reduces
+telomere length: an experimental demonstration in a long-lived
+seabird. Proc. Biol. Sci. 2014;281(1782):20133151. DOI 10.1098/
+rspb.2013.3151</p><p>Hothorn T., Bretz F., Westfall P. Simultaneous inference in general
+parametric models. Biom. J. 2008;50(3):346-363. DOI 10.1002/
+bimj.20081042</p><p>Hu H., Mu T., Ma Y., Wang X., Ma Y. Analysis of longevity traits in
+Holstein cattle: A review. Front. Genet. 2021;12:695543. DOI
+10.3389/fgene.2021.695543</p><p>Iannuzzi A., Albarella S., Parma P., Galdiero G., D&#8217;Anza E., Pistucci
+R., Peretti V., Ciotola F. Characterization of telomere length in
+Agerolese cattle breed, correlating blood and milk samples. Anim.
+Genet. 2022;53(5):676-679. DOI 10.1111/age.13227</p><p>Igoshin A.V., Yudin N.S., Romashov G.A., Larkin D.M. A multibreed
+genome-wide association study for cattle leukocyte telomere
+length. Genes (Basel). 2023;14(8):1596. DOI 10.3390/
+genes14081596</p><p>Ilska-Warner J.J., Psifidi A., Seeker L.A., Wilbourn R.V., Underwood
+S.L., Fairlie J., Whitelaw B., Nussey D.H., Coffey M.P., Banos
+G. The genetic architecture of bovine telomere length in early
+life and association with animal fitness. Front. Genet. 2019;10:
+1048. DOI 10.3389/fgene.2019.01048</p><p>Jenner L.P., Peska V., Fulne&#269;kov&#225; J., S&#253;korov&#225; E. Telomeres and their
+neighbors. Genes (Basel). 2022;13(9):1663. DOI 10.3390/genes130
+91663</p><p>Kanagawa T., Fukuda H., Tsubouchi H., Komoto Y., Hayashi S., Fukui
+O., Shimoya K., Murata Y. A decrease of cell proliferation by
+hypothermia in the hippocampus of the neonatal rat. Brain Res.
+2006;1111(1):36-40. DOI 10.1016/j.brainres.2006.06.112</p><p>Kayumov F.G., Chernomyrdin V.N., Mayevskaya L.A., Surundaeva
+L.G., Polskikh S.S. The use of Kalmyk cattle on animal breeding
+farms in Russia. Izv. Orenbg. State Agrar. Univ. 2014;5(49):116-119
+(in Russian)</p><p>Kordowitzki P., Merle R., Hass P.-K., Plendl J., Rieger J., Kaessmeyer
+S. Influence of age and breed on bovine ovarian capillary
+blood supply, ovarian mitochondria and telomere length. Cells.
+2021;10(10):2661. DOI 10.3390/cells10102661</p><p>Lantz B. The impact of sample non-normality on ANOVA and alternative
+methods. Br. J. Math. Stat. Psychol. 2013;66(2):224-244. DOI
+10.1111/j.2044-8317.2012.02047.x</p><p>Laubenthal L., Hoelker M., Frahm J., D&#228;nicke S., Gerlach K., S&#252;dekum
+K.-H., Sauerwein H., H&#228;ussler S. Short communication: Telomere
+lengths in different tissues of dairy cows during early and late
+lactation. J. Dairy Sci. 2016;99(6):4881-4885. DOI 10.3168/jds.
+2015-10095</p><p>Law E., Girgis A., Lambert S., Sylvie L., Levesque J., Pickett H. Telomeres
+and stress: promising avenues for research in psycho-oncology.
+Asia-Pacific J. Oncol. Nurs. 2016;3(2):137-147. DOI 10.4103/
+2347-5625.182931</p><p>Leung C.W., Laraia B.A., Needham B.L., Rehkopf D.H., Adler N.E.,
+Lin J., Blackburn E.H., Epel E.S. Soda and cell aging: associations
+between sugar-sweetened beverage consumption and leukocyte telomere
+length in healthy adults from the National Health and Nutrition
+Examination Surveys. Am. J. Public Health. 2014;104(12):2425-
+2431. DOI 10.2105/AJPH.2014.302151</p><p>Lhasaranov B. Pasture animal husbandry in Eastern Siberia. Biomed.
+J. Sci. Tech. Res. 2020;31(3):24160-24163. DOI 10.26717/BJSTR.
+2020.31.005094</p><p>Lin J., Epel E. Stress and telomere shortening: Insights from cellular
+mechanisms. Ageing Res. Rev. 2022;73:101507. DOI 10.1016/j.arr.
+2021.101507</p><p>Liu J., Wang L., Wang Z., Liu J.-P. Roles of telomere biology in cell
+senescence, replicative and chronological ageing. Cells. 2019;8(1):
+54. DOI 10.3390/cells8010054</p><p>L&#243;pez-Ot&#237;n C., Blasco M.A., Partridge L., Serrano M., Kroemer G.
+Hallmarks of aging: An expanding universe. Cell. 2023;186(2):243-
+278. DOI 10.1016/j.cell.2022.11.001</p><p>Lynch S.M., Peek M.K., Mitra N., Ravichandran K., Branas C., Spangler
+E., Zhou W., Paskett E.D., Gehlert S., DeGraffinreid C., Rebbeck
+T.R., Riethman H. Race, ethnicity, psychosocial factors, and
+telomere length in a multicenter setting. PLoS One. 2016;11(1):
+e0146723. DOI 10.1371/journal.pone.0146723</p><p>Manning E.L., Crossland J., Dewey M.J., Van Zant G. Influences of inbreeding
+and genetics on telomere length in mice. Mamm. Genome.
+2002;13(5):234-238. DOI 10.1007/s003350020027</p><p>Martens D.S., Plusquin M., Cox B., Nawrot T.S. Early biological aging
+and fetal exposure to high and low ambient temperature: A birth
+cohort study. Environ. Health Perspect. 2019;127(11):117001. DOI
+10.1289/EHP5153</p><p>McLennan D., Armstrong J.D., Stewart D.C., Mckelvey S., Boner W.,
+Monaghan P., Metcalfe N.B. Telomere elongation during early development
+is independent of environmental temperatures in Atlantic
+salmon. J. Exp. Biol. 2018;221(Pt. 11):jeb178616. DOI 10.1242/
+jeb.178616</p><p>Meesters M., Van Eetvelde M., Martens D.S., Nawrot T.S., Dewulf M.,
+Govaere J., Opsomer G. Prenatal environment impacts telomere
+length in newborn dairy heifers. Sci. Rep. 2023;13(1):4672. DOI
+10.1038/s41598-023-31943-8</p><p>Miyashita N., Shiga K., Yonai M., Kaneyama K., Kobayashi S., Kojima
+T., Goto Y., Kishi M., Aso H., Suzuki T., Sakaguchi M., Nagai T.
+Remarkable differences in telomere lengths among cloned cattle derived
+from different cell types. Biol. Reprod. 2002;66(6):1649-1655.
+DOI 10.1095/biolreprod66.6.1649</p><p>Mizutani Y., Niizuma Y., Yoda K. How do growth and sibling competition
+affect telomere dynamics in the first month of life of long-lived
+seabird? PLoS One. 2016;11(11):e0167261. DOI 10.1371/journal.
+pone.0167261</p><p>Monaghan P., Ozanne S.E. Somatic growth and telomere dynamics in
+vertebrates: relationships, mechanisms and consequences. Philos.
+Trans. R. Soc. London Ser. B. Biol. Sci. 2018;373(1741):20160446.
+DOI 10.1098/rstb.2016.0446</p><p>Nowack J., Tarmann I., Hoelzl F., Smith S., Giroud S., Ruf T. Always
+a price to pay: hibernation at low temperatures comes with a
+trade-off between energy savings and telomere damage. Biol. Lett.
+2019;15(10):20190466. DOI 10.1098/rsbl.2019.0466</p><p>O&#8217;Daniel S.E., Kochan K.J., Long C.R., Riley D.G., Randel R.D.,
+Welsh T.H.J. Comparison of telomere length in age-matched primiparous
+and multiparous Brahman cows. Animals (Basel). 2023;
+13(14):2325. DOI 10.3390/ani13142325</p><p>Pinese M., Lacaze P., Rath E.M., Stone A., Brion M.-J., Ameur A.,
+Nagpal S., &#8230; Kaplan W., Gibson G., Gyllensten U., Cairns M.J.,
+McNamara M., Dinger M.E., Thomas D.M. The Medical Genome
+Reference Bank contains whole genome and phenotype data of
+2570 healthy elderly. Nat. Commun. 2020;11(1):435. DOI 10.1038/
+s41467-019-14079-0</p><p>Purcell S., Neale B., Todd-Brown K., Thomas L., Ferreira M.A.R.,
+Bender D., Maller J., Sklar P., de Bakker P.I.W., Daly M.J., Sham P.C.
+PLINK: a tool set for whole-genome association and populationbased
+linkage analyses. Am. J. Hum. Genet. 2007;81(3):559-575.
+DOI 10.1086/519795</p><p>Rafie N., Golpour Hamedani S., Barak F., Safavi S.M., Miraghajani M.
+Dietary patterns, food groups and telomere length: a systematic review
+of current studies. Eur. J. Clin. Nutr. 2017;71(2):151-158. DOI
+10.1038/ejcn.2016.149</p><p>Raj A., Stephens M., Pritchard J.K. fastSTRUCTURE: variational
+inference of population structure in large SNP data sets. Genetics.
+2014;197(2):573-589. DOI 10.1534/genetics.114.164350</p><p>Reichert S., Stier A., Zahn S., Arriv&#233; M., Bize P., Massemin S., Criscuolo
+F. Increased brood size leads to persistent eroded telomeres.
+Front. Ecol. Evol. 2014;2:9. DOI 10.3389/fevo.2014.00009</p><p>Ribas-Maynou J., Llavanera M., Mateo-Otero Y., Ruiz N., Mui&#241;o R.,
+Bonet S., Yeste M. Telomere length in bovine sperm is related to
+the production of reactive oxygen species, but not to reproductive
+performance. Theriogenology. 2022;189:290-300. DOI 10.1016/
+j.theriogenology.2022.06.025</p><p>Rossiello F., Jurk D., Passos J.F., d&#8217;Adda di Fagagna F. Telomere dysfunction
+in ageing and age-related diseases. Nat. Cell Biol. 2022;
+24(2):135-147. DOI 10.1038/s41556-022-00842-x</p><p>Schrumpfov&#225; P.P., Fajkus J. Composition and function of telomerase-A
+polymerase associated with the origin of eukaryotes. Biomolecules.
+2020;10(10):1425. DOI 10.3390/biom10101425</p><p>Seeker L.A., Ilska J.J., Psifidi A., Wilbourn R.V., Underwood S.L.,
+Fairlie J., Holland R., Froy H., Salvo-Chirnside E., Bagnall A.,
+Whitelaw B., Coffey M.P., Nussey D.H., Banos G. Bovine telomere
+dynamics and the association between telomere length and productive
+lifespan. Sci. Rep. 2018a;8(1):12748. DOI 10.1038/s41598-018-
+31185-z</p><p>Seeker L.A., Ilska J.J., Psifidi A., Wilbourn R.V., Underwood S.L.,
+Fairlie J., Holland R., Froy H., Bagnall A., Whitelaw B., Coffey M.,
+Nussey D.H., Banos G. Longitudinal changes in telomere length
+and associated genetic parameters in dairy cattle analysed using
+random regression models. PLoS One. 2018b;13(2):e0192864. DOI
+10.1371/journal.pone.0192864</p><p>Seeker L.A., Underwood S.L., Wilbourn R.V., Dorrens J., Froy H., Holland
+R., Ilska J.J., Psifidi A., Bagnall A., Whitelaw B., Coffey M.,
+Banos G., Nussey D.H. Telomere attrition rates are associated with
+weather conditions and predict productive lifespan in dairy cattle.
+Sci. Rep. 2021;11(1):5589. DOI 10.1038/s41598-021-84984-2</p><p>Sleptsov I.I., Machakhtyrova V.A., Ivanova N.P. Clinical and physiological
+indicators of the Kalmyk cattle breed in Yakutia conditions.
+Bull. Kurgan State Agric. Acad. 2019;4(32):44-46 (in Russian)</p><p>Szczotka M., Kocki J., Iwan E., Pluta A. Determination of telomere
+length and telomerase activity in cattle infected with bovine leukaemia
+virus (BLV). Pol. J. Vet. Sci. 2019;22(2):391-403. DOI
+10.24425/pjvs.2019.129299</p><p>Taub M.A., Conomos M.P., Keener R., Iyer K.R., Weinstock J.S.,
+Yanek L.R., Lane J., &#8230; de Andrade M., Correa A., Chen Y.I., Boerwinkle
+E., Barnes K.C., Ashley-Koch A.E., Arnett D.K.; NHLBI
+Trans-Omics for Precision Medicine (TOPMed) Consortium;
+TOPMed Hematology and Hemostasis Working Group; TOPMed
+Structural Variation Working Group; Laurie C.C., Abecasis G.,
+Nickerson D.A., Wilson J.G., Rich S.S., Levy D., Ruczinski I.,
+Aviv A., Blackwell T.W., Thornton T., O&#8217;Connell J., Cox N.J.,
+Perry J.A., Armanios M., Battle A., Pankratz N., Reiner A.P., Mathias
+R.A. Genetic determinants of telomere length from 109,122 ancestrally
+diverse whole-genome sequences in TOPMed. Cell Genom.
+2022;2(1):100084. DOI 10.1016/j.xgen.2021.100084</p><p>Tilesi F., Di Domenico E.G., Pariset L., Bosco L., Willems D., Valentini
+A., Ascenzioni F. Telomere length diversity in cattle breeds. Diversity.
+2010;2(9):1118-1129. DOI 10.3390/d2091118</p><p>Waalen J., Buxbaum J.N. Is older colder or colder older? The association
+of age with body temperature in 18,630 individuals. J. Gerontol.
+A Biol. Sci. Med. Sci. 2011;66(5):487-492. DOI 10.1093/gerona/
+glr001</p><p>Whittemore K., Vera E., Mart&#237;nez-Nevado E., Sanpera C., Blasco M.A.
+Telomere shortening rate predicts species life span. Proc. Natl.
+Acad. Sci. USA. 2019;116(30):15122-15127. DOI 10.1073/pnas.
+1902452116</p><p>Wilbourn R.V., Moatt J.P., Froy H., Walling C.A., Nussey D.H.,
+Boonekamp J.J. The relationship between telomere length and mortality
+risk in non-model vertebrate systems: a meta-analysis. Philos.
+Trans. R. Soc. London Ser. B. Biol. Sci. 2018;373(1741):20160447.
+DOI 10.1098/rstb.2016.0447</p><p>Zepner L., Karrasch P., Wiemann F., Bernard L. ClimateCharts.net &#8211; an
+interactive climate analysis web platform. Int. J. Digit. Earth. 2021;
+14(3):338-356. DOI 10.1080/17538947.2020.1829112</p><p>Zhang D., Newton C.A., Wang B., Povysil G., Noth I., Martinez F.J.,
+Raghu G., Goldstein D., Garcia C.K. Utility of whole genome sequencing
+in assessing risk and clinically relevant outcomes for pulmonary
+fibrosis. Eur. Respir. J. 2022;60(6):2200577. DOI 10.1183/
+13993003.00577-2022</p><p>Zhang H., Liu A., Wang Y., Luo H., Yan X., Guo X., Li X., Liu L.,
+Su G. Genetic parameters and genome-wide association studies of
+eight longevity traits representing either full or partial lifespan in
+Chinese Holsteins. Front. Genet. 2021;12:634986. DOI 10.3389/
+fgene.2021.634986</p><p>Zhang X., Lin S., Funk W.E., Hou L. Environmental and occupational
+exposure to chemicals and telomere length in human studies.
+Occup. Environ. Med. 2013;70(10):743-749. DOI 10.1136/
+oemed-2012-101350</p><p>Zhang Y., Wu Y., Mao P., Li F., Han X., Zhang Y., Jiang S., Chen Y.,
+Huang J., Liu D., Zhao Y., Ma W., Songyang Z. Cold-inducible RNAbinding
+protein CIRP/hnRNP A18 regulates telomerase activity in
+a temperature-dependent manner. Nucleic Acids Res. 2016;44(2):
+761-775. DOI 10.1093/nar/gkv1465</p><p>Zhao Z., Cao J., Niu C., Bao M., Xu J., Huo D., Liao S., Liu W., Speakman
+J.R. Body temperature is a more important modulator of lifespan
+than metabolic rate in two small mammals. Nat. Metab. 2022;
+4(3):320-326. DOI 10.1038/s42255-022-00545-5</p></sec></body><back><ack><p>The work was supported by the Russian Scientific Foundation (RSF) grant No. 22-26-00143 (https://rscf.ru/project/22-26-00143/).</p></ack></back></article></pmc-articleset>

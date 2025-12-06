@@ -1,0 +1,431 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11933895</article-id><article-id pub-id-type="pmcid-ver">PMC11933895.1</article-id><article-id pub-id-type="pmcaid">11933895</article-id><article-id pub-id-type="pmcaiid">11933895</article-id><article-id pub-id-type="pmid">40144375</article-id><article-id pub-id-type="doi">10.18699/vjgb-25-13</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Genetic characteristics of local horse breeds
+by microsatellite DNA loci</article-title><trans-title-group xml:lang="ru"><trans-title>&#1043;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1083;&#1086;&#1096;&#1072;&#1076;&#1077;&#1081; &#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076;
+&#1087;&#1086; &#1083;&#1086;&#1082;&#1091;&#1089;&#1072;&#1084; &#1084;&#1080;&#1082;&#1088;&#1086;&#1089;&#1072;&#1090;&#1077;&#1083;&#1083;&#1080;&#1090;&#1086;&#1074; &#1044;&#1053;&#1050;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Blohina</surname><given-names initials="NV">N.V.</given-names></name><aff>
+<institution>All-Russian Research Institute of Horse Breeding, Divovo, Rybnovsky district, Ryazan region, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Khrabrova</surname><given-names initials="LA">L.A.</given-names></name><aff>
+<institution>All-Russian Research Institute of Horse Breeding, Divovo, Rybnovsky district, Ryazan region, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: N.V. Blohina
+<email>nbloh16@yandex.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>2</month><year>2025</year></pub-date><volume>29</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">485076</issue-id><fpage>113</fpage><lpage>121</lpage><history><date date-type="received"><day>14</day><month>3</month><year>2024</year></date><date date-type="rev-recd"><day>22</day><month>8</month><year>2024</year></date><date date-type="accepted"><day>27</day><month>9</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>02</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>26</day><month>03</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-03-27 09:25:19.857"><day>27</day><month>03</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-29-2513.pdf"/><abstract><p>Russia has a significant pedigree diversity of horse breeds with unique gene pools that are well adapted to a wide variety of harsh natural and climatic conditions, are characterized by universal performance and high productive qualities, and are of significant interest to the world horse breeding. Genetic studies of population diversity in horse breeding are very relevant, since many domestic horse breeds are under threat of extinction. Biomaterials (hair, blood, semen) from horses of 15 local breeds bred in the Russian Federation and neighboring countries (CIS) were selected for the research. The sample included 2,193 horses, including: Altaiskaya (n = 48), Bashkirskaya (n = 130), Buryatskaya (n = 30), Vyatskaya (n = 220), Zabaikalskaya (n = 34), Kyrgyzskaya (n = 100), Mezenskaya (n = 148), Mugalzharskaya (n = 109), Novoaltaiskaya (n = 514), Pechorskaya (n = 31), Shetland pony (n = 47), Priobskaya (n = 85), Tuvinskaya (n = 600), Khakasskaya (n = 47) and Yakutskaya (n = 50) breeds. The following indicators were used in the genetic and population analysis: the total number of allele variants (Na) in 17 microsatellite loci, the level of polymorphism (Ae), the average number of alleles per locus (Nv), observed (Ho) and expected (He) heterozygosity, coefficients of genetic similarity and genetic distances, as well as the coefficient of intrapopulation inbreeding (Fis). Modern local horse breeds, even relatively small in number, have a high level of biodiversity and a peculiar genetic structure, often with the presence of private alleles, which persists despite periodic crossing with stud breeds of different specializations. It was found that horses of local breeds possess a number of unique alleles, including ASB2T, HMS7S, HMS6J, HMS6H, HMS2T, HMS1O, HTG7L, HTG6L, HTG6H, VHL20S, ASB17Z, ASB17X, ASB17U, LEX3S, LEX3R and CA425E, which were not detected in representatives of stud breeds in the studied European populations. The majority of the studied breeds were characterized by a negative Fis value and the absence of inbreeding. The coefficients of genetic similarity of local breeds varied in a relatively wide range (0.828&#8211;0.973) and testified to the uniqueness of the gene pools of most local horse breeds of the Russian Federation, as well as confirmed the common origin of the Kyrgyzskaya horse with the horse populations of Southern Siberia.</p></abstract><trans-abstract xml:lang="ru"><p>&#1056;&#1086;&#1089;&#1089;&#1080;&#1103; &#1086;&#1073;&#1083;&#1072;&#1076;&#1072;&#1077;&#1090; &#1079;&#1085;&#1072;&#1095;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1084; &#1087;&#1086;&#1088;&#1086;&#1076;&#1085;&#1099;&#1084; &#1088;&#1072;&#1079;&#1085;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1080;&#1077;&#1084; &#1082;&#1086;&#1085;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1089; &#1091;&#1085;&#1080;&#1082;&#1072;&#1083;&#1100;&#1085;&#1099;&#1084;&#1080; &#1075;&#1077;&#1085;&#1086;&#1092;&#1086;&#1085;&#1076;&#1072;&#1084;&#1080;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1093;&#1086;&#1088;&#1086;&#1096;&#1086; &#1072;&#1076;&#1072;&#1087;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1099; &#1082; &#1089;&#1072;&#1084;&#1099;&#1084; &#1088;&#1072;&#1079;&#1085;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1085;&#1099;&#1084; &#1089;&#1091;&#1088;&#1086;&#1074;&#1099;&#1084; &#1087;&#1088;&#1080;&#1088;&#1086;&#1076;&#1085;&#1086;-&#1082;&#1083;&#1080;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103;&#1084;, &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1079;&#1091;&#1102;&#1090;&#1089;&#1103; &#1091;&#1085;&#1080;&#1074;&#1077;&#1088;&#1089;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1088;&#1072;&#1073;&#1086;&#1090;&#1086;&#1089;&#1087;&#1086;&#1089;&#1086;&#1073;&#1085;&#1086;&#1089;&#1090;&#1100;&#1102;, &#1074;&#1099;&#1089;&#1086;&#1082;&#1080;&#1084;&#1080; &#1087;&#1088;&#1086;&#1076;&#1091;&#1082;&#1090;&#1080;&#1074;&#1085;&#1099;&#1084;&#1080; &#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1072;&#1084;&#1080; &#1080; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1102;&#1090; &#1089;&#1091;&#1097;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1081; &#1080;&#1085;&#1090;&#1077;&#1088;&#1077;&#1089; &#1076;&#1083;&#1103; &#1084;&#1080;&#1088;&#1086;&#1074;&#1086;&#1075;&#1086; &#1082;&#1086;&#1085;&#1077;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1072;. &#1043;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1079;&#1085;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1080;&#1103; &#1074; &#1082;&#1086;&#1085;&#1077;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1077; &#1103;&#1074;&#1083;&#1103;&#1102;&#1090;&#1089;&#1103; &#1074;&#1077;&#1089;&#1100;&#1084;&#1072; &#1072;&#1082;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1084;&#1080;, &#1090;&#1072;&#1082; &#1082;&#1072;&#1082; &#1084;&#1085;&#1086;&#1075;&#1080;&#1077; &#1086;&#1090;&#1077;&#1095;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1077; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1083;&#1086;&#1096;&#1072;&#1076;&#1077;&#1081; &#1085;&#1072;&#1093;&#1086;&#1076;&#1103;&#1090;&#1089;&#1103; &#1087;&#1086;&#1076; &#1091;&#1075;&#1088;&#1086;&#1079;&#1086;&#1081; &#1080;&#1089;&#1095;&#1077;&#1079;&#1085;&#1086;&#1074;&#1077;&#1085;&#1080;&#1103;. &#1044;&#1083;&#1103; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081; &#1073;&#1099;&#1083;&#1080; &#1086;&#1090;&#1086;&#1073;&#1088;&#1072;&#1085;&#1099; &#1073;&#1080;&#1086;&#1084;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099; (&#1074;&#1086;&#1083;&#1086;&#1089;&#1099;, &#1082;&#1088;&#1086;&#1074;&#1100;, &#1089;&#1087;&#1077;&#1088;&#1084;&#1072;) &#1086;&#1090; &#1083;&#1086;&#1096;&#1072;&#1076;&#1077;&#1081; 15 &#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076;, &#1088;&#1072;&#1079;&#1074;&#1086;&#1076;&#1080;&#1084;&#1099;&#1093; &#1074; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080; &#1080; &#1089;&#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1089;&#1090;&#1088;&#1072;&#1085;&#1072;&#1093;. &#1042;&#1099;&#1073;&#1086;&#1088;&#1082;&#1072; &#1074;&#1082;&#1083;&#1102;&#1095;&#1072;&#1083;&#1072; 2193 &#1083;&#1086;&#1096;&#1072;&#1076;&#1080; &#1072;&#1083;&#1090;&#1072;&#1081;&#1089;&#1082;&#1086;&#1081; (n = 48), &#1073;&#1072;&#1096;&#1082;&#1080;&#1088;&#1089;&#1082;&#1086;&#1081; (n = 130), &#1073;&#1091;&#1088;&#1103;&#1090;&#1089;&#1082;&#1086;&#1081; (n = 30), &#1074;&#1103;&#1090;&#1089;&#1082;&#1086;&#1081; (n = 220), &#1079;&#1072;&#1073;&#1072;&#1081;&#1082;&#1072;&#1083;&#1100;&#1089;&#1082;&#1086;&#1081; (n = 34), &#1082;&#1099;&#1088;&#1075;&#1099;&#1079;&#1089;&#1082;&#1086;&#1081; (n = 100), &#1084;&#1077;&#1079;&#1077;&#1085;&#1089;&#1082;&#1086;&#1081; (n = 148), &#1084;&#1091;&#1075;&#1072;&#1083;&#1078;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; (n = 109), &#1085;&#1086;&#1074;&#1086;&#1072;&#1083;&#1090;&#1072;&#1081;&#1089;&#1082;&#1086;&#1081; (n = 514), &#1087;&#1077;&#1095;&#1086;&#1088;&#1089;&#1082;&#1086;&#1081; (n = 31), &#1096;&#1077;&#1090;&#1083;&#1077;&#1085;&#1076;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1085;&#1080; (n = 47), &#1087;&#1088;&#1080;&#1086;&#1073;&#1089;&#1082;&#1086;&#1081; (n = 85), &#1090;&#1091;&#1074;&#1080;&#1085;&#1089;&#1082;&#1086;&#1081; (n = 600), &#1093;&#1072;&#1082;&#1072;&#1089;&#1089;&#1082;&#1086;&#1081; (n = 47) &#1080; &#1103;&#1082;&#1091;&#1090;&#1089;&#1082;&#1086;&#1081; (n = 50) &#1087;&#1086;&#1088;&#1086;&#1076;. &#1055;&#1088;&#1080; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1080;
+&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1082;&#1086;-&#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1083;&#1080; &#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1077; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1077;&#1083;&#1080;: &#1086;&#1073;&#1097;&#1077;&#1077; &#1082;&#1086;&#1083;&#1080;&#1095;&#1077;&#1089;&#1090;&#1074;&#1086; &#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1074; &#1072;&#1083;&#1083;&#1077;&#1083;&#1077;&#1081;
+(Na) &#1074; 17 &#1084;&#1080;&#1082;&#1088;&#1086;&#1089;&#1072;&#1090;&#1077;&#1083;&#1083;&#1080;&#1090;&#1085;&#1099;&#1093; &#1083;&#1086;&#1082;&#1091;&#1089;&#1072;&#1093;, &#1091;&#1088;&#1086;&#1074;&#1077;&#1085;&#1100; &#1087;&#1086;&#1083;&#1080;&#1084;&#1086;&#1088;&#1092;&#1085;&#1086;&#1089;&#1090;&#1080; (Ae), &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1077; &#1095;&#1080;&#1089;&#1083;&#1086; &#1072;&#1083;&#1083;&#1077;&#1083;&#1077;&#1081; &#1085;&#1072; &#1083;&#1086;&#1082;&#1091;&#1089; (Nv), &#1085;&#1072;&#1073;&#1083;&#1102;&#1076;&#1072;&#1077;&#1084;&#1072;&#1103; (Ho) &#1080; &#1086;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1072;&#1103; (He) &#1075;&#1077;&#1090;&#1077;&#1088;&#1086;&#1079;&#1080;&#1075;&#1086;&#1090;&#1085;&#1086;&#1089;&#1090;&#1100;, &#1082;&#1086;&#1101;&#1092;&#1092;&#1080;&#1094;&#1080;&#1077;&#1085;&#1090;&#1099; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1089;&#1093;&#1086;&#1076;&#1089;&#1090;&#1074;&#1072; &#1080; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1076;&#1080;&#1089;&#1090;&#1072;&#1085;&#1094;&#1080;&#1081;, &#1082;&#1086;&#1101;&#1092;&#1092;&#1080;&#1094;&#1080;&#1077;&#1085;&#1090; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086;&#1075;&#1086; &#1080;&#1085;&#1073;&#1088;&#1080;&#1076;&#1080;&#1085;&#1075;&#1072; (Fis). &#1057;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1099;&#1077; &#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1077; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099; &#1083;&#1086;&#1096;&#1072;&#1076;&#1077;&#1081; &#1076;&#1072;&#1078;&#1077; &#1087;&#1088;&#1080;
+&#1089;&#1088;&#1072;&#1074;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1085;&#1077;&#1073;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1095;&#1080;&#1089;&#1083;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1080; &#1080;&#1084;&#1077;&#1102;&#1090; &#1074;&#1099;&#1089;&#1086;&#1082;&#1080;&#1081; &#1091;&#1088;&#1086;&#1074;&#1077;&#1085;&#1100; &#1073;&#1080;&#1086;&#1088;&#1072;&#1079;&#1085;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1080;&#1103; &#1080; &#1089;&#1074;&#1086;&#1077;&#1086;&#1073;&#1088;&#1072;&#1079;&#1085;&#1091;&#1102; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1091;&#1102; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1091;, &#1095;&#1072;&#1089;&#1090;&#1086; &#1089; &#1085;&#1072;&#1083;&#1080;&#1095;&#1080;&#1077;&#1084; &#1087;&#1088;&#1080;&#1074;&#1072;&#1090;&#1085;&#1099;&#1093; &#1072;&#1083;&#1083;&#1077;&#1083;&#1077;&#1081;, &#1082;&#1086;&#1090;&#1086;&#1088;&#1072;&#1103; &#1089;&#1086;&#1093;&#1088;&#1072;&#1085;&#1103;&#1077;&#1090;&#1089;&#1103; &#1085;&#1077;&#1089;&#1084;&#1086;&#1090;&#1088;&#1103; &#1085;&#1072; &#1087;&#1077;&#1088;&#1080;&#1086;&#1076;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1089;&#1082;&#1088;&#1077;&#1097;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; &#1089; &#1079;&#1072;&#1074;&#1086;&#1076;&#1089;&#1082;&#1080;&#1084;&#1080; &#1087;&#1086;&#1088;&#1086;&#1076;&#1072;&#1084;&#1080; &#1088;&#1072;&#1079;&#1085;&#1086;&#1081; &#1089;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080;. &#1059;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1086;, &#1095;&#1090;&#1086; &#1083;&#1086;&#1096;&#1072;&#1076;&#1080; &#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1086;&#1073;&#1083;&#1072;&#1076;&#1072;&#1102;&#1090; &#1088;&#1103;&#1076;&#1086;&#1084;
+&#1091;&#1085;&#1080;&#1082;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1072;&#1083;&#1083;&#1077;&#1083;&#1077;&#1081;, &#1074;&#1082;&#1083;&#1102;&#1095;&#1072;&#1103; ASB2T, HMS7S, HMS6J, HMS6H, HMS2T, HMS1O, HTG7L, HTG6L, HTG6H, VHL20S, ASB17Z,
+ASB17X, ASB17U, LEX3S, LEX3R &#1080; CA425E, &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1085;&#1077; &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1099; &#1091; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1077;&#1083;&#1077;&#1081; &#1079;&#1072;&#1074;&#1086;&#1076;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1074; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093;
+&#1077;&#1074;&#1088;&#1086;&#1087;&#1077;&#1081;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1103;&#1093;. &#1044;&#1083;&#1103; &#1073;&#1086;&#1083;&#1100;&#1096;&#1080;&#1085;&#1089;&#1090;&#1074;&#1072; &#1080;&#1079;&#1091;&#1095;&#1077;&#1085;&#1085;&#1099;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1073;&#1099;&#1083;&#1086; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1085;&#1086; &#1086;&#1090;&#1088;&#1080;&#1094;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1077; &#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1080;&#1077; Fis &#1080;
+&#1086;&#1090;&#1089;&#1091;&#1090;&#1089;&#1090;&#1074;&#1080;&#1077; &#1074;&#1085;&#1091;&#1090;&#1088;&#1080;&#1087;&#1086;&#1088;&#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1080;&#1085;&#1073;&#1088;&#1080;&#1076;&#1080;&#1085;&#1075;&#1072;. &#1050;&#1086;&#1101;&#1092;&#1092;&#1080;&#1094;&#1080;&#1077;&#1085;&#1090;&#1099; &#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1089;&#1093;&#1086;&#1076;&#1089;&#1090;&#1074;&#1072; &#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1084;&#1077;&#1085;&#1103;&#1083;&#1080;&#1089;&#1100; &#1074;
+&#1089;&#1088;&#1072;&#1074;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1096;&#1080;&#1088;&#1086;&#1082;&#1086;&#1084; &#1076;&#1080;&#1072;&#1087;&#1072;&#1079;&#1086;&#1085;&#1077; (0.828&#8211;0.973) &#1080; &#1089;&#1074;&#1080;&#1076;&#1077;&#1090;&#1077;&#1083;&#1100;&#1089;&#1090;&#1074;&#1086;&#1074;&#1072;&#1083;&#1080; &#1086;&#1073; &#1091;&#1085;&#1080;&#1082;&#1072;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1075;&#1077;&#1085;&#1086;&#1092;&#1086;&#1085;&#1076;&#1086;&#1074; &#1073;&#1086;&#1083;&#1100;&#1096;&#1080;&#1085;&#1089;&#1090;&#1074;&#1072; &#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1093; &#1082;&#1086;&#1085;&#1089;&#1082;&#1080;&#1093; &#1087;&#1086;&#1088;&#1086;&#1076; &#1074; &#1056;&#1086;&#1089;&#1089;&#1080;&#1080;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1087;&#1086;&#1076;&#1090;&#1074;&#1077;&#1088;&#1078;&#1076;&#1072;&#1083;&#1080; &#1086;&#1073;&#1097;&#1085;&#1086;&#1089;&#1090;&#1100; &#1087;&#1088;&#1086;&#1080;&#1089;&#1093;&#1086;&#1078;&#1076;&#1077;&#1085;&#1080;&#1103; &#1082;&#1099;&#1088;&#1075;&#1099;&#1079;&#1089;&#1082;&#1086;&#1081; &#1083;&#1086;&#1096;&#1072;&#1076;&#1080; &#1089;
+&#1087;&#1086;&#1087;&#1091;&#1083;&#1103;&#1094;&#1080;&#1103;&#1084;&#1080; &#1083;&#1086;&#1096;&#1072;&#1076;&#1077;&#1081; &#1070;&#1078;&#1085;&#1086;&#1081; &#1057;&#1080;&#1073;&#1080;&#1088;&#1080;.</p></trans-abstract><kwd-group><kwd>Equus caballus</kwd><kwd>genetic diversity</kwd><kwd>DNA microsatellites</kwd><kwd>local breeds</kwd><kwd>horse</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>Equus caballus</kwd><kwd>&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1088;&#1072;&#1079;&#1085;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1080;&#1077;</kwd><kwd>&#1084;&#1080;&#1082;&#1088;&#1086;&#1089;&#1072;&#1090;&#1077;&#1083;&#1083;&#1080;&#1090;&#1099; &#1044;&#1053;&#1050;</kwd><kwd>&#1084;&#1077;&#1089;&#1090;&#1085;&#1099;&#1077; &#1087;&#1086;&#1088;&#1086;&#1076;&#1099;</kwd><kwd>&#1083;&#1086;&#1096;&#1072;&#1076;&#1100;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Until the beginning of the last century, horse breeding occupied
+a special place in the economy and agricultural production
+not only in Russia, but also in many other countries.
+The horse was not only a symbol of the power and prestige
+of the country, but also saved peoples in difficult times of
+history. However, in the middle of the 20th century, with the
+development of mechanization in agriculture, transport, army
+and industry, the approach to the use of horses changed, and
+the number of horses decreased sharply, but then stabilized
+and even began to grow in many countries. Now horses play
+an important role in tourism, sports, racing business, as well
+as in food production (milk, koumis, meat). The observed
+global trend of increasing horse meat production (Askarov et
+al., 2020) is explained by the high dietary properties of horse
+meat. Horse meat is easily digested and contains practically no
+allergenic amino acids; therefore, it is considered a valuable
+dietary product (Stanislawczyk et al., 2020).</p><p>World practice shows that if the expenses on breeding work
+are reduced, the productivity of livestock decreases, and ultimately,
+animal breeding becomes unprofitable. The assessment
+of genetic diversity within individual breed populations and
+entire breeds makes it possible to create and improve both
+breeding plans and programs for the conservation of the gene
+pool of these breeds (Marzanov et al., 2010; Kalashnikova et
+al., 2022). In our country, local horse breeds represent more
+than 50 % of the total horse population, and their breeding
+provides employment, livestock production, preservation of
+cultural traditions and the development of new territories.</p><p>Currently, 47 horse breeds are included in the State Register
+of Breeding Achievements of the Russian Federation, including
+20 local and productive breeds created on their basis,
+which are mainly distributed in regions with harsh climatic
+conditions (Fig. 1).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Distribution of horses of local breeds in the territory of the Russian Federation.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2513-Fig1.jpg"/></fig><p>The evolution of local horse breeds took place mainly under
+the influence of natural selection using methods of native
+breeding, which resulted in high adaptability to environmental
+conditions. To date, a significant part of the native breeds
+have been systematically improved by crossing with various
+stud breeds due to the need to produce a larger horse for agriculture
+and increase horse meat production. Nowadays, the
+value of local breeds is increasing, as they are the basis of a
+productive horse breeding industry (Askarov et al., 2020). As
+a result of crossing horses of local breeds with stud, mainly
+draft breeds, it was possible to increase the size of native
+horses while maintaining their type and economically useful
+qualities. However, since the end of the last century to the
+present, there has been no purposeful breeding work with
+many local breeds, breeding records have been established
+almost only in the Mezenskaya, Vyatskaya, Bashkirskaya and
+Kalmykskaya breeds.</p><p>Uncontrolled crossing leads to a change in the type and
+pure original aboriginal forms of horses of most local breeds,
+which in the future may lead to the disappearance of the breeds
+themselves. Out of the 40 native horse breeds described by
+hippologists at the turn of the 19&#8211;20th centuries, only 16 have
+actually survived to the present day. At the same time, there
+is virtually no information about the current state of the Pechorskaya,
+Chumyshskaya, Kuznetskaya and Verkhneyeniseiskaya
+breeds included in the State Register of Breeding
+Achievements of the Russian Federation (Belousova, 2018).</p><p>Table 1 provides information on the number of horses tested
+and the number of mares of the studied local breeds. It follows
+from the above data that critically low numbers of livestock
+are observed in Vyatskaya, Mezenskaya, Pechorskaya and
+Priobskaya breeds, which are in urgent need of conservation
+measures. Therefore, comprehensive programs are needed to
+preserve small-numbered horse breeds, which are a national
+achievement of Russia, including genetic research for study
+and evaluation of the valuable domestic gene pool.</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>The total number of livestock and the number
+of samples taken from horses of local breeds</title><p>* Data: Belousova N.F. (2018).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2513-Tab1.jpg"/></fig><p>Today, DNA technologies are widely used in the control
+of animal origin, the study of phylogenetic relationships and
+microevolution of breeds, in order to improve the genotypic
+assessment of animals at individual and population levels,
+as well as in diverse and genomic studies (Marzanov et al.,
+2010; Roh et al., 2020; Nwachukwu et al., 2022; Pozharskiy
+et al., 2023).</p><p>In recent years, microsatellites have been the most popular
+markers in studies of the genetic characteristics of farm animals
+(Ernst, Zinovieva, 2008; Glazko et al., 2023), they are easy to use and have a high degree of information. Microsatellites
+are interesting because they are subject to a higher level
+of mutation than the rest of the genome (Glazko et al., 2023).
+Studies by many scientists researching the genetic structure
+of horses of different specializations using DNA markers
+(Kalashnikov et al., 2011; Blohina et al., 2018; Gavrilicheva,
+2019; Khaudov et al., 2019) have shown a high level of allelic
+variability in the studied populations and confirmed the
+presence of genetic specificity of the allelofund of most horse
+breeds, often with a limited breeding area (Vdovina, Yurieva,
+2021; Khrabrova et al., 2022). Microsatellites are an effective
+tool for studying the features of the gene pool, genetic polymorphism,
+phylogeny, and obtaining data on the formation
+and evolution of animals (R2D2 Consortium et al., 2021).</p><p>The purpose of our study was to investigate the allele pool
+and genetic diversity of STR loci in the genomes of horses of
+15 native breeds bred in the territory of the Russian Federation
+and CIS countries, as well as to study their phylogenetic
+relationships.</p></sec><sec><title>Materials and methods</title><p>The materials for these studies were selected from representatives
+of local breeds living on the territory of the Russian
+Federation. The study included 2,193 horses, including: Altaiskaya
+(n = 48), Bashkirskaya (n = 130), Buryatskaya (n = 30),
+Vyatskaya (n = 220), Zabaikalskaya (n = 34), Kyrgyzskaya
+(n = 100), Mezenskaya (n = 148), Mugalzharskaya (n = 109),
+Novoaltaiskaya (n = 514), Pechorskaya (n = 31), Shetland
+pony (n = 47), Priobskaya (n = 85), Tuvinskaya (n = 600),
+Khakasskaya (n = 47) and Yakutskaya (n = 50) breeds.</p><p>The studies were conducted in the certified laboratory of
+genetics of the Federal State Budgetary Scientific Institution
+All-Russian Research Institute for Horse Breeding for 17 STR
+DNA loci: HMS2, HMS3, HMS1, AHT4, VHL20, AHT5,
+HTG7, HTG6, HTG4, HTG10, HMS7, HMS6, ASB23, ASB2,
+ASB17, LEX3 and CA425, using standardized techniques
+recommended by ISAG.</p><p>DNA isolation from biomaterials (hair, blood, sperm, etc.)
+was carried out using COrDIS SPRINT reagents (Russia).
+Amplification of the obtained DNA was performed using a
+17-plex set of primers for genotyping horses of domestic production
+COrDIS Horse (Russia). The separation and detection
+of amplification products were carried out by capillary
+electrophoresis on an automatic 4-capillary genetic analyzer
+NANAFOR 05 (Russia). After recording the electrophoresis
+data using the GeneMapper&#8482; V.4.0 program, the sizes of the
+amplified DNA fragments were calculated. The interpretation
+of the results was carried out using a control DNA profile
+with a known genotype and data from international comparative
+tests (Horse Comparison Tests) conducted by ISAG in
+2008&#8211;2020. An international alphabetic code was used to
+designate alleles. The analysis of the genetic and population
+parameters of the breeds was carried out and graphically
+visualized in the program R Studio 1.3.1093 (Francis, 2017),
+R package &#8220;diveRsity&#8221;, using the package &#8220;POPHELPER&#8221;.
+The expected (Ho) and observed (He) heterozygosity values
+were calculated using the PLINK 1.9 software packages
+(Chang et al., 2015); MS Excel 2010, Statistics 12 (https://stat
+soft-statistica.ru/) and GenAlEx (ver.6.5.1) (https://biologyassets.
+anu.edu.au/GenAlEx/Download.html) were also used
+in the calculations. The phylogenetic tree was constructed
+using the Neighbor-Net algorithm using the SplitsTree4 4.14.5
+program (https://www.advanceduninstaller.com/SplitsTree4-
+4_14_5-72c0418345e4a971ba5b353bfae970d6-application.
+htm).</p><p>When characterizing the breeds, the following indicators
+were calculated: the total number of alleles in 17 STR loci
+(Na), the average number of alleles per locus (Nv), the level
+of polymorphism (Ae), observed (Ho) and expected (He)
+heterozygosity, the coefficient of intrapopulation inbreeding
+(Fis), genetic kinship and genetic distances</p></sec><sec><title>Results</title><p>Genotyping of 2,193 horses of 15 local breeds at 17 STR loci
+revealed 521 alleles with large fluctuations in loci from 3 for
+HTG6 (Pechorskaya) to 21 for ASB17 (Tuvinskaya).</p><p>A comparative analysis of the generalizing indicators shows
+that the richest spectrum of alleles was recorded in horses
+of the Tuvinskaya (170), Novoaltaiskaya (158) and Mugalzharskaya
+(154) breeds, while horses of the Buryatskaya
+breed had the minimum number of alleles, which was 117
+(Table 2).</p><fig position="float" id="Tab-2" orientation="portrait"><label>Table 2.</label><caption><title>Characteristics of horses of native breeds (n = 2,193) according to 17 STR DNA markers</title><p>Not&#1077;. n &#8211; number of horses; Na &#8211; total number of alleles in 17 microsatellite loci; Ae &#8211; level of polymorphism; Ho &#8211; observed heterozygosity; He &#8211; expected
+heterozygosity; Fis &#8211; coefficient of intrapopulation inbreeding; Nv &#8211; average number of alleles per locus; HWE &#8211; deviation from the Hardy&#8211;Weinberg equilibrium
+(ns &#8211; not significant, ** &#8211; significant at p &lt;0.001, *** &#8211; significant at p &lt;0.0001), * &#8211; horse breeds participating as improvers of local horses.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2513-Tab2.jpg"/></fig><p>The Tuvinskaya breed was the best in terms of polymorphism
+(Ae = 5.186). Horses of the Kyrgyzskaya (Ae = 5.080)
+and Mugalzharskaya (Ae = 5.051) breeds had similar indicators
+of this value. The lowest level of polymorphism was
+recorded in horses of the Khakasskaya (Ae = 4.299) and Yakutskaya
+(Ae = 4.307) breeds. The highest indicators of
+actual heterozygosity were determined in horses of the Mugalzharskaya
+(Ho = 0.801), Altayskaya (Ho = 0.784), Bashkirskaya
+(Ho = 0.778) and Kyrgyzskaya (Ho = 0.766) breeds, the
+lowest degree was found in Yakutskaya (Ho = 0.693) horses.</p><p>The predominance of heterozygous genotypes and the absence
+of intrapopulation inbreeding were observed in horses
+of the Altaiskaya, Bashkirskaya, Vyatskaya, Mezenskaya and
+Mugalzharskaya breeds. A slight shift in the genetic balance
+towards an excess of homozygotes according to the Fis coefficient
+was noted in horses of the Zabaikalskaya, Kyrgyzskaya,
+Novoaltaiskaya, Priobskaya, Tuvinskaya, Khakasskaya
+and Yakutskaya breeds. In most subpopulations and breeds
+of horses, we observed deviations from the Hardy&#8211;Weinberg
+equilibrium, significant at p &lt; 0.001 or p &lt; 0.0001 for all
+studied loci. The Hardy&#8211;Weinberg equilibrium was observed
+in horses of Bashkirskaya, Vyatskaya, Mezenskaya, Mugalzharskaya,
+Novoaltaiskaya, Tuvinskaya, and Khakasskaya
+breeds (p &gt; 0.05).</p><p>The results of the analysis of the genetic structure of horses
+of native breeds demonstrate that each of the analyzed groups
+differs in the spectrum, frequency of occurrence and set of alleles.
+It should be noted that a comparative analysis of 17 STR
+loci in horses of local breeds revealed 16 new alleles that were
+missing from the standardized ISAG nomenclature (Van de
+Goor et al., 2010), namely alleles: HMS7S, HMS6J, HMS6H,
+HMS2T, HMS1O, ASB2T, HTG7L, HTG6L, HTG6H, ASB17Z,
+ASB17X, ASB17U, VHL20S, LEX3S, LEX3R and CA425E.</p><p>In horses of the Mezenskaya breed bred in the Arkhangelsk
+region, five unique alleles were found at once: HMS6J (0.003),
+ASB17Y (0.019), ASB17X (0.010), LEX3S (0.039) and LEX3R
+(0.016). The alleles HMS7L (0.685), HMS3M (0.432), AHT4O
+(0.417), HTG7O (0.437), HTG7K (0.425), HTG6O (0.799),
+HTG4M (0.419) and LEX3M (0.535) had the highest concentration
+in this northern forest breed.</p><p>In the genetic structure of the Bashkirskaya breed, there is
+a high frequency of occurrence of certain alleles (HTG10O &#8211;
+0.447, HTG6O &#8211; 0.508, HTG4M &#8211; 0.589 and HMS7L &#8211; 0.487)
+and the presence of a rare allele ASB17U (0.041), found in
+horses of Tuvinskaya breed.</p><p>Two alleles turned out to be unique alleles for horses of the
+Vyatskaya breed HTG6L (0.004) and AHT5P (0.009), and the
+typical ones were HMS7L (0.470), HMS2H (0.457), HMS1M
+(0.468), AHT5J (0.427), HTG7 (0.576), HTG6O (0.712) and
+HTG4M (0.689).</p><p>The local horse breeds of Siberia differed markedly from
+European populations in all genetic parameters. High values
+of all basic population parameters were determined in horses
+of the Kyrgyzskaya and Tuvinskaya breeds that previously had
+contiguous ranges. High allele frequencies were also identified
+in horses of these breeds: HTG6O (0.548; 0.530), HTG4M
+(0.632; 0.597), HMS7L (0.420; 0.400). The Tuvinskaya breed
+rarely had alleles HMS6H (0.001), HMS3L (0.004), VHL20K
+(0.002), ASB23N (0.001), ASB17Z (0.002), LEX3J (0.054) and
+LEX3I (0.024). Two unique alleles were identified in the Kyrgyzskaya
+horse breed, HTG4J (0.005) and HTG7Q (0.009),
+absent from other studied breeds within the studied groups</p><p>The HTG6R allele was detected only in horses of four
+breeds: Kyrgyzskaya (0.005), Mugalzharskaya (0.007), Priobskaya
+(0.023) and Tuvinskaya (0.006). At the VHL20 locus,
+the S allele was found in horses of the Mugalzharskaya (0.046),
+Novoaltaiskaya (0.005) and Tuvinskaya (0.002) breeds.</p><p>In the LEX3 locus localized on the X chromosome, 12 alleles
+were identified in local horses, three of which (F, L, M)
+were found in all the studied breeds (Fig. 2).</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>Histogram of allele frequencies at the LEX3 locus in horses of local breeds.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2513-Fig2.jpg"/></fig><p>Representatives of the Tuvinskaya and Altaiskaya breeds
+are characterized by the presence of a rare allele LEX3J (0.019;
+0.056), which is absent in other groups studied in this work.
+Only in horses of local breeds bred in Southern and Western
+Siberia, such as Kyrgyzskaya, Novoaltaiskaya, Mugalzharskaya
+and Tuvinskaya, the LEX3G allele was found, which
+occurred with low frequency</p><p>Rare alleles have been identified in the genotypes of horses
+of the Mezenskaya breed, LEX3S (0.045) and LEX3R (0.017),
+missing from other populations (Fig. 2).</p><p>Horses of local breeds were characterized by the presence
+of separate alleles at the CA425 locus (I, J, L, M and N). The
+maximum frequency of occurrence of the CA425M allele was
+detected in the Tuvinskaya and Khakasskaya populations, and
+the CA425N allele was determined in horses of the Buryatskaya
+(0.511), Altaiskaya (0.463), Mugalzharskaya (0.408)
+and Novoaltaiskaya (0.435) breeds. The new allele CA425E
+was found only in horses of the Mugalzharskaya breed bred in
+Kazakhstan (0.009). The unique CA425P allele was identified
+in Shetland ponies, Bashkirskaya and Khakasskaya horses,
+and was absent in other breeds we studied.</p><p>The indicators of the level of polymorphism and the degree
+of heterozygosity in local breeds were high at low Fis values,
+which indicates a genetic balance in the studied populations.
+Based on the results obtained, it can be noted that the highest
+indicators of genetic diversity were found in horses of the
+Tuvinskaya breed, in comparison with other breeds analyzed in
+the framework of the presented study. And the lowest level of
+genetic diversity is observed in horses of the Vyatskaya breed.</p><p>The coefficients of genetic kinship between local horse
+breeds varied in the range of 0.828&#8211;0.973 (Table 3). The
+highest coefficients of genetic relationship were determined in
+horses of the Kyrgyzskaya breed with the Tuvinskaya (0.973),
+Bashkirskaya (0.939), Altaiskaya (0.938), Zabaikalskaya
+(0.934) and Khakasskaya (0.926) breeds. The lowest level of
+genetic relationship was found with Shetland ponies. Genetic
+differences between the studied horse breeds by microsatellite
+markers confirm the values of genetic distances, which varied
+in the range of 0.027&#8211;0.331. Horses of the Tuvinskaya and
+Kyrgyzskaya
+breeds have the closest genetic distances (0.027).</p><fig position="float" id="Tab-3" orientation="portrait"><label>Table 3.</label><caption><title>Coefficients of genetic kinship and genetic distances in horses of local breeds</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2513-Tab3.jpg"/></fig><p>On the phylogenetic tree, the studied horse breeds form
+three independent clusters (Fig. 3). The first cluster includes
+horses of the Kyrgyzskaya and Tuvinskaya breeds, characterized
+by a common origin, which is adequately consistent
+with history. Ethnic groups actively roamed on horseback
+throughout Eastern, Western and Central Siberia, hence the
+genetic relationship of the populations.</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3.</label><caption><title>Dendrogram of genetic distances between native horse breeds, constructed using the Neighbor-Net method</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-29-2513-Fig3.jpg"/></fig><p>The second cluster is formed by horses of the Bashkirskaya,
+Khakasskaya, Mugalzharskaya and Orlov Trotters breeds. At
+first glance, the inclusion of the Orlov Trotters in the group
+of local steppe breeds looks somewhat unexpected, but most
+likely it is due to the periodic use of this trotter breed to
+improve the economically useful qualities of horses of local populations. In this subcluster, a branch of the geographically
+isolated Mugalzharskaya breed stands out somewhat, possessing
+a number of unique alleles</p><p>The most extensive third cluster includes most of the studied
+aboriginal horse breeds of the forest and forest-steppe zone,
+as well as breeds of domestic draft horses previously used
+as improvers of local livestock. The dendrogram of genetic
+distances clearly reflects the noticeable influence of stallions
+of the Russian draft breed on the formation of the Vyatskaya
+breed over the past decades of its development.</p><p>Thus, based on the results obtained, it can be concluded that
+the formation of genetic profiles of aboriginal breeds, their
+levels of polymorphism, differences in the structure of loci,
+genetic and population characteristics, as well as commonalities,
+are influenced by two groups of significant factors of
+different vectors: the natural geographical isolation of animals
+and origin from common ancestors. Our molecular genetic
+analysis of 15 native breeds showed that all animal groups
+were characterized by high genetic diversity.</p></sec><sec><title>Discussion</title><p>Russia has unique genetic resources of horse breeding, the
+study of biological characteristics of which is the basis for
+programs for their conservation and improvement.</p><p>In the course of the conducted studies in horses of native
+breeds, high values of the polymorphism level of STR markers
+were determined in almost all breeds (Ae = 4.101&#8211;5.186)
+analyzed in the framework of the presented study. The data
+obtained indicate a complex and diverse system of crossing
+and breeding in the studied groups, as well as the presence
+of genetic diversity associated with the adaptive qualities of
+horses and their ability to adapt to extreme environmental
+conditions in an evolutionary context.</p><p>In addition to the standardized nomenclature (Van de Goor
+et al., 2010), 16 new alleles were found in horses of local
+breeds, which could have remained in the centers of domestication
+of ancient horses in the territory, as well as appeared
+as a result of genomic mutations or the introduction of genes
+with horses of nomads from different regions of Asia. Scientists
+from China (Ling et al., 2011) confirm this fact with
+their own studies of local Chinese horses, in which a wide
+range of alleles of microsatellite markers of oriental origin
+has been identifie</p><p>The analysis revealed significant differences in the main
+genetic parameters (Ae, Nv, Ho, He, Fis). In addition to the
+high degree of genetic variability, a characteristic feature of
+local breeds was the presence of a number of alleles unique for
+domestic breeds (ASB2T, HMS7S, HMS6J, HMS6H, HMS2T,
+HMS1O, HTG7L, HTG6L, HTG6H, VHL20S, ASB17Z,
+ASB17X, ASB17U, LEX3S, LEX3R and CA425E), which were
+not found in horses of stud breeds and in the studied European
+populations (Seo et al., 2016; Baena et al., 2020).</p><p>Horses of native breeds have unique alleles: Tuvinskaya &#8211;
+HTG6L, VHL20S, HMS6H, ASB17X, ASB17U, ASB17Z;
+Bashkirskaya
+&#8211; ASB17U; Altaiskaya &#8211; HMS2T; Buryatskaya
+&#8211; HTG6L, HTG6H; Vyatskaya &#8211; AHT5P, HTG6L;
+Mezenskaya &#8211; ASB17Y, ASB17X, HMS6J, LEX3R, LEX3S.
+Modern aboriginal horse breeds, even with a common origin
+from Mongolian roots (Yun et al., 2022), have their own
+characteristic genetic structure with the presence of private
+alleles, despite periodic crossing with stud breeds of riding,
+trotting and draft directions.</p><p>Our results confirm the published data of foreign scientists
+(Lippold et al., 2011; Librado et al., 2021) regarding the area
+of horse domestication having occupied a significant part of
+modern Russia, which, due to its geographical location, was a
+historical crossroads of the routes of many nomadic peoples of
+Eurasia, which contributed to the intensive process of forming
+horses of new breeds.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>Thus, the conducted studies have shown that domestic horse
+breeds have an original genetic structure, an inherent allele
+pool and are characterized by a high level of genetic diversity.
+Private alleles have been identified in horses of native breeds,
+which must be taken into account when controlling the origin
+and assessing population diversity, as well as when conducting
+genetic monitoring and planning programs for the conservation
+and breeding of horses of local breeds</p><p>The results of the constructed phylogenetic tree show that
+local horse breeds bred in the territories of neighboring regions
+have the highest degree of genetic similarity. Cluster analysis
+combined horse breeds into three groups according to the
+genetic structure of DNA microsatellite loci, which confirmed
+their suitability as markers of phylogenetic relationship of
+populations. The obtained coefficients of genetic similarity
+adequately reflect the relationships of local horse breeds in
+accordance with the history of their formation.</p><p>The study of the features of the genetic structure and phylogenetic
+relationships of domestic aboriginal horse breeds by
+17 STR markers is of undoubted interest both from a theoretical
+and a practical point of view. Genetic breeding methods
+make it possible not only to assess the degree of genetic
+diversity of breeds, but also to control the level of inbreeding,
+and based on this to form a strategy for breeding programs.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Askarov A., Kuznetsova A., Gusmanov R., Askarova A., Kovshov V.
+Cost-effective horse breeding in the Republic of Bashkortostan,
+Russia. Vet World. 2020;13(10):2039-2045. doi 10.14202/vetworld.
+2020.2039-2045</p><p>Baena M.M., Diaz S., Moura R.S., Meirelles S.L.C. Genetic characterization
+of Mangalarga Marchador breed horses based on microsatellite
+molecular markers. J Equine Vet Sci. 2020;95:103231. doi
+10.1016/j.jevs.2020.103231</p><p>Belousova N.F. Local (aboriginal) Horse Breeds in Russia. Divovo:
+Publishing House of the All-Russia Research Institute of Horse
+Breeding, 2018 (in Russian)</p><p>Blohina N.V., Khrabrova L.A., Zaitsev A.M., Gavrilicheva I.S. Assessment
+of the genetic diversity of microsatellite loci in horses of
+heavydraft breeds. Genetika i Razvedenie Zhivotnykh = Animal Genetics
+and Breeding. 2018;2:39-44. doi 10.31043/2410-2733-2018-
+2-39-44 (in Russian)</p><p>Chang C.C., Chow C.C., Tellier L.C.A.M., Vattikuti S., Purcell S.M.,
+Lee J.J. Second-generation PLINK: rising to the challenge of larger
+and richer datasets. GigaScience. 2015;4:7. doi 10.1186/s13742-
+015-0047-8</p><p>Ernst L.K., Zinovieva N.A. Biological Issues of Animal Husbandry in
+the XXI Century. Moscow, 2008 (in Russian)</p><p>Francis R.M. POPHELPER: an R package and web app to analyse and
+visualize population structure. Mol Ecol Resour. 2017;17(1):27-32.
+doi 10.1111/1755-0998</p><p>Gavrilicheva I.S. Genetic and population characteristics of Russian
+trotting horse breed by DNA microsatellite loci. AgroZooTekhnika =
+Agricultural and Livestock Technology. 2019;2(3):2. doi 10.15838/
+alt.2019.2.3.2 (in Russian)</p><p>Glazko V.I., Kosovsky G.Yu., Glazko T.T., Fedorova L.M. DNA
+markers and &#8220;microsatellite code&#8221; (review). Sel&#8217;skokhozyaystvennaya
+Biologiya = Agric Biol. 2023;58(2):223-248. doi 10.15389/
+agrobiology.2023.2.223eng</p><p>Kalashnikov V.V., Khrabrova L.A., Zaitsev A.M., Zaitseva M.A., Kalinkova
+L.V. Polymorphism of microsatellite DNA in horses of stud
+and local breeds. Sel&#8217;skokhozyaystvennaya Biologiya = Agric
+Biol.
+2011;46(2):41-45 (in Russian)</p><p>Kalashnikova L.A., Novikov A.A., Semak M.S. Development of the
+genetic testing of breeding products in animal husbandry. Zootekhniya
+= Zootechniya. 2022;11:25-28. doi 10.25708/ZT.2022.19.42.
+008 (in Russian)</p><p>Khaudov A.D., Duduev A.S., Kokov Z.A. Diversity of Kabardian
+horses and their genetic relationships with selected breeds in the
+Russian Federation based on 17 microsatellite loci. IOP Conf Ser:
+Earth Environ Sci. 2019;341:012072. doi 10.1088/1755-1315/341/
+1/012072</p><p>Khrabrova L.A., Blohina N.V., Belousova N.F., Kotran E.G. Estimation
+of the genealogical structure of Vyatka horse breed (Equus ferus
+caballus) using DNA analysis. Russ J Genet. 2022;58(4):462-466.
+doi 10.1134/S1022795422040068</p><p>Librado P., Khan N., Fages A. The origins and spread of domestic
+horses
+from the Western Eurasian steppes. Nature. 2021;598:634-
+640. doi 10.1038/s41586-021-04018-9</p><p>Ling Y.H., Ma Y.H., Guan W.J., Cheng Y.J., Wang Y.P., Han J.L.,
+Mang L., Zhao Q.J., He X.H., Pu Y.B., Fu B.L. Evaluation of the genetic
+diversity and population structure of Chinese indigenous horse
+breeds using 27 microsatellite markers. Anim Genet. 2011;42(1):
+56-65. doi 10.1111/j.1365-2052.2010.02067.x</p><p>Lippold S., Matzke N.J., Reissmann M., Hofreiter M. Whole mitochondrial
+genome sequencing of domestic horses reveals incorporation of
+extensive wild horse diversity during domestication. BMC Evol Biol.
+2011;11:328. doi 10.1186/1471-2148-11-328</p><p>Marzanov N.S., Nasibov M.G., Marzanova L.K., Ozerov M.Yu., Kantanen
+Yu., Lobkov V.Yu. Genetic Markers in the Theory and Practice
+of Sheep Breeding. Moscow: Pioner Publ., 2010 (in Russian)</p><p>Nwachukwu E.N., Kalla D.J.U., Ukwu H.O., Ogbu C.C., Ezea J.,
+Udoh U.H., Ekumankama O.O. Genetic diversity and population
+structure of four Nigerian indigenous cattle breeds. Trop Anim
+Health Prod. 2022;54(2):132. doi 10.1007/s11250-022-03132-8</p><p>Pozharskiy A., Abdrakhmanova A., Beishova I., Shamshidin A., Nametov
+A., Ulyanova T., Bekova G., Kikebayev N., Kovalchuk A., Ulya-
+nov
+V., Turabayev A., Khusnitdinova M., Zhambakin K., Sapakhova
+Z., Shamekova M., Gritsenko D. Genetic structure and genomewide
+association study of the traditional Kazakh horses. Animal.
+2023;17(9):100926. doi 10.1016/j.animal.2023.100926</p><p>R2D2 Consortium; Fugeray-Scarbel A., Bastien C., Dupont-Nivet M.,
+Lemari&#233; S. Why and how to switch to genomic selection: lessons
+from plant and animal breeding experience. Front Genet. 2021;12:
+629737. doi 10.3389/fgene.2021.629737</p><p>Roh H.J., Kim S.C., Cho C.Y., Lee J., Jeon D., Kim D.K., Kim K.W.,
+Afrin F., Ko Y.G., Lee J.H., Batsaikhan S., Susanti T., Hegay S.,
+Kongvongxay S., Gorkhali N.A., Thi L.A.N., Thao T.T.T., Manikku
+L. Estimating genetic diversity and population structure
+of 22 chicken breeds in Asia using microsatellite markers. Asian-
+Australas J Anim Sci. 2020;33(12):1896-1904. doi 10.5713/ajas.
+19.0958</p><p>Seo J.H., Park K.D., Lee H.K., Kong H.S. Genetic diversity of Halla
+horses using microsatellite markers. J Anim Sci Technol. 2016;
+58:40. doi 10.1186/s40781-016-0120-6</p><p>Stanislawczyk R., Rudy M., Gil M. Quality characteristics of horse
+meat as influence by the age of horse. Int J Food Prop. 2020;23(1):
+864-877. doi 10.1080/10942912.2020.1764579</p><p>Van de Goor L.H., Panneman H., Van Haeringen W.A. A proposal for
+standardization in forensic equine DNA typing: allele nomenclature
+for 17 equine-specific STR loci. Anim Genet. 2010;41(2):122-127.
+doi 10.1111/j.1365-2052.2009.01975.x</p><p>Vdovina N.V., Yuryeva I.B. Monitoring for the genetic structure of
+Mezen breed of horses in terms of DNA microsatellites. Vavilovskii
+Zhurnal Genetiki i Selektsii = Vavilov J Genet Breed. 2021;25(2):
+202-207. doi 10.18699/VJ21.024</p><p>Yun J., Oyungerel B., Kong H.S. Genetic diversity and population
+structure of Mongolian regional horses with 14 microsatellite markers.
+Anim Biosci. 2022;35(8):1121-1128. doi 10.5713/ab.21.0497</p></sec></body><back><ack><p>The work was financially supported by the Ministry of Science and Higher Education of the Russian Federation, grant No. 075-15-2021-1037 (internal No. 15.BRK.21.0001).</p></ack></back></article></pmc-articleset>

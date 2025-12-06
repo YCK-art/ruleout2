@@ -1,0 +1,386 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Vet Med Sci</journal-id><journal-id journal-id-type="iso-abbrev">J Vet Med Sci</journal-id><journal-id journal-id-type="pmc-domain-id">2350</journal-id><journal-id journal-id-type="pmc-domain">jvms</journal-id><journal-id journal-id-type="publisher-id">JVMS</journal-id><journal-title-group><journal-title>The Journal of Veterinary Medical Science</journal-title></journal-title-group><issn pub-type="ppub">0916-7250</issn><issn pub-type="epub">1347-7439</issn><publisher><publisher-name>Japanese Society of Veterinary Science</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10017293</article-id><article-id pub-id-type="pmcid-ver">PMC10017293.1</article-id><article-id pub-id-type="pmcaid">10017293</article-id><article-id pub-id-type="pmcaiid">10017293</article-id><article-id pub-id-type="pmid">36477365</article-id><article-id pub-id-type="doi">10.1292/jvms.22-0258</article-id><article-id pub-id-type="publisher-id">22-0258</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Bacteriology</subject><subj-group><subject>Note</subject></subj-group></subj-group></article-categories><title-group><article-title>Characterization of an atypical <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> serovar 2 isolate with a rough-type
+lipopolysaccharide</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>TO</surname><given-names initials="H">Ho</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cor1" ref-type="corresp">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>AKAIKE</surname><given-names initials="Y">Yuta</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>KON</surname><given-names initials="M">Michiha</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>KOIKE</surname><given-names initials="F">Fumiko</given-names></name><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>SHIBUYA</surname><given-names initials="K">Kazumoto</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>SASAKAWA</surname><given-names initials="C">Chihiro</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>NAGAI</surname><given-names initials="S">Shinya</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><aff id="aff1"><label>1)</label>Nippon Institute for Biological Science, Tokyo, Japan</aff><aff id="aff2"><label>2)</label>SMC Co., Ltd., Kanagawa, Japan</aff><aff id="aff3"><label>3)</label>Faculty of Agriculture and Aquaculture, University of Cuu
+Long, Vinh Long, VietNam</aff><aff id="aff4"><label>4)</label>Medical Mycology Research Center, Chiba University, Chiba,
+Japan</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Correspondence to: To H: <email xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="toho@nibs.or.jp">toho@nibs.or.jp</email>, Nippon Institute for Biological
+Science, 9-2221-1 Shinmachi, Ome, Tokyo 198-0024, Japan</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>12</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2023</year></pub-date><volume>85</volume><issue>2</issue><issue-id pub-id-type="pmc-issue-id">431390</issue-id><fpage>157</fpage><lpage>162</lpage><history><date date-type="received"><day>25</day><month>5</month><year>2022</year></date><date date-type="accepted"><day>30</day><month>11</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>02</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>17</day><month>03</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-01-07 14:25:35.900"><day>07</day><month>01</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>&#169;2023 The Japanese Society of Veterinary Science</copyright-statement><copyright-year>2023</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative
+Commons Attribution Non-Commercial No Derivatives (by-nc-nd) License. (CC-BY-NC-ND 4.0:
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>)</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="jvms-85-157.pdf"/><abstract><p>We describe phenotypic and genetic characterization of an atypical Japanese
+<italic toggle="yes">Actinobacillus pleuropneumoniae</italic> isolate OT761. Nucleotide sequence
+analysis revealed that gene clusters involved in capsular polysaccharide and
+O-polysaccharide (O-PS) biosynthesis of the isolate were nearly identical to those of
+serovar 2 reference strain. The main difference found between the O-PS loci is the
+shortening of 31 amino acids from the C terminus of WcaJ in the atypical isolate due to a
+93 bp deletion at the 3' end of <italic toggle="yes">wcaJ</italic> gene. Immunoblot analysis revealed
+that this isolate could not produce O-PS. Taken together, our results showed that the
+C-terminal domain of the <italic toggle="yes">A. pleuropneumoniae</italic> WcaJ plays a critical role
+in enzyme function of WcaJ involved in the biosynthesis of O-PS.</p></abstract><kwd-group><kwd><italic toggle="yes">Actinobacillus pleuropneumoniae</italic></kwd><kwd>atypical</kwd><kwd>rough-type lipopolysaccharide</kwd><kwd>swine</kwd><kwd><italic toggle="yes">wcaJ</italic></kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p><italic toggle="yes">Actinobacillus pleuropneumoniae</italic> is the causative agent of porcine
+pleuropneumonia, an economically important bacterial infection of swine [<xref rid="r5" ref-type="bibr">5</xref>]. Isolates can be differentiated into two biovars based on the requirement
+for nicotinamide adenine dinucleotide (NAD-dependent biovar 1; NAD-independent biovar 2)
+[<xref rid="r22" ref-type="bibr">22</xref>]; and subsequently into 19 serovars based mainly
+on the antigenic diversity of the capsular polysaccharides (CPS) and O-polysaccharide (O-PS)
+[<xref rid="r2" ref-type="bibr">2</xref>, <xref rid="r21" ref-type="bibr">21</xref>, <xref rid="r24" ref-type="bibr">24</xref>]. The prevalent serovars differ by country, region and
+farm. In Japan, serovar 2 is the most predominant, followed by serovars 1, 5 and 15 [<xref rid="r9" ref-type="bibr">9</xref>, <xref rid="r17" ref-type="bibr">17</xref>, <xref rid="r25" ref-type="bibr">25</xref>]. There has also been an increase in unserotypable (UT)
+isolates that failed to react in the agar gel diffusion (AGD) test using autoclaved antigens
+(121&#176;C, 1 hr) [<xref rid="r17" ref-type="bibr">17</xref>].</p><p>Cross-reactions between some serovars (1, 9, and 11; 4 and 7; 3, 6, 8, and 15) and variable
+results between individual batches of test sera are usually observed in the conventional
+serotyping tests [<xref rid="r14" ref-type="bibr">14</xref>,<xref rid="r15" ref-type="bibr">15</xref>,<xref rid="r16" ref-type="bibr">16</xref>]. To overcome these limitations,
+molecular diagnostic methods have been developed for serotyping of <italic toggle="yes">A.
+pleuropneumoniae</italic> isolates [<xref rid="r1" ref-type="bibr">1</xref>, <xref rid="r2" ref-type="bibr">2</xref>, <xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r28" ref-type="bibr">28</xref>]. These methods allow the determination of the
+respective serovar and warrant the re-evaluation of previously UT isolates, as well as those
+that showed serological ambiguities.</p><p>We report herein phenotypic and genetic characteristics of this atypical isolate of
+<italic toggle="yes">A. pleuropneumoniae</italic> serovar 2.</p><p>An <italic toggle="yes">A. pleuropneumoniae</italic> designated as isolate OT761 was isolated from lung
+lesions of a dead pig approximately 140 days of age in the Kyushu region, Japan, in 2015. By
+using a small amount of an <italic toggle="yes">A. pleuropneumoniae</italic> colony from chocolate blood
+agar plate as antigen in rapid slide agglutination (RSA) test [<xref rid="r16" ref-type="bibr">16</xref>], isolate OT761 showed a very weak reaction with antiserum against serovar 2
+reference strain S1536 but no reaction with any of antisera against the reference strains of
+serovars 1, 3&#8211;17. Reaction degree was indicated as +++ (strong positive), ++ (positive), +
+(positive), w+ (weak positive), &#177; (very weak), &#8722; (negative). A very weak reaction was
+considered as an ambiguous result. A further four other isolates of <italic toggle="yes">A.
+pleuropneumoniae</italic> designed as A, B, C and D isolated from pneumonic lesions of four
+dead or diseased pigs from the Kanto region, Japan in 2022 were included in this study. They
+were sent to the Nippon Institute for Biological Science, Ome, Tokyo, Japan for serotyping. A
+serovar 2 reference strain S1536 was used in the further characterization of these isolates as
+described below. They were grown at 37&#176;C in the presence of 5% CO<sub>2</sub> on chocolate
+agar (Becton, Dickinson Co., Detroit, MI, USA) as previously described [<xref rid="r27" ref-type="bibr">27</xref>].</p><p>Serotyping of the five field isolates was then carried out with serovar-specific rabbit
+antisera prepared against serovar reference strains by using an AGD test with autoclaved
+antigens (121&#176;C, 1 hr) as described previously [<xref rid="r17" ref-type="bibr">17</xref>,
+<xref rid="r25" ref-type="bibr">25</xref>]. Four isolates A&#8211;D and the serovar 2 reference
+strain S1536, but not isolate OT761, were serotyped as serovar 2 by the AGD test, based on the
+observation of serovar 2&#8211;specific precipitation lines (<xref rid="fig_001" ref-type="fig">Fig.
+1A</xref><fig position="float" fig-type="figure" id="fig_001" orientation="portrait"><label>Fig. 1.</label><caption><p>Agar gel diffusion test with rabbit antiserum raised against <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> serovar 2 reference strain S1536. The antiserum against
+reference strain S1536 (labeled 2S), and antigens of reference strains and field
+isolates were placed in the center and outer wells, respectively. (<bold>A</bold>) The
+test with antigens extracted at 121&#176;C for 1 hr (antoclaved antigens). Serovar 2-specific
+precipitation lines were seen with serovar 2 reference strain S1536 (labeled 2) and the
+four isolates (labeled A, B, C, D), but not with isolate OT761 (labeled OT761).
+(<bold>B</bold>) The test with antigens extracted at 100&#176;C (heat-extracted antigens).
+Serovar 2-specific precipitation lines were seen with strain S1536 and isolate OT761,
+but not with serovar 7 reference strain WF83 (labeled 7).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-85-157-g001.jpg"/></fig>).</p><p>Next, we sought to assess whether antigen-extraction temperature could be liable to destroy
+the capsular antigen. For that purpose, growth on chocolate agar plates (of serovar 2 strains
+OT761, S1536 or serovar 7 strain WF83) were harvested and divided into 2 portions which were
+then treated at 100&#176;C [<xref rid="r14" ref-type="bibr">14</xref>,<xref rid="r15" ref-type="bibr">15</xref>,<xref rid="r16" ref-type="bibr">16</xref>] and 121&#176;C [<xref rid="r17" ref-type="bibr">17</xref>, <xref rid="r25" ref-type="bibr">25</xref>] for 1 hr
+each. The serovar 7 reference strain was selected randomly as a representative of core type II
+strains of <italic toggle="yes">A. pleuropneumoniae</italic> (serovars 2&#8211;5, 7, 8, 10, and 12) [<xref rid="r11" ref-type="bibr">11</xref>]. The suspensions were centrifuged at 15,000 &#215;
+<italic toggle="yes">g</italic> for 10 min, and the resulting clear supernatants were used as antigens
+for the AGD test. Precipitation lines were observed for autoclaved (121&#176;C, 1 hr) and heat
+(100&#176;C, 1 hr)-extracted antigens of serovar 2 reference strain S1536, and for the
+heat-extracted antigen of isolate OT761 but not for the autoclaved antigen of isolate OT761,
+and for the autoclaved and heat-extracted antigens of serovar 7 reference strain WF83 (<xref rid="fig_001" ref-type="fig">Fig. 1A and 1B</xref>). Additionally, we asked whether the
+higher heat treatment could affect the antigens used for serotyping in the RSA test. The RSA
+test was carried out using the whole-cell, heat-treated and autoclaved antigens as described
+previously [<xref rid="r16" ref-type="bibr">16</xref>, <xref rid="r17" ref-type="bibr">17</xref>]. The antigens of the serovar 2 reference strain S1536 showed strong positive
+reactions, whereas the whole-cell and heat-treated (60&#176;C, 2 hr; and 100&#176;C, 1 hr) antigens of
+isolate OT761 showed only the very weak reactions, and its autoclaved antigen showed a
+negative reaction with antiserum against S1536 (<xref rid="fig_002" ref-type="fig">Fig.
+2</xref><fig position="float" fig-type="figure" id="fig_002" orientation="portrait"><label>Fig. 2.</label><caption><p>Rapid slide agglutination test with the heat treatment antigens. The antigens of the
+serovar 2 reference strain S1536S showed strong positive reactions, whereas the
+whole-cell and heat-treated (60&#176;C, 2 hr; and 100&#176;C, 1 hr) antigens of isolate OT761
+showed the very weak reactions, and the autoclaved (121&#176;C, 1hr) antigen of isolate OT761
+showed a negative reaction with antiserum against S1536. Reaction degree was indicated
+as +++ (strong positive), ++ (positive), + (positive), w+ (weak positive), &#177; (very weak:
+ambiguous result), &#8722; (negative).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-85-157-g002.jpg"/></fig>). Additionally, the antigens of isolate OT761 did not react with any of the
+serovar-specific rabbit antisera. There was no apparent difference in the reaction between the
+fresh whole-cell antigens and heat-treated formalized antigens by the RSA test.</p><p>Results of the PCR-based <italic toggle="yes">apx</italic> gene typing [<xref rid="r12" ref-type="bibr">12</xref>, <xref rid="r23" ref-type="bibr">23</xref>] and biovar
+(<italic toggle="yes">nadV</italic>)-specific PCR tests [<xref rid="r2" ref-type="bibr">2</xref>] revealed
+that five isolates A, B, C, D, and OT761 contained <italic toggle="yes">apxIIA</italic>,
+<italic toggle="yes">apxIIIA</italic>, and <italic toggle="yes">apxIVA</italic> genes; and a truncated
+<italic toggle="yes">nadV</italic> gene specific for biovar 1, as indicated by the lack of a
+<italic toggle="yes">nadV</italic> amplicon in PCR and the requirement for NAD for growth. The molecular
+work and the fact that these field isolates were found to be dependent on NAD <italic toggle="yes">in
+vitro</italic>, indicated that the five field isolates were <italic toggle="yes">A.
+pleuropneumoniae</italic> biovar 1. Further examination of the genes for the expression,
+activation, and secretion of Apx toxins by PCR [<xref rid="r3" ref-type="bibr">3</xref>]
+revealed that the isolates of <italic toggle="yes">A. pleuropneumoniae</italic> contained the same
+<italic toggle="yes">apx</italic> gene combination as the serovar 2, 4, 6, 8, and 15 reference strains
+(an <italic toggle="yes">apxIICA</italic>, <italic toggle="yes">apxIIICA</italic>, <italic toggle="yes">apxIBD</italic>,
+<italic toggle="yes">apxIIIBD</italic>, and <italic toggle="yes">apxIVA</italic> gene pattern). The molecular
+detection based on the <italic toggle="yes">cps</italic> gene [<xref rid="r1" ref-type="bibr">1</xref>,
+<xref rid="r2" ref-type="bibr">2</xref>, <xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r24" ref-type="bibr">24</xref>] showed that the five isolates were positive by two
+<italic toggle="yes">cps2</italic>-specific PCR tests, having different target genes
+(<italic toggle="yes">cps2E</italic> [<xref rid="r1" ref-type="bibr">1</xref>], <italic toggle="yes">cps2BCD</italic>
+[<xref rid="r8" ref-type="bibr">8</xref>], <xref rid="fig_003" ref-type="fig">Fig.
+3A</xref><fig position="float" fig-type="figure" id="fig_003" orientation="portrait"><label>Fig. 3.</label><caption><p>Schematic comparison of the capsular polysaccharide (CPS) and O-polysacharide (O-PS)
+biosynthesis loci of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic> serovar 2
+reference strain S1536 and atypical isolate OT761. (<bold>A</bold>) The CPS locus
+(17,051 bp) of <italic toggle="yes">A. pleuropneumoniae</italic> OT761 and comparison to that of
+strain S1536. The similarity of the CPS loci is 99.6%. The locations of the
+<italic toggle="yes">cps</italic>2-specific primers for amplification of <italic toggle="yes">cps2E</italic> and
+<italic toggle="yes">cps2BCD</italic> genes [<xref rid="r1" ref-type="bibr">1</xref>, <xref rid="r8" ref-type="bibr">8</xref>] are indicated as small curved black arrows.
+(<bold>B</bold>) The O-PS locus (13,372 bp) of <italic toggle="yes">A. pleuropneumoniae</italic>
+OT761 and comparison to that (13,465 bp) of <italic toggle="yes">A. pleuropneumoniae</italic> serovar
+2 strain S1536. The similarity of the O-PS loci is 99.9%. The <italic toggle="yes">wcaJ</italic> gene
+(1,323 bp) of strain S1536 is shown as a gray arrow. The <italic toggle="yes">wcaJ</italic> gene of
+isolate OT761, which is truncated by a 93 bp deletion at nucleotide (nt) positions
+1115&#8211;1207 of the 3&#8242; end of <italic toggle="yes">wcaJ</italic> gene (<italic toggle="yes">&#916;wcaJ</italic>, 1,230
+bp), is shown as a black arrow. The name of gene is indicated. The numbers above and
+below the intergenic regions and genes indicate the length in base pairs (bp) of the
+corresponding regions and genes. The grey blocks between the two sequences each indicate
+levels of nucleotide identity (light grey=99 to 99.5%, dark grey=99.8 to 100%). ntID and
+aaID, abbreviation of identities of nucleotide and deduced amino acid sequences,
+respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-85-157-g003.jpg"/></fig>).</p><p>In order to amplify a 1,545 bp amplicon of 16S rDNA, PCR was performed using primer pairs
+designed from previously published sequences [<xref rid="r29" ref-type="bibr">29</xref>]
+(<xref rid="tbl_001" ref-type="table">Table 1</xref><table-wrap position="float" id="tbl_001" orientation="portrait"><label>Table 1.</label><caption><title>Primers used in study of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic>
+isolates</title></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" rowspan="1" colspan="1">Primer name</th><th align="center" rowspan="1" colspan="1">Sequence (5&#8242; to 3&#8242;)</th><th align="center" rowspan="1" colspan="1">Target gene</th><th align="center" rowspan="1" colspan="1">Amplicon size (bp)</th><th align="center" rowspan="1" colspan="1">Reference</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">AP16SF1</td><td align="left" rowspan="1" colspan="1">ACTTAGCTAAGCAGAATATTGAGCG</td><td align="center" valign="top" rowspan="2" colspan="1">16S rDNA</td><td align="center" valign="top" rowspan="2" colspan="1">1,545</td><td align="center" valign="top" rowspan="2" colspan="1">This study</td></tr><tr><td align="left" rowspan="1" colspan="1">AP16SR1</td><td align="left" rowspan="1" colspan="1">TGTCGCTCAATTTCTGGTAAGGAG</td></tr><tr><td align="left" rowspan="1" colspan="1">nadVF</td><td align="left" rowspan="1" colspan="1">CTCACTAAACAAAACTCTGCGTTC</td><td align="center" valign="top" rowspan="2" colspan="1"><italic toggle="yes">nadV</italic></td><td align="center" valign="top" rowspan="2" colspan="1">1,339</td><td align="center" valign="top" rowspan="2" colspan="1">[<xref rid="r2" ref-type="bibr">2</xref>]</td></tr><tr><td align="left" rowspan="1" colspan="1">nadR</td><td align="left" rowspan="1" colspan="1">TTCGGATGACAGAACTTTTACCCG</td></tr><tr><td align="left" rowspan="1" colspan="1">AP2F</td><td align="left" rowspan="1" colspan="1">GAGTGTGATGATGATGCTCTGGTTC</td><td align="center" valign="top" rowspan="2" colspan="1"><italic toggle="yes">cps2E</italic></td><td align="center" valign="top" rowspan="2" colspan="1">247</td><td align="center" valign="top" rowspan="2" colspan="1">[<xref rid="r1" ref-type="bibr">1</xref>]</td></tr><tr><td align="left" rowspan="1" colspan="1">AP2R</td><td align="left" rowspan="1" colspan="1">TACCAATAACTGTTGCAACTAACGC</td></tr><tr><td align="left" rowspan="1" colspan="1">cps2F1-27<sup>a)</sup></td><td align="left" rowspan="1" colspan="1">ATGTCAAACATCAACATCCAGAATGCC</td><td align="center" valign="top" rowspan="2" colspan="1">The first half of CPS locus</td><td align="center" valign="top" rowspan="2" colspan="1">8,961</td><td align="center" valign="top" rowspan="1" colspan="1">This study</td></tr><tr><td align="left" rowspan="1" colspan="1">APPcps2R<sup>b)</sup></td><td align="left" rowspan="1" colspan="1">CACCCCATGAATCGACTGATTGCCAT</td><td align="center" valign="top" rowspan="1" colspan="1">[<xref rid="r8" ref-type="bibr">8</xref>]</td></tr><tr><td align="left" rowspan="1" colspan="1">APPcps2F<sup>b)</sup></td><td align="left" rowspan="1" colspan="1">CGCAGCCGGACAAAAACAAATACACG</td><td align="center" valign="top" rowspan="2" colspan="1">The second half of CPS locus</td><td align="center" valign="top" rowspan="2" colspan="1">9,814</td><td align="center" valign="top" rowspan="1" colspan="1">[<xref rid="r8" ref-type="bibr">8</xref>]</td></tr><tr><td align="left" rowspan="1" colspan="1">cps2R1-17051<sup>a)</sup></td><td align="left" rowspan="1" colspan="1">ATGAAAAAAGTATATGTAACGCACGG</td><td align="center" valign="top" rowspan="1" colspan="1">This study</td></tr><tr><td align="left" rowspan="1" colspan="1">lps15F1 (1484)<sup>c)</sup></td><td align="left" rowspan="1" colspan="1">ACTCGTAAACGAAGATTCGGGTTATCTTCGC</td><td align="center" valign="top" rowspan="2" colspan="1">Complete O-PS locus</td><td align="center" valign="top" rowspan="2" colspan="1">13,371</td><td align="center" valign="top" rowspan="2" colspan="1">[<xref rid="r27" ref-type="bibr">27</xref>]</td></tr><tr><td align="left" rowspan="1" colspan="1">lps15R2 (1498)</td><td align="left" rowspan="1" colspan="1">CGTGAAAAAGCATCTTTAGCTAAACGTCACGC</td></tr></tbody></table><table-wrap-foot><p>CPS=capsular polysaccharide; O-PS=O-polysacchride. a) Primers for amplification of the
+DNA fragments of the CPS locus were designed on the basis of the sequences of CPS locus
+of reference strain S1536 (serovar 2, accession <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="ADOE00000000">ADOE00000000</ext-link>) [<xref rid="r29" ref-type="bibr">29</xref>]. b) Primers for amplification of the DNA fragments of the cps2BCD
+(1,715 bp) genes and the CPS locus [<xref rid="r8" ref-type="bibr">8</xref>]. c) Primers
+for amplification of the O-PS locus [<xref rid="r27" ref-type="bibr">27</xref>].</p></table-wrap-foot></table-wrap>). The nucleotide sequence of the 16S rDNA of isolate OT761 (1,515 bp) shared
+99.9% identity with those of <italic toggle="yes">A. pleuropneumoniae</italic> serovars 14, 8, 7, 5, 4, and
+3 (accession no. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP031860">CP031860</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP031866">CP031866</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP031869">CP031869</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP063424">CP063424</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP031873">CP031873</ext-link>, and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP000687">CP000687</ext-link>,
+respectively), whereas it exhibits 100% identity to that of serovar 2 (accession <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="CP031875">CP031875</ext-link>),
+revealing that the atypical isolate was more phylogenetically related to serovar 2 than to the
+other serovars.</p><p>In order to elucidate the reason for the discrepancy between molecular and serological typing
+for the isolate OT761, the gene clusters involved in the biosynthesis of CPS and/or O-PS were
+PCR-amplified from the isolate OT761, and the four isolates of serovar 2 (A-D). The primer
+pairs used for amplification of the <italic toggle="yes">cps</italic> [<xref rid="r1" ref-type="bibr">1</xref>, <xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r28" ref-type="bibr">28</xref>] and <italic toggle="yes">o-ps</italic> [<xref rid="r26" ref-type="bibr">26</xref>] genes are
+listed in <xref rid="tbl_001" ref-type="table">Table 1</xref>. The PCR was performed as
+described previously [<xref rid="r27" ref-type="bibr">27</xref>]. Purification of PCR products
+and determination of the nucleotide sequences were performed as described previously [<xref rid="r26" ref-type="bibr">26</xref>, <xref rid="r27" ref-type="bibr">27</xref>].</p><p>The complete CPS locus (17,051 bp) of isolate OT761 was found between the genes
+<italic toggle="yes">ydeN</italic>, encoding a predicted serine hydrolase, and <italic toggle="yes">modF</italic>,
+encoding a putative molybdenum transport ATP-binding protein (<xref rid="fig_003" ref-type="fig">Fig. 3A</xref>). The <italic toggle="yes">cps</italic> genes of isolate OT761 were found to
+be 99.6% identical at the nucleotide level with those from serovar 2 reference strain S1536.
+The complete O-PS locus of isolate OT761 (13,372 bp) identified between the
+<italic toggle="yes">erpA</italic> and <italic toggle="yes">rpsU</italic> genes (<xref rid="fig_003" ref-type="fig">Fig. 3B</xref>) was found to be 99.9% identical at the nucleotide level with that of
+serovar 2 strain S1536 (13,465 bp). The sequence analysis of the <italic toggle="yes">cps</italic> and
+<italic toggle="yes">o-ps</italic> genes between serovar 2 strains revealed that there were genetic
+differences, such as single nucleotide polymorphisms (SNPs), in the <italic toggle="yes">cps2B</italic>,
+<italic toggle="yes">cps2C</italic>, <italic toggle="yes">cps2D</italic>, <italic toggle="yes">lysA</italic> and
+<italic toggle="yes">ydeN</italic> genes in the CPS loci, and <italic toggle="yes">rmlD</italic> gene in the O-PS
+loci, as well as a 93 bp deletion at the 3&#8242; end of the <italic toggle="yes">wcaJ</italic> gene in the O-PS
+locus in isolate OT761, but not in the 1,323 bp <italic toggle="yes">wcaJ</italic> gene in the reference
+strain S1536 and four Japanese isolates (A-D). Nucleotide sequences of the 16S rDNA, and
+<italic toggle="yes">cps</italic> and <italic toggle="yes">o-ps</italic> genes of isolate OT761 were deposited in the
+DDBJ/EMBL/GenBank databases under accessions no. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="LC708151">LC708151</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="LC685098">LC685098</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="LC682597">LC682597</ext-link>,
+respectively.</p><p>Only missense and silent SNPs were found in the <italic toggle="yes">cps</italic> and
+<italic toggle="yes">o-ps</italic> genes of the atypical isolate. Impact of the SNPs on structure,
+stability and function of enzymes encoded by the <italic toggle="yes">cps2B</italic>,
+<italic toggle="yes">cps2C</italic>, <italic toggle="yes">cps2D</italic>, <italic toggle="yes">lysA</italic> and
+<italic toggle="yes">ydeN</italic> genes in CPS biosynthesis was not analyzed in the current study. In
+the <italic toggle="yes">o-ps</italic> genes, there was only one missense SNP in the <italic toggle="yes">rmlD</italic>
+gene. The nucleotide substitution in turn results in an isoleucine to valine substitution at
+residue 43 of 291 amino acid RmlD. Data from a previous report suggested that this residue is
+not involved in the catalytic activity of RmlD [<xref rid="r6" ref-type="bibr">6</xref>].</p><p>To investigate whether isolate OT761 was defective in O-PS production, the lipopolysaccharide
+(LPS) of the serovar 2 reference strain (S1536) and five isolates (A, B, C, D and OT761) was
+extracted and analyzed by sodium dodecyl sulfate&#8211;polyacrylamide gel electrophoresis (SDS-PAGE)
+coupled with silver staining or immunoblotting as described previously [<xref rid="r7" ref-type="bibr">7</xref>, <xref rid="r27" ref-type="bibr">27</xref>]. The SDS-PAGE profiles of
+silver-stained LPSs isolated and purified from the serovar 2 reference strain, S1536, and five
+isolates are shown in <xref rid="fig_004" ref-type="fig">Fig. 4.</xref><fig position="float" fig-type="figure" id="fig_004" orientation="portrait"><label>Fig. 4.</label><caption><p>Silver-stained sodium dodecyl sulfate&#8211;polyacrylamide gel electrophoresis profiles of
+the purified lipopolysaccharide preparation of <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> strain S1536 and 5 serovar 2 field isolates. Lanes: 1,
+atypical isolate OT761; 2, S1536 (reference strain); 3&#8211;6, field isolates A, B, C and D,
+respectively. Lane M=molecular mass marker in kilodaltons (kDa).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-85-157-g004.jpg"/></fig> The LPS profiles of strain S1536 and four isolates A, B, C and D showed the presence of
+a ladder-like banding pattern typical of smooth-type LPS (S-LPS), and a large, deeply staining
+area representative of the core oligosaccharide and lipid A, whereas that of isolate OT761
+lacked the ladder-like SDS-PAGE profile, but a large, deeply staining area representative of
+the core oligosaccharide and lipid A was detected just trailing the leading edge of the dye
+front. Isolate OT761 showed only representative LPS profile for rough-type LPS (R-LPS).</p><p>The results of immunoblot analysis showed that rabbit antiserum against the serovar 2
+reference strain S1536 reacted with long-chain LPS (LC-LPS), giving a ladder-like pattern
+typical of the S-LPS, with two fast-migrating bands corresponding to the core and lipid A
+structures in the LPS preparation of the reference serovar 2 strain (<xref rid="fig_005" ref-type="fig">Fig. 5</xref><fig position="float" fig-type="figure" id="fig_005" orientation="portrait"><label>Fig. 5.</label><caption><p>Immunoblot of the purified lipopolysaccharide preparations of <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> serovar 2 reference strain (S1536) and 5 serovar 2 field
+isolates with rabbit antiserum against S1536. Lanes: 1, atypical isolate OT761; 2,
+S1536; 3&#8211;6, field isolates A, B, C and D, respectively. Lane M=molecular mass marker in
+kilodaltons (kDa).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="jvms-85-157-g005.jpg"/></fig>). A similar pattern also occurred with the four isolates (A&#8211;D) but only two
+fast-migrating bands were seen in the LPS preparation of isolate OT761, a pattern typical of
+the R-LPS (<xref rid="fig_005" ref-type="fig">Fig. 5</xref>).</p><p>Previous studies showed that the insertion of DNA sequences, such as IS<italic toggle="yes">Apl1</italic>
+or mini-Tn10, into one of the genes involved in biosynthesis of CPS and/or O-PS, as well as
+the deletion of DNA sequences in the <italic toggle="yes">cps</italic> and/or <italic toggle="yes">o-ps</italic> genes
+are responsible for the absence of CPS and/or O-PS, respectively, of <italic toggle="yes">A.
+pleuropneumoniae</italic> [<xref rid="r10" ref-type="bibr">10</xref>, <xref rid="r13" ref-type="bibr">13</xref>, <xref rid="r27" ref-type="bibr">27</xref>]. Our current study showed
+that a 93 bp deletion at the 3&#8242; end of <italic toggle="yes">wcaJ</italic> gene in O-PS locus was correlated
+with the defect in the production of O-PS in isolate OT761. The sequence deletion in turn
+results in the absence of 31 amino acids at the C-terminus of WcaJ of isolate OT761 as
+compared to WcaJ of serovar 2 reference strain S1536 and the other isolates of serovar 2. WcaJ
+belongs to a prokaryotic family of membrane enzymes, termed polyisoprenyl-phosphate
+hexose-1-phosphate transferases (PHPTs), that catalyze the formation of a phosphoanhydride
+bond joining a hexose-1-phosphate with undecaprenylphosphate, which is the first step of O-PS
+biosynthesis [<xref rid="r4" ref-type="bibr">4</xref>, <xref rid="r20" ref-type="bibr">20</xref>].</p><p>The mechanism by which the absence of 31 amino acids from the C-terminus of WcaJ results in
+the absence of O-PS was not defined in the present study. Nevertheless, some previous
+literature reported that the C-terminal domain of <italic toggle="yes">Salmonella</italic> Typhimurium
+WbaP, <italic toggle="yes">Escherichia coli</italic> WcaJ and <italic toggle="yes">Caulobacter crescentus</italic> HfsE,
+PssY and PssZ enzymes, members of the PHPT family, is sufficient for catalytic activity and
+specificity for initiating the biosynthesis of capsule [<xref rid="r4" ref-type="bibr">4</xref>, <xref rid="r20" ref-type="bibr">20</xref>], and O antigen [<xref rid="r18" ref-type="bibr">18</xref>]. Data from previous reports about the structure-function of this enzyme
+family [<xref rid="r4" ref-type="bibr">4</xref>, <xref rid="r19" ref-type="bibr">19</xref>]
+showed that the C-terminal domains and their secondary structures are conserved in distinct
+PHPT family members necessary to maintain the enzymatic activity of the C-terminal domains in
+the cytosolic space, where sugar nucleoside diphosphate precursors become available. It is
+expected that alterations of the secondary structure of truncated C-terminal domain of OT761
+WcaJ might results in a loss of enzyme activity that impairs biosynthesis of O-PS. However,
+further studies would be needed to elucidate whether the C-terminus of <italic toggle="yes">A.
+pleuropneumponiae</italic> WcaJ play a key role in enzyme function involved in the
+biosynthesis of O-PS.</p><p>By SDS-PAGE and immunobloting, LPS of isolate OT761 lacked a ladder-like banding pattern
+typical of S-LPS in SDS-PAGE gels which is indicative of R-LPS. In immunoblotting, rabbit
+hyperimmune serum against strain S1536 reacted only with two fast-migrating bands
+corresponding to the core and lipid A structures indicating the isolate lost the O-PS. Our
+observation that higher temperature is liable to destroy the capsular antigen used for
+serotyping in <italic toggle="yes">A. pleuropneumoniae</italic> isolates is consistent with data from a
+recent report by Morioka <italic toggle="yes">et al</italic>. [<xref rid="r17" ref-type="bibr">17</xref>].
+Those investigators found that some <italic toggle="yes">A. pleuropneumoniae</italic> isolates of serovars
+1 and 15 were serotypable using the heat-extracted antigens (100&#176;C, 1 hr) but UT using the
+autoclaved antigens (121&#176;C, 1 hr) in AGD test. The very weak reactions between the whole-cell
+and heat-treated antigens and antiserum against serovar 2 strain S1536 were observed by the
+RSA test. The findings, together with data reported by other investigators [<xref rid="r16" ref-type="bibr">16</xref>, <xref rid="r25" ref-type="bibr">25</xref>] support the
+idea that the agglutination tests are impossible to serotype the rough-type strain.</p><p>The loss of O-PS <italic toggle="yes">in vitro</italic> is considered to be due to mutations in culture,
+or by successive passages in different culture media. The 18-hr-old colonies of isolate OT761
+on the chocolate agar plate at just after isolation (the first passage) were suspended in
+Brain Heart Infusion broth containing 15% glycerol, and stored at &#8722;80&#176;C. Bacterial cells from
+the glycerol stock were used to streak onto chocolate agar plates to prepare the second
+passage (at 25th day after isolation) and then the third passage (at 26th day after
+isolation). The bacterial cells from the second and third passages were used to prepare DNA
+for further analysis, and antigens for the AGD test, respectively. The data provide very clear
+evidence that the loss of O-PS of isolate OT761 is not due to culture conditions and/or
+several culture passages.</p><p>The absence of serological cross-reactivity between the serovars 2 (strain S1536) and 7
+(reference strain WF83) indicated that the AGD test detected antibodies directed against CPS
+and O-PS antigens, but not the core LPS epitopes. It has been well known that the core regions
+of <italic toggle="yes">A. pleuropneumoniae</italic> serovars 2&#8211;5, 7, 8, 10, and 12 were antigenically
+similar to each other as detected by immunoblot assays [<xref rid="r11" ref-type="bibr">11</xref>].</p><p>Our antigenic and genetic analyses of the atypical isolate revealed a 93 bp deletion at the
+3&#8242; end of <italic toggle="yes">wcaJ</italic> gene in the O-PS locus, resulting in the absence of O
+antigens. In practical application, the most commonly used test for detection of antibodies to
+<italic toggle="yes">A. pleuropneumoniae</italic> in the last 20 years has been enzyme-linked
+immunosorbent assay (ELISA), and among serotype/serogroup-specific antigens, purified LC-LPS
+antigen (LC-LPS ELISA) has been the most successful [<xref rid="r5" ref-type="bibr">5</xref>].
+Veterinary diagnostic laboratories should be vigilant, given that infections caused by such an
+isolate will not be detected by serologic tests based on LC-LPS.</p><sec sec-type="other" id="s1"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflicts of interest associated with this manuscript.</p></sec></body><back><ack><p>The authors would like to thank Dr. C. Turni (University of Queensland, Australia) for
+critical review of the manuscript, Dr. T. Sato and Ms. H. Kojima (Nippon Institute for
+Biological Science) for their help during this work.</p></ack><ref-list><title>REFERENCES</title><ref id="r1"><label>1</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Boss&#233;</surname><given-names>JT</given-names></name><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name><name name-style="western"><surname>Angen</surname><given-names>&#216;</given-names></name><name name-style="western"><surname>Weinert</surname><given-names>LA</given-names></name><name name-style="western"><surname>Chaudhuri</surname><given-names>RR</given-names></name><name name-style="western"><surname>Holden</surname><given-names>MT</given-names></name><name name-style="western"><surname>Williamson</surname><given-names>SM</given-names></name><name name-style="western"><surname>Maskell</surname><given-names>DJ</given-names></name><name name-style="western"><surname>Tucker</surname><given-names>AW</given-names></name><name name-style="western"><surname>Wren</surname><given-names>BW</given-names></name><name name-style="western"><surname>Rycroft</surname><given-names>AN</given-names></name><name name-style="western"><surname>Langford</surname><given-names>PR</given-names></name></person-group>. BRaDP1T consortium.<year>2014</year>. <article-title>Multiplex PCR assay
+for unequivocal differentiation of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic>
+serovars 1 to 3, 5 to 8, 10, and 12</article-title>. <source><italic toggle="yes">J Clin
+Microbiol</italic></source><volume>52</volume>:
+<fpage>2380</fpage>&#8211;<lpage>2385</lpage>. doi: <pub-id pub-id-type="doi">10.1128/JCM.00685-14</pub-id><pub-id pub-id-type="pmid">24759717</pub-id><pub-id pub-id-type="pmcid">PMC4097740</pub-id></mixed-citation></ref><ref id="r2"><label>2</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Boss&#233;</surname><given-names>JT</given-names></name><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name><name name-style="western"><surname>Fernandez Crespo</surname><given-names>R</given-names></name><name name-style="western"><surname>Lacouture</surname><given-names>S</given-names></name><name name-style="western"><surname>Gottschalk</surname><given-names>M</given-names></name><name name-style="western"><surname>S&#225;rk&#246;zi</surname><given-names>R</given-names></name><name name-style="western"><surname>Fodor</surname><given-names>L</given-names></name><name name-style="western"><surname>Casas Amoribieta</surname><given-names>M</given-names></name><name name-style="western"><surname>Angen</surname><given-names>&#216;</given-names></name><name name-style="western"><surname>Nedbalcova</surname><given-names>K</given-names></name><name name-style="western"><surname>Holden</surname><given-names>MTG</given-names></name><name name-style="western"><surname>Maskell</surname><given-names>DJ</given-names></name><name name-style="western"><surname>Tucker</surname><given-names>AW</given-names></name><name name-style="western"><surname>Wren</surname><given-names>BW</given-names></name><name name-style="western"><surname>Rycroft</surname><given-names>AN</given-names></name><name name-style="western"><surname>Langford</surname><given-names>PR</given-names></name></person-group>. BRaDP1T consortium<year>2018</year>. <article-title>Comparative sequence
+analysis of the capsular polysaccharide loci of <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> serovars 1-18, and development of two multiplex PCRs for
+comprehensive capsule typing</article-title>. <source><italic toggle="yes">Vet
+Microbiol</italic></source><volume>220</volume>: <fpage>83</fpage>&#8211;<lpage>89</lpage>.
+doi: <pub-id pub-id-type="doi">10.1016/j.vetmic.2018.05.011</pub-id><pub-id pub-id-type="pmid">29885806</pub-id><pub-id pub-id-type="pmcid">PMC6008488</pub-id></mixed-citation></ref><ref id="r3"><label>3</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Frey</surname><given-names>J</given-names></name><name name-style="western"><surname>Beck</surname><given-names>M</given-names></name><name name-style="western"><surname>van den Bosch</surname><given-names>JF</given-names></name><name name-style="western"><surname>Segers</surname><given-names>RP</given-names></name><name name-style="western"><surname>Nicolet</surname><given-names>J</given-names></name></person-group>. <year>1995</year>. <article-title>Development of an efficient PCR method
+for toxin typing of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic>
+strains</article-title>. <source><italic toggle="yes">Mol Cell
+Probes</italic></source><volume>9</volume>: <fpage>277</fpage>&#8211;<lpage>282</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/S0890-8508(95)90158-2</pub-id><pub-id pub-id-type="pmid">7477024</pub-id></mixed-citation></ref><ref id="r4"><label>4</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Furlong</surname><given-names>SE</given-names></name><name name-style="western"><surname>Ford</surname><given-names>A</given-names></name><name name-style="western"><surname>Albarnez-Rodriguez</surname><given-names>L</given-names></name><name name-style="western"><surname>Valvano</surname><given-names>MA</given-names></name></person-group>. <year>2015</year>. <article-title>Topological analysis of the
+<italic toggle="yes">Escherichia coli</italic> WcaJ protein reveals a new conserved configuration
+for the polyisoprenyl-phosphate hexose-1-phosphate transferase family</article-title>.
+<source><italic toggle="yes">Sci Rep</italic></source><volume>5</volume>: <fpage>9178</fpage>. doi:
+<pub-id pub-id-type="doi">10.1038/srep09178</pub-id><pub-id pub-id-type="pmid">25776537</pub-id><pub-id pub-id-type="pmcid">PMC4361858</pub-id></mixed-citation></ref><ref id="r5"><label>5</label><mixed-citation publication-type="book"><person-group><name name-style="western"><surname>Gottschalk</surname><given-names>M</given-names></name><name name-style="western"><surname>Broes</surname><given-names>A</given-names></name></person-group>. <year>2019</year>. Actinobacillosis. pp. 749&#8211;766. In: Diseases of Swine,
+11th ed. (Zimmerman J, Karriker L, Ramirez A, Schwartz K, Stevenson G, Zhang J eds.),
+Wiley, Hoboken.</mixed-citation></ref><ref id="r6"><label>6</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Graninger</surname><given-names>M</given-names></name><name name-style="western"><surname>Nidetzky</surname><given-names>B</given-names></name><name name-style="western"><surname>Heinrichs</surname><given-names>DE</given-names></name><name name-style="western"><surname>Whitfield</surname><given-names>C</given-names></name><name name-style="western"><surname>Messner</surname><given-names>P</given-names></name></person-group>. <year>1999</year>. <article-title>Characterization of
+dTDP-4-dehydrorhamnose 3,5-epimerase and dTDP-4-dehydrorhamnose reductase, required for
+dTDP-L-rhamnose biosynthesis in <italic toggle="yes">Salmonella enterica</italic> serovar Typhimurium
+LT2</article-title>. <source><italic toggle="yes">J Biol Chem</italic></source><volume>274</volume>:
+<fpage>25069</fpage>&#8211;<lpage>25077</lpage>. doi: <pub-id pub-id-type="doi">10.1074/jbc.274.35.25069</pub-id><pub-id pub-id-type="pmid">10455186</pub-id></mixed-citation></ref><ref id="r7"><label>7</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Hitchcock</surname><given-names>PJ</given-names></name><name name-style="western"><surname>Brown</surname><given-names>TM</given-names></name></person-group>. <year>1983</year>. <article-title>Morphological heterogeneity among
+Salmonella lipopolysaccharide chemotypes in silver-stained polyacrylamide
+gels</article-title>. <source><italic toggle="yes">J Bacteriol</italic></source><volume>154</volume>:
+<fpage>269</fpage>&#8211;<lpage>277</lpage>. doi: <pub-id pub-id-type="doi">10.1128/jb.154.1.269-277.1983</pub-id><pub-id pub-id-type="pmid">6187729</pub-id><pub-id pub-id-type="pmcid">PMC217456</pub-id></mixed-citation></ref><ref id="r8"><label>8</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>H&#252;ssy</surname><given-names>D</given-names></name><name name-style="western"><surname>Schlatter</surname><given-names>Y</given-names></name><name name-style="western"><surname>Miserez</surname><given-names>R</given-names></name><name name-style="western"><surname>Inzana</surname><given-names>T</given-names></name><name name-style="western"><surname>Frey</surname><given-names>J</given-names></name></person-group>. <year>2004</year>. <article-title>PCR-based identification of serotype 2
+isolates of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic> biovars I and
+II</article-title>. <source><italic toggle="yes">Vet Microbiol</italic></source><volume>99</volume>:
+<fpage>307</fpage>&#8211;<lpage>310</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.vetmic.2003.12.007</pub-id><pub-id pub-id-type="pmid">15066734</pub-id></mixed-citation></ref><ref id="r9"><label>9</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ito</surname><given-names>H</given-names></name></person-group>. <year>2013</year>. <article-title>Recent topics of serotypes/serotyping
+and host specificity of <italic toggle="yes">Actinob&#945;cillus
+pleuropneumoniae</italic></article-title>. <source><italic toggle="yes">Proc Jpn Pig Vet
+Soc</italic></source><volume>61</volume>:
+<fpage>14</fpage>&#8211;<lpage>21</lpage>.</mixed-citation></ref><ref id="r10"><label>10</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Ito</surname><given-names>H</given-names></name><name name-style="western"><surname>Ogawa</surname><given-names>T</given-names></name><name name-style="western"><surname>Fukamizu</surname><given-names>D</given-names></name><name name-style="western"><surname>Morinaga</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kusumoto</surname><given-names>M</given-names></name></person-group>. <year>2016</year>. <article-title>Nucleotide sequence analysis of a DNA
+region involved in capsular polysaccharide biosynthesis reveals the molecular basis of
+the nontypeability of two <italic toggle="yes">Actinobacillus pleuropneumoniae</italic>
+isolates</article-title>. <source><italic toggle="yes">J Vet Diagn
+Invest</italic></source><volume>28</volume>: <fpage>632</fpage>&#8211;<lpage>637</lpage>. doi:
+<pub-id pub-id-type="doi">10.1177/1040638716656026</pub-id><pub-id pub-id-type="pmid">27694188</pub-id></mixed-citation></ref><ref id="r11"><label>11</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Jacques</surname><given-names>M</given-names></name><name name-style="western"><surname>Rioux</surname><given-names>S</given-names></name><name name-style="western"><surname>Paradis</surname><given-names>SE</given-names></name><name name-style="western"><surname>B&#233;gin</surname><given-names>C</given-names></name><name name-style="western"><surname>Gottschalk</surname><given-names>M</given-names></name></person-group>. <year>1996</year>. <article-title>Identification of two core types in
+lipopolysaccharides of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic> representing
+serotypes 1 to 12</article-title>. <source><italic toggle="yes">Can J
+Microbiol</italic></source><volume>42</volume>: <fpage>855</fpage>&#8211;<lpage>858</lpage>.
+doi: <pub-id pub-id-type="doi">10.1139/m96-108</pub-id><pub-id pub-id-type="pmid">8776854</pub-id></mixed-citation></ref><ref id="r12"><label>12</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Koyama</surname><given-names>T</given-names></name><name name-style="western"><surname>To</surname><given-names>H</given-names></name><name name-style="western"><surname>Nagai</surname><given-names>S</given-names></name></person-group>. <year>2007</year>. <article-title>Isolation of <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> serovar 15-like strain from a field case of porcine
+pleuropneumonia in Japan</article-title>. <source><italic toggle="yes">J Vet Med
+Sci</italic></source><volume>69</volume>: <fpage>961</fpage>&#8211;<lpage>964</lpage>. doi:
+<pub-id pub-id-type="doi">10.1292/jvms.69.961</pub-id><pub-id pub-id-type="pmid">17917383</pub-id></mixed-citation></ref><ref id="r13"><label>13</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Labrie</surname><given-names>J</given-names></name><name name-style="western"><surname>Rioux</surname><given-names>S</given-names></name><name name-style="western"><surname>Wade</surname><given-names>MM</given-names></name><name name-style="western"><surname>Champlin</surname><given-names>FR</given-names></name><name name-style="western"><surname>Holman</surname><given-names>SC</given-names></name><name name-style="western"><surname>Wilson</surname><given-names>WW</given-names></name><name name-style="western"><surname>Savoye</surname><given-names>C</given-names></name><name name-style="western"><surname>Kobisch</surname><given-names>M</given-names></name><name name-style="western"><surname>Sirois</surname><given-names>M</given-names></name><name name-style="western"><surname>Galarneau</surname><given-names>C</given-names></name><name name-style="western"><surname>Jacques</surname><given-names>M</given-names></name></person-group>. <year>2002</year>. <article-title>Identification of genes involved in
+biosynthesis of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic> serotype 1 O-antigen
+and biological properties of rough mutants</article-title>. <source><italic toggle="yes">J Endotoxin
+Res</italic></source><volume>8</volume>: <fpage>27</fpage>&#8211;<lpage>38</lpage>. doi:
+<pub-id pub-id-type="doi">10.1177/09680519020080010301</pub-id><pub-id pub-id-type="pmid">11981443</pub-id></mixed-citation></ref><ref id="r14"><label>14</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mittal</surname><given-names>KR</given-names></name></person-group>. <year>1990</year>. <article-title>Cross-reactions between
+<italic toggle="yes">Actinobacillus (Haemophilus) pleuropneumoniae</italic> strains of serotypes 1
+and 9</article-title>. <source><italic toggle="yes">J Clin
+Microbiol</italic></source><volume>28</volume>: <fpage>535</fpage>&#8211;<lpage>539</lpage>.
+doi: <pub-id pub-id-type="doi">10.1128/jcm.28.3.535-539.1990</pub-id><pub-id pub-id-type="pmid">1691210</pub-id><pub-id pub-id-type="pmcid">PMC269658</pub-id></mixed-citation></ref><ref id="r15"><label>15</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mittal</surname><given-names>KR</given-names></name><name name-style="western"><surname>Higgins</surname><given-names>R</given-names></name><name name-style="western"><surname>Lariviere</surname><given-names>S</given-names></name></person-group>. <year>1988</year>. <article-title>Quantitation of serotype-specific and
+cross-reacting group-specific antigens by coagglutination and immunodiffusion tests for
+differentiating <italic toggle="yes">Actinobacillus</italic> (<italic toggle="yes">Haemophilus</italic>)
+<italic toggle="yes">pleuropneumoniae</italic> strains belonging to cross-reacting serotypes 3, 6,
+and 8</article-title>. <source><italic toggle="yes">J Clin
+Microbiol</italic></source><volume>26</volume>: <fpage>985</fpage>&#8211;<lpage>989</lpage>.
+doi: <pub-id pub-id-type="doi">10.1128/jcm.26.5.985-989.1988</pub-id><pub-id pub-id-type="pmid">3133388</pub-id><pub-id pub-id-type="pmcid">PMC266501</pub-id></mixed-citation></ref><ref id="r16"><label>16</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Mittal</surname><given-names>KR</given-names></name><name name-style="western"><surname>Higgins</surname><given-names>R</given-names></name><name name-style="western"><surname>Lariviere</surname><given-names>S</given-names></name></person-group>. <year>1982</year>. <article-title>Evaluation of slide agglutination and
+ring precipitation tests for capsular serotyping of <italic toggle="yes">Haemophilus
+pleuropneumoniae</italic></article-title>. <source><italic toggle="yes">J Clin
+Microbiol</italic></source><volume>15</volume>: <fpage>1019</fpage>&#8211;<lpage>1023</lpage>.
+doi: <pub-id pub-id-type="doi">10.1128/jcm.15.6.1019-1023.1982</pub-id><pub-id pub-id-type="pmid">7107836</pub-id><pub-id pub-id-type="pmcid">PMC272246</pub-id></mixed-citation></ref><ref id="r17"><label>17</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Morioka</surname><given-names>A</given-names></name><name name-style="western"><surname>Shimazaki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Uchiyama</surname><given-names>M</given-names></name><name name-style="western"><surname>Suzuki</surname><given-names>S</given-names></name></person-group>. <year>2016</year>. <article-title>Serotyping reanalysis of unserotypable
+<italic toggle="yes">Actinobacillus pleuropneumoniae</italic> isolates by agar gel diffusion
+test</article-title>. <source><italic toggle="yes">J Vet Med
+Sci</italic></source><volume>78</volume>: <fpage>723</fpage>&#8211;<lpage>725</lpage>. doi:
+<pub-id pub-id-type="doi">10.1292/jvms.15-0538</pub-id><pub-id pub-id-type="pmid">26726101</pub-id><pub-id pub-id-type="pmcid">PMC4873870</pub-id></mixed-citation></ref><ref id="r18"><label>18</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Patel</surname><given-names>KB</given-names></name><name name-style="western"><surname>Ciepichal</surname><given-names>E</given-names></name><name name-style="western"><surname>Swiezewska</surname><given-names>E</given-names></name><name name-style="western"><surname>Valvano</surname><given-names>MA</given-names></name></person-group>. <year>2012</year>. <article-title>The C-terminal domain of the
+<italic toggle="yes">Salmonella enterica</italic> WbaP (UDP-galactose:Und-P galactose-1-phosphate
+transferase) is sufficient for catalytic activity and specificity for undecaprenyl
+monophosphate</article-title>.
+<source><italic toggle="yes">Glycobiology</italic></source><volume>22</volume>:
+<fpage>116</fpage>&#8211;<lpage>122</lpage>. doi: <pub-id pub-id-type="doi">10.1093/glycob/cwr114</pub-id><pub-id pub-id-type="pmid">21856724</pub-id></mixed-citation></ref><ref id="r19"><label>19</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Patel</surname><given-names>KB</given-names></name><name name-style="western"><surname>Furlong</surname><given-names>SE</given-names></name><name name-style="western"><surname>Valvano</surname><given-names>MA</given-names></name></person-group>. <year>2010</year>. <article-title>Functional analysis of the C-terminal
+domain of the WbaP protein that mediates initiation of O antigen synthesis in
+<italic toggle="yes">Salmonella enterica</italic></article-title>.
+<source><italic toggle="yes">Glycobiology</italic></source><volume>20</volume>:
+<fpage>1389</fpage>&#8211;<lpage>1401</lpage>. doi: <pub-id pub-id-type="doi">10.1093/glycob/cwq104</pub-id><pub-id pub-id-type="pmid">20591829</pub-id></mixed-citation></ref><ref id="r20"><label>20</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Patel</surname><given-names>KB</given-names></name><name name-style="western"><surname>Toh</surname><given-names>E</given-names></name><name name-style="western"><surname>Fernandez</surname><given-names>XB</given-names></name><name name-style="western"><surname>Hanuszkiewicz</surname><given-names>A</given-names></name><name name-style="western"><surname>Hardy</surname><given-names>GG</given-names></name><name name-style="western"><surname>Brun</surname><given-names>YV</given-names></name><name name-style="western"><surname>Bernards</surname><given-names>MA</given-names></name><name name-style="western"><surname>Valvano</surname><given-names>MA</given-names></name></person-group>. <year>2012</year>. <article-title>Functional characterization of
+UDP-glucose:undecaprenyl-phosphate glucose-1-phosphate transferases of
+<italic toggle="yes">Escherichia coli</italic> and <italic toggle="yes">Caulobacter
+crescentus</italic></article-title>. <source><italic toggle="yes">J
+Bacteriol</italic></source><volume>194</volume>:
+<fpage>2646</fpage>&#8211;<lpage>2657</lpage>. doi: <pub-id pub-id-type="doi">10.1128/JB.06052-11</pub-id><pub-id pub-id-type="pmid">22408159</pub-id><pub-id pub-id-type="pmcid">PMC3347215</pub-id></mixed-citation></ref><ref id="r21"><label>21</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Perry</surname><given-names>MB</given-names></name><name name-style="western"><surname>Altman</surname><given-names>E</given-names></name><name name-style="western"><surname>Brisson</surname><given-names>JR</given-names></name><name name-style="western"><surname>Beynon</surname><given-names>LM</given-names></name><name name-style="western"><surname>Richards</surname><given-names>JC</given-names></name></person-group>. <year>1990</year>. <article-title>Structural characteristics of the
+antigenic capsular polysaccharides and lipopolysaccharides involved in the serological
+classification of <italic toggle="yes">Actinobacillus (Haemophilus) pleuropneumoniae</italic>
+strains</article-title>. <source><italic toggle="yes">Serodiag Immunother Infect
+Dis</italic></source><volume>4</volume>: <fpage>299</fpage>&#8211;<lpage>308</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/0888-0786(90)90018-J</pub-id></mixed-citation></ref><ref id="r22"><label>22</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Pohl</surname><given-names>S</given-names></name><name name-style="western"><surname>Bertschinger</surname><given-names>HU</given-names></name><name name-style="western"><surname>Frederiksen</surname><given-names>W</given-names></name><name name-style="western"><surname>Mannheim</surname><given-names>W</given-names></name></person-group>. <year>1983</year>. <article-title>Transfer of <italic toggle="yes">Haemophilus
+pleuropneumoniae</italic> and the <italic toggle="yes">Pasteurella haemolytica</italic>-like
+organism causing porcine necrotic pleuropneumonia in the genus
+<italic toggle="yes">Actinobacillus</italic> (<italic toggle="yes">Actinobacillus pleuropneumoniae</italic>
+comb. nov.) on the basis of phenotypic and deoxyribonucleic acid
+relatedness</article-title>. <source><italic toggle="yes">Int J Syst
+Bacteriol</italic></source><volume>33</volume>: <fpage>510</fpage>&#8211;<lpage>514</lpage>.
+doi: <pub-id pub-id-type="doi">10.1099/00207713-33-3-510</pub-id></mixed-citation></ref><ref id="r23"><label>23</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Schaller</surname><given-names>A</given-names></name><name name-style="western"><surname>Kuhn</surname><given-names>R</given-names></name><name name-style="western"><surname>Kuhnert</surname><given-names>P</given-names></name><name name-style="western"><surname>Nicolet</surname><given-names>J</given-names></name><name name-style="western"><surname>Anderson</surname><given-names>TJ</given-names></name><name name-style="western"><surname>Maclnnes</surname><given-names>JI</given-names></name><name name-style="western"><surname>Segers</surname><given-names>RPAM</given-names></name><name name-style="western"><surname>Frey</surname><given-names>J</given-names></name></person-group>. <year>1999</year>. <article-title>Characterization of apxIVA, a new RTX
+determinant of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic></article-title>.
+<source><italic toggle="yes">Microbiology (Reading)</italic></source><volume>145</volume>:
+<fpage>2105</fpage>&#8211;<lpage>2116</lpage>. doi: <pub-id pub-id-type="doi">10.1099/13500872-145-8-2105</pub-id><pub-id pub-id-type="pmid">10463177</pub-id></mixed-citation></ref><ref id="r24"><label>24</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Stringer</surname><given-names>OW</given-names></name><name name-style="western"><surname>Boss&#233;</surname><given-names>JT</given-names></name><name name-style="western"><surname>Lacouture</surname><given-names>S</given-names></name><name name-style="western"><surname>Gottschalk</surname><given-names>M</given-names></name><name name-style="western"><surname>Fodor</surname><given-names>L</given-names></name><name name-style="western"><surname>Angen</surname><given-names>&#216;</given-names></name><name name-style="western"><surname>Velazquez</surname><given-names>E</given-names></name><name name-style="western"><surname>Penny</surname><given-names>P</given-names></name><name name-style="western"><surname>Lei</surname><given-names>L</given-names></name><name name-style="western"><surname>Langford</surname><given-names>PR</given-names></name><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name></person-group>. <year>2021</year>. <article-title>Proposal of <italic toggle="yes">Actinobacillus
+pleuropneumoniae</italic> serovar 19, and reformulation of previous multiplex PCRs for
+capsule-specific typing of all known serovars</article-title>. <source><italic toggle="yes">Vet
+Microbiol</italic></source><volume>255</volume>: <fpage>109021</fpage>. doi: <pub-id pub-id-type="doi">10.1016/j.vetmic.2021.109021</pub-id><pub-id pub-id-type="pmid">33667982</pub-id></mixed-citation></ref><ref id="r25"><label>25</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Suzuki</surname><given-names>S</given-names></name><name name-style="western"><surname>Takahashi</surname><given-names>T</given-names></name><name name-style="western"><surname>Muramatsu</surname><given-names>M</given-names></name><name name-style="western"><surname>Ohishi</surname><given-names>K</given-names></name><name name-style="western"><surname>Nakajima</surname><given-names>M</given-names></name><name name-style="western"><surname>Yamashita</surname><given-names>M</given-names></name></person-group>. <year>1988</year>. <article-title>Serotyping of
+<italic toggle="yes">Actinobacillus</italic> (<italic toggle="yes">Haemophilus</italic>)
+<italic toggle="yes">pleuropneumoniae</italic> isolates from pigs in
+slaughterhouse</article-title>. <source><italic toggle="yes">Nihon Juigaku
+Zasshi</italic></source><volume>50</volume>: <fpage>1264</fpage>&#8211;<lpage>1267</lpage>.
+doi: <pub-id pub-id-type="doi">10.1292/jvms1939.50.1264</pub-id><pub-id pub-id-type="pmid">3246844</pub-id></mixed-citation></ref><ref id="r26"><label>26</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>To</surname><given-names>H</given-names></name><name name-style="western"><surname>Kon</surname><given-names>M</given-names></name><name name-style="western"><surname>Koike</surname><given-names>F</given-names></name><name name-style="western"><surname>Shibuya</surname><given-names>K</given-names></name><name name-style="western"><surname>Nagai</surname><given-names>S</given-names></name><name name-style="western"><surname>Gottschalk</surname><given-names>M</given-names></name><name name-style="western"><surname>Frey</surname><given-names>J</given-names></name><name name-style="western"><surname>Sasakawa</surname><given-names>C</given-names></name></person-group>. <year>2021</year>. <article-title>Proposal of a subtype of serovar 4,
+K4b:O3, of <italic toggle="yes">Actinobacillus pleuropneumoniae</italic> based on serological and
+genotypic analysis</article-title>. <source><italic toggle="yes">Vet
+Microbiol</italic></source><volume>263</volume>: <fpage>109279</fpage>. doi: <pub-id pub-id-type="doi">10.1016/j.vetmic.2021.109279</pub-id><pub-id pub-id-type="pmid">34798366</pub-id></mixed-citation></ref><ref id="r27"><label>27</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>To</surname><given-names>H</given-names></name><name name-style="western"><surname>Teshima</surname><given-names>K</given-names></name><name name-style="western"><surname>Kon</surname><given-names>M</given-names></name><name name-style="western"><surname>Yasuda</surname><given-names>S</given-names></name><name name-style="western"><surname>Akaike</surname><given-names>Y</given-names></name><name name-style="western"><surname>Shibuya</surname><given-names>K</given-names></name><name name-style="western"><surname>Nagai</surname><given-names>S</given-names></name><name name-style="western"><surname>Sasakawa</surname><given-names>C</given-names></name></person-group>. <year>2020</year>. <article-title>Characterization of nontypeable
+<italic toggle="yes">Actinobacillus pleuropneumoniae</italic> isolates</article-title>.
+<source><italic toggle="yes">J Vet Diagn Invest</italic></source><volume>32</volume>:
+<fpage>581</fpage>&#8211;<lpage>584</lpage>. doi: <pub-id pub-id-type="doi">10.1177/1040638720931469</pub-id><pub-id pub-id-type="pmid">32517629</pub-id><pub-id pub-id-type="pmcid">PMC7438653</pub-id></mixed-citation></ref><ref id="r28"><label>28</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Turni</surname><given-names>C</given-names></name><name name-style="western"><surname>Singh</surname><given-names>R</given-names></name><name name-style="western"><surname>Schembri</surname><given-names>MA</given-names></name><name name-style="western"><surname>Blackall</surname><given-names>PJ</given-names></name></person-group>. <year>2014</year>. <article-title>Evaluation of a multiplex PCR to
+identify and serotype <italic toggle="yes">Actinobacillus pleuropneumoniae</italic> serovars 1, 5, 7,
+12 and 15</article-title>. <source><italic toggle="yes">Lett Appl
+Microbiol</italic></source><volume>59</volume>: <fpage>362</fpage>&#8211;<lpage>369</lpage>.
+doi: <pub-id pub-id-type="doi">10.1111/lam.12287</pub-id><pub-id pub-id-type="pmid">24863421</pub-id></mixed-citation></ref><ref id="r29"><label>29</label><mixed-citation publication-type="journal"><person-group><name name-style="western"><surname>Xu</surname><given-names>Z</given-names></name><name name-style="western"><surname>Chen</surname><given-names>X</given-names></name><name name-style="western"><surname>Li</surname><given-names>L</given-names></name><name name-style="western"><surname>Li</surname><given-names>T</given-names></name><name name-style="western"><surname>Wang</surname><given-names>S</given-names></name><name name-style="western"><surname>Chen</surname><given-names>H</given-names></name><name name-style="western"><surname>Zhou</surname><given-names>R</given-names></name></person-group>. <year>2010</year>. <article-title>Comparative genomic characterization of
+<italic toggle="yes">Actinobacillus pleuropneumoniae</italic></article-title>. <source><italic toggle="yes">J
+Bacteriol</italic></source><volume>192</volume>:
+<fpage>5625</fpage>&#8211;<lpage>5636</lpage>. doi: <pub-id pub-id-type="doi">10.1128/JB.00535-10</pub-id><pub-id pub-id-type="pmid">20802045</pub-id><pub-id pub-id-type="pmcid">PMC2953695</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

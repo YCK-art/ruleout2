@@ -1,0 +1,568 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9450034</article-id><article-id pub-id-type="pmcid-ver">PMC9450034.1</article-id><article-id pub-id-type="pmcaid">9450034</article-id><article-id pub-id-type="pmcaiid">9450034</article-id><article-id pub-id-type="pmid">36128572</article-id><article-id pub-id-type="doi">10.18699/VJGB-22-59</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Virulence potential of faecal Escherichia coli strains isolated
+from healthy cows and calves on farms in Perm Krai</article-title><trans-title-group xml:lang="ru"><trans-title>59&#1055;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1085;&#1099;&#1081; &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083; &#1080;&#1085;&#1090;&#1077;&#1089;&#1090;&#1080;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074;
+Escherichia coli, &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1086;&#1090; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1099;&#1093; &#1082;&#1086;&#1088;&#1086;&#1074; &#1080; &#1090;&#1077;&#1083;&#1103;&#1090;
+&#1074; &#1093;&#1086;&#1079;&#1103;&#1081;&#1089;&#1090;&#1074;&#1072;&#1093; &#1055;&#1077;&#1088;&#1084;&#1089;&#1082;&#1086;&#1075;&#1086; &#1082;&#1088;&#1072;&#1103;</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Mihailovskaya</surname><given-names initials="VS">V.S.</given-names></name><aff>
+<institution>Institute of Ecology and Genetics of Microorganisms Ural Branch Russian Academy of Sciences, Perm, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Remezovskaya</surname><given-names initials="NB">N.B.</given-names></name><aff>
+<institution>Institute of Ecology and Genetics of Microorganisms Ural Branch Russian Academy of Sciences, Perm, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhdanova</surname><given-names initials="IN">I.N.</given-names></name><aff>
+<institution>Perm Agricultural Research Institute, Lobanovo, Perm Krai, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Star&#269;i&#269; Erjavec</surname><given-names initials="M">M.</given-names></name><aff>
+<institution>University of Ljubljana, Biotechnical Faculty, Ljubljana, Slovenia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kuznetsova</surname><given-names initials="MV">M.V.</given-names></name><aff>
+<institution>Institute of Ecology and Genetics of Microorganisms Ural Branch Russian Academy of Sciences, Perm, Russia</institution>
+</aff></contrib></contrib-group><author-notes><fn><p>Correspondence to: M.V. Kuznetsova1
+<email>mar19719@yandex.ru</email></p></fn></author-notes><pub-date pub-type="ppub"><month>8</month><year>2022</year></pub-date><volume>26</volume><issue>5</issue><issue-id pub-id-type="pmc-issue-id">416326</issue-id><fpage>486</fpage><lpage>494</lpage><history><date date-type="received"><day>30</day><month>3</month><year>2022</year></date><date date-type="rev-recd"><day>07</day><month>5</month><year>2022</year></date><date date-type="accepted"><day>12</day><month>5</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>08</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>19</day><month>09</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2022-09-21 16:18:55.817"><day>21</day><month>09</month><year>2022</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; AUTHORS</copyright-statement><copyright-year>2022</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-26-2259.pdf"/><abstract><p>Cattle are a reservoir of pathogenic and potentially pathogenic Escherichia coli (E. coli) strains, which can pose a threat to human and animal health. The aim of the study was to evaluate the occurrence of 22 virulence-associated genes (VAGs), as well as the prevalence of antimicrobial drug resistance and three different bla-genes among 49 E. coli strains isolated from healthy cattle. The presence of VAGs that are common among diarrheagenic E. coli (DEC) strains and/or extraintestinal pathogenic E. coli (ExPEC) strains was determined by amplifying specific gene sequences by PCR. The following VAGs associated with DEC were found: east1 in 24.5 % of the studied E. coli strains, estI in 10.2 %, ehxA in 8.2 %, stx2 in 6.1 %, eltA in 4.1 %, estII and stx1 in 2.0 % of the studied strains. The prevalence of ExPEC VAGs was: fimH &#8211; 91.8 %, afa/draBC &#8211; 61.2 %, iutA &#8211; 44.9 %, flu &#8211; 32.7 %, sfaDE and hlyF &#8211; 30.6 %, iroN &#8211; 22.4 %, ompT and papC &#8211; 20.4 %, kpsMTII and hlyA &#8211; 18.4 %, iss &#8211; 14.3 %, usp &#8211; 2.0 %, cnf1 and iha were not detected among the studied strains. Based on the found co-occurrence of VAGs &#8220;classical&#8221;, hetero-pathogenic and hybrid-pathogenic E. coli strains were found. E. coli strains isolated from cows had a higher diarrheagenic potential, whereas E. coli strains isolated from calves more frequently contained genes associated with the ExPEC pathotype. Among the studied E. coli strains, 77.6 % were resistant to ampicillin, 49.0 % to tetracycline, 20.4 % to chloramphenicol, 16.3 % to cefoperazone, 16.3 % to ceftriaxone, 16.3 % to aztreonam, 14.3 % to cefepime, 10.2 % to norfloxacin, 10.2 % to ciprofloxacin, 6.1 % to levofloxacin and 2.0 % to gentamicin. All strains were sensitive to meropenem and amikacin. 32.7 % of the studied E. coli strains were found to be multidrug resistant, as they were resistant to at least three groups of antibiotics. With PCR, the blaTEM, blaSHV, and blaCTX-M genes were detected in 100, 31.6, and 26.3 %, respectively, of strains resistant to at least one of the beta-lactam antibiotics. Thus, it was shown that the studied faecal E. coli of healthy cows and calves had a high hetero-pathogenic potential, therefore in the future molecular genetic characterization of these bacteria shall be an important part of the epizootic monitoring</p></abstract><trans-abstract xml:lang="ru"><p>&#1050;&#1088;&#1091;&#1087;&#1085;&#1099;&#1081; &#1088;&#1086;&#1075;&#1072;&#1090;&#1099;&#1081; &#1089;&#1082;&#1086;&#1090; &#1103;&#1074;&#1083;&#1103;&#1077;&#1090;&#1089;&#1103; &#1088;&#1077;&#1079;&#1077;&#1088;&#1074;&#1091;&#1072;&#1088;&#1086;&#1084; &#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1085;&#1099;&#1093; &#1080; &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086; &#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1085;&#1099;&#1093; Escherichia coli (E. coli), &#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1084;&#1086;&#1075;&#1091;&#1090; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1090;&#1100; &#1091;&#1075;&#1088;&#1086;&#1079;&#1091; &#1076;&#1083;&#1103; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1103; &#1083;&#1102;&#1076;&#1077;&#1081; &#1080; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1093;. &#1062;&#1077;&#1083;&#1100; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#8211; &#1086;&#1094;&#1077;&#1085;&#1080;&#1090;&#1100; &#1074;&#1089;&#1090;&#1088;&#1077;&#1095;&#1072;&#1077;&#1084;&#1086;&#1089;&#1090;&#1100; 22 &#1074;&#1080;&#1088;&#1091;&#1083;&#1077;&#1085;&#1090;-&#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074;, &#1072; &#1090;&#1072;&#1082;&#1078;&#1077; &#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1100; &#1072;&#1085;&#1090;&#1080;&#1073;&#1080;&#1086;&#1090;&#1080;&#1082;&#1086;&#1091;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1080; &#1080; &#1090;&#1088;&#1077;&#1093; &#1075;&#1077;&#1085;&#1086;&#1074; bla &#1088;&#1072;&#1079;&#1083;&#1080;&#1095;&#1085;&#1099;&#1093; &#1090;&#1080;&#1087;&#1086;&#1074; &#1089;&#1088;&#1077;&#1076;&#1080; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074; E. coli, &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1086;&#1090; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1086;&#1075;&#1086; &#1082;&#1088;&#1091;&#1087;&#1085;&#1086;&#1075;&#1086; &#1088;&#1086;&#1075;&#1072;&#1090;&#1086;&#1075;&#1086; &#1089;&#1082;&#1086;&#1090;&#1072;. &#1057;&#1086;&#1088;&#1086;&#1082; &#1076;&#1077;&#1074;&#1103;&#1090;&#1100; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074; E. coli &#1073;&#1099;&#1083;&#1080; &#1087;&#1088;&#1086;&#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1099; &#1084;&#1077;&#1090;&#1086;&#1076;&#1086;&#1084; &#1055;&#1062;&#1056; &#1085;&#1072; &#1087;&#1088;&#1080;&#1089;&#1091;&#1090;&#1089;&#1090;&#1074;&#1080;&#1077; &#1075;&#1077;&#1085;&#1086;&#1074;, &#1088;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1099;&#1093; &#1089;&#1088;&#1077;&#1076;&#1080; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1077;&#1083;&#1077;&#1081; &#1076;&#1080;&#1072;&#1088;&#1077;&#1077;&#1075;&#1077;&#1085;&#1085;&#1086;&#1081; E. coli (DEC) &#1080; &#1074;&#1085;&#1077;&#1082;&#1080;&#1096;&#1077;&#1095;&#1085;&#1086;&#1081; &#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1085;&#1086;&#1081; E. coli (ExPEC). &#1054;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1077;&#1085;&#1099; &#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1077; &#1076;&#1077;&#1090;&#1077;&#1088;&#1084;&#1080;&#1085;&#1072;&#1085;&#1090;&#1099;, &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089; DEC: east1 &#8211; 24.5 %, estI &#8211; 10.2 %, ehxA &#8211; 8.2 %, stx2 &#8211; 6.1 %, eltA &#8211; 4.1 %, estII &#1080; stx1 &#8211; 2.0 %. &#1056;&#1072;&#1089;&#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1100; &#1075;&#1077;&#1085;&#1086;&#1074; ExPEC &#1089;&#1086;&#1089;&#1090;&#1072;&#1074;&#1080;&#1083;&#1072;: fimH &#8211; 91.8 %, afa/draBC &#8211; 61.2 %, iut&#1040; &#8211; 44.9 %, flu &#8211; 32.7 %, sfaDE &#1080; hlyF &#8211; 30.6 %, iroN &#8211; 22.4 %, ompT &#1080; papC &#8211; 20.4 %, kpsMTII &#1080; hlyA &#8211; 18.4 %, iss &#8211; 14.3 %, usp &#8211; 2.0 %, cnf1 &#1080; iha &#1085;&#1077; &#1076;&#1077;&#1090;&#1077;&#1082;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1099;. &#1053;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1072;&#1085;&#1080;&#1080; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; &#1082;&#1086;&#1084;&#1073;&#1080;&#1085;&#1072;&#1094;&#1080;&#1081; &#1075;&#1077;&#1085;&#1086;&#1074; &#1073;&#1099;&#1083;&#1080; &#1086;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1077;&#1085;&#1099; &#171;&#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;&#187;, &#1075;&#1077;&#1090;&#1077;&#1088;&#1086;&#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1085;&#1099;&#1077; &#1080; &#1075;&#1080;&#1073;&#1088;&#1080;&#1076;&#1085;&#1099;&#1077; &#1096;&#1090;&#1072;&#1084;&#1084;&#1099;. &#1069;&#1096;&#1077;&#1088;&#1080;&#1093;&#1080;&#1080;, &#1074;&#1099;&#1076;&#1077;&#1083;&#1077;&#1085;&#1085;&#1099;&#1077; &#1086;&#1090; &#1082;&#1086;&#1088;&#1086;&#1074;, &#1086;&#1073;&#1083;&#1072;&#1076;&#1072;&#1083;&#1080; &#1073;&#1086;&#1083;&#1077;&#1077; &#1074;&#1099;&#1089;&#1086;&#1082;&#1080;&#1084; &#1076;&#1080;&#1072;&#1088;&#1077;&#1077;&#1075;&#1077;&#1085;&#1085;&#1099;&#1084;
+&#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1086;&#1084;, &#1072; E. coli, &#1080;&#1079;&#1086;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1086;&#1090; &#1090;&#1077;&#1083;&#1103;&#1090;, &#1095;&#1072;&#1097;&#1077; &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1072;&#1083;&#1080; &#1075;&#1077;&#1085;&#1099;, &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089; &#1087;&#1072;&#1090;&#1086;&#1090;&#1080;&#1087;&#1086;&#1084; ExPEC. &#1057;&#1088;&#1077;-
+&#1076;&#1080; &#1080;&#1089;&#1089;&#1083;&#1077;&#1076;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1093; &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074; &#1073;&#1099;&#1083;&#1080; &#1091;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1099;&#1084;&#1080;: &#1082; &#1072;&#1084;&#1087;&#1080;&#1094;&#1080;&#1083;&#1083;&#1080;&#1085;&#1091; &#8211; 77.6 % &#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;, &#1090;&#1077;&#1090;&#1088;&#1072;&#1094;&#1080;&#1082;&#1083;&#1080;&#1085;&#1091; &#8211; 49.0 %, &#1093;&#1083;&#1086;&#1088;&#1072;&#1084;&#1092;&#1077;&#1085;&#1080;&#1082;&#1086;&#1083;&#1091;
+&#8211; 20.4 %, &#1094;&#1077;&#1092;&#1086;&#1087;&#1077;&#1088;&#1072;&#1079;&#1086;&#1085;&#1091;, &#1094;&#1077;&#1092;&#1090;&#1088;&#1080;&#1072;&#1082;&#1089;&#1086;&#1085;&#1091;, &#1072;&#1079;&#1090;&#1088;&#1077;&#1086;&#1085;&#1072;&#1084;&#1091; &#8211; 16.3 %, &#1094;&#1077;&#1092;&#1077;&#1087;&#1080;&#1084;&#1091; &#8211; 14.3 %, &#1085;&#1086;&#1088;&#1092;&#1083;&#1086;&#1082;&#1089;&#1072;&#1094;&#1080;&#1085;&#1091; &#1080;
+&#1094;&#1080;&#1087;&#1088;&#1086;&#1092;&#1083;&#1086;&#1082;&#1089;&#1072;&#1094;&#1080;&#1085;&#1091; &#8211; 10.2 %, &#1083;&#1077;&#1074;&#1086;&#1092;&#1083;&#1086;&#1082;&#1089;&#1072;&#1094;&#1080;&#1085;&#1091; &#8211; 6.1 %, &#1075;&#1077;&#1085;&#1090;&#1072;&#1084;&#1080;&#1094;&#1080;&#1085;&#1091; &#8211; 2.0 %, &#1074;&#1089;&#1077; &#1096;&#1090;&#1072;&#1084;&#1084;&#1099; &#1073;&#1099;&#1083;&#1080; &#1095;&#1091;&#1074;&#1089;&#1090;&#1074;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099; &#1082;
+&#1084;&#1077;&#1088;&#1086;&#1087;&#1077;&#1085;&#1077;&#1084;&#1091; &#1080; &#1072;&#1084;&#1080;&#1082;&#1072;&#1094;&#1080;&#1085;&#1091;. &#1060;&#1077;&#1085;&#1086;&#1090;&#1080;&#1087; &#1084;&#1085;&#1086;&#1078;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1081; &#1083;&#1077;&#1082;&#1072;&#1088;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1081; &#1091;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1080; &#1080;&#1084;&#1077;&#1083;&#1080; 32.7 % &#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;, &#1090;&#1072;&#1082; &#1082;&#1072;&#1082;
+&#1086;&#1085;&#1080; &#1073;&#1099;&#1083;&#1080; &#1091;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1099; &#1082; &#1090;&#1088;&#1077;&#1084; &#1080; &#1073;&#1086;&#1083;&#1077;&#1077; &#1075;&#1088;&#1091;&#1087;&#1087;&#1072;&#1084; &#1072;&#1085;&#1090;&#1080;&#1073;&#1080;&#1086;&#1090;&#1080;&#1082;&#1086;&#1074;. &#1057;&#1087;&#1077;&#1094;&#1080;&#1092;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1072;&#1084;&#1087;&#1083;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1074;&#1099;&#1103;&#1074;&#1083;&#1077;&#1085;&#1072;: &#1082; blaTEM &#8211;
+&#1091; 100 % &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074;, &#1082; blaSHV &#8211; &#1091; 31.6 %, &#1082; blaCTX-M &#8211; &#1091; 26.3 % &#1096;&#1090;&#1072;&#1084;&#1084;&#1086;&#1074;, &#1091;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1099;&#1093; &#1093;&#1086;&#1090;&#1103; &#1073;&#1099; &#1082; &#1086;&#1076;&#1085;&#1086;&#1084;&#1091; &#1087;&#1088;&#1077;&#1087;&#1072;&#1088;&#1072;&#1090;&#1091; &#1080;&#1079;
+&#1075;&#1088;&#1091;&#1087;&#1087;&#1099; &#1073;&#1077;&#1090;&#1072;-&#1083;&#1072;&#1082;&#1090;&#1072;&#1084;&#1085;&#1099;&#1093; &#1072;&#1085;&#1090;&#1080;&#1073;&#1080;&#1086;&#1090;&#1080;&#1082;&#1086;&#1074;. &#1064;&#1090;&#1072;&#1084;&#1084;&#1099; E. coli, &#1080;&#1079;&#1086;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1086;&#1090; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1099;&#1093; &#1082;&#1086;&#1088;&#1086;&#1074; &#1080; &#1090;&#1077;&#1083;&#1103;&#1090;, &#1086;&#1073;&#1083;&#1072;&#1076;&#1072;&#1083;&#1080; &#1074;&#1099;&#1089;&#1086;-
+&#1082;&#1080;&#1084; &#1075;&#1077;&#1090;&#1077;&#1088;&#1086;&#1087;&#1072;&#1090;&#1086;&#1075;&#1077;&#1085;&#1085;&#1099;&#1084; &#1087;&#1086;&#1090;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1086;&#1084;, &#1087;&#1086;&#1101;&#1090;&#1086;&#1084;&#1091; &#1084;&#1086;&#1083;&#1077;&#1082;&#1091;&#1083;&#1103;&#1088;&#1085;&#1086;-&#1075;&#1077;&#1085;&#1077;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1101;&#1090;&#1080;&#1093; &#1073;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1081; &#1076;&#1086;&#1083;&#1078;&#1085;&#1072;
+&#1089;&#1090;&#1072;&#1090;&#1100; &#1074;&#1072;&#1078;&#1085;&#1086;&#1081; &#1095;&#1072;&#1089;&#1090;&#1100;&#1102; &#1101;&#1087;&#1080;&#1079;&#1086;&#1086;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086; &#1084;&#1086;&#1085;&#1080;&#1090;&#1086;&#1088;&#1080;&#1085;&#1075;&#1072;.</p></trans-abstract><kwd-group><kwd>Escherichia coli</kwd><kwd>virulence-associated genes (VAGs)</kwd><kwd>antibiotic resistance</kwd><kwd>cattle</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>Escherichia coli</kwd><kwd>&#1075;&#1077;&#1085;&#1099;, &#1072;&#1089;&#1089;&#1086;&#1094;&#1080;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1089; &#1074;&#1080;&#1088;&#1091;&#1083;&#1077;&#1085;&#1090;&#1085;&#1086;&#1089;&#1090;&#1100;&#1102;</kwd><kwd>&#1091;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082; &#1072;&#1085;&#1090;&#1080;&#1073;&#1080;&#1086;&#1090;&#1080;&#1082;&#1072;&#1084;</kwd><kwd>&#1082;&#1088;&#1091;&#1087;&#1085;&#1099;&#1081; &#1088;&#1086;&#1075;&#1072;&#1090;&#1099;&#1081; &#1089;&#1082;&#1086;&#1090;</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Representatives of the commensal microbiota, including
+Escherichia coli, being obligate residents of the intestinal tract
+of farm animals, support physiological homeostasis and colonization
+resistance of the organism. At the same time, cattle,
+including healthy animals, present a reservoir of pathogenic
+and opportunistic E. coli (Chapman et al., 2006; Ewers et al.,
+2009; Bok et al., 2015; Madoshi et al., 2016). Diarrheagenic
+E. coli (DEC) causing outbreaks of intestinal diseases include
+various pathotypes: enteropathogenic E. coli (EPEC), enteroinvasive
+E. coli (EIEC), enteroaggregative E. coli (EAEC),
+enterotoxigenic E. coli (ETEC) and enterohemorrhagic E. coli
+(EHEC), which include also Shiga toxin-producing E. coli
+(STEC) (Allocati et al., 2013; Vila et al., 2016; Oporto et al.,
+2019; Santos et al., 2020).</p><p>Extraintestinal pathogenic E. coli (ExPEC) are usually
+divided according the infected organ system, e. g. uropathogenic
+E. coli (UPEC), neonatal meningitis-associated E. coli
+(NMEC), and sepsis-causing E. coli (SePEC). Intestinal and
+extraintestinal E. coli strains circulating in agricultural enterprises
+can pose a significant health risk to animals and humans.</p><p>Due to horizontal gene transfer, the E. coli genome is highly
+heterogeneous, and strains possessing genes characteristic of
+different pathotypes, so called hybrid-pathogenic and heteropathogenic
+E. coli, are known (Santos et al., 2020). Along with
+this, the pathogenic potential of intestinal E. coli is formed,
+which become sources of virulence-associated genes (VAGs)
+for other microorganisms, or, subsequently, themselves cause
+intestinal or extraintestinal infections (Chapman et al., 2006;
+B&#233;langer et al., 2011).</p><p>The widespread use of antibiotics in agriculture leads to
+the formation of E. coli strains with a multidrug resistance
+(MDR) phenotype (Pardon et al., 2017). The relationship
+between pathogenicity determinants and antimicrobial resistance
+controversial: in a number of studies, a correlation
+between phenotypic antibiotic resistance and the presence of
+certain VAGs was revealed (Suojala et al., 2010; de Verdier
+et al., 2012), in other studies this relationship was absent
+(Bok et al., 2015). In Russia, studies on the occurrence of
+hybrid-pathogenic and hetero-pathogenic strains of E. coli
+circulating among healthy animals of agricultural enterprises
+have not been conducted. In this regard, the analysis of the
+genetic profiles of pathogenicity and antibiotic resistance of
+E. coli strains, obligate representatives of the intestinal microbiota
+of cattle, is important in relation to both epizootic and
+epidemiological control of colibacillosis in livestock farms.</p><p>The aim of the study was to evaluate the occurrence of 22
+VAGs, as well as the prevalence of antibiotic resistance and
+three different types of bla-genes among E. coli strains isolated
+from faeces of healthy cattle.</p></sec><sec><title>Materials and methods</title><p>Studied strains. In the study, 49 different strains of E. coli
+(non-clonality of the strains was ascertained by ERIC-PCR),
+isolated in 2019&#8211;2021 at agricultural enterprises (n = 3) and
+private farms (n = 5) in Perm Krai from the faeces of cows
+(n = 31) and calves from 3 to 13 days of age (n = 18) were
+included. The strains were obtained from different animals
+of the Holstein black-and-white breed. The agricultural enterprises
+LLC &#8220;&#1050;rasava&#8221;, LLC &#8220;Serginskoe&#8221; and LLC &#8220;Rus&#8221;
+specialize in dairy cattle breeding and raw milk production.
+The economic diet of feeding and the conditions of keeping
+animals (loose method) are the same and typical for these
+enterprises.</p><p>Detection of virulence-associated genes. To obtain matrix
+DNA for PCR amplification, a loop of bacterial biomass was
+resuspended into 100 &#956;L of ultrapure water, heated for 15
+min at 97 &#176;C in a solid-state thermostat with a timer &#1058;&#1058;-2
+&#8220;Termite&#8221; (Russia), centrifuged for 5 min at 13,000 rpm.
+The supernatants were transferred to fresh Eppendorf tubes
+and stored at &#8211;20 &#176;C until usage. Twenty-two genes encoding
+either toxins (hlyA, hlyF, east1, ehxA, estI, estII, eltA, stx1,
+stx2, cnf1), adhesins (fimH, papC, sfaDE, afa/draBC, iha,
+flu), protectins (ompT, kpsMTII, iss), proteins of iron uptake
+systems (iroN, iut&#1040;) or the UPEC-specific protein (usp)
+were detected by PCR. Primers (LLC &#8220;Sintol&#8221;, Russia) and
+programs according to the recommendations of the authors
+(Chapman et al., 2006; Moulin-Schouleur et al., 2007) were
+used. Amplifications were carried out in PCR mixtures with
+Taq-polymerase (LLC &#8220;Sintol&#8221;) in a thermal cycler DNA
+Engine Dyad Thermal Cycler (Bio-Rad, USA). Band visualization
+and data documentation were performed using a gel
+documentation system Gel-DocXR (Bio-Rad).</p><p>Antimicrobial susceptibility testing. The determination of
+the sensitivity of E. coli strains to antibiotics was carried out in
+accordance with the methodical instructions MUK 4.2.1890-04
+(Russia, 2004) and the clinical guidelines &#8220;Determination of
+the Sensitivity of Microorganisms to Antimicrobial Drugs&#8221; of the Interregional Association for Clinical Microbiology and
+Antimicrobial Chemotherapy (IACMAC, version-2018-03).
+The strains were tested by the disk-diffusion method using
+Muller&#8211;Hinton agar (FBIS SRCAMB, Russia) and disks
+(NICF, St. Petersburg, Russia) for sensitivity to penicillins
+(ampicillin, 10 &#956;g), cephalosporins (cefoperazone, 75 &#956;g;
+ceftriaxone, 30 &#956;g; cefepime, 30 &#956;g), carbapenems (meropenem,
+10 &#956;g), monobactams (aztreonam, 30 &#956;g), aminoglycosides
+(amikacin, 30 &#956;g; gentamicin 10 &#956;g), fluoroquinolones
+(ciprofloxacin, 5 &#956;g; levofloxacin, 5 &#956;g; norfloxacin, 10 &#956;g),
+tetracyclines (tetracycline, 30 &#956;g), phenicols (chloramphenicol,
+30 &#956;g). Resistance of E. coli strains to at least one drug of
+three or more groups of antibiotics was defined as multidrug
+resistance (Magiorakos et al., 2012).</p><p>Identification of beta-lactamase genes. Detection of genes
+encoding TEM, SHV, and CTX-M beta-lactamase types was
+carried out with PCR using primers and amplification modes,
+according to the recommendations of the authors (Ahmed et
+al., 2007; Aleisa et al., 2013) with the same PCR mixtures
+and machines as stated above for detection of virulenceassociated
+genes</p><p>Statistical analysis. Qualitative features were compared
+using &#967;2 (with Yates correction) or Fisher&#8217;s exact test. Data
+processing was carried out using computer programs Microsoft
+Office XP Excel and Statistica 10.0.</p></sec><sec><title>Results</title><p>Molecular characteristics of the E. coli strains</p><p>Evaluation of the prevalence of genes associated with DEC
+(east1, ehxA, estI, estII, eltA, stx1, stx2) and ExPEC (fimH,
+papC, sfaDE, afa/draBC, flu, hlyA, hlyF, ompT, kpsMTII, iss,
+iroN, iut&#1040;, usp) showed that they occurred with different frequencies.
+The iha and cnf1 genes were not detected (Table 1).
+All strains contained at least one VAG. The most E. coli were
+harbouring three (20.4 %), four (14.3 %), five (20.4 %) and
+six (16.3 %) genes, while the proportion of E. coli having
+seven or more genes did not exceed 10 %. In total, forty-five
+variants of VAGs combinations were identified.</p><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>Occurrence of virulence-associated genes among E. coli strains isolated from faeces of healthy animals</title><p>The difference between the samples was statistically significant, p &#8804; 0.05.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2259-Tab1.jpg"/></fig><p>Prevalence of genes associated with DEC pathogenicity.
+Seventeen strains (34.7 %) contained genes associated with
+DEC pathotypes. Among the toxin-coding genes, the most
+common was the enteroaggregative thermostable enterotoxin
+east1 gene (24.5 %), which is usually, but not exclusively,
+associated with EAEC. Seven strains (14.3 %) carried genes
+associated with ETEC (estI, estII, eltA), four cultures contained
+STEC-marker genes stx1 (2.0 %) and stx2 (6.1 %).
+In four cases, ehxA was found, encoding enterohemolysin,
+which is the main virulence factor of EHEC, but also occurs
+among other diarrheal E. coli pathotypes (Jiang et al., 2015).
+A hetero-pathogenic strain that simultaneously contains
+marker genes for STEC and ETEC pathotypes was found.
+It should be noted that the east1 gene was detected in some
+E. coli strains identified as STEC and ETEC. The distribution
+of determinants associated with DEC pathotypes in the studied
+E. coli population is shown in Fig. 1.</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Variants of the distribution of genes associated with DEC
+pathotypes.</title><p>The gene is associated with more than one pathotype</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2259-Fig1.jpg"/></fig><p>Prevalence of genes associated with ExPEC pathogenicity.
+The fimH gene was the most abundant (91.8 %). The second
+most common gene was the afimbrial adhesin afa/draBC
+(61.2 %); also quite often iutA was detected (44.9 %). The pre-
+valence of the papC, sfaDE, flu, hlyA, hlyF, ompT, kpsMTII,
+iss, iroN genes varied from 14.3 to 32.7 %. Only in one case
+the usp gene was detected.</p><p>More than half of the strains (55.1 %) corresponded to
+the ExPEC group according to the classification criteria of
+J.R. Johnson and T.A. Russo (2005); that is, they contained
+two or more of the following genes: papC, sfaDE, afa/draBC,
+kpsMII, iutA. Interestingly, eight strains included at least
+three of the five genes (hlyF, iroN, ompT, iss, iutA) that were
+proposed by T.J. Johnson et al. (2008) to determine the APEC
+pathotype associated with systemic avian colibacillosis. One
+strain had a high uropathogenic potential because it contained
+the usp gene, as well as the hlyA, papC, sfaDE, afa/draBC
+genes often found among UPEC strains.</p><p>Based on the detected combinations of genes, not only
+&#8220;classic&#8221; but also hybrid-pathogenic strains were identified.
+Eleven (22.5 %) cultures were identified that met the ExPEC
+criterion and included genes associated with DEC pathotypes
+(estI, stx2, east1, ehxA). Among them, hybrid pathotypes
+ExPEC/STEC and ExPEC/ETEC were found, but the prevalence
+of such strains did not exceed 4.1 %. The ratio of genes
+associated with ExPEC and DEC detected in the studied E. coli
+population is shown in Fig. 2.</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>The ratio of genes associated with APEC, STEC, ETEC pathotypes, other ExPEC and DEC genes in strains isolated from healthy cows and calves.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2259-Fig2.jpg"/></fig><p>Comparison of the prevalence of VAGs in subpopulations
+of E. coli isolated from cows and calves. Some statistical
+differences in the prevalence of VAGs between E. coli
+from samples of cows and calves were found (see Table 1).
+The iss gene was detected only among E. coli isolated from
+calves, while the stx1, stx2, ehxA, estII, hlyA and usp genes
+were found exclusively in E. coli isolated from cows. The
+ompT gene was found significantly more often in E. coli circulating
+among calves (p = 0.03), while the prevalence of the
+afa/draBC (p = 0.03) and iroN (p = 0.04) genes was higher
+in subpopulations of E. coli isolated from cows. In addition,
+the fimH, papC, sfaDE, estI, east1, kpsMTII genes were more
+common among the latter, but the difference was not statistically
+significant (Fig. 3).</p><fig position="float" id="Fig-3" orientation="portrait"><label>Fig. 3.</label><caption><title>Distribution of pathogenicity determinants among strains isolated
+from healthy cows and calves.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2259-Fig3.jpg"/></fig><p>Characterization of antimicrobial
+resistance of E. coli strains</p><p>The proportion of strains sensitive to all studied antibiotics
+was 12.2 %. E. coli strains resistant to only one drug were
+the most common in the population (36.7 %). Cultures were
+more often resistant to ampicillin (77.6 %) and tetracycline
+(49.0 %) (Table 2). It should be noted that all strains were
+sensitive to meropenem and amikacin.</p><fig position="float" id="Tab-2" orientation="portrait"><label>Table 2.</label><caption><title>Prevalence of antibiotic resistance</title><p>The difference between the samples was statistically significant, p &#8804; 0.05.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-26-2259-Tab2.jpg"/></fig><p>Sixteen strains (32.7 %) had an MDR phenotype, while
+three strains were resistant to at least one antimicrobial agent
+from five or more groups of antibiotics. Of the fourteen identified
+phenotypic profiles of antibiotic resistance, seven were
+unique (not repeated more than once). The most common were
+strains with the phenotype of resistance to ampicillin (32.7 %),
+ampicillin and tetracycline (12.3 %), as well as ampicillin,
+tetracycline and chloramphenicol (10.2 %).</p><p>Prevalence of beta-lactam resistance genes. Thirty-eight
+E. coli strains (77.6 %) were resistant to at least one betalactam
+antibiotic. These strains were tested for the presence
+of beta-lactamase genes. Specific amplification for blaTEM was detected in 100 % of cases, for blaSHV &#8211; 31.6 %, for
+blaCTX-M &#8211; 26.3 %.</p><p>Comparative analysis of the prevalence of drug resistance
+in subpopulations of E. coli isolated from cows and
+calves. It should be noted that strains resistant to gentamicin
+and norfloxacin were found only among E. coli obtained
+from calves. In the same group, the occurrence of E. coli
+representatives that were not sensitive to tetracycline and
+chloramphenicol, as well as those with the MDR phenotype,
+was significantly higher (p &lt; 0.01). The proportion of strains
+resistant to other antimicrobial agents was also higher in the
+calf group, although the differences were not statistically
+significant (see Table 2).</p><p>Relationship between virulence factors and antimicrobial
+resistance</p><p>In the group of strains with the MDR phenotype, E. coli containing
+five or more VAGs were found more often (p = 0.04),
+and the probability of finding the hlyA, iss, iutA genes in this
+group was higher than among E. coli without the MDR phenotype
+(p &#8804; 0.05). In the group of strains in which five or more
+pathogenicity genes were detected, the proportion of E. coli
+resistant to five or more antimicrobial agents was significantly
+higher (p = 0.04). It should be noted that among E. coli with
+the MDR phenotype, there were E. coli containing the marker
+genes estI, eltA (ETEC), stx1 (STEC), as well as six strains
+identified as APEC.</p></sec><sec><title>Discussion</title><p>E. coli strains circulating in agricultural settings can pose a
+significant risk to human health (B&#233;langer et al., 2011; Manges
+et al., 2016). On the one hand, the possibility of transmission
+of pathogenic E. coli through food products, including cattle
+meat, has been revealed (Vincent et al., 2010). On the other
+hand, the presence of similar phylogroups, serotypes and
+genetic determinants of pathogenicity in representatives of
+E. coli that cause human diseases and E. coli of animal origin
+suggests that animals can be a reservoir of opportunistic
+E. coli, as well as pathogens of zoonotic infections (Tivendale
+et al., 2010; Mora et al., 2013). For example, farm animals
+are the main natural reservoir and source of STEC strains
+that cause hemorrhagic colitis in humans (Onishchenko et
+al., 2015).</p><p>The presence of certain virulence factors in the pathogen
+causes the manifestation of clinical symptoms of intestinal
+and extraintestinal infections caused by E. coli, the corresponding
+pathological groups &#8211; DEC and ExPEC (Chapman
+et al., 2006; Dale, Woodford, 2015). According to numerous
+studies, these strains can circulate among the microbiota of
+healthy animals that do not have pronounced symptoms of
+the disease, in addition, some VAGs may be present in the
+genomes of commensal E. coli (Orden et al., 2002; Ewers et
+al., 2009, 2021; Bok et al., 2015). Our studies showed that
+E. coli strains isolated from healthy cattle were characterized
+by a high level of genetic diversity and contained pathogenicity
+determinants associated with pathotypes DEC and ExPEC.
+ExPEC strains were the most common, as they were found
+in 55.1 % of the studied strains. E. coli containing marker
+genes of diarrheagenic pathotypes: STEC (in 8.1 % of cases)
+and ETEC (14.3 %) were also detected. Similar data were
+presented in the study by J.A. Orden et al. &#8211; among the strains
+obtained from healthy cattle, there were representatives of
+STEC and EPEC with frequencies of 8.7 and 8.2 %, respectively
+(Orden et al., 2002), whereas the prevalence of ETEC
+and STEC representatives isolated from dairy cows in China
+was only 4.29 and 1.98 % (Huasai et al., 2012). It should
+be noted that in our sample, individual VAGs were detected
+with a high frequency (fimH &#8211; 91.8 %; afa/draBC &#8211; 61.2 %;
+iutA &#8211; 44.9 %; sfaDE &#8211; 30.6 %). R.V. Pereira et al. (2011)
+found that the fimH and iutA genes were more prevalent
+among E. coli isolated from healthy calves &#8211; in 100 and 86.9 %
+of cases respectively, while the sfaDE and afa/draBC genes
+were found less frequently &#8211; in 4.9 and 1.6 % of cases, respectively.</p><p>When comparing the prevalence of pathogenicity determinants
+in strains circulating among healthy cattle of Russian
+and Slovenian farms, it was found that faecal E. coli strains
+from Slovenian cows had a lower virulence potential, since the
+occurrence of VAGs was significantly lower: fimH &#8211; 65.2 %, hlyA &#8211; 9.0 %, stx2, ompT and kpsMT &#8211; 3.4 %, usp &#8211; 1.1 %,
+and the sfaDE, iroN, cnf1 genes were not detected at all (data
+not shown).</p><p>Recently, more researchers have noted that VAGs associated
+with either ExPEC or DEC are found among atypical
+E. coli pathotypes (Santos et al., 2020; Ewers et al., 2021).
+Such strains can cause severe infectious diseases in both farm
+animals and humans. In 2011, an outbreak of food poisoning
+was recorded in Germany, caused by a hetero-pathogenic
+strain of E. coli O104 : H4 with a rare combination of VAGs
+(stx2 and aatA, aggR, aar, aggA, aggC), characteristic of two
+different groups of diarrheagenic E. coli &#8211; STEC and EAEC
+(Bielaszewska et al., 2011). It was reported that hetero-pathogenic
+strains can be isolated from animals and food (Cheng
+et al., 2006; Monday et al., 2006).</p><p>In our study, strains were found that included the stx1, stx2
+genes and the gene of enteroaggregative thermostable enterotoxin
+east1, which is often found in EAEC strains. However, to
+determine this pathotype, it is necessary to identify additional
+determinants, and also to perform phenotypic studies (Boisen
+et al., 2020). ExPEC/STEC hybrids are also high-risk pathogens
+because they cause both diarrhoea and extraintestinal
+infection. We found hybrid-pathogenic and hetero-pathogenic
+strains in 2.0 and 4.1 % of cases, respectively.</p><p>Our study revealed that the VAG profiles of E. coli strains
+circulating among healthy cows and calves had specific differences.
+The occurrence of VAGs (except for ompT, hlyF,
+iutA) was higher among E. coli isolated from cows; moreover,
+genes stx1, stx2, ehxA and estII associated with DEC were detected
+exclusively in this sample. Interestingly, among E. coli
+isolated from calves, the genes ompT, hlyF, iutA, iss were
+detected more often. Thus, E. coli living in the intestines of
+healthy cows had a high diarrheagenic potential, while ExPEC
+genes were common in both samples; however, in the group
+of calves, E. coli containing genes associated with the APEC
+pathotype were more common. Perhaps these differences
+are related to the fact that bacteria of the DEC pathogroup
+can persist in the intestines of cows without causing active
+infection, since the &#8220;mature&#8221; microbiome provides colonization
+resistance, while calves are more vulnerable to DEC,
+which often cause diarrhoea and death of young animals in
+the first days of life (Bashahun, Amina, 2017). In addition,
+natural immunity formed in previously ill adult animals, as
+well as post-vaccination immunity, provide tolerance to most
+pathogenic E. coli.</p><p>Agriculture accounts for up to 70 % of antimicrobial drug
+consumption, so productive animals are the main arena for the
+emergence of bacterial antibiotic resistance and the emergence
+of strains with multiple drug resistance (Berge et al., 2009;
+Pereira et al., 2011; Okello et al., 2021). It was shown that
+among E. coli isolates circulating in poultry and agricultural
+enterprises, more than half had the MDR phenotype1.</p><p>1 Zabrovskaya A.V. Epizootological analysis of the spread of antibioticresistant
+strains of pathogens of infectious diseases of farm animals in the
+North-Western federal district of the Russian Federation: Doctor Sci. (Vet.)
+Dissertation. St. Petersburg, 2019. 323 p.</p><p>Significant differences in the prevalence of antibiotic-resistant
+microorganisms circulating in livestock farms in different
+countries may be due to the peculiarities of animal housing
+conditions and the use of antimicrobial drugs. This determines
+the expediency of a comparative study of transmission routes
+and mechanisms of acquiring antibiotic resistance.</p><p>Beta-lactam antibiotics and tetracycline preparations are
+most widely used in veterinary medicine for treatment and
+prevention of infectious diseases of cattle (Berge et al., 2009;
+Pereira et al., 2011). Of particular importance is the growing
+resistance of microorganisms to extended-spectrum cephalosporins
+(third and fourth generation), as these antibiotics are critically important for medicine2. 2.Antibiotics in Animal Farming. Public Health and Animal Welfare, 2011.According to our study,
+strains with the MDR phenotype isolated from healthy cows
+and calves were found with a high frequency (32.7 %). In
+the study sample, 77.6 % of cultures were resistant to at least
+one antimicrobial agent of the beta-lactam group of antibiotics
+(16.3 % &#8211; to cefoperazone and ceftriaxone), 49.0 % &#8211; to
+tetracycline, and 20.4 % &#8211; to chloramphenicol. These data
+significantly exceed the values published by B.P. Madoshi et
+al. (2016), who found the proportion of strains isolated from
+healthy cattle and resistant to ampicillin, tetracycline and
+chloramphenicol was 21.3, 33.1 and 4.4 %, respectively. Only
+3.7 % of the strains were resistant to cefotaxime (Madoshi et
+al., 2016). Even lower resistance to cephalosporins (1.5 %)
+was demonstrated by E. coli strains isolated from cattle faeces
+at agricultural enterprises in Japan (Sato et al., 2014).</p><p>Beta-lactamase production is one of the main mechanisms
+of resistance to beta-lactam antibiotics. In the studied strains
+resistant to at least one agent from this group of antimicrobial
+drugs, genes and combinations of beta-lactamase genes of the
+TEM, SHV and CTX-M families were found. This fact may
+be related to the widespread use of beta-lactam antibiotics in
+enterprises of Perm Krai. However, it was found that even
+among strains isolated from cattle on farms where antibiotics
+were rarely used, the occurrence of blaCTX-M ranged from
+2.3 to 25.0 % (Lee et al., 2020). Attention should be paid to
+the high occurrence in E. coli strains of genes encoding betalactamases,
+the plasmid localization of which can contribute
+to the effective spread of antibiotic resistance within the
+microbial population through horizontal transfer.</p><p>According to our data, in general, resistance to antimicrobial
+agents was more common in the E. coli subpopulation
+isolated from calves than among E. coli isolated from adult
+animals. The largest differences were observed for tetracycline
+(94.4 versus 22.6 %) and chloramphenicol (50.0 versus 3.2 %
+resistant strains from calves and cows, respectively). Perhaps
+this is due to the addition of these drugs to the calves&#8217; feed
+for a long period, since it is known that antibiotics are often
+added to milk or milk substitutes in order to prevent diseases
+and treat diarrhoea, which is the main cause of mortality of
+calves before weaning (Berge et al., 2009; de Campos et al.,
+2021; Okello et al., 2021).</p><p>It is known that the phenotype of resistance of bacteria circulating
+among calves is mainly a consequence of the use of
+antibiotics in enterprises (DeFrancesco et al., 2004; Sato et al.,
+2005). Antibiotics of the aminoglycoside group &#8211; neomycin
+and gentamicin, are of great importance for the prevention
+and treatment of streptococcal and staphylococcal infections
+in calves3. 3 Esaulenko N.N. The effectiveness of the use of the probiotic &#8220;Sporothermin&#8221;
+in the diets for heifers: Cand. Sci. (Agric.) Dissertation. Krasnodar, 2015. 118 p.This may explain that E. coli strains resistant to
+gentamicin and norfloxacin were found only among E. coli
+derived from calves.</p></sec><sec id="Conclusion"><title>Conclusion</title><p>Microbiological monitoring of pathogenic and conditionally
+pathogenic microorganisms isolated from farm animals and
+from animal products is currently carried out at all enterprises
+of the Russian Federation. This monitoring is important, as bacteria in the herd can circulate between animals of all
+ages over a long period of time, posing a risk to the animals
+themselves and to the personnel.</p><p>This paper presents for the first data on the prevalence of
+VAGs, as well as the occurrence of hybrid-pathogenic and
+hetero-pathogenic strains of E. coli circulating among healthy
+animals at agricultural enterprises in the European part of
+Russia (Perm Krai). In addition, the relationship between the
+virulence potential of E. coli and their antibiotic resistance was
+analysed. Another important aspect presented in the work is
+a comparative analysis of the biological properties of E. coli
+strains isolated from different age groups of animals &#8211; cows
+and calves.</p><p>Studies have shown that E. coli strains circulating among
+healthy animals on farms and agricultural enterprises were
+characterized by a high hetero-pathogenic potential. In the
+E. coli population under consideration, representatives of
+DEC (including STEC and ETEC), which can cause intestinal
+infections, as well as ExPEC, causing extraintestinal infections,
+were common. In addition, hybrid strains combining genes
+associated with different E. coli pathotypes were found. Strains
+with the MDR phenotype had a high virulence potential,
+since they more often contained more than five VAGs. E. coli
+isolated from cows showed a higher diarrheagenic potential,
+while E. coli isolated from calves more often contained genes
+associated with the ExPEC pathotype. E. coli obtained from
+calves generally showed greater resistance to antimicrobial
+agents than E. coli isolated from adult animals.</p><p>The obtained data on the molecular properties of microorganisms
+of the intestinal microbiota of healthy cattle allow
+to assess their epizootic significance and can serve as a basis
+for the formation of a monitoring system for colibacillosis in
+agricultural enterprises.</p></sec><sec><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Ahmed A.M., Motoi Y., Sato M., Maruyama A., Watanabe H., Fukumoto
+Y., Shimamoto T. Zoo animals as reservoirs of gram-negative
+bacteria harboring integrons and antimicrobial resistance genes.
+Appl. Environ. Microbiol. 2007;73(20):6686-6690. DOI 10.1128/
+AEM.01054-07.</p><p>Aleisa A.M., Ashgan M.H., Alnasserallah A.A., Mahmoud M.H.,
+Moussa I.M. Molecular detection of &#946;-lactamases and aminoglycoside
+resistance genes among Escherichia coli isolates recovered
+from medicinal plant. Afr. J. Microbiol. Res. 2013;7(20):2305-2310.
+DOI 10.5897/AJMR12.1965.</p><p>Allocati N., Masulli M., Alexeyev M.F., Di Ilio C. Escherichia
+coli in Europe: an overview. Int. J. Environ. Res. Public. Health.
+2013;10(12):6235-6254. DOI 10.3390/ijerph10126235.</p><p>Bashahun G.M., Amina A. Colibacillosis in calves: A review of literature.
+J. Anim. Sci. Vet. Med. 2017;2(3):62-71. DOI 10.31248/
+JASVM2017.041</p><p>B&#233;langer L., Garenaux A., Harel J., Boulianne M., Nadeau E.,
+Dozois C.M. Escherichia coli from animal reservoirs as a potential
+source of human extraintestinal pathogenic E. coli. FEMS Immunol.
+Med. Microbiol. 2011;62(1):1-10. DOI 10.1111/j.1574-695X. 2011.
+00797.x.</p><p>Berge A.C., Moore D.A., Besser T.E., Sischo W.M. Targeting therapy to
+minimize antimicrobial use in preweaned calves: effects on health,
+growth, and treatment costs. J. Dairy Sci. 2009;92(9):4707-4714.
+DOI 10.3168/jds.2009-2199.</p><p>Bielaszewska M., Mellmann A., Zhang W., K&#246;ck R., Fruth A., Bauwens
+A., Peters G., Karch H. Characterisation of the Escherichia
+coli strain associated with an outbreak of haemolytic uraemic syndrome in Germany, 2011: a microbiological study. Lancet Infect.
+Dis. 2011;11(9):671-676. DOI 10.1016/S1473-3099(11)70165-7.</p><p>Boisen N., &#216;sterlund M.T., Joensen K.G., Santiago A.E., Mandomando
+I., Cravioto A., Chattaway M.A., Gonyar L.A., Overballe-Petersen
+S., Stine O.C., Rasko D.A., Scheutz F., Nataro J.P. Redefining
+enteroaggregative Escherichia coli (EAEC): Genomic characterization
+of epidemiological EAEC strains. PLoS Negl. Trop. Dis. 2020;
+14(9):e0008613. DOI 10.1371/journal.pntd.0008613.</p><p>Bok E., Mazurek J., Stosik M., Wojciech M., Baldy-Chudzik K. Prevalence
+of virulence determinants and antimicrobial resistance among
+commensal Escherichia coli derived from dairy and beef cattle. Int.
+J. Environ. Res. Public. Health. 2015;12(1):970-985. DOI 10.3390/
+ijerph120100970.</p><p>Chapman T.A., Wu X.-Y., Barchia I., Bettelheim K.A., Driesen S.,
+Trott D., Wilson M., Chin J.J.-C. Comparison of virulence gene
+profiles of Escherichia coli strains isolated from healthy and diarrheic
+swine. Appl. Environ. Microbiol. 2006;72(7):4782-4795. DOI
+10.1128/AEM.02885-05.</p><p>Cheng D., Sun H., Xu J., Gao S. PCR detection of virulence factor
+genes in Escherichia coli isolates from weaned piglets with edema
+disease and/or diarrhea in China. Vet. Microbiol. 2006;115(4):320-
+328. DOI 10.1016/j.vetmic.2006.02.013.</p><p>Dale A.P., Woodford N. Extra-intestinal pathogenic Escherichia coli
+(ExPEC): Disease, carriage and clones. J. Infect. 2015;71(6):615-
+626. DOI 10.1016/j.jinf.2015.09.009.</p><p>de Campos J.L., Kates A., Steinberger A., Sethi A., Suen G., Shutske J.,
+Safdar N., Goldberg T., Ruegg P.L. Quantification of antimicrobial
+usage in adult cows and preweaned calves on 40 large Wisconsin
+dairy farms using dose-based and mass-based metrics. J. Dairy Sci.
+2021;104(4):4727-4745. DOI 10.3168/jds.2020-19315.</p><p>de Verdier K., Nyman A., Greko C., Bengtsson B. Antimicrobial resistance
+and virulence factors in Escherichia coli from swedish dairy
+calves. Acta Vet. Scand. 2012;54(1):2. DOI 10.1186/1751-0147-54-2.</p><p>DeFrancesco K.A., Cobbold R.N., Rice D.H., Besser T.E., Hancock
+D.D. Antimicrobial resistance of commensal Escherichia coli
+from dairy cattle associated with recent multi-resistant salmonellosis
+outbreaks. Vet. Microbiol. 2004;98(1):55-61. DOI 10.1016/
+j.vetmic.2003.10.017.</p><p>Ewers C., Antao E.M., Diehl I., Philipp H.C., Wieler L.H. Intestine and
+environment of the chicken as reservoirs for extraintestinal pathogenic
+Escherichia coli strains with zoonotic potential. Appl. Environ.
+Microbiol. 2009;75(1):184-192. DOI 10.1128/AEM.01324-08.</p><p>Ewers C., de Jong A., Prenger-Berninghoff E., Garch F.E., Leidner U.,
+Tiwari S.K., Semmler T. Genomic diversity and virulence potential
+of ESBL- and AmpC-&#946;-lactamase-producing Escherichia coli
+strains from healthy food animals across Europe. Front. Microbiol.
+2021;12:626774. DOI 10.3389/fmicb.2021.626774.</p><p>Huasai S., Chen A., Wang C.-J., Li Y., Tongrige B. Occurrence and
+characteristics of virulence genes of Escherichia coli strains isolated
+from healthy dairy cows in Inner Mongolia, China. Braz. J.
+Microbiol. 2012;43(2):528-534. DOI 10.1590/S1517-83822012000
+200013.</p><p>Jiang C., An T., Wang S., Wang G., Si W., Tu Y., Liu Y., Wu J., Liu S.,
+Cai X. Role of the ehxA gene from Escherichia coli serotype O82
+in hemolysis, biofilm formation, and in vivo virulence. Can. J.
+Microbiol.
+2015;61(5):335-341. DOI 10.1139/cjm-2014-0824.</p><p>Johnson J.R., Russo T.A. Molecular epidemiology of extraintestinal
+pathogenic (uropathogenic) Escherichia coli. Int. J. Med. Microbiol.
+2005;295(6-7):383-404. DOI 10.1016/j.ijmm.2005.07.005.</p><p>Johnson T.J., Wannemuehler Y., Doetkott C., Johnson S.J., Rosenberger
+S.C., Nolan L.K. Identification of minimal predictors of avian
+pathogenic Escherichia coli virulence for use as a rapid diagnostic
+tool. J. Clin. Microbiol. 2008;46(12):3987-3996. DOI 10.1128/
+JCM.00816-08.</p><p>Lee S., Teng L., DiLorenzo N., Weppelmann T.A., Jeong K.C. Prevalence
+and molecular characteristics of extended-spectrum and AmpC
+b-lactamase producing Escherichia coli in grazing beef cattle. Front.
+Microbiol. 2020;10:3076. DOI 10.3389/fmicb.2019.03076.</p><p>Madoshi B.P., Kudirkiene E., Mtambo M.M., Muhairwa A.P., Lupindu
+A.M., Olsen J.E. Characterisation of commensal Escherichia
+coli isolated from apparently healthy cattle and their attendants in
+Tanzania. PLoS One. 2016;11(12):e0168160. DOI 10.1371/journal.
+pone.0168160.</p><p>Magiorakos A.P., Srinivasan A., Carey R.B., Carmeli Y., Falagas M.E.,
+Giske C.G., Harbarth S., Hindler J.F., Kahlmeter G., Olsson-Liljequist
+B., Paterson D.L., Rice L.B., Stelling J., Struelens M.J., Vatopoulos
+A., Weber J.T., Monnet D.L. Multidrug-resistant, extensively
+drug-resistant and pandrug-resistant bacteria: an international expert
+proposal for interim standard definitions for acquired resistance.
+Clin. Microbiol. Infect. 2012;18(3):268-281. DOI 10.1111/j.1469-
+0691.2011.03570.x.</p><p>Manges A.R. Escherichia coli and urinary tract infections: the role
+of poultry-meat. Clin. Microbiol. Infect. 2016;22(2):122-129. DOI
+10.1016/j.cmi.2015.11.010.</p><p>Monday S.R., Keys C., Hanson P., Shen Y., Whittam T.S., Feng P.
+Produce isolates of the Escherichia coli Ont:H52 serotype that carry
+both Shiga toxin 1 and stable toxin genes. Appl. Environ. Microbiol.
+2006;72(4):3062-3065. DOI 10.1128/AEM.72.4.3062-3065.2006.</p><p>Mora A., Viso S., L&#243;pez C., Alonso M.P., Garc&#237;a-Garrote F., Dabhi G.,
+Mamani R., Herrera A., Marzoa J., Blanco M., Blanco J.E., Moulin-
+Schouleur M., Schouler C., Blanco J. Poultry as reservoir for
+extraintestinal pathogenic Escherichia coli O45:K1:H7-B2-ST95
+in humans. Vet. Microbiol. 2013;167(3-4):506-512. DOI 10.1016/
+j.vetmic.2013.08.007.</p><p>Moulin-Schouleur M., R&#233;p&#233;rant M., Laurent S., Br&#233;e A., Mignon-
+Grasteau S., Germon P., Rasschaert D., Schouler C. Extraintestinal
+pathogenic Escherichia coli strains of avian and human origin: link
+between phylogenetic relationships and common virulence patterns.
+J. Clin. Microbiol. 2007;45(10):3366-3376. DOI 10.1128/JCM.
+00037-07.</p><p>Okello E., Williams D.R., ElAshmawy W.R., Adams J., Pereira R.V.,
+Lehenbauer T.W., Aly S.S. Survey on antimicrobial drug use practices
+in California preweaned dairy calves. Front. Vet. Sci. 2021;8:
+636670. DOI 10.3389/fvets.2021.636670.</p><p>Onishchenko G.G., Dyatlov I.A., Svetoch E.A., Volozhantsev N.V.,
+Bannov V.A., Kartsev N.N., &#8230; Bushmanova O.N., Stalevskaya
+A.V., Tckhinjeriya I.G., Zhebrun A.B. Molecular-genetic
+characterization of shiga-toxin producing Escherichia coli isolated
+during a food-borne outbreak in St. Petersburg in 2013. Vestnik
+Rossiyskoy Akademii Meditsinskikh Nauk = Annals of the Russian
+Academy of Medical
+Sciences. 2015;70(1):70-81. DOI 10.15690/
+vramn.v70i1.1234. (in Russian)</p><p>Oporto B., Ocejo M., Alkorta M., Marim&#243;n T., Montes M., Hurtado A.
+Zoonotic approach to Shiga toxin-producing Escherichia coli: integrated
+analysis of virulence and antimicrobial resistance in ruminants
+and humans. Epidemiol. Infect. 2019;147:e164. DOI 10.1017/
+S0950268819000566.</p><p>Orden J.A., Cid D., Ruiz-Santa-Quiteria J.A., Garc&#237;a S., Mart&#237;nez S.,
+de la Fuente R. Verotoxin-producing Escherichia coli (VTEC), enteropathogenic
+E. coli (EPEC) and necrotoxigenic E. coli (NTEC)
+isolated from healthy cattle in Spain. J. Appl. Microbiol. 2002;
+93(1):29-35. DOI 10.1046/j.1365-2672.2002.01649.x.</p><p>Pardon B., Smet A., Butaye P., Argud&#237;n M.A., Valgaeren B., Catry B.,
+Haesebrouck F., Deprez P. Nosocomial intravascular catheter infections
+with extended-spectrum beta-lactamase-producing Escherichia
+coli in calves after strain introduction from a commercial
+herd. Transbound. Emerg. Dis. 2017;64(1):130-136. DOI 10.1111/
+tbed.12352.</p><p>Pereira R.V., Santos T.M., Bicalho M.L., Caixeta L.S., Machado V.S.,
+Bicalho R.C. Antimicrobial resistance and prevalence of virulence
+factor genes in fecal Escherichia coli of Holstein calves fed milk
+with and without antimicrobials. J. Dairy Sci. 2011;94(9):4556-
+4565. DOI 10.3168/jds.2011-4337.</p><p>Santos A.C.M., Santos F.F., Silva R.M., Gomes T.A.T. Diversity of
+hybrid- and hetero-pathogenic Escherichia coli and their potential
+implication in more severe diseases. Front. Cell. Infect. Microbiol.
+2020;10:339. DOI 10.3389/fcimb.2020.00339.</p><p>Sato K., Bartlett P.C., Saeed M.A. Antimicrobial susceptibility of
+Escherichia
+coli isolates from dairy farms using organic versus conventional
+production methods. J. Am. Vet. Med. Assoc. 2005;226(4):
+589-594. DOI 10.2460/javma.2005.226.589.</p><p>Sato T., Okubo T., Usui M., Yokota S., Izumiyama S., Tamura Y. Association
+of veterinary third-generation cephalosporin use with the
+risk of emergence of extended-spectrum-cephalosporin resistance in
+Escherichia coli from dairy cattle in Japan. PLoS One. 2014;9(4):
+e96101. DOI 10.1371/journal.pone.0096101.</p><p>Suojala L., Pohjanvirta T., Simojoki H., Myllyniemi A.L., Pitkala A.,
+Pelkonen S., Pyorala S. Phylogeny, virulence factors and antimicrobial
+susceptibility of Escherichia coli isolated in clinical bovine
+mastitis. Vet. Microbiol. 2010;147(3-4):383-388. DOI 10.1016/
+j.vetmic.2010.07.011.</p><p>Tivendale K.A., Logue C.M., Kariyawasam S., Jordan D., Hussein A.,
+Li G., Wannemuehler Y., Nolan L.K. Avian-pathogenic Escherichia
+coli strains are similar to neonatal meningitis E. coli strains and are
+able to cause meningitis in the rat model of human disease. Infect.
+Immun. 2010;78(8):3412-3419. DOI 10.1128/IAI.00347-10.</p><p>Vila J., S&#225;ez-L&#243;pez E., Johnson J.R., R&#246;mling U., Dobrindt U.,
+Cant&#243;n R., Giske C.G., Naas T., Carattoli A., Mart&#237;nez-Medina M.
+Escherichia coli: an old friend with new tidings. FEMS Microbiol.
+Rev. 2016;40(4):437-463. DOI 10.1093/femsre/fuw005.</p><p>Vincent C., Boerlin P., Daignault D., Dozois C.M., Dutil L., Galanakis C.,
+Reid-Smith R.J., Tellier P.P., Tellis P.A., Ziebell K., Manges
+A.R.
+Food reservoir for Escherichia coli causing urinary tract infections.
+Emerg. Infect. Dis. 2010;16(1):88-95. DOI 10.3201/eid1601.091118.</p></sec></body><back><ack><p>The work was carried out with the support of the Perm Krai Government by project No. C-26/541 and the state assignment
+&#1040;&#1040;&#1040;&#1040;-&#1040;19-119112290009-1.</p></ack></back></article></pmc-articleset>
