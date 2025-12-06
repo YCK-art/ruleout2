@@ -206,9 +206,11 @@ def extract_cited_indices(answer: str) -> Set[int]:
 
 
 # GPT 답변 생성 함수 (스트리밍)
-async def generate_answer_stream(question: str, context_chunks: List[Dict]) -> AsyncGenerator[tuple[str, bool], None]:
+async def generate_answer_stream(question: str, context_chunks: List[Dict], detected_lang: str = "English") -> AsyncGenerator[tuple[str, bool], None]:
     """
     GPT-4를 사용하여 답변을 스트리밍으로 생성
+    question: 원본 질문 (한국어/일본어/영어)
+    detected_lang: 감지된 언어 (Korean/Japanese/English)
     yield (chunk_text, is_done)
     """
     # 문서별로 청크를 그룹핑 (중복 문서 제거, 처음부터 올바른 Reference 번호 사용)
@@ -231,22 +233,30 @@ async def generate_answer_stream(question: str, context_chunks: List[Dict]) -> A
             context_text += f"(Page {chunk['page']})\n{chunk['text']}\n"
         context_text += "-" * 80 + "\n"
 
+    # 언어별 응답 언어 지시
+    language_instruction = {
+        "Korean": "**CRITICAL: You MUST respond in KOREAN (한국어). All your answers, explanations, and text must be written in Korean.**",
+        "Japanese": "**CRITICAL: You MUST respond in JAPANESE (日本語). All your answers, explanations, and text must be written in Japanese.**",
+        "English": "**CRITICAL: You MUST respond in ENGLISH. All your answers, explanations, and text must be written in English.**"
+    }
+
+    lang_instruction = language_instruction.get(detected_lang, language_instruction["English"])
+
     # 시스템 프롬프트
-    system_prompt = """You are a professional AI assistant specializing in veterinary clinical guidelines for veterinarians.
+    system_prompt = f"""You are a professional AI assistant specializing in veterinary clinical guidelines for veterinarians.
 
 Provide professional and detailed answers based on the provided veterinary guidelines.
+
+{lang_instruction}
 
 Important rules:
 1. Always cite reference numbers in square brackets at the end of each sentence or paragraph (e.g., [1], [2-3], [1,4])
 2. Answers should be sufficiently detailed and medically accurate
 3. Include background information, recommendations, and evidence levels comprehensively
-4. **CRITICAL: Always respond in the SAME LANGUAGE as the user's question**
-   - If the user asks in English, respond in English
-   - If the user asks in Korean, respond in Korean
-5. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
-6. Explicitly state if information is not available in the provided guidelines
-7. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
-8. Use Markdown format to create structured answers"""
+4. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
+5. Explicitly state if information is not available in the provided guidelines
+6. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
+7. Use Markdown format to create structured answers"""
 
     # 사용 가능한 Reference 번호 계산
     num_references = len(doc_order)
@@ -301,53 +311,103 @@ Answer Guidelines:
         chunk_num = 0
         seen_citations = set()  # 실시간으로 등장한 citation 추적
         citation_map = {}  # 원본 번호 → 재매핑된 번호
+        buffer = ""  # 청크 버퍼 (완전한 citation 감지용)
+
+        import sys
+        print(f"\n🚀 Starting stream with num_references={num_references}", file=sys.stderr, flush=True)
 
         for chunk in stream:
             if chunk.choices[0].delta.content:
                 content = chunk.choices[0].delta.content
-
-                # 1단계: 잘못된 번호 제거
-                filtered_content = content
-                for i in range(num_references + 1, 100):
-                    filtered_content = re.sub(rf'\[{i}\]', '', filtered_content)
-
-                # 2단계: 실시간 citation 재매핑
-                # 현재 청크에서 새로운 citation 발견 시 매핑 생성
-                chunk_citations = extract_cited_indices(filtered_content)
-                for cite_num in chunk_citations:
-                    if cite_num not in seen_citations and 1 <= cite_num <= num_references:
-                        seen_citations.add(cite_num)
-                        # 새로운 번호 할당 (등장 순서대로 1, 2, 3...)
-                        citation_map[cite_num] = len(citation_map) + 1
-
-                # 3단계: 청크 내 citation을 재매핑된 번호로 교체
-                remapped_chunk = filtered_content
-                for old_num in sorted(citation_map.keys(), reverse=True):
-                    new_num = citation_map[old_num]
-                    remapped_chunk = re.sub(rf'\[{old_num}\]', f'<<TEMP{new_num}>>', remapped_chunk)
-
-                # 플레이스홀더를 실제 번호로 교체
-                for new_num in citation_map.values():
-                    remapped_chunk = remapped_chunk.replace(f'<<TEMP{new_num}>>', f'[{new_num}]')
-
-                full_answer += remapped_chunk
                 chunk_num += 1
 
-                # 재매핑된 청크 전송 (타이핑 효과)
-                if remapped_chunk:
-                    if remapped_chunk != filtered_content:
-                        print(f"📝 Chunk #{chunk_num} REMAPPED: {remapped_chunk[:30]}... (map: {citation_map})")
+                # 버퍼에 추가
+                buffer += content
+
+                # 버퍼에서 완전한 citation 패턴 찾기 및 즉시 재매핑
+                output_chunk = ""
+
+                while buffer:
+                    # citation 패턴 찾기: [숫자]
+                    match = re.search(r'\[(\d+)\]', buffer)
+
+                    if match:
+                        cite_num = int(match.group(1))
+
+                        # citation 앞부분 먼저 출력
+                        before_citation = buffer[:match.start()]
+                        output_chunk += before_citation
+
+                        # 유효한 citation인지 확인
+                        if 1 <= cite_num <= num_references:
+                            # 처음 등장하는 citation이면 매핑 생성
+                            if cite_num not in seen_citations:
+                                seen_citations.add(cite_num)
+                                citation_map[cite_num] = len(citation_map) + 1
+                                print(f"🆕 New citation discovered: [{cite_num}] → [{citation_map[cite_num]}]", file=sys.stderr, flush=True)
+
+                            # 재매핑된 번호로 출력
+                            new_num = citation_map[cite_num]
+                            output_chunk += f"[{new_num}]"
+                            print(f"   ✅ Remapped [{cite_num}] → [{new_num}]", file=sys.stderr, flush=True)
+                        else:
+                            # 무효한 citation은 제거 (빈 문자열)
+                            print(f"⚠️  Invalid citation [{cite_num}] removed (max: {num_references})", file=sys.stderr, flush=True)
+
+                        # 버퍼에서 처리된 부분 제거
+                        buffer = buffer[match.end():]
                     else:
-                        print(f"📝 Chunk #{chunk_num}: {remapped_chunk[:30]}...")
-                    yield (remapped_chunk, False)
-                elif content != filtered_content:
-                    print(f"⚠️  Chunk #{chunk_num}: Invalid citation filtered out")
+                        # citation이 없으면, 마지막 5글자는 남겨둠 (다음 청크에서 [가 올 수 있음)
+                        if len(buffer) > 5:
+                            output_chunk += buffer[:-5]
+                            buffer = buffer[-5:]
+                        break
+
+                # 재매핑된 청크 출력
+                if output_chunk:
+                    full_answer += output_chunk
+                    yield (output_chunk, False)
 
                 # 비동기 yield 허용을 위한 짧은 지연
                 await asyncio.sleep(0)
 
+        # 스트리밍 완료 후 버퍼에 남은 내용 처리 (재매핑 적용)
+        if buffer:
+            print(f"📝 Final buffer before processing: '{buffer}'", file=sys.stderr, flush=True)
+
+            # 버퍼에 남은 citation도 재매핑
+            while buffer:
+                match = re.search(r'\[(\d+)\]', buffer)
+
+                if match:
+                    cite_num = int(match.group(1))
+                    before_citation = buffer[:match.start()]
+                    full_answer += before_citation
+
+                    if 1 <= cite_num <= num_references:
+                        if cite_num not in seen_citations:
+                            seen_citations.add(cite_num)
+                            citation_map[cite_num] = len(citation_map) + 1
+                            print(f"🆕 New citation in final buffer: [{cite_num}] → [{citation_map[cite_num]}]", file=sys.stderr, flush=True)
+
+                        new_num = citation_map[cite_num]
+                        full_answer += f"[{new_num}]"
+                        print(f"   ✅ Remapped [{cite_num}] → [{new_num}] in final buffer", file=sys.stderr, flush=True)
+                        yield (before_citation + f"[{new_num}]", False)
+                    else:
+                        print(f"⚠️  Invalid citation [{cite_num}] removed from final buffer", file=sys.stderr, flush=True)
+                        yield (before_citation, False)
+
+                    buffer = buffer[match.end():]
+                else:
+                    # citation 없으면 그대로 출력
+                    full_answer += buffer
+                    yield (buffer, False)
+                    break
+
         # 스트리밍 완료 - 답변 검증
-        print(f"✅ Streaming complete. Total: {chunk_num} chunks, {len(full_answer)} chars")
+        print(f"✅ Streaming complete. Final citation_map: {citation_map}", file=sys.stderr, flush=True)
+        print(f"   Total: {chunk_num} chunks, {len(full_answer)} chars", file=sys.stderr, flush=True)
 
         # Citation 검증 - 실시간 필터링으로 이미 처리되었으므로 최종 확인만
         final_cited = extract_cited_indices(full_answer)
@@ -578,12 +638,27 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
     """
     질문에 대한 답변을 실시간 SSE 스트리밍
     최적화:
-    1. 번역 제거 - 다국어 임베딩 직접 사용
-    2. GPT 실시간 스트리밍
-    3. 후속 질문 병렬 생성
+    1. 언어 감지 및 쿼리 번역 (한국어/일본어 → 영어)
+    2. 영어 쿼리로 벡터 검색 (정확도 향상)
+    3. GPT 실시간 스트리밍 (원본 언어로 답변)
+    4. 후속 질문 병렬 생성
     """
     try:
-        # 1단계: 질문 벡터화 (번역 제거 - 다국어 임베딩 사용)
+        # 1단계: 언어 감지 및 번역 (필요 시)
+        detected_lang = detect_language(question)
+        print(f"🌐 감지된 언어: {detected_lang}")
+
+        # 영어가 아니면 번역
+        if detected_lang != "English":
+            yield create_sse_event({
+                "status": "translating",
+                "message": f"질문을 영어로 번역 중... (감지된 언어: {detected_lang})"
+            })
+            english_query = await translate_to_english(question, detected_lang)
+        else:
+            english_query = question
+
+        # 2단계: 질문 벡터화 (영어 질문 사용)
         yield create_sse_event({
             "status": "embedding",
             "message": "질문을 벡터로 변환 중..."
@@ -591,11 +666,11 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         embedding_response = openai_client.embeddings.create(
             model="text-embedding-3-small",
-            input=question  # 원본 질문 직접 사용 (다국어 지원)
+            input=english_query  # 영어로 번역된 질문 사용
         )
         query_embedding = embedding_response.data[0].embedding
 
-        # 2단계: 벡터 DB 검색
+        # 3단계: 벡터 DB 검색
         yield create_sse_event({
             "status": "searching",
             "message": "의학 문헌 및 가이드라인 검색 중..."
@@ -604,14 +679,14 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         context_chunks = await search_pinecone(query_embedding, top_k=10, min_similarity=0.48)
 
         if not context_chunks:
-            # 언어별 에러 메시지
-            print(f"🌐 받은 언어: {language}")
+            # 언어별 에러 메시지 (detected_lang 사용)
+            print(f"🌐 감지된 언어: {detected_lang}")
             error_messages = {
-                "한국어": "Ruleout은 수의사가 근거 기반 임상 결정을 내리도록 돕기 위해 설계되었습니다.\n\n다음과 같은 질문을 시도해보세요:\n\"급성 심부전이 의심되는 개에게 어떤 진단 검사를 지시해야 하나요?\"",
+                "Korean": "Ruleout은 수의사가 근거 기반 임상 결정을 내리도록 돕기 위해 설계되었습니다.\n\n다음과 같은 질문을 시도해보세요:\n\"급성 심부전이 의심되는 개에게 어떤 진단 검사를 지시해야 하나요?\"",
                 "English": "Ruleout is designed to help veterinarians make evidence-based clinical decisions.\n\nTry asking a question like:\n\"What diagnostic tests should I order for a dog with suspected acute heart failure?\"",
-                "日本語": "Ruleoutは、獣医師がエビデンスに基づいた臨床判断を下すのを支援するために設計されています。\n\n次のような質問を試してみてください：\n「急性心不全が疑われる犬にどのような診断検査を指示すべきですか？\""
+                "Japanese": "Ruleoutは、獣医師がエビデンスに基づいた臨床判断を下すのを支援するために設計されています。\n\n次のような質問を試してみてください：\n「急性心不全が疑われる犬にどのような診断検査を指示すべきですか？\""
             }
-            error_message = error_messages.get(language, error_messages["한국어"])
+            error_message = error_messages.get(detected_lang, error_messages["Korean"])
             print(f"📝 에러 메시지 선택: {error_message[:50]}...")
 
             yield create_sse_event({
@@ -620,19 +695,19 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             })
             return
 
-        # 3단계: GPT 답변 스트리밍 시작
+        # 4단계: GPT 답변 스트리밍 시작
         yield create_sse_event({
             "status": "generating",
             "message": "답변 생성 중..."
         })
 
-        # GPT 스트리밍
+        # GPT 스트리밍 (원본 질문과 감지된 언어 전달)
         full_answer = ""
         chunk_count = 0
         doc_order = []
         seen_docs = {}
         citation_map = {}
-        async for result in generate_answer_stream(question, context_chunks):
+        async for result in generate_answer_stream(question, context_chunks, detected_lang):
             if len(result) == 2:  # 스트리밍 중
                 chunk_content, is_done = result
                 # 스트리밍 청크 전송
@@ -647,7 +722,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
                 full_answer, is_done, doc_order, seen_docs, citation_map = result
                 print(f"✅ Total chunks sent: {chunk_count}")
 
-        # 4단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
+        # 5단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
         print("📚 참고문헌 추출 및 후속 질문 생성 시작...")
 
         # 병렬 실행을 위한 태스크 생성
@@ -671,7 +746,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             print(f"후속 질문 생성 오류: {results[1]}")
             followup_questions = []
 
-        # 5단계: 완료 (재매핑된 답변 + 참고문헌 + 후속 질문)
+        # 6단계: 완료 (재매핑된 답변 + 참고문헌 + 후속 질문)
         yield create_sse_event({
             "status": "done",
             "message": "완료",

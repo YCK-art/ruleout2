@@ -61,6 +61,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [guestQueriesRemaining, setGuestQueriesRemaining] = useState(5);
   const [showScrollToBottom, setShowScrollToBottom] = useState(false);
   const [copiedTableIndex, setCopiedTableIndex] = useState<string | null>(null);
+  const [loadingStatus, setLoadingStatus] = useState<string>("");
 
   // User 상태 로깅
   useEffect(() => {
@@ -81,6 +82,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       references: "References",
       relatedQuestions: "Related Questions",
       generatingAnswer: "Generating answer...",
+      translating: "Translating question...",
+      embedding: "Converting to vector...",
+      searching: "Searching guidelines...",
       stop: "Stop",
       freeQueriesRemaining: "Free queries remaining:",
       queryLimitReached: "Query limit reached. Please log in to continue.",
@@ -98,6 +102,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       references: "참고문헌",
       relatedQuestions: "관련 질문",
       generatingAnswer: "답변 생성 중...",
+      translating: "질문 번역 중...",
+      embedding: "벡터로 변환 중...",
+      searching: "가이드라인 검색 중...",
       stop: "중지",
       freeQueriesRemaining: "남은 무료 쿼리:",
       queryLimitReached: "쿼리 제한에 도달했습니다. 계속하려면 로그인하세요.",
@@ -115,6 +122,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       references: "参考文献",
       relatedQuestions: "関連質問",
       generatingAnswer: "回答を生成中...",
+      translating: "質問を翻訳中...",
+      embedding: "ベクトルに変換中...",
+      searching: "ガイドライン検索中...",
       stop: "停止",
       freeQueriesRemaining: "残りの無料クエリ:",
       queryLimitReached: "クエリ制限に達しました。続行するにはログインしてください。",
@@ -336,6 +346,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             try {
               const data = JSON.parse(line.slice(6));
 
+              // 로딩 상태 업데이트
+              if (data.status === "translating") {
+                setLoadingStatus(currentContent.translating);
+              } else if (data.status === "embedding") {
+                setLoadingStatus(currentContent.embedding);
+              } else if (data.status === "searching") {
+                setLoadingStatus(currentContent.searching);
+              } else if (data.status === "generating") {
+                setLoadingStatus(currentContent.generatingAnswer);
+              }
+
               if (data.status === "streaming") {
                 // 실시간 스트리밍 청크 수신 (ChatGPT처럼 타이핑 효과)
                 streamingAnswer += data.chunk;
@@ -351,6 +372,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   return newMessages;
                 });
               } else if (data.status === "done") {
+                setLoadingStatus(""); // 로딩 완료
                 finalAnswer = data.answer || streamingAnswer;
                 finalReferences = data.references || [];
                 finalFollowupQuestions = data.followup_questions || [];
@@ -358,6 +380,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 console.log("🔗 Received references:", finalReferences);
                 console.log("🔗 Reference URLs:", finalReferences.map(r => ({ title: r.title, url: r.url })));
               } else if (data.status === "error") {
+                setLoadingStatus(""); // 에러 시에도 로딩 상태 초기화
                 hasError = true;
                 // 백엔드에서 언어별 에러 메시지를 보내므로 그대로 사용
                 const fallbackMessages: { [key: string]: string } = {
@@ -520,6 +543,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       }
     } finally {
       setIsStreaming(false);
+      setLoadingStatus(""); // 로딩 상태 초기화
       abortControllerRef.current = null;
     }
   };
@@ -529,6 +553,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     if (abortControllerRef.current) {
       abortControllerRef.current.abort();
       setIsStreaming(false);
+      setLoadingStatus(""); // 로딩 상태 초기화
     }
   };
 
@@ -1034,8 +1059,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     });
   };
 
-  // Citation 처리 함수 (messageIndex를 파라미터로 받음)
-  const processCitations = (text: string, messageIndex: number) => {
+  // Citation 처리 함수 (messageIndex와 isStreaming을 파라미터로 받음)
+  const processCitations = (text: string, messageIndex: number, isStreaming: boolean) => {
     const parts = text.split(/(\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\])/g);
     return parts.map((part: string, index: number) => {
       if (/^\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\]$/.test(part)) {
@@ -1054,15 +1079,15 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     });
   };
 
-  // 재귀적으로 children 처리 (messageIndex를 파라미터로 받음)
-  const processChildrenWithCitations = (children: any, messageIndex: number): any => {
+  // 재귀적으로 children 처리 (messageIndex와 isStreaming을 파라미터로 받음)
+  const processChildrenWithCitations = (children: any, messageIndex: number, isStreaming: boolean): any => {
     if (typeof children === 'string') {
-      return processCitations(children, messageIndex);
+      return processCitations(children, messageIndex, isStreaming);
     }
     if (Array.isArray(children)) {
       return children.map((child, idx) => {
         if (typeof child === 'string') {
-          return <span key={idx}>{processCitations(child, messageIndex)}</span>;
+          return <span key={idx}>{processCitations(child, messageIndex, isStreaming)}</span>;
         }
         return child;
       });
@@ -1070,10 +1095,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     return children;
   };
 
-  // Markdown 렌더링 시 citation 처리 (messageIndex를 받는 함수로 변경)
-  const createComponents = (messageIndex: number) => ({
+  // Markdown 렌더링 시 citation 처리 (messageIndex와 isStreaming을 받는 함수로 변경)
+  const createComponents = (messageIndex: number, isStreaming: boolean) => ({
     p: ({ children, ...props }: any) => {
-      return <p {...props}>{processChildrenWithCitations(children, messageIndex)}</p>;
+      return <p {...props}>{processChildrenWithCitations(children, messageIndex, isStreaming)}</p>;
     },
     h2: ({ children, ...props }: any) => (
       <h2 className="text-xl font-bold mt-6 mb-3 text-white" {...props}>{children}</h2>
@@ -1089,7 +1114,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     ),
     li: ({ children, ...props }: any) => (
       <li className="text-gray-200 leading-relaxed pl-2" {...props}>
-        {processChildrenWithCitations(children, messageIndex)}
+        {processChildrenWithCitations(children, messageIndex, isStreaming)}
       </li>
     ),
     table: ({ children, node, ...props }: any) => {
@@ -1131,10 +1156,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       <tr className="hover:bg-[#4DB8C4]/10 transition-colors duration-150" {...props}>{children}</tr>
     ),
     th: ({ children, ...props }: any) => (
-      <th className="border border-gray-600 px-4 py-2 text-left font-semibold" {...props}>{processChildrenWithCitations(children, messageIndex)}</th>
+      <th className="border border-gray-600 px-4 py-2 text-left font-semibold" {...props}>{processChildrenWithCitations(children, messageIndex, isStreaming)}</th>
     ),
     td: ({ children, ...props }: any) => (
-      <td className="border border-gray-600 px-4 py-2" {...props}>{processChildrenWithCitations(children, messageIndex)}</td>
+      <td className="border border-gray-600 px-4 py-2" {...props}>{processChildrenWithCitations(children, messageIndex, isStreaming)}</td>
     ),
   });
 
@@ -1204,7 +1229,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                       <div className="text-gray-200 prose prose-invert max-w-none">
                         <ReactMarkdown
                           remarkPlugins={[remarkGfm]}
-                          components={createComponents(index)}
+                          components={createComponents(index, message.isStreaming || false)}
                         >
                           {message.content}
                         </ReactMarkdown>
@@ -1420,7 +1445,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 />
                 <div className="flex items-center space-x-2 text-gray-400">
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  <div>{currentContent.generatingAnswer}</div>
+                  <div>{loadingStatus || currentContent.generatingAnswer}</div>
                 </div>
               </div>
 
