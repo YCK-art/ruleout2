@@ -13,6 +13,13 @@ export interface Reference {
   url?: string;
 }
 
+export interface ThinkingStep {
+  icon: string; // Lucide icon name
+  text: string;
+  timestamp: number; // milliseconds
+  duration?: number; // milliseconds (calculated when next step starts)
+}
+
 export interface Message {
   role: "user" | "assistant";
   content: string;
@@ -21,6 +28,7 @@ export interface Message {
   followupQuestions?: string[];
   isStreaming?: boolean;
   feedback?: 'like' | 'dislike' | null;
+  thinkingSteps?: ThinkingStep[]; // 사고 과정 단계들
 }
 
 export interface Conversation {

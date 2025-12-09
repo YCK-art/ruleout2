@@ -25,7 +25,8 @@ import {
   resetGuestQueryCount,
 } from "@/lib/guestLimit";
 import LoginModal from "./LoginModal";
-import type { Message as BaseMessage, Reference } from "@/types/chat";
+import ThinkingSteps from "./ThinkingSteps";
+import type { Message as BaseMessage, ThinkingStep } from "@/types/chat";
 
 // ChatView에서 사용하는 Message 타입 (timestamp를 optional로 확장)
 interface Message extends Omit<BaseMessage, 'timestamp'> {
@@ -62,6 +63,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [showScrollToBottom, setShowScrollToBottom] = useState(false);
   const [copiedTableIndex, setCopiedTableIndex] = useState<string | null>(null);
   const [loadingStatus, setLoadingStatus] = useState<string>("");
+  const currentThinkingSteps = useRef<ThinkingStep[]>([]);
+  const thinkingStartTime = useRef<number>(0);
 
   // User 상태 로깅
   useEffect(() => {
@@ -81,16 +84,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       dislike: "Dislike",
       references: "References",
       relatedQuestions: "Related Questions",
-      generatingAnswer: "Generating answer...",
-      translating: "Translating question...",
-      embedding: "Converting to vector...",
-      searching: "Searching guidelines...",
+      generatingAnswer: "Synthesizing relevant information",
+      translating: "Translating question",
+      embedding: "Converting to vector",
+      searching: "Searching veterinary literature and clinical guidelines",
       stop: "Stop",
       freeQueriesRemaining: "Free queries remaining:",
       queryLimitReached: "Query limit reached. Please log in to continue.",
       placeholder: "Ask a follow-up question...",
       more: "More",
-      bookmark: "Bookmark"
+      bookmark: "Bookmark",
+      finishedThinking: "Finished thinking"
     },
     한국어: {
       share: "공유",
@@ -101,16 +105,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       dislike: "싫어요",
       references: "참고문헌",
       relatedQuestions: "관련 질문",
-      generatingAnswer: "답변 생성 중...",
-      translating: "질문 번역 중...",
-      embedding: "벡터로 변환 중...",
-      searching: "가이드라인 검색 중...",
+      generatingAnswer: "관련 정보 종합 중",
+      translating: "질문 번역 중",
+      embedding: "벡터로 변환 중",
+      searching: "수의학 문헌 및 임상 가이드라인 검색 중",
       stop: "중지",
       freeQueriesRemaining: "남은 무료 쿼리:",
       queryLimitReached: "쿼리 제한에 도달했습니다. 계속하려면 로그인하세요.",
       placeholder: "후속 질문을 입력하세요...",
       more: "더보기",
-      bookmark: "북마크"
+      bookmark: "북마크",
+      finishedThinking: "사고 완료"
     },
     日本語: {
       share: "共有",
@@ -121,16 +126,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       dislike: "よくないね",
       references: "参考文献",
       relatedQuestions: "関連質問",
-      generatingAnswer: "回答を生成中...",
-      translating: "質問を翻訳中...",
-      embedding: "ベクトルに変換中...",
-      searching: "ガイドライン検索中...",
+      generatingAnswer: "関連情報を統合中",
+      translating: "質問を翻訳中",
+      embedding: "ベクトルに変換中",
+      searching: "獣医学文献および臨床ガイドライン検索中",
       stop: "停止",
       freeQueriesRemaining: "残りの無料クエリ:",
       queryLimitReached: "クエリ制限に達しました。続行するにはログインしてください。",
       placeholder: "フォローアップの質問を入力...",
       more: "もっと",
-      bookmark: "ブックマーク"
+      bookmark: "ブックマーク",
+      finishedThinking: "思考完了"
     }
   };
 
@@ -317,11 +323,15 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       let buffer = "";
       let streamingAnswer = "";  // 실시간 스트리밍 답변
       let finalAnswer = "";
-      let finalReferences: Reference[] = [];
+      let finalReferences: any[] = [];
       let finalFollowupQuestions: string[] = [];
       let hasError = false;
       let errorMessage = "";
       let isFirstChunk = true;
+
+      // 사고 과정 초기화
+      currentThinkingSteps.current = [];
+      thinkingStartTime.current = Date.now();
 
       // 임시 assistant 메시지 생성 (실시간 업데이트용)
       const tempAssistantMessage: Message = {
@@ -346,20 +356,89 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             try {
               const data = JSON.parse(line.slice(6));
 
-              // 로딩 상태 업데이트
+              // 로딩 상태 업데이트 및 사고 과정 단계 수집
+              const now = Date.now();
+
               if (data.status === "translating") {
                 setLoadingStatus(currentContent.translating);
+                currentThinkingSteps.current.push({
+                  icon: "Languages",
+                  text: currentContent.translating,
+                  timestamp: now
+                });
+                console.log("📝 Added translating step:", currentThinkingSteps.current);
               } else if (data.status === "embedding") {
+                // 이전 단계(translating)의 duration 계산
+                if (currentThinkingSteps.current.length > 0) {
+                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
+                  if (!lastStep.duration) {
+                    lastStep.duration = now - lastStep.timestamp;
+                  }
+                }
                 setLoadingStatus(currentContent.embedding);
+                currentThinkingSteps.current.push({
+                  icon: "Network",
+                  text: currentContent.embedding,
+                  timestamp: now
+                });
+                console.log("📝 Added embedding step:", currentThinkingSteps.current);
               } else if (data.status === "searching") {
+                // 이전 단계(embedding)의 duration 계산
+                if (currentThinkingSteps.current.length > 0) {
+                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
+                  if (!lastStep.duration) {
+                    lastStep.duration = now - lastStep.timestamp;
+                  }
+                }
                 setLoadingStatus(currentContent.searching);
+                currentThinkingSteps.current.push({
+                  icon: "Search",
+                  text: currentContent.searching,
+                  timestamp: now
+                });
+                console.log("📝 Added searching step:", currentThinkingSteps.current);
               } else if (data.status === "generating") {
+                // 이전 단계(searching)의 duration 계산
+                if (currentThinkingSteps.current.length > 0) {
+                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
+                  if (!lastStep.duration) {
+                    lastStep.duration = now - lastStep.timestamp;
+                  }
+                }
                 setLoadingStatus(currentContent.generatingAnswer);
+                currentThinkingSteps.current.push({
+                  icon: "Sparkles",
+                  text: currentContent.generatingAnswer,
+                  timestamp: now
+                });
+                console.log("📝 Added generating step:", currentThinkingSteps.current);
               }
 
               if (data.status === "streaming") {
                 // 실시간 스트리밍 청크 수신 (ChatGPT처럼 타이핑 효과)
                 streamingAnswer += data.chunk;
+
+                // 첫 번째 스트리밍 청크일 때 thinking steps 추가
+                if (isFirstChunk && currentThinkingSteps.current.length > 0) {
+                  isFirstChunk = false;
+
+                  // 마지막 단계(generating)의 duration 계산
+                  const now = Date.now();
+                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
+                  if (!lastStep.duration) {
+                    lastStep.duration = now - lastStep.timestamp;
+                  }
+
+                  setMessages((prev) => {
+                    const newMessages = [...prev];
+                    const lastMsg = newMessages[newMessages.length - 1];
+                    if (lastMsg && lastMsg.role === "assistant") {
+                      lastMsg.thinkingSteps = [...currentThinkingSteps.current];
+                      console.log("✨ Added thinking steps at streaming start:", lastMsg.thinkingSteps);
+                    }
+                    return newMessages;
+                  });
+                }
 
                 // 실시간으로 UI 업데이트 (타이핑 애니메이션 효과)
                 setMessages((prev) => {
@@ -371,14 +450,49 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   }
                   return newMessages;
                 });
-              } else if (data.status === "done") {
-                setLoadingStatus(""); // 로딩 완료
+              } else if (data.status === "references_ready") {
+                // 🚀 스트리밍 완료 직후 참고문헌 즉시 표시
+                console.log("📚 References ready - 즉시 표시");
                 finalAnswer = data.answer || streamingAnswer;
                 finalReferences = data.references || [];
+                console.log("🔗 Received references immediately:", finalReferences);
+
+                // 참고문헌 즉시 UI 업데이트 (isStreaming = false로 설정하여 버튼과 참고문헌 표시)
+                setMessages((prev) => {
+                  const newMessages = [...prev];
+                  const lastMsg = newMessages[newMessages.length - 1];
+                  if (lastMsg && lastMsg.role === "assistant") {
+                    lastMsg.content = finalAnswer;  // 재매핑된 답변으로 교체
+                    lastMsg.references = finalReferences;
+                    lastMsg.thinkingSteps = currentThinkingSteps.current.length > 0 ? [...currentThinkingSteps.current] : undefined;
+                    lastMsg.isStreaming = false;  // 스트리밍 완료 표시
+                    console.log("✅ References added immediately");
+                  }
+                  return newMessages;
+                });
+              } else if (data.status === "done") {
+                // 🚀 후속 질문만 추가 (References는 이미 references_ready에서 처리됨)
+                setLoadingStatus(""); // 로딩 완료
                 finalFollowupQuestions = data.followup_questions || [];
                 console.log("📊 Received follow-up questions:", finalFollowupQuestions);
-                console.log("🔗 Received references:", finalReferences);
-                console.log("🔗 Reference URLs:", finalReferences.map(r => ({ title: r.title, url: r.url })));
+
+                // 후속 질문만 추가 (모든 이전 메시지의 followupQuestions는 제거)
+                setMessages((prev) => {
+                  const newMessages = [...prev];
+                  // 모든 이전 assistant 메시지에서 followupQuestions 제거
+                  for (let i = 0; i < newMessages.length - 1; i++) {
+                    if (newMessages[i].role === "assistant") {
+                      newMessages[i].followupQuestions = undefined;
+                    }
+                  }
+                  // 가장 최근 메시지에만 followupQuestions 추가
+                  const lastMsg = newMessages[newMessages.length - 1];
+                  if (lastMsg && lastMsg.role === "assistant") {
+                    lastMsg.followupQuestions = finalFollowupQuestions;
+                    console.log("✅ Follow-up questions added to latest message only");
+                  }
+                  return newMessages;
+                });
               } else if (data.status === "error") {
                 setLoadingStatus(""); // 에러 시에도 로딩 상태 초기화
                 hasError = true;
@@ -411,28 +525,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         return;
       }
 
-      // 스트리밍 완료 - 참고문헌과 후속 질문 추가
-      if (finalAnswer) {
-        console.log("💬 Streaming complete - adding references and followup questions");
-        console.log("🔍 streamingAnswer length:", streamingAnswer.length);
-        console.log("🔍 finalAnswer length:", finalAnswer.length);
-        console.log("🔍 Are they different?", streamingAnswer !== finalAnswer);
-        if (streamingAnswer !== finalAnswer) {
-          console.log("⚠️ CITATION REMAPPED - Replacing streamed answer with remapped answer");
-        }
-
-        // 최종 메시지 업데이트 (참고문헌 + 후속 질문 추가)
-        setMessages((prev) => {
-          const newMessages = [...prev];
-          const lastMsg = newMessages[newMessages.length - 1];
-          if (lastMsg && lastMsg.role === "assistant") {
-            lastMsg.content = finalAnswer;  // 재매핑된 답변으로 교체
-            lastMsg.references = finalReferences;
-            lastMsg.followupQuestions = finalFollowupQuestions;
-            lastMsg.isStreaming = false;
-          }
-          return newMessages;
-        });
+      // 🚀 Firebase 저장 로직 (references와 followup questions 모두 받은 후)
+      if (finalAnswer && finalReferences.length > 0) {
+        console.log("💬 All data ready - saving to Firebase");
 
         // Firebase에 AI 메시지 저장
         const completedAssistantMessage: Message = {
@@ -440,6 +535,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           content: finalAnswer,
           references: finalReferences,
           followupQuestions: finalFollowupQuestions,
+          thinkingSteps: currentThinkingSteps.current.length > 0 ? [...currentThinkingSteps.current] : undefined,
           timestamp: new Date(),
         };
 
@@ -473,6 +569,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 ...(completedAssistantMessage.references && { references: completedAssistantMessage.references }),
                 ...(completedAssistantMessage.followupQuestions && { followupQuestions: completedAssistantMessage.followupQuestions }),
                 ...(completedAssistantMessage.feedback && { feedback: completedAssistantMessage.feedback }),
+                ...(completedAssistantMessage.thinkingSteps && { thinkingSteps: completedAssistantMessage.thinkingSteps }),
               };
 
               // 사용자 메시지와 AI 메시지 모두 저장
@@ -508,6 +605,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 ...(completedAssistantMessage.references && { references: completedAssistantMessage.references }),
                 ...(completedAssistantMessage.followupQuestions && { followupQuestions: completedAssistantMessage.followupQuestions }),
                 ...(completedAssistantMessage.feedback && { feedback: completedAssistantMessage.feedback }),
+                ...(completedAssistantMessage.thinkingSteps && { thinkingSteps: completedAssistantMessage.thinkingSteps }),
               };
 
               // 기존 대화에 AI 메시지만 추가
@@ -1283,6 +1381,15 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                       className="rounded-full flex-shrink-0 mt-1"
                     />
                     <div className="flex-1 min-w-0">
+                      {/* 사고 과정 (Thinking Steps) - 스트리밍 시작되면 바로 표시 */}
+                      {message.thinkingSteps && message.thinkingSteps.length > 0 && (
+                        <ThinkingSteps
+                          steps={message.thinkingSteps}
+                          finishedText={currentContent.finishedThinking}
+                          isDark={true}
+                        />
+                      )}
+
                       {/* AI 답변 */}
                       <div className="text-gray-200 prose prose-invert max-w-none">
                         <ReactMarkdown
@@ -1503,7 +1610,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 />
                 <div className="flex items-center space-x-2 text-gray-400">
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  <div>{loadingStatus || currentContent.generatingAnswer}</div>
+                  <div className="text-sm">{loadingStatus || currentContent.generatingAnswer}</div>
                 </div>
               </div>
 

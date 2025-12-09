@@ -206,12 +206,12 @@ def extract_cited_indices(answer: str) -> Set[int]:
 
 
 # GPT 답변 생성 함수 (스트리밍)
-async def generate_answer_stream(question: str, context_chunks: List[Dict], detected_lang: str = "English") -> AsyncGenerator[tuple[str, bool], None]:
+async def generate_answer_stream(question: str, context_chunks: List[Dict], detected_lang: str = "English") -> AsyncGenerator[tuple, None]:
     """
     GPT-4를 사용하여 답변을 스트리밍으로 생성
     question: 원본 질문 (한국어/일본어/영어)
     detected_lang: 감지된 언어 (Korean/Japanese/English)
-    yield (chunk_text, is_done)
+    yield (chunk_text, is_done) OR (full_answer, True, doc_order, seen_docs, citation_map)
     """
     # 문서별로 청크를 그룹핑 (중복 문서 제거, 처음부터 올바른 Reference 번호 사용)
     doc_order, seen_docs = group_chunks_by_document(context_chunks)
@@ -243,7 +243,14 @@ async def generate_answer_stream(question: str, context_chunks: List[Dict], dete
     lang_instruction = language_instruction.get(detected_lang, language_instruction["English"])
 
     # 시스템 프롬프트
-    system_prompt = f"""You are a professional AI assistant specializing in veterinary clinical guidelines for veterinarians.
+    system_prompt = f"""You are a professional AI assistant specializing in VETERINARY MEDICINE for veterinarians treating ANIMALS (dogs, cats, horses, livestock, exotic pets, etc.).
+
+**CRITICAL - Animal Medicine Context:**
+- All your answers MUST be about ANIMAL PATIENTS, NOT human patients
+- Use terms like "animals", "dogs", "cats", "pets", "veterinary patients" - NEVER "human patients", "people", or "hospitalized patients"
+- If the source text uses human medicine terminology, you MUST adapt it to veterinary context
+- Example: "환자" should be understood as "동물 환자" or specific animal types
+- Focus on veterinary clinical practice, NOT human medicine
 
 Provide professional and detailed answers based on the provided veterinary guidelines.
 
@@ -299,7 +306,13 @@ Important rules:
     valid_refs = ", ".join([f"[{i}]" for i in range(1, num_references + 1)])
 
     # 사용자 프롬프트
-    user_prompt = f"""Please answer the following question based on the veterinary clinical guideline content provided below:
+    user_prompt = f"""Please answer the following question about VETERINARY MEDICINE based on the veterinary clinical guideline content provided below.
+
+**IMPORTANT CONTEXT:**
+- This is a VETERINARY MEDICINE platform for treating ANIMALS (dogs, cats, etc.)
+- All references are from VETERINARY literature
+- Your answer MUST be about ANIMAL PATIENTS, not human patients
+- Use veterinary-specific terminology and animal-focused language
 
 {context_text}
 
@@ -407,18 +420,19 @@ Answer Guidelines:
                 # 비동기 yield 허용을 위한 짧은 지연
                 await asyncio.sleep(0)
 
-        # 스트리밍 완료 후 버퍼에 남은 내용 처리 (재매핑 적용)
+        # 🚀 스트리밍 완료 - 버퍼에 남은 내용 즉시 처리 및 전송 (버퍼링 제거)
         if buffer:
-            print(f"📝 Final buffer before processing: '{buffer}'", file=sys.stderr, flush=True)
+            print(f"📝 Flushing final buffer: '{buffer}'", file=sys.stderr, flush=True)
 
-            # 버퍼에 남은 citation도 재매핑
+            # 버퍼에 남은 내용을 즉시 처리 (citation 재매핑 포함)
+            final_output = ""
             while buffer:
                 match = re.search(r'\[(\d+)\]', buffer)
 
                 if match:
                     cite_num = int(match.group(1))
                     before_citation = buffer[:match.start()]
-                    full_answer += before_citation
+                    final_output += before_citation
 
                     if 1 <= cite_num <= num_references:
                         if cite_num not in seen_citations:
@@ -427,19 +441,22 @@ Answer Guidelines:
                             print(f"🆕 New citation in final buffer: [{cite_num}] → [{citation_map[cite_num]}]", file=sys.stderr, flush=True)
 
                         new_num = citation_map[cite_num]
-                        full_answer += f"[{new_num}]"
+                        final_output += f"[{new_num}]"
                         print(f"   ✅ Remapped [{cite_num}] → [{new_num}] in final buffer", file=sys.stderr, flush=True)
-                        yield (before_citation + f"[{new_num}]", False)
                     else:
                         print(f"⚠️  Invalid citation [{cite_num}] removed from final buffer", file=sys.stderr, flush=True)
-                        yield (before_citation, False)
 
                     buffer = buffer[match.end():]
                 else:
-                    # citation 없으면 그대로 출력
-                    full_answer += buffer
-                    yield (buffer, False)
-                    break
+                    # citation 없으면 그대로 추가
+                    final_output += buffer
+                    buffer = ""
+
+            # 최종 버퍼 내용을 한 번에 전송 (버퍼링 없음)
+            if final_output:
+                full_answer += final_output
+                yield (final_output, False)
+                print(f"✅ Final buffer flushed: {len(final_output)} chars", file=sys.stderr, flush=True)
 
         # 스트리밍 완료 - 답변 검증
         print(f"✅ Streaming complete. Final citation_map: {citation_map}", file=sys.stderr, flush=True)
@@ -581,7 +598,9 @@ async def generate_followup_questions(question: str, answer: str, conversation_h
         for msg in conversation_history[-3:]:  # 최근 3개만
             context += f"{msg['role']}: {msg['content'][:200]}...\n"
 
-    prompt = f"""Based on the following veterinary medicine Q&A conversation, generate 3-4 relevant follow-up questions that a veterinarian might ask.
+    prompt = f"""Based on the following VETERINARY MEDICINE Q&A conversation about ANIMAL PATIENTS, generate 3-4 relevant follow-up questions that a veterinarian might ask.
+
+**CONTEXT**: This is about VETERINARY medicine for treating ANIMALS (dogs, cats, etc.), NOT human medicine.
 
 {context}
 
@@ -590,10 +609,11 @@ Current Question: {question}
 Current Answer: {answer[:500]}...
 
 Generate 3-4 follow-up questions that:
-1. Are directly related to the current topic
-2. Explore deeper clinical details
-3. Ask about related conditions or treatments
-4. Are practical and useful for veterinarians
+1. Are directly related to the current veterinary topic
+2. Explore deeper clinical details for ANIMAL patients
+3. Ask about related conditions or treatments in ANIMALS
+4. Are practical and useful for veterinarians treating animals
+5. Focus on ANIMAL-specific contexts (e.g., "개에서", "고양이에게", "for dogs", "in cats")
 
 **CRITICAL**: Respond in the SAME LANGUAGE as the original question.
 - If the question is in Korean, generate Korean follow-up questions
@@ -605,7 +625,7 @@ Return ONLY the questions, one per line, without numbering or bullet points."""
         response = openai_client.chat.completions.create(
             model="gpt-4o-mini",  # 가성비 있는 모델
             messages=[
-                {"role": "system", "content": "You are a helpful assistant that generates relevant follow-up questions for veterinary medical discussions."},
+                {"role": "system", "content": "You are a helpful assistant that generates relevant follow-up questions for VETERINARY MEDICINE discussions about ANIMAL PATIENTS (dogs, cats, horses, etc.). Always focus on animal health, not human health."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
@@ -653,7 +673,7 @@ async def translate_to_english(question: str, detected_lang: str) -> str:
         response = openai_client.chat.completions.create(
             model="gpt-4o-mini",  # 빠른 번역용
             messages=[
-                {"role": "system", "content": "You are a professional medical translator. Translate the following veterinary medical question to English accurately. Return ONLY the translated question, nothing else."},
+                {"role": "system", "content": "You are a professional VETERINARY MEDICINE translator. Translate the following veterinary medical question about ANIMAL PATIENTS to English accurately. Return ONLY the translated question, nothing else."},
                 {"role": "user", "content": question}
             ],
             temperature=0.3,
@@ -743,6 +763,8 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         doc_order = []
         seen_docs = {}
         citation_map = {}
+        references_sent = False  # References 전송 플래그
+
         async for result in generate_answer_stream(question, context_chunks, detected_lang):
             if len(result) == 2:  # 스트리밍 중
                 chunk_content, is_done = result
@@ -754,42 +776,35 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
                 })
                 print(f"🔥 Sending chunk #{chunk_count}: {len(chunk_content)} chars")
                 yield event_data
-            else:  # 스트리밍 완료
+            else:  # 스트리밍 완료 (5-tuple)
                 full_answer, is_done, doc_order, seen_docs, citation_map = result
                 print(f"✅ Total chunks sent: {chunk_count}")
 
-        # 5단계: 참고문헌 추출 및 후속 질문 생성 (병렬 실행)
-        print("📚 참고문헌 추출 및 후속 질문 생성 시작...")
+                # 🚀 스트리밍 완료 즉시 참고문헌 추출 및 전송 (후속 질문 기다리지 않음)
+                if not references_sent:
+                    print("📚 즉시 참고문헌 추출 시작...")
+                    remapped_answer, references = await extract_references_from_answer(full_answer, doc_order, seen_docs, citation_map)
 
-        # 병렬 실행을 위한 태스크 생성
-        refs_task = extract_references_from_answer(full_answer, doc_order, seen_docs, citation_map)
-        followup_task = generate_followup_questions(question, full_answer, conversation_history)
+                    # 참고문헌 즉시 전송
+                    yield create_sse_event({
+                        "status": "references_ready",
+                        "answer": remapped_answer,
+                        "references": [ref.dict() for ref in references]
+                    })
+                    references_sent = True
+                    print(f"✅ 참고문헌 즉시 전송 완료: {len(references)}개")
 
-        # 동시 실행
-        results = await asyncio.gather(refs_task, followup_task, return_exceptions=True)
+        # 5단계: 후속 질문만 별도로 생성 (백그라운드에서)
+        print("💡 후속 질문 생성 시작...")
+        followup_questions = await generate_followup_questions(question, full_answer, conversation_history)
 
-        # 결과 처리
-        if isinstance(results[0], tuple):
-            remapped_answer, references = results[0]
-        else:
-            print(f"참고문헌 추출 오류: {results[0]}")
-            remapped_answer = full_answer
-            references = []
-
-        if isinstance(results[1], list):
-            followup_questions = results[1]
-        else:
-            print(f"후속 질문 생성 오류: {results[1]}")
-            followup_questions = []
-
-        # 6단계: 완료 (재매핑된 답변 + 참고문헌 + 후속 질문)
+        # 6단계: 후속 질문 완료 전송
         yield create_sse_event({
             "status": "done",
             "message": "완료",
-            "answer": remapped_answer,
-            "references": [ref.dict() for ref in references],
             "followup_questions": followup_questions
         })
+        print(f"✅ 후속 질문 전송 완료: {len(followup_questions)}개")
 
     except Exception as e:
         print(f"스트리밍 오류: {e}")
