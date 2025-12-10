@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Languages, Network, Search, Sparkles } from "lucide-react";
+import { ChevronDown, ChevronUp, Languages, Network, Search, Sparkles, RefreshCw } from "lucide-react";
 import type { ThinkingStep } from "@/types/chat";
 
 interface ThinkingStepsProps {
@@ -12,6 +12,7 @@ interface ThinkingStepsProps {
 
 // Lucide 아이콘 매핑
 const IconMap: { [key: string]: any } = {
+  RefreshCw,
   Languages,
   Network,
   Search,

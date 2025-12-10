@@ -696,7 +696,14 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
           <div className="relative" ref={profileMenuRef}>
             {/* 프로필 드롭다운 메뉴 (위쪽으로 나타남) */}
             {showProfileMenu && (
-              <div className="absolute left-12 bottom-full mb-2 bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg overflow-hidden z-50 w-56">
+              <div
+                className="fixed bg-[#2a2a2a] rounded-lg border border-gray-700 shadow-lg overflow-hidden w-56"
+                style={{
+                  left: profileMenuRef.current ? `${profileMenuRef.current.getBoundingClientRect().left}px` : 'auto',
+                  bottom: profileMenuRef.current ? `${window.innerHeight - profileMenuRef.current.getBoundingClientRect().top + 8}px` : 'auto',
+                  zIndex: 9999
+                }}
+              >
                 <div className="py-2">
                   {/* Settings - 로그인한 경우에만 표시 */}
                   {user && (

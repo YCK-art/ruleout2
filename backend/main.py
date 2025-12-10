@@ -206,11 +206,12 @@ def extract_cited_indices(answer: str) -> Set[int]:
 
 
 # GPT 답변 생성 함수 (스트리밍)
-async def generate_answer_stream(question: str, context_chunks: List[Dict], detected_lang: str = "English") -> AsyncGenerator[tuple, None]:
+async def generate_answer_stream(question: str, context_chunks: List[Dict], detected_lang: str = "English", conversation_history: List[Dict] = []) -> AsyncGenerator[tuple, None]:
     """
     GPT-4를 사용하여 답변을 스트리밍으로 생성
     question: 원본 질문 (한국어/일본어/영어)
     detected_lang: 감지된 언어 (Korean/Japanese/English)
+    conversation_history: 이전 대화 내역 (맥락 유지용)
     yield (chunk_text, is_done) OR (full_answer, True, doc_order, seen_docs, citation_map)
     """
     # 문서별로 청크를 그룹핑 (중복 문서 제거, 처음부터 올바른 Reference 번호 사용)
@@ -259,7 +260,27 @@ Provide professional and detailed answers based on the provided veterinary guide
 **CRITICAL - Response Style Selection:**
 Before answering, analyze the question type and automatically adjust your response format:
 
-A) **DIAGNOSTIC/DIFFERENTIAL Questions** (e.g., what disease causes X, my dog has Y symptom, possible causes of Z):
+A) **DIAGNOSTIC CRITERIA Questions** (keywords: "진단기준", "진단 기준", "diagnostic criteria", "how to diagnose", "confirmation test", "확진"):
+   → **PRIORITY: Provide SPECIFIC, QUANTITATIVE diagnostic criteria**
+   → Include:
+     * **Cutoff values** (e.g., "cortisol > 5 µg/dL")
+     * **Sensitivity and specificity** percentages
+     * **Confirmation criteria** (what constitutes a positive test)
+     * **Diagnostic thresholds** with exact numbers
+   → **MANDATORY**: Use tables for test criteria
+   → Example format:
+     ## Diagnostic Criteria for [Disease]
+
+     | Test | Positive Criteria | Sensitivity | Specificity | Notes |
+     |------|------------------|-------------|-------------|-------|
+     | ACTH stimulation | Post-ACTH cortisol > 22 µg/dL | 85% | 91% | Gold standard[1] |
+     | Low-dose dexamethasone | 8h cortisol > 1.4 µg/dL | 95% | 73% | More sensitive[2] |
+
+     **Interpretation:**
+     - Values above cutoff = positive diagnosis
+     - Combine with clinical signs for confirmation[1]
+
+B) **DIFFERENTIAL DIAGNOSIS Questions** (e.g., what disease causes X, my dog has Y symptom, possible causes of Z):
    → Provide SPECIFIC disease names in a clear list format
    → For each disease, include:
      * Characteristic clinical signs (be specific, not vague)
@@ -267,29 +288,45 @@ A) **DIAGNOSTIC/DIFFERENTIAL Questions** (e.g., what disease causes X, my dog ha
      * Predisposed breeds/ages if relevant
      * Key differential points
    → Use bullet points or tables for clarity
-   → Example format:
-     **Possible Diseases:**
 
-     1. **Kennel Cough (Infectious Tracheobronchitis)**
-        - Clinical signs: Dry, hacking cough with honking sound; often worse with excitement
-        - Duration: 7-10 days with self-limiting course
-        - Notes: Activity and appetite usually normal[1]
-
-     2. **Canine Influenza (H3N8/H3N2)**
-        - Clinical signs: Wet cough, high fever (over 42C), lethargy, nasal discharge
-        - Risk: Highly contagious in group settings; may progress to pneumonia
-        - Notes: Requires supportive care and monitoring for secondary infections[2]
-
-B) **TREATMENT/PROTOCOL Questions** (e.g., how to treat X, what drugs for Y, dosage recommendations):
+C) **TREATMENT/PROTOCOL Questions** (e.g., how to treat X, what drugs for Y, dosage recommendations):
    → Provide SPECIFIC drug names, dosages, and protocols
    → Use tables when comparing multiple treatment options
    → Include contraindications and monitoring parameters
    → Be practical and clinically actionable
 
-C) **GENERAL KNOWLEDGE/PATHOPHYSIOLOGY Questions** (e.g., what is X, explain the mechanism, background on Y):
+D) **GENERAL KNOWLEDGE/PATHOPHYSIOLOGY Questions** (e.g., what is X, explain the mechanism, background on Y):
    → Provide comprehensive conceptual explanations
    → Use detailed paragraphs explaining mechanisms and concepts
    → Include background information and evidence basis
+   → Use prose format with minimal structural elements
+
+**CRITICAL - Formatting Style Selection:**
+Analyze the question to determine the appropriate formatting style:
+
+**Use STRUCTURED FORMAT (headings, tables, bullet points) for:**
+- Diagnostic criteria questions (진단기준, diagnostic criteria, how to diagnose)
+- Treatment protocols (treatment, protocol, 치료 방법, how to treat)
+- Drug/medication comparisons (compare drugs, 약물 비교, versus)
+- Differential diagnoses (differential, possible causes, 감별진단)
+- Lists or multiple options (list, types, 종류, options)
+- Step-by-step procedures (how to perform, 방법, procedure)
+
+**Use PROSE FORMAT (flowing paragraphs, minimal structure) for:**
+- Pathophysiology/mechanism questions (pathophysiology, mechanism, 병태생리, 작용 원리, how does it work)
+- Concept explanations (what is, 무엇, definition, 정의)
+- Background/history (background, history, 배경, 역사)
+- Simple factual questions (short, direct answers)
+- Theoretical questions (why, 왜, explain)
+
+**Example - PROSE format:**
+"The pathophysiology of canine Cushing's syndrome involves excessive cortisol production from the adrenal glands. This occurs either due to a pituitary tumor secreting ACTH (85% of cases) or from a primary adrenal tumor (15% of cases)[1]. The excess cortisol leads to protein catabolism, hepatomegaly, and immunosuppression, manifesting as polyuria, polydipsia, and muscle weakness[2]."
+
+**Example - STRUCTURED format:**
+## Diagnostic Criteria
+| Test | Cutoff | Sensitivity |
+|------|--------|-------------|
+| ACTH | >22 µg/dL | 85%[1] |
 
 Important rules:
 1. Always cite reference numbers in square brackets at the end of each sentence or paragraph (e.g., [1], [2-3], [1,4])
@@ -298,8 +335,7 @@ Important rules:
 4. Include clinical significance and practical implications for veterinarians
 5. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
 6. Explicitly state if information is not available in the provided guidelines
-7. Actively use headings (##), subheadings (###), bullet points, and table formats when needed
-8. Use Markdown format to create structured answers"""
+7. Use Markdown format appropriately based on question type (see formatting style selection above)"""
 
     # 사용 가능한 Reference 번호 계산
     num_references = len(doc_order)
@@ -325,32 +361,48 @@ Answer Guidelines:
 4. Cite using bracketed numbers at the end of sentences (e.g., "...is recommended.[1]" or "...has been reported.[2-3]")
 5. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
 6. **ONLY use bracketed citations like [1], [2], [3]**
-7. Write detailed answers in 2-4 paragraphs including background information, clinical significance, and specific recommendations
-8. Maintain a professional and academic tone
-9. Mention recommendation grades or evidence levels when available
-10. **Important - Formatting Guidelines**:
-   - Headings: ## Main Recommendations
-   - Subheadings: ### First-line Treatment
-   - Bullet points: - Item 1
-   - Numbered lists: 1. First
-   - **Tables: ACTIVELY USE markdown tables when:**
-     * Comparing drugs/medications (dosage, side effects, contraindications)
-     * Listing multiple treatment options with characteristics
-     * Comparing diagnostic tests (sensitivity, specificity, cost)
-     * Showing breed-specific or age-specific recommendations
-     * Any comparison or structured data that benefits from tabular format
-   - Example table format:
-     | Drug | Dosage | Side Effects | Notes |
-     |------|--------|--------------|-------|
-     | Drug A | 10mg | Nausea | First-line[1] |"""
+
+**Special Instructions for DIAGNOSTIC CRITERIA Questions:**
+If the question asks about diagnostic criteria, confirmation tests, or "how to diagnose":
+- **MANDATORY**: Extract ALL specific cutoff values, thresholds, and numerical criteria from the references
+- **MANDATORY**: Present diagnostic tests in a table format with columns: Test Name | Positive Criteria/Cutoff | Sensitivity | Specificity | Notes
+- Include interpretation guidelines (e.g., "Values > X indicate positive diagnosis")
+- Be extremely specific with units (µg/dL, mg/L, etc.)
+- If sensitivity/specificity data is not available in references, omit those columns but MUST include cutoff values
+
+**Formatting Based on Question Type:**
+- **For diagnostic criteria, treatment protocols, drug comparisons**: Use tables, headings, structured format
+- **For pathophysiology, mechanisms, concepts**: Use flowing prose paragraphs with minimal structure
+- **For simple factual questions**: Use concise prose without excessive formatting
+
+**Table Guidelines (when appropriate):**
+- Use markdown tables for comparing drugs/medications, diagnostic tests, treatment options
+- Example diagnostic criteria table:
+  | Test | Positive Criteria | Sensitivity | Specificity | Notes |
+  |------|------------------|-------------|-------------|-------|
+  | ACTH stimulation | Post-ACTH cortisol > 22 µg/dL | 85% | 91% | Gold standard[1] |
+  | Low-dose dexamethasone | 8h cortisol > 1.4 µg/dL | 95% | 73% | More sensitive[2] |"""
 
     try:
+        # 대화 히스토리를 포함한 메시지 구성
+        messages = [{"role": "system", "content": system_prompt}]
+
+        # 이전 대화 히스토리 추가 (최근 3개까지만 - 컨텍스트 길이 제한)
+        if conversation_history:
+            # 최근 3턴(6개 메시지)까지만 포함
+            recent_history = conversation_history[-6:]
+            for msg in recent_history:
+                role = msg.get("role", "user")
+                content = msg.get("content", "")
+                if role in ["user", "assistant"] and content:
+                    messages.append({"role": role, "content": content})
+
+        # 현재 질문과 컨텍스트 추가
+        messages.append({"role": "user", "content": user_prompt})
+
         stream = openai_client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
+            messages=messages,
             temperature=0.3,
             max_tokens=1200,  # 2000 → 1200으로 감소 (더 간결한 답변)
             stream=True  # 스트리밍 활성화
@@ -660,6 +712,110 @@ def detect_language(text: str) -> str:
     return "English"
 
 
+# Query Rewriting 함수 (OpenEvidence 방식)
+async def rewrite_query_with_context(question: str, conversation_history: List[Dict], detected_lang: str = "Korean") -> str:
+    """
+    대화 맥락을 보고 질문을 재작성 (OpenEvidence 방식)
+    - 이전 대화를 참고하여 모호한 질문을 명확하게 재작성
+    - 예: "진단기준은?" → "개 쿠싱 증후군의 진단기준은 무엇인가요?"
+    """
+    # 대화 히스토리가 없으면 원본 질문 그대로 반환
+    if not conversation_history or len(conversation_history) == 0:
+        print("📝 대화 히스토리 없음 → 원본 질문 사용")
+        return question
+
+    # 최근 2턴(4개 메시지)까지만 사용
+    recent_history = conversation_history[-4:]
+
+    # 대화 맥락 구성
+    context = "Previous conversation:\n"
+    for msg in recent_history:
+        role = msg.get("role", "user")
+        content = msg.get("content", "")[:300]  # 300자까지만
+        context += f"{role}: {content}\n"
+
+    # 언어별 프롬프트
+    prompts = {
+        "Korean": f"""You are a query rewriting assistant for a VETERINARY MEDICINE search system.
+
+Given the conversation history and the user's new question, rewrite the question to be **standalone and self-contained** by incorporating relevant context from the conversation history.
+
+**Rules:**
+1. If the question is already clear and standalone, return it as-is
+2. If the question is vague or uses pronouns (e.g., "그것", "이거", "진단기준"), rewrite it with full context
+3. Keep the rewritten question concise (1-2 sentences max)
+4. Preserve the original language (Korean)
+5. Focus on VETERINARY context (animals, not humans)
+
+{context}
+
+Current Question: {question}
+
+Rewrite the question to be standalone. Return ONLY the rewritten question in Korean, nothing else.""",
+
+        "Japanese": f"""You are a query rewriting assistant for a VETERINARY MEDICINE search system.
+
+Given the conversation history and the user's new question, rewrite the question to be **standalone and self-contained** by incorporating relevant context from the conversation history.
+
+**Rules:**
+1. If the question is already clear and standalone, return it as-is
+2. If the question is vague or uses pronouns, rewrite it with full context
+3. Keep the rewritten question concise (1-2 sentences max)
+4. Preserve the original language (Japanese)
+5. Focus on VETERINARY context (animals, not humans)
+
+{context}
+
+Current Question: {question}
+
+Rewrite the question to be standalone. Return ONLY the rewritten question in Japanese, nothing else.""",
+
+        "English": f"""You are a query rewriting assistant for a VETERINARY MEDICINE search system.
+
+Given the conversation history and the user's new question, rewrite the question to be **standalone and self-contained** by incorporating relevant context from the conversation history.
+
+**Rules:**
+1. If the question is already clear and standalone, return it as-is
+2. If the question is vague or uses pronouns (e.g., "it", "that", "the criteria"), rewrite it with full context
+3. Keep the rewritten question concise (1-2 sentences max)
+4. Preserve the original language (English)
+5. Focus on VETERINARY context (animals, not humans)
+
+{context}
+
+Current Question: {question}
+
+Rewrite the question to be standalone. Return ONLY the rewritten question in English, nothing else."""
+    }
+
+    prompt = prompts.get(detected_lang, prompts["English"])
+
+    try:
+        response = openai_client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are a helpful query rewriting assistant for veterinary medicine."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
+            max_tokens=200
+        )
+
+        rewritten_query = response.choices[0].message.content.strip()
+
+        # 큰따옴표나 작은따옴표로 감싸져 있으면 제거
+        rewritten_query = rewritten_query.strip('"').strip("'").strip()
+
+        print(f"🔄 Query Rewriting:")
+        print(f"   원본: {question}")
+        print(f"   재작성: {rewritten_query}")
+
+        return rewritten_query
+    except Exception as e:
+        print(f"⚠️  Query Rewriting 실패, 원본 사용: {e}")
+        return question
+
+
 # 질문 번역 함수
 async def translate_to_english(question: str, detected_lang: str) -> str:
     """
@@ -692,29 +848,46 @@ async def translate_to_english(question: str, detected_lang: str) -> str:
 # SSE 스트리밍 엔드포인트 (최적화 버전)
 async def query_stream_generator(question: str, conversation_history: List[Dict] = [], language: str = "한국어") -> AsyncGenerator[str, None]:
     """
-    질문에 대한 답변을 실시간 SSE 스트리밍
-    최적화:
-    1. 언어 감지 및 쿼리 번역 (한국어/일본어 → 영어)
-    2. 영어 쿼리로 벡터 검색 (정확도 향상)
-    3. GPT 실시간 스트리밍 (원본 언어로 답변)
-    4. 후속 질문 병렬 생성
+    질문에 대한 답변을 실시간 SSE 스트리밍 (OpenEvidence 방식)
+
+    처리 단계:
+    1. 언어 감지
+    2. Query Rewriting (대화 맥락을 보고 질문 재작성)
+    3. 영어 번역 (재작성된 질문 사용)
+    4. 질문 벡터화
+    5. 벡터 DB 검색
+    6. GPT 답변 스트리밍 (대화 히스토리 포함)
+    7. 후속 질문 생성
+    8. 완료
     """
+    print(f"🗨️  대화 히스토리: {len(conversation_history)}개 메시지")
+    if conversation_history:
+        print(f"   최근 대화: {conversation_history[-1].get('role')}: {conversation_history[-1].get('content', '')[:100]}...")
     try:
-        # 1단계: 언어 감지 및 번역 (필요 시)
+        # 1단계: 언어 감지
         detected_lang = detect_language(question)
         print(f"🌐 감지된 언어: {detected_lang}")
 
-        # 영어가 아니면 번역
+        # 2단계: Query Rewriting (대화 맥락이 있으면)
+        rewritten_question = question
+        if conversation_history and len(conversation_history) > 0:
+            yield create_sse_event({
+                "status": "rewriting",
+                "message": "대화 맥락을 분석하여 질문 재작성 중..."
+            })
+            rewritten_question = await rewrite_query_with_context(question, conversation_history, detected_lang)
+
+        # 3단계: 영어 번역 (재작성된 질문 사용)
         if detected_lang != "English":
             yield create_sse_event({
                 "status": "translating",
                 "message": f"질문을 영어로 번역 중... (감지된 언어: {detected_lang})"
             })
-            english_query = await translate_to_english(question, detected_lang)
+            english_query = await translate_to_english(rewritten_question, detected_lang)
         else:
-            english_query = question
+            english_query = rewritten_question
 
-        # 2단계: 질문 벡터화 (영어 질문 사용)
+        # 4단계: 질문 벡터화 (영어 질문 사용)
         yield create_sse_event({
             "status": "embedding",
             "message": "질문을 벡터로 변환 중..."
@@ -726,7 +899,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         )
         query_embedding = embedding_response.data[0].embedding
 
-        # 3단계: 벡터 DB 검색
+        # 5단계: 벡터 DB 검색
         yield create_sse_event({
             "status": "searching",
             "message": "의학 문헌 및 가이드라인 검색 중..."
@@ -751,13 +924,13 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
             })
             return
 
-        # 4단계: GPT 답변 스트리밍 시작
+        # 6단계: GPT 답변 스트리밍 시작
         yield create_sse_event({
             "status": "generating",
             "message": "답변 생성 중..."
         })
 
-        # GPT 스트리밍 (원본 질문과 감지된 언어 전달)
+        # GPT 스트리밍 (원본 질문, 감지된 언어, 대화 히스토리 전달)
         full_answer = ""
         chunk_count = 0
         doc_order = []
@@ -765,7 +938,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
         citation_map = {}
         references_sent = False  # References 전송 플래그
 
-        async for result in generate_answer_stream(question, context_chunks, detected_lang):
+        async for result in generate_answer_stream(question, context_chunks, detected_lang, conversation_history):
             if len(result) == 2:  # 스트리밍 중
                 chunk_content, is_done = result
                 # 스트리밍 청크 전송
@@ -794,11 +967,11 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
                     references_sent = True
                     print(f"✅ 참고문헌 즉시 전송 완료: {len(references)}개")
 
-        # 5단계: 후속 질문만 별도로 생성 (백그라운드에서)
+        # 7단계: 후속 질문만 별도로 생성 (백그라운드에서)
         print("💡 후속 질문 생성 시작...")
         followup_questions = await generate_followup_questions(question, full_answer, conversation_history)
 
-        # 6단계: 후속 질문 완료 전송
+        # 8단계: 후속 질문 완료 전송
         yield create_sse_event({
             "status": "done",
             "message": "완료",

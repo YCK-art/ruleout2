@@ -253,6 +253,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       timestamp: new Date(),
     };
 
+    // 🚀 대화 히스토리 준비 - setMessages 전에 현재 messages 상태 캡처
+    const currentMessages = messages; // 현재 messages 상태 저장
+
     if (!skipUserMessage) {
       setMessages((prev) => [...prev, userMessage]);
     }
@@ -281,18 +284,19 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       // AbortController 생성
       abortControllerRef.current = new AbortController();
 
-      // 대화 히스토리 준비 (현재 messages에서 assistant 메시지만)
-      const conversationHistory = messages
-        .filter(msg => msg.role === "assistant")
-        .slice(-3) // 최근 3개 assistant 답변만
-        .flatMap((msg, idx) => {
-          // 각 assistant 답변에 대응하는 user 질문 찾기
-          const userMsg = messages[messages.indexOf(msg) - 1];
-          return userMsg ? [
-            { role: "user", content: userMsg.content },
-            { role: "assistant", content: msg.content }
-          ] : [{ role: "assistant", content: msg.content }];
-        });
+      // 🚀 대화 히스토리 준비 (캡처한 currentMessages 사용)
+      // 최근 3턴(6개 메시지)까지만 포함
+      const conversationHistory = currentMessages
+        .slice(-6) // 최근 6개 메시지만 (3턴)
+        .map(msg => ({
+          role: msg.role,
+          content: msg.content
+        }));
+
+      console.log("📝 전송할 대화 히스토리:", conversationHistory.length, "개 메시지");
+      if (conversationHistory.length > 0) {
+        console.log("   마지막 메시지:", conversationHistory[conversationHistory.length - 1].role, conversationHistory[conversationHistory.length - 1].content.slice(0, 50));
+      }
 
       // 백엔드 SSE 스트리밍 호출 (대화 히스토리 포함)
       console.log("🌐 프론트엔드에서 전송하는 언어:", language);
@@ -359,7 +363,22 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
               // 로딩 상태 업데이트 및 사고 과정 단계 수집
               const now = Date.now();
 
-              if (data.status === "translating") {
+              if (data.status === "rewriting") {
+                setLoadingStatus("대화 맥락을 분석하여 질문 재작성 중...");
+                currentThinkingSteps.current.push({
+                  icon: "RefreshCw",
+                  text: "질문 재작성 중",
+                  timestamp: now
+                });
+                console.log("📝 Added rewriting step:", currentThinkingSteps.current);
+              } else if (data.status === "translating") {
+                // 이전 단계(rewriting)의 duration 계산
+                if (currentThinkingSteps.current.length > 0) {
+                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
+                  if (!lastStep.duration) {
+                    lastStep.duration = now - lastStep.timestamp;
+                  }
+                }
                 setLoadingStatus(currentContent.translating);
                 currentThinkingSteps.current.push({
                   icon: "Languages",
