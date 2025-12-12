@@ -207,7 +207,15 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           const conversation = await getConversation(conversationId);
           if (conversation && conversation.messages) {
             isLoadingConversation.current = true; // setMessages 직전에 플래그 설정
-            setMessages(conversation.messages);
+            // Firebase에서 가져온 메시지를 Message 타입으로 변환
+            const typedMessages = conversation.messages.map((msg: any) => ({
+              ...msg,
+              references: msg.references?.map((ref: any) => ({
+                ...ref,
+                text: ref.text || '' // text 속성이 없으면 빈 문자열
+              }))
+            })) as Message[];
+            setMessages(typedMessages);
             setCurrentConversationId(conversationId);
             setIsFavorite(conversation.isFavorite || false);
           }
@@ -1299,25 +1307,29 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       return (
         <div className="relative group overflow-x-auto my-4">
           <table className="min-w-full border border-gray-600" {...props}>{children}</table>
-          {/* 복사 버튼 - 호버 시 또는 복사 완료 시 표시 (오른쪽 하단) */}
-          <button
-            onClick={(e) => {
-              const tableElement = e.currentTarget.parentElement?.querySelector('table') as HTMLTableElement;
-              if (tableElement) {
-                copyTableContent(tableElement, tableId);
-              }
-            }}
-            className={`absolute bottom-2 right-2 transition-all duration-200 p-2 rounded-lg z-10 bg-gray-700 hover:bg-gray-600 ${
-              isCopied ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
-            }`}
-            title={isCopied ? "Copied!" : "Copy table"}
-          >
-            {isCopied ? (
-              <Check className="w-4 h-4 text-green-400" />
-            ) : (
-              <Copy className="w-4 h-4 text-gray-300" />
-            )}
-          </button>
+          {/* 복사 버튼 - 스트리밍 완료 후에만 표시 (깜빡임 방지) */}
+          {!isStreaming && (
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const tableElement = e.currentTarget.parentElement?.querySelector('table') as HTMLTableElement;
+                if (tableElement) {
+                  copyTableContent(tableElement, tableId);
+                }
+              }}
+              className={`absolute bottom-2 right-2 transition-all duration-200 p-2 rounded-lg z-10 bg-gray-700 hover:bg-gray-600 ${
+                isCopied ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+              }`}
+              title={isCopied ? "Copied!" : "Copy table"}
+            >
+              {isCopied ? (
+                <Check className="w-4 h-4 text-green-400" />
+              ) : (
+                <Copy className="w-4 h-4 text-gray-300" />
+              )}
+            </button>
+          )}
         </div>
       );
     },

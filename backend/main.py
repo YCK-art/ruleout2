@@ -52,6 +52,17 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "medical-guidelines-kr")
 
+# 환경 변수 검증
+if not OPENAI_API_KEY:
+    raise ValueError("❌ OPENAI_API_KEY environment variable is not set! Please set it in Railway dashboard.")
+if not PINECONE_API_KEY:
+    raise ValueError("❌ PINECONE_API_KEY environment variable is not set! Please set it in Railway dashboard.")
+
+print(f"✅ Environment variables loaded:")
+print(f"   OPENAI_API_KEY: {OPENAI_API_KEY[:10]}...")
+print(f"   PINECONE_API_KEY: {PINECONE_API_KEY[:10]}...")
+print(f"   PINECONE_INDEX_NAME: {PINECONE_INDEX_NAME}")
+
 # OpenAI 클라이언트
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -257,85 +268,105 @@ Provide professional and detailed answers based on the provided veterinary guide
 
 {lang_instruction}
 
+**CRITICAL - ALWAYS BE SPECIFIC (Regardless of Format):**
+ALL answers MUST include concrete, actionable veterinary details:
+- ✅ Specific numbers: "5-8 years old", "85% sensitivity", "cortisol > 22 µg/dL", "3-5 kg body weight"
+- ✅ Specific disease names: "Patellar luxation", "Cranial cruciate ligament rupture", "Feline hyperthyroidism"
+- ✅ Specific breeds/ages: "Golden Retrievers aged 5-12 years", "Toy breed dogs", "middle-aged cats 8-12 years"
+- ✅ Specific drugs/dosages: "Carprofen 2-4 mg/kg PO q12h", "Prednisolone 0.5-1 mg/kg PO q24h"
+- ✅ Specific guidelines/organizations: "WSAVA recommendations", "ACVIM consensus statement", "AAHA guidelines", "ACVS protocol"
+- ✅ Specific diagnostic criteria: "ACTH stimulation test cutoff", "Joint fluid WBC > 50,000/µL", "Drawer sign positive"
+- ❌ AVOID vague terms: "various causes", "several options", "generally", "may occur", "common in dogs"
+
 **CRITICAL - Response Style Selection:**
 Before answering, analyze the question type and automatically adjust your response format:
 
 A) **DIAGNOSTIC CRITERIA Questions** (keywords: "진단기준", "진단 기준", "diagnostic criteria", "how to diagnose", "confirmation test", "확진"):
-   → **PRIORITY: Provide SPECIFIC, QUANTITATIVE diagnostic criteria**
-   → Include:
-     * **Cutoff values** (e.g., "cortisol > 5 µg/dL")
-     * **Sensitivity and specificity** percentages
-     * **Confirmation criteria** (what constitutes a positive test)
-     * **Diagnostic thresholds** with exact numbers
-   → **MANDATORY**: Use tables for test criteria
+   → **FORMAT**: Use tables for test comparisons
+   → **CONTENT REQUIREMENTS**:
+     * Exact cutoff values with units (e.g., "cortisol > 22 µg/dL", "T4 > 4.5 µg/dL")
+     * Sensitivity/specificity percentages if available
+     * Veterinary guideline organization names (WSAVA, ACVIM, AAHA, ACVS, etc.)
+     * Clinical interpretation with specific thresholds
    → Example format:
-     ## Diagnostic Criteria for [Disease]
+     ## Diagnostic Criteria for Canine Hyperadrenocorticism (Cushing's Disease)
 
-     | Test | Positive Criteria | Sensitivity | Specificity | Notes |
-     |------|------------------|-------------|-------------|-------|
-     | ACTH stimulation | Post-ACTH cortisol > 22 µg/dL | 85% | 91% | Gold standard[1] |
-     | Low-dose dexamethasone | 8h cortisol > 1.4 µg/dL | 95% | 73% | More sensitive[2] |
+     | Test | Positive Criteria | Sensitivity | Specificity | Guideline |
+     |------|------------------|-------------|-------------|-----------|
+     | ACTH stimulation | Post-ACTH cortisol > 22 µg/dL | 85% | 91% | ACVIM[1] |
+     | Low-dose dexamethasone | 8h cortisol > 1.4 µg/dL | 95% | 73% | ACVIM[2] |
+     | UCCR (urine cortisol:creatinine) | Ratio > 30 × 10⁻⁶ | 99% | 25% | Screening only[1] |
 
      **Interpretation:**
-     - Values above cutoff = positive diagnosis
-     - Combine with clinical signs for confirmation[1]
+     The ACVIM recommends ACTH stimulation as the gold standard confirmatory test for canine hyperadrenocorticism, with post-stimulation cortisol values above 22 µg/dL indicating disease. Diagnosis should combine test results with characteristic clinical signs including polyuria (>100 mL/kg/day), polydipsia, polyphagia, pot-bellied appearance, and bilateral symmetric alopecia.[1]
 
-B) **DIFFERENTIAL DIAGNOSIS Questions** (e.g., what disease causes X, my dog has Y symptom, possible causes of Z):
-   → Provide SPECIFIC disease names in a clear list format
-   → For each disease, include:
-     * Characteristic clinical signs (be specific, not vague)
-     * Typical duration/progression
-     * Predisposed breeds/ages if relevant
-     * Key differential points
-   → Use bullet points or tables for clarity
+B) **DIFFERENTIAL DIAGNOSIS Questions** (e.g., what disease causes X, my dog has Y symptom, possible causes of Z, 절뚝거림 원인):
+   → **FORMAT**: Use prose paragraphs organized by diagnostic priority
+   → **STRUCTURE**: Group into "Most Likely Diagnoses" and "Not to Miss Diagnoses" sections
+   → **CONTENT REQUIREMENTS** (for EACH disease):
+     * Specific age range (e.g., "5-8 years old", "geriatric cats >12 years", NOT "older animals")
+     * Specific breeds if relevant (e.g., "Labrador Retrievers and Golden Retrievers", NOT "large breeds")
+     * Specific clinical signs (e.g., "acute non-weight-bearing lameness with positive drawer sign", NOT "limping")
+     * Specific duration/timeline (e.g., "resolves within 7-10 days with NSAIDs", NOT "short duration")
+     * Specific diagnostic findings with numbers (e.g., "joint fluid WBC > 50,000/µL with >90% neutrophils", NOT "elevated inflammatory markers")
+     * Veterinary guideline organizations (e.g., "ACVIM recommends...", "WSAVA guidelines state...", "AAHA protocol...")
+   → Example format:
+     ## Most Likely Diagnoses
 
-C) **TREATMENT/PROTOCOL Questions** (e.g., how to treat X, what drugs for Y, dosage recommendations):
-   → Provide SPECIFIC drug names, dosages, and protocols
-   → Use tables when comparing multiple treatment options
-   → Include contraindications and monitoring parameters
-   → Be practical and clinically actionable
+     Cranial cruciate ligament (CCL) partial rupture is the most common cause of hindlimb lameness in medium to large breed dogs aged 5-8 years, particularly in Labrador Retrievers, Golden Retrievers, and Rottweilers. Clinical presentation includes acute to chronic intermittent lameness, positive cranial drawer sign or tibial thrust test, and joint effusion. The ACVS (American College of Veterinary Surgeons) recommends early surgical stabilization (TPLO or TTA) to prevent progression to complete rupture and degenerative joint disease, with 85-90% of dogs returning to normal function post-surgery.[1]
 
-D) **GENERAL KNOWLEDGE/PATHOPHYSIOLOGY Questions** (e.g., what is X, explain the mechanism, background on Y):
-   → Provide comprehensive conceptual explanations
-   → Use detailed paragraphs explaining mechanisms and concepts
-   → Include background information and evidence basis
-   → Use prose format with minimal structural elements
+     Patellar luxation occurs predominantly in toy and small breed dogs (Chihuahuas, Yorkshire Terriers, Pomeranians) aged 2-6 years, presenting as intermittent skipping or hindlimb lameness with the dog holding the leg off the ground for several steps before returning to normal gait. Physical examination reveals medial patellar displacement (Grade II-III on a I-IV scale), and the Orthopedic Foundation for Animals recommends surgical correction for Grade III-IV luxation to prevent cartilage damage and osteoarthritis.[2]
 
-**CRITICAL - Formatting Style Selection:**
-Analyze the question to determine the appropriate formatting style:
+     ## Not to Miss Diagnoses
 
-**Use STRUCTURED FORMAT (headings, tables, bullet points) for:**
-- Diagnostic criteria questions (진단기준, diagnostic criteria, how to diagnose)
-- Treatment protocols (treatment, protocol, 치료 방법, how to treat)
-- Drug/medication comparisons (compare drugs, 약물 비교, versus)
-- Differential diagnoses (differential, possible causes, 감별진단)
-- Lists or multiple options (list, types, 종류, options)
-- Step-by-step procedures (how to perform, 방법, procedure)
+     Septic arthritis presents with acute severe lameness, non-weight-bearing on the affected limb, fever (>103°F/39.4°C), joint swelling, and severe pain on manipulation. Joint fluid analysis shows WBC count > 50,000/µL with >90% neutrophils and positive bacterial culture (commonly Staphylococcus or Streptococcus species). The ACVIM recommends immediate arthrotomy or arthroscopy for joint lavage combined with culture-based systemic antibiotics for 4-6 weeks, as delay beyond 24-48 hours significantly worsens prognosis.[3]
 
-**Use PROSE FORMAT (flowing paragraphs, minimal structure) for:**
-- Pathophysiology/mechanism questions (pathophysiology, mechanism, 병태생리, 작용 원리, how does it work)
-- Concept explanations (what is, 무엇, definition, 정의)
-- Background/history (background, history, 배경, 역사)
-- Simple factual questions (short, direct answers)
-- Theoretical questions (why, 왜, explain)
+     Osteosarcoma is the most common primary bone tumor in large and giant breed dogs aged 7-10 years (Great Danes, Saint Bernards, Irish Wolfhounds), presenting as progressive non-weight-bearing lameness with firm palpable swelling over the metaphyseal region of long bones (most commonly distal radius, proximal humerus, distal femur). Radiographic findings include mixed lytic and proliferative bone lesions with cortical destruction and "sunburst" periosteal reaction. The ACVIM Oncology consensus statement recommends tissue biopsy for definitive diagnosis, limb amputation or limb-sparing surgery combined with adjuvant chemotherapy (carboplatin), with median survival of 10-12 months with treatment versus 4-5 months without.[4]
 
-**Example - PROSE format:**
-"The pathophysiology of canine Cushing's syndrome involves excessive cortisol production from the adrenal glands. This occurs either due to a pituitary tumor secreting ACTH (85% of cases) or from a primary adrenal tumor (15% of cases)[1]. The excess cortisol leads to protein catabolism, hepatomegaly, and immunosuppression, manifesting as polyuria, polydipsia, and muscle weakness[2]."
+C) **TREATMENT/PROTOCOL Questions** (e.g., how to treat X, what drugs for Y, dosage recommendations, 치료 방법):
+   → **FORMAT**: Use tables for drug comparisons or treatment protocols
+   → **CONTENT REQUIREMENTS**:
+     * Exact drug names and dosages with units (e.g., "Carprofen 2-4 mg/kg PO q12h", "Enrofloxacin 5-10 mg/kg IV q24h")
+     * Specific routes of administration (PO, IV, SC, IM, topical)
+     * Specific monitoring parameters with frequency (e.g., "Check ALT, ALP, creatinine every 2 weeks")
+     * Specific contraindications (e.g., "Avoid in cats with chronic kidney disease CKD Stage 3+")
+     * Veterinary guideline organizations (WSAVA, IRIS, ACVIM, AAHA, etc.)
+   → Example:
+     ## Treatment Protocol for Canine Osteoarthritis
 
-**Example - STRUCTURED format:**
-## Diagnostic Criteria
-| Test | Cutoff | Sensitivity |
-|------|--------|-------------|
-| ACTH | >22 µg/dL | 85%[1] |
+     | Drug Class | Drug Name | Dosage | Route | Monitoring | Contraindications |
+     |-----------|-----------|--------|-------|-----------|-------------------|
+     | NSAIDs | Carprofen | 2-4 mg/kg q12h | PO | CBC, ALT, creatinine q6mo | Renal disease, concurrent steroids[1] |
+     | NSAIDs | Meloxicam | 0.1 mg/kg q24h | PO | CBC, ALT, creatinine q6mo | GI ulceration, dehydration[1] |
+     | Nutraceuticals | Glucosamine/Chondroitin | 20 mg/kg q24h | PO | None required | None known[2] |
+     | Monoclonal antibody | Bedinvetmab | 0.5-1 mg/kg q28d | SC | None required | Hypersensitivity reactions[3] |
 
-Important rules:
-1. Always cite reference numbers in square brackets at the end of each sentence or paragraph (e.g., [1], [2-3], [1,4])
-2. Be SPECIFIC and PRACTICAL - avoid vague statements like various conditions or may cause
-3. Use concrete numbers, durations, breed names, drug names when available
-4. Include clinical significance and practical implications for veterinarians
-5. Use professional veterinary medical terminology, and include English terms in parentheses when necessary
-6. Explicitly state if information is not available in the provided guidelines
-7. Use Markdown format appropriately based on question type (see formatting style selection above)"""
+     **WSAVA Pain Management Guidelines Recommendations:**
+     - Start with NSAIDs as first-line therapy for dogs without contraindications
+     - Add multimodal analgesia (gabapentin 10-20 mg/kg q8-12h) for refractory pain
+     - Monitor hepatic and renal function every 6 months in dogs on chronic NSAIDs
+     - Consider bedinvetmab (Librela) for dogs with NSAID contraindications[1-3]
+
+D) **PATHOPHYSIOLOGY/MECHANISM Questions** (e.g., what is X, explain the mechanism, how does it work, 병태생리, 작용 원리):
+   → **FORMAT**: Use flowing prose paragraphs with minimal structural formatting
+   → **CONTENT REQUIREMENTS** (STILL MUST BE SPECIFIC):
+     * Specific percentages (e.g., "85% of cases", "occurs in 15% of affected animals", NOT "most cases")
+     * Specific mechanisms with scientific names (e.g., "Type III hypersensitivity mediated by immune complex deposition", NOT "immune reaction")
+     * Specific cell types/mediators (e.g., "IL-6, TNF-α, and PGE2 release", NOT "inflammatory cytokines")
+     * Specific anatomical structures (e.g., "zona fasciculata of adrenal cortex", NOT "adrenal gland")
+     * Specific timeline details (e.g., "within 24-48 hours of exposure", NOT "quickly")
+   → Example:
+     The pathophysiology of canine hyperadrenocorticism (Cushing's disease) involves excessive cortisol production from the adrenal cortex. In 85% of cases, this results from a pituitary macroadenoma (>1 cm diameter) or microadenoma (<1 cm) in the pars distalis secreting excessive ACTH, leading to bilateral adrenocortical hyperplasia and increased cortisol synthesis in the zona fasciculata.[1] In the remaining 15% of cases, a primary adrenal tumor (adenoma or carcinoma) autonomously secretes cortisol independent of ACTH regulation.[1] The excess cortisol produces multiple systemic effects through glucocorticoid receptor activation: protein catabolism causes progressive muscle weakness and thin skin (<0.5 mm thickness on ultrasound), hepatomegaly develops due to glycogen accumulation and steroid-induced hepatopathy (liver size >1.5× normal on ultrasound), and immunosuppression increases susceptibility to urinary tract infections (UTI prevalence 40-50% in affected dogs).[2] Clinical manifestations include polyuria (>100 mL/kg/day) and polydipsia (>100 mL/kg/day) due to cortisol interference with ADH binding in renal collecting ducts, polyphagia from hypothalamic appetite center stimulation, and bilateral symmetric alopecia from follicular atrophy.[2]
+
+**Important Citation and Writing Rules:**
+1. **Always cite references**: Every sentence or paragraph must cite at least one reference in square brackets (e.g., [1], [2-3], [1,4])
+2. **Be SPECIFIC and PRACTICAL**: Avoid vague statements like "various conditions", "may cause", "commonly seen"
+3. **Use concrete details**: Include exact numbers, durations, breed names, drug names, dosages from the references
+4. **Name organizations**: When guidelines exist, cite the specific veterinary organization (WSAVA, ACVIM, AAHA, ACVS, IRIS, etc.)
+5. **Include clinical significance**: Explain practical implications for veterinarians treating animal patients
+6. **Use professional terminology**: Use proper veterinary medical terminology with English terms in parentheses when writing in other languages
+7. **State limitations**: Explicitly state if specific information is not available in the provided guidelines
+8. **Format appropriately**: Use tables for comparisons/criteria, prose for mechanisms/concepts (see examples above)"""
 
     # 사용 가능한 Reference 번호 계산
     num_references = len(doc_order)
@@ -362,26 +393,37 @@ Answer Guidelines:
 5. **DO NOT mention "Reference 1", "Reference 2", "according to Reference X", or "based on Reference Y" in your answer text**
 6. **ONLY use bracketed citations like [1], [2], [3]**
 
-**Special Instructions for DIAGNOSTIC CRITERIA Questions:**
-If the question asks about diagnostic criteria, confirmation tests, or "how to diagnose":
-- **MANDATORY**: Extract ALL specific cutoff values, thresholds, and numerical criteria from the references
-- **MANDATORY**: Present diagnostic tests in a table format with columns: Test Name | Positive Criteria/Cutoff | Sensitivity | Specificity | Notes
-- Include interpretation guidelines (e.g., "Values > X indicate positive diagnosis")
-- Be extremely specific with units (µg/dL, mg/L, etc.)
-- If sensitivity/specificity data is not available in references, omit those columns but MUST include cutoff values
+**CRITICAL SPECIFICITY REQUIREMENTS (Apply to ALL Question Types):**
+Your answer MUST include concrete veterinary details extracted from the references:
+- Specific numbers: ages (e.g., "5-8 years"), percentages (e.g., "85% of cases"), measurements (e.g., "cortisol > 22 µg/dL")
+- Specific disease names: full medical terminology (e.g., "Cranial cruciate ligament rupture", not just "knee injury")
+- Specific breeds when mentioned: exact breed names (e.g., "Labrador Retrievers, Golden Retrievers", not "large breeds")
+- Specific drugs/dosages: complete prescriptions (e.g., "Carprofen 2-4 mg/kg PO q12h", not "NSAIDs")
+- Specific organizations: name the veterinary organization (e.g., "ACVIM recommends", "WSAVA guidelines state")
+- Specific diagnostic criteria: exact thresholds and test names (e.g., "Joint fluid WBC > 50,000/µL", not "high white cell count")
 
-**Formatting Based on Question Type:**
-- **For diagnostic criteria, treatment protocols, drug comparisons**: Use tables, headings, structured format
-- **For pathophysiology, mechanisms, concepts**: Use flowing prose paragraphs with minimal structure
-- **For simple factual questions**: Use concise prose without excessive formatting
+**Formatting Instructions Based on Question Type:**
 
-**Table Guidelines (when appropriate):**
-- Use markdown tables for comparing drugs/medications, diagnostic tests, treatment options
-- Example diagnostic criteria table:
-  | Test | Positive Criteria | Sensitivity | Specificity | Notes |
-  |------|------------------|-------------|-------------|-------|
-  | ACTH stimulation | Post-ACTH cortisol > 22 µg/dL | 85% | 91% | Gold standard[1] |
-  | Low-dose dexamethasone | 8h cortisol > 1.4 µg/dL | 95% | 73% | More sensitive[2] |"""
+**For DIAGNOSTIC CRITERIA / TREATMENT PROTOCOL questions:**
+- Use tables to compare tests or drugs
+- Include exact cutoff values, sensitivity/specificity, dosages
+- Add interpretation section with specific thresholds
+- Example table format:
+  | Test | Positive Criteria | Sensitivity | Specificity | Guideline |
+  |------|------------------|-------------|-------------|-----------|
+  | ACTH stimulation | Post-ACTH cortisol > 22 µg/dL | 85% | 91% | ACVIM[1] |
+
+**For DIFFERENTIAL DIAGNOSIS questions:**
+- Use prose paragraphs organized into "Most Likely Diagnoses" and "Not to Miss Diagnoses" sections
+- For each disease, write a complete paragraph including: specific age/breed, specific clinical signs, specific diagnostic findings, specific treatment outcomes
+- Focus on diagnostic priority and clinical decision-making
+- Example: "Cranial cruciate ligament rupture is the most common cause of hindlimb lameness in medium to large breed dogs aged 5-8 years, particularly in Labrador Retrievers..."
+
+**For PATHOPHYSIOLOGY / MECHANISM questions:**
+- Use flowing prose paragraphs without excessive structure
+- STILL include specific numbers, percentages, anatomical terms, cell types, mediators
+- Example: "In 85% of cases, this results from a pituitary macroadenoma (>1 cm diameter) secreting excessive ACTH..."
+"""
 
     try:
         # 대화 히스토리를 포함한 메시지 구성
@@ -404,7 +446,7 @@ If the question asks about diagnostic criteria, confirmation tests, or "how to d
             model="gpt-4o-mini",
             messages=messages,
             temperature=0.3,
-            max_tokens=1200,  # 2000 → 1200으로 감소 (더 간결한 답변)
+            max_tokens=2000,  # 프롬프트가 길어서 충분한 토큰 필요
             stream=True  # 스트리밍 활성화
         )
 
@@ -639,9 +681,10 @@ async def extract_references_from_answer(answer: str, doc_order: List[str], seen
 
 
 # 후속 질문 생성 함수
-async def generate_followup_questions(question: str, answer: str, conversation_history: List[Dict]) -> List[str]:
+async def generate_followup_questions(question: str, answer: str, conversation_history: List[Dict], detected_lang: str = "Korean") -> List[str]:
     """
     GPT-4o-mini를 사용하여 맥락 기반 후속 질문 3-4개 생성
+    detected_lang: 감지된 언어 (Korean/Japanese/English)
     """
     # 대화 맥락 구성
     context = ""
@@ -650,7 +693,7 @@ async def generate_followup_questions(question: str, answer: str, conversation_h
         for msg in conversation_history[-3:]:  # 최근 3개만
             context += f"{msg['role']}: {msg['content'][:200]}...\n"
 
-    prompt = f"""Based on the following VETERINARY MEDICINE Q&A conversation about ANIMAL PATIENTS, generate 3-4 relevant follow-up questions that a veterinarian might ask.
+    prompt = f"""Based on the following VETERINARY MEDICINE Q&A conversation about ANIMAL PATIENTS, generate 3-4 highly SPECIFIC follow-up questions that a veterinarian might ask.
 
 **CONTEXT**: This is about VETERINARY medicine for treating ANIMALS (dogs, cats, etc.), NOT human medicine.
 
@@ -658,18 +701,34 @@ async def generate_followup_questions(question: str, answer: str, conversation_h
 
 Current Question: {question}
 
-Current Answer: {answer[:500]}...
+Current Answer: {answer[:800]}...
 
-Generate 3-4 follow-up questions that:
-1. Are directly related to the current veterinary topic
-2. Explore deeper clinical details for ANIMAL patients
-3. Ask about related conditions or treatments in ANIMALS
-4. Are practical and useful for veterinarians treating animals
-5. Focus on ANIMAL-specific contexts (e.g., "개에서", "고양이에게", "for dogs", "in cats")
+**CRITICAL - Generate SPECIFIC, ACTIONABLE follow-up questions:**
 
-**CRITICAL**: Respond in the SAME LANGUAGE as the original question.
-- If the question is in Korean, generate Korean follow-up questions
-- If the question is in English, generate English follow-up questions
+Your follow-up questions MUST:
+1. Reference SPECIFIC tests, criteria, or drugs mentioned in the answer (e.g., "ACTH 자극 검사", "Kocher criteria", "Carprofen 용량")
+2. Ask about SPECIFIC next steps or clinical decisions (e.g., "어떤 검사를 추가로 진행해야 하나요?", "수술적 치료가 필요한가요?")
+3. Include SPECIFIC patient contexts (e.g., "5세 래브라도에서", "만성 신부전이 있는 고양이에서")
+4. Focus on practical clinical scenarios (e.g., "이 검사 결과가 양성이면 다음 단계는?", "약물 반응이 없으면 어떻게 하나요?")
+5. Use ANIMAL-specific terminology (e.g., "개에서", "고양이에게", "for dogs", "in cats")
+
+**BAD Examples (too vague):**
+❌ "다른 원인은 무엇인가요?"
+❌ "치료 방법은 무엇인가요?"
+❌ "What are the symptoms?"
+
+**GOOD Examples (specific and actionable):**
+✅ "ACTH 자극 검사에서 cortisol이 22 µg/dL 이상 나오면 어떤 치료를 시작해야 하나요?"
+✅ "십자인대 파열이 의심되는 7세 골든 리트리버에서 TPLO와 TTA 중 어떤 수술이 더 적합한가요?"
+✅ "If joint fluid WBC is >50,000/µL, what antibiotics should I start empirically before culture results?"
+✅ "쿠싱 증후군 확진 후 trilostane 용량은 어떻게 조절하나요?"
+
+**CRITICAL - LANGUAGE REQUIREMENT:**
+- The detected language is: {detected_lang}
+- You MUST generate follow-up questions in {detected_lang}
+- If detected_lang is "Korean", write in Korean (한국어)
+- If detected_lang is "English", write in English
+- If detected_lang is "Japanese", write in Japanese (日本語)
 
 Return ONLY the questions, one per line, without numbering or bullet points."""
 
@@ -969,7 +1028,7 @@ async def query_stream_generator(question: str, conversation_history: List[Dict]
 
         # 7단계: 후속 질문만 별도로 생성 (백그라운드에서)
         print("💡 후속 질문 생성 시작...")
-        followup_questions = await generate_followup_questions(question, full_answer, conversation_history)
+        followup_questions = await generate_followup_questions(question, full_answer, conversation_history, detected_lang)
 
         # 8단계: 후속 질문 완료 전송
         yield create_sse_event({
