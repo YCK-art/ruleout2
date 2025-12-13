@@ -275,13 +275,13 @@ export default function HistoryView({ onSelectChat, onNewChat, onConversationDel
       </div>
 
       {/* 페이지 헤더 */}
-      <div className="p-8">
+      <div className="p-4 md:p-8">
         <div className="max-w-5xl mx-auto">
-          <div className="flex items-center justify-between mb-8">
-            <h1 className="text-3xl font-semibold text-gray-200">{currentContent.title}</h1>
+          <div className="flex items-center justify-between mb-4 md:mb-8">
+            <h1 className="text-2xl md:text-3xl font-semibold text-gray-200">{currentContent.title}</h1>
             <button
               onClick={onNewChat}
-              className="flex items-center space-x-2 px-4 py-2 bg-white hover:bg-gray-100 text-black rounded-lg transition-colors"
+              className="hidden md:flex items-center space-x-2 px-4 py-2 bg-white hover:bg-gray-100 text-black rounded-lg transition-colors"
             >
               <Plus className="w-5 h-5" />
               <span className="font-medium">{currentContent.newChat}</span>
@@ -289,26 +289,26 @@ export default function HistoryView({ onSelectChat, onNewChat, onConversationDel
           </div>
 
           {/* 검색 바 */}
-          <div className="relative mb-6">
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-500" />
+          <div className="relative mb-4 md:mb-6">
+            <Search className="absolute left-3 md:left-4 top-1/2 transform -translate-y-1/2 w-4 h-4 md:w-5 md:h-5 text-gray-500" />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={currentContent.searchPlaceholder}
-              className="w-full bg-[#2a2a2a] border border-gray-700 rounded-lg pl-12 pr-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-gray-600"
+              className="w-full bg-[#2a2a2a] border border-gray-700 rounded-lg pl-10 md:pl-12 pr-4 py-2.5 md:py-3 text-sm md:text-base text-gray-200 placeholder-gray-500 focus:outline-none focus:border-gray-600"
             />
           </div>
 
           {/* 대화 개수 */}
-          <div className="flex items-center justify-between mb-4">
-            <p className="text-sm text-gray-400">
+          <div className="flex items-center justify-between mb-3 md:mb-4">
+            <p className="text-xs md:text-sm text-gray-400">
               {filteredConversations.length} {filteredConversations.length !== 1 ? currentContent.conversations : currentContent.conversation}
             </p>
             {filteredConversations.length !== conversations.length && (
               <button
                 onClick={() => setSearchQuery("")}
-                className="text-sm text-blue-400 hover:text-blue-300"
+                className="text-xs md:text-sm text-blue-400 hover:text-blue-300"
               >
                 {currentContent.viewAll}
               </button>
@@ -317,8 +317,8 @@ export default function HistoryView({ onSelectChat, onNewChat, onConversationDel
         </div>
       </div>
 
-      {/* 대화 목록 - 테이블 형식 */}
-      <div className="flex-1 overflow-y-auto px-8 pb-8">
+      {/* 대화 목록 */}
+      <div className="flex-1 overflow-y-auto px-4 md:px-8 pb-8">
         <div className="max-w-7xl mx-auto">
           {filteredConversations.length === 0 ? (
             <div className="text-center py-12">
@@ -327,88 +327,173 @@ export default function HistoryView({ onSelectChat, onNewChat, onConversationDel
               </p>
             </div>
           ) : (
-            <div className="border-t border-gray-800">
-              {/* 테이블 헤더 */}
-              <div className="grid grid-cols-[200px_1fr_auto] gap-4 px-6 py-4 border-b border-gray-800">
-                <div className="text-sm font-medium text-gray-400">{currentContent.date}</div>
-                <div className="text-sm font-medium text-gray-400">{currentContent.question}</div>
-                <div className="w-8"></div>
-              </div>
+            <>
+              {/* 데스크톱: 테이블 형식 */}
+              <div className="hidden md:block border-t border-gray-800">
+                {/* 테이블 헤더 */}
+                <div className="grid grid-cols-[200px_1fr_auto] gap-4 px-6 py-4 border-b border-gray-800">
+                  <div className="text-sm font-medium text-gray-400">{currentContent.date}</div>
+                  <div className="text-sm font-medium text-gray-400">{currentContent.question}</div>
+                  <div className="w-8"></div>
+                </div>
 
-              {/* 테이블 바디 */}
-              {filteredConversations.map((conversation) => (
-                <div
-                  key={conversation.id}
-                  className="grid grid-cols-[200px_1fr_auto] gap-4 px-6 py-6 border-b border-gray-800 hover:bg-[#2a2a2a] transition-colors group relative"
-                >
-                  {/* Date 컬럼 */}
-                  <div className="text-sm text-gray-400">
-                    {formatDate(conversation.updatedAt)}
-                  </div>
-
-                  {/* Question 컬럼 */}
-                  <button
-                    onClick={() => onSelectChat(conversation.id)}
-                    className="text-left transition-colors hover:brightness-110"
-                    style={{ color: '#5AC8D8' }}
+                {/* 테이블 바디 */}
+                {filteredConversations.map((conversation) => (
+                  <div
+                    key={conversation.id}
+                    className="grid grid-cols-[200px_1fr_auto] gap-4 px-6 py-6 border-b border-gray-800 hover:bg-[#2a2a2a] transition-colors group relative"
                   >
-                    {conversation.title}
-                  </button>
+                    {/* Date 컬럼 */}
+                    <div className="text-sm text-gray-400">
+                      {formatDate(conversation.updatedAt)}
+                    </div>
 
-                  {/* 3개점 메뉴 */}
-                  <div className="relative">
+                    {/* Question 컬럼 */}
                     <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setActiveDropdown(activeDropdown === conversation.id ? null : conversation.id);
-                      }}
-                      className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
+                      onClick={() => onSelectChat(conversation.id)}
+                      className="text-left transition-colors hover:brightness-110"
+                      style={{ color: '#5AC8D8' }}
                     >
-                      <MoreVertical className="w-5 h-5 text-gray-400" />
+                      {conversation.title}
                     </button>
 
-                    {/* 드롭다운 메뉴 */}
-                    {activeDropdown === conversation.id && (
-                      <div
-                        ref={dropdownRef}
-                        className="absolute right-0 top-full mt-1 w-48 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg z-50 py-1"
+                    {/* 3개점 메뉴 */}
+                    <div className="relative">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setActiveDropdown(activeDropdown === conversation.id ? null : conversation.id);
+                        }}
+                        className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
                       >
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleRenameClick(conversation.id, conversation.title);
-                          }}
-                          className="w-full px-4 py-2 text-left text-sm text-gray-200 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                        <MoreVertical className="w-5 h-5 text-gray-400" />
+                      </button>
+
+                      {/* 드롭다운 메뉴 */}
+                      {activeDropdown === conversation.id && (
+                        <div
+                          ref={dropdownRef}
+                          className="absolute right-0 top-full mt-1 w-48 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg z-50 py-1"
                         >
-                          <Edit2 className="w-4 h-4" />
-                          <span>{currentContent.rename}</span>
-                        </button>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleMoveToProjectClick(conversation.id);
-                          }}
-                          className="w-full px-4 py-2 text-left text-sm text-gray-200 hover:bg-gray-700 transition-colors flex items-center space-x-2"
-                        >
-                          <FolderPlus className="w-4 h-4" />
-                          <span>{currentContent.addToProject}</span>
-                        </button>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleDelete(conversation.id);
-                          }}
-                          className="w-full px-4 py-2 text-left text-sm text-red-400 hover:bg-gray-700 transition-colors flex items-center space-x-2"
-                        >
-                          <Trash2 className="w-4 h-4" />
-                          <span>{currentContent.delete}</span>
-                        </button>
-                      </div>
-                    )}
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleRenameClick(conversation.id, conversation.title);
+                            }}
+                            className="w-full px-4 py-2 text-left text-sm text-gray-200 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                          >
+                            <Edit2 className="w-4 h-4" />
+                            <span>{currentContent.rename}</span>
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleMoveToProjectClick(conversation.id);
+                            }}
+                            className="w-full px-4 py-2 text-left text-sm text-gray-200 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                          >
+                            <FolderPlus className="w-4 h-4" />
+                            <span>{currentContent.addToProject}</span>
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleDelete(conversation.id);
+                            }}
+                            className="w-full px-4 py-2 text-left text-sm text-red-400 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                          >
+                            <Trash2 className="w-4 h-4" />
+                            <span>{currentContent.delete}</span>
+                          </button>
+                        </div>
+                      )}
+                    </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+
+              {/* 모바일: 리스트 카드 형식 */}
+              <div className="md:hidden space-y-0">
+                {filteredConversations.map((conversation) => (
+                  <div
+                    key={conversation.id}
+                    className="border-b border-gray-800 hover:bg-[#2a2a2a] transition-colors relative"
+                  >
+                    <div className="flex items-start justify-between py-4 px-1">
+                      {/* 왼쪽: 제목과 날짜 */}
+                      <button
+                        onClick={() => onSelectChat(conversation.id)}
+                        className="flex-1 text-left pr-2"
+                      >
+                        <div className="text-base font-normal text-white mb-1 line-clamp-2">
+                          {conversation.title}
+                        </div>
+                        <div className="text-sm text-gray-400">
+                          {formatDate(conversation.updatedAt)}
+                        </div>
+                        {conversation.followupCount && conversation.followupCount > 0 && (
+                          <div className="text-sm text-gray-500 mt-1">
+                            + {conversation.followupCount} follow-up{conversation.followupCount > 1 ? 's' : ''}
+                          </div>
+                        )}
+                      </button>
+
+                      {/* 오른쪽: 3개점 메뉴 */}
+                      <div className="relative flex-shrink-0">
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setActiveDropdown(activeDropdown === conversation.id ? null : conversation.id);
+                          }}
+                          className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
+                        >
+                          <MoreVertical className="w-5 h-5 text-gray-400" />
+                        </button>
+
+                        {/* 드롭다운 메뉴 */}
+                        {activeDropdown === conversation.id && (
+                          <div
+                            ref={dropdownRef}
+                            className="absolute right-0 top-full mt-1 w-48 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg z-50 py-1"
+                          >
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleRenameClick(conversation.id, conversation.title);
+                              }}
+                              className="w-full px-4 py-2 text-left text-sm text-gray-200 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                            >
+                              <Edit2 className="w-4 h-4" />
+                              <span>{currentContent.rename}</span>
+                            </button>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleMoveToProjectClick(conversation.id);
+                              }}
+                              className="w-full px-4 py-2 text-left text-sm text-gray-200 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                            >
+                              <FolderPlus className="w-4 h-4" />
+                              <span>{currentContent.addToProject}</span>
+                            </button>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleDelete(conversation.id);
+                              }}
+                              className="w-full px-4 py-2 text-left text-sm text-red-400 hover:bg-gray-700 transition-colors flex items-center space-x-2"
+                            >
+                              <Trash2 className="w-4 h-4" />
+                              <span>{currentContent.delete}</span>
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
           )}
         </div>
       </div>

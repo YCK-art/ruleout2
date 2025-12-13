@@ -601,9 +601,20 @@ export default function SettingsPage() {
 
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
+      {/* 모바일 상단 툴바 */}
+      <div className="md:hidden sticky top-0 z-10 bg-[#1a1a1a] border-b border-gray-800 px-4 py-3">
+        <button
+          onClick={() => router.back()}
+          className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
+        >
+          <ChevronLeft className="w-5 h-5" />
+          <span className="text-base">{currentContent.sidebar.back}</span>
+        </button>
+      </div>
+
       <div className="flex">
-        {/* Sidebar */}
-        <div className="w-64 min-h-screen bg-[#1a1a1a] border-r border-gray-800">
+        {/* Sidebar - 데스크톱만 */}
+        <div className="hidden md:block w-64 min-h-screen bg-[#1a1a1a] border-r border-gray-800">
           {/* Back button */}
           <div className="p-4 border-b border-gray-800">
             <button
@@ -644,10 +655,11 @@ export default function SettingsPage() {
         </div>
 
         {/* Main content */}
-        <div className="flex-1 p-8 pl-16 pt-12">
+        <div className="flex-1 p-4 md:p-8 md:pl-16 md:pt-12">
           <div className="max-w-3xl mx-auto">
-            {/* Account Tab */}
-            {activeTab === "account" && (
+            {/* 모바일: 모든 섹션 표시 */}
+            <div className="md:hidden space-y-8">
+              {/* Account Section */}
               <div>
                 <h1 className="text-2xl font-semibold mb-12">{currentContent.account.title}</h1>
 
@@ -845,10 +857,146 @@ export default function SettingsPage() {
                   </div>
                 </div>
               </div>
-            )}
 
-            {/* Preferences Tab */}
-            {activeTab === "preferences" && (
+              {/* Preferences Section (Mobile) */}
+              <div>
+                <h1 className="text-2xl font-semibold mb-6">{currentContent.preferences.title}</h1>
+
+                <div className="space-y-8">
+                  {/* General Section */}
+                  <div className="space-y-0">
+                    {/* Theme */}
+                    <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                      <div>
+                        <h3 className="text-sm font-medium text-gray-300">{currentContent.preferences.theme.label}</h3>
+                        <p className="text-xs text-gray-500 mt-1">{currentContent.preferences.theme.description}</p>
+                      </div>
+                      <div className="relative theme-selector">
+                        <button
+                          onClick={() => setShowThemeDropdown(!showThemeDropdown)}
+                          className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[120px]"
+                        >
+                          <span className="text-sm flex-1 text-left">{getThemeDisplayText()}</span>
+                          <ChevronDown className={`w-4 h-4 transition-transform ${showThemeDropdown ? 'rotate-180' : ''}`} />
+                        </button>
+                        {showThemeDropdown && (
+                          <div className="absolute right-0 top-full mt-2 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[120px] z-10">
+                            <button onClick={() => { setSelectedThemeType("dark"); setShowThemeDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedThemeType === "dark" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.theme.dark}</button>
+                            <button onClick={() => { setSelectedThemeType("light"); setShowThemeDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedThemeType === "light" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.theme.light}</button>
+                            <button onClick={() => { setSelectedThemeType("system"); setShowThemeDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedThemeType === "system" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.theme.system}</button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Language */}
+                    <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                      <div>
+                        <h3 className="text-sm font-medium text-gray-300">{currentContent.preferences.language.label}</h3>
+                        <p className="text-xs text-gray-500 mt-1">{currentContent.preferences.language.description}</p>
+                      </div>
+                      <div className="relative language-selector">
+                        <button onClick={() => setShowLanguageDropdown(!showLanguageDropdown)} className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[140px]">
+                          <Globe className="w-4 h-4" />
+                          <span className="text-sm flex-1 text-left">{language}</span>
+                          <ChevronDown className={`w-4 h-4 transition-transform ${showLanguageDropdown ? 'rotate-180' : ''}`} />
+                        </button>
+                        {showLanguageDropdown && (
+                          <div className="absolute right-0 top-full mt-2 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[140px] z-10">
+                            <button onClick={() => { setLanguage("English"); setShowLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${language === "English" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>English</button>
+                            <button onClick={() => { setLanguage("한국어"); setShowLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${language === "한국어" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>한국어</button>
+                            <button onClick={() => { setLanguage("日本語"); setShowLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${language === "日本語" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>日本語</button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Auto-save */}
+                    <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                      <div>
+                        <h3 className="text-sm font-medium text-gray-300">{currentContent.preferences.autoSave.label}</h3>
+                        <p className="text-xs text-gray-500 mt-1">{currentContent.preferences.autoSave.description}</p>
+                      </div>
+                      <label className="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" className="sr-only peer" defaultChecked />
+                        <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#20808D]"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Notifications Section (Mobile) */}
+              <div>
+                <h1 className="text-2xl font-semibold mb-6">{currentContent.notifications.title}</h1>
+                <div className="space-y-0">
+                  {/* Email notifications */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div>
+                      <h3 className="text-sm font-medium text-gray-300">{currentContent.notifications.email.label}</h3>
+                      <p className="text-xs text-gray-500 mt-1">{currentContent.notifications.email.description}</p>
+                    </div>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input type="checkbox" className="sr-only peer" defaultChecked />
+                      <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#20808D]"></div>
+                    </label>
+                  </div>
+
+                  {/* Push notifications */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div>
+                      <h3 className="text-sm font-medium text-gray-300">{currentContent.notifications.push.label}</h3>
+                      <p className="text-xs text-gray-500 mt-1">{currentContent.notifications.push.description}</p>
+                    </div>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input type="checkbox" className="sr-only peer" />
+                      <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#20808D]"></div>
+                    </label>
+                  </div>
+
+                  {/* New features */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div>
+                      <h3 className="text-sm font-medium text-gray-300">{currentContent.notifications.newFeatures.label}</h3>
+                      <p className="text-xs text-gray-500 mt-1">{currentContent.notifications.newFeatures.description}</p>
+                    </div>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input type="checkbox" className="sr-only peer" defaultChecked />
+                      <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#20808D]"></div>
+                    </label>
+                  </div>
+
+                  {/* System updates */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div>
+                      <h3 className="text-sm font-medium text-gray-300">{currentContent.notifications.systemUpdates.label}</h3>
+                      <p className="text-xs text-gray-500 mt-1">{currentContent.notifications.systemUpdates.description}</p>
+                    </div>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input type="checkbox" className="sr-only peer" defaultChecked />
+                      <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#20808D]"></div>
+                    </label>
+                  </div>
+
+                  {/* Tips and suggestions */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div>
+                      <h3 className="text-sm font-medium text-gray-300">{currentContent.notifications.tips.label}</h3>
+                      <p className="text-xs text-gray-500 mt-1">{currentContent.notifications.tips.description}</p>
+                    </div>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input type="checkbox" className="sr-only peer" />
+                      <div className="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#20808D]"></div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 데스크톱: 탭 방식 */}
+            <div className="hidden md:block">
+            {/* Account Tab */}
+            {activeTab === "account" && (
               <div>
                 <h1 className="text-2xl font-semibold mb-12">{currentContent.preferences.title}</h1>
 
@@ -1243,6 +1391,7 @@ export default function SettingsPage() {
                 </div>
               </div>
             )}
+            </div>
           </div>
         </div>
       </div>

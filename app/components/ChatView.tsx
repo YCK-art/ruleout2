@@ -1368,8 +1368,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 <Menu className="w-5 h-5 text-gray-300" />
               </button>
             )}
-            <Image src="/image/clinical4-Photoroom.png" alt="Ruleout AI" width={32} height={32} />
-            <span className="text-lg font-semibold">Ruleout AI</span>
+            <Image src="/image/clinical4-Photoroom.png" alt="Ruleout AI" width={32} height={32} className="hidden md:block" />
+            <span className="text-lg font-semibold hidden md:block">Ruleout AI</span>
           </div>
           <div className="flex items-center space-x-2">
             <button
@@ -1401,8 +1401,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       </div>
 
       {/* 메시지 영역 */}
-      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto px-8 py-12">
-        <div className="max-w-4xl mx-auto space-y-12">
+      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto px-4 md:px-8 py-12">
+        <div className="md:max-w-4xl mx-auto space-y-12">
           {messages.map((message, index) => (
             <div key={index}>
               {message.role === "user" ? (
@@ -1415,15 +1415,15 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
               ) : (
                 // AI 메시지
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
+                  <div className="flex items-start md:space-x-3">
                     <Image
                       src="/image/clinical4-Photoroom.png"
                       alt="Ruleout AI"
                       width={32}
                       height={32}
-                      className="rounded-full flex-shrink-0 mt-1"
+                      className="hidden md:block rounded-full flex-shrink-0 mt-1"
                     />
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 w-full">
                       {/* 사고 과정 (Thinking Steps) - 스트리밍 시작되면 바로 표시 */}
                       {message.thinkingSteps && message.thinkingSteps.length > 0 && (
                         <ThinkingSteps
@@ -1446,8 +1446,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                       {/* 액션 버튼들 */}
                       {!message.isStreaming && (
                         <div className="flex items-center justify-between mt-4">
-                          {/* 왼쪽: 텍스트가 있는 버튼들 */}
-                          <div className="flex items-center space-x-2">
+                          {/* 왼쪽: 텍스트가 있는 버튼들 (데스크톱만) */}
+                          <div className="hidden md:flex items-center space-x-2">
                             <button className="flex items-center space-x-2 px-3 py-1.5 hover:bg-gray-700 rounded-lg transition-colors">
                               <Share2 className="w-4 h-4 text-gray-400" />
                               <span className="text-sm text-gray-400">{currentContent.share}</span>
@@ -1472,7 +1472,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                           </div>
 
                           {/* 오른쪽: 아이콘만 있는 버튼들 */}
-                          <div className="flex items-center space-x-2">
+                          <div className="flex items-center space-x-2 ml-auto">
                             <button
                               onClick={() => handleCopyAnswer(message, index)}
                               className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
@@ -1676,7 +1676,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
       {/* 입력 영역 */}
       <div className="p-4">
-        <div className="max-w-4xl mx-auto relative">
+        <div className="md:max-w-4xl mx-auto relative">
           {/* 맨 아래로 스크롤 버튼 */}
           {showScrollToBottom && (
             <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
@@ -1704,7 +1704,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           )}
 
           <form onSubmit={handleSubmit}>
-            <div className="flex items-center bg-[#2a2a2a] rounded-2xl border border-gray-700 px-6 pr-2 py-2.5 hover:border-gray-600 transition-colors">
+            <div className="flex items-center bg-[#2a2a2a] rounded-2xl border border-gray-700 px-4 md:px-6 pr-2 py-1 md:py-2.5 hover:border-gray-600 transition-colors">
               <textarea
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
@@ -1731,10 +1731,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
               <button
                 type="submit"
                 disabled={isStreaming || !input.trim()}
-                className="w-12 h-12 flex items-center justify-center rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed hover:brightness-110 flex-shrink-0 self-start"
+                className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed hover:brightness-110 flex-shrink-0 self-start"
                 style={{ backgroundColor: '#20808D' }}
               >
-                <ArrowUp className="w-5 h-5" />
+                <ArrowUp className="w-4 h-4 md:w-5 md:h-5" />
               </button>
             </div>
           </form>

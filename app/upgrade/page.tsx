@@ -90,16 +90,16 @@ export default function UpgradePage() {
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-20">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-10">Upgrade Your Plan</h1>
+        <div className="text-center mb-8 md:mb-12">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 md:mb-10">Upgrade Your Plan</h1>
 
           {/* Billing Segment Control */}
           <div className="inline-flex items-center bg-[#2a2a2a] rounded-lg p-1 mb-4">
             <button
               onClick={() => setBillingPeriod("monthly")}
-              className={`px-6 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+              className={`px-4 md:px-6 py-2 rounded-md text-xs md:text-sm font-medium transition-all duration-200 ${
                 billingPeriod === "monthly"
                   ? "bg-[#3a3a3a] text-white"
                   : "text-gray-400 hover:text-gray-200"
@@ -109,7 +109,7 @@ export default function UpgradePage() {
             </button>
             <button
               onClick={() => setBillingPeriod("yearly")}
-              className={`px-6 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+              className={`px-4 md:px-6 py-2 rounded-md text-xs md:text-sm font-medium transition-all duration-200 ${
                 billingPeriod === "yearly"
                   ? "bg-[#3a3a3a] text-white"
                   : "text-gray-400 hover:text-gray-200"
@@ -121,8 +121,8 @@ export default function UpgradePage() {
         </div>
 
         {/* Plans Section */}
-        <div className="mb-16 max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="mb-10 md:mb-16 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             {plans.map((plan, index) => {
               const price = billingPeriod === "monthly" ? plan.monthlyPrice : plan.yearlyPricePerMonth;
               const animatedPrice = useCountUp(price);
@@ -135,7 +135,7 @@ export default function UpgradePage() {
                   key={index}
                   className={`bg-[#212121] border ${
                     plan.recommended ? "border-[#20808D]" : "border-gray-800"
-                  } rounded-2xl p-8 relative flex flex-col`}
+                  } rounded-2xl p-5 md:p-8 relative flex flex-col`}
                 >
                   {plan.recommended && (
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2">
@@ -145,37 +145,37 @@ export default function UpgradePage() {
                     </div>
                   )}
 
-                  <div className="mb-6">
-                    <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                    <div className="flex items-baseline gap-3 mb-2">
+                  <div className="mb-4 md:mb-6">
+                    <h3 className="text-xl md:text-2xl font-bold mb-2">{plan.name}</h3>
+                    <div className="flex items-baseline gap-2 md:gap-3 mb-2">
                       <div className="flex items-baseline">
-                        <span className="text-4xl font-bold">${animatedPrice}</span>
+                        <span className="text-3xl md:text-4xl font-bold">${animatedPrice}</span>
                         {price > 0 && (
-                          <span className="text-gray-400 ml-2">/mo.</span>
+                          <span className="text-gray-400 ml-1 md:ml-2 text-sm md:text-base">/mo.</span>
                         )}
                       </div>
                       {billingPeriod === "yearly" && discount > 0 && (
-                        <span className="text-[#20808D] text-sm font-semibold">
+                        <span className="text-[#20808D] text-xs md:text-sm font-semibold">
                           {discount}% off
                         </span>
                       )}
                     </div>
-                    {plan.name === "Free" && <p className="text-sm text-gray-400">Includes:</p>}
-                    {plan.name !== "Free" && <p className="text-sm text-gray-400">{plan.description}</p>}
+                    {plan.name === "Free" && <p className="text-xs md:text-sm text-gray-400">Includes:</p>}
+                    {plan.name !== "Free" && <p className="text-xs md:text-sm text-gray-400">{plan.description}</p>}
                   </div>
 
-                  <div className="mb-8 space-y-3 flex-grow">
+                  <div className="mb-6 md:mb-8 space-y-2 md:space-y-3 flex-grow">
                     {plan.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-start space-x-2">
-                        <Check className="w-4 h-4 text-[#20808D] mt-0.5 flex-shrink-0" />
-                        <span className="text-sm text-gray-300">{feature}</span>
+                        <Check className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#20808D] mt-0.5 flex-shrink-0" />
+                        <span className="text-xs md:text-sm text-gray-300">{feature}</span>
                       </div>
                     ))}
                   </div>
 
                   <button
                     disabled={plan.disabled}
-                    className={`w-full py-3 rounded-lg font-medium transition-colors ${plan.buttonStyle}`}
+                    className={`w-full py-2.5 md:py-3 rounded-lg text-sm md:text-base font-medium transition-colors ${plan.buttonStyle}`}
                   >
                     {plan.buttonText}
                   </button>
@@ -189,7 +189,7 @@ export default function UpgradePage() {
         <div className="text-center">
           <button
             onClick={() => router.push('/')}
-            className="text-gray-400 hover:text-white transition-colors"
+            className="text-sm md:text-base text-gray-400 hover:text-white transition-colors"
           >
             ← Back to Home
           </button>
