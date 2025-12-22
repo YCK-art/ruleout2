@@ -197,22 +197,48 @@ async def extract_references_from_answer(answer: str, doc_order: List[str], seen
             chunks = seen_docs[ref_key]
             first_chunk = chunks[0]
 
-            # URL 찾기
+            # URL 생성 (우선순위: PMCID > PMID > DOI > PDF URL)
             url = ""
-            title = first_chunk.get('title', 'Unknown')
-            normalized_title = title.lower().strip()
-            if normalized_title in TITLE_TO_FILENAME:
-                filename = TITLE_TO_FILENAME[normalized_title]
-                url = PDF_URL_MAPPING.get(filename, "")
+            pmcid = first_chunk.get('pmcid', '')
+            pmid = first_chunk.get('pmid', '')
+            doi = first_chunk.get('doi', '')
+
+            print(f"🔗 URL 생성 중 - PMCID: '{pmcid}', PMID: '{pmid}', DOI: '{doi}'", file=sys.stderr, flush=True)
+
+            if pmcid and pmcid.startswith('PMC'):
+                # PMCID가 있으면 PubMed Central URL 생성
+                url = f"https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/"
+                print(f"   ✅ PMCID URL 생성: {url}", file=sys.stderr, flush=True)
+            elif pmid:
+                # PMID가 있으면 PubMed URL 생성
+                url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+                print(f"   ✅ PMID URL 생성: {url}", file=sys.stderr, flush=True)
+            elif doi:
+                # DOI가 있으면 DOI URL 생성
+                url = f"https://doi.org/{doi}"
+                print(f"   ✅ DOI URL 생성: {url}", file=sys.stderr, flush=True)
+            else:
+                # 없으면 PDF URL 매핑에서 찾기
+                title = first_chunk.get('title', 'Unknown')
+                normalized_title = title.lower().strip()
+                if normalized_title in TITLE_TO_FILENAME:
+                    filename = TITLE_TO_FILENAME[normalized_title]
+                    url = PDF_URL_MAPPING.get(filename, "")
+                    print(f"   ✅ PDF URL 매핑: {url}", file=sys.stderr, flush=True)
+                else:
+                    print(f"   ⚠️  URL을 찾을 수 없음", file=sys.stderr, flush=True)
+
+            # source 필드가 없으면 journal을 사용 (XML 논문의 경우)
+            source = first_chunk.get('source', first_chunk.get('journal', 'Unknown'))
 
             ref = Reference(
-                title=title,
+                title=first_chunk.get('title', 'Unknown'),
                 authors=first_chunk.get('authors', 'Unknown'),
                 journal=first_chunk.get('journal', 'Unknown'),
                 year=first_chunk.get('year', 'Unknown'),
-                doi=first_chunk.get('doi', 'Unknown'),
+                doi=doi if doi else 'Unknown',
                 url=url,
-                source=first_chunk.get('source', 'Unknown'),
+                source=source,
                 relevance_score=first_chunk.get('score', 0.0)
             )
             references.append(ref)
