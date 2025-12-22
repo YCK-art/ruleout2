@@ -198,11 +198,11 @@ export const generateChatTitle = async (
     }
 
     const data = await response.json();
-    return data.title || firstMessage.slice(0, 30);
+    return data.title || firstMessage.slice(0, 100);
   } catch (error) {
     console.error("제목 생성 오류:", error);
-    // 오류 시 첫 메시지의 앞 30자를 제목으로 사용
-    return firstMessage.slice(0, 30);
+    // 오류 시 첫 메시지의 앞 100자를 제목으로 사용
+    return firstMessage.slice(0, 100);
   }
 };
 

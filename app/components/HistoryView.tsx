@@ -356,8 +356,8 @@ export default function HistoryView({ onSelectChat, onNewChat, onConversationDel
                     {/* Question 컬럼 */}
                     <button
                       onClick={() => onSelectChat(conversation.id)}
-                      className="text-left transition-colors hover:brightness-110 line-clamp-2 min-h-[3rem]"
-                      style={{ color: '#5AC8D8', wordBreak: 'break-word', whiteSpace: 'normal' }}
+                      className="text-left transition-colors hover:brightness-110"
+                      style={{ color: '#5AC8D8' }}
                     >
                       {conversation.title}
                     </button>
@@ -431,7 +431,7 @@ export default function HistoryView({ onSelectChat, onNewChat, onConversationDel
                         onClick={() => onSelectChat(conversation.id)}
                         className="flex-1 text-left pr-2"
                       >
-                        <div className="text-base font-normal text-white mb-1 line-clamp-2" style={{ wordBreak: 'break-word', whiteSpace: 'normal' }}>
+                        <div className="text-base font-normal text-white mb-1">
                           {conversation.title}
                         </div>
                         <div className="text-sm text-gray-400">
