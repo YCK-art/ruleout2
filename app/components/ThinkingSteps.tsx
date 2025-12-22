@@ -44,8 +44,13 @@ export default function ThinkingSteps({ steps, finishedText, isDark }: ThinkingS
         </span>
       </button>
 
-      {/* 타임라인 (확장 시) */}
-      {isExpanded && (
+      {/* 타임라인 (확장 시) - 부드러운 슬라이드 애니메이션 */}
+      <div
+        className={`overflow-hidden transition-all duration-500 ${
+          isExpanded ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        }`}
+        style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}
+      >
         <div className="pl-6 py-2 space-y-3">
           {steps.map((step, index) => {
             const Icon = IconMap[step.icon] || Sparkles;
@@ -87,7 +92,7 @@ export default function ThinkingSteps({ steps, finishedText, isDark }: ThinkingS
             );
           })}
         </div>
-      )}
+      </div>
     </div>
   );
 }

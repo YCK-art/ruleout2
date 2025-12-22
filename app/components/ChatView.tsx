@@ -26,6 +26,8 @@ import {
 } from "@/lib/guestLimit";
 import LoginModal from "./LoginModal";
 import ThinkingSteps from "./ThinkingSteps";
+import CitationBanner from "./CitationBanner";
+import OutOfScopeBanner from "./OutOfScopeBanner";
 import type { Message as BaseMessage, ThinkingStep } from "@/types/chat";
 
 // ChatView에서 사용하는 Message 타입 (timestamp를 optional로 확장)
@@ -66,6 +68,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [loadingStatus, setLoadingStatus] = useState<string>("");
   const currentThinkingSteps = useRef<ThinkingStep[]>([]);
   const thinkingStartTime = useRef<number>(0);
+  const [contextChunks, setContextChunks] = useState<any[]>([]);  // 🔥 누적 컨텍스트 저장
+  const [hoveredUserMessage, setHoveredUserMessage] = useState<number | null>(null);
+  const [copiedUserMessage, setCopiedUserMessage] = useState<number | null>(null);
 
   // User 상태 로깅
   useEffect(() => {
@@ -86,7 +91,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       references: "References",
       relatedQuestions: "Related Questions",
       generatingAnswer: "Synthesizing relevant information",
-      translating: "Translating question",
+      translating: "Understanding your question",
       embedding: "Converting to vector",
       searching: "Searching veterinary literature and clinical guidelines",
       stop: "Stop",
@@ -107,7 +112,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       references: "참고문헌",
       relatedQuestions: "관련 질문",
       generatingAnswer: "관련 정보 종합 중",
-      translating: "질문 번역 중",
+      translating: "질문 이해 중",
       embedding: "벡터로 변환 중",
       searching: "수의학 문헌 및 임상 가이드라인 검색 중",
       stop: "중지",
@@ -128,7 +133,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       references: "参考文献",
       relatedQuestions: "関連質問",
       generatingAnswer: "関連情報を統合中",
-      translating: "質問を翻訳中",
+      translating: "質問を理解中",
       embedding: "ベクトルに変換中",
       searching: "獣医学文献および臨床ガイドライン検索中",
       stop: "停止",
@@ -219,6 +224,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             setMessages(typedMessages);
             setCurrentConversationId(conversationId);
             setIsFavorite(conversation.isFavorite || false);
+            setContextChunks([]);  // 🔥 기존 대화 불러올 때 컨텍스트 초기화
           }
           // 대화 불러오기 완료 후 hasCalledAPI 리셋
           hasCalledAPI.current = false;
@@ -239,6 +245,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
         // 새 대화 시작
         hasCalledAPI.current = true;
+        setContextChunks([]);  // 🔥 새 대화 시작 시 컨텍스트 초기화
         queryAPI(initialQuestion, true);
       }
     };
@@ -270,6 +277,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     }
 
     setIsStreaming(true);
+    setLoadingStatus(currentContent.translating); // 즉시 로딩 표시 시작
 
     // Firebase에 사용자 메시지 저장 (Rewrite가 아닌 경우에만)
     if (user && currentConversationId && !skipUserMessage) {
@@ -307,8 +315,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         console.log("   마지막 메시지:", conversationHistory[conversationHistory.length - 1].role, conversationHistory[conversationHistory.length - 1].content.slice(0, 50));
       }
 
-      // 백엔드 SSE 스트리밍 호출 (대화 히스토리 포함)
+      // 백엔드 SSE 스트리밍 호출 (대화 히스토리 + 누적 컨텍스트 포함)
       console.log("🌐 프론트엔드에서 전송하는 언어:", language);
+      console.log("📚 프론트엔드에서 전송하는 이전 컨텍스트:", contextChunks.length, "개");
       const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
       const response = await fetch(`${backendUrl}/query-stream`, {
         method: "POST",
@@ -318,6 +327,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
         body: JSON.stringify({
           question: question,
           conversation_history: conversationHistory,
+          previous_context_chunks: contextChunks,  // 🔥 이전 컨텍스트 전달
           language: language, // 현재 선택된 언어 전송
         }),
         signal: abortControllerRef.current.signal, // AbortController 시그널 추가
@@ -341,22 +351,16 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       let finalFollowupQuestions: string[] = [];
       let hasError = false;
       let errorMessage = "";
-      let isFirstChunk = true;
 
       // 사고 과정 초기화
       currentThinkingSteps.current = [];
       thinkingStartTime.current = Date.now();
 
-      // 임시 assistant 메시지 생성 (실시간 업데이트용)
-      const tempAssistantMessage: Message = {
-        role: "assistant",
-        content: "",
-        isStreaming: true,
-        timestamp: new Date(),
-      };
-      setMessages((prev) => [...prev, tempAssistantMessage]);
+      // SSE 스트림 읽기 (assistant 메시지는 첫 청크에서 생성)
+      const streamStartTime = Date.now();
+      console.log(`🕐 [0ms] SSE stream reading started at ${new Date().toISOString()}`);
+      let assistantMessageCreated = false;
 
-      // SSE 스트림 읽기
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
@@ -372,23 +376,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
               // 로딩 상태 업데이트 및 사고 과정 단계 수집
               const now = Date.now();
+              const elapsed = now - streamStartTime;
+              console.log(`🕐 [+${elapsed}ms] Received event: ${data.status}`);
 
-              if (data.status === "rewriting") {
-                setLoadingStatus("대화 맥락을 분석하여 질문 재작성 중...");
-                currentThinkingSteps.current.push({
-                  icon: "RefreshCw",
-                  text: "질문 재작성 중",
-                  timestamp: now
-                });
-                console.log("📝 Added rewriting step:", currentThinkingSteps.current);
-              } else if (data.status === "translating") {
-                // 이전 단계(rewriting)의 duration 계산
-                if (currentThinkingSteps.current.length > 0) {
-                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
-                  if (!lastStep.duration) {
-                    lastStep.duration = now - lastStep.timestamp;
-                  }
-                }
+              if (data.status === "translating") {
                 setLoadingStatus(currentContent.translating);
                 currentThinkingSteps.current.push({
                   icon: "Languages",
@@ -427,6 +418,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 });
                 console.log("📝 Added searching step:", currentThinkingSteps.current);
               } else if (data.status === "generating") {
+                console.log(`🕐 [+${elapsed}ms] 🔵 GENERATING event received`);
                 // 이전 단계(searching)의 duration 계산
                 if (currentThinkingSteps.current.length > 0) {
                   const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
@@ -440,50 +432,61 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   text: currentContent.generatingAnswer,
                   timestamp: now
                 });
-                console.log("📝 Added generating step:", currentThinkingSteps.current);
+                console.log(`🕐 [+${elapsed}ms] 📝 Added generating step to thinking steps`);
               }
 
               if (data.status === "streaming") {
+                console.log(`🕐 [+${elapsed}ms] 🟢 STREAMING chunk received (${data.chunk?.length || 0} chars)`);
                 // 실시간 스트리밍 청크 수신 (ChatGPT처럼 타이핑 효과)
                 streamingAnswer += data.chunk;
 
-                // 첫 번째 스트리밍 청크일 때 thinking steps 추가
-                if (isFirstChunk && currentThinkingSteps.current.length > 0) {
-                  isFirstChunk = false;
+                // 첫 번째 스트리밍 청크일 때 assistant 메시지 생성 및 thinking steps 추가
+                if (!assistantMessageCreated) {
+                  assistantMessageCreated = true;
+                  console.log(`🕐 [+${elapsed}ms] 🎯 FIRST STREAMING CHUNK - creating assistant message`);
+
+                  // 로딩 상태 즉시 제거 (텍스트가 보일 준비 완료)
+                  setLoadingStatus("");
 
                   // 마지막 단계(generating)의 duration 계산
                   const now = Date.now();
-                  const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
-                  if (!lastStep.duration) {
-                    lastStep.duration = now - lastStep.timestamp;
+                  if (currentThinkingSteps.current.length > 0) {
+                    const lastStep = currentThinkingSteps.current[currentThinkingSteps.current.length - 1];
+                    if (!lastStep.duration) {
+                      lastStep.duration = now - lastStep.timestamp;
+                    }
                   }
 
+                  // assistant 메시지 생성 (thinking steps와 첫 content 포함)
+                  const tempAssistantMessage: Message = {
+                    role: "assistant",
+                    content: streamingAnswer,
+                    isStreaming: true,
+                    timestamp: new Date(),
+                    thinkingSteps: currentThinkingSteps.current.length > 0 ? [...currentThinkingSteps.current] : undefined,
+                  };
+                  setMessages((prev) => [...prev, tempAssistantMessage]);
+                  console.log(`🕐 [+${elapsed}ms] ✨ Assistant message created with thinking steps and first content`);
+                } else {
+                  // 실시간으로 UI 업데이트 (타이핑 애니메이션 효과)
                   setMessages((prev) => {
                     const newMessages = [...prev];
                     const lastMsg = newMessages[newMessages.length - 1];
                     if (lastMsg && lastMsg.role === "assistant") {
-                      lastMsg.thinkingSteps = [...currentThinkingSteps.current];
-                      console.log("✨ Added thinking steps at streaming start:", lastMsg.thinkingSteps);
+                      lastMsg.content = streamingAnswer;
+                      lastMsg.isStreaming = true;
                     }
                     return newMessages;
                   });
+                  console.log(`🕐 [+${elapsed}ms] 💬 UI UPDATED: Content length = ${streamingAnswer.length}`);
                 }
-
-                // 실시간으로 UI 업데이트 (타이핑 애니메이션 효과)
-                setMessages((prev) => {
-                  const newMessages = [...prev];
-                  const lastMsg = newMessages[newMessages.length - 1];
-                  if (lastMsg && lastMsg.role === "assistant") {
-                    lastMsg.content = streamingAnswer;
-                    lastMsg.isStreaming = true;
-                  }
-                  return newMessages;
-                });
               } else if (data.status === "references_ready") {
                 // 🚀 스트리밍 완료 직후 참고문헌 즉시 표시
                 console.log("📚 References ready - 즉시 표시");
+                // 백엔드에서 remapped된 답변 사용 (citation 번호가 0부터 시작하도록 재정렬됨)
                 finalAnswer = data.answer || streamingAnswer;
                 finalReferences = data.references || [];
+                console.log("🔗 Received remapped answer:", finalAnswer.substring(0, 200));
                 console.log("🔗 Received references immediately:", finalReferences);
 
                 // 참고문헌 즉시 UI 업데이트 (isStreaming = false로 설정하여 버튼과 참고문헌 표시)
@@ -491,17 +494,26 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   const newMessages = [...prev];
                   const lastMsg = newMessages[newMessages.length - 1];
                   if (lastMsg && lastMsg.role === "assistant") {
-                    lastMsg.content = finalAnswer;  // 재매핑된 답변으로 교체
+                    lastMsg.content = finalAnswer;  // remapped된 답변 사용
                     lastMsg.references = finalReferences;
                     lastMsg.thinkingSteps = currentThinkingSteps.current.length > 0 ? [...currentThinkingSteps.current] : undefined;
                     lastMsg.isStreaming = false;  // 스트리밍 완료 표시
-                    console.log("✅ References added immediately");
+                    console.log("✅ References added immediately with remapped answer");
                   }
                   return newMessages;
                 });
               } else if (data.status === "done") {
-                // 🚀 후속 질문만 추가 (References는 이미 references_ready에서 처리됨)
+                // 🚀 스트리밍 완료 (References는 이미 references_ready에서 처리됨)
                 setLoadingStatus(""); // 로딩 완료
+                console.log("✅ Streaming done event received");
+
+                // 🔥 누적 컨텍스트 저장 (다음 질문에서 사용)
+                if (data.context_chunks) {
+                  setContextChunks(data.context_chunks);
+                  console.log("📚 컨텍스트 저장 완료:", data.context_chunks.length, "개");
+                }
+              } else if (data.status === "followup_ready") {
+                // 🚀 후속 질문이 준비되면 추가
                 finalFollowupQuestions = data.followup_questions || [];
                 console.log("📊 Received follow-up questions:", finalFollowupQuestions);
 
@@ -522,6 +534,29 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   }
                   return newMessages;
                 });
+              } else if (data.status === "out_of_scope") {
+                // 범위 밖 질문 처리
+                setLoadingStatus("");
+                console.log("⚠️  Out of scope query detected in frontend");
+
+                // 사용자 질문 메시지 제거
+                setMessages((prev) => {
+                  const newMessages = prev.filter(msg => msg.role !== "user" || msg.content !== question);
+                  return newMessages;
+                });
+
+                // Assistant 메시지를 out_of_scope로 표시
+                setMessages((prev) => {
+                  const newMessages = [...prev];
+                  const lastMsg = newMessages[newMessages.length - 1];
+                  if (lastMsg && lastMsg.role === "assistant") {
+                    lastMsg.isOutOfScope = true;
+                    lastMsg.isStreaming = false;
+                    lastMsg.content = ""; // 내용은 비움
+                  }
+                  return newMessages;
+                });
+                return; // 더 이상 처리하지 않음
               } else if (data.status === "error") {
                 setLoadingStatus(""); // 에러 시에도 로딩 상태 초기화
                 hasError = true;
@@ -889,6 +924,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     setTimeout(() => setCopiedIndex(null), 2000);
   };
 
+  // 유저 메시지 복사
+  const handleCopyUserMessage = async (content: string, index: number) => {
+    try {
+      await navigator.clipboard.writeText(content);
+      setCopiedUserMessage(index);
+      setTimeout(() => setCopiedUserMessage(null), 2000);
+    } catch (err) {
+      console.error('Failed to copy user message:', err);
+    }
+  };
+
   // PDF 내보내기 - HTML을 이용한 방식
   const handleExportToPDF = (userMessage: string, assistantMessage: Message) => {
     // 새 창에서 프린트 가능한 HTML 생성
@@ -918,7 +964,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     let referencesHTML = '';
     if (assistantMessage.references && assistantMessage.references.length > 0) {
       const referencesList = assistantMessage.references
-        .map((ref, index) => `
+        .map((ref: any, index: number) => `
           <div class="reference-item">
             <span class="reference-number">[${index + 1}]</span>
             <div class="reference-content">
@@ -1139,140 +1185,54 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     }
   };
 
-  // Citation 문자열에서 모든 참고문헌 번호 추출
-  const parseCitationNumbers = (citation: string): number[] => {
-    const numbers: number[] = [];
-    // [1], [1-5], [1,3,5] 같은 형태에서 [] 제거
-    const content = citation.replace(/[\[\]]/g, '');
+  // {{citation:N}} 또는 {citation:N} 파싱 및 CitationBanner 렌더링 함수
+  const processCitations = (text: string, references: any[], messageIndex: number, isStreaming: boolean): any => {
+    // 스트리밍 중이든 완료 후든 항상 배너로 표시
+    // {{citation:0}}, {{citation:0,1,2}} 형태만 파싱하여 배너로 표시
+    // 🔥 정확한 매칭: 반드시 {{로 시작하고 }}로 끝나야 함
+    const parts = text.split(/(\{\{citation:\d+(?:,\d+)*\}\})/g);
 
-    // 쉼표로 분리
-    const parts = content.split(',').map(p => p.trim());
-
-    parts.forEach(part => {
-      if (part.includes('-')) {
-        // 범위: "1-5" -> [1,2,3,4,5]
-        const [start, end] = part.split('-').map(n => parseInt(n.trim()));
-        for (let i = start; i <= end; i++) {
-          numbers.push(i);
-        }
-      } else {
-        // 단일 숫자: "3" -> [3]
-        numbers.push(parseInt(part));
-      }
-    });
-
-    return numbers;
-  };
-
-  // 각주 클릭 시 스크롤 및 하이라이트
-  const scrollToReference = (citation: string, messageIndex: number) => {
-    const refNumbers = parseCitationNumbers(citation);
-
-    // 첫 번째 참고문헌으로 스크롤
-    if (refNumbers.length > 0) {
-      const firstRefElement = document.getElementById(`ref-${messageIndex}-${refNumbers[0]}`);
-      if (firstRefElement) {
-        firstRefElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }
-
-    // 모든 해당 참고문헌 하이라이트
-    refNumbers.forEach(num => {
-      const refElement = document.getElementById(`ref-${messageIndex}-${num}`);
-      if (refElement) {
-        refElement.classList.add('bg-orange-900/30');
-        setTimeout(() => refElement.classList.remove('bg-orange-900/30'), 2000);
-      }
-    });
-  };
-
-  // 연속된 citation을 범위로 변환하는 함수
-  const formatCitationRange = (citation: string): string => {
-    // [1], [2], [3] -> [1-3]
-    // [1], [3], [5] -> [1,3,5] (연속되지 않음)
-    const content = citation.replace(/[\[\]]/g, '');
-    const parts = content.split(',').map(p => p.trim());
-    const numbers: number[] = [];
-
-    parts.forEach(part => {
-      if (part.includes('-')) {
-        const [start, end] = part.split('-').map(n => parseInt(n.trim()));
-        for (let i = start; i <= end; i++) {
-          numbers.push(i);
-        }
-      } else {
-        numbers.push(parseInt(part));
-      }
-    });
-
-    // 중복 제거 및 정렬
-    const uniqueNumbers = Array.from(new Set(numbers)).sort((a, b) => a - b);
-
-    // 연속된 숫자를 범위로 그룹화
-    const ranges: string[] = [];
-    let rangeStart = uniqueNumbers[0];
-    let rangeEnd = uniqueNumbers[0];
-
-    for (let i = 1; i <= uniqueNumbers.length; i++) {
-      if (i < uniqueNumbers.length && uniqueNumbers[i] === rangeEnd + 1) {
-        rangeEnd = uniqueNumbers[i];
-      } else {
-        if (rangeStart === rangeEnd) {
-          ranges.push(`${rangeStart}`);
-        } else if (rangeEnd === rangeStart + 1) {
-          // 2개만 연속일 경우 쉼표로 표시
-          ranges.push(`${rangeStart}`, `${rangeEnd}`);
-        } else {
-          // 3개 이상 연속일 경우 범위로 표시
-          ranges.push(`${rangeStart}-${rangeEnd}`);
-        }
-        if (i < uniqueNumbers.length) {
-          rangeStart = uniqueNumbers[i];
-          rangeEnd = uniqueNumbers[i];
-        }
-      }
-    }
-
-    return `[${ranges.join(',')}]`;
-  };
-
-  // Citation 처리 함수 (messageIndex와 isStreaming을 파라미터로 받음)
-  const processCitations = (text: string, messageIndex: number, isStreaming: boolean) => {
-    // 먼저 연속된 [숫자] 패턴을 하나로 합침: [3][4][5] -> [3,4,5]
-    const mergedText = text.replace(/(\[\d+\])(\[\d+\])+/g, (match) => {
-      const numbers = match.match(/\d+/g);
-      return numbers ? `[${numbers.join(',')}]` : match;
-    });
-
-    const parts = mergedText.split(/(\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\])/g);
     return parts.map((part: string, index: number) => {
-      if (/^\[\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\]$/.test(part)) {
-        const formattedCitation = formatCitationRange(part);
-        // citation 내부의 괄호, 숫자, 하이픈, 쉼표 모두 민트색으로 표시
-        return (
-          <sup
-            key={index}
-            onClick={() => scrollToReference(part, messageIndex)}
-            className="text-[0.65em] font-medium ml-0.5 cursor-pointer transition-colors"
-            style={{ color: '#5AC8D8' }}
-          >
-            {formattedCitation}
-          </sup>
-        );
+      // 🔥 정확한 citation 태그만 매칭 (잘못된 태그는 무시)
+      const match = part.match(/^\{\{citation:(\d+(?:,\d+)*)\}\}$/);
+      if (match) {
+        // citation 인덱스 추출 (쉼표로 구분된 숫자들)
+        const citationIndices = match[1].split(',').map(n => parseInt(n.trim()));
+
+        // 🔥 유효한 citation인지 확인 (references 범위 내)
+        const validIndices = citationIndices.filter(idx => !isNaN(idx) && idx >= 0);
+
+        if (validIndices.length > 0) {
+          return (
+            <CitationBanner
+              key={index}
+              citationIndices={validIndices}
+              references={references}
+              messageIndex={messageIndex}
+            />
+          );
+        }
       }
+
+      // 🔥 잘못된 citation 태그가 있으면 숨김 처리 (스트리밍 완료 후에만)
+      if (!isStreaming && part.includes('citation:') && part.includes('}}')) {
+        console.warn("⚠️ Invalid citation tag detected:", part);
+        return null; // 잘못된 태그는 렌더링하지 않음
+      }
+
       return part;
     });
   };
 
-  // 재귀적으로 children 처리 (messageIndex와 isStreaming을 파라미터로 받음)
-  const processChildrenWithCitations = (children: any, messageIndex: number, isStreaming: boolean): any => {
+  // 재귀적으로 children 처리
+  const processChildrenWithCitations = (children: any, references: any[], messageIndex: number, isStreaming: boolean): any => {
     if (typeof children === 'string') {
-      return processCitations(children, messageIndex, isStreaming);
+      return processCitations(children, references, messageIndex, isStreaming);
     }
     if (Array.isArray(children)) {
       return children.map((child, idx) => {
         if (typeof child === 'string') {
-          return <span key={idx}>{processCitations(child, messageIndex, isStreaming)}</span>;
+          return <span key={idx}>{processCitations(child, references, messageIndex, isStreaming)}</span>;
         }
         return child;
       });
@@ -1280,10 +1240,18 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     return children;
   };
 
-  // Markdown 렌더링 시 citation 처리 (messageIndex와 isStreaming을 받는 함수로 변경)
-  const createComponents = (messageIndex: number, isStreaming: boolean) => ({
+  // 영어 텍스트 감지 함수
+  const isEnglishText = (text: string): boolean => {
+    // 영어 알파벳이 전체 텍스트의 50% 이상이면 영어로 판단
+    const englishChars = text.match(/[a-zA-Z]/g);
+    const totalChars = text.replace(/\s/g, '').length;
+    return englishChars ? (englishChars.length / totalChars) > 0.5 : false;
+  };
+
+  // Markdown 렌더링 시 citation 처리 (messageIndex, references, isStreaming을 받는 함수로 변경)
+  const createComponents = (messageIndex: number, references: any[], isStreaming: boolean) => ({
     p: ({ children, ...props }: any) => {
-      return <p {...props}>{processChildrenWithCitations(children, messageIndex, isStreaming)}</p>;
+      return <p {...props}>{processChildrenWithCitations(children, references, messageIndex, isStreaming)}</p>;
     },
     h2: ({ children, ...props }: any) => (
       <h2 className="text-xl font-bold mt-6 mb-3 text-white" {...props}>{children}</h2>
@@ -1299,7 +1267,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
     ),
     li: ({ children, ...props }: any) => (
       <li className="text-gray-200 leading-relaxed pl-2" {...props}>
-        {processChildrenWithCitations(children, messageIndex, isStreaming)}
+        {processChildrenWithCitations(children, references, messageIndex, isStreaming)}
       </li>
     ),
     table: ({ children, node, ...props }: any) => {
@@ -1345,10 +1313,10 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       <tr className="hover:bg-[#4DB8C4]/10 transition-colors duration-150" {...props}>{children}</tr>
     ),
     th: ({ children, ...props }: any) => (
-      <th className="border border-gray-600 px-4 py-2 text-left font-semibold" {...props}>{processChildrenWithCitations(children, messageIndex, isStreaming)}</th>
+      <th className="border border-gray-600 px-4 py-2 text-left font-semibold" {...props}>{processChildrenWithCitations(children, references, messageIndex, isStreaming)}</th>
     ),
     td: ({ children, ...props }: any) => (
-      <td className="border border-gray-600 px-4 py-2" {...props}>{processChildrenWithCitations(children, messageIndex, isStreaming)}</td>
+      <td className="border border-gray-600 px-4 py-2" {...props}>{processChildrenWithCitations(children, references, messageIndex, isStreaming)}</td>
     ),
   });
 
@@ -1407,41 +1375,74 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
             <div key={index}>
               {message.role === "user" ? (
                 // 사용자 메시지
-                <div className="flex justify-end mb-4">
-                  <div className="bg-[#2a2a2a] rounded-2xl px-6 py-4 max-w-2xl">
-                    <p className="text-white whitespace-pre-wrap">{message.content}</p>
+                <div
+                  className="flex justify-end mb-4 group"
+                  onMouseEnter={() => setHoveredUserMessage(index)}
+                  onMouseLeave={() => setHoveredUserMessage(null)}
+                >
+                  <div className="flex items-start space-x-2">
+                    {/* 복사 버튼 - 호버 시에만 표시 */}
+                    {hoveredUserMessage === index && (
+                      <button
+                        onClick={() => handleCopyUserMessage(message.content, index)}
+                        className="p-2 rounded-lg hover:bg-gray-700 transition-all mt-2"
+                        title={copiedUserMessage === index ? "Copied!" : "Copy message"}
+                      >
+                        {copiedUserMessage === index ? (
+                          <Check className="w-4 h-4 text-green-400" />
+                        ) : (
+                          <Copy className="w-4 h-4 text-gray-400" />
+                        )}
+                      </button>
+                    )}
+                    <div className="bg-[#2a2a2a] rounded-2xl px-6 py-4 max-w-2xl">
+                      <p className="text-white whitespace-pre-wrap">{message.content}</p>
+                    </div>
                   </div>
                 </div>
               ) : (
                 // AI 메시지
                 <div className="space-y-4">
-                  <div className="flex items-start md:space-x-3">
-                    <Image
-                      src="/image/clinical4-Photoroom.png"
-                      alt="Ruleout AI"
-                      width={32}
-                      height={32}
-                      className="hidden md:block rounded-full flex-shrink-0 mt-1"
+                  {message.isOutOfScope ? (
+                    // Out of Scope 배너만 표시 (사용자 질문은 이미 제거됨)
+                    <OutOfScopeBanner
+                      onClose={() => {
+                        setMessages((prev) => prev.filter((_, i) => i !== index));
+                      }}
+                      isDark={true}
                     />
-                    <div className="flex-1 min-w-0 w-full">
-                      {/* 사고 과정 (Thinking Steps) - 스트리밍 시작되면 바로 표시 */}
-                      {message.thinkingSteps && message.thinkingSteps.length > 0 && (
-                        <ThinkingSteps
-                          steps={message.thinkingSteps}
-                          finishedText={currentContent.finishedThinking}
-                          isDark={true}
-                        />
-                      )}
+                  ) : (
+                    <div className="flex items-start md:space-x-3">
+                      <Image
+                        src="/image/clinical4-Photoroom.png"
+                        alt="Ruleout AI"
+                        width={32}
+                        height={32}
+                        className="hidden md:block rounded-full flex-shrink-0 mt-1"
+                      />
+                      <div className="flex-1 min-w-0 w-full">
+                        {/* 사고 과정 (Thinking Steps) - 스트리밍 시작되면 바로 표시 */}
+                        {message.thinkingSteps && message.thinkingSteps.length > 0 && (
+                          <ThinkingSteps
+                            steps={message.thinkingSteps}
+                            finishedText={currentContent.finishedThinking}
+                            isDark={true}
+                          />
+                        )}
 
-                      {/* AI 답변 */}
-                      <div className="text-gray-200 prose prose-invert max-w-none">
-                        <ReactMarkdown
-                          remarkPlugins={[remarkGfm]}
-                          components={createComponents(index, message.isStreaming || false)}
+                        {/* AI 답변 */}
+                        <div
+                          className={`text-gray-200 prose prose-invert max-w-none ${
+                            isEnglishText(message.content) ? 'font-baskervville' : ''
+                          }`}
                         >
-                          {message.content}
-                        </ReactMarkdown>
-                      </div>
+                          <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            components={createComponents(index, message.references || [], message.isStreaming || false) as any}
+                          >
+                            {message.content}
+                          </ReactMarkdown>
+                        </div>
 
                       {/* 액션 버튼들 */}
                       {!message.isStreaming && (
@@ -1514,7 +1515,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
                       {/* 참고문헌 */}
                       {message.references && message.references.length > 0 && !message.isStreaming && (
-                        <div className="mt-6 pt-6 border-t border-gray-700">
+                        <div className="mt-6 pt-6 border-t border-gray-700 mb-6">
                           <button
                             onClick={() => setReferencesCollapsed({
                               ...referencesCollapsed,
@@ -1534,12 +1535,13 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                           </button>
 
                           <div
-                            className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                              referencesCollapsed[index] ? 'max-h-0' : 'max-h-[2000px]'
+                            className={`overflow-hidden transition-all duration-500 ${
+                              referencesCollapsed[index] ? 'max-h-0 opacity-0' : 'max-h-[5000px] opacity-100'
                             }`}
+                            style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}
                           >
                             <div className="space-y-3">
-                              {message.references.map((ref, refIdx) => (
+                              {message.references.map((ref: any, refIdx: number) => (
                                 <div
                                   key={refIdx}
                                   id={`ref-${index}-${refIdx + 1}`}
@@ -1635,13 +1637,14 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                       )}
                     </div>
                   </div>
+                  )}
                 </div>
               )}
             </div>
           ))}
 
           {/* 로딩 표시 */}
-          {isStreaming && messages[messages.length - 1]?.role === "user" && (
+          {isStreaming && loadingStatus && (
             <div className="flex flex-col items-center space-y-6">
               <div className="flex items-start space-x-3 w-full">
                 <Image
@@ -1652,9 +1655,31 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   className="rounded-full flex-shrink-0"
                 />
                 <div className="flex items-center space-x-2 text-gray-400">
+                  <div
+                    className="text-sm shimmer-text"
+                    style={{
+                      background: 'linear-gradient(90deg, rgba(156, 163, 175, 0.4) 0%, rgba(156, 163, 175, 1) 50%, rgba(156, 163, 175, 0.4) 100%)',
+                      backgroundSize: '200% 100%',
+                      animation: 'shimmer 3.5s infinite',
+                      WebkitBackgroundClip: 'text',
+                      WebkitTextFillColor: 'transparent',
+                      backgroundClip: 'text',
+                    }}
+                  >
+                    {loadingStatus || currentContent.generatingAnswer}
+                  </div>
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  <div className="text-sm">{loadingStatus || currentContent.generatingAnswer}</div>
                 </div>
+                <style jsx>{`
+                  @keyframes shimmer {
+                    0% {
+                      background-position: -200% 0;
+                    }
+                    100% {
+                      background-position: 200% 0;
+                    }
+                  }
+                `}</style>
               </div>
 
               {/* Stop 버튼 */}
@@ -1704,7 +1729,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           )}
 
           <form onSubmit={handleSubmit}>
-            <div className="flex items-center bg-[#2a2a2a] rounded-2xl border border-gray-700 px-4 md:px-6 pr-2 py-1 md:py-2.5 hover:border-gray-600 transition-colors">
+            <div className="flex items-center bg-[#2a2a2a] rounded-2xl border border-gray-700 px-4 md:px-6 pr-2 py-2 hover:border-gray-600 transition-colors">
               <textarea
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
@@ -1715,17 +1740,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   }
                 }}
                 placeholder={currentContent.placeholder}
-                className="flex-1 bg-transparent outline-none text-white placeholder-gray-500 resize-none max-h-[200px] overflow-y-auto"
+                className="flex-1 bg-transparent outline-none text-white placeholder-gray-500 resize-none max-h-[120px] overflow-y-auto"
                 disabled={isStreaming}
                 rows={1}
                 style={{
-                  height: '24px',
-                  lineHeight: '24px'
+                  height: '20px',
+                  lineHeight: '20px'
                 }}
                 onInput={(e) => {
                   const target = e.target as HTMLTextAreaElement;
-                  target.style.height = '24px';
-                  target.style.height = `${Math.min(target.scrollHeight, 200)}px`;
+                  target.style.height = '20px';
+                  target.style.height = `${Math.min(target.scrollHeight, 120)}px`;
                 }}
               />
               <button

@@ -32,3 +32,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# logs
+*.log
+
+# frontend and backend directories node_modules
+frontend/node_modules/
+frontend/.next/
+backend/venv/
+
+# data pipeline
+data-pipeline/guidelines/
+data-pipeline/__pycache__/
+data-pipeline/*.log
+data-pipeline/*.json

@@ -29,6 +29,7 @@ export interface Message {
   isStreaming?: boolean;
   feedback?: 'like' | 'dislike' | null;
   thinkingSteps?: ThinkingStep[]; // 사고 과정 단계들
+  isOutOfScope?: boolean; // 문서 범위 밖 질문
 }
 
 export interface Conversation {

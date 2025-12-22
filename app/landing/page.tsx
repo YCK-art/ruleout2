@@ -233,8 +233,8 @@ export default function LandingPage() {
         }
       ],
       partners: {
-        subtitle: "Partners",
-        title: "Ruleout is a leading veterinary medicine platform"
+        subtitle: "Journals",
+        title: "Evidence-informed veterinary medicine, built for clinicians"
       },
       features: {
         title: "Clinically intelligent, Instantly responsive.",
@@ -679,10 +679,10 @@ export default function LandingPage() {
       </div>
 
       {/* Partners Section */}
-      <div className={`${effectiveTheme === "light" ? "bg-gray-50" : "bg-[#212121]"} py-20`}>
+      <div className={`${effectiveTheme === "light" ? "bg-gray-50" : "bg-[#212121]"} py-12`}>
         <div className="max-w-7xl mx-auto px-6">
           {/* Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <p className="text-[#20808D] text-2xl font-semibold mb-4" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>{currentContent.partners.subtitle}</p>
             <h2 className={`text-3xl font-bold ${effectiveTheme === "light" ? "text-gray-900" : "text-white"} mb-6`} style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
               {currentContent.partners.title}
@@ -766,6 +766,13 @@ export default function LandingPage() {
                 className="object-contain"
               />
             </div>
+          </div>
+
+          {/* Footnote */}
+          <div className="text-right mt-6">
+            <p className="text-xs text-gray-500" style={{ fontFamily: "'TikTok Sans', sans-serif" }}>
+              Journal logos are the property of their respective owners. Display does not imply endorsement or affiliation.
+            </p>
           </div>
         </div>
       </div>

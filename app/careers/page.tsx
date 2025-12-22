@@ -227,16 +227,17 @@ export default function CareersPage() {
                     <div className="flex-1">
                       {/* Job Title and Badge */}
                       <div className="flex items-center gap-3 mb-3">
-                        <h3 className={`text-xl font-semibold group-hover:text-[#4DB8C4] transition-colors ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+                        <h3 className={`text-lg md:text-xl font-semibold group-hover:text-[#4DB8C4] transition-colors ${effectiveTheme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
                           {job.title}
                         </h3>
-                        <span className="px-3 py-1 bg-[#20808D]/20 text-[#4DB8C4] text-xs font-medium rounded-full border border-[#20808D]/30">
+                        {/* Badge - Hidden on mobile */}
+                        <span className="hidden md:inline-block px-3 py-1 bg-[#20808D]/20 text-[#4DB8C4] text-xs font-medium rounded-full border border-[#20808D]/30">
                           {job.type}
                         </span>
                       </div>
 
-                      {/* Location and Compensation */}
-                      <div className={`flex items-center gap-4 text-sm ${effectiveTheme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
+                      {/* Location and Compensation - Hidden on mobile */}
+                      <div className={`hidden md:flex items-center gap-4 text-sm ${effectiveTheme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
                         <div className="flex items-center gap-2">
                           <span className="text-lg">🇰🇷</span>
                           <span>{job.location}</span>
@@ -252,7 +253,7 @@ export default function CareersPage() {
                         e.stopPropagation();
                         router.push(`/careers/${job.slug}`);
                       }}
-                      className={`px-5 py-2 font-medium rounded-lg hover:scale-105 transition-all ml-6 ${effectiveTheme === 'dark' ? 'bg-white text-black hover:bg-gray-300' : 'bg-gray-900 text-white hover:bg-gray-700'}`}
+                      className={`px-4 md:px-5 py-2 text-sm md:text-base font-medium rounded-lg hover:scale-105 transition-all ml-4 md:ml-6 ${effectiveTheme === 'dark' ? 'bg-white text-black hover:bg-gray-300' : 'bg-gray-900 text-white hover:bg-gray-700'}`}
                     >
                       {t.applyNow}
                     </button>

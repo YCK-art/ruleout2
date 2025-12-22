@@ -34,8 +34,46 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('/fonts/NotoSerif-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+/* 영어 답변용 Noto Serif 폰트 클래스 */
+.font-baskervville {
+  font-family: 'Noto Serif', serif !important;
+}
+
+.font-baskervville * {
+  font-family: 'Noto Serif', serif !important;
+}
+
+.font-baskervville strong,
+.font-baskervville b {
+  font-family: 'Noto Serif', serif !important;
+  font-weight: 700 !important;
+}
+
+.font-baskervville em,
+.font-baskervville i {
+  font-family: 'Noto Serif', serif !important;
+  font-style: italic !important;
+}
+
+/* 답변 텍스트 줄 간격 조정 */
+.prose p {
+  line-height: 1.6 !important;
+}
+
+.prose {
+  line-height: 1.6 !important;
 }
 
 body {

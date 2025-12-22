@@ -998,12 +998,212 @@ export default function SettingsPage() {
             {/* Account Tab */}
             {activeTab === "account" && (
               <div>
+                <h1 className="text-2xl font-semibold mb-12">{currentContent.account.title}</h1>
+
+                {/* Profile section */}
+                <div className="space-y-0">
+                  {/* Profile picture */}
+                  <div className="flex items-center py-4 border-b border-gray-800">
+                    <div className="flex items-center space-x-4">
+                      {user.photoURL ? (
+                        <Image
+                          src={user.photoURL}
+                          alt="Profile"
+                          width={48}
+                          height={48}
+                          className="rounded-full"
+                        />
+                      ) : (
+                        <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-lg font-semibold" style={{ backgroundColor: '#20808D' }}>
+                          {user.displayName?.charAt(0)?.toUpperCase() || user.email?.charAt(0)?.toUpperCase() || 'U'}
+                        </div>
+                      )}
+                      <div>
+                        <h3 className="text-base font-medium text-gray-200">{user.displayName || 'User'}</h3>
+                        <p className="text-sm text-gray-500">{user.email?.split('@')[0] || ''}</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Full name */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div className="flex-1">
+                      <label className="block text-sm font-medium text-gray-300 mb-1">
+                        {currentContent.account.fullName}
+                      </label>
+                      <p className="text-sm text-gray-500">{user.displayName || currentContent.account.notSet}</p>
+                    </div>
+                    <button
+                      onClick={() => {
+                        setNewName(user.displayName || '');
+                        setShowNameModal(true);
+                      }}
+                      className="px-4 py-2 text-sm border border-gray-700 rounded-lg hover:bg-gray-800 transition-colors"
+                    >
+                      {currentContent.account.changeName}
+                    </button>
+                  </div>
+
+                  {/* Username */}
+                  <div className="flex items-center justify-between py-4 border-b border-gray-800">
+                    <div className="flex-1">
+                      <label className="block text-sm font-medium text-gray-300 mb-1">
+                        {currentContent.account.username}
+                      </label>
+                      <p className="text-sm text-gray-500">{user.email?.split('@')[0] || currentContent.account.notSet}</p>
+                    </div>
+                    <button
+                      onClick={() => {
+                        setNewUsername(user.email?.split('@')[0] || '');
+                        setShowUsernameModal(true);
+                      }}
+                      className="px-4 py-2 text-sm border border-gray-700 rounded-lg hover:bg-gray-800 transition-colors"
+                    >
+                      {currentContent.account.changeUsername}
+                    </button>
+                  </div>
+
+                  {/* Email */}
+                  <div className="py-4 border-b border-gray-800">
+                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                      {currentContent.account.email}
+                    </label>
+                    <p className="text-sm text-gray-500">{user.email}</p>
+                  </div>
+                </div>
+
+                {/* Permissions section */}
+                <div className="mt-12">
+                  <h2 className="text-lg font-semibold mb-6">{currentContent.account.permissions.title}</h2>
+                  <div className="space-y-4">
+                    <div className="p-4 bg-[#2a2a2a] border border-gray-700 rounded-lg">
+                      <h3 className="text-sm font-medium text-gray-200 mb-2">
+                        {currentContent.account.permissions.proFeatures}
+                      </h3>
+                      <p className="text-xs text-gray-500 mb-4">
+                        {currentContent.account.permissions.proDescription}
+                      </p>
+                      <div className="flex items-center space-x-3">
+                        <button className="px-4 py-2 text-sm rounded-lg transition-colors" style={{ backgroundColor: '#20808D', color: 'white' }}>
+                          {currentContent.account.permissions.upgradeNow}
+                        </button>
+                        <button className="px-4 py-2 text-sm border border-gray-700 rounded-lg hover:bg-gray-800 transition-colors">
+                          {currentContent.account.permissions.learnMore}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Occupation section */}
+                <div className="mt-8">
+                  <h2 className="text-lg font-semibold mb-6">{currentContent.account.occupation.title}</h2>
+                  <div className="p-6 bg-[#2a2a2a] border border-gray-700 rounded-lg">
+                    <div className="mb-6">
+                      <label className="block text-sm font-medium text-gray-300 mb-2">
+                        {currentContent.account.occupation.label}
+                      </label>
+                      <div className="relative">
+                        <select className="appearance-none w-full px-4 py-2.5 pr-10 bg-[#1a1a1a] border border-gray-700 rounded-lg text-white text-sm focus:outline-none focus:border-gray-600 cursor-pointer">
+                          <option>{currentContent.account.occupation.selectPlaceholder}</option>
+                          <option>{currentContent.account.occupation.veterinarian}</option>
+                          <option>{currentContent.account.occupation.student}</option>
+                          <option>{currentContent.account.occupation.nurse}</option>
+                          <option>{currentContent.account.occupation.technician}</option>
+                          <option>{currentContent.account.occupation.researcher}</option>
+                          <option>{currentContent.account.occupation.other}</option>
+                        </select>
+                        <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                      </div>
+                    </div>
+
+                    <div className="p-4 bg-[#1a1a1a] border border-gray-700 rounded-lg">
+                      <h3 className="text-center text-base font-semibold text-gray-200 mb-3">
+                        {currentContent.account.occupation.credentials}
+                      </h3>
+                      <p className="text-xs text-gray-400 text-center mb-6">
+                        {currentContent.account.occupation.credentialsDescription}
+                      </p>
+
+                      <div className="space-y-4">
+                        <div>
+                          <label className="block text-xs font-medium text-gray-400 mb-2">
+                            {currentContent.account.occupation.school}
+                          </label>
+                          <input
+                            type="text"
+                            placeholder={currentContent.account.occupation.schoolPlaceholder}
+                            className="w-full px-4 py-2.5 bg-[#2a2a2a] border border-gray-700 rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:border-gray-600"
+                          />
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-4">
+                          <div>
+                            <label className="block text-xs font-medium text-gray-400 mb-2">
+                              {currentContent.account.occupation.graduationYear}
+                            </label>
+                            <div className="relative">
+                              <select className="appearance-none w-full px-4 py-2.5 pr-10 bg-[#2a2a2a] border border-gray-700 rounded-lg text-white text-sm focus:outline-none focus:border-gray-600 cursor-pointer">
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                                <option>2027</option>
+                                <option>2028</option>
+                                <option>2029</option>
+                                <option>2030</option>
+                              </select>
+                              <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                            </div>
+                          </div>
+
+                          <div>
+                            <label className="block text-xs font-medium text-gray-400 mb-2">
+                              {currentContent.account.occupation.month}
+                            </label>
+                            <div className="relative">
+                              <select className="appearance-none w-full px-4 py-2.5 pr-10 bg-[#2a2a2a] border border-gray-700 rounded-lg text-white text-sm focus:outline-none focus:border-gray-600 cursor-pointer">
+                                <option>{currentContent.months.january}</option>
+                                <option>{currentContent.months.february}</option>
+                                <option>{currentContent.months.march}</option>
+                                <option>{currentContent.months.april}</option>
+                                <option>{currentContent.months.may}</option>
+                                <option>{currentContent.months.june}</option>
+                                <option>{currentContent.months.july}</option>
+                                <option>{currentContent.months.august}</option>
+                                <option>{currentContent.months.september}</option>
+                                <option>{currentContent.months.october}</option>
+                                <option>{currentContent.months.november}</option>
+                                <option>{currentContent.months.december}</option>
+                              </select>
+                              <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="pt-2">
+                          <p className="text-xs text-gray-400">
+                            {currentContent.account.occupation.verificationNote}{' '}
+                            <button className="text-[#20808D] hover:underline">
+                              {currentContent.account.occupation.uploadNew}
+                            </button>{' '}
+                            {currentContent.account.occupation.uploadNewSuffix}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Preferences Tab */}
+            {activeTab === "preferences" && (
+              <div>
                 <h1 className="text-2xl font-semibold mb-12">{currentContent.preferences.title}</h1>
 
                 <div className="space-y-8">
                   {/* General Section */}
-                  <div className="space-y-0">
-                    {/* Theme */}
+                  <div className="space-y-0">{/* Theme */}
                     <div className="flex items-center justify-between py-4 border-b border-gray-800">
                       <div>
                         <h3 className="text-sm font-medium text-gray-300">{currentContent.preferences.theme.label}</h3>
@@ -1017,49 +1217,11 @@ export default function SettingsPage() {
                           <span className="text-sm flex-1 text-left">{getThemeDisplayText()}</span>
                           <ChevronDown className={`w-4 h-4 transition-transform ${showThemeDropdown ? 'rotate-180' : ''}`} />
                         </button>
-
-                        {/* Theme Dropdown */}
                         {showThemeDropdown && (
                           <div className="absolute right-0 top-full mt-2 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[120px] z-10">
-                            <button
-                              onClick={() => {
-                                setSelectedThemeType("dark");
-                                setShowThemeDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedThemeType === "dark"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              {currentContent.preferences.theme.dark}
-                            </button>
-                            <button
-                              onClick={() => {
-                                setSelectedThemeType("light");
-                                setShowThemeDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedThemeType === "light"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              {currentContent.preferences.theme.light}
-                            </button>
-                            <button
-                              onClick={() => {
-                                setSelectedThemeType("system");
-                                setShowThemeDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedThemeType === "system"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              {currentContent.preferences.theme.system}
-                            </button>
+                            <button onClick={() => { setSelectedThemeType("dark"); setShowThemeDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedThemeType === "dark" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.theme.dark}</button>
+                            <button onClick={() => { setSelectedThemeType("light"); setShowThemeDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedThemeType === "light" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.theme.light}</button>
+                            <button onClick={() => { setSelectedThemeType("system"); setShowThemeDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedThemeType === "system" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.theme.system}</button>
                           </div>
                         )}
                       </div>
@@ -1072,57 +1234,16 @@ export default function SettingsPage() {
                         <p className="text-xs text-gray-500 mt-1">{currentContent.preferences.language.description}</p>
                       </div>
                       <div className="relative language-selector">
-                        <button
-                          onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
-                          className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[140px]"
-                        >
+                        <button onClick={() => setShowLanguageDropdown(!showLanguageDropdown)} className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[140px]">
                           <Globe className="w-4 h-4" />
                           <span className="text-sm flex-1 text-left">{language}</span>
                           <ChevronDown className={`w-4 h-4 transition-transform ${showLanguageDropdown ? 'rotate-180' : ''}`} />
                         </button>
-
-                        {/* Language Dropdown */}
                         {showLanguageDropdown && (
                           <div className="absolute right-0 top-full mt-2 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[140px] z-10">
-                            <button
-                              onClick={() => {
-                                setLanguage("English");
-                                setShowLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                language === "English"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              English
-                            </button>
-                            <button
-                              onClick={() => {
-                                setLanguage("한국어");
-                                setShowLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                language === "한국어"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              한국어
-                            </button>
-                            <button
-                              onClick={() => {
-                                setLanguage("日本語");
-                                setShowLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                language === "日本語"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              日本語
-                            </button>
+                            <button onClick={() => { setLanguage("English"); setShowLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${language === "English" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>English</button>
+                            <button onClick={() => { setLanguage("한국어"); setShowLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${language === "한국어" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>한국어</button>
+                            <button onClick={() => { setLanguage("日本語"); setShowLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${language === "日本語" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>日本語</button>
                           </div>
                         )}
                       </div>
@@ -1135,69 +1256,16 @@ export default function SettingsPage() {
                         <p className="text-xs text-gray-500 mt-1">{currentContent.preferences.preferredLanguage.description}</p>
                       </div>
                       <div className="relative preferred-language-selector">
-                        <button
-                          onClick={() => setShowPreferredLanguageDropdown(!showPreferredLanguageDropdown)}
-                          className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[160px]"
-                        >
+                        <button onClick={() => setShowPreferredLanguageDropdown(!showPreferredLanguageDropdown)} className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[160px]">
                           <span className="text-sm flex-1 text-left">{getPreferredLanguageDisplayText()}</span>
                           <ChevronDown className={`w-4 h-4 transition-transform ${showPreferredLanguageDropdown ? 'rotate-180' : ''}`} />
                         </button>
-
-                        {/* Preferred Language Dropdown */}
                         {showPreferredLanguageDropdown && (
                           <div className="absolute right-0 top-full mt-2 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[160px] z-10">
-                            <button
-                              onClick={() => {
-                                setSelectedPreferredLanguageType("auto");
-                                setShowPreferredLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedPreferredLanguageType === "auto"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              {currentContent.preferences.preferredLanguage.autoDetect}
-                            </button>
-                            <button
-                              onClick={() => {
-                                setSelectedPreferredLanguageType("en");
-                                setShowPreferredLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedPreferredLanguageType === "en"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              English
-                            </button>
-                            <button
-                              onClick={() => {
-                                setSelectedPreferredLanguageType("ko");
-                                setShowPreferredLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedPreferredLanguageType === "ko"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              한국어
-                            </button>
-                            <button
-                              onClick={() => {
-                                setSelectedPreferredLanguageType("ja");
-                                setShowPreferredLanguageDropdown(false);
-                              }}
-                              className={`w-full text-left px-4 py-2 text-sm ${
-                                selectedPreferredLanguageType === "ja"
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:bg-gray-900"
-                              } transition-colors`}
-                            >
-                              日本語
-                            </button>
+                            <button onClick={() => { setSelectedPreferredLanguageType("auto"); setShowPreferredLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedPreferredLanguageType === "auto" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.preferredLanguage.autoDetect}</button>
+                            <button onClick={() => { setSelectedPreferredLanguageType("en"); setShowPreferredLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedPreferredLanguageType === "en" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>English</button>
+                            <button onClick={() => { setSelectedPreferredLanguageType("ko"); setShowPreferredLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedPreferredLanguageType === "ko" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>한국어</button>
+                            <button onClick={() => { setSelectedPreferredLanguageType("ja"); setShowPreferredLanguageDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedPreferredLanguageType === "ja" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>日本語</button>
                           </div>
                         )}
                       </div>
@@ -1231,7 +1299,6 @@ export default function SettingsPage() {
                   {/* Advanced Section */}
                   <div>
                     <h2 className="text-lg font-semibold mb-4">{currentContent.preferences.advanced.title}</h2>
-
                     <div className="space-y-0">
                       {/* Model */}
                       <div className="flex items-center justify-between py-4 border-b border-gray-800">
@@ -1249,56 +1316,15 @@ export default function SettingsPage() {
                           <h3 className="text-sm font-medium text-gray-300">{currentContent.preferences.advanced.imageGeneration}</h3>
                         </div>
                         <div className="relative image-gen-selector">
-                          <button
-                            onClick={() => setShowImageGenDropdown(!showImageGenDropdown)}
-                            className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[140px]"
-                          >
+                          <button onClick={() => setShowImageGenDropdown(!showImageGenDropdown)} className="flex items-center gap-2 px-4 py-2 bg-[#2a2a2a] border border-gray-700 rounded-lg text-gray-400 hover:text-white transition-colors min-w-[140px]">
                             <span className="text-sm flex-1 text-left">{getImageGenDisplayText()}</span>
                             <ChevronDown className={`w-4 h-4 transition-transform ${showImageGenDropdown ? 'rotate-180' : ''}`} />
                           </button>
-
-                          {/* Image Generation Dropdown */}
                           {showImageGenDropdown && (
                             <div className="absolute right-0 top-full mt-2 bg-[#2a2a2a] border border-gray-700 rounded-lg shadow-lg overflow-hidden min-w-[140px] z-10">
-                              <button
-                                onClick={() => {
-                                  setSelectedImageGenType("default");
-                                  setShowImageGenDropdown(false);
-                                }}
-                                className={`w-full text-left px-4 py-2 text-sm ${
-                                  selectedImageGenType === "default"
-                                    ? "bg-gray-800 text-white"
-                                    : "text-gray-400 hover:bg-gray-900"
-                                } transition-colors`}
-                              >
-                                {currentContent.preferences.advanced.default}
-                              </button>
-                              <button
-                                onClick={() => {
-                                  setSelectedImageGenType("dalle3");
-                                  setShowImageGenDropdown(false);
-                                }}
-                                className={`w-full text-left px-4 py-2 text-sm ${
-                                  selectedImageGenType === "dalle3"
-                                    ? "bg-gray-800 text-white"
-                                    : "text-gray-400 hover:bg-gray-900"
-                                } transition-colors`}
-                              >
-                                DALL-E 3
-                              </button>
-                              <button
-                                onClick={() => {
-                                  setSelectedImageGenType("stable");
-                                  setShowImageGenDropdown(false);
-                                }}
-                                className={`w-full text-left px-4 py-2 text-sm ${
-                                  selectedImageGenType === "stable"
-                                    ? "bg-gray-800 text-white"
-                                    : "text-gray-400 hover:bg-gray-900"
-                                } transition-colors`}
-                              >
-                                Stable Diffusion
-                              </button>
+                              <button onClick={() => { setSelectedImageGenType("default"); setShowImageGenDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedImageGenType === "default" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>{currentContent.preferences.advanced.default}</button>
+                              <button onClick={() => { setSelectedImageGenType("dalle3"); setShowImageGenDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedImageGenType === "dalle3" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>DALL-E 3</button>
+                              <button onClick={() => { setSelectedImageGenType("stable"); setShowImageGenDropdown(false); }} className={`w-full text-left px-4 py-2 text-sm ${selectedImageGenType === "stable" ? "bg-gray-800 text-white" : "text-gray-400 hover:bg-gray-900"} transition-colors`}>Stable Diffusion</button>
                             </div>
                           )}
                         </div>
@@ -1308,9 +1334,7 @@ export default function SettingsPage() {
                       <div className="flex items-center justify-between py-4 border-b border-gray-800">
                         <div className="flex-1 max-w-xl">
                           <h3 className="text-sm font-medium text-gray-300">{currentContent.preferences.advanced.aiDataUsage}</h3>
-                          <p className="text-xs text-gray-500 mt-1">
-                            {currentContent.preferences.advanced.aiDataDescription}
-                          </p>
+                          <p className="text-xs text-gray-500 mt-1">{currentContent.preferences.advanced.aiDataDescription}</p>
                         </div>
                         <label className="relative inline-flex items-center cursor-pointer ml-4">
                           <input type="checkbox" className="sr-only peer" defaultChecked />

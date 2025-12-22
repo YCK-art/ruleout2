@@ -145,7 +145,7 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
         console.log("Current user email:", user.email);
         console.log("Current user uid:", user.uid);
         try {
-          const userConversations = await getUserConversations(user.uid);
+          const userConversations = await getUserConversations(user.uid, 1000);
           console.log("Loaded conversations:", userConversations);
           console.log("Number of conversations:", userConversations.length);
 
@@ -391,7 +391,7 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
         {isOpen && (
           <>
             {/* Favorites Section */}
-            <div className="mb-6 animate-fadeIn">
+            <div className="mb-6 animate-fadeIn flex-shrink-0 max-h-[30vh] overflow-y-auto">
               <h3 className="text-sm text-gray-400 mb-2 px-1">{currentContent.favorites}</h3>
               <div className="space-y-0">
                 {favoriteConversations.length === 0 ? (
@@ -520,7 +520,7 @@ export default function Sidebar({ isOpen, onToggle, currentConversationId, curre
             </div>
 
             {/* Recent Chats Section */}
-            <div className="flex-1 overflow-y-auto mb-4 animate-fadeIn">
+            <div className="flex-1 overflow-y-auto mb-4 animate-fadeIn min-h-0">
               <h3 className="text-sm text-gray-400 mb-2 px-1">{currentContent.recentChats}</h3>
               <div className="space-y-0">
                 {user && conversations.filter(conv => !conv.isFavorite).length === 0 ? (

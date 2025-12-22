@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/ksinfosys/medical/backend/analyze_all_pdfs.py", line 5, in <module>
+    import fitz  # PyMuPDF
+    ^^^^^^^^^^^
+ModuleNotFoundError: No module named 'fitz'
