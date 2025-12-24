@@ -44,7 +44,7 @@ export default function CitationBanner({ citationIndices, references, messageInd
   const additionalCount = uniqueValidIndices.length > 1 ? ` + ${uniqueValidIndices.length - 1}` : '';
   console.log('CitationBanner - additionalCount:', additionalCount, 'for journal:', truncatedJournal);
 
-  // 드롭다운 위치 계산 (컨테이너 내부에 유지)
+  // 드롭다운 위치 계산 (채팅창 영역 내부에 유지, 사이드바 회피)
   const calculatePopoverPosition = () => {
     if (!bannerRef.current) return;
 
@@ -54,16 +54,25 @@ export default function CitationBanner({ citationIndices, references, messageInd
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
 
+    // 사이드바 너비 추정 (일반적으로 280-320px) + 여유 공간
+    const sidebarWidth = 320;
+    const safetyMargin = 40; // 사이드바와 드롭다운 사이 여유 공간
+    const chatAreaLeft = sidebarWidth + safetyMargin;
+
     // 수평 위치 계산 (왼쪽/중앙/오른쪽)
-    const spaceOnLeft = rect.left;
+    const spaceOnLeft = rect.left - chatAreaLeft; // 채팅창 영역 왼쪽 기준
     const spaceOnRight = viewportWidth - rect.right;
     const centerOffset = popoverWidth / 2;
 
-    if (spaceOnLeft < centerOffset) {
+    // 드롭다운이 사이드바 영역에 침범하지 않도록 체크
+    if (spaceOnLeft < centerOffset || rect.left < chatAreaLeft + centerOffset) {
+      // 왼쪽 공간이 부족하거나 사이드바와 겹칠 위험이 있으면 왼쪽 정렬
       setPopoverPosition('left');
     } else if (spaceOnRight < centerOffset) {
+      // 오른쪽 공간이 부족하면 오른쪽 정렬
       setPopoverPosition('right');
     } else {
+      // 충분한 공간이 있으면 중앙 정렬
       setPopoverPosition('center');
     }
 
@@ -177,10 +186,11 @@ export default function CitationBanner({ citationIndices, references, messageInd
           style={{
             backgroundColor: '#2a2a2a',
             ...getPopoverTransform(),
-            padding: '8px 12px',
+            padding: '10px 14px',
             maxHeight: '400px',
             overflowY: 'auto',
-            opacity: isAnimating ? 1 : 0
+            opacity: isAnimating ? 1 : 0,
+            border: '1px solid rgba(90, 200, 216, 0.3)'
           }}
         >
           {/* 참고문헌 개수 헤더 */}
@@ -189,7 +199,7 @@ export default function CitationBanner({ citationIndices, references, messageInd
           </div>
 
           {/* 모든 인용된 참고문헌 표시 */}
-          <div className="space-y-2">
+          <div className="space-y-3">
             {uniqueValidIndices.map((refIdx, idx) => {
               const ref = references[refIdx];
               console.log(`CitationBanner - Popover item ${idx}: refIdx=${refIdx}, ref exists:`, !!ref, ref ? `journal=${ref.journal}` : 'null');
@@ -202,13 +212,13 @@ export default function CitationBanner({ citationIndices, references, messageInd
                       href={ref.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm font-medium hover:underline cursor-pointer block mb-0"
-                      style={{ color: '#5AC8D8' }}
+                      className="font-medium hover:underline cursor-pointer block"
+                      style={{ color: '#5AC8D8', marginBottom: '2px', lineHeight: '1.2', fontSize: '13px' }}
                     >
                       <span className="text-white font-medium">{refIdx + 1}. </span>{ref.title}
                     </a>
                   ) : (
-                    <h4 className="text-sm font-medium mb-0" style={{ color: '#5AC8D8' }}>
+                    <h4 className="font-medium" style={{ color: '#5AC8D8', marginBottom: '2px', lineHeight: '1.2', fontSize: '13px' }}>
                       <span className="text-white font-medium">{refIdx + 1}. </span>{ref.title}
                     </h4>
                   )}
@@ -218,12 +228,12 @@ export default function CitationBanner({ citationIndices, references, messageInd
 
                   {/* 저자 */}
                   {ref.authors && ref.authors !== 'Unknown' && (
-                    <p className="text-gray-300 text-xs mb-0">{ref.authors}</p>
+                    <p className="text-gray-300 text-xs" style={{ margin: '0 0 1px 0', lineHeight: '1.2' }}>{ref.authors}</p>
                   )}
 
                   {/* 저널 및 연도 */}
                   {(ref.journal || ref.year) && (
-                    <p className="text-gray-400 text-xs mb-0 leading-tight">
+                    <p className="text-gray-400 text-xs" style={{ margin: '0 0 1px 0', lineHeight: '1.2' }}>
                       {ref.journal && ref.journal !== 'Unknown' && `${ref.journal}. `}
                       {ref.year && ref.year !== 'Unknown' && ref.year}
                     </p>
@@ -231,7 +241,7 @@ export default function CitationBanner({ citationIndices, references, messageInd
 
                   {/* DOI */}
                   {ref.doi && ref.doi !== 'Unknown' && (
-                    <p className="text-gray-400 text-xs mt-0 leading-tight">
+                    <p className="text-gray-400 text-xs" style={{ margin: '0', lineHeight: '1.2' }}>
                       doi: {ref.doi}
                     </p>
                   )}

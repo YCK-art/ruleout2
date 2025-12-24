@@ -71,6 +71,8 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   const [contextChunks, setContextChunks] = useState<any[]>([]);  // 🔥 누적 컨텍스트 저장
   const [hoveredUserMessage, setHoveredUserMessage] = useState<number | null>(null);
   const [copiedUserMessage, setCopiedUserMessage] = useState<number | null>(null);
+  const userScrolledUp = useRef(false); // 사용자가 스크롤을 위로 올렸는지 추적
+  const lastScrollHeight = useRef(0); // 이전 스크롤 높이 추적
 
   // User 상태 로깅
   useEffect(() => {
@@ -176,6 +178,15 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       const { scrollTop, scrollHeight, clientHeight } = container;
       const isNearBottom = scrollHeight - scrollTop - clientHeight < 100;
       setShowScrollToBottom(!isNearBottom);
+
+      // 사용자가 직접 스크롤을 위로 올렸는지 감지
+      if (!isNearBottom && scrollHeight > lastScrollHeight.current) {
+        userScrolledUp.current = true;
+      } else if (isNearBottom) {
+        userScrolledUp.current = false;
+      }
+
+      lastScrollHeight.current = scrollHeight;
     };
 
     container.addEventListener('scroll', handleScroll);
@@ -185,13 +196,22 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
   }, []);
 
   // 맨 아래로 스크롤하는 함수
-  const scrollToBottom = () => {
+  const scrollToBottom = (force = false) => {
+    // 사용자가 스크롤을 위로 올렸고, 강제 스크롤이 아니면 자동 스크롤 안함
+    if (userScrolledUp.current && !force) {
+      return;
+    }
+
     // DOM 업데이트 완료 후 스크롤 (setTimeout 사용)
     setTimeout(() => {
       const container = messagesContainerRef.current;
       if (container) {
-        // scrollIntoView 대신 scrollTop 직접 제어로 자동 스크롤 방지
-        container.scrollTop = container.scrollHeight;
+        // force가 true면 부드러운 스크롤, 아니면 즉시 스크롤
+        container.scrollTo({
+          top: container.scrollHeight,
+          behavior: force ? 'smooth' : 'auto'
+        });
+        lastScrollHeight.current = container.scrollHeight;
       }
     }, 100);
   };
@@ -489,6 +509,11 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                 console.log("🔗 Received remapped answer:", finalAnswer.substring(0, 200));
                 console.log("🔗 Received references immediately:", finalReferences);
 
+                // 참고문헌 추가 전 현재 스크롤 위치 저장
+                const container = messagesContainerRef.current;
+                const scrollBefore = container ? container.scrollTop : 0;
+                const heightBefore = container ? container.scrollHeight : 0;
+
                 // 참고문헌 즉시 UI 업데이트 (isStreaming = false로 설정하여 버튼과 참고문헌 표시)
                 setMessages((prev) => {
                   const newMessages = [...prev];
@@ -502,6 +527,17 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                   }
                   return newMessages;
                 });
+
+                // 참고문헌 렌더링 후 스크롤 위치 복원 (사용자가 읽던 위치 유지)
+                setTimeout(() => {
+                  if (container && userScrolledUp.current) {
+                    const heightAfter = container.scrollHeight;
+                    const heightDiff = heightAfter - heightBefore;
+                    // 참고문헌이 추가되어 높이가 증가한 만큼 스크롤 위치 유지
+                    container.scrollTop = scrollBefore;
+                    console.log(`📍 Scroll position preserved: ${scrollBefore}px (height diff: ${heightDiff}px)`);
+                  }
+                }, 50);
               } else if (data.status === "done") {
                 // 🚀 스트리밍 완료 (References는 이미 references_ready에서 처리됨)
                 setLoadingStatus(""); // 로딩 완료
@@ -729,6 +765,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
       return;
     }
 
+    // 후속 질문 클릭 시 스크롤 플래그 리셋 (자동 스크롤 허용)
+    userScrolledUp.current = false;
+
     // 모든 이전 메시지들의 followupQuestions를 제거 (가장 최신 답변만 표시)
     setMessages((prev) => {
       return prev.map((msg) => {
@@ -878,6 +917,9 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
 
     const question = input.trim();
     setInput("");
+
+    // 새 질문 제출 시 스크롤 플래그 리셋 (자동 스크롤 허용)
+    userScrolledUp.current = false;
 
     // 모든 이전 메시지들의 followupQuestions를 제거 (가장 최신 답변만 표시)
     setMessages((prev) => {
@@ -1412,14 +1454,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
                       isDark={true}
                     />
                   ) : (
-                    <div className="flex items-start md:space-x-3">
-                      <Image
-                        src="/image/clinical4-Photoroom.png"
-                        alt="Ruleout AI"
-                        width={32}
-                        height={32}
-                        className="hidden md:block rounded-full flex-shrink-0 mt-1"
-                      />
+                    <div className="flex items-start">
                       <div className="flex-1 min-w-0 w-full">
                         {/* 사고 과정 (Thinking Steps) - 스트리밍 시작되면 바로 표시 */}
                         {message.thinkingSteps && message.thinkingSteps.length > 0 && (
@@ -1706,7 +1741,7 @@ export default function ChatView({ initialQuestion, conversationId, onNewQuestio
           {showScrollToBottom && (
             <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
               <button
-                onClick={scrollToBottom}
+                onClick={() => scrollToBottom(true)}
                 className="flex items-center justify-center w-10 h-10 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-gray-700 rounded-full shadow-lg transition-all"
                 title="Scroll to bottom"
               >
